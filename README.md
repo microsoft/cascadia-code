@@ -47,7 +47,7 @@ In cases of extensive glyph modification, the font may need to be re-hinted enti
 
 ## Creating a Pull Request
 
-At the moment, we do not have a testing framework for verifying proper character creation. When creating a pull request, please heavily document the steps you took along with images displaying your changes.
+At the moment, we do not have a testing framework for verifying proper character creation. When creating a pull request, please heavily document the steps you took along with images displaying your changes. Additionally, please provide images of the updated character(s) at different screen sizes to validate proper hinting.
 
 ## Communicating with the Team
 
