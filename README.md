@@ -1,3 +1,7 @@
+![Cascadia Code](https://raw.githubusercontent.com/microsoft/cascadia-code/master/images/cascadia-code.png?token=ALRA5LQHRYFDKLKFT2HLEBS5REBEC)
+
+![Cascadia Code Characters](https://raw.githubusercontent.com/microsoft/cascadia-code/master/images/cascadia-code-characters.png?token=ALRA5LTD6BNNJGEVDOGFSTC5REBFI)
+
 # Welcome!
 
 This repository contains source code for Cascadia Code.
@@ -21,7 +25,7 @@ instructions provided by the bot. You will only need to do this once across all 
 
 ## Modifying the Font
 
-Making modifications to the Cascadia Code font requires use, and understanding, of Glyphs (Mac) as well as Microsoft VTT (Windows) and to a lesser extent FontTools. The source for the font is built in Glyphs, and can be modified to a user’s preference. However, please note that hinting built into the font is closely tied to the glyph order and point order—modifications to either will result in needing to manually correct any problems. 
+Making modifications to the Cascadia Code font requires use, and understanding, of [Glyphs](https://glyphsapp.com/) (Mac) as well as [Microsoft VTT](https://docs.microsoft.com/en-us/typography/tools/vtt/) (Windows) and to a lesser extent [FontTools](https://github.com/fonttools/fonttools). The source for the font is built in Glyphs, and can be modified to a user’s preference. However, please note that hinting built into the font is closely tied to the glyph order and point order—modifications to either will result in needing to manually correct any problems. 
 
 ### Modifying a single glyph
 
@@ -40,6 +44,10 @@ Making modifications to the Cascadia Code font requires use, and understanding, 
 5) Ship the production font. 
 
 In cases of extensive glyph modification, the font may need to be re-hinted entirely.
+
+## Creating a Pull Request
+
+At the moment, we do not have a testing framework for verifying proper character creation. When creating a pull request, please heavily document the steps you took along with images displaying your changes. Additionally, please provide images of the updated character(s) at different screen sizes to validate proper hinting.
 
 ## Communicating with the Team
 
