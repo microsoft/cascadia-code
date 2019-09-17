@@ -1,14 +1,22 @@
-![Cascadia Code](https://raw.githubusercontent.com/microsoft/cascadia-code/master/images/cascadia-code.png?token=ALRA5LQHRYFDKLKFT2HLEBS5REBEC)
+![Cascadia Code](/images/cascadia-code.png)
 
-![Cascadia Code Characters](https://raw.githubusercontent.com/microsoft/cascadia-code/master/images/cascadia-code-characters.png?token=ALRA5LTD6BNNJGEVDOGFSTC5REBFI)
+![Cascadia Code Characters](/images/cascadia-code-characters.png)
 
 # Welcome!
 
-This repository contains source code for Cascadia Code.
+This repository contains the source code of Cascadia Code.
 
 Other related repositories include:
 
 - [Windows Terminal](https://github.com/microsoft/terminal)
+
+# Installation
+
+**You can install the latest version of Cascadia Code from the releases page here:** https://github.com/microsoft/cascadia-code/releases
+
+Clicking on the Cascadia.ttf file will download it to your machine. From there, open the file. This will open a new window displaying the characters included in the font along with the font displayed at different sizes. This window should have an "Install" button that will install the font on your machine when clicked.
+
+👉 **Note:** If you have previously installed a version of Cascadia Code, installing a new version *should* overwrite the previous version. However, in order to ensure it is completely overwritten, it is recommended that you delete the previous version you had before installing another.
 
 # Contributing
 

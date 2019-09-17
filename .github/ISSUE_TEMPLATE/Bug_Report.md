@@ -31,8 +31,8 @@ Please use this form and describe your issue, concisely but precisely, with as m
 
 ```none
 Cascadia Code version number:
-Windows build number: [run `[Environment]::OSVersion` for powershell, or `ver` for cmd]
 Application (with version) used to display text:
+Screen resolution (i.e. 220dpi): 
 
 Any other software?
 ```
