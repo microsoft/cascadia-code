@@ -8,8 +8,8 @@
 ## PR Checklist
 * [ ] Closes #xxx
 * [ ] CLA signed. If not, go over [here](https://cla.opensource.microsoft.com/microsoft/Terminal) and sign the CLA
-* [ ] Tests passed
 * [ ] Requires FONTLOG.txt to be updated
+* [ ] Requires [/images/cascadia-code.png](/images/cascadia-code.png) and/or [/images/cascadia-code-characters.png](/images/cascadia-code-characters.png) to be updated
 * [ ] I've discussed this with core contributors already. If not checked, I'm ready to accept this work might be rejected in favor of a different grand plan. Issue number where discussion took place: #xxx
 
 <!-- Provide a more detailed description of the PR, other things fixed or any additional comments/features here -->

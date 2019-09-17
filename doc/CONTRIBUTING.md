@@ -30,14 +30,12 @@ When you hit "New Issue", select the type of issue closest to what you want to r
 
 **Complete the information requested in the issue template, providing as much information as possible**. The more information you provide, the more likely your issue/ask will be understood and implemented. Helpful information includes:
 
-* What version of Cascadia Code you have
-* What application you are using to view the font
-* What is your screen resolution
+* What version of Cascadia Code you have?
+* What application you are using to view the font?
+* What is your screen resolution?
 * Don't assume we're experts in setting up YOUR environment. Teach us to help you!
 * **We LOVE detailed repro steps!** What steps do we need to take to reproduce the issue? Assume we love to read repro steps. As much detail as you can stand is probably _barely_ enough detail for us!
-* If you're reporting a particular character/glyph not rendering correctly, the specific Unicode codepoint would be MOST welcome (e.g. U+1F4AF, U+4382)
-* Prefer error message text where possible or screenshots of errors if text cannot be captured
-* We MUCH prefer text command-line script than screenshots of command-line script.
+* Please try to provide the exact Unicode codepoint for the glyphs you're talking about. (e.g. U+1F4AF, U+4382)
 * **If you intend to implement the fix/feature yourself then say so!** If you do not indicate otherwise we will assume that the issue is our to solve, or may label the issue as `Help-Wanted`.
 
 ### DO NOT post "+1" comments
@@ -102,4 +100,4 @@ Once your code has been reviewed and approved by the requisite number of team me
 
 ## Thank you
 
-Thank you in advance for your contribution! Now, [what's next on the list](https://github.com/microsoft/terminal/labels/Help-Wanted)? 😜
+Thank you in advance for your contribution! Now, [what's next on the list](https://github.com/microsoft/cascadia-code/labels/Help-Wanted)? 😜
