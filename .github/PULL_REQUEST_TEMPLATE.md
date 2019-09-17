@@ -9,8 +9,7 @@
 * [ ] Closes #xxx
 * [ ] CLA signed. If not, go over [here](https://cla.opensource.microsoft.com/microsoft/Terminal) and sign the CLA
 * [ ] Tests passed
-* [ ] Updated FONTLOG.txt
-* [ ] Requires documentation to be updated
+* [ ] Requires FONTLOG.txt to be updated
 * [ ] I've discussed this with core contributors already. If not checked, I'm ready to accept this work might be rejected in favor of a different grand plan. Issue number where discussion took place: #xxx
 
 <!-- Provide a more detailed description of the PR, other things fixed or any additional comments/features here -->
