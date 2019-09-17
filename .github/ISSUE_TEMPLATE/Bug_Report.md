@@ -32,6 +32,7 @@ Please use this form and describe your issue, concisely but precisely, with as m
 ```none
 Cascadia Code version number:
 Application (with version) used to display text:
+OS platform and version:
 Screen resolution (i.e. 220dpi): 
 
 Any other software?
