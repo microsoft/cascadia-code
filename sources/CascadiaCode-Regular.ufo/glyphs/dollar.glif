@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dollar" format="2">
+  <advance width="1200"/>
+  <unicode hex="0024"/>
+  <outline>
+    <contour>
+      <point x="544" y="-334" type="line"/>
+      <point x="682" y="-334" type="line"/>
+      <point x="682" y="1720" type="line"/>
+      <point x="544" y="1720" type="line"/>
+    </contour>
+    <component base="S"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=S</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=S</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/15 16:18:04</string>
+    </dict>
+  </lib>
+</glyph>

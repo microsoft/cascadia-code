@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign_underscore_parenleft.liga" format="2">
+  <outline>
+    <contour>
+      <point x="5550" y="-30" type="line" smooth="yes"/>
+      <point x="5240" y="-30"/>
+      <point x="5066" y="242"/>
+      <point x="5066" y="716" type="curve" smooth="yes"/>
+      <point x="5066" y="1182"/>
+      <point x="5240" y="1450"/>
+      <point x="5550" y="1450" type="curve" smooth="yes"/>
+      <point x="5558" y="1450" type="line"/>
+      <point x="5578" y="1640" type="line"/>
+      <point x="5530" y="1640" type="line" smooth="yes"/>
+      <point x="5096" y="1640"/>
+      <point x="4846" y="1304"/>
+      <point x="4846" y="716" type="curve" smooth="yes"/>
+      <point x="4846" y="272"/>
+      <point x="5000" y="20"/>
+      <point x="5270" y="20" type="curve"/>
+      <point x="5270" y="-46" type="line"/>
+      <point x="5572" y="-174" type="line"/>
+      <point x="5558" y="-30" type="line"/>
+    </contour>
+    <component base="numbersign" xOffset="2950"/>
+    <component base="underscore" xOffset="2950"/>
+    <component base="parenleft" xOffset="2950"/>
+  </outline>
+</glyph>
