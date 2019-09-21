@@ -18,6 +18,13 @@ Clicking on the Cascadia.ttf file will download it to your machine. From there, 
 
 👉 **Note:** If you have previously installed a version of Cascadia Code, installing a new version *should* overwrite the previous version. However, in order to ensure it is completely overwritten, it is recommended that you delete the previous version you had before installing another.
 
+**If you use macOS,you can install it by [Homebrew](https://brew.sh/)**
+
+```
+brew tap homebrew/cask-fonts 
+brew brew cask install font-cascadia
+```
+
 # Contributing
 
 This project welcomes contributions and suggestions. Most contributions require you to
