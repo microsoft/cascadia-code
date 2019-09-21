@@ -1,7 +1,7 @@
 {
 .appVersion = "1260";
 DisplayStrings = (
-"S$/less_dollar.liga"
+"/braceleft_bar.liga/bracketleft_bar.liga/bar_bracketright.liga"
 );
 classes = (
 {
@@ -10126,7 +10126,7 @@ width = 1200;
 {
 color = 3;
 glyphname = bracketleft_bar.liga;
-lastChange = "2019-09-20 20:19:22 +0000";
+lastChange = "2019-09-21 16:39:22 +0000";
 layers = (
 {
 background = {
@@ -10137,6 +10137,12 @@ transform = "{1, 0, 0, 1, 2566, 0}";
 }
 );
 };
+components = (
+{
+name = bar;
+transform = "{1, 0, 0, 1, -46, 0}";
+}
+);
 layerId = "BBAB2DB2-7554-4FB8-925D-17003E4845F8";
 paths = (
 {
@@ -10155,15 +10161,6 @@ nodes = (
 "188 -24 LINE",
 "-478 -24 LINE",
 "-478 -200 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"654 -200 LINE",
-"654 1620 LINE",
-"454 1620 LINE",
-"454 -200 LINE"
 );
 },
 {
@@ -13970,7 +13967,7 @@ width = 1200;
 {
 color = 3;
 glyphname = bar_bracketright.liga;
-lastChange = "2019-09-20 20:19:22 +0000";
+lastChange = "2019-09-21 16:39:47 +0000";
 layers = (
 {
 background = {
@@ -14004,6 +14001,12 @@ nodes = (
 }
 );
 };
+components = (
+{
+name = bar;
+transform = "{1, 0, 0, 1, -1154, 0}";
+}
+);
 layerId = "BBAB2DB2-7554-4FB8-925D-17003E4845F8";
 paths = (
 {
@@ -14022,15 +14025,6 @@ nodes = (
 "472 -24 LINE",
 "-114 -24 LINE",
 "-114 -200 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-454 -200 LINE",
-"-454 1620 LINE",
-"-654 1620 LINE",
-"-654 -200 LINE"
 );
 },
 {
