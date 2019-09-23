@@ -22,7 +22,7 @@ Clicking on the Cascadia.ttf file will download it to your machine. From there, 
 
 ```
 brew tap homebrew/cask-fonts 
-brew brew cask install font-cascadia
+brew cask install font-cascadia
 ```
 
 # Contributing
