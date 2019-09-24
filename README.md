@@ -73,6 +73,18 @@ Michael Niksa, Senior Developer: [@michaelniksa](https://twitter.com/michaelniks
 
 Rich Turner, Program Manager: [@richturn_ms](https://twitter.com/richturn_ms)
 
+# Installing Cascadia Code in VS Code
+
+1. Go to `File > Preferences` or hit `Ctrl + ,` in VS Code.
+2. Enter "Font Face" in search field.
+3. Enter following in Font Face option: `'Cascadia Code', Consolas, 'Courier New', monospace`.
+4. Enable `Font Ligatures` option available just below 'Font Face'.
+5. Press `Enter` and you're good to go.
+
+> Note: If you've installed font and it does not get applied in VS Code, try restarting VS Code.
+
+![VS Code Settings](images/vscode-ligature-settings.png "VS Code Ligatures Setting")
+
 # Code of Conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
