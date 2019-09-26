@@ -157,41 +157,6 @@
     </array>
     <key>italicAngle</key>
     <integer>0</integer>
-    <key>note</key>
-    <string></string>
-    <key>openTypeGaspRangeRecords</key>
-    <array>
-      <dict>
-        <key>rangeGaspBehavior</key>
-        <array>
-          <integer>1</integer>
-          <integer>3</integer>
-        </array>
-        <key>rangeMaxPPEM</key>
-        <integer>8</integer>
-      </dict>
-      <dict>
-        <key>rangeGaspBehavior</key>
-        <array>
-          <integer>0</integer>
-          <integer>1</integer>
-          <integer>2</integer>
-        </array>
-        <key>rangeMaxPPEM</key>
-        <integer>20</integer>
-      </dict>
-      <dict>
-        <key>rangeGaspBehavior</key>
-        <array>
-          <integer>0</integer>
-          <integer>1</integer>
-          <integer>2</integer>
-          <integer>3</integer>
-        </array>
-        <key>rangeMaxPPEM</key>
-        <integer>65535</integer>
-      </dict>
-    </array>
     <key>openTypeHeadCreated</key>
     <string>2019/04/07 17:18:29</string>
     <key>openTypeNameDesigner</key>
@@ -275,7 +240,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <key>versionMajor</key>
     <integer>1909</integer>
     <key>versionMinor</key>
-    <integer>160</integer>
+    <integer>210</integer>
     <key>xHeight</key>
     <integer>1060</integer>
   </dict>

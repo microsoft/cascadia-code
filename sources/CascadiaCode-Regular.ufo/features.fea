@@ -1030,6 +1030,20 @@ lookup lowercase_hyphen {
   sub @Lowercase \hyphen' by \hyphen.lc;
 } lowercase_hyphen;
 
+lookup lowercase_endash {
+  ignore sub @Tall \endash' @Lowercase;
+  ignore sub @Lowercase \endash' @Tall;  
+  sub \endash' @Lowercase by \endash.lc;
+  sub @Lowercase \endash' by \endash.lc;
+} lowercase_endash;
+
+lookup lowercase_emdash {
+  ignore sub @Tall \emdash' @Lowercase;
+  ignore sub @Lowercase \emdash' @Tall;  
+  sub \emdash' @Lowercase by \emdash.lc;
+  sub @Lowercase \emdash' by \emdash.lc;
+} lowercase_emdash;
+
 lookup lowercase_plus {
   ignore sub @Tall \plus' @Lowercase;
   ignore sub @Lowercase \plus' @Tall;
@@ -1054,3 +1068,9 @@ lookup uppercase_colon {
 sub \zero \x' @HexDigit by \x.multiply;
 sub @Digit \x' @Digit by \x.multiply;
 } calt;
+
+feature ss01 {
+# automatic
+sub zero by zero.ss01;
+
+} ss01;

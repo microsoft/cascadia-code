@@ -15,22 +15,15 @@
       <point x="-114" y="-24" type="line"/>
     </contour>
     <contour>
-      <point x="-654" y="-200" type="line"/>
-      <point x="-454" y="-200" type="line"/>
-      <point x="-454" y="1620" type="line"/>
-      <point x="-654" y="1620" type="line"/>
-    </contour>
-    <contour>
       <point x="-114" y="1444" type="line"/>
       <point x="472" y="1444" type="line"/>
       <point x="472" y="1620" type="line"/>
       <point x="-114" y="1620" type="line"/>
     </contour>
+    <component base="bar" xOffset="-1154"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/08/30 04:58:31</string>
       <key>public.markColor</key>
       <string>0.97,1,0,1</string>
     </dict>

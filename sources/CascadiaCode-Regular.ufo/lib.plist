@@ -3,10 +3,10 @@
 <plist version="1.0">
   <dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1264</string>
+    <string>1260</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <array>
-      <string>0&lt;/greater_equal.liga 0/less_equal.liga</string>
+      <string>y</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
@@ -55,8 +55,6 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <string>BBAB2DB2-7554-4FB8-925D-17003E4845F8</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>0</integer>
-    <key>com.schriftgestaltung.glyphOrder</key>
-    <false/>
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
@@ -133,12 +131,14 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>seven</string>
       <string>eight</string>
       <string>nine</string>
+      <string>zero.ss01</string>
       <string>period</string>
       <string>comma</string>
       <string>colon</string>
       <string>semicolon</string>
       <string>exclam</string>
       <string>question</string>
+      <string>periodcentered</string>
       <string>asterisk</string>
       <string>numbersign</string>
       <string>slash</string>
@@ -152,8 +152,12 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>bracketleft</string>
       <string>bracketright</string>
       <string>hyphen</string>
+      <string>endash</string>
+      <string>emdash</string>
       <string>underscore</string>
       <string>hyphen.lc</string>
+      <string>endash.lc</string>
+      <string>emdash.lc</string>
       <string>quotedblleft</string>
       <string>quotedblright</string>
       <string>quoteleft</string>

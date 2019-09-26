@@ -30,9 +30,9 @@
       <point x="348" y="916"/>
       <point x="298" y="968"/>
       <point x="298" y="1060" type="curve" smooth="yes"/>
-      <point x="298" y="1184"/>
-      <point x="384" y="1256"/>
-      <point x="534" y="1256" type="curve"/>
+      <point x="298" y="1178"/>
+      <point x="384" y="1246"/>
+      <point x="534" y="1246" type="curve"/>
       <point x="534" y="1440" type="line"/>
       <point x="248" y="1440"/>
       <point x="84" y="1298"/>
@@ -44,25 +44,23 @@
       <point x="714" y="510"/>
       <point x="760" y="450"/>
       <point x="760" y="362" type="curve" smooth="yes"/>
-      <point x="760" y="222"/>
-      <point x="670" y="154"/>
-      <point x="484" y="154" type="curve"/>
+      <point x="760" y="229"/>
+      <point x="670" y="164"/>
+      <point x="484" y="164" type="curve"/>
     </contour>
     <contour>
-      <point x="744" y="1102" type="curve"/>
-      <point x="940" y="1102" type="line"/>
-      <point x="940" y="1316"/>
-      <point x="792" y="1440"/>
       <point x="534" y="1440" type="curve"/>
-      <point x="534" y="1256" type="line"/>
-      <point x="668" y="1256"/>
-      <point x="744" y="1200"/>
+      <point x="535" y="1246" type="line"/>
+      <point x="635" y="1246"/>
+      <point x="725" y="1191"/>
+      <point x="781" y="1094" type="curve"/>
+      <point x="949" y="1221" type="line"/>
+      <point x="882" y="1360"/>
+      <point x="730" y="1440"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/08/30 04:58:31</string>
       <key>public.markColor</key>
       <string>0.97,1,0,1</string>
     </dict>

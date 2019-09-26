@@ -6,10 +6,10 @@
     <glyphProgram name=".notdef">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 2, 18, 114
-CALL[], 2, 7, 106
-CALL[], 3, 16, 114
+MDAP[R], 2
+MDAP[R], 3
 CALL[], 3, 6, 106
+CALL[], 2, 7, 106
 IUP[Y]
 IUP[X]
 
@@ -18,15 +18,16 @@ IUP[X]
     <glyphProgram name="A">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 2, 8
-SHP[1], 7
-MIAP[R], 4, 2
-SRP2[], 7
+CALL[], 4, 8, 114
+SHP[2], 7
+CALL[], 5, 2, 114
+SRP2[], 4
 IP[], 8
 MDAP[R], 8
-CALL[], 8, 0, 106
-SRP1[], 2
-SRP2[], 4
+CALL[], 8, 2, 106
+SRP1[], 7
+SRP2[], 5
+IP[], 11
 IP[], 10
 IUP[Y]
 IUP[X]
@@ -54,13 +55,12 @@ IUP[X]
     <glyphProgram name="C">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 5, 3, 114
-CALL[], 5, 11, 106
-CALL[], 23, 9, 114
-CALL[], 23, 18, 106
-SRP1[], 11
-IP[], 9
-MDAP[R], 9
+CALL[], 14, 9, 114
+CALL[], 14, 9, 106
+CALL[], 20, 3, 114
+SHP[2], 23
+CALL[], 20, 2, 106
+SHP[2], 24
 IUP[Y]
 IUP[X]
 
@@ -70,9 +70,9 @@ IUP[X]
 /* VTT 6.31 compiler */
 SVTCA[Y]
 CALL[], 6, 8, 114
-CALL[], 6, 15, 106
 CALL[], 7, 2, 114
 CALL[], 7, 14, 106
+CALL[], 6, 15, 106
 IUP[Y]
 IUP[X]
 
@@ -81,14 +81,14 @@ IUP[X]
     <glyphProgram name="E">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 8, 8, 114
-CALL[], 8, 5, 106
-CALL[], 9, 2, 114
-CALL[], 9, 0, 106
-SRP2[], 8
-IP[], 1
-MDAP[R], 1
-CALL[], 1, 4, 106
+CALL[], 9, 8, 114
+CALL[], 9, 6, 106
+CALL[], 10, 2, 114
+CALL[], 10, 1, 106
+SRP2[], 9
+IP[], 2
+MDAP[R], 2
+CALL[], 2, 5, 106
 IUP[Y]
 IUP[X]
 
@@ -97,13 +97,13 @@ IUP[X]
     <glyphProgram name="F">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 6, 8, 114
-CALL[], 7, 2, 114
-CALL[], 7, 0, 106
-SRP2[], 6
-IP[], 1
-MDAP[R], 1
-CALL[], 1, 4, 106
+CALL[], 7, 8, 114
+CALL[], 8, 2, 114
+CALL[], 8, 1, 106
+SRP2[], 7
+IP[], 2
+MDAP[R], 2
+CALL[], 2, 5, 106
 IUP[Y]
 IUP[X]
 
@@ -113,15 +113,15 @@ IUP[X]
 /* VTT 6.31 compiler */
 SVTCA[Y]
 CALL[], 3, 9, 114
-CALL[], 3, 22, 106
+CALL[], 3, 23, 106
 CALL[], 9, 3, 114
-CALL[], 9, 15, 106
+SHP[2], 12
+CALL[], 9, 16, 106
+SHP[2], 13
 SRP2[], 3
-IP[], 12
-IP[], 26
-MDAP[R], 12
-MDAP[R], 26
-CALL[], 26, 27, 106
+IP[], 28
+MDAP[R], 28
+CALL[], 28, 27, 106
 IUP[Y]
 IUP[X]
 
@@ -130,14 +130,13 @@ IUP[X]
     <glyphProgram name="H">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 6, 8
-SHP[1], 1
-MIAP[R], 7, 2
-SHP[1], 0
-SRP2[], 6
-IP[], 9
-MDAP[R], 9
-CALL[], 9, 4, 106
+CALL[], 7, 8, 114
+SHP[2], 3
+CALL[], 8, 2, 114
+SHP[2], 1
+SRP2[], 7
+IP[], 10
+CALL[], 10, 5, 106
 IUP[Y]
 IUP[X]
 
@@ -146,12 +145,12 @@ IUP[X]
     <glyphProgram name="I">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 4, 8, 114
-CALL[], 4, 5, 106
+CALL[], 5, 8, 114
+CALL[], 10, 2, 114
+CALL[], 10, 9, 106
+SHP[2], 1
+CALL[], 5, 6, 106
 SHP[2], 2
-CALL[], 9, 2, 114
-CALL[], 9, 8, 106
-SHP[2], 11
 IUP[Y]
 IUP[X]
 
@@ -160,11 +159,11 @@ IUP[X]
     <glyphProgram name="J">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 4, 9, 114
+CALL[], 4, 8, 114
 CALL[], 4, 12, 106
 CALL[], 18, 2, 114
 CALL[], 18, 17, 106
-SRP1[], 12
+SRP2[], 4
 IP[], 9
 MDAP[R], 9
 IUP[Y]
@@ -192,9 +191,9 @@ IUP[X]
     <glyphProgram name="L">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 2, 8, 114
-CALL[], 2, 5, 106
-CALL[], 3, 2, 114
+CALL[], 3, 8, 114
+CALL[], 4, 2, 114
+CALL[], 3, 0, 106
 IUP[Y]
 IUP[X]
 
@@ -241,9 +240,9 @@ IUP[X]
     <glyphProgram name="O">
 /* VTT 6.31 compiler */
 SVTCA[Y]
+CALL[], 7, 9, 114
 CALL[], 3, 3, 114
 CALL[], 3, 11, 106
-CALL[], 7, 9, 114
 CALL[], 7, 15, 106
 IUP[Y]
 IUP[X]
@@ -304,12 +303,12 @@ CALL[], 5, 9, 114
 CALL[], 5, 10, 106
 CALL[], 23, 3, 114
 CALL[], 23, 31, 106
+SHP[2], 28
 SRP1[], 10
-IP[], 28
-MDAP[R], 28
-SRP2[], 10
 SLOOP[], 8
 IP[], 13, 2, 15, 16, 38, 37, 19, 34
+MIAP[R], 24, 3
+SHP[1], 27
 IUP[Y]
 IUP[X]
 
@@ -318,10 +317,10 @@ IUP[X]
     <glyphProgram name="T">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 3, 8, 114
-CALL[], 6, 2, 114
-CALL[], 6, 5, 106
-SHP[2], 1
+CALL[], 4, 8, 114
+CALL[], 7, 2, 114
+CALL[], 7, 6, 106
+SHP[2], 2
 IUP[Y]
 IUP[X]
 
@@ -345,7 +344,7 @@ IUP[X]
 SVTCA[Y]
 CALL[], 0, 2, 114
 SHP[2], 5
-CALL[], 7, 9, 114
+CALL[], 7, 8, 114
 SRP2[], 0
 IP[], 2
 IUP[Y]
@@ -356,7 +355,7 @@ IUP[X]
     <glyphProgram name="W">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 7, 9, 114
+CALL[], 7, 8, 114
 SHP[2], 3
 CALL[], 8, 2, 114
 SHP[2], 1
@@ -391,11 +390,11 @@ IUP[X]
 /* VTT 6.31 compiler */
 SVTCA[Y]
 CALL[], 2, 8, 114
-CALL[], 4, 2, 114
-SHP[2], 8
-SRP2[], 2
-SLOOP[], 3
-IP[], 3, 0, 6
+CALL[], 5, 2, 114
+SHP[2], 9
+SRP1[], 2
+SLOOP[], 4
+IP[], 8, 7, 1, 4
 IUP[Y]
 IUP[X]
 
@@ -404,12 +403,12 @@ IUP[X]
     <glyphProgram name="Z">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 1, 8, 114
-CALL[], 1, 0, 106
-SHP[2], 3
-CALL[], 6, 2, 114
-CALL[], 6, 5, 106
-SHP[2], 8
+CALL[], 3, 8, 114
+CALL[], 3, 0, 106
+SHP[2], 4
+CALL[], 7, 2, 114
+CALL[], 7, 6, 106
+SHP[2], 9
 IUP[Y]
 IUP[X]
 
@@ -421,19 +420,19 @@ SVTCA[Y]
 CALL[], 1, 10, 114
 SHP[2], 2
 CALL[], 1, 0, 106
-SHP[2], 26
+SHP[2], 25
 CALL[], 7, 11, 114
 SHP[2], 3
-CALL[], 7, 40, 106
-SHP[2], 30
-CALL[], 21, 7, 114
+CALL[], 7, 39, 106
+SHP[2], 29
+CALL[], 21, 6, 114
 CALL[], 21, 20, 106
-SRP1[], 7
+SRP2[], 7
 IP[], 13
 SRP1[], 13
 SHP[1], 15
-CALL[], 13, 34, 106
-SHP[2], 31
+CALL[], 13, 33, 106
+SHP[2], 30
 IUP[Y]
 IUP[X]
 
@@ -546,11 +545,11 @@ SVTCA[Y]
 MDAP[R], 25
 CALL[], 25, 53, 105
 SLOOP[], 4
-IP[], 49, 36, 8, 22
-CALL[], 49, 2, 106
-CALL[], 36, 16, 106
+IP[], 8, 2, 22, 16
 CALL[], 8, 43, 106
+CALL[], 2, 49, 106
 CALL[], 22, 30, 106
+CALL[], 16, 36, 106
 IUP[Y]
 IUP[X]
 
@@ -672,46 +671,46 @@ IUP[X]
 
     <glyphProgram name="asterisk.lc">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[R], 72, 2, -140
+OFFSET[R], 74, 2, -140
 
     </glyphProgram>
 
     <glyphProgram name="asterisk_asterisk.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 72, -1138, 0
-OFFSET[r], 72, -58, 0
+OFFSET[r], 74, -1138, 0
+OFFSET[r], 74, -58, 0
 
     </glyphProgram>
 
     <glyphProgram name="asterisk_asterisk_asterisk.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 72, -58, 0
-OFFSET[r], 72, -2338, 0
-OFFSET[R], 72, -1190, 300
+OFFSET[r], 74, -58, 0
+OFFSET[r], 74, -2338, 0
+OFFSET[R], 74, -1190, 300
 
     </glyphProgram>
 
     <glyphProgram name="asterisk_greater.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 72, -1138, 0
-OFFSET[r], 158, -98, 0
+OFFSET[r], 74, -1138, 0
+OFFSET[r], 164, -98, 0
 
     </glyphProgram>
 
     <glyphProgram name="asterisk_slash.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 72, -1138, 0
-OFFSET[r], 74, -58, 0
+OFFSET[r], 74, -1138, 0
+OFFSET[r], 76, -58, 0
 
     </glyphProgram>
 
@@ -785,8 +784,8 @@ IUP[X]
     <glyphProgram name="bar">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 0, 133
-MDRP[m&gt;RBl], 2
+CALL[], 0, 133, 114
+CALL[], 0, 2, 106
 IUP[Y]
 IUP[X]
 
@@ -794,19 +793,19 @@ IUP[X]
 
     <glyphProgram name="bar_bar.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 166, -80, 0
-OFFSET[r], 166, -1120, 0
+OFFSET[r], 172, -80, 0
+OFFSET[r], 172, -1120, 0
 
     </glyphProgram>
 
     <glyphProgram name="bar_bar_bar_greater.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 1, 133
-SHP[1], 5
-MDRP[m&gt;RBl], 3
+CALL[], 1, 133, 114
+SHP[2], 5
+CALL[], 1, 3, 106
 SHP[2], 4
 CALL[], 9, 135, 114
 CALL[], 9, 8, 106
@@ -823,9 +822,9 @@ IUP[X]
     <glyphProgram name="bar_bar_equal.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 1, 133
-SHP[1], 12
-MDRP[m&gt;RBl], 3
+CALL[], 1, 133, 114
+SHP[2], 12
+CALL[], 1, 3, 106
 SHP[2], 11
 MIAP[R], 14, 132
 CALL[], 14, 5, 106
@@ -839,7 +838,7 @@ IUP[X]
     <glyphProgram name="bar_bar_greater.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 1, 133
+CALL[], 1, 133, 114
 CALL[], 1, 3, 106
 CALL[], 5, 135, 114
 CALL[], 5, 4, 106
@@ -856,13 +855,17 @@ IUP[X]
     <glyphProgram name="bar_braceright.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 1, 133
-MDRP[m&gt;RBl], 0
-SLOOP[], 3
-IP[], 19, 7, 52
-CALL[], 7, 8, 106
-IP[], 35
-IP[], 36
+CALL[], 2, 133, 114
+CALL[], 2, 0, 106
+CALL[], 38, 138, 114
+CALL[], 38, 32, 106
+CALL[], 38, 61, 105
+CALL[], 61, 8, 106
+SRP2[], 38
+IP[], 49
+CALL[], 49, 50, 106
+IP[], 20
+IP[], 21
 IUP[Y]
 IUP[X]
 
@@ -871,13 +874,12 @@ IUP[X]
     <glyphProgram name="bar_bracketright.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 1, 133
-MDRP[m&gt;RBl], 0
-SHP[2], 6
-CALL[], 6, 7, 106
-SRP1[], 1
-SHP[1], 11
+CALL[], 1, 133, 114
+CALL[], 1, 3, 106
+CALL[], 11, 137, 114
 CALL[], 11, 10, 106
+CALL[], 11, 5, 105
+CALL[], 5, 8, 106
 IUP[Y]
 IUP[X]
 
@@ -886,11 +888,11 @@ IUP[X]
     <glyphProgram name="bar_equal.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 8, 133
+CALL[], 8, 133, 114
 CALL[], 8, 6, 106
 MIAP[R], 10, 132
 CALL[], 10, 1, 106
-MDRP[m&lt;RWh], 2
+CALL[], 1, 2, 105
 CALL[], 2, 5, 106
 IUP[Y]
 IUP[X]
@@ -915,10 +917,10 @@ IUP[X]
     <glyphProgram name="bar_hyphen.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 0, 131
+CALL[], 0, 131, 114
 CALL[], 0, 1, 106
-MIAP[R], 5, 133
-MDRP[m&gt;RBl], 4
+CALL[], 5, 133, 114
+CALL[], 5, 4, 106
 IUP[Y]
 IUP[X]
 
@@ -927,16 +929,16 @@ IUP[X]
     <glyphProgram name="braceleft">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MDAP[R], 21
-CALL[], 21, 26, 106
-CALL[], 21, 54, 105
+CALL[], 20, 138, 114
+CALL[], 20, 25, 106
+CALL[], 20, 54, 105
 CALL[], 54, 49, 106
-SRP2[], 21
-IP[], 11
-MDAP[R], 11
-CALL[], 11, 10, 106
-IP[], 38
+SRP2[], 20
+IP[], 10
+MDAP[R], 10
+CALL[], 10, 9, 106
 IP[], 37
+IP[], 36
 IUP[Y]
 IUP[X]
 
@@ -945,15 +947,18 @@ IUP[X]
     <glyphProgram name="braceleft_bar.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 0, 133
+CALL[], 0, 133, 114
 CALL[], 0, 3, 106
-SLOOP[], 3
-IP[], 31, 43, 54
-CALL[], 31, 26, 106
-CALL[], 43, 42, 106
+CALL[], 26, 138, 114
+CALL[], 26, 32, 106
+CALL[], 26, 61, 105
+CALL[], 61, 56, 106
+SRP2[], 26
 IP[], 15
-IP[], 14
-CALL[], 54, 59, 106
+MDAP[R], 15
+CALL[], 15, 14, 106
+IP[], 44
+IP[], 43
 IUP[Y]
 IUP[X]
 
@@ -962,16 +967,16 @@ IUP[X]
     <glyphProgram name="braceright">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MDAP[R], 32
-CALL[], 32, 27, 106
-CALL[], 32, 54, 105
+CALL[], 33, 138, 114
+CALL[], 33, 28, 106
+CALL[], 33, 54, 105
 CALL[], 54, 4, 106
-SRP2[], 32
-IP[], 42
-MDAP[R], 42
-CALL[], 42, 43, 106
-IP[], 15
+SRP2[], 33
+IP[], 43
+MDAP[R], 43
+CALL[], 43, 44, 106
 IP[], 16
+IP[], 17
 IUP[Y]
 IUP[X]
 
@@ -980,40 +985,41 @@ IUP[X]
     <glyphProgram name="braceright_numbersign.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 10, 18, 114
-SHP[2], 6
-CALL[], 10, 17, 105
-CALL[], 17, 22, 106
+MIAP[R], 10, 18
+SHP[1], 6
+CALL[], 50, 138, 114
+CALL[], 50, 45, 106
+CALL[], 50, 16, 105
+CALL[], 16, 21, 106
 CALL[], 56, 16, 114
 SHP[2], 60
-CALL[], 56, 50, 105
-CALL[], 50, 45, 106
-SRP1[], 10
-SRP2[], 56
-IP[], 65
-IP[], 66
+SRP2[], 10
+SLOOP[], 3
+IP[], 65, 72, 66
 MDAP[R], 65
+MDAP[R], 72
 MDAP[R], 66
-SRP2[], 65
+SRP2[], 72
 IP[], 71
 CALL[], 65, 11, 106
-SHP[2], 7
-SRP1[], 7
+SHP[2], 8
+SRP1[], 8
 SHP[1], 4
 SRP1[], 65
-SHP[1], 77
-SRP1[], 77
+SHP[1], 80
+SRP1[], 80
 SHP[1], 1
-CALL[], 71, 72, 106
+SRP1[], 72
+SRP2[], 71
 IP[], 33
 IP[], 34
 CALL[], 66, 55, 106
-SHP[2], 59
-SRP1[], 59
+SHP[2], 58
+SRP1[], 58
 SHP[1], 62
 SRP1[], 66
-SHP[1], 78
-SRP1[], 78
+SHP[1], 79
+SRP1[], 79
 SHP[1], 0
 IUP[Y]
 IUP[X]
@@ -1023,10 +1029,9 @@ IUP[X]
     <glyphProgram name="bracketleft">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MDAP[R], 6
+CALL[], 6, 137, 114
 CALL[], 6, 1, 106
-SRP0[], 6
-MDRP[m&gt;RBl], 5
+CALL[], 6, 5, 106
 CALL[], 5, 2, 106
 IUP[Y]
 IUP[X]
@@ -1036,13 +1041,12 @@ IUP[X]
     <glyphProgram name="bracketleft_bar.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 8, 133
-SHP[1], 7
-CALL[], 7, 2, 106
-SRP0[], 8
-MDRP[m&gt;RBl], 10
-SHP[2], 6
-CALL[], 6, 3, 106
+CALL[], 0, 133, 114
+CALL[], 0, 2, 106
+CALL[], 11, 137, 114
+CALL[], 11, 6, 106
+CALL[], 11, 10, 106
+CALL[], 10, 7, 106
 IUP[Y]
 IUP[X]
 
@@ -1051,10 +1055,9 @@ IUP[X]
     <glyphProgram name="bracketright">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MDAP[R], 7
+CALL[], 7, 137, 114
 CALL[], 7, 6, 106
-SRP0[], 7
-MDRP[m&lt;RWh], 2
+CALL[], 7, 2, 105
 CALL[], 2, 3, 106
 IUP[Y]
 IUP[X]
@@ -1066,14 +1069,13 @@ IUP[X]
 SVTCA[Y]
 CALL[], 11, 18, 114
 SHP[2], 6
-MDRP[m&lt;RWh], 14
+CALL[], 21, 137, 114
+CALL[], 21, 18, 106
+CALL[], 21, 14, 106
 CALL[], 14, 17, 106
 CALL[], 24, 16, 114
 SHP[2], 28
-MDRP[m&lt;RWh], 21
-CALL[], 21, 18, 106
-SRP1[], 11
-SRP2[], 24
+SRP2[], 11
 IP[], 33
 IP[], 34
 MDAP[R], 33
@@ -1102,12 +1104,12 @@ IUP[X]
     <glyphProgram name="c">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 7, 7, 114
-CALL[], 7, 15, 106
-CALL[], 26, 11, 114
-CALL[], 26, 21, 106
-SRP1[], 15
-IP[], 12
+CALL[], 13, 11, 114
+CALL[], 13, 8, 106
+CALL[], 21, 7, 114
+SHP[2], 24
+CALL[], 21, 2, 106
+SHP[2], 25
 IUP[Y]
 IUP[X]
 
@@ -1127,28 +1129,28 @@ IUP[X]
 
     <glyphProgram name="colon.uc">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[R], 68, 0, 170
+OFFSET[R], 69, 0, 170
 
     </glyphProgram>
 
     <glyphProgram name="colon_colon.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 68, -1060, 0
-OFFSET[r], 68, -140, 0
+OFFSET[r], 69, -1060, 0
+OFFSET[r], 69, -140, 0
 
     </glyphProgram>
 
     <glyphProgram name="colon_colon_colon.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 68, -2000, 0
-OFFSET[r], 68, -1200, 0
-OFFSET[r], 68, -400, 0
+OFFSET[r], 69, -2000, 0
+OFFSET[r], 69, -1200, 0
+OFFSET[r], 69, -400, 0
 
     </glyphProgram>
 
@@ -1280,18 +1282,17 @@ CALL[], 4, 13, 114
 SHP[2], 1
 CALL[], 4, 2, 106
 CALL[], 4, 9, 106
-SHP[2], 47
+SHP[2], 46
 CALL[], 20, 5, 114
 SHP[2], 17
 CALL[], 20, 18, 106
-CALL[], 20, 27, 106
-SHP[2], 34
-SRP1[], 9
-IP[], 24
-MDAP[R], 24
-SRP2[], 9
+SHP[1], 23
+SRP2[], 4
 SLOOP[], 12
-IP[], 43, 32, 45, 46, 10, 11, 29, 28, 33, 40, 14, 37
+IP[], 42, 32, 44, 45, 10, 11, 29, 28, 33, 40, 14, 37
+CALL[], 20, 27, 106
+SHP[2], 24
+SHP[2], 34
 IUP[Y]
 IUP[X]
 
@@ -1360,6 +1361,38 @@ IUP[X]
 
     </glyphProgram>
 
+    <glyphProgram name="emdash">
+/* VTTTalk Unicode 0x2014 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
+
+OFFSET[r], 160, 0, 0
+
+    </glyphProgram>
+
+    <glyphProgram name="emdash.lc">
+/* VTTTalk Unicode 0xffff */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
+
+OFFSET[R], 86, 0, -150
+
+    </glyphProgram>
+
+    <glyphProgram name="endash">
+/* VTTTalk Unicode 0x2013 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
+
+OFFSET[r], 160, 0, 0
+
+    </glyphProgram>
+
+    <glyphProgram name="endash.lc">
+/* VTTTalk Unicode 0xffff */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
+
+OFFSET[R], 86, 0, -150
+
+    </glyphProgram>
+
     <glyphProgram name="equal">
 /* VTT 6.31 compiler */
 SVTCA[Y]
@@ -1374,11 +1407,11 @@ IUP[X]
 
     <glyphProgram name="equal_colon_equal.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 157, -2220, 0
-OFFSET[r], 157, -180, 0
-OFFSET[R], 68, -1200, 180
+OFFSET[r], 163, -2220, 0
+OFFSET[r], 163, -180, 0
+OFFSET[R], 69, -1200, 180
 
     </glyphProgram>
 
@@ -1430,11 +1463,11 @@ IUP[X]
 
     <glyphProgram name="equal_exclam_equal.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 157, -2220, 0
-OFFSET[r], 157, -180, 0
-OFFSET[r], 70, -1200, 0
+OFFSET[r], 163, -2220, 0
+OFFSET[r], 163, -180, 0
+OFFSET[r], 71, -1200, 0
 
     </glyphProgram>
 
@@ -1517,7 +1550,7 @@ MDRP[m&lt;RWh], 10
 SHP[2], 3
 CALL[], 10, 9, 106
 SHP[2], 4
-MIAP[R], 16, 136
+CALL[], 16, 136, 114
 CALL[], 16, 6, 106
 IUP[Y]
 IUP[X]
@@ -1539,7 +1572,7 @@ IUP[X]
     <glyphProgram name="exclam_equal.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 16, 136
+CALL[], 16, 136, 114
 CALL[], 16, 6, 106
 IP[], 14
 IP[], 10
@@ -1574,7 +1607,7 @@ MDRP[m&lt;RWh], 21
 SHP[2], 1
 CALL[], 21, 22, 106
 SHP[2], 26
-MIAP[R], 24, 136
+CALL[], 24, 136, 114
 IUP[Y]
 IUP[X]
 
@@ -1582,20 +1615,20 @@ IUP[X]
 
     <glyphProgram name="exclam_exclam.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 70, -1060, 0
-OFFSET[r], 70, -140, 0
+OFFSET[r], 71, -1060, 0
+OFFSET[r], 71, -140, 0
 
     </glyphProgram>
 
     <glyphProgram name="exclam_exclam_period.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 70, -2300, 0
-OFFSET[r], 70, -1180, 0
-OFFSET[r], 66, -100, 0
+OFFSET[r], 71, -2300, 0
+OFFSET[r], 71, -1180, 0
+OFFSET[r], 67, -100, 0
 
     </glyphProgram>
 
@@ -1704,10 +1737,10 @@ IUP[X]
 
     <glyphProgram name="greater_colon.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 158, -954, 0
-OFFSET[R], 68, 54, 180
+OFFSET[r], 164, -954, 0
+OFFSET[R], 69, 54, 180
 
     </glyphProgram>
 
@@ -1801,11 +1834,11 @@ IUP[X]
 
     <glyphProgram name="greater_greater_greater.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 158, -144, 0
-OFFSET[r], 158, -2266, 0
-OFFSET[r], 158, -1200, 0
+OFFSET[r], 164, -144, 0
+OFFSET[r], 164, -2266, 0
+OFFSET[r], 164, -1200, 0
 
     </glyphProgram>
 
@@ -1886,17 +1919,17 @@ IUP[X]
 
     <glyphProgram name="hyphen">
 /* VTTTalk Unicode 0x2d (-) */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 154, 0, 0
+OFFSET[r], 160, 0, 0
 
     </glyphProgram>
 
     <glyphProgram name="hyphen.lc">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[R], 84, 0, -150
+OFFSET[R], 86, 0, -150
 
     </glyphProgram>
 
@@ -1920,7 +1953,7 @@ IUP[X]
     <glyphProgram name="hyphen_bar.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 0, 133
+CALL[], 0, 133, 114
 CALL[], 0, 2, 106
 MIAP[R], 6, 131
 CALL[], 6, 5, 106
@@ -2166,30 +2199,30 @@ IUP[X]
 
     <glyphProgram name="less_asciitilde_greater.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 158, -144, 0
-OFFSET[r], 159, -2236, 0
-OFFSET[r], 160, -1190, 0
+OFFSET[r], 164, -144, 0
+OFFSET[r], 165, -2236, 0
+OFFSET[r], 166, -1190, 0
 
     </glyphProgram>
 
     <glyphProgram name="less_asterisk.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 159, -1036, 0
-OFFSET[r], 72, -100, 0
+OFFSET[r], 165, -1036, 0
+OFFSET[r], 74, -100, 0
 
     </glyphProgram>
 
     <glyphProgram name="less_asterisk_greater.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 158, -144, 0
-OFFSET[r], 159, -2236, 0
-OFFSET[r], 72, -1190, 0
+OFFSET[r], 164, -144, 0
+OFFSET[r], 165, -2236, 0
+OFFSET[r], 74, -1190, 0
 
     </glyphProgram>
 
@@ -2211,8 +2244,8 @@ IUP[X]
     <glyphProgram name="less_bar_bar.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 0, 133
-MDRP[m&gt;RBl], 2
+CALL[], 0, 133, 114
+CALL[], 0, 2, 106
 CALL[], 5, 135, 114
 CALL[], 5, 4, 106
 CALL[], 4, 7, 106
@@ -2228,9 +2261,9 @@ IUP[X]
     <glyphProgram name="less_bar_bar_bar.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 1, 133
-SHP[1], 4
-MDRP[m&gt;RBl], 3
+CALL[], 1, 133, 114
+SHP[2], 4
+CALL[], 1, 3, 106
 SHP[2], 7
 CALL[], 9, 135, 114
 CALL[], 9, 8, 106
@@ -2246,20 +2279,20 @@ IUP[X]
 
     <glyphProgram name="less_bar_greater.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 158, -144, 0
-OFFSET[r], 159, -2236, 0
-OFFSET[r], 166, -1190, 0
+OFFSET[r], 164, -144, 0
+OFFSET[r], 165, -2236, 0
+OFFSET[r], 172, -1190, 0
 
     </glyphProgram>
 
     <glyphProgram name="less_colon.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 159, -882, 0
-OFFSET[R], 68, 58, 180
+OFFSET[r], 165, -882, 0
+OFFSET[R], 69, 58, 180
 
     </glyphProgram>
 
@@ -2280,12 +2313,11 @@ CALL[], 9, 8, 106
 CALL[], 23, 17, 114
 SHP[2], 20
 CALL[], 23, 21, 106
+SHP[1], 26
 CALL[], 23, 30, 106
+SHP[2], 27
 SHP[2], 37
 SRP1[], 49
-IP[], 27
-MDAP[R], 27
-SRP2[], 49
 SLOOP[], 12
 IP[], 45, 35, 47, 48, 13, 14, 32, 31, 36, 43, 17, 40
 IUP[Y]
@@ -2464,10 +2496,10 @@ IUP[X]
 
     <glyphProgram name="less_greater.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 159, -1044, 0
-OFFSET[r], 158, -136, 0
+OFFSET[r], 165, -1044, 0
+OFFSET[r], 164, -136, 0
 
     </glyphProgram>
 
@@ -2614,37 +2646,37 @@ IUP[X]
 
     <glyphProgram name="less_less_less.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 159, -134, 0
-OFFSET[r], 159, -2236, 0
-OFFSET[r], 159, -1180, 0
+OFFSET[r], 165, -134, 0
+OFFSET[r], 165, -2236, 0
+OFFSET[r], 165, -1180, 0
 
     </glyphProgram>
 
     <glyphProgram name="less_plus.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 159, -1036, 0
-OFFSET[r], 153, -180, 0
+OFFSET[r], 165, -1036, 0
+OFFSET[r], 159, -180, 0
 
     </glyphProgram>
 
     <glyphProgram name="less_plus_greater.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 158, -144, 0
-OFFSET[r], 159, -2236, 0
-OFFSET[r], 153, -1190, 0
+OFFSET[r], 164, -144, 0
+OFFSET[r], 165, -2236, 0
+OFFSET[r], 159, -1190, 0
 
     </glyphProgram>
 
     <glyphProgram name="less_slash.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 0, 136
+CALL[], 0, 136, 114
 CALL[], 0, 2, 106
 IP[], 4
 IP[], 11
@@ -2674,7 +2706,7 @@ IP[], 5, 16, 15, 6
 SHP[2], 12
 CALL[], 12, 14, 106
 CALL[], 14, 13, 106
-MIAP[R], 18, 136
+CALL[], 18, 136, 114
 CALL[], 18, 8, 106
 SLOOP[], 4
 IP[], 10, 17, 7, 0
@@ -2794,40 +2826,43 @@ IUP[X]
     <glyphProgram name="numbersign_braceleft.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 16, 18, 114
-SHP[2], 12
-CALL[], 16, 4, 105
-CALL[], 4, 64, 106
-CALL[], 25, 16, 114
+CALL[], 15, 18, 114
+SHP[2], 10
+CALL[], 24, 16, 114
 SHP[2], 29
-SRP1[], 16
-IP[], 22
-IP[], 19
-MDAP[R], 22
-MDAP[R], 19
-SRP2[], 22
-IP[], 75
-CALL[], 22, 23, 106
-SHP[2], 28
-SRP1[], 28
-SHP[1], 31
-SRP1[], 22
-SHP[1], 67
-SRP1[], 67
-SHP[1], 80
-CALL[], 75, 74, 106
-IP[], 53
-IP[], 52
-CALL[], 19, 18, 106
+SRP2[], 15
+IP[], 18
+IP[], 21
+MDAP[R], 18
+MDAP[R], 21
+CALL[], 18, 17, 106
 SHP[2], 13
 SRP1[], 13
-SHP[1], 10
-SRP1[], 19
-SHP[1], 66
-SRP1[], 66
+SHP[1], 9
+SRP1[], 18
+SHP[1], 65
+SRP1[], 65
 SHP[1], 69
-CALL[], 25, 36, 105
-CALL[], 36, 41, 106
+CALL[], 21, 22, 106
+SHP[2], 26
+SRP1[], 26
+SHP[1], 30
+SRP1[], 21
+SHP[1], 68
+SRP1[], 68
+SHP[1], 80
+SRP1[], 69
+SRP2[], 80
+IP[], 74
+MDAP[R], 74
+IP[], 75
+SRP2[], 75
+IP[], 52
+IP[], 51
+CALL[], 35, 138, 114
+CALL[], 35, 40, 106
+CALL[], 35, 4, 105
+CALL[], 4, 64, 106
 IUP[Y]
 IUP[X]
 
@@ -2838,8 +2873,6 @@ IUP[X]
 SVTCA[Y]
 MIAP[R], 13, 18
 SHP[1], 9
-MDRP[m&lt;RWh], 5
-CALL[], 5, 2, 106
 MIAP[R], 22, 16
 SHP[1], 26
 SRP2[], 13
@@ -2863,9 +2896,10 @@ SRP1[], 18
 SHP[1], 34
 SRP1[], 34
 SHP[1], 39
-SRP0[], 22
-MDRP[m&lt;RWh], 30
+CALL[], 30, 137, 114
 CALL[], 30, 1, 106
+CALL[], 30, 5, 105
+CALL[], 5, 2, 106
 IUP[Y]
 IUP[X]
 
@@ -2873,10 +2907,10 @@ IUP[X]
 
     <glyphProgram name="numbersign_colon.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 73, -1040, 0
-OFFSET[R], 68, 22, 180
+OFFSET[r], 75, -1040, 0
+OFFSET[R], 69, 22, 180
 
     </glyphProgram>
 
@@ -2923,10 +2957,10 @@ IUP[X]
 
     <glyphProgram name="numbersign_exclam.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 73, -1040, 0
-OFFSET[r], 70, 22, 0
+OFFSET[r], 75, -1040, 0
+OFFSET[r], 71, 22, 0
 
     </glyphProgram>
 
@@ -3181,14 +3215,9 @@ IUP[X]
 SVTCA[Y]
 CALL[], 7, 18, 114
 SHP[2], 11
-CALL[], 7, 2, 105
-CALL[], 2, 42, 106
 CALL[], 26, 16, 114
 SHP[2], 22
-CALL[], 26, 31, 105
-CALL[], 31, 34, 106
-SRP1[], 26
-SRP2[], 7
+SRP1[], 7
 IP[], 52
 IP[], 15
 MDAP[R], 52
@@ -3209,6 +3238,10 @@ SRP1[], 15
 SHP[1], 43
 SRP1[], 43
 SHP[1], 53
+CALL[], 31, 138, 114
+CALL[], 31, 34, 106
+CALL[], 31, 2, 105
+CALL[], 2, 42, 106
 IUP[Y]
 IUP[X]
 
@@ -3322,7 +3355,7 @@ SRP1[], 9
 SHP[1], 51
 SRP1[], 51
 SHP[1], 25
-CALL[], 15, 39, 105
+CALL[], 39, 138, 114
 CALL[], 39, 42, 106
 IUP[Y]
 IUP[X]
@@ -3349,6 +3382,8 @@ CALL[], 3, 4, 106
 SHP[2], 0
 CALL[], 9, 4, 114
 CALL[], 9, 6, 106
+CALL[], 9, 8, 106
+CALL[], 8, 7, 106
 IUP[Y]
 IUP[X]
 
@@ -3375,7 +3410,7 @@ IUP[X]
     <glyphProgram name="parenleft">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MDAP[R], 7
+CALL[], 7, 138, 114
 CALL[], 7, 10, 106
 CALL[], 7, 21, 105
 CALL[], 21, 18, 106
@@ -3387,7 +3422,7 @@ IUP[X]
     <glyphProgram name="parenright">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MDAP[R], 10
+CALL[], 10, 138, 114
 CALL[], 10, 9, 106
 CALL[], 10, 20, 105
 CALL[], 20, 21, 106
@@ -3493,10 +3528,10 @@ IUP[X]
 
     <glyphProgram name="period_period.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 66, -1060, 0
-OFFSET[r], 66, -140, 0
+OFFSET[r], 67, -1060, 0
+OFFSET[r], 67, -140, 0
 
     </glyphProgram>
 
@@ -3542,20 +3577,28 @@ IUP[X]
 
     <glyphProgram name="period_period_period.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 66, -2000, 0
-OFFSET[r], 66, -1200, 0
-OFFSET[r], 66, -400, 0
+OFFSET[r], 67, -2000, 0
+OFFSET[r], 67, -1200, 0
+OFFSET[r], 67, -400, 0
 
     </glyphProgram>
 
     <glyphProgram name="period_question.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 66, -1100, 0
-OFFSET[r], 71, -240, 0
+OFFSET[r], 67, -1100, 0
+OFFSET[r], 72, -240, 0
+
+    </glyphProgram>
+
+    <glyphProgram name="periodcentered">
+/* VTTTalk Unicode 0xb7 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
+
+OFFSET[R], 67, 0, 402
 
     </glyphProgram>
 
@@ -3575,18 +3618,18 @@ IUP[X]
 
     <glyphProgram name="plus.lc">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[R], 153, 0, -178
+OFFSET[R], 159, 0, -178
 
     </glyphProgram>
 
     <glyphProgram name="plus_greater.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 153, -1020, 0
-OFFSET[r], 158, -140, 0
+OFFSET[r], 159, -1020, 0
+OFFSET[r], 164, -140, 0
 
     </glyphProgram>
 
@@ -3624,7 +3667,7 @@ CALL[], 14, 12, 105
 SHP[2], 8
 SRP1[], 8
 SHP[1], 4
-CALL[], 15, 17, 106
+CALL[], 15, 17, 105
 SHP[2], 21
 SRP1[], 21
 SHP[1], 25
@@ -3681,10 +3724,10 @@ IUP[X]
 
     <glyphProgram name="question_colon.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 71, -960, 0
-OFFSET[r], 68, -100, 0
+OFFSET[r], 72, -960, 0
+OFFSET[r], 69, -100, 0
 
     </glyphProgram>
 
@@ -3695,7 +3738,7 @@ CALL[], 14, 17, 114
 CALL[], 14, 6, 106
 MIAP[R], 29, 132
 CALL[], 29, 30, 106
-CALL[], 30, 33, 105
+MDRP[m&lt;RWh], 33
 CALL[], 33, 34, 106
 CALL[], 51, 19, 114
 CALL[], 51, 43, 106
@@ -3715,46 +3758,46 @@ IUP[X]
 
     <glyphProgram name="question_period.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 71, -960, 0
-OFFSET[r], 66, -100, 0
+OFFSET[r], 72, -960, 0
+OFFSET[r], 67, -100, 0
 
     </glyphProgram>
 
     <glyphProgram name="question_question.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 71, -1114, 0
-OFFSET[r], 71, -170, 0
+OFFSET[r], 72, -1114, 0
+OFFSET[r], 72, -170, 0
 
     </glyphProgram>
 
     <glyphProgram name="quotedbl">
 /* VTTTalk Unicode 0x22 (") */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 92, -200, 0
-OFFSET[r], 92, 204, 0
+OFFSET[r], 98, -200, 0
+OFFSET[r], 98, 204, 0
 
     </glyphProgram>
 
     <glyphProgram name="quotedblleft">
 /* VTTTalk Unicode 0x201c */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 89, -118, 0
-OFFSET[r], 89, 322, 0
+OFFSET[r], 95, -118, 0
+OFFSET[r], 95, 322, 0
 
     </glyphProgram>
 
     <glyphProgram name="quotedblright">
 /* VTTTalk Unicode 0x201d */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 90, 218, 0
-OFFSET[r], 90, -222, 0
+OFFSET[r], 96, 218, 0
+OFFSET[r], 96, -222, 0
 
     </glyphProgram>
 
@@ -3839,10 +3882,10 @@ IUP[X]
 
     <glyphProgram name="semicolon_semicolon.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 69, -1034, 0
-OFFSET[r], 69, -116, 0
+OFFSET[r], 70, -1034, 0
+OFFSET[r], 70, -116, 0
 
     </glyphProgram>
 
@@ -3889,17 +3932,17 @@ IUP[X]
 
     <glyphProgram name="slash_asterisk.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 74, -1080, 0
-OFFSET[r], 72, -58, 0
+OFFSET[r], 76, -1080, 0
+OFFSET[r], 74, -58, 0
 
     </glyphProgram>
 
     <glyphProgram name="slash_equal.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 3, 136
+CALL[], 3, 136, 114
 CALL[], 3, 1, 106
 MIAP[R], 4, 132
 CALL[], 4, 7, 106
@@ -3913,7 +3956,7 @@ IUP[X]
     <glyphProgram name="slash_equal_equal.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 3, 136
+CALL[], 3, 136, 114
 CALL[], 3, 1, 106
 MIAP[R], 4, 16
 SHP[1], 8
@@ -3939,7 +3982,7 @@ SRP1[], 2
 SRP2[], 1
 IP[], 5
 IP[], 6
-MIAP[R], 10, 136
+CALL[], 10, 136, 114
 CALL[], 10, 8, 106
 IP[], 7
 IP[], 0
@@ -3950,20 +3993,20 @@ IUP[X]
 
     <glyphProgram name="slash_slash.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 74, -1080, 0
-OFFSET[r], 74, -98, 0
+OFFSET[r], 76, -1080, 0
+OFFSET[r], 76, -98, 0
 
     </glyphProgram>
 
     <glyphProgram name="slash_slash_slash.liga">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 74, -130, 0
-OFFSET[r], 74, -2240, 0
-OFFSET[r], 74, -1170, 0
+OFFSET[r], 76, -130, 0
+OFFSET[r], 76, -2240, 0
+OFFSET[r], 76, -1170, 0
 
     </glyphProgram>
 
@@ -4078,7 +4121,7 @@ IUP[X]
 SVTCA[Y]
 CALL[], 0, 6, 114
 SHP[2], 5
-CALL[], 7, 11, 114
+CALL[], 7, 10, 114
 SRP1[], 5
 IP[], 3
 IUP[Y]
@@ -4089,7 +4132,7 @@ IUP[X]
     <glyphProgram name="w">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-CALL[], 7, 11, 114
+CALL[], 7, 10, 114
 SHP[2], 3
 CALL[], 8, 6, 114
 SRP1[], 3
@@ -4106,13 +4149,12 @@ IUP[X]
     <glyphProgram name="w_w_w.liga">
 /* VTT 6.31 compiler */
 SVTCA[Y]
-MIAP[R], 1, 16
-SHP[1], 24
-MIAP[R], 2, 19
-SRP2[], 1
+CALL[], 1, 6, 114
+SHP[2], 24
+CALL[], 2, 10, 114
+SRP1[], 1
 IP[], 45
 MDAP[R], 45
-SRP2[], 2
 IP[], 46
 IP[], 4
 SRP1[], 46
@@ -4172,9 +4214,9 @@ IUP[X]
 
     <glyphProgram name="x.multiply">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-OFFSET[r], 155, 0, 0
+OFFSET[r], 161, 0, 0
 
     </glyphProgram>
 
@@ -4222,9 +4264,24 @@ IUP[X]
 
     </glyphProgram>
 
+    <glyphProgram name="zero.ss01">
+/* VTT 6.31 compiler */
+SVTCA[Y]
+CALL[], 3, 13, 114
+CALL[], 3, 21, 106
+CALL[], 7, 5, 114
+CALL[], 7, 14, 106
+SRP1[], 21
+SLOOP[], 4
+IP[], 19, 11, 18, 12
+IUP[Y]
+IUP[X]
+
+    </glyphProgram>
+
     <extraProgram name="cvt">
 /* Control Program */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:38:29 2019 */
 
 CATEGORY Stroke
 CATEGORY StrokeInheritance
@@ -4310,34 +4367,34 @@ AnyGroup
   Black
   X
   StrokeInheritance
-     21:   207 /* 44x */
+     21:   206 /* 44x */
 
 /***** Parent CVTs *****/
 UpperCase
   Black
   X
   StrokeInheritance
-     22:   202 /* 22x */
+     22:   200 /* 22x */
 LowerCase
   Black
   X
   StrokeInheritance
      25:   212 /* 22x */
 ASM("SVTCA[X]")
-ASM("CALL[], 21, 25, 68, 22, 107, 90")
+ASM("CALL[], 21, 25, 68, 22, 87, 90")
 
 UpperCase
   Black
   Y
   StrokeInheritance
-     23:   180 /* 25x */
+     23:   190 /* 26x */
 ASM("SVTCA[X]")
-ASM("CALL[], 23, 57, 22, 45, 91")
+ASM("CALL[], 23, 60, 22, 98, 91")
 LowerCase
   Black
   Y
   StrokeInheritance
-     26:   176 /* 13x */
+     26:   176 /* 11x */
 ASM("SVTCA[X]")
 ASM("CALL[], 26, 53, 25, 25, 91")
 
@@ -4345,14 +4402,14 @@ UpperCase
   Black
   Diag
   StrokeInheritance
-     24:   180 /* 25x */
+     24:   190 /* 26x */
 ASM("SVTCA[X]")
-ASM("CALL[], 24, 57, 22, 45, 91")
+ASM("CALL[], 24, 60, 22, 98, 91")
 LowerCase
   Black
   Diag
   StrokeInheritance
-     27:   176 /* 13x */
+     27:   176 /* 11x */
 ASM("SVTCA[X]")
 ASM("CALL[], 27, 53, 25, 25, 91")
 
@@ -4361,200 +4418,198 @@ UpperCase
   Black
   X
   StrokeInheritance
-     28:   206 =  22 @255 /* 35x */
+     28:   200 =  22 @255 /* 35x */
+     29:    10 ~  28 @103 /* 13x */
   Y
   StrokeInheritance
-     29:   182 /* 36x */
-ASM("SVTCA[Y]")
-ASM("CALL[], 29, 5, 23, 22, 92")
+     30:   190 =  23 @255 /* 36x */
+     31:    -6 ~  30 @171 /* 9x */
   Diag
   StrokeInheritance
-     30:   153 =  24 @ 38 /* 9x */
-     31:   198 /* 29x */
-ASM("SVTCA[X]")
-ASM("CALL[], 31, 52, 24, 22, 92")
-     32:   187 =  31 @ 94 /* 13x */
+     32:   153 =  24 @ 28 /* 9x */
+     33:   200 =  22 @255 /* 29x */
+     34:   190 =  33 @103 /* 12x */
 
 LowerCase
   Black
   X
   StrokeInheritance
-     33:   160 =  25 @ 20 /* 1x */
-     34:   212 =  25 @255 /* 33x */
+     35:   160 =  25 @ 20 /* 1x */
+     36:   212 =  25 @255 /* 33x */
   Y
   StrokeInheritance
-     35:   179 /* 42x */
+     37:   160 =  26 @ 64 /* 3x */
+     38:   179 /* 40x */
 ASM("SVTCA[Y]")
-ASM("CALL[], 35, 5, 26, 25, 92")
+ASM("CALL[], 38, 5, 26, 25, 92")
+     39:   190 =  38 @ 94 /* 14x */
   Diag
   StrokeInheritance
-     36:   126 =  27 @ 21 /* 4x */
-     37:   190 /* 30x */
+     40:   127 =  27 @ 21 /* 4x */
+     41:   191 /* 28x */
 ASM("SVTCA[X]")
-ASM("CALL[], 37, 24, 27, 25, 92")
-     38:   186 =  37 @205 /* 10x */
-     39:   176 =  38 @103 /* 2x */
-     40:   213 =  37 @ 45 /* 6x */
+ASM("CALL[], 41, 26, 27, 25, 92")
+     42:   176 =  41 @ 64 /* 2x */
+     43:   213 =  41 @ 47 /* 5x */
 
 Figure
   Black
   X
   StrokeInheritance
-     41:   138 /* 1x */
-     42:   214 /* 20x */
+     44:   138 /* 1x */
+     45:   214 /* 20x */
+     46:   204 =  45 @103 /* 2x */
   Y
   StrokeInheritance
-     43:   184 /* 19x */
-     44:   194 =  43 @103 /* 2x */
+     47:   184 /* 19x */
   Diag
   StrokeInheritance
-     45:   154 /* 2x */
-     46:   215 /* 8x */
-     47:   198 =  46 @ 61 /* 4x */
-     48:   189 =  47 @114 /* 2x */
+     48:   154 /* 2x */
+     49:   207 /* 8x */
+     50:   199 =  49 @128 /* 4x */
+     51:   193 =  50 @171 /* 2x */
 
 Other
   Black
   X
   StrokeInheritance
-     49:   197 /* 26x */
-     50:   172 =  49 @ 41 /* 4x */
-     51:   192 =  49 @128 /* 9x */
-     52:   186 =  51 @171 /* 5x */
-     53:   220 =  49 @ 45 /* 5x */
+     52:   193 /* 21x */
+     53:   168 =  52 @ 41 /* 3x */
+     54:   186 =  52 @171 /* 5x */
+     55:   220 /* 6x */
   Y
   StrokeInheritance
-     54:   170 /* 32x */
-     55:   176 =  54 @147 /* 6x */
-     56:   190 =  54 @ 52 /* 5x */
-     57:   380 /* 1x */
+     56:   184 /* 32x */
+     57:   189 =  56 @147 /* 15x */
+     58:   380 /* 1x */
   Diag
   StrokeInheritance
-     58:   183 /* 32x */
-     59:   159 =  58 @ 43 /* 6x */
-     60:   230 /* 2x */
+     59:   182 /* 32x */
+     60:   154 =  59 @ 37 /* 2x */
+     61:   203 =  59 @ 49 /* 8x */
+     62:   230 /* 2x */
 
 /***** Stroke CVTs *****/
 UpperCase
   Black
   X
   Stroke
-     61:   192 =  28 @103 /* 5x */
-     62:   202 =  28 @255 /* 15x */
-     63:   214 =  28 @128 /* 15x */
+     63:   192 =  28 @128 /* 5x */
+     64:   200 =  28 @255 /* 17x */
+     65:   211 =  29 @255 /* 13x */
   Y
   Stroke
-     64:   166 =  29 @ 64 /* 5x */
-     65:   181 =  29 @255 /* 25x */
-     66:   190 =  29 @114 /* 6x */
+     66:   176 =  31 @128 /* 1x */
+     67:   183 =  31 @255 /* 8x */
+     68:   190 =  30 @255 /* 27x */
   Diag
   Stroke
-     67:   131 =  30 @ 47 /* 2x */
-     68:   152 =  30 @255 /* 6x */
-     69:   161 =  30 @114 /* 1x */
-     70:   176 =  32 @ 94 /* 6x */
-     71:   187 =  32 @255 /* 7x */
-     72:   199 =  31 @255 /* 9x */
-     73:   206 =  31 @128 /* 3x */
-     74:   216 =  31 @ 61 /* 4x */
+     69:   131 =  32 @ 47 /* 2x */
+     70:   152 =  32 @255 /* 6x */
+     71:   161 =  32 @114 /* 1x */
+     72:   176 =  34 @ 74 /* 5x */
+     73:   188 =  34 @255 /* 7x */
+     74:   199 =  33 @255 /* 9x */
+     75:   206 =  33 @147 /* 4x */
+     76:   216 =  33 @ 61 /* 4x */
 
 LowerCase
   Black
   X
   Stroke
-     75:   160 =  33 @255 /* 1x */
-     76:   180 =  34 @ 32 /* 1x */
-     77:   192 =  34 @ 52 /* 1x */
-     78:   200 =  34 @ 86 /* 1x */
-     79:   212 =  34 @255 /* 25x */
-     80:   220 =  34 @128 /* 5x */
+     77:   160 =  35 @255 /* 1x */
+     78:   180 =  36 @ 32 /* 1x */
+     79:   192 =  36 @ 52 /* 1x */
+     80:   200 =  36 @ 86 /* 1x */
+     81:   212 =  36 @255 /* 25x */
+     82:   220 =  36 @128 /* 5x */
   Y
   Stroke
-     81:   160 =  35 @ 54 /* 3x */
-     82:   170 =  35 @114 /* 2x */
-     83:   178 =  35 @255 /* 24x */
-     84:   190 =  35 @ 94 /* 13x */
+     83:   160 =  37 @255 /* 3x */
+     84:   170 =  38 @114 /* 2x */
+     85:   178 =  38 @255 /* 24x */
+     86:   190 =  39 @255 /* 13x */
+     87:   195 =  39 @205 /* 1x */
   Diag
   Stroke
-     85:   117 =  36 @114 /* 2x */
-     86:   135 =  36 @114 /* 2x */
-     87:   176 =  39 @255 /* 2x */
-     88:   186 =  38 @255 /* 8x */
-     89:   194 =  37 @255 /* 14x */
-     90:   206 =  40 @128 /* 1x */
-     91:   214 =  40 @255 /* 4x */
-     92:   224 =  40 @ 94 /* 1x */
+     88:   118 =  40 @114 /* 2x */
+     89:   136 =  40 @114 /* 2x */
+     90:   176 =  42 @255 /* 2x */
+     91:   185 =  41 @147 /* 6x */
+     92:   194 =  41 @255 /* 14x */
+     93:   205 =  43 @128 /* 1x */
+     94:   213 =  43 @255 /* 4x */
+     95:   224 =  43 @ 94 /* 1x */
 
 Figure
   Black
   X
   Stroke
-     93:   138 =  41 @255 /* 1x */
-     94:   180 =  42 @ 31 /* 1x */
-     95:   202 =  42 @ 86 /* 1x */
-     96:   214 =  42 @255 /* 16x */
-     97:   222 =  42 @128 /* 2x */
+     96:   138 =  44 @255 /* 1x */
+     97:   180 =  45 @ 31 /* 1x */
+     98:   204 =  46 @255 /* 2x */
+     99:   214 =  45 @255 /* 15x */
+    100:   222 =  45 @128 /* 2x */
   Y
   Stroke
-     98:   176 =  43 @128 /* 1x */
-     99:   184 =  43 @255 /* 16x */
-    100:   194 =  44 @255 /* 2x */
+    101:   176 =  47 @128 /* 1x */
+    102:   184 =  47 @255 /* 16x */
+    103:   191 =  47 @147 /* 2x */
   Diag
   Stroke
-    101:   149 =  45 @205 /* 1x */
-    102:   158 =  45 @255 /* 1x */
-    103:   189 =  48 @255 /* 2x */
-    104:   200 =  47 @255 /* 2x */
-    105:   214 =  46 @205 /* 2x */
-    106:   221 =  46 @255 /* 2x */
+    104:   149 =  48 @205 /* 1x */
+    105:   158 =  48 @255 /* 1x */
+    106:   192 =  51 @255 /* 2x */
+    107:   200 =  50 @255 /* 2x */
+    108:   207 =  49 @255 /* 2x */
+    109:   214 =  49 @171 /* 2x */
 
 Other
   Black
   X
   Stroke
-    107:   164 =  50 @128 /* 1x */
-    108:   171 =  50 @255 /* 3x */
-    109:   180 =  52 @171 /* 1x */
-    110:   186 =  52 @255 /* 4x */
-    111:   192 =  51 @255 /* 4x */
-    112:   196 =  49 @205 /* 1x */
-    113:   200 =  49 @255 /* 7x */
-    114:   213 =  53 @147 /* 2x */
-    115:   220 =  53 @255 /* 3x */
+    110:   168 =  53 @255 /* 3x */
+    111:   180 =  54 @171 /* 1x */
+    112:   186 =  54 @255 /* 4x */
+    113:   193 =  52 @255 /* 6x */
+    114:   201 =  52 @103 /* 5x */
+    115:   210 =  52 @ 54 /* 3x */
+    116:   220 =  55 @255 /* 6x */
   Y
   Stroke
-    116:   170 =  54 @255 /* 19x */
-    117:   177 =  55 @255 /* 6x */
-    118:   184 =  54 @ 69 /* 2x */
-    119:   190 =  56 @255 /* 3x */
-    120:   196 =  56 @171 /* 2x */
-    121:   380 =  57 @255 /* 1x */
+    117:   169 =  56 @ 69 /* 7x */
+    118:   180 =  56 @255 /* 10x */
+    119:   188 =  57 @255 /* 13x */
+    120:   196 =  57 @147 /* 2x */
+    121:   380 =  58 @255 /* 1x */
   Diag
   Stroke
-    122:   151 =  59 @128 /* 1x */
-    123:   159 =  59 @255 /* 5x */
-    124:   175 =  58 @114 /* 4x */
-    125:   179 =  58 @205 /* 4x */
-    126:   184 =  58 @255 /* 11x */
-    127:   191 =  58 @147 /* 3x */
-    128:   202 =  58 @ 54 /* 3x */
-    129:   213 =  58 @ 35 /* 1x */
-    130:   230 =  60 @255 /* 2x */
+    122:   154 =  60 @255 /* 2x */
+    123:   168 =  59 @ 69 /* 2x */
+    124:   175 =  59 @128 /* 4x */
+    125:   179 =  59 @205 /* 4x */
+    126:   184 =  59 @255 /* 9x */
+    127:   191 =  59 @128 /* 3x */
+    128:   203 =  61 @255 /* 7x */
+    129:   213 =  61 @103 /* 1x */
+    130:   230 =  62 @255 /* 2x */
 
 /***** Specialty Height CVTs *****/
 
 131:    802 /* hyphen top */
 132:    1052    /* equals top */
-133:    1760    /* bar top */
+133:    1730    /* bar top */
 134:    1176    /* asterisk top */
 135:    810 /* greater nose top */
 136:    1520    /* slash top */
+137:	 1634 /* bracket top */
+138:	 1620 /* paren and brace top */
 
     </extraProgram>
 
     <extraProgram name="fpgm">
 /* Font-program */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:38:29 2019 */
 
 FDEF[], 9
 
@@ -9962,126 +10017,125 @@ CALL[], 18, 89
 CALL[], 17, 52, 16, 85
 CALL[], 19, 52, 18, 85
 SVTCA[X]
-CALL[], 21, 25, 68, 22, 107, 90
+CALL[], 21, 25, 68, 22, 87, 90
 SVTCA[X]
-CALL[], 23, 57, 22, 45, 91
+CALL[], 23, 60, 22, 98, 91
 SVTCA[X]
 CALL[], 26, 53, 25, 25, 91
 SVTCA[X]
-CALL[], 24, 57, 22, 45, 91
+CALL[], 24, 60, 22, 98, 91
 SVTCA[X]
 CALL[], 27, 53, 25, 25, 91
 SVTCA[X]
 CALL[], 28, 22, 255, 31
+CALL[], 29, 103, 28, 85
 SVTCA[Y]
-CALL[], 29, 5, 23, 22, 92
+CALL[], 30, 23, 255, 31
+CALL[], 31, 171, 30, 85
+CALL[], 32, 24, 28, 31
+CALL[], 33, 22, 255, 31
+CALL[], 34, 33, 103, 31
+SVTCA[X]
+CALL[], 35, 25, 20, 31
+CALL[], 36, 25, 255, 31
 SVTCA[Y]
-CALL[], 30, 24, 38, 31
-SVTCA[X]
-CALL[], 31, 52, 24, 22, 92
-CALL[], 32, 31, 94, 31
-SVTCA[X]
-CALL[], 33, 25, 20, 31
-CALL[], 34, 25, 255, 31
+CALL[], 37, 26, 64, 31
 SVTCA[Y]
-CALL[], 35, 5, 26, 25, 92
+CALL[], 38, 5, 26, 25, 92
+CALL[], 39, 38, 94, 31
+CALL[], 40, 27, 21, 31
+SVTCA[X]
+CALL[], 41, 26, 27, 25, 92
+CALL[], 42, 41, 64, 31
+CALL[], 43, 41, 47, 31
+SVTCA[X]
+CALL[], 46, 45, 103, 31
 SVTCA[Y]
-CALL[], 36, 27, 21, 31
+CALL[], 50, 49, 128, 31
+CALL[], 51, 50, 171, 31
 SVTCA[X]
-CALL[], 37, 24, 27, 25, 92
-CALL[], 38, 37, 205, 31
-CALL[], 39, 38, 103, 31
-CALL[], 40, 37, 45, 31
-CALL[], 44, 43, 103, 31
-CALL[], 47, 46, 61, 31
-CALL[], 48, 47, 114, 31
-SVTCA[X]
-CALL[], 50, 49, 41, 31
-CALL[], 51, 49, 128, 31
-CALL[], 52, 51, 171, 31
-CALL[], 53, 49, 45, 31
+CALL[], 53, 52, 41, 31
+CALL[], 54, 52, 171, 31
 SVTCA[Y]
-CALL[], 55, 54, 147, 31
-CALL[], 56, 54, 52, 31
-CALL[], 59, 58, 43, 31
+CALL[], 57, 56, 147, 31
+CALL[], 60, 59, 37, 31
+CALL[], 61, 59, 49, 31
 SVTCA[X]
-CALL[], 61, 28, 103, 31
-CALL[], 62, 28, 255, 31
 CALL[], 63, 28, 128, 31
-SVTCA[Y]
-CALL[], 64, 29, 64, 31
+CALL[], 64, 28, 255, 31
 CALL[], 65, 29, 255, 31
-CALL[], 66, 29, 114, 31
-CALL[], 67, 30, 47, 31
+SVTCA[Y]
+CALL[], 66, 31, 128, 31
+CALL[], 67, 31, 255, 31
 CALL[], 68, 30, 255, 31
-CALL[], 69, 30, 114, 31
-CALL[], 70, 32, 94, 31
-CALL[], 71, 32, 255, 31
-CALL[], 72, 31, 255, 31
-CALL[], 73, 31, 128, 31
-CALL[], 74, 31, 61, 31
+CALL[], 69, 32, 47, 31
+CALL[], 70, 32, 255, 31
+CALL[], 71, 32, 114, 31
+CALL[], 72, 34, 74, 31
+CALL[], 73, 34, 255, 31
+CALL[], 74, 33, 255, 31
+CALL[], 75, 33, 147, 31
+CALL[], 76, 33, 61, 31
 SVTCA[X]
-CALL[], 75, 33, 255, 31
-CALL[], 76, 34, 32, 31
-CALL[], 77, 34, 52, 31
-CALL[], 78, 34, 86, 31
-CALL[], 79, 34, 255, 31
-CALL[], 80, 34, 128, 31
+CALL[], 77, 35, 255, 31
+CALL[], 78, 36, 32, 31
+CALL[], 79, 36, 52, 31
+CALL[], 80, 36, 86, 31
+CALL[], 81, 36, 255, 31
+CALL[], 82, 36, 128, 31
 SVTCA[Y]
-CALL[], 81, 35, 54, 31
-CALL[], 82, 35, 114, 31
-CALL[], 83, 35, 255, 31
-CALL[], 84, 35, 94, 31
-CALL[], 85, 36, 114, 31
-CALL[], 86, 36, 114, 31
-CALL[], 87, 39, 255, 31
-CALL[], 88, 38, 255, 31
-CALL[], 89, 37, 255, 31
-CALL[], 90, 40, 128, 31
-CALL[], 91, 40, 255, 31
-CALL[], 92, 40, 94, 31
+CALL[], 83, 37, 255, 31
+CALL[], 84, 38, 114, 31
+CALL[], 85, 38, 255, 31
+CALL[], 86, 39, 255, 31
+CALL[], 87, 39, 205, 31
+CALL[], 88, 40, 114, 31
+CALL[], 89, 40, 114, 31
+CALL[], 90, 42, 255, 31
+CALL[], 91, 41, 147, 31
+CALL[], 92, 41, 255, 31
+CALL[], 93, 43, 128, 31
+CALL[], 94, 43, 255, 31
+CALL[], 95, 43, 94, 31
 SVTCA[X]
-CALL[], 93, 41, 255, 31
-CALL[], 94, 42, 31, 31
-CALL[], 95, 42, 86, 31
-CALL[], 96, 42, 255, 31
-CALL[], 97, 42, 128, 31
+CALL[], 96, 44, 255, 31
+CALL[], 97, 45, 31, 31
+CALL[], 98, 46, 255, 31
+CALL[], 99, 45, 255, 31
+CALL[], 100, 45, 128, 31
 SVTCA[Y]
-CALL[], 98, 43, 128, 31
-CALL[], 99, 43, 255, 31
-CALL[], 100, 44, 255, 31
-CALL[], 101, 45, 205, 31
-CALL[], 102, 45, 255, 31
-CALL[], 103, 48, 255, 31
-CALL[], 104, 47, 255, 31
-CALL[], 105, 46, 205, 31
-CALL[], 106, 46, 255, 31
+CALL[], 101, 47, 128, 31
+CALL[], 102, 47, 255, 31
+CALL[], 103, 47, 147, 31
+CALL[], 104, 48, 205, 31
+CALL[], 105, 48, 255, 31
+CALL[], 106, 51, 255, 31
+CALL[], 107, 50, 255, 31
+CALL[], 108, 49, 255, 31
+CALL[], 109, 49, 171, 31
 SVTCA[X]
-CALL[], 107, 50, 128, 31
-CALL[], 108, 50, 255, 31
-CALL[], 109, 52, 171, 31
-CALL[], 110, 52, 255, 31
-CALL[], 111, 51, 255, 31
-CALL[], 112, 49, 205, 31
-CALL[], 113, 49, 255, 31
-CALL[], 114, 53, 147, 31
-CALL[], 115, 53, 255, 31
+CALL[], 110, 53, 255, 31
+CALL[], 111, 54, 171, 31
+CALL[], 112, 54, 255, 31
+CALL[], 113, 52, 255, 31
+CALL[], 114, 52, 103, 31
+CALL[], 115, 52, 54, 31
+CALL[], 116, 55, 255, 31
 SVTCA[Y]
-CALL[], 116, 54, 255, 31
-CALL[], 117, 55, 255, 31
-CALL[], 118, 54, 69, 31
-CALL[], 119, 56, 255, 31
-CALL[], 120, 56, 171, 31
-CALL[], 121, 57, 255, 31
-CALL[], 122, 59, 128, 31
-CALL[], 123, 59, 255, 31
-CALL[], 124, 58, 114, 31
-CALL[], 125, 58, 205, 31
-CALL[], 126, 58, 255, 31
-CALL[], 127, 58, 147, 31
-CALL[], 128, 58, 54, 31
-CALL[], 129, 58, 35, 31
-CALL[], 130, 60, 255, 31
+CALL[], 117, 56, 69, 31
+CALL[], 118, 56, 255, 31
+CALL[], 119, 57, 255, 31
+CALL[], 120, 57, 147, 31
+CALL[], 121, 58, 255, 31
+CALL[], 122, 60, 255, 31
+CALL[], 123, 59, 69, 31
+CALL[], 124, 59, 128, 31
+CALL[], 125, 59, 205, 31
+CALL[], 126, 59, 255, 31
+CALL[], 127, 59, 128, 31
+CALL[], 128, 61, 255, 31
+CALL[], 129, 61, 103, 31
+CALL[], 130, 62, 255, 31
 RTG[]
 
     </extraProgram>
@@ -10091,13 +10145,27 @@ RTG[]
   <TSI3>
 
     <glyphProgram name=".notdef">
-/* Y direction */
-ResYAnchor(2,18)
-ResYDist(2,7)
-ResYAnchor(3,16)
-ResYDist(3,6)
+/* VTTTalk Unicode 0xffff */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-/* X direction */
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 2 18  DISABLED for a NON-LATIN glyph */
+/* CVT 3 16  DISABLED for a NON-LATIN glyph */
+/* Min and Max */
+YAnchor(2)	/* min */
+YAnchor(3)	/* max */
+
+/* YDir: Stroke #0 */
+ResYDist(3,6) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+ResYDist(2,7) /*perpendicular to the stroke*/
 
 Smooth()
 
@@ -10105,12 +10173,12 @@ Smooth()
 
     <glyphProgram name="A">
 /* Y direction */
-YAnchor(2,8)
-YShift(2,7)
-YAnchor(4,2)
-YIPAnchor(7,8,4)
-ResYDist(8,0)
-YInterpolate(2,10,4)
+ResYAnchor(4,8)
+YShift(4,7)
+ResYAnchor(5,2)
+YIPAnchor(4,8,5)
+ResYDist(8,2)
+YInterpolate(7,11,10,5)
 
 /* X direction */
 
@@ -10136,11 +10204,12 @@ Smooth()
 
     <glyphProgram name="C">
 /* Y direction */
-ResYAnchor(5,3)
-ResYDist(5,11)
-ResYAnchor(23,9)
-ResYDist(23,18)
-YIPAnchor(18,9,11)
+ResYAnchor(14,9)
+ResYDist(14,9)
+ResYAnchor(20,3)
+YShift(20,23)
+ResYDist(20,2)
+YShift(2,24)
 
 /* X direction */
 
@@ -10149,13 +10218,31 @@ Smooth()
     </glyphProgram>
 
     <glyphProgram name="D">
-/* Y direction */
-ResYAnchor(6,8)
-ResYDist(6,15)
-ResYAnchor(7,2)
-ResYDist(7,14)
+/* VTTTalk Unicode 0x44 (D) */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-/* X direction */
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 6 8 */
+/* CVT 7 2 */
+/* Min and Max */
+ResYAnchor(6,8)	/* min, CVT */
+ResYAnchor(7,2)	/* max, CVT */
+
+/* CVTs - beginning */
+/* CVTs - end */
+
+
+/* YDir: Stroke #0 */
+ResYDist(7,14) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+ResYDist(6,15) /*perpendicular to the stroke*/
 
 Smooth()
 
@@ -10163,12 +10250,12 @@ Smooth()
 
     <glyphProgram name="E">
 /* Y direction */
-ResYAnchor(8,8)
-ResYDist(8,5)
-ResYAnchor(9,2)
-ResYDist(9,0)
-YIPAnchor(8,1,9)
-ResYDist(1,4)
+ResYAnchor(9,8)
+ResYDist(9,6)
+ResYAnchor(10,2)
+ResYDist(10,1)
+YIPAnchor(10,2,9)
+ResYDist(2,5)
 
 /* X direction */
 
@@ -10178,11 +10265,11 @@ Smooth()
 
     <glyphProgram name="F">
 /* Y direction */
-ResYAnchor(6,8)
-ResYAnchor(7,2)
-ResYDist(7,0)
-YIPAnchor(6,1,7)
-ResYDist(1,4)
+ResYAnchor(7,8)
+ResYAnchor(8,2)
+ResYDist(8,1)
+YIPAnchor(8,2,7)
+ResYDist(2,5)
 
 /* X direction */
 
@@ -10193,11 +10280,13 @@ Smooth()
     <glyphProgram name="G">
 /* Y direction */
 ResYAnchor(3,9)
-ResYDist(3,22)
+ResYDist(3,23)
 ResYAnchor(9,3)
-ResYDist(9,15)
-YIPAnchor(9,12,26,3)
-ResYDist(26,27)
+YShift(9,12)
+ResYDist(9,16)
+YShift(16,13)
+YIPAnchor(3,28,9)
+ResYDist(28,27)
 
 /* X direction */
 
@@ -10207,12 +10296,12 @@ Smooth()
 
     <glyphProgram name="H">
 /* Y direction */
-YAnchor(6,8)
-YShift(6,1)
-YAnchor(7,2)
-YShift(7,0)
-YIPAnchor(6,9,7)
-ResYDist(9,4)
+ResYAnchor(7,8)
+YShift(7,3)
+ResYAnchor(8,2)
+YShift(8,1)
+YInterpolate(7,10,8)
+ResYDist(10,5)
 
 /* X direction */
 
@@ -10221,15 +10310,33 @@ Smooth()
     </glyphProgram>
 
     <glyphProgram name="I">
-/* Y direction */
-ResYAnchor(4,8)
-ResYDist(4,5)
-YShift(5,2)
-ResYAnchor(9,2)
-ResYDist(9,8)
-YShift(8,11)
+/* VTTTalk Unicode 0x49 (I) */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-/* X direction */
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 5 8 */
+/* CVT 10 2 */
+/* Min and Max */
+ResYAnchor(5,8)	/* min, CVT */
+ResYAnchor(10,2)	/* max, CVT */
+
+/* CVTs - beginning */
+/* CVTs - end */
+
+
+/* YDir: Stroke #0 */
+ResYDist(10,9) /*perpendicular to the stroke*/
+YShift(9,1) /*along bottom edge*/
+
+/* YDir: Stroke #1 */
+ResYDist(5,6) /*perpendicular to the stroke*/
+YShift(6,2) /*along top edge*/
 
 Smooth()
 
@@ -10237,11 +10344,11 @@ Smooth()
 
     <glyphProgram name="J">
 /* Y direction */
-ResYAnchor(4,9)
+ResYAnchor(4,8)
 ResYDist(4,12)
 ResYAnchor(18,2)
 ResYDist(18,17)
-YIPAnchor(12,9,17)
+YIPAnchor(4,9,18)
 
 /* X direction */
 
@@ -10266,12 +10373,28 @@ Smooth()
     </glyphProgram>
 
     <glyphProgram name="L">
-/* Y direction */
-ResYAnchor(2,8)
-ResYDist(2,5)
-ResYAnchor(3,2)
+/* VTTTalk Unicode 0x4c (L) */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-/* X direction */
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 3 8 */
+/* CVT 4 2 */
+/* Min and Max */
+ResYAnchor(3,8)	/* min, CVT */
+ResYAnchor(4,2)	/* max, CVT */
+
+/* CVTs - beginning */
+/* CVTs - end */
+
+
+/* YDir: Stroke #0 */
+ResYDist(3,0) /*perpendicular to the stroke*/
 
 Smooth()
 
@@ -10279,7 +10402,7 @@ Smooth()
 
     <glyphProgram name="LIG">
 /* VTTTalk Unicode 0xffff */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
 /* Auto-Hinting Light */
 
@@ -10324,13 +10447,31 @@ Smooth()
     </glyphProgram>
 
     <glyphProgram name="O">
-/* Y direction */
-ResYAnchor(3,3)
-ResYDist(3,11)
-ResYAnchor(7,9)
-ResYDist(7,15)
+/* VTTTalk Unicode 0x4f (O) */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-/* X direction */
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 3 3 */
+/* CVT 7 9 */
+/* Min and Max */
+ResYAnchor(7,9)	/* min, CVT */
+ResYAnchor(3,3)	/* max, CVT */
+
+/* CVTs - beginning */
+/* CVTs - end */
+
+
+/* YDir: Stroke #0 */
+ResYDist(3,11) /*perpendicular to the stroke*/
+
+/* YDir: Stroke #1 */
+ResYDist(7,15) /*perpendicular to the stroke*/
 
 Smooth()
 
@@ -10388,8 +10529,10 @@ ResYAnchor(5,9)
 ResYDist(5,10)
 ResYAnchor(23,3)
 ResYDist(23,31)
-YIPAnchor(10,28,31)
-YInterpolate(10,13,2,15,16,38,37,19,34,28)
+YShift(31,28)
+YInterpolate(10,13,2,15,16,38,37,19,34,31)
+YAnchor(24,3)
+YShift(24,27)
 
 /* X direction */
 
@@ -10398,13 +10541,29 @@ Smooth()
     </glyphProgram>
 
     <glyphProgram name="T">
-/* Y direction */
-ResYAnchor(3,8)
-ResYAnchor(6,2)
-ResYDist(6,5)
-YShift(5,1)
+/* VTTTalk Unicode 0x54 (T) */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
-/* X direction */
+/* Auto-Hinting Light */
+
+/* ***Settings*** */
+/* ModeHinting = LightLatin */
+/* ToAnchorBottom = true */
+
+
+/* CVT 4 8 */
+/* CVT 7 2 */
+/* Min and Max */
+ResYAnchor(4,8)	/* min, CVT */
+ResYAnchor(7,2)	/* max, CVT */
+
+/* CVTs - beginning */
+/* CVTs - end */
+
+
+/* YDir: Stroke #0 */
+ResYDist(7,6) /*perpendicular to the stroke*/
+YShift(6,2) /*along bottom edge*/
 
 Smooth()
 
@@ -10412,7 +10571,7 @@ Smooth()
 
     <glyphProgram name="U">
 /* VTTTalk Unicode 0x55 (U) */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
 /* Auto-Hinting Light */
 
@@ -10424,8 +10583,8 @@ Smooth()
 /* CVT 2 2 */
 /* CVT 16 8 */
 /* Min and Max */
-ResYAnchor(16,8)    /* min, CVT */
-ResYAnchor(2,2) /* max, CVT */
+ResYAnchor(16,8)	/* min, CVT */
+ResYAnchor(2,2)	/* max, CVT */
 
 /* CVTs - beginning */
 /* CVTs - end */
@@ -10445,7 +10604,7 @@ Smooth()
 /* Y direction */
 ResYAnchor(0,2)
 YShift(0,5)
-ResYAnchor(7,9)
+ResYAnchor(7,8)
 YInterpolate(0,2,7)
 
 /* X direction */
@@ -10456,7 +10615,7 @@ Smooth()
 
     <glyphProgram name="W">
 /* Y direction */
-ResYAnchor(7,9)
+ResYAnchor(7,8)
 YShift(7,3)
 ResYAnchor(8,2)
 YShift(8,1)
@@ -10486,9 +10645,9 @@ Smooth()
     <glyphProgram name="Y">
 /* Y direction */
 ResYAnchor(2,8)
-ResYAnchor(4,2)
-YShift(4,8)
-YInterpolate(2,3,0,6,4)
+ResYAnchor(5,2)
+YShift(5,9)
+YInterpolate(5,8,7,1,4,2)
 
 /* X direction */
 
@@ -10498,12 +10657,12 @@ Smooth()
 
     <glyphProgram name="Z">
 /* Y direction */
-ResYAnchor(1,8)
-ResYDist(1,0)
-YShift(0,3)
-ResYAnchor(6,2)
-ResYDist(6,5)
-YShift(5,8)
+ResYAnchor(3,8)
+ResYDist(3,0)
+YShift(0,4)
+ResYAnchor(7,2)
+ResYDist(7,6)
+YShift(6,9)
 
 /* X direction */
 
@@ -10516,17 +10675,17 @@ Smooth()
 ResYAnchor(1,10)
 YShift(1,2)
 ResYDist(1,0)
-YShift(0,26)
+YShift(0,25)
 ResYAnchor(7,11)
 YShift(7,3)
-ResYDist(7,40)
-YShift(40,30)
-ResYAnchor(21,7)
-ResYDist(21,20)
-YInterpolate(7,13,20)
+ResYDist(7,39)
+YShift(39,29)
+ResYAnchor(21,6)
+ResYDist (21,20)
+YInterpolate(21,13,7)
 YShift(13,15)
-ResYDist(13,34)
-YShift(34,31)
+ResYDist(13,33)
+YShift(33,30)
 
 /* X direction */
 
@@ -10626,11 +10785,11 @@ Smooth()
 /* Y direction */
 YAnchor(25)
 ResYDist(25,53)
-YInterpolate(53,49,36,8,22,25)
-ResYDist(49,2)
-ResYDist(36,16)
+YInterpolate(53,8,2,22,16,25)
 ResYDist(8,43)
+ResYDist(2,49)
 ResYDist(22,30)
+ResYDist(16,36)
 
 /* X direction */
 
@@ -10817,8 +10976,8 @@ Smooth()
 
     <glyphProgram name="bar">
 /* Y direction */
-YAnchor(0,133)
-YDist(0,2)
+ResYAnchor(0,133)
+ResYDist(0,2)
 
 /* X direction */
 
@@ -10828,9 +10987,9 @@ Smooth()
 
     <glyphProgram name="bar_bar_bar_greater.liga">
 /* Y direction */
-YAnchor(1,133)
+ResYAnchor(1,133)
 YShift(1,5)
-YDist(1,3)
+ResYDist(1,3)
 YShift(3,4)
 ResYAnchor(9,135)
 ResYDist(9,8)
@@ -10846,9 +11005,9 @@ Smooth()
 
     <glyphProgram name="bar_bar_equal.liga">
 /* Y direction */
-YAnchor(1,133)
+ResYAnchor(1,133)
 YShift(1,12)
-YDist(1,3)
+ResYDist(1,3)
 YShift(3,11)
 YAnchor(14,132)
 ResYDist(14,5)
@@ -10863,12 +11022,12 @@ Smooth()
 
     <glyphProgram name="bar_bar_greater.liga">
 /* Y direction */
-YAnchor(1,133)
+ResYAnchor(1,133)
 ResYDist(1,3)
 ResYAnchor(5,135)
 ResYDist(5,4)
 ResYDist(5,6)
-ResYDist (6,7)
+ResYDist(6,7)
 YInterpolate(7,11,8,9,10,4)
 
 /* X direction */
@@ -10879,11 +11038,15 @@ Smooth()
 
     <glyphProgram name="bar_braceright.liga">
 /* Y direction */
-YAnchor(1,133)
-YDist(1,0)
-YInterpolate(0,19,7,52,1)
-ResYDist(7,8)
-YInterpolate(8,35,36,7)
+ResYAnchor(2,133)
+ResYDist(2,0)
+ResYAnchor(38,138)
+ResYDist(38,32)
+ResYDist(38,61)
+ResYDist(61,8)
+YInterpolate(61,49,38)
+ResYDist(49,50)
+YInterpolate(50,20,21,49)
 
 /* X direction */
 
@@ -10893,12 +11056,12 @@ Smooth()
 
     <glyphProgram name="bar_bracketright.liga">
 /* Y direction */
-YAnchor(1,133)
-YDist(1,0)
-YShift(0,6)
-ResYDist(6,7)
-YShift(1,11)
+ResYAnchor(1,133)
+ResYDist(1,3)
+ResYAnchor(11,137)
 ResYDist(11,10)
+ResYDist(11,5)
+ResYDist(5,8)
 
 /* X direction */
 
@@ -10908,11 +11071,11 @@ Smooth()
 
     <glyphProgram name="bar_equal.liga">
 /* Y direction */
-YAnchor(8,133)
+ResYAnchor(8,133)
 ResYDist(8,6)
 YAnchor(10,132)
 ResYDist(10,1)
-YDist(1,2)
+ResYDist(1,2)
 ResYDist(2,5)
 
 /* X direction */
@@ -10937,10 +11100,10 @@ Smooth()
 
     <glyphProgram name="bar_hyphen.liga">
 /* Y direction */
-YAnchor(0,131)
+ResYAnchor(0,131)
 ResYDist(0,1)
-YAnchor(5,133)
-YDist(5,4)
+ResYAnchor(5,133)
+ResYDist(5,4)
 
 /* X direction */
 
@@ -10950,13 +11113,13 @@ Smooth()
 
     <glyphProgram name="braceleft">
 /* Y direction */
-YAnchor(21)
-ResYDist(21,26)
-ResYDist(21,54)
+ResYAnchor(20,138)
+ResYDist(20,25)
+ResYDist(20,54)
 ResYDist(54,49)
-YIPAnchor(54,11,21)
-ResYDist(11,10)
-YInterpolate(10,38,37,11)
+YIPAnchor(54,10,20)
+ResYDist(10,9)
+YInterpolate(9,37,36,10)
 
 /* X direction */
 
@@ -10966,13 +11129,15 @@ Smooth()
 
     <glyphProgram name="braceleft_bar.liga">
 /* Y direction */
-YAnchor(0,133)
+ResYAnchor(0,133)
 ResYDist(0,3)
-YInterpolate(3,31,43,54,0)
-ResYDist(31,26)
-ResYDist(43,42)
-YInterpolate(42,15,14,43)
-ResYDist(54,59)
+ResYAnchor(26,138)
+ResYDist(26,32)
+ResYDist(26,61)
+ResYDist(61,56)
+YIPAnchor(61,15,26)
+ResYDist(15,14)
+YInterpolate(14,44,43,15)
 
 /* X direction */
 
@@ -10982,13 +11147,13 @@ Smooth()
 
     <glyphProgram name="braceright">
 /* Y direction */
-YAnchor(32)
-ResYDist(32,27)
-ResYDist(32,54)
+ResYAnchor(33,138)
+ResYDist(33,28)
+ResYDist(33,54)
 ResYDist(54,4)
-YIPAnchor(54,42,32)
-ResYDist(42,43)
-YInterpolate(43,15,16,42)
+YIPAnchor(54,43,33)
+ResYDist(43,44)
+YInterpolate(44,16,17,43)
 
 /* X direction */
 
@@ -10998,28 +11163,27 @@ Smooth()
 
     <glyphProgram name="braceright_numbersign.liga">
 /* Y direction */
-ResYAnchor(10,18)
+YAnchor(10,18)
 YShift(10,6)
-ResYDist(10,17)
-ResYDist(17,22)
+ResYAnchor(50,138)
+ResYDist(50,45)
+ResYDist(50,16)
+ResYDist(16,21)
 ResYAnchor(56,16)
 YShift(56,60)
-ResYDist(56,50)
-ResYDist(50,45)
-YIPAnchor(10,65,66,56)
-YInterpolate(65,71,66)
+YIPAnchor(10,65,72,66,56)
+YInterpolate(72,71,66)
 ResYDist(65,11)
-YShift(11,7)
-YShift(7,4)
-YShift(65,77)
-YShift(77,1)
-ResYDist(71,72)
+YShift(11,8)
+YShift(8,4)
+YShift(65,80)
+YShift(80,1)
 YInterpolate(72,33,34,71)
 ResYDist(66,55)
-YShift(55,59)
-YShift(59,62)
-YShift(66,78)
-YShift(78,0)
+YShift(55,58)
+YShift(58,62)
+YShift(66,79)
+YShift(79,0)
 
 /* X direction */
 
@@ -11029,9 +11193,9 @@ Smooth()
 
     <glyphProgram name="bracketleft">
 /* Y direction */
-YAnchor(6)
+ResYAnchor(6,137)
 ResYDist(6,1)
-YDist(6,5)
+ResYDist(6,5)
 ResYDist(5,2)
 
 /* X direction */
@@ -11042,12 +11206,12 @@ Smooth()
 
     <glyphProgram name="bracketleft_bar.liga">
 /* Y direction */
-YAnchor(8,133)
-YShift(8,7)
-ResYDist(7,2)
-YDist(8,10)
-YShift(10,6)
-ResYDist(6,3)
+ResYAnchor(0,133)
+ResYDist(0,2)
+ResYAnchor(11,137)
+ResYDist(11,6)
+ResYDist(11,10)
+ResYDist(10,7)
 
 /* X direction */
 
@@ -11057,9 +11221,9 @@ Smooth()
 
     <glyphProgram name="bracketright">
 /* Y direction */
-YAnchor(7)
+ResYAnchor(7,137)
 ResYDist(7,6)
-YDist(7,2)
+ResYDist(7,2)
 ResYDist(2,3)
 
 /* X direction */
@@ -11072,12 +11236,12 @@ Smooth()
 /* Y direction */
 ResYAnchor(11,18)
 YShift(11,6)
-YDist(11,14)
+ResYAnchor(21,137)
+ResYDist(21,18)
+ResYDist(21,14)
 ResYDist(14,17)
 ResYAnchor(24,16)
 YShift(24,28)
-YDist(24,21)
-ResYDist(21,18)
 YIPAnchor(11,33,34,24)
 ResYDist(33,12)
 YShift(12,8)
@@ -11098,11 +11262,12 @@ Smooth()
 
     <glyphProgram name="c">
 /* Y direction */
-ResYAnchor(7,7)
-ResYDist(7,15)
-ResYAnchor(26,11)
-ResYDist(26,21)
-YInterpolate(21,12,15)
+ResYAnchor(13,11)
+ResYDist(13,8)
+ResYAnchor(21,7)
+YShift(21,24)
+ResYDist(21,2)
+YShift(2,25)
 
 /* X direction */
 
@@ -11253,14 +11418,15 @@ ResYAnchor(4,13)
 YShift(4,1)
 ResYDist(4,2)
 ResYDist(4,9)
-YShift(9,47)
+YShift(9,46)
 ResYAnchor(20,5)
 YShift(20,17)
 ResYDist(20,18)
+YShift(20,23)
+YInterpolate(4,42,32,44,45,10,11,29,28,33,40,14,37,20)
 ResYDist(20,27)
+YShift(27,24)
 YShift(27,34)
-YIPAnchor(9,24,27)
-YInterpolate(9,43,32,45,46,10,11,29,28,33,40,14,37,24)
 
 /* X direction */
 
@@ -11457,7 +11623,7 @@ YDist(13,10)
 YShift(10,3)
 ResYDist(10,9)
 YShift(9,4)
-YAnchor(16,136)
+ResYAnchor(16,136)
 ResYDist(16,6)
 
 /* X direction */
@@ -11481,7 +11647,7 @@ Smooth()
 
     <glyphProgram name="exclam_equal.liga">
 /* Y direction */
-YAnchor(16,136)
+ResYAnchor(16,136)
 ResYDist(16,6)
 YIPAnchor(16,14,10,6)
 YShift(14,18)
@@ -11511,7 +11677,7 @@ YDist(18,21)
 YShift(21,1)
 ResYDist(21,22)
 YShift(22,26)
-YAnchor(24,136)
+ResYAnchor(24,136)
 
 /* X direction */
 
@@ -11793,7 +11959,7 @@ Smooth()
 
     <glyphProgram name="hyphen_bar.liga">
 /* Y direction */
-YAnchor(0,133)
+ResYAnchor(0,133)
 ResYDist(0,2)
 YAnchor(6,131)
 ResYDist(6,5)
@@ -11969,7 +12135,7 @@ Smooth()
 
     <glyphProgram name="l">
 /* VTTTalk Unicode 0x6c (l) */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
 /* Auto-Hinting Light */
 
@@ -11981,8 +12147,8 @@ Smooth()
 /* CVT 3 11 */
 /* CVT 10 0 */
 /* Min and Max */
-ResYAnchor(3,11)    /* min, CVT */
-ResYAnchor(10,0)    /* max, CVT */
+ResYAnchor(3,11)	/* min, CVT */
+ResYAnchor(10,0)	/* max, CVT */
 
 /* CVTs - beginning */
 /* CVTs - end */
@@ -12071,8 +12237,8 @@ Smooth()
 
     <glyphProgram name="less_bar_bar.liga">
 /* Y direction */
-YAnchor(0,133)
-YDist(0,2)
+ResYAnchor(0,133)
+ResYDist(0,2)
 ResYAnchor(5,135)
 ResYDist(5,4)
 ResYDist(4,7)
@@ -12087,9 +12253,9 @@ Smooth()
 
     <glyphProgram name="less_bar_bar_bar.liga">
 /* Y direction */
-YAnchor(1,133)
+ResYAnchor(1,133)
 YShift(1,4)
-YDist(1,3)
+ResYDist(1,3)
 YShift(3,7)
 ResYAnchor(9,135)
 ResYDist(9,8)
@@ -12118,10 +12284,11 @@ ResYDist(9,8)
 ResYAnchor(23,17)
 YShift(23,20)
 ResYDist(23,21)
+YShift(23,26)
 ResYDist(23,30)
+YShift(30,27)
 YShift(30,37)
-YIPAnchor(49,27,30)
-YInterpolate(49,45,35,47,48,13,14,32,31,36,43,17,40,27)
+YInterpolate(49,45,35,47,48,13,14,32,31,36,43,17,40,30)
 
 /* X direction */
 
@@ -12423,7 +12590,7 @@ Smooth()
 
     <glyphProgram name="less_slash.liga">
 /* Y direction */
-YAnchor(0,136)
+ResYAnchor(0,136)
 ResYDist(0,2)
 YInterpolate(2,4,11,0)
 ResYAnchor(6,135)
@@ -12449,7 +12616,7 @@ YInterpolate(2,5,16,15,6,1)
 YShift(1,12)
 ResYDist(12,14)
 ResYDist(14,13)
-YAnchor(18,136)
+ResYAnchor(18,136)
 ResYDist(18,8)
 YInterpolate(8,10,17,7,0,18)
 
@@ -12564,28 +12731,28 @@ Smooth()
 
     <glyphProgram name="numbersign_braceleft.liga">
 /* Y direction */
-ResYAnchor(16,18)
-YShift(16,12)
-ResYDist(16,4)
+ResYAnchor(15,18)
+YShift(15,10)
+ResYAnchor(24,16)
+YShift(24,29)
+YIPAnchor(15,18,21,24)
+ResYDist(18,17)
+YShift(17,13)
+YShift(13,9)
+YShift(18,65)
+YShift(65,69)
+ResYDist(21,22)
+YShift(22,26)
+YShift(26,30)
+YShift(21,68)
+YShift(68,80)
+YIPAnchor(69,74,80)
+YInterpolate(74,75,80)
+YInterpolate(74,52,51,75)
+ResYAnchor(35,138)
+ResYDist(35,40)
+ResYDist(35,4)
 ResYDist(4,64)
-ResYAnchor(25,16)
-YShift(25,29)
-YIPAnchor(25,22,19,16)
-YInterpolate(22,75,19)
-ResYDist(22,23)
-YShift(23,28)
-YShift(28,31)
-YShift(22,67)
-YShift(67,80)
-ResYDist(75,74)
-YInterpolate(74,53,52,75)
-ResYDist(19,18)
-YShift(18,13)
-YShift(13,10)
-YShift(19,66)
-YShift(66,69)
-ResYDist(25,36)
-ResYDist(36,41)
 
 /* X direction */
 
@@ -12597,8 +12764,6 @@ Smooth()
 /* Y direction */
 YAnchor(13,18)
 YShift(13,9)
-YDist(13,5)
-ResYDist(5,2)
 YAnchor(22,16)
 YShift(22,26)
 YIPAnchor(13,17,18,22)
@@ -12612,8 +12777,10 @@ YShift(20,24)
 YShift(24,28)
 YShift(18,34)
 YShift(34,39)
-YDist(22,30)
+ResYAnchor(30,137)
 ResYDist(30,1)
+ResYDist(30,5)
+ResYDist(5,2)
 
 /* X direction */
 
@@ -12797,12 +12964,8 @@ Smooth()
 /* Y direction */
 ResYAnchor(7,18)
 YShift(7,11)
-ResYDist(7,2)
-ResYDist(2,42)
 ResYAnchor(26,16)
 YShift(26,22)
-ResYDist(26,31)
-ResYDist(31,34)
 YIPAnchor(26,52,15,7)
 ResYDist(52,27)
 YShift(27,23)
@@ -12814,6 +12977,10 @@ YShift(14,10)
 YShift(10,6)
 YShift(15,43)
 YShift(43,53)
+ResYAnchor(31,138)
+ResYDist(31,34)
+ResYDist(31,2)
+ResYDist(2,42)
 
 /* X direction */
 
@@ -12896,7 +13063,7 @@ YShift(7,3)
 YShift(3,28)
 YShift(9,51)
 YShift(51,25)
-ResYDist(15,39)
+ResYAnchor(39,138)
 ResYDist(39,42)
 
 /* X direction */
@@ -12907,7 +13074,7 @@ Smooth()
 
     <glyphProgram name="o">
 /* VTTTalk Unicode 0x6f (o) */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
 /* Auto-Hinting Light */
 
@@ -12919,8 +13086,8 @@ Smooth()
 /* CVT 7 7 */
 /* CVT 15 11 */
 /* Min and Max */
-ResYAnchor(15,11)   /* min, CVT */
-ResYAnchor(7,7) /* max, CVT */
+ResYAnchor(15,11)	/* min, CVT */
+ResYAnchor(7,7)	/* max, CVT */
 
 /* CVTs - beginning */
 /* CVTs - end */
@@ -12943,6 +13110,8 @@ ResYDist(3,4)
 YShift(4,0)
 ResYAnchor(9,4)
 ResYDist(9,6)
+ResYDist(9,8)
+ResYDist(8,7)
 
 /* X direction */
 
@@ -12971,7 +13140,7 @@ Smooth()
 
     <glyphProgram name="parenleft">
 /* Y direction */
-YAnchor(7)
+ResYAnchor(7,138)
 ResYDist(7,10)
 ResYDist(7,21)
 ResYDist(21,18)
@@ -12984,7 +13153,7 @@ Smooth()
 
     <glyphProgram name="parenright">
 /* Y direction */
-YAnchor(10)
+ResYAnchor(10,138)
 ResYDist(10,9)
 ResYDist(10,20)
 ResYDist(20,21)
@@ -13222,7 +13391,7 @@ ResYAnchor(14,17)
 ResYDist(14,6)
 YAnchor(29,132)
 ResYDist(29,30)
-ResYDist(30,33)
+YDist(30,33)
 ResYDist(33,34)
 ResYAnchor(51,19)
 ResYDist(51,43)
@@ -13361,7 +13530,7 @@ Smooth()
 
     <glyphProgram name="slash_equal.liga">
 /* Y direction */
-YAnchor(3,136)
+ResYAnchor(3,136)
 ResYDist(3,1)
 YAnchor(4,132)
 ResYDist(4,7)
@@ -13376,7 +13545,7 @@ Smooth()
 
     <glyphProgram name="slash_equal_equal.liga">
 /* Y direction */
-YAnchor(3,136)
+ResYAnchor(3,136)
 ResYDist(3,1)
 YAnchor(4,16)
 YShift(4,8)
@@ -13400,7 +13569,7 @@ ResYDist(1,2)
 ResYDist(2,4)
 ResYDist(4,3)
 YInterpolate(2,5,6,1)
-YAnchor(10,136)
+ResYAnchor(10,136)
 ResYDist(10,8)
 YInterpolate(8,7,0,10)
 
@@ -13412,7 +13581,7 @@ Smooth()
 
     <glyphProgram name="space">
 /* VTTTalk Unicode 0x20 */
-/* ACT generated Thu Aug 15 21:20:18 2019 */
+/* ACT generated Sat Sep 21 06:39:27 2019 */
 
 /* Auto-Hinting Light */
 
@@ -13529,7 +13698,7 @@ Smooth()
 /* Y direction */
 ResYAnchor(0,6)
 YShift(0,5)
-ResYAnchor(7,11)
+ResYAnchor(7,10)
 YInterpolate(7,3,5)
 
 /* X direction */
@@ -13540,7 +13709,7 @@ Smooth()
 
     <glyphProgram name="w">
 /* Y direction */
-ResYAnchor(7,11)
+ResYAnchor(7,10)
 YShift(7,3)
 ResYAnchor(8,6)
 YInterpolate(8,4,11,15,3)
@@ -13555,9 +13724,9 @@ Smooth()
 
     <glyphProgram name="w_w_w.liga">
 /* Y direction */
-YAnchor(1,16)
+ResYAnchor(1,6)
 YShift(1,24)
-YAnchor(2,19)
+ResYAnchor(2,10)
 YIPAnchor(2,45,1)
 YInterpolate(2,46,4,45)
 YShift(46,42)
@@ -13643,37 +13812,51 @@ Smooth()
 
     </glyphProgram>
 
+    <glyphProgram name="zero.ss01">
+/* Y direction */
+ResYAnchor(3,13)
+ResYDist(3,21)
+ResYAnchor(7,5)
+ResYDist(7,14)
+YInterpolate(21,19,11,18,12,14)
+
+/* X direction */
+
+Smooth()
+
+    </glyphProgram>
+
   </TSI3>
 
   <TSI5>
     <glyphgroup name=".notdef" value="1"/>
-    <glyphgroup name="A" value="1"/>
-    <glyphgroup name="B" value="1"/>
+    <glyphgroup name="A" value="2"/>
+    <glyphgroup name="B" value="2"/>
     <glyphgroup name="C" value="2"/>
-    <glyphgroup name="D" value="1"/>
-    <glyphgroup name="E" value="1"/>
-    <glyphgroup name="F" value="1"/>
+    <glyphgroup name="D" value="2"/>
+    <glyphgroup name="E" value="2"/>
+    <glyphgroup name="F" value="2"/>
     <glyphgroup name="G" value="1"/>
-    <glyphgroup name="H" value="1"/>
-    <glyphgroup name="I" value="1"/>
-    <glyphgroup name="J" value="1"/>
-    <glyphgroup name="K" value="1"/>
-    <glyphgroup name="L" value="1"/>
+    <glyphgroup name="H" value="2"/>
+    <glyphgroup name="I" value="2"/>
+    <glyphgroup name="J" value="2"/>
+    <glyphgroup name="K" value="2"/>
+    <glyphgroup name="L" value="2"/>
     <glyphgroup name="LIG" value="1"/>
     <glyphgroup name="M" value="2"/>
     <glyphgroup name="N" value="2"/>
-    <glyphgroup name="O" value="1"/>
-    <glyphgroup name="P" value="1"/>
-    <glyphgroup name="Q" value="1"/>
-    <glyphgroup name="R" value="1"/>
+    <glyphgroup name="O" value="2"/>
+    <glyphgroup name="P" value="2"/>
+    <glyphgroup name="Q" value="2"/>
+    <glyphgroup name="R" value="2"/>
     <glyphgroup name="S" value="2"/>
-    <glyphgroup name="T" value="1"/>
-    <glyphgroup name="U" value="1"/>
-    <glyphgroup name="V" value="2"/>
-    <glyphgroup name="W" value="2"/>
+    <glyphgroup name="T" value="2"/>
+    <glyphgroup name="U" value="2"/>
+    <glyphgroup name="V" value="1"/>
+    <glyphgroup name="W" value="1"/>
     <glyphgroup name="X" value="2"/>
-    <glyphgroup name="Y" value="1"/>
-    <glyphgroup name="Z" value="1"/>
+    <glyphgroup name="Y" value="2"/>
+    <glyphgroup name="Z" value="2"/>
     <glyphgroup name="a" value="3"/>
     <glyphgroup name="ampersand" value="1"/>
     <glyphgroup name="ampersand_ampersand.liga" value="1"/>
@@ -13730,6 +13913,10 @@ Smooth()
     <glyphgroup name="dollar_greater.liga" value="1"/>
     <glyphgroup name="e" value="3"/>
     <glyphgroup name="eight" value="4"/>
+    <glyphgroup name="emdash" value="1"/>
+    <glyphgroup name="emdash.lc" value="1"/>
+    <glyphgroup name="endash" value="1"/>
+    <glyphgroup name="endash.lc" value="1"/>
     <glyphgroup name="equal" value="1"/>
     <glyphgroup name="equal_colon_equal.liga" value="1"/>
     <glyphgroup name="equal_equal.liga" value="1"/>
@@ -13841,6 +14028,7 @@ Smooth()
     <glyphgroup name="period_period_less.liga" value="1"/>
     <glyphgroup name="period_period_period.liga" value="1"/>
     <glyphgroup name="period_question.liga" value="1"/>
+    <glyphgroup name="periodcentered" value="1"/>
     <glyphgroup name="plus" value="1"/>
     <glyphgroup name="plus.lc" value="1"/>
     <glyphgroup name="plus_greater.liga" value="1"/>
@@ -13879,20 +14067,21 @@ Smooth()
     <glyphgroup name="underscore" value="1"/>
     <glyphgroup name="underscore_bar_underscore.liga" value="1"/>
     <glyphgroup name="underscore_underscore.liga" value="1"/>
-    <glyphgroup name="v" value="3"/>
-    <glyphgroup name="w" value="3"/>
+    <glyphgroup name="v" value="1"/>
+    <glyphgroup name="w" value="1"/>
     <glyphgroup name="w_w_w.liga" value="1"/>
     <glyphgroup name="x" value="3"/>
     <glyphgroup name="x.multiply" value="1"/>
-    <glyphgroup name="y" value="3"/>
+    <glyphgroup name="y" value="1"/>
     <glyphgroup name="z" value="3"/>
     <glyphgroup name="zero" value="4"/>
+    <glyphgroup name="zero.ss01" value="1"/>
   </TSI5>
 
   <maxp>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="0x10000"/>
-    <numGlyphs value="241"/>
+    <numGlyphs value="247"/>
     <maxPoints value="116"/>
     <maxContours value="8"/>
     <maxCompositePoints value="96"/>
@@ -13902,7 +14091,7 @@ Smooth()
     <maxStorage value="47"/>
     <maxFunctionDefs value="154"/>
     <maxInstructionDefs value="0"/>
-    <maxStackElements value="720"/>
+    <maxStackElements value="714"/>
     <maxSizeOfInstructions value="3957"/>
     <maxComponentElements value="3"/>
     <maxComponentDepth value="2"/>
