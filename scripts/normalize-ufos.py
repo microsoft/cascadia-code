@@ -1,3 +1,9 @@
+"""Normalizes source UFOs.
+
+Loading all glyphs and saving the UFO will trigger a full data rewrite of all *.glif
+and *.plist files into a normalized form (as in, whatever fontTools.ufoLib outputs).
+"""
+
 from pathlib import Path
 
 import ufoLib2
