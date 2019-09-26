@@ -157,6 +157,29 @@
     </array>
     <key>italicAngle</key>
     <integer>0</integer>
+    <key>openTypeGaspRangeRecords</key>
+    <array>
+      <dict>
+        <key>rangeGaspBehavior</key>
+        <array>
+          <integer>1</integer>
+          <integer>3</integer>
+        </array>
+        <key>rangeMaxPPEM</key>
+        <integer>9</integer>
+      </dict>
+      <dict>
+        <key>rangeGaspBehavior</key>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+          <integer>2</integer>
+          <integer>3</integer>
+        </array>
+        <key>rangeMaxPPEM</key>
+        <integer>65535</integer>
+      </dict>
+    </array>
     <key>openTypeHeadCreated</key>
     <string>2019/04/07 17:18:29</string>
     <key>openTypeNameDesigner</key>
