@@ -18,6 +18,22 @@ Clicking on the Cascadia.ttf file will download it to your machine. From there, 
 
 👉 **Note:** If you have previously installed a version of Cascadia Code, installing a new version *should* overwrite the previous version. However, in order to ensure it is completely overwritten, it is recommended that you delete the previous version you had before installing another.
 
+## Via Chocolatey (unofficial)
+
+[Chocolatey](https://chocolatey.org) users can download and install the latest release of Cascadia Code via the `cascadiacode` package:
+
+```powershell
+choco install cascadiacode
+```
+
+You can also upgrade to the latest version by running:
+
+```powershell
+choco upgrade cascadiacode
+```
+
+If you have any issues installing/upgrading the package please go to the [package page](https://chocolatey.org/packages/cascadiacode) and follow the [Chocolatey triage process](https://chocolatey.org/docs/package-triage-process).
+
 # Contributing
 
 This project welcomes contributions and suggestions. Most contributions require you to
