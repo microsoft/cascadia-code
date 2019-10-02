@@ -46,7 +46,7 @@ Making modifications to the Cascadia Code font requires use, and understanding, 
 ### Modifying a broad range of glyphs
 
 1) Make the necessary modifications to the Glyphs source and export a TTF file. 
-2) Convert both the new TTF and the VTT TTF source file to TTX using FontTools
+2) Convert both the new TTF and the VTT TTF source file to TTX using FontTools.
 3) Copy the TSI tables from the VTT TTF source to the new TTF source, and rebuild the TTF file. 
 4) Open new TTF file in VTT, compile and check for errors. Correct as necessary. 
 5) Ship the production font. 
