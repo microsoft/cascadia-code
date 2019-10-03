@@ -65,13 +65,22 @@ Please help us keep this repository clean, inclusive, and fun! We will not toler
 
 If you would like to ask a question that you feel doesn't warrant an issue (yet), please reach out to us via Twitter:
 
+Aaron Bell, Font Designer: [@aaronbell](https://twitter.com/aaronbell)
+
 Kayla Cinnamon, Program Manager: [@cinnamon_msft](https://twitter.com/cinnamon_msft)
 
-Dustin Howett, Engineering Lead: [@dhowett](https://twitter.com/dhowett)
-
-Michael Niksa, Senior Developer: [@michaelniksa](https://twitter.com/michaelniksa)
-
 Rich Turner, Program Manager: [@richturn_ms](https://twitter.com/richturn_ms)
+
+# Roadmap
+
+This is the planned roadmap for Cascadia Code. Please be aware that the delivery dates are estimates and the features may arrive slightly earlier or later than predicted. This roadmap will continuously be updated as further features come along.
+
+| Delivery Date | Feature | Description |
+| ------------- | ------- | ----------- |
+| October 2019 | Conversion of GitHub Pipeline/Workflow | Converting the GitHub pipeline to UFO to allow for users who don't have Macs to contribute to the source code. |
+| November 2019 | Character Set Extensions | The addition of Greek, Cyrillic, and Vietnamese, and other characters to the main character set. |
+| March 2020 | Weight Axis | Converting Cascadia Code into a variable font with milestone light and bold weights. |
+| March 2020 | Arabic and Hebrew Characters | The addition of Arabic and Hebrew characters to the main character set. |
 
 # Installing Cascadia Code in VS Code
 
