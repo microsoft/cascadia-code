@@ -79,7 +79,7 @@ This is the planned roadmap for Cascadia Code. Please be aware that the delivery
 | ------------- | ------- | ----------- |
 | October 2019 | Conversion of GitHub Pipeline/Workflow | Converting the GitHub pipeline to UFO to allow for users who don't have Macs to contribute to the source code. |
 | November 2019 | Character Set Extensions | The addition of Greek, Cyrillic, and Vietnamese, and other characters to the main character set. |
-| March 2020 | Weight Axis |Converting Cascadia Code into a variable font with milestone light and bold weights. |
+| March 2020 | Weight Axis | Converting Cascadia Code into a variable font with milestone light and bold weights. |
 | March 2020 | Arabic and Hebrew Characters | The addition of Arabic and Hebrew characters to the main character set. |
 
 # Code of Conduct
