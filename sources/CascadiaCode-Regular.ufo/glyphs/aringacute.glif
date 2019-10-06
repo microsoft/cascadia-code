@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aringacute" format="2">
+  <advance width="1200"/>
+  <unicode hex="01FB"/>
+  <outline>
+    <component base="a"/>
+    <component base="ringcomb" xOffset="-20"/>
+    <component base="acutecomb" xOffset="10" yOffset="280"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

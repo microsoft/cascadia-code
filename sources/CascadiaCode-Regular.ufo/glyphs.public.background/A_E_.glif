@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AE" format="2">
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="1080" y="10" name="ogonek"/>
+  <anchor x="600" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="570" y="0" type="line"/>
+      <point x="770" y="0" type="line"/>
+      <point x="770" y="1420" type="line"/>
+      <point x="570" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="590" y="616" type="line"/>
+      <point x="1000" y="616" type="line"/>
+      <point x="1000" y="806" type="line"/>
+      <point x="590" y="806" type="line"/>
+    </contour>
+  </outline>
+</glyph>

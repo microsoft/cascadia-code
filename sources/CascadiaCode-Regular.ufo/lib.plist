@@ -3,11 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1260</string>
+    <string>1266</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <array>
-      <string>y</string>
-    </array>
+    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.note</key>
@@ -55,6 +53,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <string>BBAB2DB2-7554-4FB8-925D-17003E4845F8</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>0</integer>
+    <key>com.schriftgestaltung.glyphOrder</key>
+    <false/>
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
@@ -68,59 +68,308 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <key>public.glyphOrder</key>
     <array>
       <string>A</string>
+      <string>Aacute</string>
+      <string>Abreve</string>
+      <string>Acircumflex</string>
+      <string>Adieresis</string>
+      <string>Adotbelow</string>
+      <string>Agrave</string>
+      <string>Amacron</string>
+      <string>Aogonek</string>
+      <string>Aring</string>
+      <string>Aringacute</string>
+      <string>Atilde</string>
+      <string>AE</string>
+      <string>AEacute</string>
       <string>B</string>
       <string>C</string>
+      <string>Cacute</string>
+      <string>Ccaron</string>
+      <string>Ccedilla</string>
+      <string>Ccircumflex</string>
+      <string>Cdotaccent</string>
       <string>D</string>
+      <string>Eth</string>
+      <string>Dcaron</string>
+      <string>Dcroat</string>
       <string>E</string>
+      <string>Eacute</string>
+      <string>Ebreve</string>
+      <string>Ecaron</string>
+      <string>Ecircumflex</string>
+      <string>Edieresis</string>
+      <string>Edotaccent</string>
+      <string>Edotbelow</string>
+      <string>Egrave</string>
+      <string>Emacron</string>
+      <string>Eogonek</string>
+      <string>Etilde</string>
       <string>F</string>
       <string>G</string>
+      <string>Gbreve</string>
+      <string>Gcaron</string>
+      <string>Gcircumflex</string>
+      <string>Gcommaaccent</string>
+      <string>Gdotaccent</string>
       <string>H</string>
+      <string>Hbar</string>
+      <string>Hcircumflex</string>
       <string>I</string>
+      <string>IJ</string>
+      <string>Iacute</string>
+      <string>Ibreve</string>
+      <string>Icircumflex</string>
+      <string>Idieresis</string>
+      <string>Idotaccent</string>
+      <string>Idotbelow</string>
+      <string>Igrave</string>
+      <string>Imacron</string>
+      <string>Iogonek</string>
+      <string>Itilde</string>
       <string>J</string>
+      <string>Jcircumflex</string>
       <string>K</string>
+      <string>Kcommaaccent</string>
       <string>L</string>
+      <string>Lacute</string>
+      <string>Lcaron</string>
+      <string>Lcommaaccent</string>
+      <string>Ldot</string>
+      <string>Lslash</string>
       <string>M</string>
       <string>N</string>
+      <string>Nacute</string>
+      <string>Ncaron</string>
+      <string>Ncommaaccent</string>
+      <string>Eng</string>
+      <string>Nhookleft</string>
+      <string>Ntilde</string>
       <string>O</string>
+      <string>Oacute</string>
+      <string>Obreve</string>
+      <string>Ocircumflex</string>
+      <string>Odieresis</string>
+      <string>Odotbelow</string>
+      <string>Ograve</string>
+      <string>Ohungarumlaut</string>
+      <string>Omacron</string>
+      <string>Oogonek</string>
+      <string>Oslash</string>
+      <string>Oslashacute</string>
+      <string>Otilde</string>
+      <string>OE</string>
       <string>P</string>
+      <string>Thorn</string>
       <string>Q</string>
       <string>R</string>
+      <string>Racute</string>
+      <string>Rcaron</string>
+      <string>Rcommaaccent</string>
       <string>S</string>
+      <string>Sacute</string>
+      <string>Scaron</string>
+      <string>Scedilla</string>
+      <string>Scircumflex</string>
+      <string>Scommaaccent</string>
+      <string>Germandbls</string>
+      <string>Schwa</string>
       <string>T</string>
+      <string>Tbar</string>
+      <string>Tcaron</string>
+      <string>Tcedilla</string>
+      <string>Tcommaaccent</string>
       <string>U</string>
+      <string>Uacute</string>
+      <string>Ubreve</string>
+      <string>Ucircumflex</string>
+      <string>Udieresis</string>
+      <string>Udotbelow</string>
+      <string>Ugrave</string>
+      <string>Uhungarumlaut</string>
+      <string>Umacron</string>
+      <string>Uogonek</string>
+      <string>Uring</string>
+      <string>Utilde</string>
       <string>V</string>
       <string>W</string>
+      <string>Wacute</string>
+      <string>Wcircumflex</string>
+      <string>Wdieresis</string>
+      <string>Wgrave</string>
       <string>X</string>
       <string>Y</string>
+      <string>Yacute</string>
+      <string>Ycircumflex</string>
+      <string>Ydieresis</string>
+      <string>Ygrave</string>
+      <string>Ymacron</string>
+      <string>Ytilde</string>
       <string>Z</string>
+      <string>Zacute</string>
+      <string>Zcaron</string>
+      <string>Zdotaccent</string>
+      <string>Iacute_J.loclNLD</string>
+      <string>Cacute.loclPLK</string>
+      <string>Nacute.loclPLK</string>
+      <string>Oacute.loclPLK</string>
+      <string>Sacute.loclPLK</string>
+      <string>Zacute.loclPLK</string>
       <string>a</string>
+      <string>aacute</string>
+      <string>abreve</string>
+      <string>acircumflex</string>
+      <string>adieresis</string>
+      <string>adotbelow</string>
+      <string>agrave</string>
+      <string>amacron</string>
+      <string>aogonek</string>
+      <string>aring</string>
+      <string>aringacute</string>
+      <string>atilde</string>
+      <string>ae</string>
+      <string>aeacute</string>
       <string>b</string>
       <string>c</string>
+      <string>cacute</string>
+      <string>ccaron</string>
+      <string>ccedilla</string>
+      <string>ccircumflex</string>
+      <string>cdotaccent</string>
       <string>d</string>
+      <string>eth</string>
+      <string>dcaron</string>
+      <string>dcroat</string>
       <string>e</string>
+      <string>eacute</string>
+      <string>ebreve</string>
+      <string>ecaron</string>
+      <string>ecircumflex</string>
+      <string>edieresis</string>
+      <string>edotaccent</string>
+      <string>edotbelow</string>
+      <string>egrave</string>
+      <string>emacron</string>
+      <string>eogonek</string>
+      <string>etilde</string>
+      <string>schwa</string>
       <string>f</string>
       <string>g</string>
+      <string>gbreve</string>
+      <string>gcaron</string>
+      <string>gcircumflex</string>
+      <string>gcommaaccent</string>
+      <string>gdotaccent</string>
       <string>h</string>
+      <string>hbar</string>
+      <string>hcircumflex</string>
       <string>i</string>
+      <string>idotless</string>
+      <string>iacute</string>
+      <string>ibreve</string>
+      <string>icircumflex</string>
+      <string>idieresis</string>
+      <string>idotbelow</string>
+      <string>igrave</string>
+      <string>ij</string>
+      <string>imacron</string>
+      <string>iogonek</string>
+      <string>itilde</string>
       <string>j</string>
+      <string>jdotless</string>
+      <string>jcircumflex</string>
       <string>k</string>
+      <string>kcommaaccent</string>
+      <string>kgreenlandic</string>
       <string>l</string>
+      <string>lacute</string>
+      <string>lcaron</string>
+      <string>lcommaaccent</string>
+      <string>ldot</string>
+      <string>lslash</string>
       <string>m</string>
       <string>n</string>
+      <string>nacute</string>
+      <string>napostrophe</string>
+      <string>ncaron</string>
+      <string>ncommaaccent</string>
+      <string>eng</string>
+      <string>nhookleft</string>
+      <string>ntilde</string>
       <string>o</string>
+      <string>oacute</string>
+      <string>obreve</string>
+      <string>ocircumflex</string>
+      <string>odieresis</string>
+      <string>odotbelow</string>
+      <string>ograve</string>
+      <string>ohungarumlaut</string>
+      <string>omacron</string>
+      <string>oogonek</string>
+      <string>oslash</string>
+      <string>oslashacute</string>
+      <string>otilde</string>
+      <string>oe</string>
       <string>p</string>
+      <string>thorn</string>
       <string>q</string>
       <string>r</string>
+      <string>racute</string>
+      <string>rcaron</string>
+      <string>rcommaaccent</string>
       <string>s</string>
+      <string>sacute</string>
+      <string>scaron</string>
+      <string>scedilla</string>
+      <string>scircumflex</string>
+      <string>scommaaccent</string>
+      <string>germandbls</string>
       <string>t</string>
+      <string>tbar</string>
+      <string>tcaron</string>
+      <string>tcedilla</string>
+      <string>tcommaaccent</string>
       <string>u</string>
+      <string>uacute</string>
+      <string>ubreve</string>
+      <string>ucircumflex</string>
+      <string>udieresis</string>
+      <string>udotbelow</string>
+      <string>ugrave</string>
+      <string>uhungarumlaut</string>
+      <string>umacron</string>
+      <string>uogonek</string>
+      <string>uring</string>
+      <string>utilde</string>
       <string>v</string>
       <string>w</string>
+      <string>wacute</string>
+      <string>wcircumflex</string>
+      <string>wdieresis</string>
+      <string>wgrave</string>
       <string>x</string>
       <string>y</string>
+      <string>yacute</string>
+      <string>ycircumflex</string>
+      <string>ydieresis</string>
+      <string>ygrave</string>
+      <string>ymacron</string>
+      <string>ytilde</string>
       <string>z</string>
+      <string>zacute</string>
+      <string>zcaron</string>
+      <string>zdotaccent</string>
+      <string>dcaron.alt</string>
+      <string>iacute_j.loclNLD</string>
+      <string>cacute.loclPLK</string>
+      <string>nacute.loclPLK</string>
+      <string>oacute.loclPLK</string>
+      <string>sacute.loclPLK</string>
+      <string>zacute.loclPLK</string>
       <string>x.multiply</string>
       <string>w_w_w.liga</string>
+      <string>ordfeminine</string>
+      <string>ordmasculine</string>
+      <string>mu</string>
       <string>zero</string>
       <string>one</string>
       <string>two</string>
@@ -132,19 +381,29 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>eight</string>
       <string>nine</string>
       <string>zero.ss01</string>
+      <string>onesuperior</string>
+      <string>twosuperior</string>
+      <string>threesuperior</string>
+      <string>foursuperior</string>
+      <string>fraction</string>
+      <string>onehalf</string>
+      <string>onequarter</string>
+      <string>threequarters</string>
       <string>period</string>
       <string>comma</string>
       <string>colon</string>
       <string>semicolon</string>
+      <string>ellipsis</string>
       <string>exclam</string>
+      <string>exclamdown</string>
       <string>question</string>
+      <string>questiondown</string>
       <string>periodcentered</string>
+      <string>bullet</string>
       <string>asterisk</string>
       <string>numbersign</string>
       <string>slash</string>
       <string>backslash</string>
-      <string>asterisk.lc</string>
-      <string>colon.uc</string>
       <string>parenleft</string>
       <string>parenright</string>
       <string>braceleft</string>
@@ -152,16 +411,20 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>bracketleft</string>
       <string>bracketright</string>
       <string>hyphen</string>
+      <string>softhyphen</string>
       <string>endash</string>
       <string>emdash</string>
       <string>underscore</string>
-      <string>hyphen.lc</string>
-      <string>endash.lc</string>
-      <string>emdash.lc</string>
+      <string>quotesinglbase</string>
+      <string>quotedblbase</string>
       <string>quotedblleft</string>
       <string>quotedblright</string>
       <string>quoteleft</string>
       <string>quoteright</string>
+      <string>guillemetleft</string>
+      <string>guillemetright</string>
+      <string>guilsinglleft</string>
+      <string>guilsinglright</string>
       <string>quotedbl</string>
       <string>quotesingle</string>
       <string>hyphen_hyphen.liga</string>
@@ -225,7 +488,15 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>underscore_underscore.liga</string>
       <string>space</string>
       <string>.notdef</string>
+      <string>cent</string>
+      <string>currency</string>
       <string>dollar</string>
+      <string>euro</string>
+      <string>florin</string>
+      <string>sterling</string>
+      <string>yen</string>
+      <string>divisionslash</string>
+      <string>logicalnotReversed</string>
       <string>plus</string>
       <string>minus</string>
       <string>multiply</string>
@@ -233,14 +504,185 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>equal</string>
       <string>greater</string>
       <string>less</string>
+      <string>plusminus</string>
       <string>asciitilde</string>
+      <string>logicalnot</string>
       <string>asciicircum</string>
+      <string>micro</string>
       <string>percent</string>
-      <string>plus.lc</string>
+      <string>perthousand</string>
+      <string>lowerOneEighthBlock</string>
+      <string>lowerOneQuarterBlock</string>
+      <string>lowerThreeEighthsBlock</string>
+      <string>lowerHalfBlock</string>
+      <string>lowerFiveEighthsBlock</string>
+      <string>lowerThreeQuartersBlock</string>
+      <string>lowerSevenEighthsBlock</string>
+      <string>fullBlock</string>
+      <string>upperHalfBlock</string>
+      <string>upperOneEighthBlock</string>
+      <string>leftOneEighthBlock</string>
+      <string>leftOneQuarterBlock</string>
+      <string>leftThreeEighthsBlock</string>
+      <string>leftBlock</string>
+      <string>leftFiveEighthsBlock</string>
+      <string>leftThreeQuartersBlock</string>
+      <string>leftSevenEighthsBlock</string>
+      <string>rightBlock</string>
+      <string>rightOneEighthBlock</string>
+      <string>lowerLeftBlock</string>
+      <string>lowerRightBlock</string>
+      <string>upperLeftBlock</string>
+      <string>upperLeftAndLowerLeftAndLowerRightBlock</string>
+      <string>upperLeftAndLowerRightBlock</string>
+      <string>upperLeftAndUpperRightAndLowerLeftBlock</string>
+      <string>upperLeftAndUpperRightAndLowerRightBlock</string>
+      <string>upperRightBlock</string>
+      <string>upperRightAndLowerLeftBlock</string>
+      <string>upperRightAndLowerLeftAndLowerRightBlock</string>
+      <string>shadelight</string>
+      <string>shademedium</string>
+      <string>shadedark</string>
+      <string>boxDoubleDownAndHorizontal</string>
+      <string>boxDoubleDownAndLeft</string>
+      <string>boxDoubleDownAndRight</string>
+      <string>boxDoubleHorizontal</string>
+      <string>boxDoubleUpAndHorizontal</string>
+      <string>boxDoubleUpAndLeft</string>
+      <string>boxDoubleUpAndRight</string>
+      <string>boxDoubleVertical</string>
+      <string>boxDoubleVerticalAndHorizontal</string>
+      <string>boxDoubleVerticalAndLeft</string>
+      <string>boxDoubleVerticalAndRight</string>
+      <string>boxDownDoubleAndHorizontalSingle</string>
+      <string>boxDownDoubleAndLeftSingle</string>
+      <string>boxDownDoubleAndRightSingle</string>
+      <string>boxDownHeavyAndHorizontalLight</string>
+      <string>boxDownHeavyAndLeftLight</string>
+      <string>boxDownHeavyAndLeftUpLight</string>
+      <string>boxDownHeavyAndRightLight</string>
+      <string>boxDownHeavyAndRightUpLight</string>
+      <string>boxDownHeavyAndUpHorizontalLight</string>
+      <string>boxDownLightAndHorizontalHeavy</string>
+      <string>boxDownLightAndLeftHeavy</string>
+      <string>boxDownLightAndLeftUpHeavy</string>
+      <string>boxDownLightAndRightHeavy</string>
+      <string>boxDownLightAndRightUpHeavy</string>
+      <string>boxDownLightAndUpHorizontalHeavy</string>
+      <string>boxDownSingleAndHorizontalDouble</string>
+      <string>boxDownSingleAndLeftDouble</string>
+      <string>boxDownSingleAndRightDouble</string>
+      <string>boxHeavyDoubleDashHorizontal</string>
+      <string>boxHeavyDoubleDashVertical</string>
+      <string>boxHeavyDown</string>
+      <string>boxHeavyDownAndHorizontal</string>
+      <string>boxHeavyDownAndLeft</string>
+      <string>boxHeavyDownAndRight</string>
+      <string>boxHeavyHorizontal</string>
+      <string>boxHeavyLeft</string>
+      <string>boxHeavyLeftAndLightRight</string>
+      <string>boxHeavyQuadrupleDashHorizontal</string>
+      <string>boxHeavyQuadrupleDashVertical</string>
+      <string>boxHeavyRight</string>
+      <string>boxHeavyTripleDashHorizontal</string>
+      <string>boxHeavyTripleDashVertical</string>
+      <string>boxHeavyUp</string>
+      <string>boxHeavyUpAndHorizontal</string>
+      <string>boxHeavyUpAndLeft</string>
+      <string>boxHeavyUpAndLightDown</string>
+      <string>boxHeavyUpAndRight</string>
+      <string>boxHeavyVertical</string>
+      <string>boxHeavyVerticalAndHorizontal</string>
+      <string>boxHeavyVerticalAndLeft</string>
+      <string>boxHeavyVerticalAndRight</string>
+      <string>boxLeftDownHeavyAndRightUpLight</string>
+      <string>boxLeftHeavyAndRightDownLight</string>
+      <string>boxLeftHeavyAndRightUpLight</string>
+      <string>boxLeftHeavyAndRightVerticalLight</string>
+      <string>boxLeftLightAndRightDownHeavy</string>
+      <string>boxLeftLightAndRightUpHeavy</string>
+      <string>boxLeftLightAndRightVerticalHeavy</string>
+      <string>boxLeftUpHeavyAndRightDownLight</string>
+      <string>boxLightArcDownAndLeft</string>
+      <string>boxLightArcDownAndRight</string>
+      <string>boxLightArcUpAndLeft</string>
+      <string>boxLightArcUpAndRight</string>
+      <string>boxLightDiagonalCross</string>
+      <string>boxLightDiagonalUpperLeftToLowerRight</string>
+      <string>boxLightDiagonalUpperRightToLowerLeft</string>
+      <string>boxLightDoubleDashHorizontal</string>
+      <string>boxLightDoubleDashVertical</string>
+      <string>boxLightDown</string>
+      <string>boxLightDownAndHorizontal</string>
+      <string>boxLightDownAndLeft</string>
+      <string>boxLightDownAndRight</string>
+      <string>boxLightHorizontal</string>
+      <string>boxLightLeft</string>
+      <string>boxLightLeftAndHeavyRight</string>
+      <string>boxLightQuadrupleDashHorizontal</string>
+      <string>boxLightQuadrupleDashVertical</string>
+      <string>boxLightRight</string>
+      <string>boxLightTripleDashHorizontal</string>
+      <string>boxLightTripleDashVertical</string>
+      <string>boxLightUp</string>
+      <string>boxLightUpAndHeavyDown</string>
+      <string>boxLightUpAndHorizontal</string>
+      <string>boxLightUpAndLeft</string>
+      <string>boxLightUpAndRight</string>
+      <string>boxLightVertical</string>
+      <string>boxLightVerticalAndHorizontal</string>
+      <string>boxLightVerticalAndLeft</string>
+      <string>boxLightVerticalAndRight</string>
+      <string>boxRightDownHeavyAndLeftUpLight</string>
+      <string>boxRightHeavyAndLeftDownLight</string>
+      <string>boxRightHeavyAndLeftUpLight</string>
+      <string>boxRightHeavyAndLeftVerticalLight</string>
+      <string>boxRightLightAndLeftDownHeavy</string>
+      <string>boxRightLightAndLeftUpHeavy</string>
+      <string>boxRightLightAndLeftVerticalHeavy</string>
+      <string>boxRightUpHeavyAndLeftDownLight</string>
+      <string>boxUpDoubleAndHorizontalSingle</string>
+      <string>boxUpDoubleAndLeftSingle</string>
+      <string>boxUpDoubleAndRightSingle</string>
+      <string>boxUpHeavyAndDownHorizontalLight</string>
+      <string>boxUpHeavyAndHorizontalLight</string>
+      <string>boxUpHeavyAndLeftDownLight</string>
+      <string>boxUpHeavyAndLeftLight</string>
+      <string>boxUpHeavyAndRightDownLight</string>
+      <string>boxUpHeavyAndRightLight</string>
+      <string>boxUpLightAndDownHorizontalHeavy</string>
+      <string>boxUpLightAndHorizontalHeavy</string>
+      <string>boxUpLightAndLeftDownHeavy</string>
+      <string>boxUpLightAndLeftHeavy</string>
+      <string>boxUpLightAndRightDownHeavy</string>
+      <string>boxUpLightAndRightHeavy</string>
+      <string>boxUpSingleAndHorizontalDouble</string>
+      <string>boxUpSingleAndLeftDouble</string>
+      <string>boxUpSingleAndRightDouble</string>
+      <string>boxVerticalDoubleAndHorizontalSingle</string>
+      <string>boxVerticalDoubleAndLeftSingle</string>
+      <string>boxVerticalDoubleAndRightSingle</string>
+      <string>boxVerticalHeavyAndHorizontalLight</string>
+      <string>boxVerticalHeavyAndLeftLight</string>
+      <string>boxVerticalHeavyAndRightLight</string>
+      <string>boxVerticalLightAndHorizontalHeavy</string>
+      <string>boxVerticalLightAndLeftHeavy</string>
+      <string>boxVerticalLightAndRightHeavy</string>
+      <string>boxVerticalSingleAndHorizontalDouble</string>
+      <string>boxVerticalSingleAndLeftDouble</string>
+      <string>boxVerticalSingleAndRightDouble</string>
       <string>at</string>
       <string>ampersand</string>
+      <string>paragraph</string>
+      <string>section</string>
+      <string>copyright</string>
+      <string>registered</string>
+      <string>trademark</string>
+      <string>degree</string>
       <string>bar</string>
-      <string>at.lc</string>
+      <string>brokenbar</string>
+      <string>dagger</string>
+      <string>daggerdbl</string>
       <string>ampersand_ampersand.liga</string>
       <string>bar_hyphen.liga</string>
       <string>bar_braceright.liga</string>
@@ -312,8 +754,518 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>asciitilde_asciitilde_greater.liga</string>
       <string>asciicircum_equal.liga</string>
       <string>percent_percent.liga</string>
+      <string>dieresiscomb</string>
+      <string>dotaccentcomb</string>
+      <string>gravecomb</string>
+      <string>acutecomb</string>
+      <string>hungarumlautcomb</string>
+      <string>circumflexcomb</string>
+      <string>caroncomb</string>
+      <string>brevecomb</string>
+      <string>ringcomb</string>
+      <string>tildecomb</string>
+      <string>macroncomb</string>
+      <string>commaturnedabovecomb</string>
+      <string>dotbelowcomb</string>
+      <string>commaaccentcomb</string>
+      <string>cedillacomb</string>
+      <string>ogonekcomb</string>
+      <string>dieresis</string>
+      <string>dotaccent</string>
       <string>grave</string>
+      <string>acute</string>
+      <string>hungarumlaut</string>
+      <string>circumflex</string>
+      <string>caron</string>
+      <string>breve</string>
+      <string>ring</string>
+      <string>tilde</string>
+      <string>macron</string>
+      <string>cedilla</string>
+      <string>ogonek</string>
+      <string>dieresiscomb.case</string>
+      <string>dotaccentcomb.case</string>
+      <string>gravecomb.case</string>
+      <string>acutecomb.case</string>
+      <string>hungarumlautcomb.case</string>
+      <string>circumflexcomb.case</string>
+      <string>caroncomb.case</string>
+      <string>brevecomb.case</string>
+      <string>ringcomb.case</string>
+      <string>tildecomb.case</string>
+      <string>macroncomb.case</string>
+      <string>acutecomb.loclPLK</string>
+      <string>acutecomb.case.loclPLK</string>
       <string>LIG</string>
     </array>
+    <key>public.postscriptNames</key>
+    <dict>
+      <key>Adotbelow</key>
+      <string>uni1EA0</string>
+      <key>Edotbelow</key>
+      <string>uni1EB8</string>
+      <key>Etilde</key>
+      <string>uni1EBC</string>
+      <key>Gcommaaccent</key>
+      <string>uni0122</string>
+      <key>Germandbls</key>
+      <string>uni1E9E</string>
+      <key>Idotbelow</key>
+      <string>uni1ECA</string>
+      <key>Kcommaaccent</key>
+      <string>uni0136</string>
+      <key>Lcommaaccent</key>
+      <string>uni013B</string>
+      <key>Ncommaaccent</key>
+      <string>uni0145</string>
+      <key>Nhookleft</key>
+      <string>uni019D</string>
+      <key>Odotbelow</key>
+      <string>uni1ECC</string>
+      <key>Oogonek</key>
+      <string>uni01EA</string>
+      <key>Rcommaaccent</key>
+      <string>uni0156</string>
+      <key>Schwa</key>
+      <string>uni018F</string>
+      <key>Scommaaccent</key>
+      <string>uni0218</string>
+      <key>Tcedilla</key>
+      <string>uni0162</string>
+      <key>Tcommaaccent</key>
+      <string>uni021A</string>
+      <key>Udotbelow</key>
+      <string>uni1EE4</string>
+      <key>Ymacron</key>
+      <string>uni0232</string>
+      <key>Ytilde</key>
+      <string>uni1EF8</string>
+      <key>adotbelow</key>
+      <string>uni1EA1</string>
+      <key>boxDoubleDownAndHorizontal</key>
+      <string>uni2566</string>
+      <key>boxDoubleDownAndLeft</key>
+      <string>uni2557</string>
+      <key>boxDoubleDownAndRight</key>
+      <string>uni2554</string>
+      <key>boxDoubleHorizontal</key>
+      <string>uni2550</string>
+      <key>boxDoubleUpAndHorizontal</key>
+      <string>uni2569</string>
+      <key>boxDoubleUpAndLeft</key>
+      <string>uni255D</string>
+      <key>boxDoubleUpAndRight</key>
+      <string>uni255A</string>
+      <key>boxDoubleVertical</key>
+      <string>uni2551</string>
+      <key>boxDoubleVerticalAndHorizontal</key>
+      <string>uni256C</string>
+      <key>boxDoubleVerticalAndLeft</key>
+      <string>uni2563</string>
+      <key>boxDoubleVerticalAndRight</key>
+      <string>uni2560</string>
+      <key>boxDownDoubleAndHorizontalSingle</key>
+      <string>uni2565</string>
+      <key>boxDownDoubleAndLeftSingle</key>
+      <string>uni2556</string>
+      <key>boxDownDoubleAndRightSingle</key>
+      <string>uni2553</string>
+      <key>boxDownHeavyAndHorizontalLight</key>
+      <string>uni2530</string>
+      <key>boxDownHeavyAndLeftLight</key>
+      <string>uni2512</string>
+      <key>boxDownHeavyAndLeftUpLight</key>
+      <string>uni2527</string>
+      <key>boxDownHeavyAndRightLight</key>
+      <string>uni250E</string>
+      <key>boxDownHeavyAndRightUpLight</key>
+      <string>uni251F</string>
+      <key>boxDownHeavyAndUpHorizontalLight</key>
+      <string>uni2541</string>
+      <key>boxDownLightAndHorizontalHeavy</key>
+      <string>uni252F</string>
+      <key>boxDownLightAndLeftHeavy</key>
+      <string>uni2511</string>
+      <key>boxDownLightAndLeftUpHeavy</key>
+      <string>uni2529</string>
+      <key>boxDownLightAndRightHeavy</key>
+      <string>uni250D</string>
+      <key>boxDownLightAndRightUpHeavy</key>
+      <string>uni2521</string>
+      <key>boxDownLightAndUpHorizontalHeavy</key>
+      <string>uni2547</string>
+      <key>boxDownSingleAndHorizontalDouble</key>
+      <string>uni2564</string>
+      <key>boxDownSingleAndLeftDouble</key>
+      <string>uni2555</string>
+      <key>boxDownSingleAndRightDouble</key>
+      <string>uni2552</string>
+      <key>boxHeavyDoubleDashHorizontal</key>
+      <string>uni254D</string>
+      <key>boxHeavyDoubleDashVertical</key>
+      <string>uni254F</string>
+      <key>boxHeavyDown</key>
+      <string>uni257B</string>
+      <key>boxHeavyDownAndHorizontal</key>
+      <string>uni2533</string>
+      <key>boxHeavyDownAndLeft</key>
+      <string>uni2513</string>
+      <key>boxHeavyDownAndRight</key>
+      <string>uni250F</string>
+      <key>boxHeavyHorizontal</key>
+      <string>uni2501</string>
+      <key>boxHeavyLeft</key>
+      <string>uni2578</string>
+      <key>boxHeavyLeftAndLightRight</key>
+      <string>uni257E</string>
+      <key>boxHeavyQuadrupleDashHorizontal</key>
+      <string>uni2509</string>
+      <key>boxHeavyQuadrupleDashVertical</key>
+      <string>uni250B</string>
+      <key>boxHeavyRight</key>
+      <string>uni257A</string>
+      <key>boxHeavyTripleDashHorizontal</key>
+      <string>uni2505</string>
+      <key>boxHeavyTripleDashVertical</key>
+      <string>uni2507</string>
+      <key>boxHeavyUp</key>
+      <string>uni2579</string>
+      <key>boxHeavyUpAndHorizontal</key>
+      <string>uni253B</string>
+      <key>boxHeavyUpAndLeft</key>
+      <string>uni251B</string>
+      <key>boxHeavyUpAndLightDown</key>
+      <string>uni257F</string>
+      <key>boxHeavyUpAndRight</key>
+      <string>uni2517</string>
+      <key>boxHeavyVertical</key>
+      <string>uni2503</string>
+      <key>boxHeavyVerticalAndHorizontal</key>
+      <string>uni254B</string>
+      <key>boxHeavyVerticalAndLeft</key>
+      <string>uni252B</string>
+      <key>boxHeavyVerticalAndRight</key>
+      <string>uni2523</string>
+      <key>boxLeftDownHeavyAndRightUpLight</key>
+      <string>uni2545</string>
+      <key>boxLeftHeavyAndRightDownLight</key>
+      <string>uni252D</string>
+      <key>boxLeftHeavyAndRightUpLight</key>
+      <string>uni2535</string>
+      <key>boxLeftHeavyAndRightVerticalLight</key>
+      <string>uni253D</string>
+      <key>boxLeftLightAndRightDownHeavy</key>
+      <string>uni2532</string>
+      <key>boxLeftLightAndRightUpHeavy</key>
+      <string>uni253A</string>
+      <key>boxLeftLightAndRightVerticalHeavy</key>
+      <string>uni254A</string>
+      <key>boxLeftUpHeavyAndRightDownLight</key>
+      <string>uni2543</string>
+      <key>boxLightArcDownAndLeft</key>
+      <string>uni256E</string>
+      <key>boxLightArcDownAndRight</key>
+      <string>uni256D</string>
+      <key>boxLightArcUpAndLeft</key>
+      <string>uni256F</string>
+      <key>boxLightArcUpAndRight</key>
+      <string>uni2570</string>
+      <key>boxLightDiagonalCross</key>
+      <string>uni2573</string>
+      <key>boxLightDiagonalUpperLeftToLowerRight</key>
+      <string>uni2572</string>
+      <key>boxLightDiagonalUpperRightToLowerLeft</key>
+      <string>uni2571</string>
+      <key>boxLightDoubleDashHorizontal</key>
+      <string>uni254C</string>
+      <key>boxLightDoubleDashVertical</key>
+      <string>uni254E</string>
+      <key>boxLightDown</key>
+      <string>uni2577</string>
+      <key>boxLightDownAndHorizontal</key>
+      <string>uni252C</string>
+      <key>boxLightDownAndLeft</key>
+      <string>uni2510</string>
+      <key>boxLightDownAndRight</key>
+      <string>uni250C</string>
+      <key>boxLightHorizontal</key>
+      <string>uni2500</string>
+      <key>boxLightLeft</key>
+      <string>uni2574</string>
+      <key>boxLightLeftAndHeavyRight</key>
+      <string>uni257C</string>
+      <key>boxLightQuadrupleDashHorizontal</key>
+      <string>uni2508</string>
+      <key>boxLightQuadrupleDashVertical</key>
+      <string>uni250A</string>
+      <key>boxLightRight</key>
+      <string>uni2576</string>
+      <key>boxLightTripleDashHorizontal</key>
+      <string>uni2504</string>
+      <key>boxLightTripleDashVertical</key>
+      <string>uni2506</string>
+      <key>boxLightUp</key>
+      <string>uni2575</string>
+      <key>boxLightUpAndHeavyDown</key>
+      <string>uni257D</string>
+      <key>boxLightUpAndHorizontal</key>
+      <string>uni2534</string>
+      <key>boxLightUpAndLeft</key>
+      <string>uni2518</string>
+      <key>boxLightUpAndRight</key>
+      <string>uni2514</string>
+      <key>boxLightVertical</key>
+      <string>uni2502</string>
+      <key>boxLightVerticalAndHorizontal</key>
+      <string>uni253C</string>
+      <key>boxLightVerticalAndLeft</key>
+      <string>uni2524</string>
+      <key>boxLightVerticalAndRight</key>
+      <string>uni251C</string>
+      <key>boxRightDownHeavyAndLeftUpLight</key>
+      <string>uni2546</string>
+      <key>boxRightHeavyAndLeftDownLight</key>
+      <string>uni252E</string>
+      <key>boxRightHeavyAndLeftUpLight</key>
+      <string>uni2536</string>
+      <key>boxRightHeavyAndLeftVerticalLight</key>
+      <string>uni253E</string>
+      <key>boxRightLightAndLeftDownHeavy</key>
+      <string>uni2531</string>
+      <key>boxRightLightAndLeftUpHeavy</key>
+      <string>uni2539</string>
+      <key>boxRightLightAndLeftVerticalHeavy</key>
+      <string>uni2549</string>
+      <key>boxRightUpHeavyAndLeftDownLight</key>
+      <string>uni2544</string>
+      <key>boxUpDoubleAndHorizontalSingle</key>
+      <string>uni2568</string>
+      <key>boxUpDoubleAndLeftSingle</key>
+      <string>uni255C</string>
+      <key>boxUpDoubleAndRightSingle</key>
+      <string>uni2559</string>
+      <key>boxUpHeavyAndDownHorizontalLight</key>
+      <string>uni2540</string>
+      <key>boxUpHeavyAndHorizontalLight</key>
+      <string>uni2538</string>
+      <key>boxUpHeavyAndLeftDownLight</key>
+      <string>uni2526</string>
+      <key>boxUpHeavyAndLeftLight</key>
+      <string>uni251A</string>
+      <key>boxUpHeavyAndRightDownLight</key>
+      <string>uni251E</string>
+      <key>boxUpHeavyAndRightLight</key>
+      <string>uni2516</string>
+      <key>boxUpLightAndDownHorizontalHeavy</key>
+      <string>uni2548</string>
+      <key>boxUpLightAndHorizontalHeavy</key>
+      <string>uni2537</string>
+      <key>boxUpLightAndLeftDownHeavy</key>
+      <string>uni252A</string>
+      <key>boxUpLightAndLeftHeavy</key>
+      <string>uni2519</string>
+      <key>boxUpLightAndRightDownHeavy</key>
+      <string>uni2522</string>
+      <key>boxUpLightAndRightHeavy</key>
+      <string>uni2515</string>
+      <key>boxUpSingleAndHorizontalDouble</key>
+      <string>uni2567</string>
+      <key>boxUpSingleAndLeftDouble</key>
+      <string>uni255B</string>
+      <key>boxUpSingleAndRightDouble</key>
+      <string>uni2558</string>
+      <key>boxVerticalDoubleAndHorizontalSingle</key>
+      <string>uni256B</string>
+      <key>boxVerticalDoubleAndLeftSingle</key>
+      <string>uni2562</string>
+      <key>boxVerticalDoubleAndRightSingle</key>
+      <string>uni255F</string>
+      <key>boxVerticalHeavyAndHorizontalLight</key>
+      <string>uni2542</string>
+      <key>boxVerticalHeavyAndLeftLight</key>
+      <string>uni2528</string>
+      <key>boxVerticalHeavyAndRightLight</key>
+      <string>uni2520</string>
+      <key>boxVerticalLightAndHorizontalHeavy</key>
+      <string>uni253F</string>
+      <key>boxVerticalLightAndLeftHeavy</key>
+      <string>uni2525</string>
+      <key>boxVerticalLightAndRightHeavy</key>
+      <string>uni251D</string>
+      <key>boxVerticalSingleAndHorizontalDouble</key>
+      <string>uni256A</string>
+      <key>boxVerticalSingleAndLeftDouble</key>
+      <string>uni2561</string>
+      <key>boxVerticalSingleAndRightDouble</key>
+      <string>uni255E</string>
+      <key>brevecomb</key>
+      <string>uni0306</string>
+      <key>brevecomb.case</key>
+      <string>uni0306.case</string>
+      <key>caroncomb</key>
+      <string>uni030C</string>
+      <key>caroncomb.case</key>
+      <string>uni030C.case</string>
+      <key>cedillacomb</key>
+      <string>uni0327</string>
+      <key>circumflexcomb</key>
+      <string>uni0302</string>
+      <key>circumflexcomb.case</key>
+      <string>uni0302.case</string>
+      <key>commaaccentcomb</key>
+      <string>uni0326</string>
+      <key>commaturnedabovecomb</key>
+      <string>uni0312</string>
+      <key>dieresiscomb</key>
+      <string>uni0308</string>
+      <key>dieresiscomb.case</key>
+      <string>uni0308.case</string>
+      <key>divisionslash</key>
+      <string>uni2215</string>
+      <key>dotaccentcomb</key>
+      <string>uni0307</string>
+      <key>dotaccentcomb.case</key>
+      <string>uni0307.case</string>
+      <key>edotbelow</key>
+      <string>uni1EB9</string>
+      <key>etilde</key>
+      <string>uni1EBD</string>
+      <key>euro</key>
+      <string>Euro</string>
+      <key>foursuperior</key>
+      <string>uni2074</string>
+      <key>fullBlock</key>
+      <string>block</string>
+      <key>gcommaaccent</key>
+      <string>uni0123</string>
+      <key>guillemetleft</key>
+      <string>guillemotleft</string>
+      <key>guillemetright</key>
+      <string>guillemotright</string>
+      <key>hungarumlautcomb</key>
+      <string>uni030B</string>
+      <key>hungarumlautcomb.case</key>
+      <string>uni030B.case</string>
+      <key>idotbelow</key>
+      <string>uni1ECB</string>
+      <key>idotless</key>
+      <string>dotlessi</string>
+      <key>jdotless</key>
+      <string>uni0237</string>
+      <key>kcommaaccent</key>
+      <string>uni0137</string>
+      <key>lcommaaccent</key>
+      <string>uni013C</string>
+      <key>leftBlock</key>
+      <string>lfblock</string>
+      <key>leftFiveEighthsBlock</key>
+      <string>uni258B</string>
+      <key>leftOneEighthBlock</key>
+      <string>uni258F</string>
+      <key>leftOneQuarterBlock</key>
+      <string>uni258E</string>
+      <key>leftSevenEighthsBlock</key>
+      <string>uni2589</string>
+      <key>leftThreeEighthsBlock</key>
+      <string>uni258D</string>
+      <key>leftThreeQuartersBlock</key>
+      <string>uni258A</string>
+      <key>logicalnotReversed</key>
+      <string>revlogicalnot</string>
+      <key>lowerFiveEighthsBlock</key>
+      <string>uni2585</string>
+      <key>lowerHalfBlock</key>
+      <string>dnblock</string>
+      <key>lowerLeftBlock</key>
+      <string>uni2596</string>
+      <key>lowerOneEighthBlock</key>
+      <string>uni2581</string>
+      <key>lowerOneQuarterBlock</key>
+      <string>uni2582</string>
+      <key>lowerRightBlock</key>
+      <string>uni2597</string>
+      <key>lowerSevenEighthsBlock</key>
+      <string>uni2587</string>
+      <key>lowerThreeEighthsBlock</key>
+      <string>uni2583</string>
+      <key>lowerThreeQuartersBlock</key>
+      <string>uni2586</string>
+      <key>macroncomb</key>
+      <string>uni0304</string>
+      <key>macroncomb.case</key>
+      <string>uni0304.case</string>
+      <key>micro</key>
+      <string>uni00B5</string>
+      <key>mu</key>
+      <string>uni03BC</string>
+      <key>ncommaaccent</key>
+      <string>uni0146</string>
+      <key>nhookleft</key>
+      <string>uni0272</string>
+      <key>odotbelow</key>
+      <string>uni1ECD</string>
+      <key>ogonekcomb</key>
+      <string>uni0328</string>
+      <key>onesuperior</key>
+      <string>uni00B9</string>
+      <key>oogonek</key>
+      <string>uni01EB</string>
+      <key>rcommaaccent</key>
+      <string>uni0157</string>
+      <key>rightBlock</key>
+      <string>rtblock</string>
+      <key>rightOneEighthBlock</key>
+      <string>uni2595</string>
+      <key>ringcomb</key>
+      <string>uni030A</string>
+      <key>ringcomb.case</key>
+      <string>uni030A.case</string>
+      <key>schwa</key>
+      <string>uni0259</string>
+      <key>scommaaccent</key>
+      <string>uni0219</string>
+      <key>shadedark</key>
+      <string>dkshade</string>
+      <key>shadelight</key>
+      <string>ltshade</string>
+      <key>shademedium</key>
+      <string>shade</string>
+      <key>softhyphen</key>
+      <string>uni00AD</string>
+      <key>tcedilla</key>
+      <string>uni0163</string>
+      <key>tcommaaccent</key>
+      <string>uni021B</string>
+      <key>threesuperior</key>
+      <string>uni00B3</string>
+      <key>twosuperior</key>
+      <string>uni00B2</string>
+      <key>udotbelow</key>
+      <string>uni1EE5</string>
+      <key>upperHalfBlock</key>
+      <string>upblock</string>
+      <key>upperLeftAndLowerLeftAndLowerRightBlock</key>
+      <string>uni2599</string>
+      <key>upperLeftAndLowerRightBlock</key>
+      <string>uni259A</string>
+      <key>upperLeftAndUpperRightAndLowerLeftBlock</key>
+      <string>uni259B</string>
+      <key>upperLeftAndUpperRightAndLowerRightBlock</key>
+      <string>uni259C</string>
+      <key>upperLeftBlock</key>
+      <string>uni2598</string>
+      <key>upperOneEighthBlock</key>
+      <string>uni2594</string>
+      <key>upperRightAndLowerLeftAndLowerRightBlock</key>
+      <string>uni259F</string>
+      <key>upperRightAndLowerLeftBlock</key>
+      <string>uni259E</string>
+      <key>upperRightBlock</key>
+      <string>uni259D</string>
+      <key>ymacron</key>
+      <string>uni0233</string>
+      <key>ytilde</key>
+      <string>uni1EF9</string>
+    </dict>
   </dict>
 </plist>

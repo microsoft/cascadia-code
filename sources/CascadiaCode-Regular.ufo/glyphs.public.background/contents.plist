@@ -2,32 +2,66 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>AE</key>
+    <string>A_E_.glif</string>
+    <key>Abreve</key>
+    <string>A_breve.glif</string>
+    <key>Aogonek</key>
+    <string>A_ogonek.glif</string>
+    <key>Aring</key>
+    <string>A_ring.glif</string>
+    <key>Atilde</key>
+    <string>A_tilde.glif</string>
     <key>B</key>
     <string>B_.glif</string>
-    <key>C</key>
-    <string>C_.glif</string>
+    <key>Eng</key>
+    <string>E_ng.glif</string>
+    <key>Eogonek</key>
+    <string>E_ogonek.glif</string>
     <key>F</key>
     <string>F_.glif</string>
     <key>G</key>
     <string>G_.glif</string>
+    <key>Germandbls</key>
+    <string>G_ermandbls.glif</string>
+    <key>IJ</key>
+    <string>I_J_.glif</string>
+    <key>Iogonek</key>
+    <string>I_ogonek.glif</string>
     <key>K</key>
     <string>K_.glif</string>
     <key>L</key>
     <string>L_.glif</string>
     <key>N</key>
     <string>N_.glif</string>
+    <key>Ncommaaccent</key>
+    <string>N_commaaccent.glif</string>
+    <key>OE</key>
+    <string>O_E_.glif</string>
+    <key>Oogonek</key>
+    <string>O_ogonek.glif</string>
     <key>R</key>
     <string>R_.glif</string>
     <key>S</key>
     <string>S_.glif</string>
+    <key>Schwa</key>
+    <string>S_chwa.glif</string>
+    <key>Uogonek</key>
+    <string>U_ogonek.glif</string>
+    <key>W</key>
+    <string>W_.glif</string>
     <key>X</key>
     <string>X_.glif</string>
     <key>Y</key>
     <string>Y_.glif</string>
     <key>a</key>
     <string>a.glif</string>
+    <key>ae</key>
+    <string>ae.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
+    <key>aogonek</key>
+    <string>aogonek.glif</string>
     <key>asciicircum_equal.liga</key>
     <string>asciicircum_equal.liga.glif</string>
     <key>asciitilde_asciitilde.liga</key>
@@ -44,8 +78,6 @@
     <string>asciitilde_hyphen.liga.glif</string>
     <key>at</key>
     <string>at.glif</string>
-    <key>at.lc</key>
-    <string>at.lc.glif</string>
     <key>b</key>
     <string>b.glif</string>
     <key>bar_bar_bar_greater.liga</key>
@@ -68,22 +100,36 @@
     <string>bracketleft_bar.liga.glif</string>
     <key>bracketright_numbersign.liga</key>
     <string>bracketright_numbersign.liga.glif</string>
+    <key>brokenbar</key>
+    <string>brokenbar.glif</string>
     <key>c</key>
     <string>c.glif</string>
-    <key>colon.uc</key>
-    <string>colon.uc.glif</string>
     <key>colon_colon_equal.liga</key>
     <string>colon_colon_equal.liga.glif</string>
     <key>colon_equal.liga</key>
     <string>colon_equal.liga.glif</string>
     <key>colon_less.liga</key>
     <string>colon_less.liga.glif</string>
+    <key>copyright</key>
+    <string>copyright.glif</string>
+    <key>currency</key>
+    <string>currency.glif</string>
     <key>d</key>
     <string>d.glif</string>
+    <key>daggerdbl</key>
+    <string>daggerdbl.glif</string>
+    <key>dcaron</key>
+    <string>dcaron.glif</string>
+    <key>dcaron.alt</key>
+    <string>dcaron.alt.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
+    <key>eng</key>
+    <string>eng.glif</string>
+    <key>eogonek</key>
+    <string>eogonek.glif</string>
     <key>equal_colon_equal.liga</key>
     <string>equal_colon_equal.liga.glif</string>
     <key>equal_equal_greater.liga</key>
@@ -102,8 +148,14 @@
     <string>f.glif</string>
     <key>five</key>
     <string>five.glif</string>
+    <key>florin</key>
+    <string>florin.glif</string>
+    <key>foursuperior</key>
+    <string>foursuperior.glif</string>
     <key>g</key>
     <string>g.glif</string>
+    <key>germandbls</key>
+    <string>germandbls.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>greater_equal.liga</key>
@@ -134,6 +186,10 @@
     <string>hyphen_less.liga.glif</string>
     <key>hyphen_less_less.liga</key>
     <string>hyphen_less_less.liga.glif</string>
+    <key>ij</key>
+    <string>ij.glif</string>
+    <key>iogonek</key>
+    <string>iogonek.glif</string>
     <key>j</key>
     <string>j.glif</string>
     <key>k</key>
@@ -174,6 +230,8 @@
     <string>less_slash_greater.liga.glif</string>
     <key>m</key>
     <string>m.glif</string>
+    <key>macroncomb.case</key>
+    <string>macroncomb.case.glif</string>
     <key>multiply</key>
     <string>multiply.glif</string>
     <key>n</key>
@@ -192,10 +250,22 @@
     <string>numbersign_question.liga.glif</string>
     <key>numbersign_underscore_parenleft.liga</key>
     <string>numbersign_underscore_parenleft.liga.glif</string>
+    <key>oe</key>
+    <string>oe.glif</string>
+    <key>ogonekcomb</key>
+    <string>ogonekcomb.glif</string>
     <key>one</key>
     <string>one.glif</string>
+    <key>oogonek</key>
+    <string>oogonek.glif</string>
+    <key>ordfeminine</key>
+    <string>ordfeminine.glif</string>
+    <key>ordmasculine</key>
+    <string>ordmasculine.glif</string>
     <key>p</key>
     <string>p.glif</string>
+    <key>paragraph</key>
+    <string>paragraph.glif</string>
     <key>parenleft</key>
     <string>parenleft.glif</string>
     <key>percent</key>
@@ -208,20 +278,36 @@
     <string>question.glif</string>
     <key>question_period.liga</key>
     <string>question_period.liga.glif</string>
+    <key>quotesinglbase</key>
+    <string>quotesinglbase.glif</string>
     <key>r</key>
     <string>r.glif</string>
+    <key>registered</key>
+    <string>registered.glif</string>
     <key>s</key>
     <string>s.glif</string>
+    <key>section</key>
+    <string>section.glif</string>
     <key>six</key>
     <string>six.glif</string>
     <key>slash_greater.liga</key>
     <string>slash_greater.liga.glif</string>
     <key>t</key>
     <string>t.glif</string>
+    <key>thorn</key>
+    <string>thorn.glif</string>
     <key>three</key>
     <string>three.glif</string>
+    <key>threesuperior</key>
+    <string>threesuperior.glif</string>
+    <key>tildecomb.case</key>
+    <string>tildecomb.case.glif</string>
+    <key>trademark</key>
+    <string>trademark.glif</string>
     <key>two</key>
     <string>two.glif</string>
+    <key>twosuperior</key>
+    <string>twosuperior.glif</string>
     <key>u</key>
     <string>u.glif</string>
     <key>v</key>
