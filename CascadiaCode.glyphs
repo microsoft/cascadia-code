@@ -11598,7 +11598,7 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2019-10-03 04:00:30 +0000";
+lastChange = "2019-10-04 01:19:43 +0000";
 layers = (
 {
 anchors = (
@@ -11653,23 +11653,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"528 584 LINE",
-"854 1060 LINE",
-"1094 1060 LINE",
-"656 458 LINE",
-"346 0 LINE",
-"106 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "532 458 LINE",
 "106 1060 LINE",
 "346 1060 LINE",
 "672 584 LINE",
 "1094 0 LINE",
 "854 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"528 584 LINE",
+"854 1060 LINE",
+"1094 1060 LINE",
+"656 458 LINE",
+"346 0 LINE",
+"106 0 LINE"
 );
 }
 );
