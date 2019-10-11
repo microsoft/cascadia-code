@@ -94,6 +94,18 @@ This is the planned roadmap for Cascadia Code. Please be aware that the delivery
 
 ![VS Code Settings](images/vscode-ligature-settings.png "VS Code Ligatures Setting")
 
+# Installing Cascadia Code in Visual Studio 2019
+
+1. Go to `Tools > Options`in Visual Studio 2019.
+2. Enter "Fonts and Colors" in search field or go to `Environment > Fonts and Colors`.
+3. Select `Text Editor` in `Show settings for:`.
+4. In the `Fonts` Dropdown select `Cascadia Code`.
+5. Press `Ok` and you're good to go.
+
+> Note: If you've installed font and it does not get applied in Visual Studio 2019, try restarting Visual Studio 2019.
+
+![Visual Studio 2019 Settings](vs2019-font-settings.png "Visual Studio 2019 Font Settings")
+
 # Code of Conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
