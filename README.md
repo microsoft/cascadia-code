@@ -104,7 +104,7 @@ This is the planned roadmap for Cascadia Code. Please be aware that the delivery
 
 > Note: If you've installed font and it does not get applied in Visual Studio 2019, try restarting Visual Studio 2019.
 
-![Visual Studio 2019 Settings](vs2019-font-settings.png "Visual Studio 2019 Font Settings")
+![Visual Studio 2019 Settings](images/vs2019-font-settings.png "Visual Studio 2019 Font Settings")
 
 # Code of Conduct
 
