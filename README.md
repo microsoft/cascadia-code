@@ -118,6 +118,16 @@ This is the planned roadmap for Cascadia Code. Please be aware that the delivery
 
 ![Windows Terminal (Preview) Settings](images/windows-terminal-preview-font-settings-json.png "Windows Terminal (Preview) Font Settings")
 
+# Installing Cascadia Code in Intellij IDE 2019
+
+1. Go to the Dropdown`File > Settings` or hit `Ctrl + Alt + S` in Intellij IDE 2019.
+2. Enter "Appearance" in search field or go to `Editor > Font`.
+4. Select `Cascadia Code` in the Dropdown.
+5. Select Enable Font Ligatures
+6. Press Ok and you're good to go.
+
+![Intellij IDE 2019 Settings](images/intellij-ide-2019-font-settings.png "Intellij IDE 2019 Font Settings")
+
 # Code of Conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
