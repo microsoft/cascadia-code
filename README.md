@@ -118,7 +118,7 @@ This is the planned roadmap for Cascadia Code. Please be aware that the delivery
 
 ![Windows Terminal (Preview) Settings](images/windows-terminal-preview-font-settings-json.png "Windows Terminal (Preview) Font Settings")
 
-# Installing Cascadia Code in IntelliJ IDE 2019
+# Setting Cascadia Code in IntelliJ IDE 2019
 
 1. Go to the Dropdown `File > Settings` or hit `Ctrl + Alt + S` in IntelliJ IDE 2019.
 2. Enter "Appearance" in search field or go to `Editor > Font`.
