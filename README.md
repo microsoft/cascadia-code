@@ -94,39 +94,39 @@ This is the planned roadmap for Cascadia Code. Please be aware that the delivery
 
 ![VS Code Settings](images/vscode-ligature-settings.png "VS Code Ligatures Setting")
 
-# Installing Cascadia Code in Visual Studio 2019
+# Setting Cascadia Code in Visual Studio 2019
 
-1. Go to `Tools > Options`in Visual Studio 2019.
+1. Go to `Tools > Options` in Visual Studio 2019.
 2. Enter "Fonts and Colors" in search field or go to `Environment > Fonts and Colors`.
 3. Select `Text Editor` in `Show settings for:`.
 4. In the `Fonts` Dropdown select `Cascadia Code`.
 5. Press `Ok` and you're good to go.
 
-> Note: If you've installed font and it does not get applied in Visual Studio 2019, try restarting Visual Studio 2019.
+> Note: If you've installed the font and it does not get applied in Visual Studio 2019, try restarting Visual Studio 2019.
 
 ![Visual Studio 2019 Settings](images/vs2019-font-settings.png "Visual Studio 2019 Font Settings")  
 
-# Installing Cascadia Code in Windows Terminal (Preview)
+# Setting Cascadia Code in Windows Terminal (Preview)
 
-1. Go to the Dropdown`Preferences` or hit `Ctrl + ,` in Windows Terminal (Preview).
+1. Go to the Dropdown `Preferences` or hit `Ctrl + ,` in Windows Terminal (Preview).
 2. Open the `profiles.json` in an editor like VS Code.
 3. Scroll down to the `"profiles"` Property.
 4. Look for your desired profile.
-5. change the `"fontFace"` attribute to `"fontFace": "Cascadia Code"`.
+5. Change the `"fontFace"` attribute to `"fontFace": "Cascadia Code"`.
 
 ![Windows Terminal (Preview) Settings](images/windows-terminal-preview-font-settings.png "Windows Terminal (Preview) Font Settings")
 
 ![Windows Terminal (Preview) Settings](images/windows-terminal-preview-font-settings-json.png "Windows Terminal (Preview) Font Settings")
 
-# Installing Cascadia Code in Intellij IDE 2019
+# Installing Cascadia Code in IntelliJ IDE 2019
 
-1. Go to the Dropdown`File > Settings` or hit `Ctrl + Alt + S` in Intellij IDE 2019.
+1. Go to the Dropdown `File > Settings` or hit `Ctrl + Alt + S` in IntelliJ IDE 2019.
 2. Enter "Appearance" in search field or go to `Editor > Font`.
 4. Select `Cascadia Code` in the Dropdown.
 5. Select Enable Font Ligatures
 6. Press Ok and you're good to go.
 
-![Intellij IDE 2019 Settings](images/intellij-ide-2019-font-settings.png "Intellij IDE 2019 Font Settings")
+![IntelliJ IDE 2019 Settings](images/intellij-ide-2019-font-settings.png "IntelliJ IDE 2019 Font Settings")
 
 # Code of Conduct
 
