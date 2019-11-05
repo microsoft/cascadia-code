@@ -50,28 +50,28 @@ While the UFO can be edited and OTF / TTF exported directly from any of the afor
 3) While not necessary, we recommend creating a virtual environment
 
 ```
-    # create new virtual environment called e.g. 'fonttools-venv', or anything you like
-    python3 -m venv fonttools-venv
+# create new virtual environment called e.g. 'fonttools-venv', or anything you like
+python3 -m venv fonttools-venv
 
-    # source the `activate` shell script to enter the environment (Un*x); to exit, just type `deactivate`
-    . fonttools-venv/bin/activate
+# source the `activate` shell script to enter the environment (Un*x); to exit, just type `deactivate`
+. fonttools-venv/bin/activate
 
-    # to activate the virtual environment in Windows `cmd.exe`, do
-    fonttools-venv\Scripts\activate.bat
+# to activate the virtual environment in Windows `cmd.exe`, do
+fonttools-venv\Scripts\activate.bat
 ```
 
 4) Install required font libraries. Navigate to the Cascadia Code folder downloaded in step 1. 
 
 ```
-    pip3 install -r requirements.txt
-    pip3 install git+https://github.com/daltonmaag/vttLib.git
+pip3 install -r requirements.txt
+pip3 install git+https://github.com/daltonmaag/vttLib.git
 ```
 
 
 5) Build the font from source:
 
 ```
-    pip3 build.py sources
+pip3 build.py sources
 ```
 
 This will build the TTF font in the "build" folder. 
