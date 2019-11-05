@@ -47,29 +47,32 @@ While the UFO can be edited and OTF / TTF exported directly from any of the afor
 
 2) Install [Python 3](https://realpython.com/installing-python/). If you're on a Windows machine, you may also need to install `pip`; [https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py)
 
-3) While not necessary, we recommend creating a virtual environment:
-'''
-# create new virtual environment called e.g. 'fonttools-venv', or anything you like
-python3 -m venv fonttools-venv
+3) While not necessary, we recommend creating a virtual environment
 
-# source the `activate` shell script to enter the environment (Un*x); to exit, just type `deactivate`
-. fonttools-venv/bin/activate
+```
+    # create new virtual environment called e.g. 'fonttools-venv', or anything you like
+    python3 -m venv fonttools-venv
 
-# to activate the virtual environment in Windows `cmd.exe`, do
-fonttools-venv\Scripts\activate.bat
-'''
+    # source the `activate` shell script to enter the environment (Un*x); to exit, just type `deactivate`
+    . fonttools-venv/bin/activate
+
+    # to activate the virtual environment in Windows `cmd.exe`, do
+    fonttools-venv\Scripts\activate.bat
+```
 
 4) Install required font libraries. Navigate to the Cascadia Code folder downloaded in step 1. 
 
-'''
-pip3 install -r requirements.txt
-pip3 install git+https://github.com/daltonmaag/vttLib.git
-'''
+```
+    pip3 install -r requirements.txt
+    pip3 install git+https://github.com/daltonmaag/vttLib.git
+```
+
 
 5) Build the font from source:
-'''
-pip3 build.py sources
-'''
+
+```
+    pip3 build.py sources
+```
 
 This will build the TTF font in the "build" folder. 
 
@@ -102,7 +105,7 @@ This is the planned roadmap for Cascadia Code. Please be aware that the delivery
 
 | Delivery Date | Feature | Description |
 | ------------- | ------- | ----------- |
-| October 2019 | Conversion of GitHub Pipeline/Workflow | Converting the GitHub pipeline to UFO to allow for users who don't have Macs to contribute to the source code. |
+| November 2019 | Conversion of GitHub Pipeline/Workflow | Converting the GitHub pipeline to UFO to allow for users who don't have Macs to contribute to the source code. |
 | November 2019 | Character Set Extensions | The addition of Greek, Cyrillic, and Vietnamese, and other characters to the main character set. |
 | March 2020 | Weight Axis | Converting Cascadia Code into a variable font with milestone light and bold weights. |
 | March 2020 | Arabic and Hebrew Characters | The addition of Arabic and Hebrew characters to the main character set. |
