@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kadescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="049B"/>
+  <anchor x="590" y="1060" name="top"/>
+  <outline>
+    <contour>
+      <point x="864" y="0" type="line"/>
+      <point x="1076" y="0" type="line"/>
+      <point x="1076" y="70" type="line" smooth="yes"/>
+      <point x="1076" y="483"/>
+      <point x="960" y="608"/>
+      <point x="576" y="608" type="curve" smooth="yes"/>
+      <point x="365" y="608" type="line"/>
+      <point x="365" y="418" type="line"/>
+      <point x="596" y="418" type="line" smooth="yes"/>
+      <point x="811" y="418"/>
+      <point x="864" y="356"/>
+      <point x="864" y="110" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="168" y="0" type="line"/>
+      <point x="380" y="0" type="line"/>
+      <point x="380" y="1060" type="line"/>
+      <point x="168" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="698" y="437" type="line"/>
+      <point x="1088" y="1060" type="line"/>
+      <point x="851" y="1060" type="line"/>
+      <point x="533" y="539" type="line"/>
+    </contour>
+    <contour>
+      <point x="988" y="-270" type="line"/>
+      <point x="1200" y="-270" type="line"/>
+      <point x="1200" y="190" type="line"/>
+      <point x="988" y="190" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/01 17:30:16</string>
+    </dict>
+  </lib>
+</glyph>

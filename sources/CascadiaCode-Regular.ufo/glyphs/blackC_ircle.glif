@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackCircle" format="2">
+  <advance width="1200"/>
+  <unicode hex="25CF"/>
+  <outline>
+    <contour>
+      <point x="605" y="130" type="curve" smooth="yes"/>
+      <point x="937" y="130"/>
+      <point x="1155" y="360"/>
+      <point x="1155" y="710" type="curve" smooth="yes"/>
+      <point x="1155" y="1060"/>
+      <point x="937" y="1290"/>
+      <point x="605" y="1290" type="curve" smooth="yes"/>
+      <point x="267" y="1290"/>
+      <point x="45" y="1060"/>
+      <point x="45" y="710" type="curve" smooth="yes"/>
+      <point x="45" y="360"/>
+      <point x="267" y="130"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 17:12:27</string>
+    </dict>
+  </lib>
+</glyph>
