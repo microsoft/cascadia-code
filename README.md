@@ -53,7 +53,7 @@ While the UFO can be edited and OTF / TTF exported directly from any of the afor
 # create new virtual environment called e.g. 'fonttools-venv', or anything you like
 python3 -m venv fonttools-venv
 
-# source the `activate` shell script to enter the environment (Un*x); to exit, just type `deactivate`
+# source the `activate` shell script to enter the environment; to exit, just type `deactivate`
 . fonttools-venv/bin/activate
 
 # to activate the virtual environment in Windows `cmd.exe`, do
