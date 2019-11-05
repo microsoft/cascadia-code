@@ -71,7 +71,7 @@ pip3 install git+https://github.com/daltonmaag/vttLib.git
 5) Build the font from source:
 
 ```
-pip3 build.py sources
+python3 build.py sources
 ```
 
 This will build the TTF font in the "build" folder. 
