@@ -662,8 +662,6 @@
     <string>asciitilde.glif</string>
     <key>asciitilde_asciitilde.liga</key>
     <string>asciitilde_asciitilde.liga.glif</string>
-    <key>asciitilde_asciitilde_greater.liga</key>
-    <string>asciitilde_asciitilde_greater.liga.glif</string>
     <key>asciitilde_at.liga</key>
     <string>asciitilde_at.liga.glif</string>
     <key>asciitilde_equal.liga</key>
@@ -720,10 +718,54 @@
     <string>beta.glif</string>
     <key>blackCircle</key>
     <string>blackC_ircle.glif</string>
+    <key>blackDiamond</key>
+    <string>blackD_iamond.glif</string>
+    <key>blackHexagon</key>
+    <string>blackH_exagon.glif</string>
+    <key>blackHorizontalEllipse</key>
+    <string>blackH_orizontalE_llipse.glif</string>
+    <key>blackInWhiteDiamond</key>
+    <string>blackI_nW_hiteD_iamond.glif</string>
+    <key>blackLargeCircle</key>
+    <string>blackL_argeC_ircle.glif</string>
+    <key>blackLargeSquare</key>
+    <string>blackL_argeS_quare.glif</string>
+    <key>blackMediumDiamond</key>
+    <string>blackM_ediumD_iamond.glif</string>
+    <key>blackMediumDownTriangleCentred</key>
+    <string>blackM_ediumD_ownT_riangleC_entred.glif</string>
+    <key>blackMediumLeftTriangleCentred</key>
+    <string>blackM_ediumL_eftT_riangleC_entred.glif</string>
+    <key>blackMediumLozenge</key>
+    <string>blackM_ediumL_ozenge.glif</string>
+    <key>blackMediumRightTriangleCentred</key>
+    <string>blackM_ediumR_ightT_riangleC_entred.glif</string>
+    <key>blackMediumUpTriangleCentred</key>
+    <string>blackM_ediumU_pT_riangleC_entred.glif</string>
+    <key>blackParallelogram</key>
+    <string>blackP_arallelogram.glif</string>
+    <key>blackPentagon</key>
+    <string>blackP_entagon.glif</string>
+    <key>blackSmallDiamond</key>
+    <string>blackS_mallD_iamond.glif</string>
+    <key>blackSmallLozenge</key>
+    <string>blackS_mallL_ozenge.glif</string>
     <key>blackSmallSquare</key>
     <string>blackS_mallS_quare.glif</string>
     <key>blackSquare</key>
     <string>blackS_quare.glif</string>
+    <key>blackVerticalEllipse</key>
+    <string>blackV_erticalE_llipse.glif</string>
+    <key>blackVerticalRect</key>
+    <string>blackV_erticalR_ect.glif</string>
+    <key>blackVerysmallSquare</key>
+    <string>blackV_erysmallS_quare.glif</string>
+    <key>blank-braille</key>
+    <string>blank-braille.glif</string>
+    <key>bottomHalfBlackCircle</key>
+    <string>bottomH_alfB_lackC_ircle.glif</string>
+    <key>bottomHalfBlackDiamond</key>
+    <string>bottomH_alfB_lackD_iamond.glif</string>
     <key>boxDoubleDownAndHorizontal</key>
     <string>boxD_oubleD_ownA_ndH_orizontal.glif</string>
     <key>boxDoubleDownAndLeft</key>
@@ -1012,6 +1054,8 @@
     <string>bullet.glif</string>
     <key>bulletoperator</key>
     <string>bulletoperator.glif</string>
+    <key>bullseye</key>
+    <string>bullseye.glif</string>
     <key>c</key>
     <string>c.glif</string>
     <key>cacute</key>
@@ -1084,6 +1128,8 @@
     <string>commaturnedmod.glif</string>
     <key>copyright</key>
     <string>copyright.glif</string>
+    <key>crosshatchFillSquare</key>
+    <string>crosshatchF_illS_quare.glif</string>
     <key>currency</key>
     <string>currency.glif</string>
     <key>d</key>
@@ -1106,6 +1152,8 @@
     <string>degree.glif</string>
     <key>delta</key>
     <string>delta.glif</string>
+    <key>diagonalcrosshatchFillSquare</key>
+    <string>diagonalcrosshatchF_illS_quare.glif</string>
     <key>diamondBlackSuit</key>
     <string>diamondB_lackS_uit.glif</string>
     <key>dieresis</key>
@@ -1136,10 +1184,530 @@
     <string>dotaccentcomb.case.glif</string>
     <key>dotbelowcomb</key>
     <string>dotbelowcomb.glif</string>
+    <key>dots1-braille</key>
+    <string>dots1-braille.glif</string>
+    <key>dots12-braille</key>
+    <string>dots12-braille.glif</string>
+    <key>dots123-braille</key>
+    <string>dots123-braille.glif</string>
+    <key>dots1234-braille</key>
+    <string>dots1234-braille.glif</string>
+    <key>dots12345-braille</key>
+    <string>dots12345-braille.glif</string>
+    <key>dots123456-braille</key>
+    <string>dots123456-braille.glif</string>
+    <key>dots1234567-braille</key>
+    <string>dots1234567-braille.glif</string>
+    <key>dots12345678-braille</key>
+    <string>dots12345678-braille.glif</string>
+    <key>dots1234568-braille</key>
+    <string>dots1234568-braille.glif</string>
+    <key>dots123457-braille</key>
+    <string>dots123457-braille.glif</string>
+    <key>dots1234578-braille</key>
+    <string>dots1234578-braille.glif</string>
+    <key>dots123458-braille</key>
+    <string>dots123458-braille.glif</string>
+    <key>dots12346-braille</key>
+    <string>dots12346-braille.glif</string>
+    <key>dots123467-braille</key>
+    <string>dots123467-braille.glif</string>
+    <key>dots1234678-braille</key>
+    <string>dots1234678-braille.glif</string>
+    <key>dots123468-braille</key>
+    <string>dots123468-braille.glif</string>
+    <key>dots12347-braille</key>
+    <string>dots12347-braille.glif</string>
+    <key>dots123478-braille</key>
+    <string>dots123478-braille.glif</string>
+    <key>dots12348-braille</key>
+    <string>dots12348-braille.glif</string>
+    <key>dots1235-braille</key>
+    <string>dots1235-braille.glif</string>
+    <key>dots12356-braille</key>
+    <string>dots12356-braille.glif</string>
+    <key>dots123567-braille</key>
+    <string>dots123567-braille.glif</string>
+    <key>dots1235678-braille</key>
+    <string>dots1235678-braille.glif</string>
+    <key>dots123568-braille</key>
+    <string>dots123568-braille.glif</string>
+    <key>dots12357-braille</key>
+    <string>dots12357-braille.glif</string>
+    <key>dots123578-braille</key>
+    <string>dots123578-braille.glif</string>
+    <key>dots12358-braille</key>
+    <string>dots12358-braille.glif</string>
+    <key>dots1236-braille</key>
+    <string>dots1236-braille.glif</string>
+    <key>dots12367-braille</key>
+    <string>dots12367-braille.glif</string>
+    <key>dots123678-braille</key>
+    <string>dots123678-braille.glif</string>
+    <key>dots12368-braille</key>
+    <string>dots12368-braille.glif</string>
+    <key>dots1237-braille</key>
+    <string>dots1237-braille.glif</string>
+    <key>dots12378-braille</key>
+    <string>dots12378-braille.glif</string>
+    <key>dots1238-braille</key>
+    <string>dots1238-braille.glif</string>
+    <key>dots124-braille</key>
+    <string>dots124-braille.glif</string>
+    <key>dots1245-braille</key>
+    <string>dots1245-braille.glif</string>
+    <key>dots12456-braille</key>
+    <string>dots12456-braille.glif</string>
+    <key>dots124567-braille</key>
+    <string>dots124567-braille.glif</string>
+    <key>dots1245678-braille</key>
+    <string>dots1245678-braille.glif</string>
+    <key>dots124568-braille</key>
+    <string>dots124568-braille.glif</string>
+    <key>dots12457-braille</key>
+    <string>dots12457-braille.glif</string>
+    <key>dots124578-braille</key>
+    <string>dots124578-braille.glif</string>
+    <key>dots12458-braille</key>
+    <string>dots12458-braille.glif</string>
+    <key>dots1246-braille</key>
+    <string>dots1246-braille.glif</string>
+    <key>dots12467-braille</key>
+    <string>dots12467-braille.glif</string>
+    <key>dots124678-braille</key>
+    <string>dots124678-braille.glif</string>
+    <key>dots12468-braille</key>
+    <string>dots12468-braille.glif</string>
+    <key>dots1247-braille</key>
+    <string>dots1247-braille.glif</string>
+    <key>dots12478-braille</key>
+    <string>dots12478-braille.glif</string>
+    <key>dots1248-braille</key>
+    <string>dots1248-braille.glif</string>
+    <key>dots125-braille</key>
+    <string>dots125-braille.glif</string>
+    <key>dots1256-braille</key>
+    <string>dots1256-braille.glif</string>
+    <key>dots12567-braille</key>
+    <string>dots12567-braille.glif</string>
+    <key>dots125678-braille</key>
+    <string>dots125678-braille.glif</string>
+    <key>dots12568-braille</key>
+    <string>dots12568-braille.glif</string>
+    <key>dots1257-braille</key>
+    <string>dots1257-braille.glif</string>
+    <key>dots12578-braille</key>
+    <string>dots12578-braille.glif</string>
+    <key>dots1258-braille</key>
+    <string>dots1258-braille.glif</string>
+    <key>dots126-braille</key>
+    <string>dots126-braille.glif</string>
+    <key>dots1267-braille</key>
+    <string>dots1267-braille.glif</string>
+    <key>dots12678-braille</key>
+    <string>dots12678-braille.glif</string>
+    <key>dots1268-braille</key>
+    <string>dots1268-braille.glif</string>
+    <key>dots127-braille</key>
+    <string>dots127-braille.glif</string>
+    <key>dots1278-braille</key>
+    <string>dots1278-braille.glif</string>
+    <key>dots128-braille</key>
+    <string>dots128-braille.glif</string>
+    <key>dots13-braille</key>
+    <string>dots13-braille.glif</string>
+    <key>dots134-braille</key>
+    <string>dots134-braille.glif</string>
+    <key>dots1345-braille</key>
+    <string>dots1345-braille.glif</string>
+    <key>dots13456-braille</key>
+    <string>dots13456-braille.glif</string>
+    <key>dots134567-braille</key>
+    <string>dots134567-braille.glif</string>
+    <key>dots1345678-braille</key>
+    <string>dots1345678-braille.glif</string>
+    <key>dots134568-braille</key>
+    <string>dots134568-braille.glif</string>
+    <key>dots13457-braille</key>
+    <string>dots13457-braille.glif</string>
+    <key>dots134578-braille</key>
+    <string>dots134578-braille.glif</string>
+    <key>dots13458-braille</key>
+    <string>dots13458-braille.glif</string>
+    <key>dots1346-braille</key>
+    <string>dots1346-braille.glif</string>
+    <key>dots13467-braille</key>
+    <string>dots13467-braille.glif</string>
+    <key>dots134678-braille</key>
+    <string>dots134678-braille.glif</string>
+    <key>dots13468-braille</key>
+    <string>dots13468-braille.glif</string>
+    <key>dots1347-braille</key>
+    <string>dots1347-braille.glif</string>
+    <key>dots13478-braille</key>
+    <string>dots13478-braille.glif</string>
+    <key>dots1348-braille</key>
+    <string>dots1348-braille.glif</string>
+    <key>dots135-braille</key>
+    <string>dots135-braille.glif</string>
+    <key>dots1356-braille</key>
+    <string>dots1356-braille.glif</string>
+    <key>dots13567-braille</key>
+    <string>dots13567-braille.glif</string>
+    <key>dots135678-braille</key>
+    <string>dots135678-braille.glif</string>
+    <key>dots13568-braille</key>
+    <string>dots13568-braille.glif</string>
+    <key>dots1357-braille</key>
+    <string>dots1357-braille.glif</string>
+    <key>dots13578-braille</key>
+    <string>dots13578-braille.glif</string>
+    <key>dots1358-braille</key>
+    <string>dots1358-braille.glif</string>
+    <key>dots136-braille</key>
+    <string>dots136-braille.glif</string>
+    <key>dots1367-braille</key>
+    <string>dots1367-braille.glif</string>
+    <key>dots13678-braille</key>
+    <string>dots13678-braille.glif</string>
+    <key>dots1368-braille</key>
+    <string>dots1368-braille.glif</string>
+    <key>dots137-braille</key>
+    <string>dots137-braille.glif</string>
+    <key>dots1378-braille</key>
+    <string>dots1378-braille.glif</string>
+    <key>dots138-braille</key>
+    <string>dots138-braille.glif</string>
+    <key>dots14-braille</key>
+    <string>dots14-braille.glif</string>
+    <key>dots145-braille</key>
+    <string>dots145-braille.glif</string>
+    <key>dots1456-braille</key>
+    <string>dots1456-braille.glif</string>
+    <key>dots14567-braille</key>
+    <string>dots14567-braille.glif</string>
+    <key>dots145678-braille</key>
+    <string>dots145678-braille.glif</string>
+    <key>dots14568-braille</key>
+    <string>dots14568-braille.glif</string>
+    <key>dots1457-braille</key>
+    <string>dots1457-braille.glif</string>
+    <key>dots14578-braille</key>
+    <string>dots14578-braille.glif</string>
+    <key>dots1458-braille</key>
+    <string>dots1458-braille.glif</string>
+    <key>dots146-braille</key>
+    <string>dots146-braille.glif</string>
+    <key>dots1467-braille</key>
+    <string>dots1467-braille.glif</string>
+    <key>dots14678-braille</key>
+    <string>dots14678-braille.glif</string>
+    <key>dots1468-braille</key>
+    <string>dots1468-braille.glif</string>
+    <key>dots147-braille</key>
+    <string>dots147-braille.glif</string>
+    <key>dots1478-braille</key>
+    <string>dots1478-braille.glif</string>
+    <key>dots148-braille</key>
+    <string>dots148-braille.glif</string>
+    <key>dots15-braille</key>
+    <string>dots15-braille.glif</string>
+    <key>dots156-braille</key>
+    <string>dots156-braille.glif</string>
+    <key>dots1567-braille</key>
+    <string>dots1567-braille.glif</string>
+    <key>dots15678-braille</key>
+    <string>dots15678-braille.glif</string>
+    <key>dots1568-braille</key>
+    <string>dots1568-braille.glif</string>
+    <key>dots157-braille</key>
+    <string>dots157-braille.glif</string>
+    <key>dots1578-braille</key>
+    <string>dots1578-braille.glif</string>
+    <key>dots158-braille</key>
+    <string>dots158-braille.glif</string>
+    <key>dots16-braille</key>
+    <string>dots16-braille.glif</string>
+    <key>dots167-braille</key>
+    <string>dots167-braille.glif</string>
+    <key>dots1678-braille</key>
+    <string>dots1678-braille.glif</string>
+    <key>dots168-braille</key>
+    <string>dots168-braille.glif</string>
+    <key>dots17-braille</key>
+    <string>dots17-braille.glif</string>
+    <key>dots178-braille</key>
+    <string>dots178-braille.glif</string>
+    <key>dots18-braille</key>
+    <string>dots18-braille.glif</string>
+    <key>dots2-braille</key>
+    <string>dots2-braille.glif</string>
+    <key>dots23-braille</key>
+    <string>dots23-braille.glif</string>
+    <key>dots234-braille</key>
+    <string>dots234-braille.glif</string>
+    <key>dots2345-braille</key>
+    <string>dots2345-braille.glif</string>
+    <key>dots23456-braille</key>
+    <string>dots23456-braille.glif</string>
+    <key>dots234567-braille</key>
+    <string>dots234567-braille.glif</string>
+    <key>dots2345678-braille</key>
+    <string>dots2345678-braille.glif</string>
+    <key>dots234568-braille</key>
+    <string>dots234568-braille.glif</string>
+    <key>dots23457-braille</key>
+    <string>dots23457-braille.glif</string>
+    <key>dots234578-braille</key>
+    <string>dots234578-braille.glif</string>
+    <key>dots23458-braille</key>
+    <string>dots23458-braille.glif</string>
+    <key>dots2346-braille</key>
+    <string>dots2346-braille.glif</string>
+    <key>dots23467-braille</key>
+    <string>dots23467-braille.glif</string>
+    <key>dots234678-braille</key>
+    <string>dots234678-braille.glif</string>
+    <key>dots23468-braille</key>
+    <string>dots23468-braille.glif</string>
+    <key>dots2347-braille</key>
+    <string>dots2347-braille.glif</string>
+    <key>dots23478-braille</key>
+    <string>dots23478-braille.glif</string>
+    <key>dots2348-braille</key>
+    <string>dots2348-braille.glif</string>
+    <key>dots235-braille</key>
+    <string>dots235-braille.glif</string>
+    <key>dots2356-braille</key>
+    <string>dots2356-braille.glif</string>
+    <key>dots23567-braille</key>
+    <string>dots23567-braille.glif</string>
+    <key>dots235678-braille</key>
+    <string>dots235678-braille.glif</string>
+    <key>dots23568-braille</key>
+    <string>dots23568-braille.glif</string>
+    <key>dots2357-braille</key>
+    <string>dots2357-braille.glif</string>
+    <key>dots23578-braille</key>
+    <string>dots23578-braille.glif</string>
+    <key>dots2358-braille</key>
+    <string>dots2358-braille.glif</string>
+    <key>dots236-braille</key>
+    <string>dots236-braille.glif</string>
+    <key>dots2367-braille</key>
+    <string>dots2367-braille.glif</string>
+    <key>dots23678-braille</key>
+    <string>dots23678-braille.glif</string>
+    <key>dots2368-braille</key>
+    <string>dots2368-braille.glif</string>
+    <key>dots237-braille</key>
+    <string>dots237-braille.glif</string>
+    <key>dots2378-braille</key>
+    <string>dots2378-braille.glif</string>
+    <key>dots238-braille</key>
+    <string>dots238-braille.glif</string>
+    <key>dots24-braille</key>
+    <string>dots24-braille.glif</string>
+    <key>dots245-braille</key>
+    <string>dots245-braille.glif</string>
+    <key>dots2456-braille</key>
+    <string>dots2456-braille.glif</string>
+    <key>dots24567-braille</key>
+    <string>dots24567-braille.glif</string>
+    <key>dots245678-braille</key>
+    <string>dots245678-braille.glif</string>
+    <key>dots24568-braille</key>
+    <string>dots24568-braille.glif</string>
+    <key>dots2457-braille</key>
+    <string>dots2457-braille.glif</string>
+    <key>dots24578-braille</key>
+    <string>dots24578-braille.glif</string>
+    <key>dots2458-braille</key>
+    <string>dots2458-braille.glif</string>
+    <key>dots246-braille</key>
+    <string>dots246-braille.glif</string>
+    <key>dots2467-braille</key>
+    <string>dots2467-braille.glif</string>
+    <key>dots24678-braille</key>
+    <string>dots24678-braille.glif</string>
+    <key>dots2468-braille</key>
+    <string>dots2468-braille.glif</string>
+    <key>dots247-braille</key>
+    <string>dots247-braille.glif</string>
+    <key>dots2478-braille</key>
+    <string>dots2478-braille.glif</string>
+    <key>dots248-braille</key>
+    <string>dots248-braille.glif</string>
+    <key>dots25-braille</key>
+    <string>dots25-braille.glif</string>
+    <key>dots256-braille</key>
+    <string>dots256-braille.glif</string>
+    <key>dots2567-braille</key>
+    <string>dots2567-braille.glif</string>
+    <key>dots25678-braille</key>
+    <string>dots25678-braille.glif</string>
+    <key>dots2568-braille</key>
+    <string>dots2568-braille.glif</string>
+    <key>dots257-braille</key>
+    <string>dots257-braille.glif</string>
+    <key>dots2578-braille</key>
+    <string>dots2578-braille.glif</string>
+    <key>dots258-braille</key>
+    <string>dots258-braille.glif</string>
+    <key>dots26-braille</key>
+    <string>dots26-braille.glif</string>
+    <key>dots267-braille</key>
+    <string>dots267-braille.glif</string>
+    <key>dots2678-braille</key>
+    <string>dots2678-braille.glif</string>
+    <key>dots268-braille</key>
+    <string>dots268-braille.glif</string>
+    <key>dots27-braille</key>
+    <string>dots27-braille.glif</string>
+    <key>dots278-braille</key>
+    <string>dots278-braille.glif</string>
+    <key>dots28-braille</key>
+    <string>dots28-braille.glif</string>
+    <key>dots3-braille</key>
+    <string>dots3-braille.glif</string>
+    <key>dots34-braille</key>
+    <string>dots34-braille.glif</string>
+    <key>dots345-braille</key>
+    <string>dots345-braille.glif</string>
+    <key>dots3456-braille</key>
+    <string>dots3456-braille.glif</string>
+    <key>dots34567-braille</key>
+    <string>dots34567-braille.glif</string>
+    <key>dots345678-braille</key>
+    <string>dots345678-braille.glif</string>
+    <key>dots34568-braille</key>
+    <string>dots34568-braille.glif</string>
+    <key>dots3457-braille</key>
+    <string>dots3457-braille.glif</string>
+    <key>dots34578-braille</key>
+    <string>dots34578-braille.glif</string>
+    <key>dots3458-braille</key>
+    <string>dots3458-braille.glif</string>
+    <key>dots346-braille</key>
+    <string>dots346-braille.glif</string>
+    <key>dots3467-braille</key>
+    <string>dots3467-braille.glif</string>
+    <key>dots34678-braille</key>
+    <string>dots34678-braille.glif</string>
+    <key>dots3468-braille</key>
+    <string>dots3468-braille.glif</string>
+    <key>dots347-braille</key>
+    <string>dots347-braille.glif</string>
+    <key>dots3478-braille</key>
+    <string>dots3478-braille.glif</string>
+    <key>dots348-braille</key>
+    <string>dots348-braille.glif</string>
+    <key>dots35-braille</key>
+    <string>dots35-braille.glif</string>
+    <key>dots356-braille</key>
+    <string>dots356-braille.glif</string>
+    <key>dots3567-braille</key>
+    <string>dots3567-braille.glif</string>
+    <key>dots35678-braille</key>
+    <string>dots35678-braille.glif</string>
+    <key>dots3568-braille</key>
+    <string>dots3568-braille.glif</string>
+    <key>dots357-braille</key>
+    <string>dots357-braille.glif</string>
+    <key>dots3578-braille</key>
+    <string>dots3578-braille.glif</string>
+    <key>dots358-braille</key>
+    <string>dots358-braille.glif</string>
+    <key>dots36-braille</key>
+    <string>dots36-braille.glif</string>
+    <key>dots367-braille</key>
+    <string>dots367-braille.glif</string>
+    <key>dots3678-braille</key>
+    <string>dots3678-braille.glif</string>
+    <key>dots368-braille</key>
+    <string>dots368-braille.glif</string>
+    <key>dots37-braille</key>
+    <string>dots37-braille.glif</string>
+    <key>dots378-braille</key>
+    <string>dots378-braille.glif</string>
+    <key>dots38-braille</key>
+    <string>dots38-braille.glif</string>
+    <key>dots4-braille</key>
+    <string>dots4-braille.glif</string>
+    <key>dots45-braille</key>
+    <string>dots45-braille.glif</string>
+    <key>dots456-braille</key>
+    <string>dots456-braille.glif</string>
+    <key>dots4567-braille</key>
+    <string>dots4567-braille.glif</string>
+    <key>dots45678-braille</key>
+    <string>dots45678-braille.glif</string>
+    <key>dots4568-braille</key>
+    <string>dots4568-braille.glif</string>
+    <key>dots457-braille</key>
+    <string>dots457-braille.glif</string>
+    <key>dots4578-braille</key>
+    <string>dots4578-braille.glif</string>
+    <key>dots458-braille</key>
+    <string>dots458-braille.glif</string>
+    <key>dots46-braille</key>
+    <string>dots46-braille.glif</string>
+    <key>dots467-braille</key>
+    <string>dots467-braille.glif</string>
+    <key>dots4678-braille</key>
+    <string>dots4678-braille.glif</string>
+    <key>dots468-braille</key>
+    <string>dots468-braille.glif</string>
+    <key>dots47-braille</key>
+    <string>dots47-braille.glif</string>
+    <key>dots478-braille</key>
+    <string>dots478-braille.glif</string>
+    <key>dots48-braille</key>
+    <string>dots48-braille.glif</string>
+    <key>dots5-braille</key>
+    <string>dots5-braille.glif</string>
+    <key>dots56-braille</key>
+    <string>dots56-braille.glif</string>
+    <key>dots567-braille</key>
+    <string>dots567-braille.glif</string>
+    <key>dots5678-braille</key>
+    <string>dots5678-braille.glif</string>
+    <key>dots568-braille</key>
+    <string>dots568-braille.glif</string>
+    <key>dots57-braille</key>
+    <string>dots57-braille.glif</string>
+    <key>dots578-braille</key>
+    <string>dots578-braille.glif</string>
+    <key>dots58-braille</key>
+    <string>dots58-braille.glif</string>
+    <key>dots6-braille</key>
+    <string>dots6-braille.glif</string>
+    <key>dots67-braille</key>
+    <string>dots67-braille.glif</string>
+    <key>dots678-braille</key>
+    <string>dots678-braille.glif</string>
+    <key>dots68-braille</key>
+    <string>dots68-braille.glif</string>
+    <key>dots7-braille</key>
+    <string>dots7-braille.glif</string>
+    <key>dots78-braille</key>
+    <string>dots78-braille.glif</string>
+    <key>dots8-braille</key>
+    <string>dots8-braille.glif</string>
+    <key>dottedCircle</key>
+    <string>dottedC_ircle.glif</string>
+    <key>dottedSquare</key>
+    <string>dottedS_quare.glif</string>
     <key>downArrow</key>
     <string>downA_rrow.glif</string>
+    <key>downBlackSmallTriangle</key>
+    <string>downB_lackS_mallT_riangle.glif</string>
     <key>downBlackTriangle</key>
     <string>downB_lackT_riangle.glif</string>
+    <key>downWhiteSmallTriangle</key>
+    <string>downW_hiteS_mallT_riangle.glif</string>
+    <key>downWhiteTriangle</key>
+    <string>downW_hiteT_riangle.glif</string>
     <key>dze-cy</key>
     <string>dze-cy.glif</string>
     <key>dzhe-cy</key>
@@ -1272,8 +1840,12 @@
     <string>exclamdown.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>filledRect</key>
+    <string>filledR_ect.glif</string>
     <key>firsttonechinese</key>
     <string>firsttonechinese.glif</string>
+    <key>fisheye</key>
+    <string>fisheye.glif</string>
     <key>five</key>
     <string>five.glif</string>
     <key>five.dnom</key>
@@ -1388,6 +1960,10 @@
     <string>hookabovecomb.glif</string>
     <key>hookabovecomb.case</key>
     <string>hookabovecomb.case.glif</string>
+    <key>horizontalBlackHexagon</key>
+    <string>horizontalB_lackH_exagon.glif</string>
+    <key>horizontalFillSquare</key>
+    <string>horizontalF_illS_quare.glif</string>
     <key>horizontalbar</key>
     <string>horizontalbar.glif</string>
     <key>horizontallineextension</key>
@@ -1482,6 +2058,10 @@
     <string>integraltp.glif</string>
     <key>intersection</key>
     <string>intersection.glif</string>
+    <key>inverseBullet</key>
+    <string>inverseB_ullet.glif</string>
+    <key>inverseWhiteCircle</key>
+    <string>inverseW_hiteC_ircle.glif</string>
     <key>io-cy</key>
     <string>io-cy.glif</string>
     <key>iogonek</key>
@@ -1534,6 +2114,8 @@
     <string>lacute.glif</string>
     <key>lambda</key>
     <string>lambda.glif</string>
+    <key>largeCircle</key>
+    <string>largeC_ircle.glif</string>
     <key>lari</key>
     <string>lari.glif</string>
     <key>lcaron</key>
@@ -1546,10 +2128,22 @@
     <string>leftA_rrow.glif</string>
     <key>leftBlackPointer</key>
     <string>leftB_lackP_ointer.glif</string>
+    <key>leftBlackSmallTriangle</key>
+    <string>leftB_lackS_mallT_riangle.glif</string>
+    <key>leftBlackTriangle</key>
+    <string>leftB_lackT_riangle.glif</string>
     <key>leftBlock</key>
     <string>leftB_lock.glif</string>
     <key>leftFiveEighthsBlock</key>
     <string>leftF_iveE_ighthsB_lock.glif</string>
+    <key>leftHalfBlackCircle</key>
+    <string>leftH_alfB_lackC_ircle.glif</string>
+    <key>leftHalfBlackDiamond</key>
+    <string>leftH_alfB_lackD_iamond.glif</string>
+    <key>leftHalfBlackSquare</key>
+    <string>leftH_alfB_lackS_quare.glif</string>
+    <key>leftHalfBlackWhiteCircle</key>
+    <string>leftH_alfB_lackW_hiteC_ircle.glif</string>
     <key>leftOneEighthBlock</key>
     <string>leftO_neE_ighthB_lock.glif</string>
     <key>leftOneQuarterBlock</key>
@@ -1562,6 +2156,12 @@
     <string>leftT_hreeE_ighthsB_lock.glif</string>
     <key>leftThreeQuartersBlock</key>
     <string>leftT_hreeQ_uartersB_lock.glif</string>
+    <key>leftWhitePointer</key>
+    <string>leftW_hiteP_ointer.glif</string>
+    <key>leftWhiteSmallTriangle</key>
+    <string>leftW_hiteS_mallT_riangle.glif</string>
+    <key>leftWhiteTriangle</key>
+    <string>leftW_hiteT_riangle.glif</string>
     <key>less</key>
     <string>less.glif</string>
     <key>less_asciitilde.liga</key>
@@ -1644,16 +2244,44 @@
     <string>longs.glif</string>
     <key>lowerFiveEighthsBlock</key>
     <string>lowerF_iveE_ighthsB_lock.glif</string>
+    <key>lowerHalfArc</key>
+    <string>lowerH_alfA_rc.glif</string>
+    <key>lowerHalfBlackWhiteCircle</key>
+    <string>lowerH_alfB_lackW_hiteC_ircle.glif</string>
     <key>lowerHalfBlock</key>
     <string>lowerH_alfB_lock.glif</string>
+    <key>lowerHalfInverseWhiteCircle</key>
+    <string>lowerH_alfI_nverseW_hiteC_ircle.glif</string>
+    <key>lowerHalfWhiteSquare</key>
+    <string>lowerH_alfW_hiteS_quare.glif</string>
+    <key>lowerLeftArc</key>
+    <string>lowerL_eftA_rc.glif</string>
+    <key>lowerLeftBlackTriangle</key>
+    <string>lowerL_eftB_lackT_riangle.glif</string>
     <key>lowerLeftBlock</key>
     <string>lowerL_eftB_lock.glif</string>
+    <key>lowerLeftHalfWhiteSquare</key>
+    <string>lowerL_eftH_alfW_hiteS_quare.glif</string>
+    <key>lowerLeftQuadrantWhiteCircle</key>
+    <string>lowerL_eftQ_uadrantW_hiteC_ircle.glif</string>
+    <key>lowerLeftTriangle</key>
+    <string>lowerL_eftT_riangle.glif</string>
     <key>lowerOneEighthBlock</key>
     <string>lowerO_neE_ighthB_lock.glif</string>
     <key>lowerOneQuarterBlock</key>
     <string>lowerO_neQ_uarterB_lock.glif</string>
+    <key>lowerRightArc</key>
+    <string>lowerR_ightA_rc.glif</string>
+    <key>lowerRightBlackTriangle</key>
+    <string>lowerR_ightB_lackT_riangle.glif</string>
     <key>lowerRightBlock</key>
     <string>lowerR_ightB_lock.glif</string>
+    <key>lowerRightDiagonalHalfBlackSquare</key>
+    <string>lowerR_ightD_iagonalH_alfB_lackS_quare.glif</string>
+    <key>lowerRightQuadrantWhiteCircle</key>
+    <string>lowerR_ightQ_uadrantW_hiteC_ircle.glif</string>
+    <key>lowerRightTriangle</key>
+    <string>lowerR_ightT_riangle.glif</string>
     <key>lowerSevenEighthsBlock</key>
     <string>lowerS_evenE_ighthsB_lock.glif</string>
     <key>lowerThreeEighthsBlock</key>
@@ -1678,6 +2306,18 @@
     <string>manat.glif</string>
     <key>mars</key>
     <string>mars.glif</string>
+    <key>mediumBlackSmallSquare</key>
+    <string>mediumB_lackS_mallS_quare.glif</string>
+    <key>mediumBlackSquare</key>
+    <string>mediumB_lackS_quare.glif</string>
+    <key>mediumWhiteSmallSquare</key>
+    <string>mediumW_hiteS_mallS_quare.glif</string>
+    <key>mediumWhiteSquare</key>
+    <string>mediumW_hiteS_quare.glif</string>
+    <key>mediumleftpointinganglebracketornament</key>
+    <string>mediumleftpointinganglebracketornament.glif</string>
+    <key>mediumrightpointinganglebracketornament</key>
+    <string>mediumrightpointinganglebracketornament.glif</string>
     <key>micro</key>
     <string>micro.glif</string>
     <key>minus</key>
@@ -1728,6 +2368,12 @@
     <string>ntilde.glif</string>
     <key>nu</key>
     <string>nu.glif</string>
+    <key>num_num_num.liga</key>
+    <string>num_num_num.liga.glif</string>
+    <key>num_num_num_num.liga</key>
+    <string>num_num_num_num.liga.glif</string>
+    <key>num_under_parenleft.liga</key>
+    <string>num_under_parenleft.liga.glif</string>
     <key>numbersign</key>
     <string>numbersign.glif</string>
     <key>numbersign_braceleft.liga</key>
@@ -1742,18 +2388,12 @@
     <string>numbersign_exclam.liga.glif</string>
     <key>numbersign_numbersign.liga</key>
     <string>numbersign_numbersign.liga.glif</string>
-    <key>numbersign_numbersign_numbersign.liga</key>
-    <string>numbersign_numbersign_numbersign.liga.glif</string>
-    <key>numbersign_numbersign_numbersign_numbersign.liga</key>
-    <string>numbersign_numbersign_numbersign_numbersign.liga.glif</string>
     <key>numbersign_parenleft.liga</key>
     <string>numbersign_parenleft.liga.glif</string>
     <key>numbersign_question.liga</key>
     <string>numbersign_question.liga.glif</string>
     <key>numbersign_underscore.liga</key>
     <string>numbersign_underscore.liga.glif</string>
-    <key>numbersign_underscore_parenleft.liga</key>
-    <string>numbersign_underscore_parenleft.liga.glif</string>
     <key>numeral-greek</key>
     <string>numeral-greek.glif</string>
     <key>numero</key>
@@ -1970,10 +2610,28 @@
     <string>rightA_rrow.glif</string>
     <key>rightBlackPointer</key>
     <string>rightB_lackP_ointer.glif</string>
+    <key>rightBlackSmallTriangle</key>
+    <string>rightB_lackS_mallT_riangle.glif</string>
+    <key>rightBlackTriangle</key>
+    <string>rightB_lackT_riangle.glif</string>
     <key>rightBlock</key>
     <string>rightB_lock.glif</string>
+    <key>rightHalfBlackCircle</key>
+    <string>rightH_alfB_lackC_ircle.glif</string>
+    <key>rightHalfBlackDiamond</key>
+    <string>rightH_alfB_lackD_iamond.glif</string>
+    <key>rightHalfBlackSquare</key>
+    <string>rightH_alfB_lackS_quare.glif</string>
+    <key>rightHalfBlackWhiteCircle</key>
+    <string>rightH_alfB_lackW_hiteC_ircle.glif</string>
     <key>rightOneEighthBlock</key>
     <string>rightO_neE_ighthB_lock.glif</string>
+    <key>rightWhitePointer</key>
+    <string>rightW_hiteP_ointer.glif</string>
+    <key>rightWhiteSmallTriangle</key>
+    <string>rightW_hiteS_mallT_riangle.glif</string>
+    <key>rightWhiteTriangle</key>
+    <string>rightW_hiteT_riangle.glif</string>
     <key>ring</key>
     <string>ring.glif</string>
     <key>ringcomb</key>
@@ -2124,6 +2782,8 @@
     <string>threesuperior.glif</string>
     <key>tilde</key>
     <string>tilde.glif</string>
+    <key>tilde_tilde_greater.liga</key>
+    <string>tilde_tilde_greater.liga.glif</string>
     <key>tildecomb</key>
     <string>tildecomb.glif</string>
     <key>tildecomb.case</key>
@@ -2132,6 +2792,14 @@
     <string>tonos.glif</string>
     <key>tonos.case</key>
     <string>tonos.case.glif</string>
+    <key>topHalfBlackCircle</key>
+    <string>topH_alfB_lackC_ircle.glif</string>
+    <key>topHalfBlackDiamond</key>
+    <string>topH_alfB_lackD_iamond.glif</string>
+    <key>topHalfWhiteSquare</key>
+    <string>topH_alfW_hiteS_quare.glif</string>
+    <key>topRightHalfWhiteSquare</key>
+    <string>topR_ightH_alfW_hiteS_quare.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
     <key>tse-cy</key>
@@ -2200,14 +2868,32 @@
     <string>uogonek.glif</string>
     <key>upArrow</key>
     <string>upA_rrow.glif</string>
+    <key>upBlackSmallTriangle</key>
+    <string>upB_lackS_mallT_riangle.glif</string>
     <key>upBlackTriangle</key>
     <string>upB_lackT_riangle.glif</string>
     <key>upDownArrow</key>
     <string>upD_ownA_rrow.glif</string>
     <key>upDownbaseArrow</key>
     <string>upD_ownbaseA_rrow.glif</string>
+    <key>upLeftHalfBlackTriangle</key>
+    <string>upL_eftH_alfB_lackT_riangle.glif</string>
+    <key>upRightHalfBlackTriangle</key>
+    <string>upR_ightH_alfB_lackT_riangle.glif</string>
+    <key>upWhiteSmallTriangle</key>
+    <string>upW_hiteS_mallT_riangle.glif</string>
+    <key>upWhiteTriangle</key>
+    <string>upW_hiteT_riangle.glif</string>
+    <key>upWhiteTriangleWithDot</key>
+    <string>upW_hiteT_riangleW_ithD_ot.glif</string>
+    <key>upperHalfArc</key>
+    <string>upperH_alfA_rc.glif</string>
+    <key>upperHalfBlackWhiteCircle</key>
+    <string>upperH_alfB_lackW_hiteC_ircle.glif</string>
     <key>upperHalfBlock</key>
     <string>upperH_alfB_lock.glif</string>
+    <key>upperHalfInverseWhiteCircle</key>
+    <string>upperH_alfI_nverseW_hiteC_ircle.glif</string>
     <key>upperLeftAndLowerLeftAndLowerRightBlock</key>
     <string>upperL_eftA_ndL_owerL_eftA_ndL_owerR_ightB_lock.glif</string>
     <key>upperLeftAndLowerRightBlock</key>
@@ -2216,16 +2902,42 @@
     <string>upperL_eftA_ndU_pperR_ightA_ndL_owerL_eftB_lock.glif</string>
     <key>upperLeftAndUpperRightAndLowerRightBlock</key>
     <string>upperL_eftA_ndU_pperR_ightA_ndL_owerR_ightB_lock.glif</string>
+    <key>upperLeftArc</key>
+    <string>upperL_eftA_rc.glif</string>
+    <key>upperLeftBlackTriangle</key>
+    <string>upperL_eftB_lackT_riangle.glif</string>
     <key>upperLeftBlock</key>
     <string>upperL_eftB_lock.glif</string>
+    <key>upperLeftDiagonalHalfBlackSquare</key>
+    <string>upperL_eftD_iagonalH_alfB_lackS_quare.glif</string>
+    <key>upperLeftQuadrantWhiteCircle</key>
+    <string>upperL_eftQ_uadrantW_hiteC_ircle.glif</string>
+    <key>upperLeftTriangle</key>
+    <string>upperL_eftT_riangle.glif</string>
+    <key>upperLeftWhiteCircle</key>
+    <string>upperL_eftW_hiteC_ircle.glif</string>
     <key>upperOneEighthBlock</key>
     <string>upperO_neE_ighthB_lock.glif</string>
     <key>upperRightAndLowerLeftAndLowerRightBlock</key>
     <string>upperR_ightA_ndL_owerL_eftA_ndL_owerR_ightB_lock.glif</string>
     <key>upperRightAndLowerLeftBlock</key>
     <string>upperR_ightA_ndL_owerL_eftB_lock.glif</string>
+    <key>upperRightArc</key>
+    <string>upperR_ightA_rc.glif</string>
+    <key>upperRightBlackCircle</key>
+    <string>upperR_ightB_lackC_ircle.glif</string>
+    <key>upperRightBlackTriangle</key>
+    <string>upperR_ightB_lackT_riangle.glif</string>
     <key>upperRightBlock</key>
     <string>upperR_ightB_lock.glif</string>
+    <key>upperRightQuadrantWhiteCircle</key>
+    <string>upperR_ightQ_uadrantW_hiteC_ircle.glif</string>
+    <key>upperRightTriangle</key>
+    <string>upperR_ightT_riangle.glif</string>
+    <key>upperlefttolowerrightFillSquare</key>
+    <string>upperlefttolowerrightF_illS_quare.glif</string>
+    <key>upperrighttolowerleftFillSquare</key>
+    <string>upperrighttolowerleftF_illS_quare.glif</string>
     <key>upsilon</key>
     <string>upsilon.glif</string>
     <key>upsilondieresis</key>
@@ -2252,6 +2964,12 @@
     <string>ve-cy.loclB_G_R_.glif</string>
     <key>venus</key>
     <string>venus.glif</string>
+    <key>verticalBisectingLineWhiteSquare</key>
+    <string>verticalB_isectingL_ineW_hiteS_quare.glif</string>
+    <key>verticalFillCircle</key>
+    <string>verticalF_illC_ircle.glif</string>
+    <key>verticalFillSquare</key>
+    <string>verticalF_illS_quare.glif</string>
     <key>w</key>
     <string>w.glif</string>
     <key>w_w_w.liga</key>
@@ -2268,10 +2986,48 @@
     <string>whiteB_ullet.glif</string>
     <key>whiteCircle</key>
     <string>whiteC_ircle.glif</string>
+    <key>whiteDiamond</key>
+    <string>whiteD_iamond.glif</string>
+    <key>whiteHexagon</key>
+    <string>whiteH_exagon.glif</string>
+    <key>whiteHorizontalEllipse</key>
+    <string>whiteH_orizontalE_llipse.glif</string>
+    <key>whiteInBlackSquare</key>
+    <string>whiteI_nB_lackS_quare.glif</string>
+    <key>whiteLargeSquare</key>
+    <string>whiteL_argeS_quare.glif</string>
+    <key>whiteLowerLeftQuadrantSquare</key>
+    <string>whiteL_owerL_eftQ_uadrantS_quare.glif</string>
+    <key>whiteLowerRightQuadrantSquare</key>
+    <string>whiteL_owerR_ightQ_uadrantS_quare.glif</string>
+    <key>whiteMediumDiamond</key>
+    <string>whiteM_ediumD_iamond.glif</string>
+    <key>whiteMediumLozenge</key>
+    <string>whiteM_ediumL_ozenge.glif</string>
+    <key>whiteParallelogram</key>
+    <string>whiteP_arallelogram.glif</string>
+    <key>whitePentagon</key>
+    <string>whiteP_entagon.glif</string>
+    <key>whiteRect</key>
+    <string>whiteR_ect.glif</string>
+    <key>whiteRoundedCornersSquare</key>
+    <string>whiteR_oundedC_ornersS_quare.glif</string>
+    <key>whiteSmallLozenge</key>
+    <string>whiteS_mallL_ozenge.glif</string>
     <key>whiteSmallSquare</key>
     <string>whiteS_mallS_quare.glif</string>
     <key>whiteSquare</key>
     <string>whiteS_quare.glif</string>
+    <key>whiteUpperLeftQuadrantSquare</key>
+    <string>whiteU_pperL_eftQ_uadrantS_quare.glif</string>
+    <key>whiteUpperRightQuadrantSquare</key>
+    <string>whiteU_pperR_ightQ_uadrantS_quare.glif</string>
+    <key>whiteVerticalEllipse</key>
+    <string>whiteV_erticalE_llipse.glif</string>
+    <key>whiteVerticalRect</key>
+    <string>whiteV_erticalR_ect.glif</string>
+    <key>whiteVerysmallSquare</key>
+    <string>whiteV_erysmallS_quare.glif</string>
     <key>won</key>
     <string>won.glif</string>
     <key>x</key>

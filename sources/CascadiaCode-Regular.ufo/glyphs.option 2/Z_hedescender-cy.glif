@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zhedescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="0496"/>
+  <outline>
+    <contour>
+      <point x="970" y="-290" type="line"/>
+      <point x="1160" y="-290" type="line"/>
+      <point x="1160" y="190" type="line"/>
+      <point x="970" y="190" type="line"/>
+    </contour>
+    <contour>
+      <point x="485" y="0" type="line"/>
+      <point x="655" y="0" type="line"/>
+      <point x="655" y="1420" type="line"/>
+      <point x="485" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="1086" y="370" type="line" smooth="yes"/>
+      <point x="1086" y="644"/>
+      <point x="937" y="764"/>
+      <point x="656" y="764" type="curve" smooth="yes"/>
+      <point x="625" y="764" type="line"/>
+      <point x="625" y="623" type="line"/>
+      <point x="646" y="623" type="line" smooth="yes"/>
+      <point x="839" y="623"/>
+      <point x="886" y="532"/>
+      <point x="886" y="320" type="curve" smooth="yes"/>
+      <point x="886" y="0" type="line"/>
+      <point x="1086" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="54" y="370" type="curve" smooth="yes"/>
+      <point x="54" y="0" type="line"/>
+      <point x="254" y="0" type="line"/>
+      <point x="254" y="320" type="line" smooth="yes"/>
+      <point x="254" y="532"/>
+      <point x="341" y="623"/>
+      <point x="494" y="623" type="curve" smooth="yes"/>
+      <point x="515" y="623" type="line"/>
+      <point x="515" y="764" type="line"/>
+      <point x="484" y="764" type="line" smooth="yes"/>
+      <point x="203" y="764"/>
+      <point x="54" y="644"/>
+    </contour>
+    <contour>
+      <point x="220" y="642" type="line"/>
+      <point x="380" y="744" type="line"/>
+      <point x="238" y="1420" type="line"/>
+      <point x="28" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="920" y="642" type="line"/>
+      <point x="1112" y="1420" type="line"/>
+      <point x="902" y="1420" type="line"/>
+      <point x="760" y="744" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/11 22:39:11</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

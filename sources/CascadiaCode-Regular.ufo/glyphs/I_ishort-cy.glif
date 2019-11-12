@@ -3,7 +3,8 @@
   <advance width="1200"/>
   <unicode hex="0419"/>
   <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="1420" name="top"/>
+  <anchor x="600" y="1420" name="top_1"/>
+  <anchor x="600" y="1742" name="top_2"/>
   <outline>
     <component base="Ii-cy"/>
     <component base="brevecomb-cy.case"/>
@@ -11,7 +12,9 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/10/21 17:31:48</string>
+      <string>2019/11/10 05:18:26</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -6,17 +6,46 @@
   <anchor x="650" y="1060" name="top"/>
   <outline>
     <contour>
-      <point x="250" y="436" type="line"/>
-      <point x="824" y="436" type="line"/>
-      <point x="824" y="610" type="line"/>
-      <point x="250" y="610" type="line"/>
+      <point x="250" y="446" type="line"/>
+      <point x="824" y="446" type="line"/>
+      <point x="824" y="620" type="line"/>
+      <point x="250" y="620" type="line"/>
     </contour>
-    <component base="c"/>
+    <contour>
+      <point x="1018" y="196" type="line"/>
+      <point x="918" y="180"/>
+      <point x="812" y="170"/>
+      <point x="706" y="170" type="curve" smooth="yes"/>
+      <point x="476" y="170"/>
+      <point x="346" y="300"/>
+      <point x="346" y="542" type="curve" smooth="yes"/>
+      <point x="346" y="764"/>
+      <point x="464" y="890"/>
+      <point x="666" y="890" type="curve" smooth="yes"/>
+      <point x="777" y="890"/>
+      <point x="874" y="834"/>
+      <point x="934" y="737" type="curve"/>
+      <point x="1097" y="860" type="line"/>
+      <point x="1034" y="1000"/>
+      <point x="880" y="1080"/>
+      <point x="674" y="1080" type="curve" smooth="yes"/>
+      <point x="329" y="1080"/>
+      <point x="136" y="878"/>
+      <point x="136" y="532" type="curve" smooth="yes"/>
+      <point x="136" y="176"/>
+      <point x="334" y="-20"/>
+      <point x="682" y="-20" type="curve" smooth="yes"/>
+      <point x="800" y="-20"/>
+      <point x="926" y="-14"/>
+      <point x="1042" y="10" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/10/21 22:27:51</string>
+      <string>2019/11/09 17:32:27</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

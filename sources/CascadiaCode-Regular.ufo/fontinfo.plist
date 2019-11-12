@@ -154,22 +154,6 @@
         <key>y</key>
         <integer>146</integer>
       </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>x</key>
-        <integer>927</integer>
-        <key>y</key>
-        <integer>802</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>x</key>
-        <integer>927</integer>
-        <key>y</key>
-        <integer>793</integer>
-      </dict>
     </array>
     <key>italicAngle</key>
     <integer>0</integer>
@@ -216,6 +200,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
       <integer>0</integer>
       <integer>4</integer>
     </array>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
     <key>openTypeOS2Type</key>
     <array>
       <integer>3</integer>
@@ -251,9 +239,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <key>unitsPerEm</key>
     <integer>2048</integer>
     <key>versionMajor</key>
-    <integer>1910</integer>
+    <integer>1911</integer>
     <key>versionMinor</key>
-    <integer>40</integer>
+    <integer>150</integer>
     <key>xHeight</key>
     <integer>1060</integer>
   </dict>

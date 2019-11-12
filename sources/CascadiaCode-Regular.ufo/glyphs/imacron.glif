@@ -4,20 +4,15 @@
   <unicode hex="012B"/>
   <anchor x="670" y="0" name="bottom"/>
   <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="650" y="1060" name="top"/>
+  <anchor x="650" y="1436" name="top"/>
   <outline>
-    <contour>
-      <point x="220" y="1188" type="line"/>
-      <point x="1037" y="1188" type="line"/>
-      <point x="1037" y="1376" type="line"/>
-      <point x="220" y="1376" type="line"/>
-    </contour>
     <component base="idotless"/>
+    <component base="macroncomb" xOffset="50"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/09/23 18:48:35</string>
+      <string>2019/11/10 04:13:04</string>
     </dict>
   </lib>
 </glyph>

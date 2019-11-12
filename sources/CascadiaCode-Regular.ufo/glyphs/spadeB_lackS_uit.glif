@@ -9,10 +9,6 @@
   <guideline x="834" y="40" angle="0"/>
   <outline>
     <contour>
-      <point x="275" y="162" type="curve" smooth="yes"/>
-      <point x="397" y="162"/>
-      <point x="474" y="236"/>
-      <point x="474" y="363" type="curve"/>
       <point x="726" y="363" type="line"/>
       <point x="726" y="236"/>
       <point x="799" y="162"/>
@@ -28,6 +24,10 @@
       <point x="69" y="444" type="curve" smooth="yes"/>
       <point x="69" y="265"/>
       <point x="144" y="162"/>
+      <point x="275" y="162" type="curve" smooth="yes"/>
+      <point x="397" y="162"/>
+      <point x="474" y="236"/>
+      <point x="474" y="363" type="curve"/>
     </contour>
     <contour>
       <point x="514" y="60" type="line"/>
@@ -39,7 +39,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/10/24 14:59:04</string>
+      <string>2019/11/05 15:26:22</string>
     </dict>
   </lib>
 </glyph>

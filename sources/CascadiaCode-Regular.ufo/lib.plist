@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>GSCornerRadius</key>
+    <integer>15</integer>
     <key>GSOffsetHorizontal</key>
     <integer>95</integer>
     <key>GSOffsetMakeStroke</key>
@@ -11,7 +13,7 @@
     <key>GSOffsetVertical</key>
     <integer>110</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1271</string>
+    <string>1272</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -451,6 +453,9 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>sacute.loclPLK</string>
       <string>zacute.loclPLK</string>
       <string>x.multiply</string>
+      <string>num_num_num.liga</string>
+      <string>num_num_num_num.liga</string>
+      <string>num_under_parenleft.liga</string>
       <string>w_w_w.liga</string>
       <string>ordfeminine</string>
       <string>ordmasculine</string>
@@ -756,6 +761,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>braceright</string>
       <string>bracketleft</string>
       <string>bracketright</string>
+      <string>mediumleftpointinganglebracketornament</string>
+      <string>mediumrightpointinganglebracketornament</string>
       <string>hyphen</string>
       <string>softhyphen</string>
       <string>endash</string>
@@ -822,11 +829,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>numbersign_exclam.liga</string>
       <string>numbersign_question.liga</string>
       <string>numbersign_numbersign.liga</string>
-      <string>numbersign_numbersign_numbersign.liga</string>
-      <string>numbersign_numbersign_numbersign_numbersign.liga</string>
       <string>numbersign_equal.liga</string>
       <string>numbersign_underscore.liga</string>
-      <string>numbersign_underscore_parenleft.liga</string>
       <string>slash_asterisk.liga</string>
       <string>slash_equal.liga</string>
       <string>slash_equal_equal.liga</string>
@@ -946,16 +950,105 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>shadedark</string>
       <string>blackCircle</string>
       <string>whiteCircle</string>
+      <string>largeCircle</string>
+      <string>leftHalfBlackWhiteCircle</string>
+      <string>rightHalfBlackWhiteCircle</string>
+      <string>lowerHalfBlackWhiteCircle</string>
+      <string>upperHalfBlackWhiteCircle</string>
+      <string>leftHalfBlackCircle</string>
+      <string>rightHalfBlackCircle</string>
+      <string>upperRightBlackCircle</string>
+      <string>upperLeftWhiteCircle</string>
+      <string>upperLeftQuadrantWhiteCircle</string>
+      <string>lowerLeftQuadrantWhiteCircle</string>
+      <string>lowerRightQuadrantWhiteCircle</string>
+      <string>upperRightQuadrantWhiteCircle</string>
+      <string>verticalFillCircle</string>
+      <string>dottedCircle</string>
+      <string>fisheye</string>
+      <string>bullseye</string>
       <string>whiteBullet</string>
+      <string>inverseBullet</string>
+      <string>inverseWhiteCircle</string>
+      <string>upperHalfInverseWhiteCircle</string>
+      <string>lowerHalfInverseWhiteCircle</string>
+      <string>upperHalfArc</string>
+      <string>lowerHalfArc</string>
+      <string>upperLeftArc</string>
+      <string>upperRightArc</string>
+      <string>lowerRightArc</string>
+      <string>lowerLeftArc</string>
+      <string>blackDiamond</string>
+      <string>whiteDiamond</string>
+      <string>leftHalfBlackDiamond</string>
+      <string>rightHalfBlackDiamond</string>
+      <string>topHalfBlackDiamond</string>
+      <string>bottomHalfBlackDiamond</string>
+      <string>blackInWhiteDiamond</string>
       <string>lozenge</string>
+      <string>blackParallelogram</string>
+      <string>whiteParallelogram</string>
+      <string>blackVerticalRect</string>
+      <string>filledRect</string>
+      <string>whiteRect</string>
+      <string>whiteVerticalRect</string>
       <string>blackSquare</string>
       <string>whiteSquare</string>
+      <string>whiteRoundedCornersSquare</string>
+      <string>whiteInBlackSquare</string>
+      <string>dottedSquare</string>
+      <string>horizontalFillSquare</string>
+      <string>verticalFillSquare</string>
+      <string>crosshatchFillSquare</string>
+      <string>upperlefttolowerrightFillSquare</string>
+      <string>upperrighttolowerleftFillSquare</string>
+      <string>diagonalcrosshatchFillSquare</string>
       <string>blackSmallSquare</string>
       <string>whiteSmallSquare</string>
+      <string>leftHalfBlackSquare</string>
+      <string>rightHalfBlackSquare</string>
+      <string>upperLeftDiagonalHalfBlackSquare</string>
+      <string>lowerRightDiagonalHalfBlackSquare</string>
+      <string>verticalBisectingLineWhiteSquare</string>
+      <string>whiteUpperLeftQuadrantSquare</string>
+      <string>whiteLowerLeftQuadrantSquare</string>
+      <string>whiteLowerRightQuadrantSquare</string>
+      <string>whiteUpperRightQuadrantSquare</string>
+      <string>mediumWhiteSquare</string>
+      <string>mediumBlackSquare</string>
+      <string>mediumWhiteSmallSquare</string>
+      <string>mediumBlackSmallSquare</string>
       <string>upBlackTriangle</string>
+      <string>rightBlackTriangle</string>
       <string>downBlackTriangle</string>
+      <string>leftBlackTriangle</string>
+      <string>upWhiteTriangle</string>
+      <string>rightWhiteTriangle</string>
+      <string>downWhiteTriangle</string>
+      <string>leftWhiteTriangle</string>
+      <string>upWhiteTriangleWithDot</string>
+      <string>upLeftHalfBlackTriangle</string>
+      <string>upRightHalfBlackTriangle</string>
       <string>rightBlackPointer</string>
       <string>leftBlackPointer</string>
+      <string>rightWhitePointer</string>
+      <string>leftWhitePointer</string>
+      <string>upBlackSmallTriangle</string>
+      <string>rightBlackSmallTriangle</string>
+      <string>downBlackSmallTriangle</string>
+      <string>leftBlackSmallTriangle</string>
+      <string>upWhiteSmallTriangle</string>
+      <string>rightWhiteSmallTriangle</string>
+      <string>downWhiteSmallTriangle</string>
+      <string>leftWhiteSmallTriangle</string>
+      <string>upperRightBlackTriangle</string>
+      <string>lowerRightBlackTriangle</string>
+      <string>lowerLeftBlackTriangle</string>
+      <string>upperLeftBlackTriangle</string>
+      <string>upperRightTriangle</string>
+      <string>lowerRightTriangle</string>
+      <string>lowerLeftTriangle</string>
+      <string>upperLeftTriangle</string>
       <string>boxDoubleDownAndHorizontal</string>
       <string>boxDoubleDownAndLeft</string>
       <string>boxDoubleDownAndRight</string>
@@ -1112,6 +1205,37 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>daggerdbl</string>
       <string>numero</string>
       <string>estimated</string>
+      <string>blackHexagon</string>
+      <string>blackHorizontalEllipse</string>
+      <string>blackLargeCircle</string>
+      <string>blackLargeSquare</string>
+      <string>blackMediumDiamond</string>
+      <string>blackMediumDownTriangleCentred</string>
+      <string>blackMediumLeftTriangleCentred</string>
+      <string>blackMediumLozenge</string>
+      <string>blackMediumRightTriangleCentred</string>
+      <string>blackMediumUpTriangleCentred</string>
+      <string>blackPentagon</string>
+      <string>blackSmallDiamond</string>
+      <string>blackSmallLozenge</string>
+      <string>blackVerticalEllipse</string>
+      <string>blackVerysmallSquare</string>
+      <string>bottomHalfBlackCircle</string>
+      <string>horizontalBlackHexagon</string>
+      <string>lowerHalfWhiteSquare</string>
+      <string>lowerLeftHalfWhiteSquare</string>
+      <string>topHalfBlackCircle</string>
+      <string>topHalfWhiteSquare</string>
+      <string>topRightHalfWhiteSquare</string>
+      <string>whiteHexagon</string>
+      <string>whiteHorizontalEllipse</string>
+      <string>whiteLargeSquare</string>
+      <string>whiteMediumDiamond</string>
+      <string>whiteMediumLozenge</string>
+      <string>whitePentagon</string>
+      <string>whiteSmallLozenge</string>
+      <string>whiteVerticalEllipse</string>
+      <string>whiteVerysmallSquare</string>
       <string>ampersand_ampersand.liga</string>
       <string>bar_hyphen.liga</string>
       <string>bar_braceright.liga</string>
@@ -1180,10 +1304,265 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>asciitilde_equal.liga</string>
       <string>asciitilde_greater.liga</string>
       <string>asciitilde_asciitilde.liga</string>
-      <string>asciitilde_asciitilde_greater.liga</string>
       <string>asciicircum_equal.liga</string>
       <string>percent_percent.liga</string>
       <string>note-musical</string>
+      <string>blank-braille</string>
+      <string>dots1-braille</string>
+      <string>dots12-braille</string>
+      <string>dots123-braille</string>
+      <string>dots1234-braille</string>
+      <string>dots12345-braille</string>
+      <string>dots123456-braille</string>
+      <string>dots1234567-braille</string>
+      <string>dots12345678-braille</string>
+      <string>dots1234568-braille</string>
+      <string>dots123457-braille</string>
+      <string>dots1234578-braille</string>
+      <string>dots123458-braille</string>
+      <string>dots12346-braille</string>
+      <string>dots123467-braille</string>
+      <string>dots1234678-braille</string>
+      <string>dots123468-braille</string>
+      <string>dots12347-braille</string>
+      <string>dots123478-braille</string>
+      <string>dots12348-braille</string>
+      <string>dots1235-braille</string>
+      <string>dots12356-braille</string>
+      <string>dots123567-braille</string>
+      <string>dots1235678-braille</string>
+      <string>dots123568-braille</string>
+      <string>dots12357-braille</string>
+      <string>dots123578-braille</string>
+      <string>dots12358-braille</string>
+      <string>dots1236-braille</string>
+      <string>dots12367-braille</string>
+      <string>dots123678-braille</string>
+      <string>dots12368-braille</string>
+      <string>dots1237-braille</string>
+      <string>dots12378-braille</string>
+      <string>dots1238-braille</string>
+      <string>dots124-braille</string>
+      <string>dots1245-braille</string>
+      <string>dots12456-braille</string>
+      <string>dots124567-braille</string>
+      <string>dots1245678-braille</string>
+      <string>dots124568-braille</string>
+      <string>dots12457-braille</string>
+      <string>dots124578-braille</string>
+      <string>dots12458-braille</string>
+      <string>dots1246-braille</string>
+      <string>dots12467-braille</string>
+      <string>dots124678-braille</string>
+      <string>dots12468-braille</string>
+      <string>dots1247-braille</string>
+      <string>dots12478-braille</string>
+      <string>dots1248-braille</string>
+      <string>dots125-braille</string>
+      <string>dots1256-braille</string>
+      <string>dots12567-braille</string>
+      <string>dots125678-braille</string>
+      <string>dots12568-braille</string>
+      <string>dots1257-braille</string>
+      <string>dots12578-braille</string>
+      <string>dots1258-braille</string>
+      <string>dots126-braille</string>
+      <string>dots1267-braille</string>
+      <string>dots12678-braille</string>
+      <string>dots1268-braille</string>
+      <string>dots127-braille</string>
+      <string>dots1278-braille</string>
+      <string>dots128-braille</string>
+      <string>dots13-braille</string>
+      <string>dots134-braille</string>
+      <string>dots1345-braille</string>
+      <string>dots13456-braille</string>
+      <string>dots134567-braille</string>
+      <string>dots1345678-braille</string>
+      <string>dots134568-braille</string>
+      <string>dots13457-braille</string>
+      <string>dots134578-braille</string>
+      <string>dots13458-braille</string>
+      <string>dots1346-braille</string>
+      <string>dots13467-braille</string>
+      <string>dots134678-braille</string>
+      <string>dots13468-braille</string>
+      <string>dots1347-braille</string>
+      <string>dots13478-braille</string>
+      <string>dots1348-braille</string>
+      <string>dots135-braille</string>
+      <string>dots1356-braille</string>
+      <string>dots13567-braille</string>
+      <string>dots135678-braille</string>
+      <string>dots13568-braille</string>
+      <string>dots1357-braille</string>
+      <string>dots13578-braille</string>
+      <string>dots1358-braille</string>
+      <string>dots136-braille</string>
+      <string>dots1367-braille</string>
+      <string>dots13678-braille</string>
+      <string>dots1368-braille</string>
+      <string>dots137-braille</string>
+      <string>dots1378-braille</string>
+      <string>dots138-braille</string>
+      <string>dots14-braille</string>
+      <string>dots145-braille</string>
+      <string>dots1456-braille</string>
+      <string>dots14567-braille</string>
+      <string>dots145678-braille</string>
+      <string>dots14568-braille</string>
+      <string>dots1457-braille</string>
+      <string>dots14578-braille</string>
+      <string>dots1458-braille</string>
+      <string>dots146-braille</string>
+      <string>dots1467-braille</string>
+      <string>dots14678-braille</string>
+      <string>dots1468-braille</string>
+      <string>dots147-braille</string>
+      <string>dots1478-braille</string>
+      <string>dots148-braille</string>
+      <string>dots15-braille</string>
+      <string>dots156-braille</string>
+      <string>dots1567-braille</string>
+      <string>dots15678-braille</string>
+      <string>dots1568-braille</string>
+      <string>dots157-braille</string>
+      <string>dots1578-braille</string>
+      <string>dots158-braille</string>
+      <string>dots16-braille</string>
+      <string>dots167-braille</string>
+      <string>dots1678-braille</string>
+      <string>dots168-braille</string>
+      <string>dots17-braille</string>
+      <string>dots178-braille</string>
+      <string>dots18-braille</string>
+      <string>dots2-braille</string>
+      <string>dots23-braille</string>
+      <string>dots234-braille</string>
+      <string>dots2345-braille</string>
+      <string>dots23456-braille</string>
+      <string>dots234567-braille</string>
+      <string>dots2345678-braille</string>
+      <string>dots234568-braille</string>
+      <string>dots23457-braille</string>
+      <string>dots234578-braille</string>
+      <string>dots23458-braille</string>
+      <string>dots2346-braille</string>
+      <string>dots23467-braille</string>
+      <string>dots234678-braille</string>
+      <string>dots23468-braille</string>
+      <string>dots2347-braille</string>
+      <string>dots23478-braille</string>
+      <string>dots2348-braille</string>
+      <string>dots235-braille</string>
+      <string>dots2356-braille</string>
+      <string>dots23567-braille</string>
+      <string>dots235678-braille</string>
+      <string>dots23568-braille</string>
+      <string>dots2357-braille</string>
+      <string>dots23578-braille</string>
+      <string>dots2358-braille</string>
+      <string>dots236-braille</string>
+      <string>dots2367-braille</string>
+      <string>dots23678-braille</string>
+      <string>dots2368-braille</string>
+      <string>dots237-braille</string>
+      <string>dots2378-braille</string>
+      <string>dots238-braille</string>
+      <string>dots24-braille</string>
+      <string>dots245-braille</string>
+      <string>dots2456-braille</string>
+      <string>dots24567-braille</string>
+      <string>dots245678-braille</string>
+      <string>dots24568-braille</string>
+      <string>dots2457-braille</string>
+      <string>dots24578-braille</string>
+      <string>dots2458-braille</string>
+      <string>dots246-braille</string>
+      <string>dots2467-braille</string>
+      <string>dots24678-braille</string>
+      <string>dots2468-braille</string>
+      <string>dots247-braille</string>
+      <string>dots2478-braille</string>
+      <string>dots248-braille</string>
+      <string>dots25-braille</string>
+      <string>dots256-braille</string>
+      <string>dots2567-braille</string>
+      <string>dots25678-braille</string>
+      <string>dots2568-braille</string>
+      <string>dots257-braille</string>
+      <string>dots2578-braille</string>
+      <string>dots258-braille</string>
+      <string>dots26-braille</string>
+      <string>dots267-braille</string>
+      <string>dots2678-braille</string>
+      <string>dots268-braille</string>
+      <string>dots27-braille</string>
+      <string>dots278-braille</string>
+      <string>dots28-braille</string>
+      <string>dots3-braille</string>
+      <string>dots34-braille</string>
+      <string>dots345-braille</string>
+      <string>dots3456-braille</string>
+      <string>dots34567-braille</string>
+      <string>dots345678-braille</string>
+      <string>dots34568-braille</string>
+      <string>dots3457-braille</string>
+      <string>dots34578-braille</string>
+      <string>dots3458-braille</string>
+      <string>dots346-braille</string>
+      <string>dots3467-braille</string>
+      <string>dots34678-braille</string>
+      <string>dots3468-braille</string>
+      <string>dots347-braille</string>
+      <string>dots3478-braille</string>
+      <string>dots348-braille</string>
+      <string>dots35-braille</string>
+      <string>dots356-braille</string>
+      <string>dots3567-braille</string>
+      <string>dots35678-braille</string>
+      <string>dots3568-braille</string>
+      <string>dots357-braille</string>
+      <string>dots3578-braille</string>
+      <string>dots358-braille</string>
+      <string>dots36-braille</string>
+      <string>dots367-braille</string>
+      <string>dots3678-braille</string>
+      <string>dots368-braille</string>
+      <string>dots37-braille</string>
+      <string>dots378-braille</string>
+      <string>dots38-braille</string>
+      <string>dots4-braille</string>
+      <string>dots45-braille</string>
+      <string>dots456-braille</string>
+      <string>dots4567-braille</string>
+      <string>dots45678-braille</string>
+      <string>dots4568-braille</string>
+      <string>dots457-braille</string>
+      <string>dots4578-braille</string>
+      <string>dots458-braille</string>
+      <string>dots46-braille</string>
+      <string>dots467-braille</string>
+      <string>dots4678-braille</string>
+      <string>dots468-braille</string>
+      <string>dots47-braille</string>
+      <string>dots478-braille</string>
+      <string>dots48-braille</string>
+      <string>dots5-braille</string>
+      <string>dots56-braille</string>
+      <string>dots567-braille</string>
+      <string>dots5678-braille</string>
+      <string>dots568-braille</string>
+      <string>dots57-braille</string>
+      <string>dots578-braille</string>
+      <string>dots58-braille</string>
+      <string>dots6-braille</string>
+      <string>dots67-braille</string>
+      <string>dots678-braille</string>
+      <string>dots68-braille</string>
+      <string>dots7-braille</string>
+      <string>dots78-braille</string>
+      <string>dots8-braille</string>
       <string>numeral-greek</string>
       <string>lowernumeral-greek</string>
       <string>apostrophemod</string>
@@ -1233,6 +1612,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>macroncomb.case</string>
       <string>hookabovecomb.case</string>
       <string>horncomb.case</string>
+      <string>tilde_tilde_greater.liga</string>
       <string>acutecomb.loclPLK</string>
       <string>acutecomb.case.loclPLK</string>
       <string>tonos</string>
@@ -1534,10 +1914,54 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0431.loclSRB</string>
       <key>blackCircle</key>
       <string>uni25CF</string>
+      <key>blackDiamond</key>
+      <string>uni25C6</string>
+      <key>blackHexagon</key>
+      <string>uni2B22</string>
+      <key>blackHorizontalEllipse</key>
+      <string>uni2B2C</string>
+      <key>blackInWhiteDiamond</key>
+      <string>uni25C8</string>
+      <key>blackLargeCircle</key>
+      <string>uni2B24</string>
+      <key>blackLargeSquare</key>
+      <string>uni2B1B</string>
+      <key>blackMediumDiamond</key>
+      <string>uni2B25</string>
+      <key>blackMediumDownTriangleCentred</key>
+      <string>uni2BC6</string>
+      <key>blackMediumLeftTriangleCentred</key>
+      <string>uni2BC7</string>
+      <key>blackMediumLozenge</key>
+      <string>uni2B27</string>
+      <key>blackMediumRightTriangleCentred</key>
+      <string>uni2BC8</string>
+      <key>blackMediumUpTriangleCentred</key>
+      <string>uni2BC5</string>
+      <key>blackParallelogram</key>
+      <string>uni25B0</string>
+      <key>blackPentagon</key>
+      <string>uni2B1F</string>
+      <key>blackSmallDiamond</key>
+      <string>uni2B29</string>
+      <key>blackSmallLozenge</key>
+      <string>uni2B2A</string>
       <key>blackSmallSquare</key>
       <string>uni25AA</string>
       <key>blackSquare</key>
       <string>filledbox</string>
+      <key>blackVerticalEllipse</key>
+      <string>uni2B2E</string>
+      <key>blackVerticalRect</key>
+      <string>uni25AE</string>
+      <key>blackVerysmallSquare</key>
+      <string>uni2B1D</string>
+      <key>blank-braille</key>
+      <string>uni2800</string>
+      <key>bottomHalfBlackCircle</key>
+      <string>uni2BCB</string>
+      <key>bottomHalfBlackDiamond</key>
+      <string>uni2B19</string>
       <key>boxDoubleDownAndHorizontal</key>
       <string>uni2566</string>
       <key>boxDoubleDownAndLeft</key>
@@ -1804,6 +2228,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0306.case</string>
       <key>bulletoperator</key>
       <string>uni2219</string>
+      <key>bullseye</key>
+      <string>uni25CE</string>
       <key>careof</key>
       <string>uni2105</string>
       <key>caroncomb</key>
@@ -1834,10 +2260,14 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0312</string>
       <key>commaturnedmod</key>
       <string>uni02BB</string>
+      <key>crosshatchFillSquare</key>
+      <string>uni25A6</string>
       <key>de-cy</key>
       <string>uni0434</string>
       <key>de-cy.loclBGR</key>
       <string>uni0434.loclBGR</string>
+      <key>diagonalcrosshatchFillSquare</key>
+      <string>uni25A9</string>
       <key>diamondBlackSuit</key>
       <string>diamond</string>
       <key>dieresiscomb</key>
@@ -1852,10 +2282,530 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0307</string>
       <key>dotaccentcomb.case</key>
       <string>uni0307.case</string>
+      <key>dots1-braille</key>
+      <string>uni2801</string>
+      <key>dots12-braille</key>
+      <string>uni2803</string>
+      <key>dots123-braille</key>
+      <string>uni2807</string>
+      <key>dots1234-braille</key>
+      <string>uni280F</string>
+      <key>dots12345-braille</key>
+      <string>uni281F</string>
+      <key>dots123456-braille</key>
+      <string>uni283F</string>
+      <key>dots1234567-braille</key>
+      <string>uni287F</string>
+      <key>dots12345678-braille</key>
+      <string>uni28FF</string>
+      <key>dots1234568-braille</key>
+      <string>uni28BF</string>
+      <key>dots123457-braille</key>
+      <string>uni285F</string>
+      <key>dots1234578-braille</key>
+      <string>uni28DF</string>
+      <key>dots123458-braille</key>
+      <string>uni289F</string>
+      <key>dots12346-braille</key>
+      <string>uni282F</string>
+      <key>dots123467-braille</key>
+      <string>uni286F</string>
+      <key>dots1234678-braille</key>
+      <string>uni28EF</string>
+      <key>dots123468-braille</key>
+      <string>uni28AF</string>
+      <key>dots12347-braille</key>
+      <string>uni284F</string>
+      <key>dots123478-braille</key>
+      <string>uni28CF</string>
+      <key>dots12348-braille</key>
+      <string>uni288F</string>
+      <key>dots1235-braille</key>
+      <string>uni2817</string>
+      <key>dots12356-braille</key>
+      <string>uni2837</string>
+      <key>dots123567-braille</key>
+      <string>uni2877</string>
+      <key>dots1235678-braille</key>
+      <string>uni28F7</string>
+      <key>dots123568-braille</key>
+      <string>uni28B7</string>
+      <key>dots12357-braille</key>
+      <string>uni2857</string>
+      <key>dots123578-braille</key>
+      <string>uni28D7</string>
+      <key>dots12358-braille</key>
+      <string>uni2897</string>
+      <key>dots1236-braille</key>
+      <string>uni2827</string>
+      <key>dots12367-braille</key>
+      <string>uni2867</string>
+      <key>dots123678-braille</key>
+      <string>uni28E7</string>
+      <key>dots12368-braille</key>
+      <string>uni28A7</string>
+      <key>dots1237-braille</key>
+      <string>uni2847</string>
+      <key>dots12378-braille</key>
+      <string>uni28C7</string>
+      <key>dots1238-braille</key>
+      <string>uni2887</string>
+      <key>dots124-braille</key>
+      <string>uni280B</string>
+      <key>dots1245-braille</key>
+      <string>uni281B</string>
+      <key>dots12456-braille</key>
+      <string>uni283B</string>
+      <key>dots124567-braille</key>
+      <string>uni287B</string>
+      <key>dots1245678-braille</key>
+      <string>uni28FB</string>
+      <key>dots124568-braille</key>
+      <string>uni28BB</string>
+      <key>dots12457-braille</key>
+      <string>uni285B</string>
+      <key>dots124578-braille</key>
+      <string>uni28DB</string>
+      <key>dots12458-braille</key>
+      <string>uni289B</string>
+      <key>dots1246-braille</key>
+      <string>uni282B</string>
+      <key>dots12467-braille</key>
+      <string>uni286B</string>
+      <key>dots124678-braille</key>
+      <string>uni28EB</string>
+      <key>dots12468-braille</key>
+      <string>uni28AB</string>
+      <key>dots1247-braille</key>
+      <string>uni284B</string>
+      <key>dots12478-braille</key>
+      <string>uni28CB</string>
+      <key>dots1248-braille</key>
+      <string>uni288B</string>
+      <key>dots125-braille</key>
+      <string>uni2813</string>
+      <key>dots1256-braille</key>
+      <string>uni2833</string>
+      <key>dots12567-braille</key>
+      <string>uni2873</string>
+      <key>dots125678-braille</key>
+      <string>uni28F3</string>
+      <key>dots12568-braille</key>
+      <string>uni28B3</string>
+      <key>dots1257-braille</key>
+      <string>uni2853</string>
+      <key>dots12578-braille</key>
+      <string>uni28D3</string>
+      <key>dots1258-braille</key>
+      <string>uni2893</string>
+      <key>dots126-braille</key>
+      <string>uni2823</string>
+      <key>dots1267-braille</key>
+      <string>uni2863</string>
+      <key>dots12678-braille</key>
+      <string>uni28E3</string>
+      <key>dots1268-braille</key>
+      <string>uni28A3</string>
+      <key>dots127-braille</key>
+      <string>uni2843</string>
+      <key>dots1278-braille</key>
+      <string>uni28C3</string>
+      <key>dots128-braille</key>
+      <string>uni2883</string>
+      <key>dots13-braille</key>
+      <string>uni2805</string>
+      <key>dots134-braille</key>
+      <string>uni280D</string>
+      <key>dots1345-braille</key>
+      <string>uni281D</string>
+      <key>dots13456-braille</key>
+      <string>uni283D</string>
+      <key>dots134567-braille</key>
+      <string>uni287D</string>
+      <key>dots1345678-braille</key>
+      <string>uni28FD</string>
+      <key>dots134568-braille</key>
+      <string>uni28BD</string>
+      <key>dots13457-braille</key>
+      <string>uni285D</string>
+      <key>dots134578-braille</key>
+      <string>uni28DD</string>
+      <key>dots13458-braille</key>
+      <string>uni289D</string>
+      <key>dots1346-braille</key>
+      <string>uni282D</string>
+      <key>dots13467-braille</key>
+      <string>uni286D</string>
+      <key>dots134678-braille</key>
+      <string>uni28ED</string>
+      <key>dots13468-braille</key>
+      <string>uni28AD</string>
+      <key>dots1347-braille</key>
+      <string>uni284D</string>
+      <key>dots13478-braille</key>
+      <string>uni28CD</string>
+      <key>dots1348-braille</key>
+      <string>uni288D</string>
+      <key>dots135-braille</key>
+      <string>uni2815</string>
+      <key>dots1356-braille</key>
+      <string>uni2835</string>
+      <key>dots13567-braille</key>
+      <string>uni2875</string>
+      <key>dots135678-braille</key>
+      <string>uni28F5</string>
+      <key>dots13568-braille</key>
+      <string>uni28B5</string>
+      <key>dots1357-braille</key>
+      <string>uni2855</string>
+      <key>dots13578-braille</key>
+      <string>uni28D5</string>
+      <key>dots1358-braille</key>
+      <string>uni2895</string>
+      <key>dots136-braille</key>
+      <string>uni2825</string>
+      <key>dots1367-braille</key>
+      <string>uni2865</string>
+      <key>dots13678-braille</key>
+      <string>uni28E5</string>
+      <key>dots1368-braille</key>
+      <string>uni28A5</string>
+      <key>dots137-braille</key>
+      <string>uni2845</string>
+      <key>dots1378-braille</key>
+      <string>uni28C5</string>
+      <key>dots138-braille</key>
+      <string>uni2885</string>
+      <key>dots14-braille</key>
+      <string>uni2809</string>
+      <key>dots145-braille</key>
+      <string>uni2819</string>
+      <key>dots1456-braille</key>
+      <string>uni2839</string>
+      <key>dots14567-braille</key>
+      <string>uni2879</string>
+      <key>dots145678-braille</key>
+      <string>uni28F9</string>
+      <key>dots14568-braille</key>
+      <string>uni28B9</string>
+      <key>dots1457-braille</key>
+      <string>uni2859</string>
+      <key>dots14578-braille</key>
+      <string>uni28D9</string>
+      <key>dots1458-braille</key>
+      <string>uni2899</string>
+      <key>dots146-braille</key>
+      <string>uni2829</string>
+      <key>dots1467-braille</key>
+      <string>uni2869</string>
+      <key>dots14678-braille</key>
+      <string>uni28E9</string>
+      <key>dots1468-braille</key>
+      <string>uni28A9</string>
+      <key>dots147-braille</key>
+      <string>uni2849</string>
+      <key>dots1478-braille</key>
+      <string>uni28C9</string>
+      <key>dots148-braille</key>
+      <string>uni2889</string>
+      <key>dots15-braille</key>
+      <string>uni2811</string>
+      <key>dots156-braille</key>
+      <string>uni2831</string>
+      <key>dots1567-braille</key>
+      <string>uni2871</string>
+      <key>dots15678-braille</key>
+      <string>uni28F1</string>
+      <key>dots1568-braille</key>
+      <string>uni28B1</string>
+      <key>dots157-braille</key>
+      <string>uni2851</string>
+      <key>dots1578-braille</key>
+      <string>uni28D1</string>
+      <key>dots158-braille</key>
+      <string>uni2891</string>
+      <key>dots16-braille</key>
+      <string>uni2821</string>
+      <key>dots167-braille</key>
+      <string>uni2861</string>
+      <key>dots1678-braille</key>
+      <string>uni28E1</string>
+      <key>dots168-braille</key>
+      <string>uni28A1</string>
+      <key>dots17-braille</key>
+      <string>uni2841</string>
+      <key>dots178-braille</key>
+      <string>uni28C1</string>
+      <key>dots18-braille</key>
+      <string>uni2881</string>
+      <key>dots2-braille</key>
+      <string>uni2802</string>
+      <key>dots23-braille</key>
+      <string>uni2806</string>
+      <key>dots234-braille</key>
+      <string>uni280E</string>
+      <key>dots2345-braille</key>
+      <string>uni281E</string>
+      <key>dots23456-braille</key>
+      <string>uni283E</string>
+      <key>dots234567-braille</key>
+      <string>uni287E</string>
+      <key>dots2345678-braille</key>
+      <string>uni28FE</string>
+      <key>dots234568-braille</key>
+      <string>uni28BE</string>
+      <key>dots23457-braille</key>
+      <string>uni285E</string>
+      <key>dots234578-braille</key>
+      <string>uni28DE</string>
+      <key>dots23458-braille</key>
+      <string>uni289E</string>
+      <key>dots2346-braille</key>
+      <string>uni282E</string>
+      <key>dots23467-braille</key>
+      <string>uni286E</string>
+      <key>dots234678-braille</key>
+      <string>uni28EE</string>
+      <key>dots23468-braille</key>
+      <string>uni28AE</string>
+      <key>dots2347-braille</key>
+      <string>uni284E</string>
+      <key>dots23478-braille</key>
+      <string>uni28CE</string>
+      <key>dots2348-braille</key>
+      <string>uni288E</string>
+      <key>dots235-braille</key>
+      <string>uni2816</string>
+      <key>dots2356-braille</key>
+      <string>uni2836</string>
+      <key>dots23567-braille</key>
+      <string>uni2876</string>
+      <key>dots235678-braille</key>
+      <string>uni28F6</string>
+      <key>dots23568-braille</key>
+      <string>uni28B6</string>
+      <key>dots2357-braille</key>
+      <string>uni2856</string>
+      <key>dots23578-braille</key>
+      <string>uni28D6</string>
+      <key>dots2358-braille</key>
+      <string>uni2896</string>
+      <key>dots236-braille</key>
+      <string>uni2826</string>
+      <key>dots2367-braille</key>
+      <string>uni2866</string>
+      <key>dots23678-braille</key>
+      <string>uni28E6</string>
+      <key>dots2368-braille</key>
+      <string>uni28A6</string>
+      <key>dots237-braille</key>
+      <string>uni2846</string>
+      <key>dots2378-braille</key>
+      <string>uni28C6</string>
+      <key>dots238-braille</key>
+      <string>uni2886</string>
+      <key>dots24-braille</key>
+      <string>uni280A</string>
+      <key>dots245-braille</key>
+      <string>uni281A</string>
+      <key>dots2456-braille</key>
+      <string>uni283A</string>
+      <key>dots24567-braille</key>
+      <string>uni287A</string>
+      <key>dots245678-braille</key>
+      <string>uni28FA</string>
+      <key>dots24568-braille</key>
+      <string>uni28BA</string>
+      <key>dots2457-braille</key>
+      <string>uni285A</string>
+      <key>dots24578-braille</key>
+      <string>uni28DA</string>
+      <key>dots2458-braille</key>
+      <string>uni289A</string>
+      <key>dots246-braille</key>
+      <string>uni282A</string>
+      <key>dots2467-braille</key>
+      <string>uni286A</string>
+      <key>dots24678-braille</key>
+      <string>uni28EA</string>
+      <key>dots2468-braille</key>
+      <string>uni28AA</string>
+      <key>dots247-braille</key>
+      <string>uni284A</string>
+      <key>dots2478-braille</key>
+      <string>uni28CA</string>
+      <key>dots248-braille</key>
+      <string>uni288A</string>
+      <key>dots25-braille</key>
+      <string>uni2812</string>
+      <key>dots256-braille</key>
+      <string>uni2832</string>
+      <key>dots2567-braille</key>
+      <string>uni2872</string>
+      <key>dots25678-braille</key>
+      <string>uni28F2</string>
+      <key>dots2568-braille</key>
+      <string>uni28B2</string>
+      <key>dots257-braille</key>
+      <string>uni2852</string>
+      <key>dots2578-braille</key>
+      <string>uni28D2</string>
+      <key>dots258-braille</key>
+      <string>uni2892</string>
+      <key>dots26-braille</key>
+      <string>uni2822</string>
+      <key>dots267-braille</key>
+      <string>uni2862</string>
+      <key>dots2678-braille</key>
+      <string>uni28E2</string>
+      <key>dots268-braille</key>
+      <string>uni28A2</string>
+      <key>dots27-braille</key>
+      <string>uni2842</string>
+      <key>dots278-braille</key>
+      <string>uni28C2</string>
+      <key>dots28-braille</key>
+      <string>uni2882</string>
+      <key>dots3-braille</key>
+      <string>uni2804</string>
+      <key>dots34-braille</key>
+      <string>uni280C</string>
+      <key>dots345-braille</key>
+      <string>uni281C</string>
+      <key>dots3456-braille</key>
+      <string>uni283C</string>
+      <key>dots34567-braille</key>
+      <string>uni287C</string>
+      <key>dots345678-braille</key>
+      <string>uni28FC</string>
+      <key>dots34568-braille</key>
+      <string>uni28BC</string>
+      <key>dots3457-braille</key>
+      <string>uni285C</string>
+      <key>dots34578-braille</key>
+      <string>uni28DC</string>
+      <key>dots3458-braille</key>
+      <string>uni289C</string>
+      <key>dots346-braille</key>
+      <string>uni282C</string>
+      <key>dots3467-braille</key>
+      <string>uni286C</string>
+      <key>dots34678-braille</key>
+      <string>uni28EC</string>
+      <key>dots3468-braille</key>
+      <string>uni28AC</string>
+      <key>dots347-braille</key>
+      <string>uni284C</string>
+      <key>dots3478-braille</key>
+      <string>uni28CC</string>
+      <key>dots348-braille</key>
+      <string>uni288C</string>
+      <key>dots35-braille</key>
+      <string>uni2814</string>
+      <key>dots356-braille</key>
+      <string>uni2834</string>
+      <key>dots3567-braille</key>
+      <string>uni2874</string>
+      <key>dots35678-braille</key>
+      <string>uni28F4</string>
+      <key>dots3568-braille</key>
+      <string>uni28B4</string>
+      <key>dots357-braille</key>
+      <string>uni2854</string>
+      <key>dots3578-braille</key>
+      <string>uni28D4</string>
+      <key>dots358-braille</key>
+      <string>uni2894</string>
+      <key>dots36-braille</key>
+      <string>uni2824</string>
+      <key>dots367-braille</key>
+      <string>uni2864</string>
+      <key>dots3678-braille</key>
+      <string>uni28E4</string>
+      <key>dots368-braille</key>
+      <string>uni28A4</string>
+      <key>dots37-braille</key>
+      <string>uni2844</string>
+      <key>dots378-braille</key>
+      <string>uni28C4</string>
+      <key>dots38-braille</key>
+      <string>uni2884</string>
+      <key>dots4-braille</key>
+      <string>uni2808</string>
+      <key>dots45-braille</key>
+      <string>uni2818</string>
+      <key>dots456-braille</key>
+      <string>uni2838</string>
+      <key>dots4567-braille</key>
+      <string>uni2878</string>
+      <key>dots45678-braille</key>
+      <string>uni28F8</string>
+      <key>dots4568-braille</key>
+      <string>uni28B8</string>
+      <key>dots457-braille</key>
+      <string>uni2858</string>
+      <key>dots4578-braille</key>
+      <string>uni28D8</string>
+      <key>dots458-braille</key>
+      <string>uni2898</string>
+      <key>dots46-braille</key>
+      <string>uni2828</string>
+      <key>dots467-braille</key>
+      <string>uni2868</string>
+      <key>dots4678-braille</key>
+      <string>uni28E8</string>
+      <key>dots468-braille</key>
+      <string>uni28A8</string>
+      <key>dots47-braille</key>
+      <string>uni2848</string>
+      <key>dots478-braille</key>
+      <string>uni28C8</string>
+      <key>dots48-braille</key>
+      <string>uni2888</string>
+      <key>dots5-braille</key>
+      <string>uni2810</string>
+      <key>dots56-braille</key>
+      <string>uni2830</string>
+      <key>dots567-braille</key>
+      <string>uni2870</string>
+      <key>dots5678-braille</key>
+      <string>uni28F0</string>
+      <key>dots568-braille</key>
+      <string>uni28B0</string>
+      <key>dots57-braille</key>
+      <string>uni2850</string>
+      <key>dots578-braille</key>
+      <string>uni28D0</string>
+      <key>dots58-braille</key>
+      <string>uni2890</string>
+      <key>dots6-braille</key>
+      <string>uni2820</string>
+      <key>dots67-braille</key>
+      <string>uni2860</string>
+      <key>dots678-braille</key>
+      <string>uni28E0</string>
+      <key>dots68-braille</key>
+      <string>uni28A0</string>
+      <key>dots7-braille</key>
+      <string>uni2840</string>
+      <key>dots78-braille</key>
+      <string>uni28C0</string>
+      <key>dots8-braille</key>
+      <string>uni2880</string>
+      <key>dottedCircle</key>
+      <string>uni25CC</string>
+      <key>dottedSquare</key>
+      <string>uni2B1A</string>
       <key>downArrow</key>
       <string>arrowdown</string>
+      <key>downBlackSmallTriangle</key>
+      <string>uni25BE</string>
       <key>downBlackTriangle</key>
       <string>triagdn</string>
+      <key>downWhiteSmallTriangle</key>
+      <string>uni25BF</string>
+      <key>downWhiteTriangle</key>
+      <string>uni25BD</string>
       <key>dze-cy</key>
       <string>uni0455</string>
       <key>dzhe-cy</key>
@@ -1906,8 +2856,12 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni20A0</string>
       <key>exclamdouble</key>
       <string>exclamdbl</string>
+      <key>filledRect</key>
+      <string>filledrect</string>
       <key>firsttonechinese</key>
       <string>uni02C9</string>
+      <key>fisheye</key>
+      <string>uni25C9</string>
       <key>fiveinferior</key>
       <string>uni2085</string>
       <key>fivesuperior</key>
@@ -1946,6 +2900,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni044A.loclBGR</string>
       <key>heartBlackSuit</key>
       <string>heart</string>
+      <key>horizontalBlackHexagon</key>
+      <string>uni2B23</string>
+      <key>horizontalFillSquare</key>
+      <string>uni25A4</string>
       <key>horizontalbar</key>
       <string>uni2015</string>
       <key>horizontallineextension</key>
@@ -1990,6 +2948,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni04E3</string>
       <key>increment</key>
       <string>uni2206</string>
+      <key>inverseBullet</key>
+      <string>invbullet</string>
+      <key>inverseWhiteCircle</key>
+      <string>invcircle</string>
       <key>io-cy</key>
       <string>uni0451</string>
       <key>iu-cy</key>
@@ -2014,6 +2976,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni20AD</string>
       <key>kje-cy</key>
       <string>uni045C</string>
+      <key>largeCircle</key>
+      <string>uni25EF</string>
       <key>lari</key>
       <string>uni20BE</string>
       <key>lcommaaccent</key>
@@ -2022,10 +2986,22 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>arrowleft</string>
       <key>leftBlackPointer</key>
       <string>triaglf</string>
+      <key>leftBlackSmallTriangle</key>
+      <string>uni25C2</string>
+      <key>leftBlackTriangle</key>
+      <string>uni25C0</string>
       <key>leftBlock</key>
       <string>lfblock</string>
       <key>leftFiveEighthsBlock</key>
       <string>uni258B</string>
+      <key>leftHalfBlackCircle</key>
+      <string>uni25D6</string>
+      <key>leftHalfBlackDiamond</key>
+      <string>uni2B16</string>
+      <key>leftHalfBlackSquare</key>
+      <string>uni25E7</string>
+      <key>leftHalfBlackWhiteCircle</key>
+      <string>uni25D0</string>
       <key>leftOneEighthBlock</key>
       <string>uni258F</string>
       <key>leftOneQuarterBlock</key>
@@ -2038,6 +3014,12 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni258D</string>
       <key>leftThreeQuartersBlock</key>
       <string>uni258A</string>
+      <key>leftWhitePointer</key>
+      <string>uni25C5</string>
+      <key>leftWhiteSmallTriangle</key>
+      <string>uni25C3</string>
+      <key>leftWhiteTriangle</key>
+      <string>uni25C1</string>
       <key>liraTurkish</key>
       <string>uni20BA</string>
       <key>literSign</key>
@@ -2048,16 +3030,44 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>revlogicalnot</string>
       <key>lowerFiveEighthsBlock</key>
       <string>uni2585</string>
+      <key>lowerHalfArc</key>
+      <string>uni25E1</string>
+      <key>lowerHalfBlackWhiteCircle</key>
+      <string>uni25D2</string>
       <key>lowerHalfBlock</key>
       <string>dnblock</string>
+      <key>lowerHalfInverseWhiteCircle</key>
+      <string>uni25DB</string>
+      <key>lowerHalfWhiteSquare</key>
+      <string>uni2B12</string>
+      <key>lowerLeftArc</key>
+      <string>uni25DF</string>
+      <key>lowerLeftBlackTriangle</key>
+      <string>uni25E3</string>
       <key>lowerLeftBlock</key>
       <string>uni2596</string>
+      <key>lowerLeftHalfWhiteSquare</key>
+      <string>uni2B14</string>
+      <key>lowerLeftQuadrantWhiteCircle</key>
+      <string>uni25F5</string>
+      <key>lowerLeftTriangle</key>
+      <string>uni25FA</string>
       <key>lowerOneEighthBlock</key>
       <string>uni2581</string>
       <key>lowerOneQuarterBlock</key>
       <string>uni2582</string>
+      <key>lowerRightArc</key>
+      <string>uni25DE</string>
+      <key>lowerRightBlackTriangle</key>
+      <string>uni25E2</string>
       <key>lowerRightBlock</key>
       <string>uni2597</string>
+      <key>lowerRightDiagonalHalfBlackSquare</key>
+      <string>uni25EA</string>
+      <key>lowerRightQuadrantWhiteCircle</key>
+      <string>uni25F6</string>
+      <key>lowerRightTriangle</key>
+      <string>uni25FF</string>
       <key>lowerSevenEighthsBlock</key>
       <string>uni2587</string>
       <key>lowerThreeEighthsBlock</key>
@@ -2074,6 +3084,18 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni20BC</string>
       <key>mars</key>
       <string>male</string>
+      <key>mediumBlackSmallSquare</key>
+      <string>uni25FE</string>
+      <key>mediumBlackSquare</key>
+      <string>uni25FC</string>
+      <key>mediumWhiteSmallSquare</key>
+      <string>uni25FD</string>
+      <key>mediumWhiteSquare</key>
+      <string>uni25FB</string>
+      <key>mediumleftpointinganglebracketornament</key>
+      <string>uni276C</string>
+      <key>mediumrightpointinganglebracketornament</key>
+      <string>uni276D</string>
       <key>micro</key>
       <string>uni00B5</string>
       <key>mu</key>
@@ -2096,6 +3118,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni207F</string>
       <key>note-musical</key>
       <string>musicalnote</string>
+      <key>num_num_num.liga</key>
+      <string>uniA774A774A774.liga</string>
+      <key>num_num_num_num.liga</key>
+      <string>uniA774A774A774A774.liga</string>
       <key>numeral-greek</key>
       <string>uni0374</string>
       <key>numero</key>
@@ -2158,10 +3184,28 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>arrowright</string>
       <key>rightBlackPointer</key>
       <string>triagrt</string>
+      <key>rightBlackSmallTriangle</key>
+      <string>uni25B8</string>
+      <key>rightBlackTriangle</key>
+      <string>uni25B6</string>
       <key>rightBlock</key>
       <string>rtblock</string>
+      <key>rightHalfBlackCircle</key>
+      <string>uni25D7</string>
+      <key>rightHalfBlackDiamond</key>
+      <string>uni2B17</string>
+      <key>rightHalfBlackSquare</key>
+      <string>uni25E8</string>
+      <key>rightHalfBlackWhiteCircle</key>
+      <string>uni25D1</string>
       <key>rightOneEighthBlock</key>
       <string>uni2595</string>
+      <key>rightWhitePointer</key>
+      <string>uni25BB</string>
+      <key>rightWhiteSmallTriangle</key>
+      <string>uni25B9</string>
+      <key>rightWhiteTriangle</key>
+      <string>uni25B7</string>
       <key>ringcomb</key>
       <string>uni030A</string>
       <key>ringcomb.case</key>
@@ -2230,6 +3274,14 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni2083</string>
       <key>threesuperior</key>
       <string>uni00B3</string>
+      <key>topHalfBlackCircle</key>
+      <string>uni2BCA</string>
+      <key>topHalfBlackDiamond</key>
+      <string>uni2B18</string>
+      <key>topHalfWhiteSquare</key>
+      <string>uni2B13</string>
+      <key>topRightHalfWhiteSquare</key>
+      <string>uni2B15</string>
       <key>tse-cy</key>
       <string>uni0446</string>
       <key>tse-cy.loclBGR</key>
@@ -2262,14 +3314,32 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni04EF</string>
       <key>upArrow</key>
       <string>arrowup</string>
+      <key>upBlackSmallTriangle</key>
+      <string>uni25B4</string>
       <key>upBlackTriangle</key>
       <string>triagup</string>
       <key>upDownArrow</key>
       <string>arrowupdn</string>
       <key>upDownbaseArrow</key>
       <string>arrowupdnbse</string>
+      <key>upLeftHalfBlackTriangle</key>
+      <string>uni25ED</string>
+      <key>upRightHalfBlackTriangle</key>
+      <string>uni25EE</string>
+      <key>upWhiteSmallTriangle</key>
+      <string>uni25B5</string>
+      <key>upWhiteTriangle</key>
+      <string>uni25B3</string>
+      <key>upWhiteTriangleWithDot</key>
+      <string>uni25EC</string>
+      <key>upperHalfArc</key>
+      <string>uni25E0</string>
+      <key>upperHalfBlackWhiteCircle</key>
+      <string>uni25D3</string>
       <key>upperHalfBlock</key>
       <string>upblock</string>
+      <key>upperHalfInverseWhiteCircle</key>
+      <string>uni25DA</string>
       <key>upperLeftAndLowerLeftAndLowerRightBlock</key>
       <string>uni2599</string>
       <key>upperLeftAndLowerRightBlock</key>
@@ -2278,16 +3348,42 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni259B</string>
       <key>upperLeftAndUpperRightAndLowerRightBlock</key>
       <string>uni259C</string>
+      <key>upperLeftArc</key>
+      <string>uni25DC</string>
+      <key>upperLeftBlackTriangle</key>
+      <string>uni25E4</string>
       <key>upperLeftBlock</key>
       <string>uni2598</string>
+      <key>upperLeftDiagonalHalfBlackSquare</key>
+      <string>uni25E9</string>
+      <key>upperLeftQuadrantWhiteCircle</key>
+      <string>uni25F4</string>
+      <key>upperLeftTriangle</key>
+      <string>uni25F8</string>
+      <key>upperLeftWhiteCircle</key>
+      <string>uni25D5</string>
       <key>upperOneEighthBlock</key>
       <string>uni2594</string>
       <key>upperRightAndLowerLeftAndLowerRightBlock</key>
       <string>uni259F</string>
       <key>upperRightAndLowerLeftBlock</key>
       <string>uni259E</string>
+      <key>upperRightArc</key>
+      <string>uni25DD</string>
+      <key>upperRightBlackCircle</key>
+      <string>uni25D4</string>
+      <key>upperRightBlackTriangle</key>
+      <string>uni25E5</string>
       <key>upperRightBlock</key>
       <string>uni259D</string>
+      <key>upperRightQuadrantWhiteCircle</key>
+      <string>uni25F7</string>
+      <key>upperRightTriangle</key>
+      <string>uni25F9</string>
+      <key>upperlefttolowerrightFillSquare</key>
+      <string>uni25A7</string>
+      <key>upperrighttolowerleftFillSquare</key>
+      <string>uni25A8</string>
       <key>ushort-cy</key>
       <string>uni045E</string>
       <key>ustraight-cy</key>
@@ -2300,14 +3396,58 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0432.loclBGR</string>
       <key>venus</key>
       <string>female</string>
+      <key>verticalBisectingLineWhiteSquare</key>
+      <string>uni25EB</string>
+      <key>verticalFillCircle</key>
+      <string>uni25CD</string>
+      <key>verticalFillSquare</key>
+      <string>uni25A5</string>
       <key>whiteBullet</key>
       <string>openbullet</string>
       <key>whiteCircle</key>
       <string>circle</string>
+      <key>whiteDiamond</key>
+      <string>uni25C7</string>
+      <key>whiteHexagon</key>
+      <string>uni2B21</string>
+      <key>whiteHorizontalEllipse</key>
+      <string>uni2B2D</string>
+      <key>whiteInBlackSquare</key>
+      <string>uni25A3</string>
+      <key>whiteLargeSquare</key>
+      <string>uni2B1C</string>
+      <key>whiteLowerLeftQuadrantSquare</key>
+      <string>uni25F1</string>
+      <key>whiteLowerRightQuadrantSquare</key>
+      <string>uni25F2</string>
+      <key>whiteMediumDiamond</key>
+      <string>uni2B26</string>
+      <key>whiteMediumLozenge</key>
+      <string>uni2B28</string>
+      <key>whiteParallelogram</key>
+      <string>uni25B1</string>
+      <key>whitePentagon</key>
+      <string>uni2B20</string>
+      <key>whiteRect</key>
+      <string>uni25AD</string>
+      <key>whiteRoundedCornersSquare</key>
+      <string>uni25A2</string>
+      <key>whiteSmallLozenge</key>
+      <string>uni2B2B</string>
       <key>whiteSmallSquare</key>
       <string>uni25AB</string>
       <key>whiteSquare</key>
       <string>uni25A1</string>
+      <key>whiteUpperLeftQuadrantSquare</key>
+      <string>uni25F0</string>
+      <key>whiteUpperRightQuadrantSquare</key>
+      <string>uni25F3</string>
+      <key>whiteVerticalEllipse</key>
+      <string>uni2B2F</string>
+      <key>whiteVerticalRect</key>
+      <string>uni25AF</string>
+      <key>whiteVerysmallSquare</key>
+      <string>uni2B1E</string>
       <key>won</key>
       <string>uni20A9</string>
       <key>ydotbelow</key>

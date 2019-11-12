@@ -3,10 +3,6 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="720" y="548" type="curve" smooth="yes"/>
-      <point x="898" y="548"/>
-      <point x="1000" y="680"/>
-      <point x="1000" y="908" type="curve" smooth="yes"/>
       <point x="1000" y="978" type="line"/>
       <point x="798" y="978" type="line"/>
       <point x="798" y="928" type="line" smooth="yes"/>
@@ -27,6 +23,10 @@
       <point x="244" y="748" type="curve" smooth="yes"/>
       <point x="402" y="748"/>
       <point x="562" y="548"/>
+      <point x="720" y="548" type="curve" smooth="yes"/>
+      <point x="898" y="548"/>
+      <point x="1000" y="680"/>
+      <point x="1000" y="908" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="-920" y="626" type="line"/>
@@ -38,7 +38,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/09/28 17:11:23</string>
+      <string>2019/11/05 15:26:22</string>
       <key>public.markColor</key>
       <string>0.97,1,0,1</string>
     </dict>

@@ -4,32 +4,22 @@
   <unicode hex="0414"/>
   <outline>
     <contour>
-      <point x="263" y="26" type="line"/>
-      <point x="408" y="237"/>
-      <point x="530" y="537"/>
-      <point x="530" y="1420" type="curve"/>
-      <point x="330" y="1420" type="line"/>
-      <point x="330" y="576"/>
-      <point x="207" y="309"/>
-      <point x="119" y="176" type="curve"/>
+      <point x="30" y="-290" type="line"/>
+      <point x="230" y="-290" type="line"/>
+      <point x="230" y="130" type="line"/>
+      <point x="30" y="130" type="line"/>
     </contour>
     <contour>
-      <point x="0" y="-290" type="line"/>
-      <point x="200" y="-290" type="line"/>
-      <point x="200" y="130" type="line"/>
-      <point x="0" y="130" type="line"/>
-    </contour>
-    <contour>
-      <point x="0" y="0" type="line"/>
+      <point x="30" y="0" type="line"/>
       <point x="1018" y="0" type="line"/>
       <point x="1018" y="190" type="line"/>
-      <point x="0" y="190" type="line"/>
+      <point x="30" y="190" type="line"/>
     </contour>
     <contour>
-      <point x="152" y="0" type="line"/>
+      <point x="182" y="0" type="line"/>
       <point x="1170" y="0" type="line"/>
       <point x="1170" y="190" type="line"/>
-      <point x="152" y="190" type="line"/>
+      <point x="182" y="190" type="line"/>
     </contour>
     <contour>
       <point x="970" y="-290" type="line"/>
@@ -49,11 +39,25 @@
       <point x="1001" y="1420" type="line"/>
       <point x="372" y="1420" type="line"/>
     </contour>
+    <contour>
+      <point x="168" y="170" type="curve"/>
+      <point x="354" y="148" type="line"/>
+      <point x="428" y="284"/>
+      <point x="460" y="455"/>
+      <point x="460" y="721" type="curve" smooth="yes"/>
+      <point x="460" y="1420" type="line"/>
+      <point x="280" y="1420" type="line"/>
+      <point x="280" y="714" type="line" smooth="yes"/>
+      <point x="280" y="448"/>
+      <point x="247" y="285"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/10/25 15:44:34</string>
+      <string>2019/11/10 05:18:47</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

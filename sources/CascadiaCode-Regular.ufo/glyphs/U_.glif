@@ -8,10 +8,6 @@
   <anchor x="1180" y="1420" name="topright"/>
   <outline>
     <contour>
-      <point x="596" y="-20" type="curve" smooth="yes"/>
-      <point x="900" y="-20"/>
-      <point x="1060" y="138"/>
-      <point x="1060" y="456" type="curve" smooth="yes"/>
       <point x="1060" y="1420" type="line"/>
       <point x="860" y="1420" type="line"/>
       <point x="860" y="456" type="line" smooth="yes"/>
@@ -26,12 +22,16 @@
       <point x="140" y="456" type="line" smooth="yes"/>
       <point x="140" y="138"/>
       <point x="292" y="-20"/>
+      <point x="596" y="-20" type="curve" smooth="yes"/>
+      <point x="900" y="-20"/>
+      <point x="1060" y="138"/>
+      <point x="1060" y="456" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/09/23 17:10:38</string>
+      <string>2019/11/05 15:26:22</string>
     </dict>
   </lib>
 </glyph>
