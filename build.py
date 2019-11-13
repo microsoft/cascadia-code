@@ -46,18 +46,6 @@ if __name__ == "__main__":
         setattr(instance.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
         setattr(instanceNF.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
         setattr(instancePL.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
-        
-        setattr(instance.info,"openTypeHheaAscender",instance.info.openTypeOS2TypoAscender)
-        setattr(instance.info,"openTypeHheaDescender",instance.info.openTypeOS2TypoDescender)
-        setattr(instance.info,"openTypeHheaLineGap",instance.info.openTypeOS2TypoLineGap)
-
-        setattr(instanceNF.info,"openTypeHheaAscender",instanceNF.info.openTypeOS2TypoAscender)
-        setattr(instanceNF.info,"openTypeHheaDescender",instanceNF.info.openTypeOS2TypoDescender)
-        setattr(instanceNF.info,"openTypeHheaLineGap",instanceNF.info.openTypeOS2TypoLineGap)
-
-        setattr(instancePL.info,"openTypeHheaAscender",instancePL.info.openTypeOS2TypoAscender)
-        setattr(instancePL.info,"openTypeHheaDescender",instancePL.info.openTypeOS2TypoDescender)
-        setattr(instancePL.info,"openTypeHheaLineGap",instancePL.info.openTypeOS2TypoLineGap)
 
         instanceNF.info.familyName = "Cascadia Code NL"
         instancePL.info.familyName = "Cascadia Code PL"
