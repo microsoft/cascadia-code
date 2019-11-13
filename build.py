@@ -59,8 +59,8 @@ if __name__ == "__main__":
         setattr(instancePL.info,"openTypeHheaDescender",instancePL.info.openTypeOS2TypoDescender)
         setattr(instancePL.info,"openTypeHheaLineGap",instancePL.info.openTypeOS2TypoLineGap)
 
-        setattr(instanceNF.info, "familyName","Cascadia Code NF")
-        setattr(instancePL.info, "familyName","Cascadia Code PL")
+        instanceNF.info.familyName = "Cascadia Code NL"
+        instancePL.info.familyName = "Cascadia Code PL"
 
         #4.2 GET BACK TO WORK
 
@@ -70,15 +70,11 @@ if __name__ == "__main__":
         #4.5 Adding glyphs
         print ("Adding Nerd Font glyphs")
         for glyph in NF_UFO.glyphOrder:
-            if glyph in instanceNF.glyphOrder:
-                pass
-            else:
+            if glyph not in instanceNF.glyphOrder:
                 instanceNF.addGlyph(NF_UFO.get(glyph))
 
         for glyph in PL_UFO.glyphOrder:
-            if glyph in instancePL.glyphOrder:
-                pass
-            else:
+            if glyph not in instancePL.glyphOrder:
                 instancePL.addGlyph(PL_UFO.get(glyph))
 
         # 5. Generate non-Ligature versions
@@ -90,13 +86,13 @@ if __name__ == "__main__":
         with open(INPUT_DIR / "features" / "features.fea", 'r') as feaCode:
             noLIG_fea = feaCode.read()
 
-        setattr(instance_noLIG.features,"text",noLIG_fea)
-        setattr(instanceNF_noLIG.features,"text",noLIG_fea)
-        setattr(instancePL_noLIG.features,"text",noLIG_fea)
+        instance_noLIG.features.text = noLIG_fea
+        instanceNF_noLIG.features.text = noLIG_fea
+        instancePL_noLIG.features.text = noLIG_fea
 
-        setattr(instance_noLIG.info, "familyName","Cascadia Code N")
-        setattr(instanceNF_noLIG.info, "familyName","Cascadia Code NLN")
-        setattr(instancePL_noLIG.info, "familyName","Cascadia Code PLN")
+        instance_noLIG.info.familyName = "Cascadia Mono"
+        instanceNF_noLIG.info.familyName = "Cascadia Mono NF"
+        instancePL_noLIG.info.familyName = "Cascadia Mono PL"
 
         # 6. Compile all TTFs
         print ("Compiling")
@@ -116,9 +112,9 @@ if __name__ == "__main__":
         instanceNF_font.save(file_path.with_name("CascadiaNF.ttf"))
         instancePL_font.save(file_path.with_name("CascadiaPL.ttf"))
 
-        instance_noLIG_font.save(file_path.with_name("Cascadia_noLIG.ttf"))
-        instanceNF_noLIG_font.save(file_path.with_name("CascadiaNF_noLIG.ttf"))
-        instancePL_noLIG_font.save(file_path.with_name("CascadiaPL_noLIG.ttf"))
+        instance_noLIG_font.save(file_path.with_name("CascadiaMono.ttf"))
+        instanceNF_noLIG_font.save(file_path.with_name("CascadiaMonoNF.ttf"))
+        instancePL_noLIG_font.save(file_path.with_name("CascadiaMonoPL.ttf"))
 
         print ("All done")
         print ("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
