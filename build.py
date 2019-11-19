@@ -47,7 +47,7 @@ if __name__ == "__main__":
         setattr(instanceNF.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
         setattr(instancePL.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
 
-        instanceNF.info.familyName = "Cascadia Code NL"
+        instanceNF.info.familyName = "Cascadia Code NF"
         instancePL.info.familyName = "Cascadia Code PL"
 
         #4.2 GET BACK TO WORK
