@@ -8,17 +8,28 @@
   <anchor x="1180" y="1420" name="topright"/>
   <outline>
     <contour>
-      <point x="34" y="462" type="line"/>
-      <point x="835" y="881" type="line"/>
-      <point x="748" y="1035" type="line"/>
-      <point x="-54" y="616" type="line"/>
+      <point x="58" y="455" type="line"/>
+      <point x="864" y="875" type="line"/>
+      <point x="864" y="1060" type="line"/>
+      <point x="58" y="640" type="line"/>
     </contour>
-    <component base="L"/>
+    <contour>
+      <point x="260" y="0" type="line"/>
+      <point x="1100" y="0" type="line"/>
+      <point x="1100" y="190" type="line"/>
+      <point x="260" y="190" type="line"/>
+    </contour>
+    <contour>
+      <point x="260" y="0" type="line"/>
+      <point x="460" y="0" type="line"/>
+      <point x="460" y="1420" type="line"/>
+      <point x="260" y="1420" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/09/25 07:28:38</string>
+      <string>2019/11/18 23:05:38</string>
     </dict>
   </lib>
 </glyph>

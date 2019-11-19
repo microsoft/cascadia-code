@@ -7,10 +7,10 @@ filledbox
 </note>
   <outline>
     <contour>
+      <point x="75" y="185" type="line"/>
       <point x="1125" y="185" type="line"/>
       <point x="1125" y="1235" type="line"/>
       <point x="75" y="1235" type="line"/>
-      <point x="75" y="185" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -26,7 +26,7 @@ CALL[ ]	/* CallFunction */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/11/12 07:10:47</string>
+      <string>2019/11/18 23:07:02</string>
     </dict>
   </lib>
 </glyph>

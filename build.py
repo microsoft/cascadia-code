@@ -93,7 +93,17 @@ if __name__ == "__main__":
         instanceNF_noLIG_font = ufo2ft.compileTTF(instanceNF_noLIG, removeOverlaps=True, inplace=True)
         instancePL_noLIG_font = ufo2ft.compileTTF(instancePL_noLIG, removeOverlaps=True, inplace=True)
 
-        # 7. Save
+        #7. Merge VTT hinting code
+        print ("Adding VTT Code")
+        vtt_data_file = (INPUT_DIR / "vtt_data" / "CascadiaCode.ttx")
+        vttLib.transfer.merge_from_file(instance_font, vtt_data_file)
+        vttLib.transfer.merge_from_file(instanceNF_font, vtt_data_file)
+        vttLib.transfer.merge_from_file(instancePL_font, vtt_data_file)
+        vttLib.transfer.merge_from_file(instance_noLIG_font, vtt_data_file)
+        vttLib.transfer.merge_from_file(instanceNF_noLIG_font, vtt_data_file)
+        vttLib.transfer.merge_from_file(instancePL_noLIG_font, vtt_data_file)
+
+        # 8. Save
         print ("Saving")
         OUTPUT_DIR.mkdir(exist_ok=True)
         instance_font.save(file_path.with_name("Cascadia.ttf"))

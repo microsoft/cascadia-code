@@ -13,12 +13,6 @@
       <point x="-1000" y="608" type="line"/>
     </contour>
     <contour>
-      <point x="464" y="-334" type="line"/>
-      <point x="602" y="-334" type="line"/>
-      <point x="602" y="1720" type="line"/>
-      <point x="464" y="1720" type="line"/>
-    </contour>
-    <contour>
       <point x="468" y="-30" type="line"/>
       <point x="808" y="-30"/>
       <point x="974" y="102"/>
@@ -49,6 +43,13 @@
       <point x="484" y="164" type="curve"/>
     </contour>
     <contour>
+      <point x="464" y="-320" type="line"/>
+      <point x="602" y="-320" type="line"/>
+      <point x="602" y="1740" type="line"/>
+      <point x="464" y="1740" type="line"/>
+    </contour>
+    <contour>
+      <point x="781" y="1094" type="curve"/>
       <point x="949" y="1221" type="line"/>
       <point x="882" y="1360"/>
       <point x="730" y="1440"/>
@@ -56,15 +57,12 @@
       <point x="535" y="1246" type="line"/>
       <point x="635" y="1246"/>
       <point x="725" y="1191"/>
-      <point x="781" y="1094" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/11/05 15:26:22</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <string>2019/11/18 23:07:02</string>
     </dict>
   </lib>
 </glyph>

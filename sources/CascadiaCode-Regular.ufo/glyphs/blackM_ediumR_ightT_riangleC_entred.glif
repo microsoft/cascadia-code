@@ -7,9 +7,9 @@ uni2BC8
 </note>
   <outline>
     <contour>
-      <point x="360" y="1048" type="line"/>
       <point x="360" y="372" type="line"/>
       <point x="934" y="710" type="line"/>
+      <point x="360" y="1048" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -29,7 +29,7 @@ CALL[ ]	/* CallFunction */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/11/12 07:11:46</string>
+      <string>2019/11/18 23:07:02</string>
     </dict>
   </lib>
 </glyph>

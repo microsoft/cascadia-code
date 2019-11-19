@@ -7,22 +7,10 @@ uni25A7
 </note>
   <outline>
     <contour>
-      <point x="75" y="1235" type="line"/>
       <point x="75" y="185" type="line"/>
       <point x="1125" y="185" type="line"/>
       <point x="1125" y="1235" type="line"/>
-    </contour>
-    <contour>
-      <point x="874" y="335" type="line"/>
-      <point x="676" y="335" type="line"/>
-      <point x="225" y="786" type="line"/>
-      <point x="225" y="984" type="line"/>
-    </contour>
-    <contour>
-      <point x="975" y="644" type="line"/>
-      <point x="975" y="446" type="line"/>
-      <point x="336" y="1085" type="line"/>
-      <point x="534" y="1085" type="line"/>
+      <point x="75" y="1235" type="line"/>
     </contour>
     <contour>
       <point x="225" y="335" type="line"/>
@@ -30,9 +18,21 @@ uni25A7
       <point x="464" y="335" type="line"/>
     </contour>
     <contour>
-      <point x="975" y="1085" type="line"/>
+      <point x="676" y="335" type="line"/>
+      <point x="225" y="786" type="line"/>
+      <point x="225" y="984" type="line"/>
+      <point x="874" y="335" type="line"/>
+    </contour>
+    <contour>
+      <point x="975" y="446" type="line"/>
+      <point x="336" y="1085" type="line"/>
+      <point x="534" y="1085" type="line"/>
+      <point x="975" y="644" type="line"/>
+    </contour>
+    <contour>
       <point x="975" y="856" type="line"/>
       <point x="746" y="1085" type="line"/>
+      <point x="975" y="1085" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -116,7 +116,7 @@ MDRP[11100]	/* MoveDirectRelPt */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/11/12 07:10:47</string>
+      <string>2019/11/18 23:07:02</string>
     </dict>
   </lib>
 </glyph>

@@ -7,18 +7,18 @@ uni2B20
 </note>
   <outline>
     <contour>
+      <point x="230" y="168" type="line"/>
+      <point x="970" y="168" type="line"/>
       <point x="1200" y="874" type="line"/>
       <point x="600" y="1310" type="line"/>
       <point x="0" y="874" type="line"/>
-      <point x="230" y="168" type="line"/>
-      <point x="970" y="168" type="line"/>
     </contour>
     <contour>
-      <point x="861" y="318" type="line"/>
       <point x="339" y="318" type="line"/>
       <point x="176" y="817" type="line"/>
       <point x="600" y="1125" type="line"/>
       <point x="1024" y="817" type="line"/>
+      <point x="861" y="318" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -46,7 +46,7 @@ MDRP[11100]	/* MoveDirectRelPt */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/11/12 07:10:47</string>
+      <string>2019/11/18 23:07:02</string>
     </dict>
   </lib>
 </glyph>

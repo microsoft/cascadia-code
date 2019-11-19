@@ -15,9 +15,7 @@
     <key>com.schriftgestaltung.appVersion</key>
     <string>1272</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <array>
-      <string>n@n</string>
-    </array>
+    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.note</key>
@@ -63,8 +61,6 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>0</integer>
-    <key>com.schriftgestaltung.glyphOrder</key>
-    <false/>
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
@@ -845,6 +841,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>questiongreek</string>
       <string>space</string>
       <string>nbspace</string>
+      <string>lineseparator</string>
       <string>.notdef</string>
       <string>baht</string>
       <string>cedi</string>
@@ -1623,6 +1620,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>brevecomb-cy</string>
       <string>brevecomb-cy.case</string>
       <string>LIG</string>
+      <string>uni0009</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
@@ -3022,6 +3020,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25C3</string>
       <key>leftWhiteTriangle</key>
       <string>uni25C1</string>
+      <key>lineseparator</key>
+      <string>uni2028</string>
       <key>liraTurkish</key>
       <string>uni20BA</string>
       <key>literSign</key>

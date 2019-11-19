@@ -7,14 +7,14 @@ uni25DE
 </note>
   <outline>
     <contour>
+      <point x="600" y="185" type="line"/>
+      <point x="916" y="185"/>
+      <point x="1125" y="394"/>
       <point x="1125" y="710" type="curve"/>
       <point x="975" y="710" type="line"/>
       <point x="975" y="484"/>
       <point x="826" y="335"/>
       <point x="600" y="335" type="curve"/>
-      <point x="600" y="185" type="line"/>
-      <point x="916" y="185"/>
-      <point x="1125" y="394"/>
     </contour>
   </outline>
   <lib>
@@ -34,7 +34,7 @@ CALL[ ]	/* CallFunction */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/11/12 07:10:47</string>
+      <string>2019/11/18 23:07:02</string>
     </dict>
   </lib>
 </glyph>

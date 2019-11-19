@@ -7,16 +7,16 @@ uni25AF
 </note>
   <outline>
     <contour>
-      <point x="300" y="1310" type="line"/>
       <point x="300" y="110" type="line"/>
       <point x="900" y="110" type="line"/>
       <point x="900" y="1310" type="line"/>
+      <point x="300" y="1310" type="line"/>
     </contour>
     <contour>
+      <point x="450" y="260" type="line"/>
       <point x="450" y="1160" type="line"/>
       <point x="750" y="1160" type="line"/>
       <point x="750" y="260" type="line"/>
-      <point x="450" y="260" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -63,7 +63,7 @@ MDRP[11100]	/* MoveDirectRelPt */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/11/12 07:10:47</string>
+      <string>2019/11/18 23:07:02</string>
     </dict>
   </lib>
 </glyph>

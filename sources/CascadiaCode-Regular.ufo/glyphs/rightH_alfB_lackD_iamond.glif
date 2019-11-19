@@ -7,15 +7,15 @@ uni2B17
 </note>
   <outline>
     <contour>
-      <point x="0" y="710" type="line"/>
       <point x="600" y="110" type="line"/>
       <point x="1200" y="710" type="line"/>
       <point x="600" y="1310" type="line"/>
+      <point x="0" y="710" type="line"/>
     </contour>
     <contour>
-      <point x="600" y="1098" type="line"/>
       <point x="600" y="322" type="line"/>
       <point x="212" y="710" type="line"/>
+      <point x="600" y="1098" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -41,7 +41,7 @@ IP[ ]	/* InterpolatePts */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/11/12 07:10:47</string>
+      <string>2019/11/18 23:07:02</string>
     </dict>
   </lib>
 </glyph>

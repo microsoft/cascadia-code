@@ -3,12 +3,18 @@
   <advance width="1200"/>
   <unicode hex="00A1"/>
   <outline>
-    <component base="exclam" yScale="-1" yOffset="1060"/>
+    <contour>
+      <point x="496" y="-370" type="line"/>
+      <point x="704" y="-370" type="line"/>
+      <point x="694" y="604" type="line"/>
+      <point x="502" y="604" type="line"/>
+    </contour>
+    <component base="period" yScale="-1" yOffset="1060"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/09/23 21:02:35</string>
+      <string>2019/11/18 23:07:02</string>
     </dict>
   </lib>
 </glyph>
