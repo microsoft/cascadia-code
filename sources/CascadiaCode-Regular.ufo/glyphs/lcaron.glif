@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron" format="2">
+  <advance width="1200"/>
+  <unicode hex="013E"/>
+  <anchor x="670" y="0" name="bottom"/>
+  <anchor x="510" y="784" name="center"/>
+  <anchor x="506" y="1500" name="top"/>
+  <anchor x="960" y="1500" name="topright"/>
+  <outline>
+    <contour>
+      <point x="762" y="1188" type="line"/>
+      <point x="934" y="1188" type="line"/>
+      <point x="1024" y="1568" type="line"/>
+      <point x="812" y="1568" type="line"/>
+    </contour>
+    <component base="l"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

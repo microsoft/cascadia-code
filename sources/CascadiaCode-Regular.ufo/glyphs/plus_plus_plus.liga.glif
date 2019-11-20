@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plus_plus_plus.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-539" y="617" type="line"/>
+      <point x="346" y="617" type="line"/>
+      <point x="346" y="803" type="line"/>
+      <point x="-539" y="803" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1539" y="617" type="line"/>
+      <point x="-654" y="617" type="line"/>
+      <point x="-654" y="803" type="line"/>
+      <point x="-1539" y="803" type="line"/>
+    </contour>
+    <component base="plus" xOffset="-2220"/>
+    <component base="plus" xOffset="-180"/>
+    <component base="plus" xOffset="-1200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

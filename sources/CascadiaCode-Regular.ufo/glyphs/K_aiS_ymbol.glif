@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="KaiSymbol" format="2">
+  <advance width="1200"/>
+  <unicode hex="03CF"/>
+  <outline>
+    <contour>
+      <point x="286" y="452" type="line"/>
+      <point x="804" y="452"/>
+      <point x="1104" y="915"/>
+      <point x="1104" y="1420" type="curve"/>
+      <point x="898" y="1420" type="line"/>
+      <point x="898" y="1029"/>
+      <point x="714" y="650"/>
+      <point x="304" y="650" type="curve"/>
+    </contour>
+    <contour>
+      <point x="160" y="0" type="line"/>
+      <point x="360" y="0" type="line"/>
+      <point x="360" y="1420" type="line"/>
+      <point x="160" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="972" y="-395" type="line"/>
+      <point x="1172" y="-395" type="line"/>
+      <point x="1172" y="47" type="line" smooth="yes"/>
+      <point x="1172" y="124"/>
+      <point x="1159" y="167"/>
+      <point x="1116" y="233" type="curve" smooth="yes"/>
+      <point x="750" y="794" type="line"/>
+      <point x="570" y="692" type="line"/>
+      <point x="916" y="173" type="line" smooth="yes"/>
+      <point x="959" y="109"/>
+      <point x="972" y="75"/>
+      <point x="972" y="27" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

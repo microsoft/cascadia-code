@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowerLeftArc" format="2">
+  <advance width="1200"/>
+  <unicode hex="25DF"/>
+  <note>
+uni25DF
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="185" type="curve"/>
+      <point x="600" y="335" type="line"/>
+      <point x="374" y="335"/>
+      <point x="225" y="484"/>
+      <point x="225" y="710" type="curve"/>
+      <point x="75" y="710" type="line"/>
+      <point x="75" y="394"/>
+      <point x="284" y="185"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+11 0 3 
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+6 5 3 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

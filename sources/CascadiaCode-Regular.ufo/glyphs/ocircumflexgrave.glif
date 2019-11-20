@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ocircumflexgrave" format="2">
+  <advance width="1200"/>
+  <unicode hex="1ED3"/>
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="530" name="center"/>
+  <anchor x="600" y="10" name="ogonek"/>
+  <anchor x="956" y="1968" name="top"/>
+  <anchor x="1040" y="1060" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="circumflexcomb"/>
+    <component base="gravecomb" xOffset="401" yOffset="340"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

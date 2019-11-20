@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="El-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="041B"/>
+  <outline>
+    <contour>
+      <point x="37" y="1" type="line"/>
+      <point x="408" y="1"/>
+      <point x="439" y="238"/>
+      <point x="439" y="621" type="curve" smooth="yes"/>
+      <point x="439" y="1420" type="line"/>
+      <point x="254" y="1420" type="line"/>
+      <point x="254" y="614" type="line" smooth="yes"/>
+      <point x="254" y="353"/>
+      <point x="245" y="191"/>
+      <point x="37" y="191" type="curve"/>
+    </contour>
+    <contour>
+      <point x="860" y="0" type="line"/>
+      <point x="1060" y="0" type="line"/>
+      <point x="1060" y="1420" type="line"/>
+      <point x="860" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="322" y="1230" type="line"/>
+      <point x="1023" y="1230" type="line"/>
+      <point x="1023" y="1420" type="line"/>
+      <point x="342" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

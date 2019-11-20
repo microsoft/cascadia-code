@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peso" format="2">
+  <advance width="1200"/>
+  <unicode hex="20B1"/>
+  <anchor x="560" y="0" name="bottom"/>
+  <anchor x="560" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="0" y="981" type="line"/>
+      <point x="1200" y="981" type="line"/>
+      <point x="1200" y="1119" type="line"/>
+      <point x="0" y="1119" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="736" type="line"/>
+      <point x="1200" y="736" type="line"/>
+      <point x="1200" y="874" type="line"/>
+      <point x="0" y="874" type="line"/>
+    </contour>
+    <component base="P"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

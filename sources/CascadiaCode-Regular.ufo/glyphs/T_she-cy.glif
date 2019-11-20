@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tshe-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="040B"/>
+  <outline>
+    <contour>
+      <point x="862" y="0" type="line"/>
+      <point x="1062" y="0" type="line"/>
+      <point x="1062" y="390" type="line" smooth="yes"/>
+      <point x="1062" y="727"/>
+      <point x="939" y="870"/>
+      <point x="650" y="870" type="curve" smooth="yes"/>
+      <point x="422" y="870" type="line"/>
+      <point x="422" y="680" type="line"/>
+      <point x="650" y="680" type="line" smooth="yes"/>
+      <point x="799" y="680"/>
+      <point x="862" y="593"/>
+      <point x="862" y="390" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="240" y="0" type="line"/>
+      <point x="440" y="0" type="line"/>
+      <point x="440" y="1420" type="line"/>
+      <point x="240" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="1230" type="line"/>
+      <point x="840" y="1230" type="line"/>
+      <point x="840" y="1420" type="line"/>
+      <point x="20" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

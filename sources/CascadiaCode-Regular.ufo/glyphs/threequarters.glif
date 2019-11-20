@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threequarters" format="2">
+  <advance width="1200"/>
+  <unicode hex="00BE"/>
+  <outline>
+    <contour>
+      <point x="186" y="306" type="line"/>
+      <point x="1116" y="976" type="line"/>
+      <point x="1024" y="1106" type="line"/>
+      <point x="94" y="442" type="line"/>
+    </contour>
+    <component base="foursuperior" xOffset="240" yOffset="-802"/>
+    <component base="threesuperior" xOffset="-240"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

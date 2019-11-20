@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theta" format="2">
+  <advance width="1200"/>
+  <unicode hex="03B8"/>
+  <outline>
+    <contour>
+      <point x="600" y="-20" type="curve" smooth="yes"/>
+      <point x="925" y="-20"/>
+      <point x="1064" y="198"/>
+      <point x="1064" y="710" type="curve" smooth="yes"/>
+      <point x="1064" y="1222"/>
+      <point x="925" y="1440"/>
+      <point x="600" y="1440" type="curve" smooth="yes"/>
+      <point x="275" y="1440"/>
+      <point x="136" y="1222"/>
+      <point x="136" y="710" type="curve" smooth="yes"/>
+      <point x="136" y="198"/>
+      <point x="275" y="-20"/>
+    </contour>
+    <contour>
+      <point x="600" y="164" type="curve" smooth="yes"/>
+      <point x="422" y="164"/>
+      <point x="346" y="327"/>
+      <point x="346" y="710" type="curve" smooth="yes"/>
+      <point x="346" y="1093"/>
+      <point x="422" y="1256"/>
+      <point x="600" y="1256" type="curve" smooth="yes"/>
+      <point x="778" y="1256"/>
+      <point x="854" y="1093"/>
+      <point x="854" y="710" type="curve" smooth="yes"/>
+      <point x="854" y="327"/>
+      <point x="778" y="164"/>
+    </contour>
+    <contour>
+      <point x="192" y="618" type="line"/>
+      <point x="1033" y="618" type="line"/>
+      <point x="1033" y="808" type="line"/>
+      <point x="192" y="808" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/19 03:22:37</string>
+    </dict>
+  </lib>
+</glyph>

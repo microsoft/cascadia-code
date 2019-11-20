@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightHalfBlackSquare" format="2">
+  <advance width="1200"/>
+  <unicode hex="25E8"/>
+  <note>
+uni25E8
+</note>
+  <outline>
+    <contour>
+      <point x="75" y="185" type="line"/>
+      <point x="1125" y="185" type="line"/>
+      <point x="1125" y="1235" type="line"/>
+      <point x="75" y="1235" type="line"/>
+    </contour>
+    <contour>
+      <point x="225" y="335" type="line"/>
+      <point x="225" y="1085" type="line"/>
+      <point x="600" y="1085" type="line"/>
+      <point x="600" y="335" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+6 0 3 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+1 5 3 
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+6 0 3 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

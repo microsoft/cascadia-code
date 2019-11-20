@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fiveeighths" format="2">
+  <advance width="1200"/>
+  <unicode hex="215D"/>
+  <outline>
+    <contour>
+      <point x="186" y="296" type="line"/>
+      <point x="1116" y="966" type="line"/>
+      <point x="1024" y="1096" type="line"/>
+      <point x="94" y="432" type="line"/>
+    </contour>
+    <component base="fivesuperior" xOffset="-260"/>
+    <component base="eightinferior" xOffset="270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

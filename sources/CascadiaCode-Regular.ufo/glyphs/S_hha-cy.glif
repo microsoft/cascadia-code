@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Shha-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04BA"/>
+  <outline>
+    <contour>
+      <point x="860" y="0" type="line"/>
+      <point x="1060" y="0" type="line"/>
+      <point x="1060" y="395" type="line" smooth="yes"/>
+      <point x="1060" y="732"/>
+      <point x="929" y="875"/>
+      <point x="620" y="875" type="curve" smooth="yes"/>
+      <point x="322" y="875" type="line"/>
+      <point x="322" y="685" type="line"/>
+      <point x="620" y="685" type="line" smooth="yes"/>
+      <point x="788" y="685"/>
+      <point x="860" y="598"/>
+      <point x="860" y="395" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="140" y="0" type="line"/>
+      <point x="340" y="0" type="line"/>
+      <point x="340" y="1420" type="line"/>
+      <point x="140" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

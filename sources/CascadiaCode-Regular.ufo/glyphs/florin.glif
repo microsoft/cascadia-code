@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="florin" format="2">
+  <advance width="1200"/>
+  <unicode hex="0192"/>
+  <outline>
+    <contour>
+      <point x="412" y="360" type="line"/>
+      <point x="624" y="360" type="line"/>
+      <point x="624" y="900" type="line" smooth="yes"/>
+      <point x="624" y="1134"/>
+      <point x="718" y="1250"/>
+      <point x="908" y="1250" type="curve" smooth="yes"/>
+      <point x="968" y="1250"/>
+      <point x="1028" y="1246"/>
+      <point x="1112" y="1236" type="curve"/>
+      <point x="1134" y="1420" type="line"/>
+      <point x="1060" y="1434"/>
+      <point x="994" y="1440"/>
+      <point x="914" y="1440" type="curve" smooth="yes"/>
+      <point x="578" y="1440"/>
+      <point x="412" y="1258"/>
+      <point x="412" y="890" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="88" y="-477" type="line"/>
+      <point x="166" y="-468" type="line" smooth="yes"/>
+      <point x="485" y="-431"/>
+      <point x="624" y="-284"/>
+      <point x="624" y="94" type="curve" smooth="yes"/>
+      <point x="624" y="384" type="line"/>
+      <point x="412" y="384" type="line"/>
+      <point x="412" y="62" type="line" smooth="yes"/>
+      <point x="412" y="-156"/>
+      <point x="343" y="-252"/>
+      <point x="186" y="-274" type="curve" smooth="yes"/>
+      <point x="78" y="-289" type="line"/>
+    </contour>
+    <contour>
+      <point x="78" y="582" type="line"/>
+      <point x="1058" y="582" type="line"/>
+      <point x="1058" y="720" type="line"/>
+      <point x="78" y="720" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asciitilde_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-700" y="686" type="line"/>
+      <point x="-496" y="686" type="line"/>
+      <point x="-496" y="716" type="line" smooth="yes"/>
+      <point x="-496" y="839"/>
+      <point x="-429" y="900"/>
+      <point x="-296" y="900" type="curve" smooth="yes"/>
+      <point x="-68" y="900"/>
+      <point x="102" y="770"/>
+      <point x="330" y="770" type="curve" smooth="yes"/>
+      <point x="579" y="770"/>
+      <point x="700" y="898"/>
+      <point x="700" y="1160" type="curve" smooth="yes"/>
+      <point x="700" y="1210" type="line"/>
+      <point x="498" y="1210" type="line"/>
+      <point x="498" y="1180" type="line" smooth="yes"/>
+      <point x="498" y="1043"/>
+      <point x="440" y="976"/>
+      <point x="328" y="976" type="curve" smooth="yes"/>
+      <point x="102" y="976"/>
+      <point x="-64" y="1106"/>
+      <point x="-290" y="1106" type="curve" smooth="yes"/>
+      <point x="-565" y="1106"/>
+      <point x="-700" y="984"/>
+      <point x="-700" y="736" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-700" y="366" type="line"/>
+      <point x="700" y="366" type="line"/>
+      <point x="700" y="552" type="line"/>
+      <point x="-700" y="552" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

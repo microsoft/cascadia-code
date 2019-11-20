@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign_question.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="416" y="456" type="line"/>
+      <point x="612" y="456" type="line"/>
+      <point x="612" y="538" type="line" smooth="yes"/>
+      <point x="612" y="616"/>
+      <point x="654" y="682"/>
+      <point x="740" y="738" type="curve" smooth="yes"/>
+      <point x="888" y="834"/>
+      <point x="962" y="960"/>
+      <point x="962" y="1112" type="curve" smooth="yes"/>
+      <point x="962" y="1320"/>
+      <point x="808" y="1440"/>
+      <point x="542" y="1440" type="curve" smooth="yes"/>
+      <point x="258" y="1440"/>
+      <point x="94" y="1288"/>
+      <point x="94" y="1022" type="curve"/>
+      <point x="296" y="1022" type="line"/>
+      <point x="296" y="1168"/>
+      <point x="386" y="1250"/>
+      <point x="540" y="1250" type="curve" smooth="yes"/>
+      <point x="668" y="1250"/>
+      <point x="742" y="1196"/>
+      <point x="742" y="1102" type="curve" smooth="yes"/>
+      <point x="742" y="1006"/>
+      <point x="688" y="924"/>
+      <point x="580" y="854" type="curve" smooth="yes"/>
+      <point x="470" y="784"/>
+      <point x="416" y="684"/>
+      <point x="416" y="552" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-920" y="360" type="line"/>
+      <point x="80" y="360" type="line"/>
+      <point x="80" y="530" type="line"/>
+      <point x="-920" y="530" type="line"/>
+    </contour>
+    <contour>
+      <point x="-786" y="0" type="line"/>
+      <point x="-610" y="0" type="line"/>
+      <point x="-490" y="1420" type="line"/>
+      <point x="-666" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-350" y="0" type="line"/>
+      <point x="-174" y="0" type="line"/>
+      <point x="-54" y="1420" type="line"/>
+      <point x="-230" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-920" y="890" type="line"/>
+      <point x="296" y="890" type="line"/>
+      <point x="296" y="1060" type="line"/>
+      <point x="-920" y="1060" type="line"/>
+    </contour>
+    <component base="period" xOffset="-82"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

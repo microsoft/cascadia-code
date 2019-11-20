@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eng" format="2">
+  <advance width="1200"/>
+  <unicode hex="014A"/>
+  <guideline x="860" y="123" angle="90"/>
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="593" y="-480" type="line"/>
+      <point x="723" y="-468" type="line" smooth="yes"/>
+      <point x="932" y="-449"/>
+      <point x="1052" y="-313"/>
+      <point x="1052" y="-96" type="curve" smooth="yes"/>
+      <point x="1052" y="184" type="line"/>
+      <point x="859" y="184" type="line"/>
+      <point x="859" y="-88" type="line" smooth="yes"/>
+      <point x="859" y="-214"/>
+      <point x="807" y="-278"/>
+      <point x="703" y="-294" type="curve" smooth="yes"/>
+      <point x="583" y="-312" type="line"/>
+    </contour>
+    <component base="N"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

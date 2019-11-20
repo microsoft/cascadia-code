@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicrontonos" format="2">
+  <advance width="1200"/>
+  <unicode hex="038C"/>
+  <outline>
+    <contour>
+      <point x="700" y="-20" type="curve" smooth="yes"/>
+      <point x="982" y="-20"/>
+      <point x="1124" y="218"/>
+      <point x="1124" y="700" type="curve" smooth="yes"/>
+      <point x="1124" y="1194"/>
+      <point x="982" y="1440"/>
+      <point x="700" y="1440" type="curve" smooth="yes"/>
+      <point x="418" y="1440"/>
+      <point x="276" y="1194"/>
+      <point x="276" y="700" type="curve" smooth="yes"/>
+      <point x="276" y="218"/>
+      <point x="418" y="-20"/>
+    </contour>
+    <contour>
+      <point x="-1" y="1040" type="line"/>
+      <point x="191" y="1040" type="line"/>
+      <point x="301" y="1420" type="line"/>
+      <point x="89" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="700" y="164" type="curve" smooth="yes"/>
+      <point x="558" y="164"/>
+      <point x="486" y="342"/>
+      <point x="486" y="700" type="curve" smooth="yes"/>
+      <point x="486" y="1072"/>
+      <point x="558" y="1256"/>
+      <point x="700" y="1256" type="curve" smooth="yes"/>
+      <point x="842" y="1256"/>
+      <point x="914" y="1072"/>
+      <point x="914" y="700" type="curve" smooth="yes"/>
+      <point x="914" y="342"/>
+      <point x="842" y="164"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

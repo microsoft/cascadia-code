@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheqel" format="2">
+  <advance width="1200"/>
+  <unicode hex="20AA"/>
+  <outline>
+    <contour>
+      <point x="930" y="0" type="line"/>
+      <point x="1120" y="0" type="line"/>
+      <point x="1120" y="1060" type="line"/>
+      <point x="930" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="270" y="0" type="line"/>
+      <point x="270" y="1060" type="line"/>
+      <point x="80" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="379" y="0" type="line"/>
+      <point x="1120" y="0" type="line"/>
+      <point x="1120" y="170" type="line"/>
+      <point x="379" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="379" y="0" type="line"/>
+      <point x="539" y="0" type="line"/>
+      <point x="539" y="780" type="line"/>
+      <point x="379" y="780" type="line"/>
+    </contour>
+    <contour>
+      <point x="661" y="280" type="line"/>
+      <point x="821" y="280" type="line"/>
+      <point x="821" y="1060" type="line"/>
+      <point x="661" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="80" y="890" type="line"/>
+      <point x="821" y="890" type="line"/>
+      <point x="821" y="1060" type="line"/>
+      <point x="80" y="1060" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

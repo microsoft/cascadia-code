@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_bar_bar_bar.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-1600" y="-10" type="line"/>
+      <point x="-1600" y="230" type="line"/>
+      <point x="-2846" y="700" type="line"/>
+      <point x="-2846" y="718" type="line"/>
+      <point x="-1600" y="1190" type="line"/>
+      <point x="-1600" y="1430" type="line"/>
+      <point x="-3104" y="810" type="line"/>
+      <point x="-3104" y="608" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1600" y="-10" type="line"/>
+      <point x="-1600" y="1430" type="line"/>
+      <point x="-1800" y="1330" type="line"/>
+      <point x="-1800" y="90" type="line"/>
+    </contour>
+    <component base="bar" xOffset="-1356"/>
+    <component base="bar" xOffset="-356"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

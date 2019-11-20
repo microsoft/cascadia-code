@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftRightArrow" format="2">
+  <advance width="1200"/>
+  <unicode hex="2194"/>
+  <outline>
+    <contour>
+      <point x="691" y="281" type="line"/>
+      <point x="1135" y="677" type="line"/>
+      <point x="1135" y="699" type="line"/>
+      <point x="691" y="1103" type="line"/>
+      <point x="691" y="871" type="line"/>
+      <point x="886" y="821" type="line"/>
+      <point x="886" y="553" type="line"/>
+      <point x="691" y="503" type="line"/>
+    </contour>
+    <contour>
+      <point x="499" y="281" type="line"/>
+      <point x="499" y="503" type="line"/>
+      <point x="304" y="553" type="line"/>
+      <point x="304" y="821" type="line"/>
+      <point x="499" y="871" type="line"/>
+      <point x="499" y="1103" type="line"/>
+      <point x="65" y="699" type="line"/>
+      <point x="65" y="677" type="line"/>
+    </contour>
+    <contour>
+      <point x="255" y="593" type="line"/>
+      <point x="937" y="593" type="line"/>
+      <point x="937" y="781" type="line"/>
+      <point x="255" y="781" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

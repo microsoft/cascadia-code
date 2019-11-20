@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="venus" format="2">
+  <advance width="1200"/>
+  <unicode hex="2640"/>
+  <outline>
+    <contour>
+      <point x="600" y="520" type="curve" smooth="yes"/>
+      <point x="894" y="520"/>
+      <point x="1064" y="691"/>
+      <point x="1064" y="990" type="curve" smooth="yes"/>
+      <point x="1064" y="1276"/>
+      <point x="894" y="1440"/>
+      <point x="600" y="1440" type="curve" smooth="yes"/>
+      <point x="306" y="1440"/>
+      <point x="136" y="1276"/>
+      <point x="136" y="990" type="curve" smooth="yes"/>
+      <point x="136" y="691"/>
+      <point x="306" y="520"/>
+    </contour>
+    <contour>
+      <point x="182" y="182" type="line"/>
+      <point x="1023" y="182" type="line"/>
+      <point x="1023" y="372" type="line"/>
+      <point x="182" y="372" type="line"/>
+    </contour>
+    <contour>
+      <point x="500" y="0" type="line"/>
+      <point x="700" y="0" type="line"/>
+      <point x="700" y="580" type="line"/>
+      <point x="500" y="580" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="710" type="curve" smooth="yes"/>
+      <point x="444" y="710"/>
+      <point x="356" y="811"/>
+      <point x="356" y="990" type="curve" smooth="yes"/>
+      <point x="356" y="1156"/>
+      <point x="444" y="1250"/>
+      <point x="600" y="1250" type="curve" smooth="yes"/>
+      <point x="756" y="1250"/>
+      <point x="844" y="1156"/>
+      <point x="844" y="990" type="curve" smooth="yes"/>
+      <point x="844" y="811"/>
+      <point x="756" y="710"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

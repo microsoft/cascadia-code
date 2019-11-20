@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="t" format="2">
+  <advance width="1200"/>
+  <unicode hex="0074"/>
+  <anchor x="655" y="0" name="bottom"/>
+  <anchor x="432" y="570" name="center"/>
+  <anchor x="600" y="1380" name="top"/>
+  <anchor x="1070" y="1060" name="topright"/>
+  <outline>
+    <contour>
+      <point x="782" y="-20" type="curve" smooth="yes"/>
+      <point x="882" y="-20"/>
+      <point x="966" y="-12"/>
+      <point x="1060" y="4" type="curve"/>
+      <point x="1036" y="190" type="line"/>
+      <point x="940" y="178"/>
+      <point x="868" y="170"/>
+      <point x="802" y="170" type="curve" smooth="yes"/>
+      <point x="614" y="170"/>
+      <point x="538" y="242"/>
+      <point x="538" y="410" type="curve" smooth="yes"/>
+      <point x="538" y="580" type="line"/>
+      <point x="326" y="580" type="line"/>
+      <point x="326" y="400" type="line" smooth="yes"/>
+      <point x="326" y="106"/>
+      <point x="460" y="-20"/>
+    </contour>
+    <contour>
+      <point x="326" y="500" type="line"/>
+      <point x="538" y="500" type="line"/>
+      <point x="538" y="1380" type="line"/>
+      <point x="326" y="1380" type="line"/>
+    </contour>
+    <contour>
+      <point x="60" y="886" type="line"/>
+      <point x="1020" y="886" type="line"/>
+      <point x="1020" y="1060" type="line"/>
+      <point x="60" y="1060" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

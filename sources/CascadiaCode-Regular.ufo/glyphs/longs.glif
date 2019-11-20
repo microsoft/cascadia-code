@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="longs" format="2">
+  <advance width="1200"/>
+  <unicode hex="017F"/>
+  <anchor x="508" y="0" name="bottom"/>
+  <anchor x="740" y="1568" name="top"/>
+  <outline>
+    <contour>
+      <point x="422" y="0" type="line"/>
+      <point x="634" y="0" type="line"/>
+      <point x="634" y="980" type="line" smooth="yes"/>
+      <point x="634" y="1214"/>
+      <point x="718" y="1330"/>
+      <point x="888" y="1330" type="curve" smooth="yes"/>
+      <point x="951" y="1330"/>
+      <point x="1014" y="1326"/>
+      <point x="1102" y="1316" type="curve"/>
+      <point x="1124" y="1500" type="line"/>
+      <point x="1047" y="1514"/>
+      <point x="978" y="1520"/>
+      <point x="894" y="1520" type="curve" smooth="yes"/>
+      <point x="578" y="1520"/>
+      <point x="422" y="1338"/>
+      <point x="422" y="970" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="68" y="644" type="line"/>
+      <point x="568" y="644" type="line"/>
+      <point x="568" y="820" type="line"/>
+      <point x="68" y="820" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

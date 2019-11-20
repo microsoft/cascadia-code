@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="largeCircle" format="2">
+  <advance width="1200"/>
+  <unicode hex="25EF"/>
+  <note>
+uni25EF
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="110" type="curve" smooth="yes"/>
+      <point x="962" y="110"/>
+      <point x="1200" y="348"/>
+      <point x="1200" y="710" type="curve" smooth="yes"/>
+      <point x="1200" y="1072"/>
+      <point x="962" y="1310"/>
+      <point x="600" y="1310" type="curve" smooth="yes"/>
+      <point x="238" y="1310"/>
+      <point x="0" y="1072"/>
+      <point x="0" y="710" type="curve" smooth="yes"/>
+      <point x="0" y="348"/>
+      <point x="238" y="110"/>
+    </contour>
+    <contour>
+      <point x="600" y="260" type="curve" smooth="yes"/>
+      <point x="329" y="260"/>
+      <point x="150" y="439"/>
+      <point x="150" y="710" type="curve" smooth="yes"/>
+      <point x="150" y="981"/>
+      <point x="329" y="1160"/>
+      <point x="600" y="1160" type="curve" smooth="yes"/>
+      <point x="871" y="1160"/>
+      <point x="1050" y="981"/>
+      <point x="1050" y="710" type="curve" smooth="yes"/>
+      <point x="1050" y="439"/>
+      <point x="871" y="260"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+20 0 3 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+10 30 3 
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+40 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+25 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+40 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+5 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5 
+MDAP[1]	/* MoveDirectAbsPt */
+NPUSHW[ ]	/* 5 values pushed */
+218 25 234 25 2 
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 27 values pushed */
+9 25 25 25 41 25 57 25 73 25 89 25 105 25 121 25 137 25 153 25 169 25 185 25 201 25 13 
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+25 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+15 
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+35 
+MDRP[11100]	/* MoveDirectRelPt */
+NPUSHW[ ]	/* 27 values pushed */
+6 35 22 35 38 35 54 35 70 35 86 35 102 35 118 35 134 35 150 35 166 35 182 35 198 35 13 
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+213 35 229 35 2 
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+15 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+41 
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

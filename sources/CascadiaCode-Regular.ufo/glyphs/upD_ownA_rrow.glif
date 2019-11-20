@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upDownArrow" format="2">
+  <advance width="1200"/>
+  <unicode hex="2195"/>
+  <outline>
+    <contour>
+      <point x="189" y="886" type="line"/>
+      <point x="421" y="886" type="line"/>
+      <point x="471" y="1132" type="line"/>
+      <point x="739" y="1132" type="line"/>
+      <point x="789" y="886" type="line"/>
+      <point x="1011" y="886" type="line"/>
+      <point x="615" y="1440" type="line"/>
+      <point x="593" y="1440" type="line"/>
+    </contour>
+    <contour>
+      <point x="593" y="-20" type="line"/>
+      <point x="615" y="-20" type="line"/>
+      <point x="1011" y="534" type="line"/>
+      <point x="789" y="534" type="line"/>
+      <point x="739" y="288" type="line"/>
+      <point x="471" y="288" type="line"/>
+      <point x="421" y="534" type="line"/>
+      <point x="189" y="534" type="line"/>
+    </contour>
+    <contour>
+      <point x="511" y="228" type="line"/>
+      <point x="699" y="228" type="line"/>
+      <point x="699" y="1200" type="line"/>
+      <point x="511" y="1200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

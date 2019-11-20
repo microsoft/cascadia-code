@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_exclam_hyphen_hyphen.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-2406" y="112" type="line"/>
+      <point x="-2406" y="352" type="line"/>
+      <point x="-2850" y="526"/>
+      <point x="-2938" y="566"/>
+      <point x="-2988" y="570" type="curve"/>
+      <point x="-2988" y="846" type="line"/>
+      <point x="-2934" y="850"/>
+      <point x="-2838" y="876"/>
+      <point x="-2406" y="1064" type="curve"/>
+      <point x="-2406" y="1304" type="line"/>
+      <point x="-3360" y="770" type="line"/>
+      <point x="-3360" y="648" type="line"/>
+    </contour>
+    <contour>
+      <point x="-3042" y="614" type="line"/>
+      <point x="-2002" y="614" type="line"/>
+      <point x="-2002" y="802" type="line"/>
+      <point x="-3042" y="802" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1282" y="614" type="line"/>
+      <point x="920" y="614" type="line"/>
+      <point x="920" y="802" type="line"/>
+      <point x="-1282" y="802" type="line"/>
+    </contour>
+    <component base="exclam" xOffset="-2240"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

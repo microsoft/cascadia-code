@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gamma" format="2">
+  <advance width="1200"/>
+  <unicode hex="03B3"/>
+  <outline>
+    <contour>
+      <point x="364" y="-20" type="line"/>
+      <point x="883" y="-20"/>
+      <point x="1140" y="338"/>
+      <point x="1140" y="1060" type="curve"/>
+      <point x="928" y="1060" type="line"/>
+      <point x="928" y="465"/>
+      <point x="741" y="170"/>
+      <point x="364" y="170" type="curve"/>
+    </contour>
+    <contour>
+      <point x="286" y="-460" type="curve"/>
+      <point x="498" y="-460" type="line"/>
+      <point x="505" y="-329"/>
+      <point x="508" y="-173"/>
+      <point x="508" y="10" type="curve" smooth="yes"/>
+      <point x="508" y="678"/>
+      <point x="438" y="896"/>
+      <point x="158" y="1100" type="curve"/>
+      <point x="36" y="925" type="line"/>
+      <point x="244" y="763"/>
+      <point x="296" y="579"/>
+      <point x="296" y="10" type="curve" smooth="yes"/>
+      <point x="296" y="-173"/>
+      <point x="293" y="-329"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Endescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04A2"/>
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="710" name="center"/>
+  <anchor x="600" y="1420" name="top"/>
+  <anchor x="20" y="1420" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="970" y="-290" type="line"/>
+      <point x="1160" y="-290" type="line"/>
+      <point x="1160" y="190" type="line"/>
+      <point x="970" y="190" type="line"/>
+    </contour>
+    <component base="En-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

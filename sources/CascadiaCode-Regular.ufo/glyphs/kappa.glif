@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kappa" format="2">
+  <advance width="1200"/>
+  <unicode hex="03BA"/>
+  <guideline x="682" y="714" angle="231.3928"/>
+  <outline>
+    <contour>
+      <point x="360" y="0" type="line"/>
+      <point x="1127" y="961" type="line"/>
+      <point x="974" y="1080" type="line"/>
+      <point x="568" y="571" type="line" smooth="yes"/>
+      <point x="472" y="451"/>
+      <point x="422" y="318"/>
+      <point x="402" y="171" type="curve"/>
+      <point x="322" y="171" type="line"/>
+    </contour>
+    <contour>
+      <point x="168" y="0" type="line"/>
+      <point x="360" y="0" type="line"/>
+      <point x="380" y="107" type="line"/>
+      <point x="380" y="1060" type="line"/>
+      <point x="168" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="923" y="0" type="line"/>
+      <point x="1160" y="0" type="line"/>
+      <point x="766" y="608" type="line"/>
+      <point x="617" y="468" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

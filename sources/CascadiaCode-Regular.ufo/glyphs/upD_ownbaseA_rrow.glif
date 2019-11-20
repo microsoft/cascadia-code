@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upDownbaseArrow" format="2">
+  <advance width="1200"/>
+  <unicode hex="21A8"/>
+  <outline>
+    <contour>
+      <point x="200" y="-186" type="line"/>
+      <point x="990" y="-186" type="line"/>
+      <point x="990" y="0" type="line"/>
+      <point x="200" y="0" type="line"/>
+    </contour>
+    <component base="upDownArrow"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

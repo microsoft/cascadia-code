@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon_less.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="920" y="214" type="line"/>
+      <point x="920" y="434" type="line"/>
+      <point x="100" y="700" type="line"/>
+      <point x="100" y="718" type="line"/>
+      <point x="920" y="984" type="line"/>
+      <point x="920" y="1204" type="line"/>
+      <point x="-198" y="810" type="line"/>
+      <point x="-198" y="608" type="line"/>
+    </contour>
+    <component base="colon" xOffset="-1252" yOffset="180"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

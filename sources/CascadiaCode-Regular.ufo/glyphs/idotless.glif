@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless" format="2">
+  <advance width="1200"/>
+  <unicode hex="0131"/>
+  <anchor x="670" y="0" name="bottom"/>
+  <anchor x="1080" y="10" name="ogonek"/>
+  <anchor x="650" y="1060" name="top"/>
+  <outline>
+    <contour>
+      <point x="564" y="0" type="line"/>
+      <point x="776" y="0" type="line"/>
+      <point x="776" y="1060" type="line"/>
+      <point x="564" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="0" type="line"/>
+      <point x="584" y="0" type="line"/>
+      <point x="584" y="174" type="line"/>
+      <point x="160" y="174" type="line"/>
+    </contour>
+    <contour>
+      <point x="756" y="0" type="line"/>
+      <point x="1102" y="0" type="line"/>
+      <point x="1102" y="174" type="line"/>
+      <point x="756" y="174" type="line"/>
+    </contour>
+    <contour>
+      <point x="220" y="886" type="line"/>
+      <point x="584" y="886" type="line"/>
+      <point x="584" y="1060" type="line"/>
+      <point x="220" y="1060" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

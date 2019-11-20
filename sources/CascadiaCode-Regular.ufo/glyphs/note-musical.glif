@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="note-musical" format="2">
+  <advance width="1200"/>
+  <unicode hex="266A"/>
+  <outline>
+    <contour>
+      <point x="914" y="614" type="line"/>
+      <point x="1042" y="743"/>
+      <point x="1105" y="875"/>
+      <point x="1105" y="1011" type="curve" smooth="yes"/>
+      <point x="1105" y="1285"/>
+      <point x="912" y="1420"/>
+      <point x="522" y="1420" type="curve"/>
+      <point x="522" y="1124" type="line"/>
+      <point x="787" y="1124"/>
+      <point x="918" y="1053"/>
+      <point x="918" y="910" type="curve" smooth="yes"/>
+      <point x="918" y="819"/>
+      <point x="889" y="741"/>
+      <point x="830" y="676" type="curve"/>
+    </contour>
+    <contour>
+      <point x="390" y="-17" type="curve" smooth="yes"/>
+      <point x="544" y="-17"/>
+      <point x="644" y="72"/>
+      <point x="644" y="205" type="curve" smooth="yes"/>
+      <point x="644" y="303"/>
+      <point x="552" y="368"/>
+      <point x="410" y="368" type="curve" smooth="yes"/>
+      <point x="240" y="368"/>
+      <point x="156" y="304"/>
+      <point x="156" y="175" type="curve" smooth="yes"/>
+      <point x="156" y="47"/>
+      <point x="234" y="-17"/>
+    </contour>
+    <contour>
+      <point x="522" y="185" type="line"/>
+      <point x="644" y="205" type="line"/>
+      <point x="644" y="1370" type="line"/>
+      <point x="522" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

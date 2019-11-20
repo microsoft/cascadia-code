@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="manat" format="2">
+  <advance width="1200"/>
+  <unicode hex="20BC"/>
+  <outline>
+    <contour>
+      <point x="76" y="0" type="line"/>
+      <point x="286" y="0" type="line"/>
+      <point x="286" y="540" type="line" smooth="yes"/>
+      <point x="286" y="818"/>
+      <point x="391" y="956"/>
+      <point x="600" y="956" type="curve" smooth="yes"/>
+      <point x="809" y="956"/>
+      <point x="914" y="818"/>
+      <point x="914" y="540" type="curve" smooth="yes"/>
+      <point x="914" y="0" type="line"/>
+      <point x="1124" y="0" type="line"/>
+      <point x="1124" y="540" type="line" smooth="yes"/>
+      <point x="1124" y="941"/>
+      <point x="948" y="1140"/>
+      <point x="600" y="1140" type="curve" smooth="yes"/>
+      <point x="252" y="1140"/>
+      <point x="76" y="941"/>
+      <point x="76" y="540" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="531" y="0" type="line"/>
+      <point x="669" y="0" type="line"/>
+      <point x="669" y="1420" type="line"/>
+      <point x="531" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

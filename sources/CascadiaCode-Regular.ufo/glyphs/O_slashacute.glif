@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oslashacute" format="2">
+  <advance width="1200"/>
+  <unicode hex="01FE"/>
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="710" name="center"/>
+  <anchor x="1080" y="10" name="ogonek"/>
+  <anchor x="600" y="1420" name="top"/>
+  <anchor x="20" y="1420" name="topleft"/>
+  <anchor x="1180" y="1420" name="topright"/>
+  <outline>
+    <component base="Oslash"/>
+    <component base="acutecomb.case"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketleft_bar.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-660" y="-200" type="line"/>
+      <point x="-458" y="-200" type="line"/>
+      <point x="-458" y="1620" type="line"/>
+      <point x="-660" y="1620" type="line"/>
+    </contour>
+    <contour>
+      <point x="-478" y="-200" type="line"/>
+      <point x="188" y="-200" type="line"/>
+      <point x="188" y="-24" type="line"/>
+      <point x="-478" y="-24" type="line"/>
+    </contour>
+    <contour>
+      <point x="-478" y="1444" type="line"/>
+      <point x="188" y="1444" type="line"/>
+      <point x="188" y="1620" type="line"/>
+      <point x="-478" y="1620" type="line"/>
+    </contour>
+    <component base="bar" xOffset="-46"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

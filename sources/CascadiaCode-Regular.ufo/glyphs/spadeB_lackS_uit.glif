@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="spadeBlackSuit" format="2">
+  <advance width="1200"/>
+  <unicode hex="2660"/>
+  <guideline x="834" y="60" angle="0"/>
+  <guideline x="834" y="1280" angle="0"/>
+  <guideline x="834" y="1260" angle="0"/>
+  <guideline x="834" y="80" angle="0"/>
+  <guideline x="834" y="40" angle="0"/>
+  <outline>
+    <contour>
+      <point x="275" y="162" type="curve" smooth="yes"/>
+      <point x="397" y="162"/>
+      <point x="474" y="236"/>
+      <point x="474" y="363" type="curve"/>
+      <point x="726" y="363" type="line"/>
+      <point x="726" y="236"/>
+      <point x="799" y="162"/>
+      <point x="925" y="162" type="curve" smooth="yes"/>
+      <point x="1056" y="162"/>
+      <point x="1131" y="265"/>
+      <point x="1131" y="444" type="curve" smooth="yes"/>
+      <point x="1131" y="793"/>
+      <point x="941" y="1080"/>
+      <point x="600" y="1280" type="curve"/>
+      <point x="266" y="1083"/>
+      <point x="69" y="796"/>
+      <point x="69" y="444" type="curve" smooth="yes"/>
+      <point x="69" y="265"/>
+      <point x="144" y="162"/>
+    </contour>
+    <contour>
+      <point x="514" y="60" type="line"/>
+      <point x="686" y="60" type="line"/>
+      <point x="686" y="1060" type="line"/>
+      <point x="514" y="1060" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

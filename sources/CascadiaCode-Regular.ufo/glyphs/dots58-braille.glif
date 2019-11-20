@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dots58-braille" format="2">
+  <advance width="1200"/>
+  <unicode hex="2890"/>
+  <outline>
+    <contour>
+      <point x="850" y="703.333" type="curve" smooth="yes"/>
+      <point x="932.843" y="703.333"/>
+      <point x="1000" y="770.491"/>
+      <point x="1000" y="853.333" type="curve" smooth="yes"/>
+      <point x="1000" y="936.176"/>
+      <point x="932.843" y="1003.333"/>
+      <point x="850" y="1003.333" type="curve" smooth="yes"/>
+      <point x="767.157" y="1003.333"/>
+      <point x="700" y="936.176"/>
+      <point x="700" y="853.333" type="curve" smooth="yes"/>
+      <point x="700" y="770.491"/>
+      <point x="767.157" y="703.333"/>
+    </contour>
+    <contour>
+      <point x="850" y="-170" type="curve" smooth="yes"/>
+      <point x="932.843" y="-170"/>
+      <point x="1000" y="-102.843"/>
+      <point x="1000" y="-20" type="curve" smooth="yes"/>
+      <point x="1000" y="62.843"/>
+      <point x="932.843" y="130"/>
+      <point x="850" y="130" type="curve" smooth="yes"/>
+      <point x="767.157" y="130"/>
+      <point x="700" y="62.843"/>
+      <point x="700" y="-20" type="curve" smooth="yes"/>
+      <point x="700" y="-102.843"/>
+      <point x="767.157" y="-170"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uring" format="2">
+  <advance width="1200"/>
+  <unicode hex="016F"/>
+  <anchor x="570" y="0" name="bottom"/>
+  <anchor x="1080" y="10" name="ogonek"/>
+  <anchor x="590" y="1630" name="top"/>
+  <anchor x="1120" y="1060" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="ringcomb" xOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

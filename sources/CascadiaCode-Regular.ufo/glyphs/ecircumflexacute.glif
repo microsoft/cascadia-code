@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecircumflexacute" format="2">
+  <advance width="1200"/>
+  <unicode hex="1EBF"/>
+  <anchor x="630" y="0" name="bottom"/>
+  <anchor x="1080" y="10" name="ogonek"/>
+  <anchor x="977" y="1958" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="circumflexcomb" xOffset="20"/>
+    <component base="acutecomb" xOffset="407" yOffset="340"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_viet</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>acutecomb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

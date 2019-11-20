@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb" format="2">
+  <unicode hex="030A"/>
+  <anchor x="600" y="1060" name="_top"/>
+  <anchor x="600" y="1630" name="top"/>
+  <outline>
+    <contour>
+      <point x="600" y="1198" type="curve" smooth="yes"/>
+      <point x="751" y="1198"/>
+      <point x="838" y="1277"/>
+      <point x="838" y="1414" type="curve" smooth="yes"/>
+      <point x="838" y="1551"/>
+      <point x="751" y="1630"/>
+      <point x="600" y="1630" type="curve" smooth="yes"/>
+      <point x="449" y="1630"/>
+      <point x="362" y="1551"/>
+      <point x="362" y="1414" type="curve" smooth="yes"/>
+      <point x="362" y="1277"/>
+      <point x="449" y="1198"/>
+    </contour>
+    <contour>
+      <point x="600" y="1314" type="curve" smooth="yes"/>
+      <point x="538" y="1314"/>
+      <point x="504" y="1350"/>
+      <point x="504" y="1414" type="curve" smooth="yes"/>
+      <point x="504" y="1478"/>
+      <point x="538" y="1515"/>
+      <point x="600" y="1515" type="curve" smooth="yes"/>
+      <point x="662" y="1515"/>
+      <point x="696" y="1478"/>
+      <point x="696" y="1414" type="curve" smooth="yes"/>
+      <point x="696" y="1350"/>
+      <point x="662" y="1314"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1200</integer>
+    </dict>
+  </lib>
+</glyph>

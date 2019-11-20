@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Softsign-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="042C"/>
+  <outline>
+    <contour>
+      <point x="346" y="0" type="line"/>
+      <point x="704" y="0" type="line" smooth="yes"/>
+      <point x="963" y="0"/>
+      <point x="1134" y="182"/>
+      <point x="1134" y="458" type="curve" smooth="yes"/>
+      <point x="1134" y="734"/>
+      <point x="963" y="916"/>
+      <point x="704" y="916" type="curve" smooth="yes"/>
+      <point x="326" y="916" type="line"/>
+      <point x="350" y="726" type="line"/>
+      <point x="646" y="726" type="line" smooth="yes"/>
+      <point x="814" y="726"/>
+      <point x="924" y="620"/>
+      <point x="924" y="458" type="curve" smooth="yes"/>
+      <point x="924" y="296"/>
+      <point x="814" y="190"/>
+      <point x="646" y="190" type="curve" smooth="yes"/>
+      <point x="346" y="190" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="0" type="line"/>
+      <point x="360" y="0" type="line"/>
+      <point x="360" y="1420" type="line"/>
+      <point x="160" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

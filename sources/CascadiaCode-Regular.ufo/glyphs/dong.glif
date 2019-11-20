@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dong" format="2">
+  <advance width="1200"/>
+  <unicode hex="20AB"/>
+  <anchor x="540" y="0" name="bottom"/>
+  <anchor x="600" y="530" name="center"/>
+  <anchor x="926" y="1568" name="top"/>
+  <anchor x="1180" y="1060" name="topright"/>
+  <outline>
+    <contour>
+      <point x="166" y="-330" type="line"/>
+      <point x="1032" y="-330" type="line"/>
+      <point x="1032" y="-154" type="line"/>
+      <point x="166" y="-154" type="line"/>
+    </contour>
+    <component base="dcroat"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

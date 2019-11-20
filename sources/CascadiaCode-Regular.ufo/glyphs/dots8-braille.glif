@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dots8-braille" format="2">
+  <advance width="1200"/>
+  <unicode hex="2880"/>
+  <outline>
+    <contour>
+      <point x="850" y="-170" type="curve" smooth="yes"/>
+      <point x="932.843" y="-170"/>
+      <point x="1000" y="-102.843"/>
+      <point x="1000" y="-20" type="curve" smooth="yes"/>
+      <point x="1000" y="62.843"/>
+      <point x="932.843" y="130"/>
+      <point x="850" y="130" type="curve" smooth="yes"/>
+      <point x="767.157" y="130"/>
+      <point x="700" y="62.843"/>
+      <point x="700" y="-20" type="curve" smooth="yes"/>
+      <point x="700" y="-102.843"/>
+      <point x="767.157" y="-170"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onequarter" format="2">
+  <advance width="1200"/>
+  <unicode hex="00BC"/>
+  <outline>
+    <contour>
+      <point x="186" y="286" type="line"/>
+      <point x="1116" y="956" type="line"/>
+      <point x="1024" y="1086" type="line"/>
+      <point x="94" y="422" type="line"/>
+    </contour>
+    <component base="foursuperior" xOffset="240" yOffset="-802"/>
+    <component base="onesuperior" xOffset="-260"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

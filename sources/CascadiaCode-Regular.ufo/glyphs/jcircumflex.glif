@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jcircumflex" format="2">
+  <advance width="1200"/>
+  <unicode hex="0135"/>
+  <anchor x="780" y="-480" name="bottom"/>
+  <anchor x="782" y="1518" name="top"/>
+  <outline>
+    <component base="jdotless"/>
+    <component base="circumflexcomb" xOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

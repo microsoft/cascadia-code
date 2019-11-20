@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="horizontalBlackHexagon" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B23"/>
+  <note>
+uni2B23
+</note>
+  <outline>
+    <contour>
+      <point x="300" y="190" type="line"/>
+      <point x="900" y="190" type="line"/>
+      <point x="1200" y="710" type="line"/>
+      <point x="900" y="1230" type="line"/>
+      <point x="300" y="1230" type="line"/>
+      <point x="0" y="710" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+2 4 3 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

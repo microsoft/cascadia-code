@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackVerticalEllipse" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B2E"/>
+  <note>
+uni2B2E
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="185" type="curve" smooth="yes"/>
+      <point x="790" y="185"/>
+      <point x="915" y="394"/>
+      <point x="915" y="710" type="curve" smooth="yes"/>
+      <point x="915" y="1026"/>
+      <point x="790" y="1235"/>
+      <point x="600" y="1235" type="curve" smooth="yes"/>
+      <point x="410" y="1235"/>
+      <point x="285" y="1026"/>
+      <point x="285" y="710" type="curve" smooth="yes"/>
+      <point x="285" y="394"/>
+      <point x="410" y="185"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+15 5 3 
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+0 10 3 
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 27 values pushed */
+6 0 22 0 38 0 54 0 70 0 86 0 102 0 118 0 134 0 150 0 166 0 182 0 198 0 13 
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+213 0 229 0 2 
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

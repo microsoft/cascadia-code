@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign_parenleft.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-350" y="0" type="line"/>
+      <point x="-174" y="0" type="line"/>
+      <point x="-54" y="1420" type="line"/>
+      <point x="-230" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-786" y="0" type="line"/>
+      <point x="-610" y="0" type="line"/>
+      <point x="-490" y="1420" type="line"/>
+      <point x="-666" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-920" y="360" type="line"/>
+      <point x="420" y="360" type="line"/>
+      <point x="420" y="530" type="line"/>
+      <point x="-920" y="530" type="line"/>
+    </contour>
+    <contour>
+      <point x="-920" y="890" type="line"/>
+      <point x="420" y="890" type="line"/>
+      <point x="420" y="1060" type="line"/>
+      <point x="-920" y="1060" type="line"/>
+    </contour>
+    <component base="parenleft" xOffset="-20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

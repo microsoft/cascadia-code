@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boxLightArcUpAndRight" format="2">
+  <advance width="1200"/>
+  <unicode hex="2570"/>
+  <outline>
+    <contour>
+      <point x="1200" y="423" type="curve" smooth="yes"/>
+      <point x="1306" y="423" type="line"/>
+      <point x="1306" y="635" type="line"/>
+      <point x="1200" y="635" type="line" smooth="yes"/>
+      <point x="927" y="635"/>
+      <point x="706" y="856"/>
+      <point x="706" y="1129" type="curve" smooth="yes"/>
+      <point x="706" y="1808" type="line"/>
+      <point x="494" y="1808" type="line"/>
+      <point x="494" y="1129" type="line" smooth="yes"/>
+      <point x="494" y="739"/>
+      <point x="810" y="423"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

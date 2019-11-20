@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nhookleft" format="2">
+  <advance width="1200"/>
+  <unicode hex="019D"/>
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="-118" y="-480" type="line"/>
+      <point x="12" y="-468" type="line" smooth="yes"/>
+      <point x="221" y="-452"/>
+      <point x="341" y="-316"/>
+      <point x="341" y="-96" type="curve" smooth="yes"/>
+      <point x="341" y="184" type="line"/>
+      <point x="148" y="184" type="line"/>
+      <point x="148" y="-88" type="line" smooth="yes"/>
+      <point x="148" y="-214"/>
+      <point x="96" y="-282"/>
+      <point x="-8" y="-294" type="curve" smooth="yes"/>
+      <point x="-128" y="-312" type="line"/>
+    </contour>
+    <component base="N"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+    </dict>
+  </lib>
+</glyph>

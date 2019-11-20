@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whitePentagon" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B20"/>
+  <note>
+uni2B20
+</note>
+  <outline>
+    <contour>
+      <point x="230" y="168" type="line"/>
+      <point x="970" y="168" type="line"/>
+      <point x="1200" y="874" type="line"/>
+      <point x="600" y="1310" type="line"/>
+      <point x="0" y="874" type="line"/>
+    </contour>
+    <contour>
+      <point x="339" y="318" type="line"/>
+      <point x="176" y="817" type="line"/>
+      <point x="600" y="1125" type="line"/>
+      <point x="1024" y="817" type="line"/>
+      <point x="861" y="318" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0 
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+PUSHW[ ]	/* 1 value pushed */
+1 
+MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+PUSHW[ ]	/* 2 values pushed */
+1 2 
+MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+5 
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

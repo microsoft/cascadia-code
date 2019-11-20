@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowerRightQuadrantWhiteCircle" format="2">
+  <advance width="1200"/>
+  <unicode hex="25F6"/>
+  <note>
+uni25F6
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="185" type="curve" smooth="yes"/>
+      <point x="916" y="185"/>
+      <point x="1125" y="394"/>
+      <point x="1125" y="710" type="curve" smooth="yes"/>
+      <point x="1125" y="1026"/>
+      <point x="916" y="1235"/>
+      <point x="600" y="1235" type="curve" smooth="yes"/>
+      <point x="284" y="1235"/>
+      <point x="75" y="1026"/>
+      <point x="75" y="710" type="curve" smooth="yes"/>
+      <point x="75" y="394"/>
+      <point x="284" y="185"/>
+    </contour>
+    <contour>
+      <point x="600" y="335" type="curve" smooth="yes"/>
+      <point x="374" y="335"/>
+      <point x="225" y="484"/>
+      <point x="225" y="710" type="curve" smooth="yes"/>
+      <point x="225" y="936"/>
+      <point x="374" y="1085"/>
+      <point x="600" y="1085" type="curve" smooth="yes"/>
+      <point x="826" y="1085"/>
+      <point x="975" y="936"/>
+      <point x="975" y="710" type="curve" smooth="yes"/>
+      <point x="975" y="484"/>
+      <point x="826" y="335"/>
+    </contour>
+    <contour>
+      <point x="525" y="272" type="line"/>
+      <point x="525" y="785" type="line"/>
+      <point x="1047" y="785" type="line"/>
+      <point x="1047" y="635" type="line"/>
+      <point x="675" y="635" type="line"/>
+      <point x="675" y="272" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+0 25 3 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+20 42 3 
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+44 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+35 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+44 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+15 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+15 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+30 
+MDRP[11100]	/* MoveDirectRelPt */
+NPUSHW[ ]	/* 27 values pushed */
+6 30 22 30 38 30 54 30 70 30 86 30 102 30 118 30 134 30 150 30 166 30 182 30 198 30 13 
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+213 30 229 30 2 
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+35 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+37 
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

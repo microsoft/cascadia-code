@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackInWhiteDiamond" format="2">
+  <advance width="1200"/>
+  <unicode hex="25C8"/>
+  <note>
+uni25C8
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="110" type="line"/>
+      <point x="1200" y="710" type="line"/>
+      <point x="600" y="1310" type="line"/>
+      <point x="0" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="322" type="line"/>
+      <point x="212" y="710" type="line"/>
+      <point x="600" y="1098" type="line"/>
+      <point x="988" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="534" type="line"/>
+      <point x="776" y="710" type="line"/>
+      <point x="600" y="886" type="line"/>
+      <point x="424" y="710" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+0 2 3 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:07:02</string>
+    </dict>
+  </lib>
+</glyph>

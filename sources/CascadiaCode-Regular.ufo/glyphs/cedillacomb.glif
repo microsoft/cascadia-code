@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedillacomb" format="2">
+  <unicode hex="0327"/>
+  <anchor x="675" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="514" y="-480" type="line"/>
+      <point x="767" y="-480"/>
+      <point x="892" y="-409"/>
+      <point x="892" y="-267" type="curve" smooth="yes"/>
+      <point x="892" y="-179"/>
+      <point x="835" y="-124"/>
+      <point x="720" y="-100" type="curve"/>
+      <point x="750" y="12" type="line"/>
+      <point x="624" y="49" type="line"/>
+      <point x="540" y="-190" type="line"/>
+      <point x="649" y="-190"/>
+      <point x="702" y="-212"/>
+      <point x="702" y="-258" type="curve" smooth="yes"/>
+      <point x="702" y="-306"/>
+      <point x="640" y="-330"/>
+      <point x="514" y="-330" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/18 23:05:38</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1200</integer>
+    </dict>
+  </lib>
+</glyph>
