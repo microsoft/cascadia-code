@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
         # 4.1 Modifying some attributes to correct the metadata
         setattr(instance.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
-        setattr(instanceNF.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
+        #setattr(instanceNF.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
         setattr(instancePL.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
 
         #instanceNF.info.familyName = "Cascadia Code NF"
