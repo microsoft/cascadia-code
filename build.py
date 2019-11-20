@@ -15,6 +15,9 @@ VTT_DATA_FILE = (INPUT_DIR / "vtt_data" / "CascadiaCode.ttx")
 def step_set_font_name(n):
     def _set(instance):
         instance.info.familyName = n
+        # We have to change the style map family name because that's what
+        # Windows uses to map Bold/Regular/Medium/etc. fonts
+        instance.info.styleMapFamilyName = n
     return _set
 
 def step_merge_glyphs_from_ufo(path):
