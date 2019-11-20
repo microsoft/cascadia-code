@@ -26,7 +26,7 @@ def step_merge_glyphs_from_ufo(path):
         print (f"[{instance.info.familyName}] Merging {path}")
         for glyph in ufo.glyphOrder:
             if glyph not in instance.glyphOrder:
-                instance.addGlyph(ufo.get(glyph))
+                instance.addGlyph(ufo[glyph])
 
     return _merge
 
