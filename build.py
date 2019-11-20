@@ -19,7 +19,7 @@ def step_set_font_name(n):
 
 def step_merge_glyphs_from_ufo(path):
     def _merge(instance):
-        ufo = ufoLib2.objects.font.Font.open(path)
+        ufo = ufoLib2.Font.open(path)
         print (f"[{instance.info.familyName}] Merging {path}")
         for glyph in ufo.glyphOrder:
             if glyph not in instance.glyphOrder:
@@ -28,8 +28,7 @@ def step_merge_glyphs_from_ufo(path):
     return _merge
 
 def step_set_feature_file(n):
-    with open(n, 'r') as feaCode:
-        fea = feaCode.read()
+    fea = n.read_text()
     def _set(instance):
         instance.features.text = fea
     return _set
@@ -40,7 +39,7 @@ def build_font_instance(generator, instance_descriptor, *steps):
     for step in steps:
         step(instance)
 
-    setattr(instance.info,"openTypeOS2Panose", [2,11,6,9,2,0,0,2,0,4])
+    setattr(instance.info, "openTypeOS2Panose", [2,11,6,9,2,0,0,2,0,4])
 
     familyName = instance.info.familyName
     file_name = f"{familyName}.ttf".replace(" ", "")
