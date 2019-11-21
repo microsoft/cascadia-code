@@ -1,0 +1,21 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.7'
+    - name: Install build dependencies
+      run: pip install -r requirements.txt ufolint
+    - name: Lint sources
+      run: ufolint sources/*.ufo
+    - name: Build font(s)
+      run: python build.py
