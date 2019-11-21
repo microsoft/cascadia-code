@@ -1,0 +1,28 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+
+    # Build the fonts on macOS because we use the default overlap removal library
+    # booleanOperations, which unfortunately inherits
+    # https://sourceforge.net/p/polyclipping/bugs/195/ that manifests for certain
+    # glyphs like `shade` and `dkshade`. The contour order makes no visual
+    # difference, but is important for TrueType hinting, where instructions work on
+    # point indices.  The font was originally build on macOS and then hinted in VTT,
+    # so we have to use macOS to not potentially invalidate the hinting.
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.7'
+    - name: Install build dependencies
+      run: pip install -r requirements.txt ufolint
+    - name: Lint sources
+      run: ufolint sources/*.ufo
+    - name: Build font(s)
+      run: python build.py
