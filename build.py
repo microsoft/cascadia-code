@@ -1,18 +1,79 @@
-import math
-import subprocess
 from pathlib import Path
+
+import argparse
 
 import fontmake.instantiator
 import fontTools.designspaceLib
 import ufo2ft
 import ufoLib2
 import vttLib
-import copy
 
 INPUT_DIR = Path("sources")
 OUTPUT_DIR = Path("build")
+VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode.ttx"
+
+
+def step_set_font_name(n):
+    def _set(instance):
+        instance.info.familyName = n
+        # We have to change the style map family name because that's what
+        # Windows uses to map Bold/Regular/Medium/etc. fonts
+        instance.info.styleMapFamilyName = n
+
+    return _set
+
+
+def step_merge_glyphs_from_ufo(path):
+    def _merge(instance):
+        ufo = ufoLib2.Font.open(path)
+        print(f"[{instance.info.familyName}] Merging {path}")
+        for glyph in ufo.glyphOrder:
+            if glyph not in instance.glyphOrder:
+                instance.addGlyph(ufo[glyph])
+
+    return _merge
+
+
+def step_set_feature_file(n):
+    fea = n.read_text()
+
+    def _set(instance):
+        instance.features.text = fea
+
+    return _set
+
+
+def build_font_instance(generator, instance_descriptor, *steps):
+    instance = generator.generate_instance(instance_descriptor)
+
+    for step in steps:
+        step(instance)
+
+    setattr(instance.info, "openTypeOS2Panose", [2, 11, 6, 9, 2, 0, 0, 2, 0, 4])
+
+    familyName = instance.info.familyName
+    file_name = f"{familyName}.ttf".replace(" ", "")
+    file_path = OUTPUT_DIR / file_name
+
+    print(f"[{familyName}] Compiling")
+    instance_font = ufo2ft.compileTTF(instance, removeOverlaps=True, inplace=True)
+
+    print(f"[{familyName}] Merging VTT")
+    vttLib.transfer.merge_from_file(instance_font, VTT_DATA_FILE)
+
+    print(f"[{familyName}] Saving")
+    instance_font.save(file_path)
+
+    print(f"[{familyName}] Done: {file_path}")
+
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="build some fonts")
+    parser.add_argument("-N", "--no-nerdfonts", default=False, action="store_true")
+    parser.add_argument("-P", "--no-powerline", default=False, action="store_true")
+    parser.add_argument("-M", "--no-mono", default=False, action="store_true")
+    args = parser.parse_args()
+
     # 1. Load Designspace and filter out instances that are marked as non-exportable.
     designspace = fontTools.designspaceLib.DesignSpaceDocument.fromfile(
         INPUT_DIR / "CascadiaCode-Regular.designspace"
@@ -26,93 +87,70 @@ if __name__ == "__main__":
     # 2. Prepare masters.
     generator = fontmake.instantiator.Instantiator.from_designspace(designspace)
 
-    for instance_descriptor in designspace.instances:
-        # 3. Generate instance UFO.
-        instance = generator.generate_instance(instance_descriptor)
-        print ("Creating instance",instance.info.familyName, instance.info.styleName)
-        file_name = f"{instance.info.familyName}.ttf".replace(
-            " ", ""
+    OUTPUT_DIR.mkdir(exist_ok=True)
+
+    step_remove_ligatures = step_set_feature_file(
+        INPUT_DIR / "features" / "features.fea"
+    )
+    step_merge_pl = step_merge_glyphs_from_ufo(
+        INPUT_DIR / "nerdfonts" / "NerdfontsPL.ufo"
+    )
+
+    nf_path = INPUT_DIR / "nerdfonts" / "NerdfontsNF.ufo"
+    if not nf_path.exists():
+        args.no_nerdfonts = True  # No NF = don't try to build those fonts.
+
+    step_merge_nf = None
+    if not args.no_nerdfonts:
+        step_merge_nf = step_merge_glyphs_from_ufo(
+            INPUT_DIR / "nerdfonts" / "NerdfontsNF.ufo"
         )
-        file_path = OUTPUT_DIR / file_name
-        #file_pathNF = OUTPUT_DIR / "CascadiaNF.ttf"
-        file_pathPL = OUTPUT_DIR / "CascadiaPL.ttf"
 
-        # 4. Creating NerdFont variants
-        #instanceNF = generator.generate_instance(instance_descriptor)  #rebuilding these instead of as a deepcopy avoids an error when compiling the TTF
-        instancePL = generator.generate_instance(instance_descriptor)
+    for instance_descriptor in designspace.instances:
 
+        build_font_instance(generator, instance_descriptor)
 
-        # 4.1 Modifying some attributes to correct the metadata
-        setattr(instance.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
-        #setattr(instanceNF.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
-        setattr(instancePL.info,"openTypeOS2Panose",[2,11,6,9,2,0,0,2,0,4])
+        if not args.no_mono:
+            build_font_instance(
+                generator,
+                instance_descriptor,
+                step_set_font_name("Cascadia Mono"),
+                step_remove_ligatures,
+            )
 
-        #instanceNF.info.familyName = "Cascadia Code NF"
-        instancePL.info.familyName = "Cascadia Code PL"
+        if not args.no_powerline:
+            build_font_instance(
+                generator,
+                instance_descriptor,
+                step_set_font_name("Cascadia Code PL"),
+                step_merge_pl,
+            )
 
-        #4.2 GET BACK TO WORK
+            if not args.no_mono:
+                build_font_instance(
+                    generator,
+                    instance_descriptor,
+                    step_set_font_name("Cascadia Mono PL"),
+                    step_remove_ligatures,
+                    step_merge_pl,
+                )
 
-        #NF_UFO = ufoLib2.objects.font.Font.open(INPUT_DIR / "nerdfonts" / "NerdfontsNF.ufo")
-        PL_UFO = ufoLib2.objects.font.Font.open(INPUT_DIR / "nerdfonts" / "NerdfontsPL.ufo")
-        
-        #4.5 Adding glyphs
-        print ("Adding Nerd Font glyphs")
-        #for glyph in NF_UFO.glyphOrder:
-        #    if glyph not in instanceNF.glyphOrder:
-        #        instanceNF.addGlyph(NF_UFO.get(glyph))
+        if not args.no_nerdfonts:
+            build_font_instance(
+                generator,
+                instance_descriptor,
+                step_set_font_name("Cascadia Code NF"),
+                step_merge_nf,
+            )
 
-        for glyph in PL_UFO.glyphOrder:
-            if glyph not in instancePL.glyphOrder:
-                instancePL.addGlyph(PL_UFO.get(glyph))
+            if not args.no_mono:
+                build_font_instance(
+                    generator,
+                    instance_descriptor,
+                    step_set_font_name("Cascadia Mono NF"),
+                    step_remove_ligatures,
+                    step_merge_nf,
+                )
 
-        # 5. Generate non-Ligature versions
-
-        instance_noLIG = copy.deepcopy(instance)
-        #instanceNF_noLIG = copy.deepcopy(instanceNF)
-        instancePL_noLIG = copy.deepcopy(instancePL)
-
-        with open(INPUT_DIR / "features" / "features.fea", 'r') as feaCode:
-            noLIG_fea = feaCode.read()
-
-        instance_noLIG.features.text = noLIG_fea
-        #instanceNF_noLIG.features.text = noLIG_fea
-        instancePL_noLIG.features.text = noLIG_fea
-
-        instance_noLIG.info.familyName = "Cascadia Mono"
-        #instanceNF_noLIG.info.familyName = "Cascadia Mono NF"
-        instancePL_noLIG.info.familyName = "Cascadia Mono PL"
-
-        # 6. Compile all TTFs
-        print ("Compiling")
-
-        instance_font = ufo2ft.compileTTF(instance, removeOverlaps=True, inplace=True)
-        #instanceNF_font = ufo2ft.compileTTF(instanceNF, removeOverlaps=True, inplace=True)
-        instancePL_font = ufo2ft.compileTTF(instancePL, removeOverlaps=True, inplace=True)
-
-        instance_noLIG_font = ufo2ft.compileTTF(instance_noLIG, removeOverlaps=True, inplace=True)
-        #instanceNF_noLIG_font = ufo2ft.compileTTF(instanceNF_noLIG, removeOverlaps=True, inplace=True)
-        instancePL_noLIG_font = ufo2ft.compileTTF(instancePL_noLIG, removeOverlaps=True, inplace=True)
-
-        #7. Merge VTT hinting code
-        print ("Adding VTT Code")
-        vtt_data_file = (INPUT_DIR / "vtt_data" / "CascadiaCode.ttx")
-        vttLib.transfer.merge_from_file(instance_font, vtt_data_file)
-        #vttLib.transfer.merge_from_file(instanceNF_font, vtt_data_file)
-        vttLib.transfer.merge_from_file(instancePL_font, vtt_data_file)
-        vttLib.transfer.merge_from_file(instance_noLIG_font, vtt_data_file)
-        #vttLib.transfer.merge_from_file(instanceNF_noLIG_font, vtt_data_file)
-        vttLib.transfer.merge_from_file(instancePL_noLIG_font, vtt_data_file)
-
-        # 8. Save
-        print ("Saving")
-        OUTPUT_DIR.mkdir(exist_ok=True)
-        instance_font.save(file_path.with_name("Cascadia.ttf"))
-        #instanceNF_font.save(file_path.with_name("CascadiaNF.ttf"))
-        instancePL_font.save(file_path.with_name("CascadiaPL.ttf"))
-
-        instance_noLIG_font.save(file_path.with_name("CascadiaMono.ttf"))
-        #instanceNF_noLIG_font.save(file_path.with_name("CascadiaMonoNF.ttf"))
-        instancePL_noLIG_font.save(file_path.with_name("CascadiaMonoPL.ttf"))
-
-        print ("All done")
-        print ("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
+        print("All done")
+        print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")

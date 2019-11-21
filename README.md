@@ -18,10 +18,10 @@ Clicking on the Cascadia.ttf file will download it to your machine. From there, 
 
 👉 **Note:** If you have previously installed a version of Cascadia Code, please uninstall the previous version *prior* to installing a new version. Not doing so can result in improper rendering. 
 
-For more details and app-specific instructions, please check the wiki. 
+For more details and app-specific instructions, [please check the wiki](https://github.com/microsoft/cascadia-code/wiki/Installing-Cascadia-Code). 
 
 # Get involved
-Instructions on how to modify and submit an update to the Cascadia Code source is available in the wiki.
+Instructions on how to modify and submit an update to the Cascadia Code source is [available in the wiki](https://github.com/microsoft/cascadia-code/wiki/Modifying-Cascadia-Code).
 
 
 # Communicating with the Team
