@@ -51,7 +51,7 @@ def build_font_instance(generator, instance_descriptor, *steps):
 
     setattr(instance.info, "openTypeOS2Panose", [2, 11, 6, 9, 2, 0, 0, 2, 0, 4])
 
-    instance.info._openTypeGaspRangeRecords =[
+    instance.info.openTypeGaspRangeRecords =[
         {
             "rangeMaxPPEM" : 9, 
             "rangeGaspBehavior" : [1,3]
