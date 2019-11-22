@@ -51,6 +51,21 @@ def build_font_instance(generator, instance_descriptor, *steps):
 
     setattr(instance.info, "openTypeOS2Panose", [2, 11, 6, 9, 2, 0, 0, 2, 0, 4])
 
+    instance.info._openTypeGaspRangeRecords =[
+        {
+            "rangeMaxPPEM" : 9, 
+            "rangeGaspBehavior" : [1,3]
+        },
+        {
+            "rangeMaxPPEM" : 50, 
+            "rangeGaspBehavior" : [0,1,2,3]
+        },
+        {
+            "rangeMaxPPEM" : 65535, 
+            "rangeGaspBehavior" : [1,3]
+        },
+    ]      
+
     familyName = instance.info.familyName
     file_name = f"{familyName}.ttf".replace(" ", "")
     file_path = OUTPUT_DIR / file_name
