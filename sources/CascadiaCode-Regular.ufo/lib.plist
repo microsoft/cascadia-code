@@ -13,7 +13,7 @@
     <key>GSOffsetVertical</key>
     <integer>110</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1272</string>
+    <string>1274</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -1621,6 +1621,17 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>brevecomb-cy.case</string>
       <string>LIG</string>
       <string>uni0009</string>
+      <string>heavyleftpointinganglequotationmarkornament</string>
+      <string>heavyrightpointinganglequotationmarkornament</string>
+      <string>hyphentwo</string>
+      <string>CR</string>
+      <string>notidentical</string>
+      <string>strictlyequivalentto</string>
+      <string>vectorOrCrossProduct</string>
+      <string>whiteSmilingFace</string>
+      <string>blackSmilingFace</string>
+      <string>sunWithRays</string>
+      <string>notedbl-musical</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
@@ -1948,6 +1959,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni2B2A</string>
       <key>blackSmallSquare</key>
       <string>uni25AA</string>
+      <key>blackSmilingFace</key>
+      <string>invsmileface</string>
       <key>blackSquare</key>
       <string>filledbox</string>
       <key>blackVerticalEllipse</key>
@@ -2900,6 +2913,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni044A.loclBGR</string>
       <key>heartBlackSuit</key>
       <string>heart</string>
+      <key>heavyleftpointinganglequotationmarkornament</key>
+      <string>uni276E</string>
+      <key>heavyrightpointinganglequotationmarkornament</key>
+      <string>uni276F</string>
       <key>horizontalBlackHexagon</key>
       <string>uni2B23</string>
       <key>horizontalFillSquare</key>
@@ -2918,6 +2935,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni030B</string>
       <key>hungarumlautcomb.case</key>
       <string>uni030B.case</string>
+      <key>hyphentwo</key>
+      <string>uni2010</string>
       <key>i-cy</key>
       <string>uni0456</string>
       <key>ia-cy</key>
@@ -3120,6 +3139,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni207F</string>
       <key>note-musical</key>
       <string>musicalnote</string>
+      <key>notedbl-musical</key>
+      <string>musicalnotedbl</string>
+      <key>notidentical</key>
+      <string>uni2262</string>
       <key>num_num_num.liga</key>
       <string>uniA774A774A774.liga</string>
       <key>num_num_num_num.liga</key>
@@ -3262,6 +3285,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni044C.loclBGR</string>
       <key>spadeBlackSuit</key>
       <string>spade</string>
+      <key>strictlyequivalentto</key>
+      <string>uni2263</string>
+      <key>sunWithRays</key>
+      <string>sun</string>
       <key>tcedilla</key>
       <string>uni0163</string>
       <key>tcommaaccent</key>
@@ -3396,6 +3423,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0432</string>
       <key>ve-cy.loclBGR</key>
       <string>uni0432.loclBGR</string>
+      <key>vectorOrCrossProduct</key>
+      <string>uni2A2F</string>
       <key>venus</key>
       <string>female</string>
       <key>verticalBisectingLineWhiteSquare</key>
@@ -3438,6 +3467,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni2B2B</string>
       <key>whiteSmallSquare</key>
       <string>uni25AB</string>
+      <key>whiteSmilingFace</key>
+      <string>smileface</string>
       <key>whiteSquare</key>
       <string>uni25A1</string>
       <key>whiteUpperLeftQuadrantSquare</key>
