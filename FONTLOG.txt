@@ -29,6 +29,12 @@ ChangeLog
 - Font converted to UFO with a build workflow
 - font rehinted
 - many other fixes!
+12-20-2019 (Aaron Bell) Cascadia Code (Minor Updates)
+- Fix issues with ATSUI (an older Apple layout engine)
+- Add remaining Codepage 437 glyphs
+- Add the unicode hyphen U+2010
+12-30-2019 (Dustin Howett) Cascadia Code (Minor Updates)
+- Add U+2011 NON-BREAKING HYPHEN
 
 Acknowledgements
 -----------------------------------
