@@ -53,18 +53,18 @@ def build_font_instance(generator, instance_descriptor, *steps):
 
     instance.info.openTypeGaspRangeRecords =[
         {
-            "rangeMaxPPEM" : 9, 
+            "rangeMaxPPEM" : 9,
             "rangeGaspBehavior" : [1,3]
         },
         {
-            "rangeMaxPPEM" : 50, 
+            "rangeMaxPPEM" : 50,
             "rangeGaspBehavior" : [0,1,2,3]
         },
         {
-            "rangeMaxPPEM" : 65535, 
+            "rangeMaxPPEM" : 65535,
             "rangeGaspBehavior" : [1,3]
         },
-    ]      
+    ]
 
     familyName = instance.info.familyName
     file_name = f"{familyName}.ttf".replace(" ", "")
