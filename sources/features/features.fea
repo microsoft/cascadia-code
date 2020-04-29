@@ -60,6 +60,7 @@ lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub iogonek' @CombiningTopAccents by idotless ogonekcomb; 
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb horncomb tonos brevecomb-cy];
 	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case horncomb.case tonos.case brevecomb-cy.case];

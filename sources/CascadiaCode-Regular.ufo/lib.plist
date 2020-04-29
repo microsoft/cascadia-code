@@ -13,11 +13,15 @@
     <key>GSOffsetVertical</key>
     <integer>110</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1274</string>
+    <string>1324</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
+    <array>
+      <string>/asciitilde_at.liga</string>
+    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
+    <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
+    <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.note</key>
     <string>#Macro to convert the ligatures from editable to production mode
 
@@ -451,9 +455,9 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>sacute.loclPLK</string>
       <string>zacute.loclPLK</string>
       <string>x.multiply</string>
-      <string>num_num_num.liga</string>
-      <string>num_num_num_num.liga</string>
-      <string>num_under_parenleft.liga</string>
+      <string>numbersign_numbersign_numbersign.liga</string>
+      <string>numbersign_numbersign_numbersign_numbersign.liga</string>
+      <string>numbersign_underscore_parenleft.liga</string>
       <string>w_w_w.liga</string>
       <string>ordfeminine</string>
       <string>ordmasculine</string>
@@ -1611,7 +1615,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>macroncomb.case</string>
       <string>hookabovecomb.case</string>
       <string>horncomb.case</string>
-      <string>tilde_tilde_greater.liga</string>
+      <string>asciitilde_asciitilde_greater.liga</string>
       <string>acutecomb.loclPLK</string>
       <string>acutecomb.case.loclPLK</string>
       <string>tonos</string>
@@ -1632,6 +1636,34 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>blackSmilingFace</string>
       <string>sunWithRays</string>
       <string>notedbl-musical</string>
+      <string>Acaron</string>
+      <string>Eopen</string>
+      <string>Esh</string>
+      <string>Ezh</string>
+      <string>Hcaron</string>
+      <string>Oopen</string>
+      <string>Vturned</string>
+      <string>Ismall</string>
+      <string>acaron</string>
+      <string>eopen</string>
+      <string>esh</string>
+      <string>ezh</string>
+      <string>hcaron</string>
+      <string>oopen</string>
+      <string>tesh</string>
+      <string>vturned</string>
+      <string>onedotenleader</string>
+      <string>nonbreakinghyphen</string>
+      <string>parenleft_asterisk.liga</string>
+      <string>colon_slash_slash.liga</string>
+      <string>asterisk_parenright.liga</string>
+      <string>backslash_backslash.liga</string>
+      <string>punctuationspace</string>
+      <string>upDashArrow</string>
+      <string>dashdownArrow</string>
+      <string>gravetonecomb</string>
+      <string>acutetonecomb</string>
+      <string>perispomenicomb</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
@@ -1647,6 +1679,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni1EB2</string>
       <key>Abrevetilde</key>
       <string>uni1EB4</string>
+      <key>Acaron</key>
+      <string>uni01CD</string>
       <key>Acircumflexacute</key>
       <string>uni1EA4</string>
       <key>Acircumflexdotbelow</key>
@@ -1709,14 +1743,20 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni041D</string>
       <key>Endescender-cy</key>
       <string>uni04A2</string>
+      <key>Eopen</key>
+      <string>uni0190</string>
       <key>Er-cy</key>
       <string>uni0420</string>
       <key>Ereversed-cy</key>
       <string>uni042D</string>
       <key>Es-cy</key>
       <string>uni0421</string>
+      <key>Esh</key>
+      <string>uni01A9</string>
       <key>Etilde</key>
       <string>uni1EBC</string>
+      <key>Ezh</key>
+      <string>uni01B7</string>
       <key>Gcommaaccent</key>
       <string>uni0122</string>
       <key>Ge-cy</key>
@@ -1735,6 +1775,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni04B2</string>
       <key>Hardsign-cy</key>
       <string>uni042A</string>
+      <key>Hcaron</key>
+      <string>uni021E</string>
       <key>I-cy</key>
       <string>uni0406</string>
       <key>Ia-cy</key>
@@ -1757,6 +1799,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni04E2</string>
       <key>Io-cy</key>
       <string>uni0401</string>
+      <key>Ismall</key>
+      <string>uni026A</string>
       <key>Iu-cy</key>
       <string>uni042E</string>
       <key>Je-cy</key>
@@ -1815,6 +1859,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni03A9</string>
       <key>Oogonek</key>
       <string>uni01EA</string>
+      <key>Oopen</key>
+      <string>uni0186</string>
       <key>Palochka-cy</key>
       <string>uni04C0</string>
       <key>Pe-cy</key>
@@ -1871,6 +1917,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni04B0</string>
       <key>Ve-cy</key>
       <string>uni0412</string>
+      <key>Vturned</key>
+      <string>uni0245</string>
       <key>Ydotbelow</key>
       <string>uni1EF4</string>
       <key>Yeru-cy</key>
@@ -1901,6 +1949,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni1EB3</string>
       <key>abrevetilde</key>
       <string>uni1EB5</string>
+      <key>acaron</key>
+      <string>uni01CE</string>
       <key>acircumflexacute</key>
       <string>uni1EA5</string>
       <key>acircumflexdotbelow</key>
@@ -1911,6 +1961,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni1EA9</string>
       <key>acircumflextilde</key>
       <string>uni1EAB</string>
+      <key>acutetonecomb</key>
+      <string>uni0341</string>
       <key>adotbelow</key>
       <string>uni1EA1</string>
       <key>ahookabove</key>
@@ -2275,6 +2327,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni02BB</string>
       <key>crosshatchFillSquare</key>
       <string>uni25A6</string>
+      <key>dashdownArrow</key>
+      <string>uni21E3</string>
       <key>de-cy</key>
       <string>uni0434</string>
       <key>de-cy.loclBGR</key>
@@ -2855,12 +2909,16 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni043D</string>
       <key>endescender-cy</key>
       <string>uni04A3</string>
+      <key>eopen</key>
+      <string>uni025B</string>
       <key>er-cy</key>
       <string>uni0440</string>
       <key>ereversed-cy</key>
       <string>uni044D</string>
       <key>es-cy</key>
       <string>uni0441</string>
+      <key>esh</key>
+      <string>uni0283</string>
       <key>etilde</key>
       <string>uni1EBD</string>
       <key>euro</key>
@@ -2869,6 +2927,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni20A0</string>
       <key>exclamdouble</key>
       <string>exclamdbl</string>
+      <key>ezh</key>
+      <string>uni0292</string>
       <key>filledRect</key>
       <string>filledrect</string>
       <key>firsttonechinese</key>
@@ -2897,6 +2957,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0491</string>
       <key>gje-cy</key>
       <string>uni0453</string>
+      <key>gravetonecomb</key>
+      <string>uni0340</string>
       <key>guarani</key>
       <string>uni20B2</string>
       <key>guillemetleft</key>
@@ -2911,6 +2973,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni044A</string>
       <key>hardsign-cy.loclBGR</key>
       <string>uni044A.loclBGR</string>
+      <key>hcaron</key>
+      <string>uni021F</string>
       <key>heartBlackSuit</key>
       <string>heart</string>
       <key>heavyleftpointinganglequotationmarkornament</key>
@@ -3137,15 +3201,17 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni045A</string>
       <key>nmod</key>
       <string>uni207F</string>
+      <key>nonbreakinghyphen</key>
+      <string>uni2011</string>
       <key>note-musical</key>
       <string>musicalnote</string>
       <key>notedbl-musical</key>
       <string>musicalnotedbl</string>
       <key>notidentical</key>
       <string>uni2262</string>
-      <key>num_num_num.liga</key>
+      <key>numbersign_numbersign_numbersign.liga</key>
       <string>uniA774A774A774.liga</string>
-      <key>num_num_num_num.liga</key>
+      <key>numbersign_numbersign_numbersign_numbersign.liga</key>
       <string>uniA774A774A774A774.liga</string>
       <key>numeral-greek</key>
       <string>uni0374</string>
@@ -3187,6 +3253,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni00B9</string>
       <key>oogonek</key>
       <string>uni01EB</string>
+      <key>oopen</key>
+      <string>uni0254</string>
       <key>overline</key>
       <string>uni203E</string>
       <key>palochka-cy</key>
@@ -3195,10 +3263,14 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni043F</string>
       <key>pe-cy.loclBGR</key>
       <string>uni043F.loclBGR</string>
+      <key>perispomenicomb</key>
+      <string>uni0342</string>
       <key>peso</key>
       <string>uni20B1</string>
       <key>published</key>
       <string>uni2117</string>
+      <key>punctuationspace</key>
+      <string>uni2008</string>
       <key>questiongreek</key>
       <string>uni037E</string>
       <key>rcommaaccent</key>
@@ -3299,6 +3371,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0442.loclBGR</string>
       <key>tenge</key>
       <string>uni20B8</string>
+      <key>tesh</key>
+      <string>uni02A7</string>
       <key>threeinferior</key>
       <string>uni2083</string>
       <key>threesuperior</key>
@@ -3347,6 +3421,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25B4</string>
       <key>upBlackTriangle</key>
       <string>triagup</string>
+      <key>upDashArrow</key>
+      <string>uni21E1</string>
       <key>upDownArrow</key>
       <string>arrowupdn</string>
       <key>upDownbaseArrow</key>
@@ -3433,6 +3509,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25CD</string>
       <key>verticalFillSquare</key>
       <string>uni25A5</string>
+      <key>vturned</key>
+      <string>uni028C</string>
       <key>whiteBullet</key>
       <string>openbullet</string>
       <key>whiteCircle</key>
