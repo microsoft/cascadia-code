@@ -2,44 +2,43 @@
 <glyph name="tildecomb" format="2">
   <unicode hex="0303"/>
   <anchor x="590" y="1060" name="_top"/>
+  <anchor x="590" y="1506" name="top"/>
   <outline>
     <contour>
       <point x="235" y="1226" type="line"/>
       <point x="409" y="1226" type="line"/>
-      <point x="409" y="1286" type="line" smooth="yes"/>
+      <point x="409" y="1306" type="line" smooth="yes"/>
       <point x="409" y="1356"/>
-      <point x="434" y="1390"/>
-      <point x="483" y="1390" type="curve" smooth="yes"/>
-      <point x="513" y="1390"/>
-      <point x="548" y="1376"/>
-      <point x="604" y="1345" type="curve" smooth="yes"/>
-      <point x="677" y="1305"/>
-      <point x="735" y="1290"/>
-      <point x="777" y="1290" type="curve" smooth="yes"/>
-      <point x="902" y="1290"/>
-      <point x="965" y="1370"/>
-      <point x="965" y="1530" type="curve" smooth="yes"/>
-      <point x="965" y="1610" type="line"/>
-      <point x="793" y="1610" type="line"/>
-      <point x="793" y="1550" type="line" smooth="yes"/>
-      <point x="793" y="1487"/>
-      <point x="775" y="1456"/>
-      <point x="739" y="1456" type="curve" smooth="yes"/>
-      <point x="710" y="1456"/>
-      <point x="688" y="1470"/>
-      <point x="613" y="1507" type="curve" smooth="yes"/>
-      <point x="546" y="1540"/>
-      <point x="493" y="1556"/>
-      <point x="445" y="1556" type="curve" smooth="yes"/>
-      <point x="305" y="1556"/>
-      <point x="235" y="1473"/>
-      <point x="235" y="1306" type="curve" smooth="yes"/>
+      <point x="434" y="1380"/>
+      <point x="483" y="1380" type="curve" smooth="yes"/>
+      <point x="525" y="1380"/>
+      <point x="570" y="1352"/>
+      <point x="614" y="1330" type="curve" smooth="yes"/>
+      <point x="684" y="1295"/>
+      <point x="739" y="1280"/>
+      <point x="777" y="1280" type="curve" smooth="yes"/>
+      <point x="902" y="1280"/>
+      <point x="965" y="1360"/>
+      <point x="965" y="1520" type="curve" smooth="yes"/>
+      <point x="965" y="1600" type="line"/>
+      <point x="793" y="1600" type="line"/>
+      <point x="793" y="1510" type="line" smooth="yes"/>
+      <point x="793" y="1467"/>
+      <point x="775" y="1446"/>
+      <point x="739" y="1446" type="curve" smooth="yes"/>
+      <point x="706" y="1446"/>
+      <point x="659" y="1469"/>
+      <point x="593" y="1502" type="curve" smooth="yes"/>
+      <point x="542" y="1527"/>
+      <point x="498" y="1546"/>
+      <point x="445" y="1546" type="curve" smooth="yes"/>
+      <point x="305" y="1546"/>
+      <point x="235" y="1463"/>
+      <point x="235" y="1296" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/11/18 23:05:38</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>1200</integer>
     </dict>
