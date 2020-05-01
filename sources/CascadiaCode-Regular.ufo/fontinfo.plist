@@ -209,7 +209,16 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <key>openTypeOS2VendorID</key>
     <string>SAJA</string>
     <key>postscriptBlueValues</key>
-    <array/>
+    <array>
+      <integer>-20</integer>
+      <integer>0</integer>
+      <integer>1060</integer>
+      <integer>1080</integer>
+      <integer>1420</integer>
+      <integer>1440</integer>
+      <integer>1500</integer>
+      <integer>1520</integer>
+    </array>
     <key>postscriptFamilyBlues</key>
     <array/>
     <key>postscriptFamilyOtherBlues</key>
@@ -217,11 +226,22 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <key>postscriptIsFixedPitch</key>
     <true/>
     <key>postscriptOtherBlues</key>
-    <array/>
+    <array>
+      <integer>-480</integer>
+      <integer>-460</integer>
+    </array>
     <key>postscriptStemSnapH</key>
-    <array/>
+    <array>
+      <integer>200</integer>
+      <integer>210</integer>
+      <integer>212</integer>
+      <integer>220</integer>
+    </array>
     <key>postscriptStemSnapV</key>
-    <array/>
+    <array>
+      <integer>180</integer>
+      <integer>190</integer>
+    </array>
     <key>postscriptUnderlinePosition</key>
     <integer>-100</integer>
     <key>postscriptUnderlineThickness</key>
