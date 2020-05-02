@@ -19,6 +19,7 @@ fs==2.4.11                # via fonttools
 glyphslib==5.0.1          # via fontmake
 lxml==4.4.1               # via fonttools
 mutatormath==2.1.2        # via fontmake
+psautohint==2.0.1         # for OTF generation
 pyclipper==1.1.0.post1    # via booleanoperations
 pyparsing==2.4.2
 pytz==2019.2              # via fs

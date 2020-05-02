@@ -7,6 +7,8 @@ import fontTools.designspaceLib
 import ufo2ft
 import ufoLib2
 import vttLib
+import sys
+import subprocess
 
 INPUT_DIR = Path("sources")
 OUTPUT_DIR = Path("build")
@@ -175,6 +177,11 @@ if __name__ == "__main__":
                     step_remove_ligatures,
                     step_merge_nf,
                 )
+
+        print("Autohinting OTFs")
+
+        for file in Path("build").glob("*.otf"):
+            subprocess.run(['psautohint --log "build/log.txt" '+str(file)], shell=True)
 
         print("All done")
         print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
