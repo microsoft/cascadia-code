@@ -44,42 +44,51 @@ def step_set_feature_file(n):
 
 
 def build_font_instance(generator, instance_descriptor, *steps):
-    instance = generator.generate_instance(instance_descriptor)
+    for format in ["ttf","otf"]:
+        instance = generator.generate_instance(instance_descriptor)
 
-    for step in steps:
-        step(instance)
+        for step in steps:
+            step(instance)
 
-    setattr(instance.info, "openTypeOS2Panose", [2, 11, 6, 9, 2, 0, 0, 2, 0, 4])
+        setattr(instance.info, "openTypeOS2Panose", [2, 11, 6, 9, 2, 0, 0, 2, 0, 4])
 
-    instance.info.openTypeGaspRangeRecords =[
-        {
-            "rangeMaxPPEM" : 9,
-            "rangeGaspBehavior" : [1,3]
-        },
-        {
-            "rangeMaxPPEM" : 50,
-            "rangeGaspBehavior" : [0,1,2,3]
-        },
-        {
-            "rangeMaxPPEM" : 65535,
-            "rangeGaspBehavior" : [1,3]
-        },
-    ]
+        if format == "ttf":
+            instance.info.openTypeGaspRangeRecords =[
+                {
+                    "rangeMaxPPEM" : 9,
+                    "rangeGaspBehavior" : [1,3]
+                },
+                {
+                    "rangeMaxPPEM" : 50,
+                    "rangeGaspBehavior" : [0,1,2,3]
+                },
+                {
+                    "rangeMaxPPEM" : 65535,
+                    "rangeGaspBehavior" : [1,3]
+                },
+            ]
 
-    familyName = instance.info.familyName
-    file_name = f"{familyName}.ttf".replace(" ", "")
-    file_path = OUTPUT_DIR / file_name
+        familyName = instance.info.familyName
+        if format == "ttf":
+            file_name = f"{familyName}.ttf".replace(" ", "")
+        else:
+            file_name = f"{familyName}.otf".replace(" ", "")
+        file_path = OUTPUT_DIR / file_name
 
-    print(f"[{familyName}] Compiling")
-    instance_font = ufo2ft.compileTTF(instance, removeOverlaps=True, inplace=True)
+        print(f"[{familyName}] Compiling")
+        if format == "ttf":
+            instance_font = ufo2ft.compileTTF(instance, removeOverlaps=True, inplace=True)
+        else:
+            instance_font = ufo2ft.compileOTF(instance, removeOverlaps=True, inplace=True)
 
-    print(f"[{familyName}] Merging VTT")
-    vttLib.transfer.merge_from_file(instance_font, VTT_DATA_FILE)
+        if format == "ttf":
+            print(f"[{familyName}] Merging VTT")
+            vttLib.transfer.merge_from_file(instance_font, VTT_DATA_FILE)
 
-    print(f"[{familyName}] Saving")
-    instance_font.save(file_path)
+        print(f"[{familyName}] Saving")
+        instance_font.save(file_path)
 
-    print(f"[{familyName}] Done: {file_path}")
+        print(f"[{familyName}] Done: {file_path}")
 
 
 if __name__ == "__main__":

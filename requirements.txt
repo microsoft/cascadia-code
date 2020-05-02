@@ -8,6 +8,7 @@
 appdirs==1.4.3            # via fs
 attrs==19.1.0             # via fontmake, ufolib2
 booleanoperations==0.8.2  # via fontmake, ufo2ft
+Brotli==1.0.7             # for WOFF2 generation
 compreffor==0.4.6.post1   # via ufo2ft
 cu2qu==1.6.6              # via fontmake, ufo2ft
 defcon[lxml]==0.6.0       # via fontmake, glyphslib, mutatormath, ufo2ft
