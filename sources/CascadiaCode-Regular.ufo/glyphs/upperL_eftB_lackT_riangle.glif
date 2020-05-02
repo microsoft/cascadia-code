@@ -12,18 +12,4 @@ uni25E4
       <point x="75" y="1235" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>assembly</key>
-      <string>PUSHW[ ]	/* 1 value pushed */
-0 
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-PUSHW[ ]	/* 3 values pushed */
-1 0 3 
-CALL[ ]	/* CallFunction */
-IUP[0]	/* InterpolateUntPts */
-IUP[1]	/* InterpolateUntPts */</string>
-    </dict>
-  </lib>
 </glyph>

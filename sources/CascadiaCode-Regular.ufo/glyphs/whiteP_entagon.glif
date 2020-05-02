@@ -21,30 +21,4 @@ uni2B20
       <point x="861" y="318" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>assembly</key>
-      <string>PUSHW[ ]	/* 1 value pushed */
-0 
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-PUSHW[ ]	/* 1 value pushed */
-0 
-RCVT[ ]	/* ReadCVT */
-IF[ ]	/* If */
-PUSHW[ ]	/* 1 value pushed */
-1 
-MDAP[1]	/* MoveDirectAbsPt */
-ELSE[ ]	/* Else */
-PUSHW[ ]	/* 2 values pushed */
-1 2 
-MIAP[0]	/* MoveIndirectAbsPt */
-EIF[ ]	/* EndIf */
-PUSHW[ ]	/* 1 value pushed */
-5 
-MDRP[11100]	/* MoveDirectRelPt */
-IUP[0]	/* InterpolateUntPts */
-IUP[1]	/* InterpolateUntPts */</string>
-    </dict>
-  </lib>
 </glyph>
