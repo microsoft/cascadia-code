@@ -7,9 +7,8 @@ for file in Path("build").glob("*.ttf"):
     ttfile = ttLib.TTFont(file)
 
     if "TSI0" in ttfile:
-        print(f"Warning! VTT production files present in font: {file}")
-        print("Please run VTT ship before converting")
-        print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
+        print(f"[{file}] – ERROR: VTT production tables present, WOFF not generated")
+        print("Please ship from VTT")
     else:
         print(f"{file}: Generating WOFF2")
         ttfile.flavor = "woff2"
