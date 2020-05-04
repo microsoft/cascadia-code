@@ -178,8 +178,8 @@ if __name__ == "__main__":
 
         print("Autohinting OTFs")
 
-        for file in Path("build").glob("*.otf"):
-            subprocess.run(['psautohint --log "build/log.txt" '+str(file)], shell=True)
+    for file in Path("build").glob("*.otf"):
+           subprocess.run(['psautohint --log "build/log.txt" '+str(file)], shell=True)
 
-        print("All done")
-        print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
+    print("All done")
+    print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
