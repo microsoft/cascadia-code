@@ -71,11 +71,9 @@ def build_font_instance(generator, instance_descriptor, *steps):
             ]
 
         familyName = instance.info.familyName
-        if format == "ttf":
-            file_name = f"{familyName}.ttf".replace(" ", "")
-        else:
-            file_name = f"{familyName}.otf".replace(" ", "")
-        file_path = OUTPUT_DIR / file_name
+
+        file_stem = instance.info.familyName.replace(" ", "")
+        file_path = (OUTPUT_DIR / file_stem).with_suffix(f".{format}")
 
         print(f"[{familyName}] Compiling")
         if format == "ttf":

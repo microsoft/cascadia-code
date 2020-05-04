@@ -1,20 +1,19 @@
-import glob, os
+import sys
+from pathlib import Path
+
 from fontTools import ttLib
 
-
-os.chdir("build")
-
-for file in glob.glob("*.ttf"):
+for file in Path("build").glob("*.ttf"):
     ttfile = ttLib.TTFont(file)
 
-    try:
-        vttPresent = ttfile.getTableData("TSI0")
-        print ("Warning! VTT production files present in font: "+file)
-        print ("Please ship the font out of VTT before converting")
+    if "TSI0" in ttfile:
+        print(f"Warning! VTT production files present in font: {file}")
+        print("Please run VTT ship before converting")
         print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
-    except:
-        print (file+": Generating WOFF2")
-        ttfile.flavor = 'woff2'
-        ttfile.save(file[:-3]+"woff2")
-        print("All done")
-        print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
+    else:
+        print(f"{file}: Generating WOFF2")
+        ttfile.flavor = "woff2"
+        ttfile.save(file.with_suffix(".woff2"))
+
+print("All done")
+print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***") 
