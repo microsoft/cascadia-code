@@ -30,31 +30,4 @@ uni25D1
       <point x="600" y="1085" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>assembly</key>
-      <string>PUSHW[ ]	/* 1 value pushed */
-0 
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-PUSHW[ ]	/* 3 values pushed */
-30 5 3 
-CALL[ ]	/* CallFunction */
-PUSHW[ ]	/* 3 values pushed */
-15 20 3 
-CALL[ ]	/* CallFunction */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-PUSHW[ ]	/* 3 values pushed */
-25 10 3 
-CALL[ ]	/* CallFunction */
-NPUSHW[ ]	/* 27 values pushed */
-6 25 22 25 38 25 54 25 70 25 86 25 102 25 118 25 134 25 150 25 166 25 182 25 198 25 13 
-DELTAP1[ ]	/* DeltaExceptionP1 */
-NPUSHW[ ]	/* 5 values pushed */
-213 25 229 25 2 
-DELTAP1[ ]	/* DeltaExceptionP1 */
-IUP[0]	/* InterpolateUntPts */
-IUP[1]	/* InterpolateUntPts */</string>
-    </dict>
-  </lib>
 </glyph>
