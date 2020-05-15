@@ -63,7 +63,7 @@ def build_font_instance(generator, instance_descriptor, *steps):
         instance.info.openTypeHheaLineGap = instance.info.openTypeOS2TypoLineGap
 
         instance.info.openTypeOS2WinAscent = 2226
-        instance.info.openTypeOS2WinDescent = 770
+        instance.info.openTypeOS2WinDescent = abs(instance.info.openTypeOS2TypoDescender)
 
         if format == "ttf":
             instance.info.openTypeGaspRangeRecords =[
