@@ -53,7 +53,7 @@ def build_font_instance(generator, instance_descriptor, *steps):
             step(instance)
 
         instance.info.versionMajor = 2005
-        instance.info.versionMinor = 15
+        instance.info.versionMinor = 20
 
         instance.info.openTypeOS2Panose = [2, 11, 6, 9, 2, 0, 0, 2, 0, 4]
 
