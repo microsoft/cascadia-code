@@ -45,6 +45,7 @@ feature case;
 feature ss02;
 feature zero;
 feature ss19;
+feature rclt;
 
 } aalt;
 
@@ -1349,6 +1350,42 @@ feature ss19 {
 # Name: Slashed zero
 sub zero by zero.zero;
 } ss19;
+
+feature rclt {
+# this subs the GDI-centric versions of these symbols with DWrite-centric ones
+sub lowerOneEighthBlock by lowerOneEighthBlock.stypo;
+sub lowerOneQuarterBlock by lowerOneQuarterBlock.stypo;
+sub lowerThreeEighthsBlock by lowerThreeEighthsBlock.stypo;
+sub lowerHalfBlock by lowerHalfBlock.stypo;
+sub lowerFiveEighthsBlock by lowerFiveEighthsBlock.stypo;
+sub lowerThreeQuartersBlock by lowerThreeQuartersBlock.stypo;
+sub lowerSevenEighthsBlock by lowerSevenEighthsBlock.stypo;
+sub fullBlock by fullBlock.stypo;
+sub upperHalfBlock by upperHalfBlock.stypo;
+sub upperOneEighthBlock by upperOneEighthBlock.stypo;
+sub leftOneEighthBlock by leftOneEighthBlock.stypo;
+sub leftOneQuarterBlock by leftOneQuarterBlock.stypo;
+sub leftThreeEighthsBlock by leftThreeEighthsBlock.stypo;
+sub leftBlock by leftBlock.stypo;
+sub leftFiveEighthsBlock by leftFiveEighthsBlock.stypo;
+sub leftThreeQuartersBlock by leftThreeQuartersBlock.stypo;
+sub leftSevenEighthsBlock by leftSevenEighthsBlock.stypo;
+sub rightBlock by rightBlock.stypo;
+sub rightOneEighthBlock by rightOneEighthBlock.stypo;
+sub lowerLeftBlock by lowerLeftBlock.stypo;
+sub lowerRightBlock by lowerRightBlock.stypo;
+sub upperLeftBlock by upperLeftBlock.stypo;
+sub upperLeftAndLowerLeftAndLowerRightBlock by upperLeftAndLowerLeftAndLowerRightBlock.stypo;
+sub upperLeftAndLowerRightBlock by upperLeftAndLowerRightBlock.stypo;
+sub upperLeftAndUpperRightAndLowerLeftBlock by upperLeftAndUpperRightAndLowerLeftBlock.stypo;
+sub upperLeftAndUpperRightAndLowerRightBlock by upperLeftAndUpperRightAndLowerRightBlock.stypo;
+sub upperRightBlock by upperRightBlock.stypo;
+sub upperRightAndLowerLeftBlock by upperRightAndLowerLeftBlock.stypo;
+sub upperRightAndLowerLeftAndLowerRightBlock by upperRightAndLowerLeftAndLowerRightBlock.stypo;
+sub shadelight by shadelight.stypo;
+sub shademedium by shademedium.stypo;
+sub shadedark by shadedark.stypo;
+} rclt;
 
 table GDEF {
   # automatic
