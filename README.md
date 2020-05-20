@@ -12,19 +12,21 @@ Other related repositories include:
 
 # Installation
 
-**You can install the latest version of Cascadia Code from the releases page here:** https://github.com/microsoft/cascadia-code/releases
+**You can download the latest version of Cascadia Code from the releases page here:** https://github.com/microsoft/cascadia-code/releases
 
-Clicking on the Cascadia.ttf file will download it to your machine. From there, open the file. This will open a new window displaying the characters included in the font along with the font displayed at different sizes. This window should have an "Install" button that will install the font on your machine when clicked.
-
-👉 **Note:** If you have previously installed a version of Cascadia Code, please uninstall the previous version *prior* to installing a new version. Not doing so can result in improper rendering. 
-
-For more details and app-specific instructions, [please check the wiki](https://github.com/microsoft/cascadia-code/wiki/Installing-Cascadia-Code). 
-
-## Font variants
+The variants contained within are:
 
 -  `Cascadia Code`: standard version of Cascadia
 -  `Cascadia Mono`: version of Cascadia that doesn't have ligatures
 -  `Cascadia (Code|Mono) PL`: version of Cascadia that has embedded Powerline symbols
+
+For optimal rendering quality, we recommend using the TTF version on Windows and any other OS that employs TrueType hinting. The OTF version is supplied for users who prefer that format.
+
+Once unzipped, open the font file—this will open a new window displaying the characters included in the font along with the font displayed at different sizes. This window should have an "Install" button that will install the font on your machine when clicked.
+
+👉 **Note:** If you have previously installed a version of Cascadia Code, please uninstall the previous version *prior* to installing a new version. Not doing so can result in improper rendering. 
+
+For more details and app-specific instructions, [please check the wiki](https://github.com/microsoft/cascadia-code/wiki/Installing-Cascadia-Code). 
 
 # Get involved
 Instructions on how to modify and submit an update to the Cascadia Code source is [available in the wiki](https://github.com/microsoft/cascadia-code/wiki/Modifying-Cascadia-Code).
