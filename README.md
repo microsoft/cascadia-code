@@ -22,8 +22,9 @@ For more details and app-specific instructions, [please check the wiki](https://
 
 ## Font variants
 
--  `Cascadia Mono`: version of Cascadia that doesn't have ligatures (#80)
--  `Cascadia (Code|Mono) PL`: version of Cascadia that has embedded powerline symbols (#10)
+-  `Cascadia Code`: standard version of Cascadia
+-  `Cascadia Mono`: version of Cascadia that doesn't have ligatures
+-  `Cascadia (Code|Mono) PL`: version of Cascadia that has embedded PowerLine symbols
 
 # Get involved
 Instructions on how to modify and submit an update to the Cascadia Code source is [available in the wiki](https://github.com/microsoft/cascadia-code/wiki/Modifying-Cascadia-Code).
