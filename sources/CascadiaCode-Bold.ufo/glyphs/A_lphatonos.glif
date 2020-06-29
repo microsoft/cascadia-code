@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphatonos" format="2">
+  <advance width="1200"/>
+  <unicode hex="0386"/>
+  <anchor x="600" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="225" y="0" type="line"/>
+      <point x="525" y="0" type="line"/>
+      <point x="691" y="1038" type="line"/>
+      <point x="709" y="1038" type="line"/>
+      <point x="875" y="0" type="line"/>
+      <point x="1175" y="0" type="line"/>
+      <point x="865" y="1420" type="line"/>
+      <point x="535" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="375" y="254" type="line"/>
+      <point x="1015" y="254" type="line"/>
+      <point x="1015" y="508" type="line"/>
+      <point x="375" y="508" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1" y="1040" type="line"/>
+      <point x="251" y="1040" type="line"/>
+      <point x="321" y="1420" type="line"/>
+      <point x="39" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

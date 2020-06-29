@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onequarter" format="2">
+  <advance width="1200"/>
+  <unicode hex="00BC"/>
+  <outline>
+    <contour>
+      <point x="186" y="286" type="line"/>
+      <point x="1078" y="1010" type="line"/>
+      <point x="1024" y="1086" type="line"/>
+      <point x="132" y="362" type="line"/>
+    </contour>
+    <component base="foursuperior" xOffset="240" yOffset="-802"/>
+    <component base="onesuperior" xOffset="-260"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

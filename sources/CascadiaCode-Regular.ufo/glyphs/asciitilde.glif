@@ -5,10 +5,10 @@
   <outline>
     <contour>
       <point x="100" y="486" type="line"/>
-      <point x="304" y="486" type="line"/>
-      <point x="304" y="576" type="line" smooth="yes"/>
-      <point x="304" y="659"/>
-      <point x="335" y="695"/>
+      <point x="302" y="486" type="line"/>
+      <point x="302" y="576" type="line" smooth="yes"/>
+      <point x="302" y="659"/>
+      <point x="334" y="695"/>
       <point x="409" y="695" type="curve" smooth="yes"/>
       <point x="477" y="695"/>
       <point x="536" y="650"/>
@@ -36,4 +36,10 @@
       <point x="100" y="566" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

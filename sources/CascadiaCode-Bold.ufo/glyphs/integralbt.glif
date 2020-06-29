@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="integralbt" format="2">
+  <advance width="1200"/>
+  <unicode hex="2321"/>
+  <outline>
+    <contour>
+      <point x="58" y="-477" type="line"/>
+      <point x="156" y="-468" type="line" smooth="yes"/>
+      <point x="498" y="-437"/>
+      <point x="646" y="-284"/>
+      <point x="646" y="94" type="curve" smooth="yes"/>
+      <point x="646" y="1808" type="line"/>
+      <point x="370" y="1808" type="line"/>
+      <point x="370" y="93" type="line" smooth="yes"/>
+      <point x="370" y="-99"/>
+      <point x="311" y="-187"/>
+      <point x="176" y="-203" type="curve" smooth="yes"/>
+      <point x="48" y="-218" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright_numbersign.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="430" y="0" type="line"/>
+      <point x="686" y="0" type="line"/>
+      <point x="806" y="1420" type="line"/>
+      <point x="550" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-420" y="300" type="line"/>
+      <point x="940" y="300" type="line"/>
+      <point x="940" y="564" type="line"/>
+      <point x="-420" y="564" type="line"/>
+    </contour>
+    <contour>
+      <point x="-6" y="0" type="line"/>
+      <point x="250" y="0" type="line"/>
+      <point x="370" y="1420" type="line"/>
+      <point x="114" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-420" y="856" type="line"/>
+      <point x="940" y="856" type="line"/>
+      <point x="940" y="1120" type="line"/>
+      <point x="-420" y="1120" type="line"/>
+    </contour>
+    <component base="bracketleft" xScale="-1" xOffset="37"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

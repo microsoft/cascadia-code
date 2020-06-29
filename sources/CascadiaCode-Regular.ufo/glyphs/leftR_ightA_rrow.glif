@@ -4,30 +4,36 @@
   <unicode hex="2194"/>
   <outline>
     <contour>
-      <point x="691" y="281" type="line"/>
-      <point x="1135" y="677" type="line"/>
-      <point x="1135" y="699" type="line"/>
-      <point x="691" y="1103" type="line"/>
-      <point x="691" y="871" type="line"/>
-      <point x="886" y="821" type="line"/>
-      <point x="886" y="553" type="line"/>
-      <point x="691" y="503" type="line"/>
+      <point x="701" y="302" type="line"/>
+      <point x="1135" y="698" type="line"/>
+      <point x="1135" y="720" type="line"/>
+      <point x="701" y="1114" type="line"/>
+      <point x="701" y="892" type="line"/>
+      <point x="896" y="842" type="line"/>
+      <point x="896" y="574" type="line"/>
+      <point x="701" y="524" type="line"/>
     </contour>
     <contour>
-      <point x="499" y="281" type="line"/>
-      <point x="499" y="503" type="line"/>
-      <point x="304" y="553" type="line"/>
-      <point x="304" y="821" type="line"/>
-      <point x="499" y="871" type="line"/>
-      <point x="499" y="1103" type="line"/>
-      <point x="65" y="699" type="line"/>
-      <point x="65" y="677" type="line"/>
+      <point x="499" y="302" type="line"/>
+      <point x="499" y="524" type="line"/>
+      <point x="304" y="574" type="line"/>
+      <point x="304" y="842" type="line"/>
+      <point x="499" y="892" type="line"/>
+      <point x="499" y="1114" type="line"/>
+      <point x="65" y="720" type="line"/>
+      <point x="65" y="698" type="line"/>
     </contour>
     <contour>
-      <point x="255" y="593" type="line"/>
-      <point x="937" y="593" type="line"/>
-      <point x="937" y="781" type="line"/>
-      <point x="255" y="781" type="line"/>
+      <point x="223" y="614" type="line"/>
+      <point x="977" y="614" type="line"/>
+      <point x="977" y="802" type="line"/>
+      <point x="223" y="802" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boxLightArcUpAndLeft" format="2">
+  <advance width="1200"/>
+  <unicode hex="256F"/>
+  <outline>
+    <contour>
+      <point x="-47" y="483" type="line"/>
+      <point x="0" y="483" type="line" smooth="yes"/>
+      <point x="357" y="483"/>
+      <point x="647" y="773"/>
+      <point x="647" y="1130" type="curve" smooth="yes"/>
+      <point x="647" y="2280" type="line"/>
+      <point x="553" y="2280" type="line"/>
+      <point x="553" y="1130" type="line" smooth="yes"/>
+      <point x="553" y="825"/>
+      <point x="305" y="577"/>
+      <point x="0" y="577" type="curve" smooth="yes"/>
+      <point x="-47" y="577" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

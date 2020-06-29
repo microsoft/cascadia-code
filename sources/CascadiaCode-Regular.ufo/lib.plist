@@ -15,7 +15,9 @@
     <key>com.schriftgestaltung.appVersion</key>
     <string>1338</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
+    <array>
+      <string>/dollar_greater.liga/less_dollar.liga/less_dollar_greater.liga</string>
+    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
@@ -58,17 +60,17 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>100</integer>
+    <integer>500</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.weightValue</key>
-    <integer>100</integer>
+    <integer>500</integer>
     <key>com.schriftgestaltung.width</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
@@ -83,6 +85,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Abrevegrave</string>
       <string>Abrevehookabove</string>
       <string>Abrevetilde</string>
+      <string>Acaron</string>
       <string>Acircumflex</string>
       <string>Acircumflexacute</string>
       <string>Acircumflexdotbelow</string>
@@ -128,7 +131,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Ehookabove</string>
       <string>Emacron</string>
       <string>Eogonek</string>
+      <string>Eopen</string>
+      <string>Esh</string>
       <string>Etilde</string>
+      <string>Ezh</string>
       <string>F</string>
       <string>G</string>
       <string>Gbreve</string>
@@ -138,6 +144,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Gdotaccent</string>
       <string>H</string>
       <string>Hbar</string>
+      <string>Hcaron</string>
       <string>Hcircumflex</string>
       <string>I</string>
       <string>IJ</string>
@@ -192,6 +199,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Ohungarumlaut</string>
       <string>Omacron</string>
       <string>Oogonek</string>
+      <string>Oopen</string>
       <string>Oslash</string>
       <string>Oslashacute</string>
       <string>Otilde</string>
@@ -236,6 +244,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Uring</string>
       <string>Utilde</string>
       <string>V</string>
+      <string>Vturned</string>
       <string>W</string>
       <string>Wacute</string>
       <string>Wcircumflex</string>
@@ -261,6 +270,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Oacute.loclPLK</string>
       <string>Sacute.loclPLK</string>
       <string>Zacute.loclPLK</string>
+      <string>Ismall</string>
       <string>a</string>
       <string>aacute</string>
       <string>abreve</string>
@@ -269,6 +279,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>abrevegrave</string>
       <string>abrevehookabove</string>
       <string>abrevetilde</string>
+      <string>acaron</string>
       <string>acircumflex</string>
       <string>acircumflexacute</string>
       <string>acircumflexdotbelow</string>
@@ -314,8 +325,11 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>ehookabove</string>
       <string>emacron</string>
       <string>eogonek</string>
+      <string>eopen</string>
+      <string>esh</string>
       <string>etilde</string>
       <string>schwa</string>
+      <string>ezh</string>
       <string>f</string>
       <string>g</string>
       <string>gbreve</string>
@@ -325,6 +339,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>gdotaccent</string>
       <string>h</string>
       <string>hbar</string>
+      <string>hcaron</string>
       <string>hcircumflex</string>
       <string>i</string>
       <string>idotless</string>
@@ -382,6 +397,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>ohungarumlaut</string>
       <string>omacron</string>
       <string>oogonek</string>
+      <string>oopen</string>
       <string>oslash</string>
       <string>oslashacute</string>
       <string>otilde</string>
@@ -406,6 +422,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>tcaron</string>
       <string>tcedilla</string>
       <string>tcommaaccent</string>
+      <string>tesh</string>
       <string>u</string>
       <string>uacute</string>
       <string>ubreve</string>
@@ -426,6 +443,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uring</string>
       <string>utilde</string>
       <string>v</string>
+      <string>vturned</string>
       <string>w</string>
       <string>wacute</string>
       <string>wcircumflex</string>
@@ -453,9 +471,6 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>sacute.loclPLK</string>
       <string>zacute.loclPLK</string>
       <string>x.multiply</string>
-      <string>numbersign_numbersign_numbersign.liga</string>
-      <string>numbersign_numbersign_numbersign_numbersign.liga</string>
-      <string>numbersign_underscore_parenleft.liga</string>
       <string>w_w_w.liga</string>
       <string>ordfeminine</string>
       <string>ordmasculine</string>
@@ -752,6 +767,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>asterisk</string>
       <string>exclamdouble</string>
       <string>numbersign</string>
+      <string>onedotenleader</string>
       <string>overline</string>
       <string>slash</string>
       <string>backslash</string>
@@ -761,6 +777,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>braceright</string>
       <string>bracketleft</string>
       <string>bracketright</string>
+      <string>heavyleftpointinganglequotationmarkornament</string>
+      <string>heavyrightpointinganglequotationmarkornament</string>
       <string>mediumleftpointinganglebracketornament</string>
       <string>mediumrightpointinganglebracketornament</string>
       <string>hyphen</string>
@@ -768,6 +786,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>endash</string>
       <string>emdash</string>
       <string>horizontalbar</string>
+      <string>hyphentwo</string>
+      <string>nonbreakinghyphen</string>
       <string>underscore</string>
       <string>underscoredbl</string>
       <string>quotesinglbase</string>
@@ -792,6 +812,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>hyphen_less.liga</string>
       <string>hyphen_less_less.liga</string>
       <string>hyphen_asciitilde.liga</string>
+      <string>parenleft_asterisk.liga</string>
       <string>braceleft_bar.liga</string>
       <string>braceright_numbersign.liga</string>
       <string>bracketleft_bar.liga</string>
@@ -809,6 +830,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>colon_equal.liga</string>
       <string>colon_greater.liga</string>
       <string>colon_less.liga</string>
+      <string>colon_slash_slash.liga</string>
       <string>semicolon_semicolon.liga</string>
       <string>exclam_exclam.liga</string>
       <string>exclam_exclam_period.liga</string>
@@ -818,6 +840,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>question_colon.liga</string>
       <string>question_question.liga</string>
       <string>question_equal.liga</string>
+      <string>asterisk_parenright.liga</string>
       <string>asterisk_asterisk.liga</string>
       <string>asterisk_asterisk_asterisk.liga</string>
       <string>asterisk_greater.liga</string>
@@ -829,20 +852,26 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>numbersign_exclam.liga</string>
       <string>numbersign_question.liga</string>
       <string>numbersign_numbersign.liga</string>
+      <string>numbersign_numbersign_numbersign.liga</string>
+      <string>numbersign_numbersign_numbersign_numbersign.liga</string>
       <string>numbersign_equal.liga</string>
       <string>numbersign_underscore.liga</string>
+      <string>numbersign_underscore_parenleft.liga</string>
       <string>slash_asterisk.liga</string>
       <string>slash_equal.liga</string>
       <string>slash_equal_equal.liga</string>
       <string>slash_greater.liga</string>
       <string>slash_slash.liga</string>
       <string>slash_slash_slash.liga</string>
+      <string>backslash_backslash.liga</string>
       <string>underscore_bar_underscore.liga</string>
       <string>underscore_underscore.liga</string>
       <string>anoteleia</string>
       <string>questiongreek</string>
+      <string>punctuationspace</string>
       <string>space</string>
       <string>nbspace</string>
+      <string>CR</string>
       <string>lineseparator</string>
       <string>.notdef</string>
       <string>baht</string>
@@ -882,6 +911,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>integralbt</string>
       <string>integraltp</string>
       <string>logicalnotReversed</string>
+      <string>notidentical</string>
       <string>plus</string>
       <string>minus</string>
       <string>multiply</string>
@@ -910,6 +940,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>orthogonal</string>
       <string>percent</string>
       <string>perthousand</string>
+      <string>strictlyequivalentto</string>
+      <string>vectorOrCrossProduct</string>
       <string>upArrow</string>
       <string>rightArrow</string>
       <string>downArrow</string>
@@ -917,6 +949,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>leftRightArrow</string>
       <string>upDownArrow</string>
       <string>upDownbaseArrow</string>
+      <string>upDashArrow</string>
+      <string>dashdownArrow</string>
       <string>lowerOneEighthBlock</string>
       <string>lowerOneQuarterBlock</string>
       <string>lowerThreeEighthsBlock</string>
@@ -1178,7 +1212,42 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>boxVerticalSingleAndHorizontalDouble</string>
       <string>boxVerticalSingleAndLeftDouble</string>
       <string>boxVerticalSingleAndRightDouble</string>
+      <string>lowerOneEighthBlock.stypo</string>
+      <string>lowerOneQuarterBlock.stypo</string>
+      <string>lowerThreeEighthsBlock.stypo</string>
+      <string>lowerHalfBlock.stypo</string>
+      <string>lowerFiveEighthsBlock.stypo</string>
+      <string>lowerThreeQuartersBlock.stypo</string>
+      <string>lowerSevenEighthsBlock.stypo</string>
+      <string>fullBlock.stypo</string>
+      <string>upperHalfBlock.stypo</string>
+      <string>upperOneEighthBlock.stypo</string>
+      <string>leftOneEighthBlock.stypo</string>
+      <string>leftOneQuarterBlock.stypo</string>
+      <string>leftThreeEighthsBlock.stypo</string>
+      <string>leftBlock.stypo</string>
+      <string>leftFiveEighthsBlock.stypo</string>
+      <string>leftThreeQuartersBlock.stypo</string>
+      <string>leftSevenEighthsBlock.stypo</string>
+      <string>rightBlock.stypo</string>
+      <string>rightOneEighthBlock.stypo</string>
+      <string>lowerLeftBlock.stypo</string>
+      <string>lowerRightBlock.stypo</string>
+      <string>upperLeftBlock.stypo</string>
+      <string>upperLeftAndLowerLeftAndLowerRightBlock.stypo</string>
+      <string>upperLeftAndLowerRightBlock.stypo</string>
+      <string>upperLeftAndUpperRightAndLowerLeftBlock.stypo</string>
+      <string>upperLeftAndUpperRightAndLowerRightBlock.stypo</string>
+      <string>upperRightBlock.stypo</string>
+      <string>upperRightAndLowerLeftBlock.stypo</string>
+      <string>upperRightAndLowerLeftAndLowerRightBlock.stypo</string>
+      <string>shadelight.stypo</string>
+      <string>shademedium.stypo</string>
+      <string>shadedark.stypo</string>
       <string>reversedRotatedFloralHeartBullet</string>
+      <string>whiteSmilingFace</string>
+      <string>blackSmilingFace</string>
+      <string>sunWithRays</string>
       <string>venus</string>
       <string>mars</string>
       <string>spadeBlackSuit</string>
@@ -1305,9 +1374,11 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>asciitilde_equal.liga</string>
       <string>asciitilde_greater.liga</string>
       <string>asciitilde_asciitilde.liga</string>
+      <string>asciitilde_asciitilde_greater.liga</string>
       <string>asciicircum_equal.liga</string>
       <string>percent_percent.liga</string>
       <string>note-musical</string>
+      <string>notedbl-musical</string>
       <string>blank-braille</string>
       <string>dots1-braille</string>
       <string>dots12-braille</string>
@@ -1587,6 +1658,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>commaaccentcomb</string>
       <string>cedillacomb</string>
       <string>ogonekcomb</string>
+      <string>gravetonecomb</string>
+      <string>acutetonecomb</string>
       <string>dieresis</string>
       <string>dotaccent</string>
       <string>grave</string>
@@ -1613,87 +1686,21 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>macroncomb.case</string>
       <string>hookabovecomb.case</string>
       <string>horncomb.case</string>
-      <string>asciitilde_asciitilde_greater.liga</string>
       <string>acutecomb.loclPLK</string>
       <string>acutecomb.case.loclPLK</string>
+      <string>perispomenicomb</string>
       <string>tonos</string>
       <string>tonos.case</string>
       <string>dieresistonos</string>
       <string>brevecomb-cy</string>
       <string>brevecomb-cy.case</string>
-      <string>LIG</string>
       <string>uni0009</string>
-      <string>heavyleftpointinganglequotationmarkornament</string>
-      <string>heavyrightpointinganglequotationmarkornament</string>
-      <string>hyphentwo</string>
-      <string>CR</string>
-      <string>notidentical</string>
-      <string>strictlyequivalentto</string>
-      <string>vectorOrCrossProduct</string>
-      <string>whiteSmilingFace</string>
-      <string>blackSmilingFace</string>
-      <string>sunWithRays</string>
-      <string>notedbl-musical</string>
-      <string>Acaron</string>
-      <string>Eopen</string>
-      <string>Esh</string>
-      <string>Ezh</string>
-      <string>Hcaron</string>
-      <string>Oopen</string>
-      <string>Vturned</string>
-      <string>Ismall</string>
-      <string>acaron</string>
-      <string>eopen</string>
-      <string>esh</string>
-      <string>ezh</string>
-      <string>hcaron</string>
-      <string>oopen</string>
-      <string>tesh</string>
-      <string>vturned</string>
-      <string>onedotenleader</string>
-      <string>nonbreakinghyphen</string>
-      <string>parenleft_asterisk.liga</string>
-      <string>colon_slash_slash.liga</string>
-      <string>asterisk_parenright.liga</string>
-      <string>backslash_backslash.liga</string>
-      <string>punctuationspace</string>
-      <string>upDashArrow</string>
-      <string>dashdownArrow</string>
-      <string>gravetonecomb</string>
-      <string>acutetonecomb</string>
-      <string>perispomenicomb</string>
-      <string>lowerOneEighthBlock.stypo</string>
-      <string>lowerOneQuarterBlock.stypo</string>
-      <string>lowerThreeEighthsBlock.stypo</string>
-      <string>lowerHalfBlock.stypo</string>
-      <string>lowerFiveEighthsBlock.stypo</string>
-      <string>lowerThreeQuartersBlock.stypo</string>
-      <string>lowerSevenEighthsBlock.stypo</string>
-      <string>fullBlock.stypo</string>
-      <string>upperHalfBlock.stypo</string>
-      <string>upperOneEighthBlock.stypo</string>
-      <string>leftOneEighthBlock.stypo</string>
-      <string>leftOneQuarterBlock.stypo</string>
-      <string>leftThreeEighthsBlock.stypo</string>
-      <string>leftBlock.stypo</string>
-      <string>leftFiveEighthsBlock.stypo</string>
-      <string>leftThreeQuartersBlock.stypo</string>
-      <string>leftSevenEighthsBlock.stypo</string>
-      <string>rightBlock.stypo</string>
-      <string>rightOneEighthBlock.stypo</string>
-      <string>lowerLeftBlock.stypo</string>
-      <string>lowerRightBlock.stypo</string>
-      <string>upperLeftBlock.stypo</string>
-      <string>upperLeftAndLowerLeftAndLowerRightBlock.stypo</string>
-      <string>upperLeftAndLowerRightBlock.stypo</string>
-      <string>upperLeftAndUpperRightAndLowerLeftBlock.stypo</string>
-      <string>upperLeftAndUpperRightAndLowerRightBlock.stypo</string>
-      <string>upperRightBlock.stypo</string>
-      <string>upperRightAndLowerLeftBlock.stypo</string>
-      <string>upperRightAndLowerLeftAndLowerRightBlock.stypo</string>
-      <string>shadelight.stypo</string>
-      <string>shademedium.stypo</string>
-      <string>shadedark.stypo</string>
+      <string>LIG</string>
+      <string>baht.BRACKET.600</string>
+      <string>dollar.BRACKET.600</string>
+      <string>dollar_greater.liga.BRACKET.600</string>
+      <string>less_dollar.liga.BRACKET.600</string>
+      <string>less_dollar_greater.liga.BRACKET.600</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
@@ -2000,6 +2007,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <key>apostrophemod</key>
       <string>uni02BC</string>
       <key>baht</key>
+      <string>uni0E3F</string>
+      <key>baht.BRACKET.600</key>
       <string>uni0E3F</string>
       <key>be-cy</key>
       <string>uni0431</string>

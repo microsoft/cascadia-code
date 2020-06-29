@@ -13,7 +13,7 @@ cu2qu==1.6.6              # via fontmake, ufo2ft
 defcon[lxml]==0.6.0       # via fontmake, glyphslib, mutatormath, ufo2ft
 fontmake==2.0.3
 fontmath==0.5.0           # via fontmake, mutatormath
-fonttools[lxml,ufo,unicode]==4.0.1  # via booleanoperations, compreffor, cu2qu, defcon, fontmake, fontmath, glyphslib, mutatormath, ufo2ft, ufolib2
+fonttools[lxml,ufo,unicode]==4.12.1  # via booleanoperations, compreffor, cu2qu, defcon, fontmake, fontmath, glyphslib, mutatormath, ufo2ft, ufolib2
 fs==2.4.11                # via fonttools
 glyphslib==5.0.1          # via fontmake
 lxml==4.4.1               # via fonttools
@@ -23,6 +23,7 @@ pyclipper==1.1.0.post1    # via booleanoperations
 pyparsing==2.4.2
 pytz==2019.2              # via fs
 six==1.12.0               # via fs
+statmake==0.3.0
 ufo2ft==2.9.1             # via fontmake
 ufolib2==0.4.0            # via fontmake
 unicodedata2==12.0.0      # via fonttools

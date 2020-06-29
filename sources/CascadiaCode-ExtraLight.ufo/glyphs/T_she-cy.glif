@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tshe-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="040B"/>
+  <outline>
+    <contour>
+      <point x="948" y="0" type="line"/>
+      <point x="1038" y="0" type="line"/>
+      <point x="1038" y="390" type="line" smooth="yes"/>
+      <point x="1038" y="695"/>
+      <point x="922" y="825"/>
+      <point x="650" y="825" type="curve" smooth="yes"/>
+      <point x="367" y="825" type="line"/>
+      <point x="367" y="737" type="line"/>
+      <point x="650" y="737" type="line" smooth="yes"/>
+      <point x="859" y="737"/>
+      <point x="948" y="633"/>
+      <point x="948" y="390" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="295" y="0" type="line"/>
+      <point x="385" y="0" type="line"/>
+      <point x="385" y="1420" type="line"/>
+      <point x="295" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="44" y="1332" type="line"/>
+      <point x="816" y="1332" type="line"/>
+      <point x="816" y="1420" type="line"/>
+      <point x="44" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asciitilde_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-700" y="646" type="line"/>
+      <point x="-422" y="646" type="line"/>
+      <point x="-422" y="716" type="line" smooth="yes"/>
+      <point x="-422" y="799"/>
+      <point x="-391" y="835"/>
+      <point x="-317" y="835" type="curve" smooth="yes"/>
+      <point x="-188" y="835"/>
+      <point x="158" y="680"/>
+      <point x="410" y="680" type="curve" smooth="yes"/>
+      <point x="627" y="680"/>
+      <point x="720" y="790"/>
+      <point x="720" y="1050" type="curve" smooth="yes"/>
+      <point x="720" y="1170" type="line"/>
+      <point x="444" y="1170" type="line"/>
+      <point x="444" y="1100" type="line" smooth="yes"/>
+      <point x="444" y="1017"/>
+      <point x="413" y="981"/>
+      <point x="339" y="981" type="curve" smooth="yes"/>
+      <point x="78" y="981"/>
+      <point x="-56" y="1136"/>
+      <point x="-360" y="1136" type="curve" smooth="yes"/>
+      <point x="-598" y="1136"/>
+      <point x="-700" y="1026"/>
+      <point x="-700" y="766" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-700" y="332" type="line"/>
+      <point x="700" y="332" type="line"/>
+      <point x="700" y="586" type="line"/>
+      <point x="-700" y="586" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

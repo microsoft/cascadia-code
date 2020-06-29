@@ -12,9 +12,18 @@ uni25C5
       <point x="60" y="710" type="line"/>
     </contour>
     <contour>
-      <point x="930" y="562" type="line"/>
-      <point x="431" y="710" type="line"/>
-      <point x="930" y="858" type="line"/>
+      <point x="930" y="461" type="line"/>
+      <point x="1008" y="529" type="line"/>
+      <point x="306" y="758" type="line"/>
+      <point x="306" y="662" type="line"/>
+      <point x="1008" y="891" type="line"/>
+      <point x="930" y="959" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="ge-cy" format="2">
   <advance width="1200"/>
   <unicode hex="0433"/>
-  <anchor x="640" y="1060" name="top"/>
+  <anchor x="690" y="1060" name="top"/>
   <outline>
     <contour>
       <point x="316" y="0" type="line"/>
@@ -17,4 +17,10 @@
       <point x="378" y="1060" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

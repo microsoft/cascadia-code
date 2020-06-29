@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boxLightDiagonalCross" format="2">
+  <advance width="1200"/>
+  <unicode hex="2573"/>
+  <outline>
+    <contour>
+      <point x="0" y="-440" type="line"/>
+      <point x="166" y="-440" type="line"/>
+      <point x="600" y="262" type="line"/>
+      <point x="1034" y="-440" type="line"/>
+      <point x="1200" y="-440" type="line"/>
+      <point x="1200" y="-172" type="line"/>
+      <point x="766" y="530" type="line"/>
+      <point x="1200" y="1232" type="line"/>
+      <point x="1200" y="1500" type="line"/>
+      <point x="1034" y="1500" type="line"/>
+      <point x="600" y="798" type="line"/>
+      <point x="166" y="1500" type="line"/>
+      <point x="0" y="1500" type="line"/>
+      <point x="0" y="1232" type="line"/>
+      <point x="434" y="530" type="line"/>
+      <point x="0" y="-172" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

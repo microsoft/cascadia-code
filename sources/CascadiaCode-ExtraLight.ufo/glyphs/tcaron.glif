@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcaron" format="2">
+  <advance width="1200"/>
+  <unicode hex="0165"/>
+  <anchor x="655" y="0" name="bottom"/>
+  <anchor x="432" y="570" name="center"/>
+  <anchor x="600" y="1380" name="top"/>
+  <anchor x="1070" y="1060" name="topright"/>
+  <outline>
+    <contour>
+      <point x="722" y="1188" type="line"/>
+      <point x="814" y="1188" type="line"/>
+      <point x="884" y="1568" type="line"/>
+      <point x="792" y="1568" type="line"/>
+    </contour>
+    <component base="t"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

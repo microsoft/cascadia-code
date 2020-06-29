@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dots5-braille" format="2">
+  <advance width="1200"/>
+  <unicode hex="2810"/>
+  <outline>
+    <contour>
+      <point x="850" y="673" type="curve" smooth="yes"/>
+      <point x="949" y="673"/>
+      <point x="1030" y="754"/>
+      <point x="1030" y="853" type="curve" smooth="yes"/>
+      <point x="1030" y="953"/>
+      <point x="949" y="1033"/>
+      <point x="850" y="1033" type="curve" smooth="yes"/>
+      <point x="751" y="1033"/>
+      <point x="670" y="953"/>
+      <point x="670" y="853" type="curve" smooth="yes"/>
+      <point x="670" y="754"/>
+      <point x="751" y="673"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
