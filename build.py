@@ -150,7 +150,7 @@ if __name__ == "__main__":
     parser.add_argument("-N", "--no-nerdfonts", default=False, action="store_true")
     parser.add_argument("-P", "--no-powerline", default=False, action="store_true")
     parser.add_argument("-M", "--no-mono", default=False, action="store_true")
-    parser.add_argument("-V", "--only_variable", default=False, action="store_true")
+    parser.add_argument("-S", "--static-fonts", default=False, action="store_true")
     args = parser.parse_args()
 
     # 1. Load Designspace and filter out instances that are marked as non-exportable.
@@ -182,7 +182,7 @@ if __name__ == "__main__":
             INPUT_DIR / "nerdfonts" / "NerdfontsNF.ufo"
         )
 
-    if not args.only_variable:
+    if args.static_fonts == True:
         for instance_descriptor in designspace.instances:
 
             build_font_instance(
@@ -234,7 +234,7 @@ if __name__ == "__main__":
                         step_merge_nf,
                     )
 
-    print ("*** *** *** Building Variable Font *** *** ***")
+    print ("*** *** *** Building Variable Fonts *** *** ***")
 
     build_variable_fonts(
         designspace, 
@@ -279,8 +279,8 @@ if __name__ == "__main__":
                 step_merge_nf,
             )
 
+    if args.static_fonts == True:
         print("Autohinting OTFs")
-    if not args.only_variable:
         for file in Path("build").glob("*.otf"):
             subprocess.run(['psautohint --log "build/log.txt" '+str(file)], shell=True)
 
