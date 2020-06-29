@@ -13,7 +13,7 @@
     <key>GSOffsetVertical</key>
     <integer>110</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1324</string>
+    <string>1338</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -1662,6 +1662,38 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>gravetonecomb</string>
       <string>acutetonecomb</string>
       <string>perispomenicomb</string>
+      <string>lowerOneEighthBlock.stypo</string>
+      <string>lowerOneQuarterBlock.stypo</string>
+      <string>lowerThreeEighthsBlock.stypo</string>
+      <string>lowerHalfBlock.stypo</string>
+      <string>lowerFiveEighthsBlock.stypo</string>
+      <string>lowerThreeQuartersBlock.stypo</string>
+      <string>lowerSevenEighthsBlock.stypo</string>
+      <string>fullBlock.stypo</string>
+      <string>upperHalfBlock.stypo</string>
+      <string>upperOneEighthBlock.stypo</string>
+      <string>leftOneEighthBlock.stypo</string>
+      <string>leftOneQuarterBlock.stypo</string>
+      <string>leftThreeEighthsBlock.stypo</string>
+      <string>leftBlock.stypo</string>
+      <string>leftFiveEighthsBlock.stypo</string>
+      <string>leftThreeQuartersBlock.stypo</string>
+      <string>leftSevenEighthsBlock.stypo</string>
+      <string>rightBlock.stypo</string>
+      <string>rightOneEighthBlock.stypo</string>
+      <string>lowerLeftBlock.stypo</string>
+      <string>lowerRightBlock.stypo</string>
+      <string>upperLeftBlock.stypo</string>
+      <string>upperLeftAndLowerLeftAndLowerRightBlock.stypo</string>
+      <string>upperLeftAndLowerRightBlock.stypo</string>
+      <string>upperLeftAndUpperRightAndLowerLeftBlock.stypo</string>
+      <string>upperLeftAndUpperRightAndLowerRightBlock.stypo</string>
+      <string>upperRightBlock.stypo</string>
+      <string>upperRightAndLowerLeftBlock.stypo</string>
+      <string>upperRightAndLowerLeftAndLowerRightBlock.stypo</string>
+      <string>shadelight.stypo</string>
+      <string>shademedium.stypo</string>
+      <string>shadedark.stypo</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
@@ -2943,6 +2975,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni2074</string>
       <key>fullBlock</key>
       <string>block</string>
+      <key>fullBlock.stypo</key>
+      <string>block.stypo</string>
       <key>gcommaaccent</key>
       <string>uni0123</string>
       <key>ge-cy</key>
@@ -3073,8 +3107,12 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25C0</string>
       <key>leftBlock</key>
       <string>lfblock</string>
+      <key>leftBlock.stypo</key>
+      <string>lfblock.stypo</string>
       <key>leftFiveEighthsBlock</key>
       <string>uni258B</string>
+      <key>leftFiveEighthsBlock.stypo</key>
+      <string>uni258B.stypo</string>
       <key>leftHalfBlackCircle</key>
       <string>uni25D6</string>
       <key>leftHalfBlackDiamond</key>
@@ -3085,16 +3123,26 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25D0</string>
       <key>leftOneEighthBlock</key>
       <string>uni258F</string>
+      <key>leftOneEighthBlock.stypo</key>
+      <string>uni258F.stypo</string>
       <key>leftOneQuarterBlock</key>
       <string>uni258E</string>
+      <key>leftOneQuarterBlock.stypo</key>
+      <string>uni258E.stypo</string>
       <key>leftRightArrow</key>
       <string>arrowboth</string>
       <key>leftSevenEighthsBlock</key>
       <string>uni2589</string>
+      <key>leftSevenEighthsBlock.stypo</key>
+      <string>uni2589.stypo</string>
       <key>leftThreeEighthsBlock</key>
       <string>uni258D</string>
+      <key>leftThreeEighthsBlock.stypo</key>
+      <string>uni258D.stypo</string>
       <key>leftThreeQuartersBlock</key>
       <string>uni258A</string>
+      <key>leftThreeQuartersBlock.stypo</key>
+      <string>uni258A.stypo</string>
       <key>leftWhitePointer</key>
       <string>uni25C5</string>
       <key>leftWhiteSmallTriangle</key>
@@ -3113,12 +3161,16 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>revlogicalnot</string>
       <key>lowerFiveEighthsBlock</key>
       <string>uni2585</string>
+      <key>lowerFiveEighthsBlock.stypo</key>
+      <string>uni2585.stypo</string>
       <key>lowerHalfArc</key>
       <string>uni25E1</string>
       <key>lowerHalfBlackWhiteCircle</key>
       <string>uni25D2</string>
       <key>lowerHalfBlock</key>
       <string>dnblock</string>
+      <key>lowerHalfBlock.stypo</key>
+      <string>dnblock.stypo</string>
       <key>lowerHalfInverseWhiteCircle</key>
       <string>uni25DB</string>
       <key>lowerHalfWhiteSquare</key>
@@ -3129,6 +3181,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25E3</string>
       <key>lowerLeftBlock</key>
       <string>uni2596</string>
+      <key>lowerLeftBlock.stypo</key>
+      <string>uni2596.stypo</string>
       <key>lowerLeftHalfWhiteSquare</key>
       <string>uni2B14</string>
       <key>lowerLeftQuadrantWhiteCircle</key>
@@ -3137,14 +3191,20 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25FA</string>
       <key>lowerOneEighthBlock</key>
       <string>uni2581</string>
+      <key>lowerOneEighthBlock.stypo</key>
+      <string>uni2581.stypo</string>
       <key>lowerOneQuarterBlock</key>
       <string>uni2582</string>
+      <key>lowerOneQuarterBlock.stypo</key>
+      <string>uni2582.stypo</string>
       <key>lowerRightArc</key>
       <string>uni25DE</string>
       <key>lowerRightBlackTriangle</key>
       <string>uni25E2</string>
       <key>lowerRightBlock</key>
       <string>uni2597</string>
+      <key>lowerRightBlock.stypo</key>
+      <string>uni2597.stypo</string>
       <key>lowerRightDiagonalHalfBlackSquare</key>
       <string>uni25EA</string>
       <key>lowerRightQuadrantWhiteCircle</key>
@@ -3153,10 +3213,16 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25FF</string>
       <key>lowerSevenEighthsBlock</key>
       <string>uni2587</string>
+      <key>lowerSevenEighthsBlock.stypo</key>
+      <string>uni2587.stypo</string>
       <key>lowerThreeEighthsBlock</key>
       <string>uni2583</string>
+      <key>lowerThreeEighthsBlock.stypo</key>
+      <string>uni2583.stypo</string>
       <key>lowerThreeQuartersBlock</key>
       <string>uni2586</string>
+      <key>lowerThreeQuartersBlock.stypo</key>
+      <string>uni2586.stypo</string>
       <key>lowernumeral-greek</key>
       <string>uni0375</string>
       <key>macroncomb</key>
@@ -3285,6 +3351,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25B6</string>
       <key>rightBlock</key>
       <string>rtblock</string>
+      <key>rightBlock.stypo</key>
+      <string>rtblock.stypo</string>
       <key>rightHalfBlackCircle</key>
       <string>uni25D7</string>
       <key>rightHalfBlackDiamond</key>
@@ -3295,6 +3363,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25D1</string>
       <key>rightOneEighthBlock</key>
       <string>uni2595</string>
+      <key>rightOneEighthBlock.stypo</key>
+      <string>uni2595.stypo</string>
       <key>rightWhitePointer</key>
       <string>uni25BB</string>
       <key>rightWhiteSmallTriangle</key>
@@ -3329,10 +3399,16 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0448.loclBGR</string>
       <key>shadedark</key>
       <string>dkshade</string>
+      <key>shadedark.stypo</key>
+      <string>dkshade.stypo</string>
       <key>shadelight</key>
       <string>ltshade</string>
+      <key>shadelight.stypo</key>
+      <string>ltshade.stypo</string>
       <key>shademedium</key>
       <string>shade</string>
+      <key>shademedium.stypo</key>
+      <string>shade.stypo</string>
       <key>shcha-cy</key>
       <string>uni0449</string>
       <key>shcha-cy.loclBGR</key>
@@ -3441,22 +3517,34 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25D3</string>
       <key>upperHalfBlock</key>
       <string>upblock</string>
+      <key>upperHalfBlock.stypo</key>
+      <string>upblock.stypo</string>
       <key>upperHalfInverseWhiteCircle</key>
       <string>uni25DA</string>
       <key>upperLeftAndLowerLeftAndLowerRightBlock</key>
       <string>uni2599</string>
+      <key>upperLeftAndLowerLeftAndLowerRightBlock.stypo</key>
+      <string>uni2599.stypo</string>
       <key>upperLeftAndLowerRightBlock</key>
       <string>uni259A</string>
+      <key>upperLeftAndLowerRightBlock.stypo</key>
+      <string>uni259A.stypo</string>
       <key>upperLeftAndUpperRightAndLowerLeftBlock</key>
       <string>uni259B</string>
+      <key>upperLeftAndUpperRightAndLowerLeftBlock.stypo</key>
+      <string>uni259B.stypo</string>
       <key>upperLeftAndUpperRightAndLowerRightBlock</key>
       <string>uni259C</string>
+      <key>upperLeftAndUpperRightAndLowerRightBlock.stypo</key>
+      <string>uni259C.stypo</string>
       <key>upperLeftArc</key>
       <string>uni25DC</string>
       <key>upperLeftBlackTriangle</key>
       <string>uni25E4</string>
       <key>upperLeftBlock</key>
       <string>uni2598</string>
+      <key>upperLeftBlock.stypo</key>
+      <string>uni2598.stypo</string>
       <key>upperLeftDiagonalHalfBlackSquare</key>
       <string>uni25E9</string>
       <key>upperLeftQuadrantWhiteCircle</key>
@@ -3467,10 +3555,16 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25D5</string>
       <key>upperOneEighthBlock</key>
       <string>uni2594</string>
+      <key>upperOneEighthBlock.stypo</key>
+      <string>uni2594.stypo</string>
       <key>upperRightAndLowerLeftAndLowerRightBlock</key>
       <string>uni259F</string>
+      <key>upperRightAndLowerLeftAndLowerRightBlock.stypo</key>
+      <string>uni259F.stypo</string>
       <key>upperRightAndLowerLeftBlock</key>
       <string>uni259E</string>
+      <key>upperRightAndLowerLeftBlock.stypo</key>
+      <string>uni259E.stypo</string>
       <key>upperRightArc</key>
       <string>uni25DD</string>
       <key>upperRightBlackCircle</key>
@@ -3479,6 +3573,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25E5</string>
       <key>upperRightBlock</key>
       <string>uni259D</string>
+      <key>upperRightBlock.stypo</key>
+      <string>uni259D.stypo</string>
       <key>upperRightQuadrantWhiteCircle</key>
       <string>uni25F7</string>
       <key>upperRightTriangle</key>

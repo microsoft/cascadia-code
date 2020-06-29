@@ -52,6 +52,9 @@ def build_font_instance(generator, instance_descriptor, *steps):
         for step in steps:
             step(instance)
 
+        instance.info.versionMajor = 2005
+        instance.info.versionMinor = 20
+
         instance.info.openTypeOS2Panose = [2, 11, 6, 9, 2, 0, 0, 2, 0, 4]
 
         instance.info.openTypeOS2TypoAscender = 1900
@@ -124,9 +127,6 @@ if __name__ == "__main__":
 
     OUTPUT_DIR.mkdir(exist_ok=True)
 
-    step_remove_ligatures = step_set_feature_file(
-        INPUT_DIR / "features" / "features.fea"
-    )
     step_merge_pl = step_merge_glyphs_from_ufo(
         INPUT_DIR / "nerdfonts" / "NerdfontsPL.ufo"
     )
@@ -143,14 +143,18 @@ if __name__ == "__main__":
 
     for instance_descriptor in designspace.instances:
 
-        build_font_instance(generator, instance_descriptor)
+        build_font_instance(
+            generator, 
+            instance_descriptor,
+            step_set_feature_file(INPUT_DIR / "features" / "features_code.fea"),
+        )
 
         if not args.no_mono:
             build_font_instance(
                 generator,
                 instance_descriptor,
                 step_set_font_name("Cascadia Mono"),
-                step_remove_ligatures,
+                step_set_feature_file(INPUT_DIR / "features" / "features_mono.fea"),
             )
 
         if not args.no_powerline:
@@ -158,6 +162,7 @@ if __name__ == "__main__":
                 generator,
                 instance_descriptor,
                 step_set_font_name("Cascadia Code PL"),
+                step_set_feature_file(INPUT_DIR / "features" / "features_code_pl.fea"),
                 step_merge_pl,
             )
 
@@ -166,7 +171,7 @@ if __name__ == "__main__":
                     generator,
                     instance_descriptor,
                     step_set_font_name("Cascadia Mono PL"),
-                    step_remove_ligatures,
+                    step_set_feature_file(INPUT_DIR / "features" / "features_mono_pl.fea"),
                     step_merge_pl,
                 )
 

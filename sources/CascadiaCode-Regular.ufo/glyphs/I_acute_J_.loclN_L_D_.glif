@@ -3,7 +3,17 @@
   <advance width="1200"/>
   <outline>
     <component base="IJ"/>
-    <component base="acutecomb.case" xOffset="-300"/>
-    <component base="acutecomb.case" xOffset="-300" yOffset="347"/>
+    <component base="acutecomb.case" xOffset="-280"/>
+    <component base="acutecomb.case" xOffset="360"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
 </glyph>
