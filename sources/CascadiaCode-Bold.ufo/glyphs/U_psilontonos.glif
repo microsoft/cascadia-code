@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilontonos" format="2">
+  <advance width="1200"/>
+  <unicode hex="038E"/>
+  <outline>
+    <contour>
+      <point x="630" y="414" type="line"/>
+      <point x="876" y="414" type="line"/>
+      <point x="1195" y="1420" type="line"/>
+      <point x="885" y="1420" type="line"/>
+      <point x="762" y="870" type="line"/>
+      <point x="744" y="870" type="line"/>
+      <point x="625" y="1420" type="line"/>
+      <point x="315" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="615" y="0" type="line"/>
+      <point x="891" y="0" type="line"/>
+      <point x="891" y="700" type="line"/>
+      <point x="615" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="-21" y="1040" type="line"/>
+      <point x="231" y="1040" type="line"/>
+      <point x="301" y="1420" type="line"/>
+      <point x="19" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

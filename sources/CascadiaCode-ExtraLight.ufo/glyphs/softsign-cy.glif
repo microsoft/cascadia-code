@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="softsign-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="044C"/>
+  <outline>
+    <contour>
+      <point x="292" y="0" type="line"/>
+      <point x="744" y="0" type="line" smooth="yes"/>
+      <point x="958" y="0"/>
+      <point x="1080" y="121"/>
+      <point x="1080" y="333" type="curve" smooth="yes"/>
+      <point x="1080" y="545"/>
+      <point x="958" y="666"/>
+      <point x="744" y="666" type="curve" smooth="yes"/>
+      <point x="272" y="666" type="line"/>
+      <point x="272" y="576" type="line"/>
+      <point x="726" y="576" type="line" smooth="yes"/>
+      <point x="890" y="576"/>
+      <point x="984" y="487"/>
+      <point x="984" y="333" type="curve" smooth="yes"/>
+      <point x="984" y="179"/>
+      <point x="890" y="90"/>
+      <point x="726" y="90" type="curve" smooth="yes"/>
+      <point x="292" y="90" type="line"/>
+    </contour>
+    <contour>
+      <point x="212" y="0" type="line"/>
+      <point x="306" y="0" type="line"/>
+      <point x="306" y="1060" type="line"/>
+      <point x="212" y="1060" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

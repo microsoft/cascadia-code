@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tugrik" format="2">
+  <advance width="1200"/>
+  <unicode hex="20AE"/>
+  <anchor x="595" y="0" name="bottom"/>
+  <anchor x="600" y="710" name="center"/>
+  <anchor x="600" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="141" y="621" type="line"/>
+      <point x="1059" y="771" type="line"/>
+      <point x="1059" y="1019" type="line"/>
+      <point x="141" y="869" type="line"/>
+    </contour>
+    <contour>
+      <point x="141" y="261" type="line"/>
+      <point x="1059" y="411" type="line"/>
+      <point x="1059" y="659" type="line"/>
+      <point x="141" y="509" type="line"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

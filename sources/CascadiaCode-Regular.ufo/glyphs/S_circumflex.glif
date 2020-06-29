@@ -6,6 +6,12 @@
   <anchor x="600" y="1748" name="top"/>
   <outline>
     <component base="S"/>
-    <component base="circumflexcomb.case"/>
+    <component base="circumflexcomb.case" xOffset="20"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

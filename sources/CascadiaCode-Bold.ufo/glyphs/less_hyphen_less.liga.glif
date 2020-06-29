@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_hyphen_less.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="920" y="112" type="line"/>
+      <point x="920" y="422" type="line"/>
+      <point x="370" y="700" type="line"/>
+      <point x="370" y="718" type="line"/>
+      <point x="920" y="994" type="line"/>
+      <point x="920" y="1304" type="line"/>
+      <point x="-34" y="770" type="line"/>
+      <point x="-34" y="648" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1206" y="112" type="line"/>
+      <point x="-1206" y="452" type="line"/>
+      <point x="-1427" y="497"/>
+      <point x="-1489" y="515"/>
+      <point x="-1618" y="538" type="curve"/>
+      <point x="-1618" y="880" type="line"/>
+      <point x="-1486" y="903"/>
+      <point x="-1418" y="920"/>
+      <point x="-1206" y="964" type="curve"/>
+      <point x="-1206" y="1304" type="line"/>
+      <point x="-2160" y="770" type="line"/>
+      <point x="-2160" y="648" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1842" y="582" type="line"/>
+      <point x="220" y="582" type="line"/>
+      <point x="220" y="836" type="line"/>
+      <point x="-1842" y="836" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

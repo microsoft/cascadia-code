@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hardsign-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="042A"/>
+  <outline>
+    <contour>
+      <point x="492" y="0" type="line"/>
+      <point x="704" y="0" type="line" smooth="yes"/>
+      <point x="975" y="0"/>
+      <point x="1154" y="188"/>
+      <point x="1154" y="474" type="curve" smooth="yes"/>
+      <point x="1154" y="760"/>
+      <point x="975" y="948"/>
+      <point x="704" y="948" type="curve" smooth="yes"/>
+      <point x="472" y="948" type="line"/>
+      <point x="472" y="694" type="line"/>
+      <point x="646" y="694" type="line" smooth="yes"/>
+      <point x="785" y="694"/>
+      <point x="864" y="614"/>
+      <point x="864" y="474" type="curve" smooth="yes"/>
+      <point x="864" y="334"/>
+      <point x="785" y="254"/>
+      <point x="646" y="254" type="curve" smooth="yes"/>
+      <point x="492" y="254" type="line"/>
+    </contour>
+    <contour>
+      <point x="230" y="0" type="line"/>
+      <point x="506" y="0" type="line"/>
+      <point x="506" y="1420" type="line"/>
+      <point x="230" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="1166" type="line"/>
+      <point x="324" y="1166" type="line"/>
+      <point x="324" y="1420" type="line"/>
+      <point x="0" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

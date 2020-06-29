@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotatonos" format="2">
+  <advance width="1200"/>
+  <unicode hex="038A"/>
+  <outline>
+    <contour>
+      <point x="653" y="0" type="line"/>
+      <point x="743" y="0" type="line"/>
+      <point x="743" y="1420" type="line"/>
+      <point x="653" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="368" y="0" type="line"/>
+      <point x="1008" y="0" type="line"/>
+      <point x="1008" y="88" type="line"/>
+      <point x="368" y="88" type="line"/>
+    </contour>
+    <contour>
+      <point x="23" y="1040" type="line"/>
+      <point x="95" y="1040" type="line"/>
+      <point x="215" y="1420" type="line"/>
+      <point x="113" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="368" y="1332" type="line"/>
+      <point x="1008" y="1332" type="line"/>
+      <point x="1008" y="1420" type="line"/>
+      <point x="368" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

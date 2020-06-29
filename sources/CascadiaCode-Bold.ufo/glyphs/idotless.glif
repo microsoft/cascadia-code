@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless" format="2">
+  <advance width="1200"/>
+  <unicode hex="0131"/>
+  <anchor x="670" y="0" name="bottom"/>
+  <anchor x="731" y="10" name="ogonek"/>
+  <anchor x="650" y="1060" name="top"/>
+  <outline>
+    <contour>
+      <point x="529" y="0" type="line"/>
+      <point x="811" y="0" type="line"/>
+      <point x="811" y="1060" type="line"/>
+      <point x="529" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="140" y="0" type="line"/>
+      <point x="549" y="0" type="line"/>
+      <point x="549" y="264" type="line"/>
+      <point x="140" y="264" type="line"/>
+    </contour>
+    <contour>
+      <point x="791" y="0" type="line"/>
+      <point x="1122" y="0" type="line"/>
+      <point x="1122" y="264" type="line"/>
+      <point x="791" y="264" type="line"/>
+    </contour>
+    <contour>
+      <point x="200" y="794" type="line"/>
+      <point x="811" y="794" type="line"/>
+      <point x="811" y="1060" type="line"/>
+      <point x="200" y="1060" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

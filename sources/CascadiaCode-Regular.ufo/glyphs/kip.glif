@@ -6,17 +6,23 @@
   <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="700" y="561" type="line"/>
-      <point x="1200" y="561" type="line"/>
-      <point x="1200" y="699" type="line"/>
-      <point x="700" y="699" type="line"/>
+      <point x="700" y="601" type="line"/>
+      <point x="1200" y="601" type="line"/>
+      <point x="1200" y="739" type="line"/>
+      <point x="700" y="739" type="line"/>
     </contour>
     <contour>
-      <point x="0" y="561" type="line"/>
-      <point x="297" y="561" type="line"/>
-      <point x="297" y="699" type="line"/>
-      <point x="0" y="699" type="line"/>
+      <point x="0" y="601" type="line"/>
+      <point x="297" y="601" type="line"/>
+      <point x="297" y="739" type="line"/>
+      <point x="0" y="739" type="line"/>
     </contour>
     <component base="K"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

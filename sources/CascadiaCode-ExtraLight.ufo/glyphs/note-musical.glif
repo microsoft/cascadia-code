@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="note-musical" format="2">
+  <advance width="1200"/>
+  <unicode hex="266A"/>
+  <outline>
+    <contour>
+      <point x="914" y="614" type="line"/>
+      <point x="1042" y="743"/>
+      <point x="1105" y="875"/>
+      <point x="1105" y="1011" type="curve" smooth="yes"/>
+      <point x="1105" y="1285"/>
+      <point x="917" y="1420"/>
+      <point x="536" y="1420" type="curve"/>
+      <point x="536" y="1264" type="line"/>
+      <point x="853" y="1264"/>
+      <point x="1009" y="1180"/>
+      <point x="1009" y="990" type="curve" smooth="yes"/>
+      <point x="1009" y="862"/>
+      <point x="958" y="762"/>
+      <point x="853" y="660" type="curve"/>
+    </contour>
+    <contour>
+      <point x="402" y="-20" type="curve" smooth="yes"/>
+      <point x="544" y="-20"/>
+      <point x="626" y="35"/>
+      <point x="626" y="132" type="curve" smooth="yes"/>
+      <point x="626" y="204"/>
+      <point x="544" y="245"/>
+      <point x="402" y="245" type="curve" smooth="yes"/>
+      <point x="266" y="245"/>
+      <point x="188" y="197"/>
+      <point x="188" y="112" type="curve" smooth="yes"/>
+      <point x="188" y="28"/>
+      <point x="266" y="-20"/>
+    </contour>
+    <contour>
+      <point x="536" y="132" type="line"/>
+      <point x="626" y="132" type="line"/>
+      <point x="626" y="1380" type="line"/>
+      <point x="536" y="1380" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

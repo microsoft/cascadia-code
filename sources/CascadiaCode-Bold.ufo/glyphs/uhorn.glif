@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn" format="2">
+  <advance width="1200"/>
+  <unicode hex="01B0"/>
+  <anchor x="570" y="0" name="bottom"/>
+  <anchor x="1080" y="10" name="ogonek"/>
+  <anchor x="590" y="1060" name="top"/>
+  <anchor x="1120" y="1060" name="topright"/>
+  <outline>
+    <contour>
+      <point x="851" y="845" type="line"/>
+      <point x="891" y="855" type="line" smooth="yes"/>
+      <point x="1136" y="916"/>
+      <point x="1238" y="1069"/>
+      <point x="1238" y="1343" type="curve"/>
+      <point x="988" y="1343" type="line"/>
+      <point x="988" y="1183"/>
+      <point x="938" y="1060"/>
+      <point x="811" y="1060" type="curve" smooth="yes"/>
+      <point x="771" y="1060" type="line"/>
+    </contour>
+    <component base="u"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

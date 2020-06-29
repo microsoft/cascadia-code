@@ -7,14 +7,23 @@ uni25FF
 </note>
   <outline>
     <contour>
+      <point x="1125" y="1235" type="line"/>
       <point x="75" y="185" type="line"/>
       <point x="1125" y="185" type="line"/>
-      <point x="1125" y="1235" type="line"/>
     </contour>
     <contour>
-      <point x="437" y="335" type="line"/>
-      <point x="975" y="873" type="line"/>
-      <point x="975" y="335" type="line"/>
+      <point x="1032" y="930" type="line"/>
+      <point x="975" y="954" type="line"/>
+      <point x="975" y="254" type="line"/>
+      <point x="1056" y="335" type="line"/>
+      <point x="356" y="335" type="line"/>
+      <point x="380" y="278" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

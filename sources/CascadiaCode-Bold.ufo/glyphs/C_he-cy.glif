@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Che-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="0427"/>
+  <outline>
+    <contour>
+      <point x="580" y="502" type="curve" smooth="yes"/>
+      <point x="878" y="502" type="line"/>
+      <point x="878" y="778" type="line"/>
+      <point x="580" y="778" type="line" smooth="yes"/>
+      <point x="451" y="778"/>
+      <point x="396" y="852"/>
+      <point x="396" y="1025" type="curve" smooth="yes"/>
+      <point x="396" y="1420" type="line"/>
+      <point x="120" y="1420" type="line"/>
+      <point x="120" y="1025" type="line" smooth="yes"/>
+      <point x="120" y="658"/>
+      <point x="257" y="502"/>
+    </contour>
+    <contour>
+      <point x="804" y="0" type="line"/>
+      <point x="1080" y="0" type="line"/>
+      <point x="1080" y="1420" type="line"/>
+      <point x="804" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

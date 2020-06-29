@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilon" format="2">
+  <advance width="1200"/>
+  <unicode hex="03C5"/>
+  <anchor x="600" y="1060" name="top"/>
+  <outline>
+    <contour>
+      <point x="640" y="-20" type="curve" smooth="yes"/>
+      <point x="923" y="-20"/>
+      <point x="1064" y="122"/>
+      <point x="1064" y="410" type="curve" smooth="yes"/>
+      <point x="1064" y="1060" type="line"/>
+      <point x="782" y="1060" type="line"/>
+      <point x="782" y="420" type="line" smooth="yes"/>
+      <point x="782" y="307"/>
+      <point x="735" y="250"/>
+      <point x="640" y="250" type="curve" smooth="yes"/>
+      <point x="545" y="250"/>
+      <point x="498" y="307"/>
+      <point x="498" y="420" type="curve" smooth="yes"/>
+      <point x="497" y="780" type="line" smooth="yes"/>
+      <point x="496" y="986"/>
+      <point x="422" y="1060"/>
+      <point x="213" y="1060" type="curve" smooth="yes"/>
+      <point x="5" y="1060" type="line"/>
+      <point x="5" y="796" type="line"/>
+      <point x="103" y="796" type="line" smooth="yes"/>
+      <point x="185" y="796"/>
+      <point x="215" y="759"/>
+      <point x="215" y="656" type="curve" smooth="yes"/>
+      <point x="216" y="410" type="line" smooth="yes"/>
+      <point x="217" y="122"/>
+      <point x="357" y="-20"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

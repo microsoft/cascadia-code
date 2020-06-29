@@ -8,6 +8,12 @@
   <anchor x="1180" y="1420" name="topright"/>
   <outline>
     <component base="L"/>
-    <component base="periodcentered" xOffset="150" yOffset="370"/>
+    <component base="periodcentered" xOffset="200" yOffset="320"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

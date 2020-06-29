@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowerHalfArc" format="2">
+  <advance width="1200"/>
+  <unicode hex="25E1"/>
+  <note>
+uni25E1
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="185" type="curve" smooth="yes"/>
+      <point x="916" y="185"/>
+      <point x="1125" y="394"/>
+      <point x="1125" y="710" type="curve"/>
+      <point x="905" y="710" type="line"/>
+      <point x="905" y="526"/>
+      <point x="784" y="405"/>
+      <point x="600" y="405" type="curve" smooth="yes"/>
+      <point x="416" y="405"/>
+      <point x="295" y="526"/>
+      <point x="295" y="710" type="curve"/>
+      <point x="75" y="710" type="line"/>
+      <point x="75" y="394"/>
+      <point x="284" y="185"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

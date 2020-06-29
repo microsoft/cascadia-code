@@ -13,10 +13,20 @@ uni2B26
       <point x="212" y="710" type="line"/>
     </contour>
     <contour>
-      <point x="600" y="534" type="line"/>
-      <point x="424" y="710" type="line"/>
-      <point x="600" y="886" type="line"/>
-      <point x="776" y="710" type="line"/>
+      <point x="657" y="477" type="line"/>
+      <point x="367" y="767" type="line"/>
+      <point x="367" y="653" type="line"/>
+      <point x="657" y="943" type="line"/>
+      <point x="543" y="943" type="line"/>
+      <point x="833" y="653" type="line"/>
+      <point x="833" y="767" type="line"/>
+      <point x="543" y="477" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

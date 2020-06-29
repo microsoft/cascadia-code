@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whitePentagon" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B20"/>
+  <note>
+uni2B20
+</note>
+  <outline>
+    <contour>
+      <point x="230" y="168" type="line"/>
+      <point x="970" y="168" type="line"/>
+      <point x="1200" y="874" type="line"/>
+      <point x="600" y="1310" type="line"/>
+      <point x="0" y="874" type="line"/>
+    </contour>
+    <contour>
+      <point x="369" y="378" type="line"/>
+      <point x="236" y="797" type="line"/>
+      <point x="600" y="1065" type="line"/>
+      <point x="964" y="797" type="line"/>
+      <point x="831" y="378" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

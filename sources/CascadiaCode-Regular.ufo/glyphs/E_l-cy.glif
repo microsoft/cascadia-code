@@ -22,10 +22,16 @@
       <point x="860" y="1420" type="line"/>
     </contour>
     <contour>
-      <point x="322" y="1230" type="line"/>
+      <point x="342" y="1230" type="line"/>
       <point x="1023" y="1230" type="line"/>
       <point x="1023" y="1420" type="line"/>
       <point x="342" y="1420" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

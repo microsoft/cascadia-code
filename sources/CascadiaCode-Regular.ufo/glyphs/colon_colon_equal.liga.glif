@@ -14,7 +14,13 @@
       <point x="920" y="552" type="line"/>
       <point x="-500" y="552" type="line"/>
     </contour>
-    <component base="colon" xOffset="-2520" yOffset="180"/>
     <component base="colon" xOffset="-1750" yOffset="180"/>
+    <component base="colon" xOffset="-2520" yOffset="180"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

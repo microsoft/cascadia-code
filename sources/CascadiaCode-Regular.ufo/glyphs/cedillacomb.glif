@@ -11,8 +11,8 @@
       <point x="892" y="-179"/>
       <point x="835" y="-124"/>
       <point x="720" y="-100" type="curve"/>
-      <point x="750" y="12" type="line"/>
-      <point x="624" y="49" type="line"/>
+      <point x="745" y="-5" type="line"/>
+      <point x="609" y="6" type="line"/>
       <point x="540" y="-190" type="line"/>
       <point x="649" y="-190"/>
       <point x="702" y="-212"/>
@@ -26,6 +26,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>1200</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

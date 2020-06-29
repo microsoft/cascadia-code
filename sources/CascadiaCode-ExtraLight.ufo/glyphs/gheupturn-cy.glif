@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gheupturn-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="0491"/>
+  <outline>
+    <contour>
+      <point x="340" y="0" type="line"/>
+      <point x="434" y="0" type="line"/>
+      <point x="434" y="1060" type="line"/>
+      <point x="340" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="402" y="970" type="line"/>
+      <point x="1046" y="970" type="line"/>
+      <point x="1046" y="1060" type="line"/>
+      <point x="402" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="972" y="970" type="line"/>
+      <point x="1066" y="970" type="line"/>
+      <point x="1066" y="1320" type="line"/>
+      <point x="972" y="1320" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

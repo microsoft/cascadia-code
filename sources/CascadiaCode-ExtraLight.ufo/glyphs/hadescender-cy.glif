@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hadescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04B3"/>
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="1060" name="top"/>
+  <outline>
+    <contour>
+      <point x="1002" y="-270" type="line"/>
+      <point x="1098" y="-270" type="line"/>
+      <point x="1097" y="90" type="line"/>
+      <point x="1001" y="90" type="line"/>
+    </contour>
+    <component base="ha-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="crosshatchFillSquare" format="2">
+  <advance width="1200"/>
+  <unicode hex="25A6"/>
+  <note>
+uni25A6
+</note>
+  <outline>
+    <contour>
+      <point x="149" y="750" type="line"/>
+      <point x="1051" y="750" type="line"/>
+      <point x="1051" y="910" type="line"/>
+      <point x="149" y="910" type="line"/>
+    </contour>
+    <contour>
+      <point x="400" y="259" type="line"/>
+      <point x="560" y="259" type="line"/>
+      <point x="560" y="1161" type="line"/>
+      <point x="400" y="1161" type="line"/>
+    </contour>
+    <contour>
+      <point x="149" y="510" type="line"/>
+      <point x="1051" y="510" type="line"/>
+      <point x="1051" y="670" type="line"/>
+      <point x="149" y="670" type="line"/>
+    </contour>
+    <contour>
+      <point x="640" y="259" type="line"/>
+      <point x="800" y="259" type="line"/>
+      <point x="800" y="1161" type="line"/>
+      <point x="640" y="1161" type="line"/>
+    </contour>
+    <component base="whiteSquare"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
