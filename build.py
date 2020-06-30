@@ -204,7 +204,7 @@ if __name__ == "__main__":
                     generator,
                     instance_descriptor,
                     step_set_font_name("Cascadia Code PL"),
-                    step_set_feature_file(INPUT_DIR / "features" / "features_code_pl.fea"),
+                    step_set_feature_file(INPUT_DIR / "features" / "features_code_PL.fea"),
                     step_merge_pl,
                 )
 
@@ -252,7 +252,7 @@ if __name__ == "__main__":
         build_variable_fonts(
             designspace,
             step_set_font_name("Cascadia Code PL"),
-            step_set_feature_file(INPUT_DIR / "features" / "features_code_pl.fea"),
+            step_set_feature_file(INPUT_DIR / "features" / "features_code_PL.fea"),
             step_merge_pl,
         )
 
@@ -260,7 +260,7 @@ if __name__ == "__main__":
             build_variable_fonts(
                 designspace,
                 step_set_font_name("Cascadia Mono PL"),
-                step_set_feature_file(INPUT_DIR / "features" / "features_mono_pl.fea"),
+                step_set_feature_file(INPUT_DIR / "features" / "features_mono_PL.fea"),
                 step_merge_pl,
             )
 
