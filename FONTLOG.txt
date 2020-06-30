@@ -42,6 +42,15 @@ Fixed WinDescent value to improve line spacing
 Converted Cascadia Code to a Variable font with a weight axis
 
 
+06-29-2020 (Aaron Bell) [Version 2007.01]
+Reworked Cascadia Code to be a variable font with 6 named variations ranging
+from ExtraLight to Bold.
+Split the long equals ligature (==) for earier reading
+Removed the hexadeciaml 'x' alternate
+Corrected malformed IJacute dioacritics
+Introduced a compatibility layout for PowerLine glyphs that will
+be used in GDI
+
 Acknowledgements
 -----------------------------------
 
