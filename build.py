@@ -213,7 +213,7 @@ if __name__ == "__main__":
                         generator,
                         instance_descriptor,
                         step_set_font_name("Cascadia Mono PL"),
-                        step_set_feature_file(INPUT_DIR / "features" / "features_mono_pl.fea"),
+                        step_set_feature_file(INPUT_DIR / "features" / "features_mono_PL.fea"),
                         step_merge_pl,
                     )
 
