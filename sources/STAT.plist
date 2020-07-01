@@ -16,18 +16,24 @@
             <string>ExtraLight</string>
             <key>value</key>
             <integer>200</integer>
+            <key>linked_value</key>
+            <integer>350</integer>
           </dict>
           <dict>
             <key>name</key>
             <string>Light</string>
             <key>value</key>
             <integer>300</integer>
+            <key>linked_value</key>
+            <integer>400</integer>
           </dict>
           <dict>
             <key>name</key>
             <string>SemiLight</string>
             <key>value</key>
             <integer>350</integer>
+            <key>linked_value</key>
+            <integer>600</integer>
           </dict>
           <dict>
             <key>name</key>
@@ -49,12 +55,18 @@
           </dict>
           <dict>
             <key>name</key>
-            <dict>
-              <key>en</key>
-              <string>Bold</string>
-            </dict>
+            <string>Bold</string>
             <key>value</key>
             <integer>700</integer>
+          </dict>
+          <dict>
+            <key>name</key>
+            <dict>
+              <key>en</key>
+              <string>ExtraBold</string>
+            </dict>
+            <key>value</key>
+            <integer>800</integer>
           </dict>
         </array>
       </dict>

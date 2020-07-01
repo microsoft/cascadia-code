@@ -1,19 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.1">
   <axes>
-    <axis tag="wght" name="Weight" minimum="200" maximum="700" default="400">
+    <axis tag="wght" name="Weight" minimum="200" maximum="800" default="400">
       <map input="200" output="140"/>
       <map input="300" output="260"/>
       <map input="350" output="380"/>
       <map input="400" output="500"/>
       <map input="600" output="600"/>
       <map input="700" output="700"/>
+      <map input="800" output="800"/>
     </axis>
   </axes>
   <rules>
-    <rule name="BRACKET.600.700">
+    <rule name="BRACKET.600.800">
       <conditionset>
-        <condition name="Weight" minimum="600" maximum="700"/>
+        <condition name="Weight" minimum="600" maximum="800"/>
       </conditionset>
       <sub name="baht" with="baht.BRACKET.600"/>
       <sub name="dollar" with="dollar.BRACKET.600"/>
@@ -39,7 +40,7 @@
     </source>
     <source filename="CascadiaCode-Bold.ufo" name="Cascadia Code Bold" familyname="Cascadia Code" stylename="Bold">
       <location>
-        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Weight" xvalue="800"/>
       </location>
     </source>
   </sources>
@@ -82,6 +83,13 @@
     <instance name="Cascadia Code Bold" familyname="Cascadia Code" stylename="Bold" filename="instance_ufos/CascadiaCode-Bold.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Cascadia Code ExtraBold" familyname="Cascadia Code" stylename="ExtraBold" filename="instance_ufos/CascadiaCode-ExtraBold.ufo" stylemapfamilyname="Cascadia Code ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
       </location>
       <kerning/>
       <info/>
