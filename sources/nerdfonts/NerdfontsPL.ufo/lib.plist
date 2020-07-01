@@ -3,11 +3,13 @@
 <plist version="1.0">
   <dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1324</string>
+    <string>1340</string>
     <key>com.schriftgestaltung.customName</key>
     <string>Book</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
+    <array>
+      <string>/uniE0A0.stypo/uniE0B0.stypo/uniE0B1.stypo/uniE0B2.stypo/uniE0B3.stypo/uniE0B4.stypo/uniE0B5.stypo/uniE0B6.stypo/uniE0B7.stypo/uniE0B8.stypo/uniE0B9.stypo/uniE0BA.stypo/uniE0BB.stypo/uniE0BC.stypo/uniE0BD.stypo/uniE0BE.stypo/uniE0BF.stypo/uniE0C0.stypo/uniE0C1.stypo/uniE0C2.stypo/uniE0C3.stypo/uniE0C4.stypo/uniE0C5.stypo/uniE0C6.stypo/uniE0C7.stypo/uniE0C8.stypo/uniE0CA.stypo/uniE0CC.stypo/uniE0CD.stypo/uniE0CE.stypo/uniE0CF.stypo/uniE0D1.stypo/uniE0D2.stypo/uniE0D4.stypo</string>
+    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -30,8 +32,6 @@
     <string>F8C3375C-B372-4BAE-A3FB-5A8DC7FA7AB9</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>0</integer>
-    <key>com.schriftgestaltung.glyphOrder</key>
-    <false/>
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
