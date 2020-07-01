@@ -5,14 +5,18 @@
   <outline>
     <contour>
       <point x="142" y="0" type="line"/>
-      <point x="424" y="0" type="line"/>
+      <point x="411" y="0" type="line"/>
       <point x="1058" y="1420" type="line"/>
-      <point x="776" y="1420" type="line"/>
+      <point x="789" y="1420" type="line"/>
     </contour>
     <component base="strictlyequivalentto"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

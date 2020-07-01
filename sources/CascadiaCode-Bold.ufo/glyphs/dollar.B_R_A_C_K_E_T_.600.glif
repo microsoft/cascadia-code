@@ -5,16 +5,16 @@
   <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="475" y="1278" type="line"/>
-      <point x="751" y="1278" type="line"/>
-      <point x="751" y="1740" type="line"/>
-      <point x="475" y="1740" type="line"/>
+      <point x="487" y="1288" type="line"/>
+      <point x="740" y="1288" type="line"/>
+      <point x="740" y="1740" type="line"/>
+      <point x="487" y="1740" type="line"/>
     </contour>
     <contour>
-      <point x="475" y="-320" type="line"/>
-      <point x="751" y="-320" type="line"/>
-      <point x="751" y="141" type="line"/>
-      <point x="475" y="141" type="line"/>
+      <point x="487" y="-320" type="line"/>
+      <point x="740" y="-320" type="line"/>
+      <point x="740" y="131" type="line"/>
+      <point x="487" y="131" type="line"/>
     </contour>
     <component base="S"/>
   </outline>
@@ -26,6 +26,10 @@
       <string>=S</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=S</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

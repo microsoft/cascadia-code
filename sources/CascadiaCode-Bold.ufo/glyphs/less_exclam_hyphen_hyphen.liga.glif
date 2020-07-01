@@ -4,34 +4,38 @@
   <outline>
     <contour>
       <point x="-2406" y="112" type="line"/>
-      <point x="-2406" y="452" type="line"/>
-      <point x="-2627" y="497"/>
-      <point x="-2689" y="515"/>
-      <point x="-2818" y="538" type="curve"/>
-      <point x="-2818" y="880" type="line"/>
-      <point x="-2686" y="903"/>
-      <point x="-2618" y="920"/>
-      <point x="-2406" y="964" type="curve"/>
+      <point x="-2406" y="435" type="line"/>
+      <point x="-2664" y="502"/>
+      <point x="-2731" y="524"/>
+      <point x="-2846" y="543" type="curve"/>
+      <point x="-2846" y="874" type="line"/>
+      <point x="-2727" y="894"/>
+      <point x="-2655" y="913"/>
+      <point x="-2406" y="981" type="curve"/>
       <point x="-2406" y="1304" type="line"/>
       <point x="-3360" y="770" type="line"/>
       <point x="-3360" y="648" type="line"/>
     </contour>
     <contour>
-      <point x="-3042" y="582" type="line"/>
-      <point x="-2002" y="582" type="line"/>
-      <point x="-2002" y="836" type="line"/>
-      <point x="-3042" y="836" type="line"/>
+      <point x="-3042" y="587" type="line"/>
+      <point x="-2002" y="587" type="line"/>
+      <point x="-2002" y="830" type="line"/>
+      <point x="-3042" y="830" type="line"/>
     </contour>
     <contour>
-      <point x="-1282" y="582" type="line"/>
-      <point x="920" y="582" type="line"/>
-      <point x="920" y="836" type="line"/>
-      <point x="-1282" y="836" type="line"/>
+      <point x="-1282" y="587" type="line"/>
+      <point x="920" y="587" type="line"/>
+      <point x="920" y="830" type="line"/>
+      <point x="-1282" y="830" type="line"/>
     </contour>
     <component base="exclam" xOffset="-2240"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

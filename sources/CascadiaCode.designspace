@@ -6,14 +6,14 @@
       <map input="300" output="260"/>
       <map input="350" output="380"/>
       <map input="400" output="500"/>
-      <map input="600" output="600"/>
-      <map input="700" output="700"/>
+      <map input="600" output="650"/>
+      <map input="700" output="750"/>
     </axis>
   </axes>
   <rules>
-    <rule name="BRACKET.600.700">
+    <rule name="BRACKET.600.750">
       <conditionset>
-        <condition name="Weight" minimum="600" maximum="700"/>
+        <condition name="Weight" minimum="600" maximum="750"/>
       </conditionset>
       <sub name="baht" with="baht.BRACKET.600"/>
       <sub name="dollar" with="dollar.BRACKET.600"/>
@@ -39,7 +39,7 @@
     </source>
     <source filename="CascadiaCode-Bold.ufo" name="Cascadia Code Bold" familyname="Cascadia Code" stylename="Bold">
       <location>
-        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Weight" xvalue="750"/>
       </location>
     </source>
   </sources>
@@ -74,14 +74,14 @@
     </instance>
     <instance name="Cascadia Code SemiBold" familyname="Cascadia Code" stylename="SemiBold" filename="instance_ufos/CascadiaCode-SemiBold.ufo" stylemapfamilyname="Cascadia Code SemiBold" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Weight" xvalue="650"/>
       </location>
       <kerning/>
       <info/>
     </instance>
     <instance name="Cascadia Code Bold" familyname="Cascadia Code" stylename="Bold" filename="instance_ufos/CascadiaCode-Bold.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="bold">
       <location>
-        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Weight" xvalue="750"/>
       </location>
       <kerning/>
       <info/>

@@ -2,22 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>GSCornerRadius</key>
-    <integer>15</integer>
-    <key>GSOffsetHorizontal</key>
-    <integer>95</integer>
-    <key>GSOffsetMakeStroke</key>
-    <integer>1</integer>
-    <key>GSOffsetPosition</key>
-    <integer>1</integer>
-    <key>GSOffsetVertical</key>
-    <integer>110</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1338</string>
+    <string>1340</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <array>
-      <string>/dollar_greater.liga/less_dollar.liga/less_dollar_greater.liga</string>
-    </array>
+    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
@@ -60,7 +48,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>700</integer>
+    <integer>750</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
@@ -70,7 +58,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <key>com.schriftgestaltung.weight</key>
     <string>Bold</string>
     <key>com.schriftgestaltung.weightValue</key>
-    <integer>700</integer>
+    <integer>750</integer>
     <key>com.schriftgestaltung.width</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>

@@ -7,33 +7,37 @@ uni25A6
 </note>
   <outline>
     <contour>
-      <point x="149" y="750" type="line"/>
-      <point x="1051" y="750" type="line"/>
-      <point x="1051" y="910" type="line"/>
-      <point x="149" y="910" type="line"/>
+      <point x="149" y="756" type="line"/>
+      <point x="1051" y="756" type="line"/>
+      <point x="1051" y="914" type="line"/>
+      <point x="149" y="914" type="line"/>
     </contour>
     <contour>
-      <point x="400" y="259" type="line"/>
-      <point x="560" y="259" type="line"/>
-      <point x="560" y="1161" type="line"/>
-      <point x="400" y="1161" type="line"/>
+      <point x="396" y="259" type="line"/>
+      <point x="554" y="259" type="line"/>
+      <point x="554" y="1161" type="line"/>
+      <point x="396" y="1161" type="line"/>
     </contour>
     <contour>
-      <point x="149" y="510" type="line"/>
-      <point x="1051" y="510" type="line"/>
-      <point x="1051" y="670" type="line"/>
-      <point x="149" y="670" type="line"/>
+      <point x="149" y="506" type="line"/>
+      <point x="1051" y="506" type="line"/>
+      <point x="1051" y="664" type="line"/>
+      <point x="149" y="664" type="line"/>
     </contour>
     <contour>
-      <point x="640" y="259" type="line"/>
-      <point x="800" y="259" type="line"/>
-      <point x="800" y="1161" type="line"/>
-      <point x="640" y="1161" type="line"/>
+      <point x="646" y="259" type="line"/>
+      <point x="804" y="259" type="line"/>
+      <point x="804" y="1161" type="line"/>
+      <point x="646" y="1161" type="line"/>
     </contour>
     <component base="whiteSquare"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

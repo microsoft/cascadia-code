@@ -4,18 +4,18 @@
   <outline>
     <contour>
       <point x="-804" y="-10" type="line"/>
-      <point x="700" y="568" type="line"/>
-      <point x="700" y="850" type="line"/>
+      <point x="700" y="575" type="line"/>
+      <point x="700" y="843" type="line"/>
       <point x="-804" y="1430" type="line"/>
-      <point x="-804" y="1110" type="line"/>
-      <point x="332" y="728" type="line"/>
-      <point x="332" y="690" type="line"/>
-      <point x="-804" y="310" type="line"/>
+      <point x="-804" y="1123" type="line"/>
+      <point x="350" y="726" type="line"/>
+      <point x="350" y="692" type="line"/>
+      <point x="-804" y="297" type="line"/>
     </contour>
     <contour>
       <point x="-804" y="-10" type="line"/>
-      <point x="-524" y="110" type="line"/>
-      <point x="-524" y="1310" type="line"/>
+      <point x="-537" y="107" type="line"/>
+      <point x="-537" y="1313" type="line"/>
       <point x="-804" y="1430" type="line"/>
     </contour>
     <component base="bar" xOffset="-3244"/>
@@ -23,6 +23,11 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
