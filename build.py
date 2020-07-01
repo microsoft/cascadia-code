@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import argparse
+import os
 
 import fontmake.instantiator
 import fontTools.designspaceLib
@@ -302,10 +303,12 @@ if __name__ == "__main__":
 
     otfs = list(Path("build").glob("*.otf"))
     if otfs:
-        print("Autohinting and compressing OTFs")
-        for file in otfs:
-            subprocess.run([f'psautohint --log "build/log.txt" {str(file)}'], shell=True)
-            subprocess.run([f'python -m cffsubr -i {str(file)}'], shell=True)
+        for otf in otfs:
+            path = os.fspath(otf)
+            print(f"Autohinting {path}")
+            subprocess.check_call(["psautohint", "--log", "build/log.txt", path])
+            print(f"Compressing {path}")
+            subprocess.check_call(["python", "-m", "cffsubr", "-i", path])
 
     print("All done")
     print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")

@@ -13,10 +13,11 @@ compreffor==0.5.0         # via ufo2ft
 cu2qu==1.6.7              # via fontmake, ufo2ft
 fontmake==2.2.0           # via -r requirements.in
 fontmath==0.6.0           # via fontmake
-fonttools[lxml,ufo,unicode]==4.12.1  # via booleanoperations, cffsubr, compreffor, cu2qu, fontmake, fontmath, glyphslib, statmake, ufo2ft, ufolib2, vttlib
+fonttools[lxml,ufo,unicode]==4.12.1  # via booleanoperations, cffsubr, compreffor, cu2qu, fontmake, fontmath, glyphslib, psautohint, statmake, ufo2ft, ufolib2, vttlib
 fs==2.4.11                # via fonttools
 glyphslib==5.1.10         # via fontmake
 lxml==4.5.1               # via fonttools
+psautohint==2.1.0         # via -r requirements.in
 pyclipper==1.1.0.post3    # via booleanoperations
 pyparsing==2.4.7          # via vttlib
 pytz==2020.1              # via fs
