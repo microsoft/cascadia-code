@@ -98,7 +98,13 @@ def build_font_instance(generator, instance_descriptor, *steps):
         if format == "ttf":
             instance_font = ufo2ft.compileTTF(instance, removeOverlaps=True, inplace=True)
         else:
-            instance_font = ufo2ft.compileOTF(instance, removeOverlaps=True, inplace=True)
+            # Do not optimize, because we have to do it again after autohinting.
+            instance_font = ufo2ft.compileOTF(
+                instance,
+                removeOverlaps=True,
+                inplace=True,
+                optimizeCFF=ufo2ft.CFFOptimization.NONE
+            )
 
         if format == "ttf":
             print(f"[{fontName}] Merging VTT")
@@ -140,10 +146,25 @@ def build_variable_fonts(designspace, *steps):
     print(f"[{familyName}] Merging VTT")
     vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
 
-    print(f"[{familyName}] Saving")
-    varFont.save(file_path)
-
     print(f"[{familyName}] Done: {file_path}")
+
+    print(f"[{familyName}] Compiling CFF2")
+    file_path_cff2 = (OUTPUT_DIR / file_stem).with_suffix(f".otf")
+    # Do not optimize, because we have to do it again after autohinting.
+    varFontCFF2 = ufo2ft.compileVariableCFF2(designspace,
+        inplace=True,
+        useProductionNames=True,
+        optimizeCFF=ufo2ft.CFFOptimization.NONE,
+    )
+
+    print(f"[{familyName}] Adding STAT table")
+    styleSpace = classes.Stylespace.from_file(INPUT_DIR / "STAT.plist")
+    lib.apply_stylespace_to_variable_font(styleSpace,varFontCFF2,{})
+
+    print(f"[{familyName}] Saving")
+    varFontCFF2.save(file_path_cff2)
+
+    print(f"[{familyName}] Done: {file_path_cff2}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="build some fonts")
@@ -204,7 +225,7 @@ if __name__ == "__main__":
                     generator,
                     instance_descriptor,
                     step_set_font_name("Cascadia Code PL"),
-                    step_set_feature_file(INPUT_DIR / "features" / "features_code_pl.fea"),
+                    step_set_feature_file(INPUT_DIR / "features" / "features_code_PL.fea"),
                     step_merge_pl,
                 )
 
@@ -213,7 +234,7 @@ if __name__ == "__main__":
                         generator,
                         instance_descriptor,
                         step_set_font_name("Cascadia Mono PL"),
-                        step_set_feature_file(INPUT_DIR / "features" / "features_mono_pl.fea"),
+                        step_set_feature_file(INPUT_DIR / "features" / "features_mono_PL.fea"),
                         step_merge_pl,
                     )
 
@@ -252,7 +273,7 @@ if __name__ == "__main__":
         build_variable_fonts(
             designspace,
             step_set_font_name("Cascadia Code PL"),
-            step_set_feature_file(INPUT_DIR / "features" / "features_code_pl.fea"),
+            step_set_feature_file(INPUT_DIR / "features" / "features_code_PL.fea"),
             step_merge_pl,
         )
 
@@ -260,7 +281,7 @@ if __name__ == "__main__":
             build_variable_fonts(
                 designspace,
                 step_set_font_name("Cascadia Mono PL"),
-                step_set_feature_file(INPUT_DIR / "features" / "features_mono_pl.fea"),
+                step_set_feature_file(INPUT_DIR / "features" / "features_mono_PL.fea"),
                 step_merge_pl,
             )
 
@@ -279,10 +300,12 @@ if __name__ == "__main__":
                 step_merge_nf,
             )
 
-    if args.static_fonts == True:
-        print("Autohinting OTFs")
-        for file in Path("build").glob("*.otf"):
-            subprocess.run(['psautohint --log "build/log.txt" '+str(file)], shell=True)
+    otfs = list(Path("build").glob("*.otf"))
+    if otfs:
+        print("Autohinting and compressing OTFs")
+        for file in otfs:
+            subprocess.run([f'psautohint --log "build/log.txt" {str(file)}'], shell=True)
+            subprocess.run([f'python -m cffsubr -i {str(file)}'], shell=True)
 
     print("All done")
     print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
