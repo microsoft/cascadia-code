@@ -2,11 +2,16 @@
 <glyph name="less_greater.liga" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="less" xOffset="-1084"/>
-    <component base="greater" xOffset="-96"/>
+    <component base="less" xOffset="-1077"/>
+    <component base="greater" xOffset="-103"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

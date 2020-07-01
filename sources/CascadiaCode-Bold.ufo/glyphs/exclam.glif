@@ -4,15 +4,19 @@
   <unicode hex="0021"/>
   <outline>
     <contour>
-      <point x="462" y="576" type="line"/>
-      <point x="734" y="576" type="line"/>
-      <point x="764" y="1430" type="line"/>
-      <point x="436" y="1430" type="line"/>
+      <point x="469" y="556" type="line"/>
+      <point x="727" y="556" type="line"/>
+      <point x="754" y="1430" type="line"/>
+      <point x="446" y="1430" type="line"/>
     </contour>
     <component base="period"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

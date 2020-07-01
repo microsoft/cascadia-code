@@ -146,15 +146,18 @@ def build_variable_fonts(designspace, *steps):
     print(f"[{familyName}] Merging VTT")
     vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
 
+    print(f"[{familyName}] Saving")
+    varFont.save(file_path)
+
     print(f"[{familyName}] Done: {file_path}")
 
     print(f"[{familyName}] Compiling CFF2")
     file_path_cff2 = (OUTPUT_DIR / file_stem).with_suffix(f".otf")
-    # Do not optimize, because we have to do it again after autohinting.
+    #Do not optimize, because we have to do it again after autohinting.
     varFontCFF2 = ufo2ft.compileVariableCFF2(designspace,
-        inplace=True,
-        useProductionNames=True,
-        optimizeCFF=ufo2ft.CFFOptimization.NONE,
+       inplace=True,
+       useProductionNames=True,
+       optimizeCFF=ufo2ft.CFFOptimization.NONE,
     )
 
     print(f"[{familyName}] Adding STAT table")

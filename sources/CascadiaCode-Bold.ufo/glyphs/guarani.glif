@@ -6,19 +6,23 @@
   <anchor x="695" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="545" y="-320" type="line"/>
-      <point x="821" y="-320" type="line"/>
-      <point x="821" y="62" type="line"/>
-      <point x="761" y="127" type="line"/>
-      <point x="761" y="573" type="line"/>
-      <point x="821" y="645" type="line"/>
-      <point x="821" y="1740" type="line"/>
-      <point x="545" y="1740" type="line"/>
+      <point x="558" y="-320" type="line"/>
+      <point x="811" y="-320" type="line"/>
+      <point x="811" y="54" type="line"/>
+      <point x="761" y="121" type="line"/>
+      <point x="761" y="578" type="line"/>
+      <point x="811" y="648" type="line"/>
+      <point x="811" y="1740" type="line"/>
+      <point x="558" y="1740" type="line"/>
     </contour>
     <component base="G"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

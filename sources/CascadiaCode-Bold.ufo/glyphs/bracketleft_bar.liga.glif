@@ -3,27 +3,31 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-680" y="-200" type="line"/>
-      <point x="-404" y="-200" type="line"/>
-      <point x="-404" y="1620" type="line"/>
-      <point x="-680" y="1620" type="line"/>
+      <point x="-677" y="-200" type="line"/>
+      <point x="-413" y="-200" type="line"/>
+      <point x="-413" y="1620" type="line"/>
+      <point x="-677" y="1620" type="line"/>
     </contour>
     <contour>
-      <point x="-424" y="-200" type="line"/>
-      <point x="208" y="-200" type="line"/>
-      <point x="208" y="54" type="line"/>
-      <point x="-424" y="54" type="line"/>
+      <point x="-433" y="-200" type="line"/>
+      <point x="205" y="-200" type="line"/>
+      <point x="205" y="41" type="line"/>
+      <point x="-433" y="41" type="line"/>
     </contour>
     <contour>
-      <point x="-424" y="1366" type="line"/>
-      <point x="208" y="1366" type="line"/>
-      <point x="208" y="1620" type="line"/>
-      <point x="-424" y="1620" type="line"/>
+      <point x="-433" y="1379" type="line"/>
+      <point x="205" y="1379" type="line"/>
+      <point x="205" y="1620" type="line"/>
+      <point x="-433" y="1620" type="line"/>
     </contour>
     <component base="bar" xOffset="-46"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

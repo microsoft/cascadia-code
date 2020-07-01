@@ -8,15 +8,19 @@
   <anchor x="1180" y="1060" name="topright"/>
   <outline>
     <contour>
-      <point x="462" y="1158" type="line"/>
-      <point x="1158" y="1158" type="line"/>
-      <point x="1158" y="1392" type="line"/>
+      <point x="462" y="1168" type="line"/>
+      <point x="1155" y="1168" type="line"/>
+      <point x="1155" y="1392" type="line"/>
       <point x="462" y="1392" type="line"/>
     </contour>
     <component base="d"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

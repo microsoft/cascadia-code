@@ -7,15 +7,19 @@ uni25EB
 </note>
   <outline>
     <contour>
-      <point x="715" y="219" type="line"/>
-      <point x="715" y="1201" type="line"/>
-      <point x="485" y="1201" type="line"/>
-      <point x="485" y="219" type="line"/>
+      <point x="708" y="219" type="line"/>
+      <point x="708" y="1201" type="line"/>
+      <point x="492" y="1201" type="line"/>
+      <point x="492" y="219" type="line"/>
     </contour>
     <component base="whiteSquare" yScale="-1" yOffset="1420"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

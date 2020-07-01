@@ -3,10 +3,14 @@
   <advance width="1200"/>
   <unicode hex="00B7"/>
   <outline>
-    <component base="period" yOffset="542"/>
+    <component base="period" yOffset="549"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

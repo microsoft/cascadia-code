@@ -3,21 +3,25 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="160" y="856" type="line"/>
-      <point x="920" y="856" type="line"/>
-      <point x="920" y="1120" type="line"/>
-      <point x="160" y="1120" type="line"/>
+      <point x="160" y="861" type="line"/>
+      <point x="920" y="861" type="line"/>
+      <point x="920" y="1110" type="line"/>
+      <point x="160" y="1110" type="line"/>
     </contour>
     <contour>
-      <point x="160" y="300" type="line"/>
-      <point x="920" y="300" type="line"/>
-      <point x="920" y="564" type="line"/>
-      <point x="160" y="564" type="line"/>
+      <point x="160" y="310" type="line"/>
+      <point x="920" y="310" type="line"/>
+      <point x="920" y="559" type="line"/>
+      <point x="160" y="559" type="line"/>
     </contour>
     <component base="numbersign" xOffset="-1040"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -2,23 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>GSCornerRadius</key>
-    <integer>15</integer>
-    <key>GSOffsetHorizontal</key>
-    <integer>95</integer>
-    <key>GSOffsetMakeStroke</key>
-    <integer>1</integer>
-    <key>GSOffsetPosition</key>
-    <integer>1</integer>
-    <key>GSOffsetVertical</key>
-    <integer>110</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1338</string>
+    <string>1340</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <array>
-      <string>/alpha/circumflexcomb</string>
-      <string>/alpha/circumflexcomb/space/beta/circumflexcomb/space/gamma/circumflexcomb/space/delta/circumflexcomb/space/epsilon/circumflexcomb/space/zeta/circumflexcomb/space/eta/circumflexcomb/space/theta/circumflexcomb/space/iota/circumflexcomb/space/kappa/circumflexcomb/space/lambda/circumflexcomb/space/mu/circumflexcomb/space/nu/circumflexcomb/space/xi/circumflexcomb/space/omicron/circumflexcomb/space/pi/circumflexcomb/space/rho/circumflexcomb/space/sigmafinal/circumflexcomb/space/sigma/circumflexcomb/space/tau/circumflexcomb/space/upsilon/circumflexcomb/space/phi/circumflexcomb/space/chi/circumflexcomb/space/psi/circumflexcomb/space/omega/circumflexcomb</string>
-    </array>
+    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
@@ -61,7 +48,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>800</integer>
+    <integer>750</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
@@ -71,7 +58,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <key>com.schriftgestaltung.weight</key>
     <string>Bold</string>
     <key>com.schriftgestaltung.weightValue</key>
-    <integer>800</integer>
+    <integer>750</integer>
     <key>com.schriftgestaltung.width</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>

@@ -3,63 +3,67 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="376" y="496" type="line"/>
-      <point x="652" y="496" type="line"/>
-      <point x="652" y="523" type="line" smooth="yes"/>
-      <point x="652" y="606"/>
-      <point x="678" y="658"/>
-      <point x="740" y="698" type="curve" smooth="yes"/>
-      <point x="902" y="802"/>
-      <point x="982" y="938"/>
-      <point x="982" y="1102" type="curve" smooth="yes"/>
-      <point x="982" y="1316"/>
-      <point x="825" y="1440"/>
-      <point x="552" y="1440" type="curve" smooth="yes"/>
-      <point x="338" y="1440"/>
-      <point x="42" y="1365"/>
-      <point x="42" y="1071" type="curve"/>
-      <point x="296" y="1003" type="line"/>
-      <point x="296" y="1124"/>
-      <point x="444" y="1175"/>
-      <point x="530" y="1175" type="curve" smooth="yes"/>
-      <point x="627" y="1175"/>
-      <point x="682" y="1134"/>
-      <point x="682" y="1062" type="curve" smooth="yes"/>
-      <point x="682" y="998"/>
-      <point x="645" y="937"/>
-      <point x="580" y="894" type="curve" smooth="yes"/>
-      <point x="442" y="802"/>
-      <point x="376" y="715"/>
-      <point x="376" y="577" type="curve" smooth="yes"/>
+      <point x="383" y="489" type="line"/>
+      <point x="645" y="489" type="line"/>
+      <point x="645" y="526" type="line" smooth="yes"/>
+      <point x="645" y="608"/>
+      <point x="674" y="662"/>
+      <point x="740" y="705" type="curve" smooth="yes"/>
+      <point x="900" y="807"/>
+      <point x="979" y="942"/>
+      <point x="979" y="1104" type="curve" smooth="yes"/>
+      <point x="979" y="1317"/>
+      <point x="822" y="1440"/>
+      <point x="550" y="1440" type="curve" smooth="yes"/>
+      <point x="325" y="1440"/>
+      <point x="51" y="1352"/>
+      <point x="51" y="1063" type="curve"/>
+      <point x="296" y="1006" type="line"/>
+      <point x="296" y="1131"/>
+      <point x="434" y="1188"/>
+      <point x="532" y="1188" type="curve" smooth="yes"/>
+      <point x="634" y="1188"/>
+      <point x="692" y="1144"/>
+      <point x="692" y="1069" type="curve" smooth="yes"/>
+      <point x="692" y="999"/>
+      <point x="652" y="935"/>
+      <point x="580" y="887" type="curve" smooth="yes"/>
+      <point x="447" y="799"/>
+      <point x="383" y="710"/>
+      <point x="383" y="573" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="-940" y="300" type="line"/>
-      <point x="100" y="300" type="line"/>
-      <point x="100" y="564" type="line"/>
-      <point x="-940" y="564" type="line"/>
+      <point x="-937" y="310" type="line"/>
+      <point x="97" y="310" type="line"/>
+      <point x="97" y="558" type="line"/>
+      <point x="-937" y="558" type="line"/>
     </contour>
     <contour>
-      <point x="-816" y="0" type="line"/>
-      <point x="-560" y="0" type="line"/>
-      <point x="-440" y="1420" type="line"/>
-      <point x="-696" y="1420" type="line"/>
+      <point x="-811" y="0" type="line"/>
+      <point x="-568" y="0" type="line"/>
+      <point x="-448" y="1420" type="line"/>
+      <point x="-691" y="1420" type="line"/>
     </contour>
     <contour>
-      <point x="-400" y="0" type="line"/>
-      <point x="-144" y="0" type="line"/>
-      <point x="-24" y="1420" type="line"/>
-      <point x="-280" y="1420" type="line"/>
+      <point x="-392" y="0" type="line"/>
+      <point x="-149" y="0" type="line"/>
+      <point x="-29" y="1420" type="line"/>
+      <point x="-272" y="1420" type="line"/>
     </contour>
     <contour>
-      <point x="-940" y="856" type="line"/>
-      <point x="296" y="856" type="line"/>
-      <point x="296" y="1120" type="line"/>
-      <point x="-940" y="1120" type="line"/>
+      <point x="-937" y="862" type="line"/>
+      <point x="296" y="862" type="line"/>
+      <point x="296" y="1110" type="line"/>
+      <point x="-937" y="1110" type="line"/>
     </contour>
     <component base="period" xOffset="-82"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

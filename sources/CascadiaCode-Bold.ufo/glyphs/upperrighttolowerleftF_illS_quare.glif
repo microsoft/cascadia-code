@@ -7,27 +7,31 @@ uni25A8
 </note>
   <outline>
     <contour>
-      <point x="1087" y="1060" type="line"/>
-      <point x="956" y="1181" type="line"/>
-      <point x="129" y="354" type="line"/>
-      <point x="250" y="223" type="line"/>
+      <point x="1084" y="1063" type="line"/>
+      <point x="957" y="1181" type="line"/>
+      <point x="126" y="351" type="line"/>
+      <point x="244" y="223" type="line"/>
     </contour>
     <contour>
-      <point x="1026" y="689" type="line"/>
-      <point x="1026" y="921" type="line"/>
-      <point x="391" y="286" type="line"/>
-      <point x="623" y="286" type="line"/>
+      <point x="1030" y="682" type="line"/>
+      <point x="1030" y="911" type="line"/>
+      <point x="398" y="279" type="line"/>
+      <point x="627" y="279" type="line"/>
     </contour>
     <contour>
-      <point x="814" y="1117" type="line"/>
-      <point x="582" y="1117" type="line"/>
-      <point x="156" y="711" type="line"/>
-      <point x="156" y="459" type="line"/>
+      <point x="805" y="1127" type="line"/>
+      <point x="576" y="1127" type="line"/>
+      <point x="150" y="718" type="line"/>
+      <point x="150" y="472" type="line"/>
     </contour>
     <component base="whiteSquare" xScale="-1" xOffset="1200"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

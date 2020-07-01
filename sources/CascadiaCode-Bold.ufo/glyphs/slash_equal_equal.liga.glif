@@ -3,33 +3,37 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-1520" y="326" type="line"/>
-      <point x="-278" y="326" type="line"/>
-      <point x="-278" y="579" type="line"/>
-      <point x="-1412" y="579" type="line"/>
+      <point x="-1518" y="333" type="line"/>
+      <point x="-278" y="333" type="line"/>
+      <point x="-278" y="575" type="line"/>
+      <point x="-1413" y="575" type="line"/>
     </contour>
     <contour>
-      <point x="-1303" y="836" type="line"/>
-      <point x="-278" y="836" type="line"/>
-      <point x="-278" y="1092" type="line"/>
-      <point x="-1193" y="1092" type="line"/>
+      <point x="-1299" y="841" type="line"/>
+      <point x="-278" y="841" type="line"/>
+      <point x="-278" y="1085" type="line"/>
+      <point x="-1192" y="1085" type="line"/>
     </contour>
     <contour>
-      <point x="-120" y="326" type="line"/>
-      <point x="920" y="326" type="line"/>
-      <point x="920" y="579" type="line"/>
-      <point x="-120" y="579" type="line"/>
+      <point x="-120" y="333" type="line"/>
+      <point x="920" y="333" type="line"/>
+      <point x="920" y="575" type="line"/>
+      <point x="-120" y="575" type="line"/>
     </contour>
     <contour>
-      <point x="-120" y="836" type="line"/>
-      <point x="920" y="836" type="line"/>
-      <point x="920" y="1092" type="line"/>
-      <point x="-120" y="1092" type="line"/>
+      <point x="-120" y="841" type="line"/>
+      <point x="920" y="841" type="line"/>
+      <point x="920" y="1085" type="line"/>
+      <point x="-120" y="1085" type="line"/>
     </contour>
     <component base="slash" xOffset="-2280"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

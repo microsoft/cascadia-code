@@ -4,16 +4,21 @@
   <unicode hex="215E"/>
   <outline>
     <contour>
-      <point x="206" y="286" type="line"/>
-      <point x="1136" y="976" type="line"/>
-      <point x="1004" y="1126" type="line"/>
-      <point x="74" y="442" type="line"/>
+      <point x="203" y="288" type="line"/>
+      <point x="1133" y="974" type="line"/>
+      <point x="1007" y="1121" type="line"/>
+      <point x="77" y="440" type="line"/>
     </contour>
     <component base="sevensuperior" xOffset="-260"/>
     <component base="eightinferior" xOffset="270"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

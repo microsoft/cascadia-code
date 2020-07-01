@@ -9,32 +9,36 @@
   <outline>
     <contour>
       <point x="966" y="-424" type="curve" smooth="yes"/>
-      <point x="998" y="-424"/>
-      <point x="1038" y="-421"/>
-      <point x="1076" y="-415" type="curve"/>
-      <point x="1094" y="-185" type="line"/>
-      <point x="1064" y="-192"/>
-      <point x="1035" y="-196"/>
-      <point x="1012" y="-196" type="curve" smooth="yes"/>
-      <point x="957" y="-196"/>
-      <point x="926" y="-168"/>
-      <point x="926" y="-118" type="curve" smooth="yes"/>
-      <point x="926" y="-43"/>
-      <point x="990" y="0"/>
+      <point x="997" y="-424"/>
+      <point x="1036" y="-421"/>
+      <point x="1073" y="-415" type="curve"/>
+      <point x="1091" y="-195" type="line"/>
+      <point x="1061" y="-202"/>
+      <point x="1032" y="-206"/>
+      <point x="1009" y="-206" type="curve" smooth="yes"/>
+      <point x="951" y="-206"/>
+      <point x="918" y="-177"/>
+      <point x="918" y="-126" type="curve" smooth="yes"/>
+      <point x="918" y="-46"/>
+      <point x="985" y="0"/>
       <point x="1100" y="0" type="curve"/>
       <point x="1080" y="32" type="line"/>
       <point x="840" y="30" type="line"/>
-      <point x="840" y="-30" type="line"/>
-      <point x="761" y="-53"/>
-      <point x="716" y="-119"/>
-      <point x="716" y="-212" type="curve" smooth="yes"/>
-      <point x="716" y="-347"/>
-      <point x="807" y="-424"/>
+      <point x="840" y="-28" type="line"/>
+      <point x="762" y="-52"/>
+      <point x="718" y="-118"/>
+      <point x="718" y="-212" type="curve" smooth="yes"/>
+      <point x="718" y="-347"/>
+      <point x="808" y="-424"/>
     </contour>
     <component base="E"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
