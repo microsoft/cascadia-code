@@ -51,8 +51,6 @@ feature rclt;
 
 feature calt {
 sub dcaron' [lacute lcaron lcommaaccent ldot lslash b h k l hbar hcircumflex kcommaaccent @Uppercase] by dcaron.alt;
-sub \zero \x' @HexDigit by \x.multiply;
-sub @Digit \x' @Digit by \x.multiply;
 } calt;
 
 feature ccmp {
