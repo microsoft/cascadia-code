@@ -14,6 +14,7 @@ from statmake import lib, classes
 INPUT_DIR = Path("sources")
 OUTPUT_DIR = Path("build")
 VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode.ttx"
+PL_VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCodePL.ttx"
 
 
 def step_set_font_name(n):
@@ -144,7 +145,10 @@ def build_variable_fonts(designspace, *steps):
     lib.apply_stylespace_to_variable_font(styleSpace,varFont,{})
 
     print(f"[{familyName}] Merging VTT")
-    vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
+    if "PL" in familyName:
+        vttLib.transfer.merge_from_file(varFont, PL_VTT_DATA_FILE)
+    else:
+        vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
 
     print(f"[{familyName}] Saving")
     varFont.save(file_path)
@@ -254,7 +258,7 @@ if __name__ == "__main__":
                         generator,
                         instance_descriptor,
                         step_set_font_name("Cascadia Mono NF"),
-                        step_remove_ligatures,
+                        step_set_feature_file(INPUT_DIR / "features" / "features_mono_PL.fea"),
                         step_merge_nf,
                     )
 
@@ -299,7 +303,7 @@ if __name__ == "__main__":
             build_variable_fonts(
                 designspace,
                 step_set_font_name("Cascadia Mono NF"),
-                step_remove_ligatures,
+                step_set_feature_file(INPUT_DIR / "features" / "features_mono_PL.fea"),
                 step_merge_nf,
             )
 
