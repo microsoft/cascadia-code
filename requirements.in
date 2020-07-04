@@ -1,3 +1,8 @@
+# Add or remove dependencies here and then use pip-tool's 
+#   pip-compile -U requirements.in
+# to update requirements.txt (the lock file, so to speak).
+
 fontmake
+psautohint
 statmake
 vttLib
