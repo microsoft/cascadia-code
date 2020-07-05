@@ -31,4 +31,4 @@ jobs:
     - name: Lint sources
       run: ufolint sources/*.ufo
     - name: Build font(s)
-      run: python build.py
+      run: python build.py -S
