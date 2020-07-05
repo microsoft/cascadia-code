@@ -44,47 +44,179 @@
     </source>
   </sources>
   <instances>
-    <instance name="Cascadia Code ExtraLight" familyname="Cascadia Code" stylename="ExtraLight" filename="instance_ufos/CascadiaCode-ExtraLight.ufo" stylemapfamilyname="Cascadia Code ExtraLight" stylemapstylename="regular">
+    <instance name="Cascadia Code ExtraLight" familyname="Cascadia Code" stylename="ExtraLight" filename="../build/instance_ufos/CascadiaCode-ExtraLight.ufo" stylemapfamilyname="Cascadia Code ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="140"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Cascadia Code Light" familyname="Cascadia Code" stylename="Light" filename="instance_ufos/CascadiaCode-Light.ufo" stylemapfamilyname="Cascadia Code Light" stylemapstylename="regular">
+    <instance name="Cascadia Code Light" familyname="Cascadia Code" stylename="Light" filename="../build/instance_ufos/CascadiaCode-Light.ufo" stylemapfamilyname="Cascadia Code Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="260"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Cascadia Code SemiLight" familyname="Cascadia Code" stylename="SemiLight" filename="instance_ufos/CascadiaCode-SemiLight.ufo" stylemapfamilyname="Cascadia Code SemiLight" stylemapstylename="regular">
+    <instance name="Cascadia Code SemiLight" familyname="Cascadia Code" stylename="SemiLight" filename="../build/instance_ufos/CascadiaCode-SemiLight.ufo" stylemapfamilyname="Cascadia Code SemiLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="380"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Cascadia Code Regular" familyname="Cascadia Code" stylename="Regular" filename="instance_ufos/CascadiaCode-Regular.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="regular">
+    <instance name="Cascadia Code Regular" familyname="Cascadia Code" stylename="Regular" filename="../build/instance_ufos/CascadiaCode-Regular.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="500"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Cascadia Code SemiBold" familyname="Cascadia Code" stylename="SemiBold" filename="instance_ufos/CascadiaCode-SemiBold.ufo" stylemapfamilyname="Cascadia Code SemiBold" stylemapstylename="regular">
+    <instance name="Cascadia Code SemiBold" familyname="Cascadia Code" stylename="SemiBold" filename="../build/instance_ufos/CascadiaCode-SemiBold.ufo" stylemapfamilyname="Cascadia Code SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="650"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Cascadia Code Bold" familyname="Cascadia Code" stylename="Bold" filename="instance_ufos/CascadiaCode-Bold.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="bold">
+    <instance name="Cascadia Code Bold" familyname="Cascadia Code" stylename="Bold" filename="../build/instance_ufos/CascadiaCode-Bold.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="750"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
   </instances>
   <lib>

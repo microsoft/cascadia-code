@@ -46,38 +46,6 @@ def step_set_feature_file(n):
 
     return _set
 
-def set_font_metaData(font, sort):
-    font.info.versionMajor = 2007
-    font.info.versionMinor = 1
-
-    font.info.openTypeOS2Panose = [2, 11, 6, 9, 2, 0, 0, 2, 0, 4]
-
-    font.info.openTypeOS2TypoAscender = 1900
-    font.info.openTypeOS2TypoDescender = -480
-    font.info.openTypeOS2TypoLineGap = 0
-
-    font.info.openTypeHheaAscender = font.info.openTypeOS2TypoAscender
-    font.info.openTypeHheaDescender = font.info.openTypeOS2TypoDescender
-    font.info.openTypeHheaLineGap = font.info.openTypeOS2TypoLineGap
-
-    font.info.openTypeOS2WinAscent = 2226
-    font.info.openTypeOS2WinDescent = abs(font.info.openTypeOS2TypoDescender)
-
-    if sort != "otf":
-        font.info.openTypeGaspRangeRecords =[
-            {
-                "rangeMaxPPEM" : 9,
-                "rangeGaspBehavior" : [1,3]
-            },
-            {
-                "rangeMaxPPEM" : 50,
-                "rangeGaspBehavior" : [0,1,2,3]
-            },
-            {
-                "rangeMaxPPEM" : 65535,
-                "rangeGaspBehavior" : [1,3]
-            },
-        ]
 
 def build_font_instance(generator, instance_descriptor, *steps):
     for format in ["otf"]: # removed TTF from here
@@ -85,9 +53,6 @@ def build_font_instance(generator, instance_descriptor, *steps):
 
         for step in steps:
             step(instance)
-
-
-        set_font_metaData(instance, format)
 
         familyName = instance.info.familyName
         fontName = familyName +" "+instance.info.styleName
@@ -119,9 +84,6 @@ def build_font_instance(generator, instance_descriptor, *steps):
 def build_variable_fonts(designspace, *steps):
 
     sourceFonts = [ufoLib2.Font.open(INPUT_DIR / designspace.sources[0].filename), ufoLib2.Font.open(INPUT_DIR / designspace.sources[1].filename), ufoLib2.Font.open(INPUT_DIR / designspace.sources[2].filename)]
-
-    for source in sourceFonts:
-        set_font_metaData(source, "var")
 
     designspace.sources[0].font = sourceFonts[0] #ExtraLight
     designspace.sources[1].font = sourceFonts[1] #Regular

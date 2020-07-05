@@ -165,8 +165,46 @@
     </array>
     <key>italicAngle</key>
     <integer>0</integer>
+    <key>openTypeGaspRangeRecords</key>
+    <array>
+      <dict>
+        <key>rangeGaspBehavior</key>
+        <array>
+          <integer>1</integer>
+          <integer>3</integer>
+        </array>
+        <key>rangeMaxPPEM</key>
+        <integer>9</integer>
+      </dict>
+      <dict>
+        <key>rangeGaspBehavior</key>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+          <integer>2</integer>
+          <integer>3</integer>
+        </array>
+        <key>rangeMaxPPEM</key>
+        <integer>50</integer>
+      </dict>
+      <dict>
+        <key>rangeGaspBehavior</key>
+        <array>
+          <integer>1</integer>
+          <integer>3</integer>
+        </array>
+        <key>rangeMaxPPEM</key>
+        <integer>65535</integer>
+      </dict>
+    </array>
     <key>openTypeHeadCreated</key>
     <string>2019/04/07 17:18:29</string>
+    <key>openTypeHheaAscender</key>
+    <integer>1900</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-480</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
     <key>openTypeNameDesigner</key>
     <string>Aaron Bell</string>
     <key>openTypeNameDesignerURL</key>
@@ -214,8 +252,18 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     </array>
     <key>openTypeOS2Type</key>
     <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>1900</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-480</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
     <key>openTypeOS2VendorID</key>
     <string>SAJA</string>
+    <key>openTypeOS2WinAscent</key>
+    <integer>2226</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>480</integer>
     <key>postscriptBlueValues</key>
     <array>
       <integer>-20</integer>
@@ -265,9 +313,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <key>unitsPerEm</key>
     <integer>2048</integer>
     <key>versionMajor</key>
-    <integer>4</integer>
+    <integer>2007</integer>
     <key>versionMinor</key>
-    <integer>300</integer>
+    <integer>1</integer>
     <key>xHeight</key>
     <integer>1060</integer>
   </dict>
