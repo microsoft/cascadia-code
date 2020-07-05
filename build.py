@@ -220,7 +220,6 @@ if __name__ == "__main__":
                         generator,
                         instance_descriptor,
                         step_set_font_name("Cascadia Mono NF"),
-                        step_remove_ligatures,
                         step_merge_nf,
                     )
 
@@ -265,7 +264,6 @@ if __name__ == "__main__":
             build_variable_fonts(
                 designspace,
                 step_set_font_name("Cascadia Mono NF"),
-                step_remove_ligatures,
                 step_merge_nf,
             )
 
