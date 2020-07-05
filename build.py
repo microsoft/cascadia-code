@@ -114,23 +114,26 @@ def build_variable_fonts(designspace, *steps):
 
     print(f"[{familyName}] Done: {file_path}")
 
-    print(f"[{familyName}] Compiling CFF2")
-    file_path_cff2 = (OUTPUT_DIR / file_stem).with_suffix(f".otf")
-    #Do not optimize, because we have to do it again after autohinting.
-    varFontCFF2 = ufo2ft.compileVariableCFF2(designspace,
-       inplace=True,
-       useProductionNames=True,
-       optimizeCFF=ufo2ft.CFFOptimization.NONE,
-    )
+    # XXX: Disable variable OTF (CFF2) compilation until psautohint can better
+    #      deal with overlaps: https://github.com/adobe-type-tools/psautohint/issues/40
+    
+    # print(f"[{familyName}] Compiling CFF2")
+    # file_path_cff2 = (OUTPUT_DIR / file_stem).with_suffix(f".otf")
+    # # Do not optimize, because we have to do it again after autohinting.
+    # varFontCFF2 = ufo2ft.compileVariableCFF2(
+    #    designspace,
+    #    inplace=True,  # Can compile in-place because `designspace` won't be reused here.
+    #    useProductionNames=True,
+    #    optimizeCFF=ufo2ft.CFFOptimization.NONE,
+    # )
 
-    print(f"[{familyName}] Adding STAT table")
-    styleSpace = classes.Stylespace.from_file(INPUT_DIR / "STAT.plist")
-    lib.apply_stylespace_to_variable_font(styleSpace,varFontCFF2,{})
+    # print(f"[{familyName}] Adding STAT table")
+    # lib.apply_stylespace_to_variable_font(styleSpace,varFontCFF2,{})
 
-    print(f"[{familyName}] Saving")
-    varFontCFF2.save(file_path_cff2)
+    # print(f"[{familyName}] Saving")
+    # varFontCFF2.save(file_path_cff2)
 
-    print(f"[{familyName}] Done: {file_path_cff2}")
+    # print(f"[{familyName}] Done: {file_path_cff2}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="build some fonts")
