@@ -22,7 +22,7 @@ The variants contained within are:
 
 For optimal rendering quality, we recommend using the TTF version on Windows and any other OS that employs TrueType hinting. The OTF version is supplied for users who prefer that format.
 
-Once unzipped, open the font file—this will open a new window displaying the characters included in the font along with the font displayed at different sizes. This window should have an "Install" button that will install the font on your machine when clicked.
+Once unzipped, right-click the font file and click "Install for all users". This will install the font onto your machine. 
 
 👉 **Note:** If you have previously installed a version of Cascadia Code, please uninstall the previous version *prior* to installing a new version. Not doing so can result in improper rendering. 
 
