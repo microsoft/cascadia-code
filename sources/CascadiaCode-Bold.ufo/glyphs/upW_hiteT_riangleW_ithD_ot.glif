@@ -24,9 +24,16 @@ uni25EC
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>upWhiteTriangle</string>
+        </dict>
       </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>

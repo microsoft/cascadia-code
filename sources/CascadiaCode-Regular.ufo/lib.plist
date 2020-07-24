@@ -13,9 +13,11 @@
     <key>GSOffsetVertical</key>
     <integer>110</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1340</string>
+    <string>1343</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
+    <array>
+      <string>/u-cy/brevecomb-cy/ushort-cy</string>
+    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
@@ -1694,11 +1696,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>brevecomb-cy.case</string>
       <string>uni0009</string>
       <string>LIG</string>
-      <string>baht.BRACKET.600</string>
-      <string>dollar.BRACKET.600</string>
-      <string>dollar_greater.liga.BRACKET.600</string>
-      <string>less_dollar.liga.BRACKET.600</string>
-      <string>less_dollar_greater.liga.BRACKET.600</string>
+      <string>fi</string>
+      <string>fl</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>

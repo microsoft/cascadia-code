@@ -1131,6 +1131,9 @@ lookup ccmp_Other_2 {
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
 
+sub fi by f i;
+sub fl by f l;
+
 } ccmp;
 
 feature locl {

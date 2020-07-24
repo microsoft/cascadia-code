@@ -2,7 +2,8 @@
 <glyph name="iogonek" format="2">
   <advance width="1200"/>
   <unicode hex="012F"/>
-  <anchor x="670" y="0" name="bottom"/>
+  <anchor x="670" y="-280" name="bottom"/>
+  <anchor x="653" y="1480" name="top"/>
   <outline>
     <contour>
       <point x="678" y="-424" type="curve" smooth="yes"/>
@@ -32,9 +33,16 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>i</string>
+        </dict>
       </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>

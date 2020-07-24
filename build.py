@@ -52,8 +52,6 @@ def set_font_metaData(font, sort):
     font.info.versionMajor = 2007
     font.info.versionMinor = 1
 
-    font.info.openTypeOS2Panose = [2, 11, 6, 9, 2, 0, 0, 2, 0, 4]
-
     font.info.openTypeOS2TypoAscender = 1900
     font.info.openTypeOS2TypoDescender = -480
     font.info.openTypeOS2TypoLineGap = 0

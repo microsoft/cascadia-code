@@ -2,6 +2,8 @@
 <glyph name="Etatonos" format="2">
   <advance width="1200"/>
   <unicode hex="0389"/>
+  <anchor x="688" y="0" name="bottom"/>
+  <anchor x="688" y="1420" name="top"/>
   <outline>
     <contour>
       <point x="946" y="0" type="line"/>
@@ -12,7 +14,7 @@
     <contour>
       <point x="340" y="0" type="line"/>
       <point x="430" y="0" type="line"/>
-      <point x="430" y="1420" type="line"/>
+      <point x="428" y="1420" type="line"/>
       <point x="340" y="1420" type="line"/>
     </contour>
     <contour>
