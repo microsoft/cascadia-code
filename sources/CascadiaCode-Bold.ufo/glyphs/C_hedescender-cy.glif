@@ -2,6 +2,8 @@
 <glyph name="Chedescender-cy" format="2">
   <advance width="1200"/>
   <unicode hex="04B6"/>
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
       <point x="915" y="-290" type="line"/>
@@ -13,9 +15,16 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Che-cy</string>
+        </dict>
       </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>

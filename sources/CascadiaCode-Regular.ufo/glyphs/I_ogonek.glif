@@ -2,7 +2,7 @@
 <glyph name="Iogonek" format="2">
   <advance width="1200"/>
   <unicode hex="012E"/>
-  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="-280" name="bottom"/>
   <anchor x="1080" y="10" name="ogonek"/>
   <anchor x="600" y="1420" name="top"/>
   <anchor x="20" y="1420" name="topleft"/>
@@ -22,7 +22,7 @@
       <point x="546" y="-61"/>
       <point x="628" y="0"/>
       <point x="770" y="0" type="curve"/>
-      <point x="750" y="32" type="line"/>
+      <point x="770" y="32" type="line"/>
       <point x="510" y="30" type="line"/>
       <point x="510" y="-20" type="line"/>
       <point x="437" y="-44"/>
