@@ -51,6 +51,14 @@ Corrected malformed IJacute dioacritics
 Introduced a compatibility layout for PowerLine glyphs that will
 be used in GDI
 
+08-25-2020 (Aaron Bell) [Version 2008.25]
+Started generating static TTFs and hinting them with ttfautohint
+Aligned the powerline glyphs to the font metrics exactly
+Realigned the box drawing glyphs to match the letters
+Added anchors to all alphabetic characters (and brevecomb-cy)
+added fi/fl ligatures (decomposed!)
+Fixed the weight of horncomb in bold
+
 Acknowledgements
 -----------------------------------
 

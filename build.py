@@ -49,8 +49,8 @@ def step_set_feature_file(n):
     return _set
 
 def set_font_metaData(font, sort):
-    font.info.versionMajor = 2007
-    font.info.versionMinor = 15
+    font.info.versionMajor = 2008
+    font.info.versionMinor = 25
 
     font.info.openTypeOS2TypoAscender = 1900
     font.info.openTypeOS2TypoDescender = -480
