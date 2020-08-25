@@ -40,14 +40,23 @@ jobs:
     pool:
       vmImage: windowsserver2019
     steps:
+    - task: NuGetToolInstaller@1
+      displayName: 'Use NuGet'
+
+    - task: NuGetAuthenticate@0
+
+    - task: NuGetCommand@2
+      displayName: 'NuGet install VTT'
+      inputs:
+        command: custom
+        arguments: 'install -Source https://microsoft.pkgs.visualstudio.com/_packaging/OpenConsole/nuget/v3/index.json Microsoft.VTT.Tools'
+
     - task: DownloadPipelineArtifact@2
       displayName: 'Download Compiled TTF'
       inputs:
         artifactName: output
         itemPattern: '**\*.ttf'
         targetPath: output
-
-    - getPackage: vttshell
 
     - powershell: |
        Get-ChildItem . -Recurse -Filter *.ttf | % {
