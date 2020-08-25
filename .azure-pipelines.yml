@@ -5,7 +5,6 @@ resources:
       connection: OpenConsolePackageConnection
       name: Microsoft.VTT.Tools
       version: 6.33.0
-      trigger: false
 
 jobs:
   - job: build
