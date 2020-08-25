@@ -1,11 +1,3 @@
-resources:
-  packages:
-    - package: vttshell
-      type: NuGet
-      connection: OpenConsolePackageConnection
-      name: Microsoft.VTT.Tools
-      version: 6.33.0
-
 jobs:
   - job: build
     displayName: Build Font (macOS)
