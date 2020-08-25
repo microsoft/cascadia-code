@@ -1,0 +1,95 @@
+resources:
+  packages:
+    - package: vttshell
+      type: NuGet
+      connection: OpenConsolePackageConnection
+      name: Microsoft.VTT.Tools
+      version: 6.33.0
+      trigger: false
+
+jobs:
+  - job: build
+    displayName: Build Font (macOS)
+    pool:
+      vmImage: macOS-latest
+    steps:
+      - task: UsePythonVersion@0
+        displayName: 'Use Python 3.x'
+
+      - bash: |
+         brew install ttfautohint
+         pip install -r requirements.txt ufolint
+        displayName: 'Install build dependencies'
+
+      - bash: |
+         ufolint sources/*.ufo
+        displayName: 'Lint sources'
+
+      - bash: |
+         python ./build.py -S
+        displayName: 'Build font(s)'
+
+      - task: PublishPipelineArtifact@1
+        displayName: 'Publish TTF/OTF'
+        inputs:
+          targetPath: build
+          artifact: output
+
+  - job: hint
+    displayName: Hint Font (Windows)
+    dependsOn: build
+    pool:
+      vmImage: windowsserver2019
+    steps:
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Compiled TTF'
+      inputs:
+        artifactName: output
+        itemPattern: '**\*.ttf'
+        targetPath: output
+
+    - getPackage: vttshell
+
+    - powershell: |
+       Get-ChildItem . -Recurse -Filter *.ttf | % {
+           .\Microsoft.VTT.Tools.6.33.0\tools\vttshell.exe -a -s $_.FullName
+       }
+       
+       mkdir hinted
+       Get-ChildItem . -Recurse -Filter *.ttf | Move-Item -Destination hinted
+      displayName: 'Run VTT on *.ttf'
+
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish Hinted TTF'
+      inputs:
+        targetPath: hinted
+        artifact: 'output-hinted'
+
+  - job: postprocess
+    displayName: Postprocess (macOS)
+    dependsOn: hint
+    pool:
+      vmImage: macOS-latest
+    steps:
+    - task: UsePythonVersion@0
+      displayName: 'Use Python 3.x'
+
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Hinted TTF'
+      inputs:
+        artifactName: 'output-hinted'
+        itemPattern: '*.ttf'
+        targetPath: build
+
+    - bash: |
+       pip install -r requirements.txt brotli
+       python ./build_WOFF.py
+       rm -v build/*.ttf
+      displayName: 'Install deps, build WOFF fonts'
+
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish WOFF fonts'
+      inputs:
+        targetPath: build
+        artifact: 'woff2'
+
