@@ -1,3 +1,9 @@
+parameters:
+  - name: static
+    displayName: Generate Static Fonts
+    type: boolean
+    default: true
+
 jobs:
   - job: build
     displayName: Build Font (macOS)
@@ -16,10 +22,15 @@ jobs:
          ufolint sources/*.ufo
         displayName: 'Lint sources'
 
-        # add -S to build static fonts
-      - bash: |
-         python ./build.py
-        displayName: 'Build font(s)'
+      - ${{ if eq(parameters.static, true) }}
+        - bash: |
+           python ./build.py -S
+          displayName: 'Build variable + static fonts'
+
+      - ${{ if eq(parameters.static, false) }}
+        - bash: |
+           python ./build.py
+          displayName: 'Build variable fonts only'
 
       - task: PublishPipelineArtifact@1
         displayName: 'Publish TTF/OTF'
@@ -114,14 +125,6 @@ jobs:
       vmImage: macOS-latest
     steps:
     - task: DownloadPipelineArtifact@2
-      displayName: 'Download Static TTFs'
-      inputs:
-        artifactName: output
-        itemPattern: |
-          static/*.ttf
-        targetPath: archive/static-ttf
-
-    - task: DownloadPipelineArtifact@2
       displayName: 'Download Hinted TTFs'
       inputs:
         artifactName: 'output-variable-hinted'
@@ -129,12 +132,30 @@ jobs:
         targetPath: archive/ttf
 
     - task: DownloadPipelineArtifact@2
+      displayName: 'Download Static TTFs'
+      inputs:
+        artifactName: output
+        itemPattern: |
+          static/*.ttf
+        targetPath: archive/ttf/static
+
+    - task: DownloadPipelineArtifact@2
       displayName: 'Download Static OTFs'
       inputs:
         artifactName: output
         itemPattern: |
           static/*.otf
-        targetPath: archive/otf
+        targetPath: archive/otf/static
+
+    # The woff2s without - in their names are the variable ones
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Variable WOFF2s'
+      inputs:
+        artifactName: 'output-woff2'
+        itemPattern: |
+          *.woff2
+          !*-*.woff2
+        targetPath: archive/woff2
 
     # The woff2s with - in their names are the static ones
     - task: DownloadPipelineArtifact@2
@@ -143,22 +164,12 @@ jobs:
         artifactName: 'output-woff2'
         itemPattern: |
           *-*.woff2
-        targetPath: archive/static-woff2
-
-    # The woff2s without - in their names are the variable ones
-    - task: DownloadPipelineArtifact@2
-      displayName: 'Download Static WOFF2s'
-      inputs:
-        artifactName: 'output-woff2'
-        itemPattern: |
-          *.woff2
-          !*-*.woff2
-        targetPath: archive/woff2
+        targetPath: archive/woff2/static
 
     - bash: |
        mkdir -p out
        cd archive
-       zip -r ../out/CascadiaCode.zip ttf static-ttf otf static-otf woff2 static-otf2
+       zip -r ../out/CascadiaCode.zip ttf otf woff2
       displayName: 'Archive all fonts'
 
     - task: PublishPipelineArtifact@1
