@@ -63,8 +63,8 @@ jobs:
       inputs:
         artifactName: output
         patterns: |
-          **/*.ttf
-          !static/**
+          *.ttf
+          !static/*.ttf
         targetPath: output
 
     - powershell: |
@@ -129,7 +129,8 @@ jobs:
       displayName: 'Download Hinted TTFs'
       inputs:
         artifactName: 'output-variable-hinted'
-        itemPattern: '*.ttf'
+        itemPattern: |
+          *.ttf
         targetPath: archive/ttf
 
     - task: DownloadPipelineArtifact@2
