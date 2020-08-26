@@ -106,8 +106,10 @@ jobs:
         itemPattern: '*.ttf'
         targetPath: build
 
+    # the artifact fetcher will place the static files in static/
     - bash: |
-       find build
+       mv -v build/static/*.ttf build/
+       rm -r -f -v build/static
        pip install -r requirements.txt brotli
        python ./build_WOFF.py
        rm -v build/*.ttf
@@ -139,7 +141,7 @@ jobs:
         artifactName: output
         itemPattern: |
           static/*.ttf
-        targetPath: archive/ttf/static
+        targetPath: archive/ttf # static/ is appended by the artifact fetcher
 
     - task: DownloadPipelineArtifact@2
       displayName: 'Download Static OTFs'
@@ -147,7 +149,7 @@ jobs:
         artifactName: output
         itemPattern: |
           static/*.otf
-        targetPath: archive/otf/static
+        targetPath: archive/otf # static/ is appended by the artifact fetcher
 
     # The woff2s without - in their names are the variable ones
     - task: DownloadPipelineArtifact@2
