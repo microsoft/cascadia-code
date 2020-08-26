@@ -3,7 +3,6 @@ from pathlib import Path
 import argparse
 import copy
 import os
-import itertools
 
 import fontmake.instantiator
 import fontTools.designspaceLib
@@ -201,7 +200,7 @@ if __name__ == "__main__":
         # Prepare masters for interpolation.
         generator = fontmake.instantiator.Instantiator.from_designspace(designspace)
 
-        for instance_descriptor in itertools.islice(designspace.instances, 3, 4):
+        for instance_descriptor in designspace.instances:
             # Generate instances once.
             instance = generator.generate_instance(instance_descriptor)
             glyphsLib.interpolation.apply_instance_data_to_ufo(instance, instance_descriptor, designspace)
