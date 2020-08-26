@@ -173,7 +173,6 @@ jobs:
     - bash: |
        mkdir -p out
        cd archive
-       find .
        zip -r ../out/CascadiaCode.zip ttf otf woff2
       displayName: 'Archive all fonts'
 
