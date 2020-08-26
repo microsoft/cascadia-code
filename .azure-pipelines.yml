@@ -107,6 +107,7 @@ jobs:
         targetPath: build
 
     - bash: |
+       find build
        pip install -r requirements.txt brotli
        python ./build_WOFF.py
        rm -v build/*.ttf
@@ -169,6 +170,7 @@ jobs:
     - bash: |
        mkdir -p out
        cd archive
+       find .
        zip -r ../out/CascadiaCode.zip ttf otf woff2
       displayName: 'Archive all fonts'
 
