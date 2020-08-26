@@ -1,0 +1,190 @@
+trigger: none
+pr: none
+
+parameters:
+  - name: static
+    displayName: Generate Static Fonts
+    type: boolean
+    default: true
+
+jobs:
+  - job: build
+    displayName: Build Font (macOS)
+    pool:
+      vmImage: macOS-latest
+    steps:
+      - task: UsePythonVersion@0
+        displayName: 'Use Python 3.x'
+
+      - bash: |
+         brew install ttfautohint
+         pip install -r requirements.txt ufolint
+        displayName: 'Install build dependencies'
+
+      - bash: |
+         ufolint sources/*.ufo
+        displayName: 'Lint sources'
+
+      - ${{ if eq(parameters.static, true) }}:
+        - bash: |
+           python ./build.py -S
+          displayName: 'Build variable + static fonts'
+
+      - ${{ if eq(parameters.static, false) }}:
+        - bash: |
+           python ./build.py
+          displayName: 'Build variable fonts only'
+
+      - task: PublishPipelineArtifact@1
+        displayName: 'Publish TTF/OTF'
+        inputs:
+          targetPath: build
+          artifact: output
+
+  - job: hint
+    displayName: Hint Font (Windows)
+    dependsOn: build
+    pool:
+      vmImage: windows-2019
+    steps:
+    - task: NuGetToolInstaller@1
+      displayName: 'Use NuGet'
+
+    - task: NuGetAuthenticate@0
+
+    # In the Microsoft Azure DevOps tenant, NuGetCommand is ambiguous.
+    # This should be `task: NuGetCommand@2`
+    - task: 333b11bd-d341-40d9-afcf-b32d5ce6f23b@2
+      displayName: 'NuGet install VTT'
+      inputs:
+        command: custom
+        arguments: 'install -Source https://microsoft.pkgs.visualstudio.com/_packaging/OpenConsole/nuget/v3/index.json Microsoft.VTT.Tools'
+
+    # Only download ttf files that are not in static/
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Compiled TTF'
+      inputs:
+        artifactName: output
+        patterns: |
+          *.ttf
+          !static/*.ttf
+        targetPath: output
+
+    - powershell: |
+       Get-ChildItem . -Recurse -Filter *.ttf | % {
+           .\Microsoft.VTT.Tools.6.33.0\tools\vttshell.exe -a -s $_.FullName
+       }
+       
+       mkdir hinted
+       Get-ChildItem . -Recurse -Filter *.ttf | Move-Item -Destination hinted
+      displayName: 'Run VTT on *.ttf'
+
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish Hinted TTF'
+      inputs:
+        targetPath: hinted
+        artifact: 'output-variable-hinted'
+
+  - job: alt_formats
+    displayName: Generate alternate formats (macOS)
+    dependsOn: hint
+    pool:
+      vmImage: macOS-latest
+    steps:
+    - task: UsePythonVersion@0
+      displayName: 'Use Python 3.x'
+
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Static TTFs'
+      inputs:
+        artifactName: output
+        itemPattern: |
+          static/*.ttf
+        targetPath: build
+
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Hinted TTFs'
+      inputs:
+        artifactName: 'output-variable-hinted'
+        itemPattern: '*.ttf'
+        targetPath: build
+
+    # the artifact fetcher will place the static files in static/
+    - bash: |
+       mv -v build/static/*.ttf build/
+       rm -r -f -v build/static
+       pip install -r requirements.txt brotli
+       python ./build_WOFF.py
+       rm -v build/*.ttf
+      displayName: 'Install deps, build WOFF fonts'
+
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish WOFF fonts'
+      inputs:
+        targetPath: build
+        artifact: 'output-woff2'
+
+  - job: archive
+    displayName: Archive Output (macOS)
+    dependsOn: [ "alt_formats", "hint", "build" ]
+    pool:
+      vmImage: macOS-latest
+    steps:
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Hinted TTFs'
+      inputs:
+        artifactName: 'output-variable-hinted'
+        itemPattern: |
+          *.ttf
+        targetPath: archive/ttf
+
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Static TTFs'
+      inputs:
+        artifactName: output
+        itemPattern: |
+          static/*.ttf
+        targetPath: archive/ttf # static/ is appended by the artifact fetcher
+
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Static OTFs'
+      inputs:
+        artifactName: output
+        itemPattern: |
+          static/*.otf
+        targetPath: archive/otf # static/ is appended by the artifact fetcher
+
+    # The woff2s without - in their names are the variable ones
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Variable WOFF2s'
+      inputs:
+        artifactName: 'output-woff2'
+        itemPattern: |
+          *.woff2
+          !*-*.woff2
+        targetPath: archive/woff2
+
+    # The woff2s with - in their names are the static ones
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Static WOFF2s'
+      inputs:
+        artifactName: 'output-woff2'
+        itemPattern: |
+          *-*.woff2
+        targetPath: archive/woff2/static
+
+    # inexplicably, the exclusion pattern above doesn't remove all of the static woffs...
+    # delete them manually.
+    - bash: |
+       mkdir -p out
+       cd archive
+       rm -f -v woff2/*-*.woff2
+       zip -r ../out/CascadiaCode.zip ttf otf woff2
+      displayName: 'Archive all fonts'
+
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish archive'
+      inputs:
+        targetPath: out
+        artifact: 'archive'
+
