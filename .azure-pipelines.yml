@@ -71,7 +71,7 @@ jobs:
         targetPath: hinted
         artifact: 'output-variable-hinted'
 
-  - job: alt-formats
+  - job: alt_formats
     displayName: Generate alternate formats (macOS)
     dependsOn: hint
     pool:
@@ -109,7 +109,7 @@ jobs:
 
   - job: archive
     displayName: Archive Output (macOS)
-    dependsOn: [ "alt-formats", "hint", "build" ]
+    dependsOn: [ "alt_formats", "hint", "build" ]
     pool:
       vmImage: macOS-latest
     steps:
