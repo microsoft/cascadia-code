@@ -170,9 +170,12 @@ jobs:
           *-*.woff2
         targetPath: archive/woff2/static
 
+    # inexplicably, the exclusion pattern above doesn't remove all of the static woffs...
+    # delete them manually.
     - bash: |
        mkdir -p out
        cd archive
+       rm -f -v woff2/*-*.woff2
        zip -r ../out/CascadiaCode.zip ttf otf woff2
       displayName: 'Archive all fonts'
 
