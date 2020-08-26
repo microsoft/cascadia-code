@@ -22,12 +22,12 @@ jobs:
          ufolint sources/*.ufo
         displayName: 'Lint sources'
 
-      - ${{ if eq(parameters.static, true) }}
+      - ${{ if eq(parameters.static, true) }}:
         - bash: |
            python ./build.py -S
           displayName: 'Build variable + static fonts'
 
-      - ${{ if eq(parameters.static, false) }}
+      - ${{ if eq(parameters.static, false) }}:
         - bash: |
            python ./build.py
           displayName: 'Build variable fonts only'
