@@ -201,7 +201,7 @@ if __name__ == "__main__":
         # Prepare masters for interpolation.
         generator = fontmake.instantiator.Instantiator.from_designspace(designspace)
 
-        for instance_descriptor in itertools.islice(designspace.instances, 0, 1):
+        for instance_descriptor in itertools.islice(designspace.instances, 3, 1):
             # Generate instances once.
             instance = generator.generate_instance(instance_descriptor)
             glyphsLib.interpolation.apply_instance_data_to_ufo(instance, instance_descriptor, designspace)
