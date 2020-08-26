@@ -46,11 +46,14 @@ jobs:
         command: custom
         arguments: 'install -Source https://microsoft.pkgs.visualstudio.com/_packaging/OpenConsole/nuget/v3/index.json Microsoft.VTT.Tools'
 
+    # Only download ttf files that are not in static/
     - task: DownloadPipelineArtifact@2
       displayName: 'Download Compiled TTF'
       inputs:
         artifactName: output
-        itemPattern: '**\*.ttf'
+        patterns: |
+          **/*.ttf
+          !static/**
         targetPath: output
 
     - powershell: |
@@ -66,10 +69,10 @@ jobs:
       displayName: 'Publish Hinted TTF'
       inputs:
         targetPath: hinted
-        artifact: 'output-hinted'
+        artifact: 'output-variable-hinted'
 
-  - job: postprocess
-    displayName: Postprocess (macOS)
+  - job: alt-formats
+    displayName: Generate alternate formats (macOS)
     dependsOn: hint
     pool:
       vmImage: macOS-latest
@@ -78,9 +81,17 @@ jobs:
       displayName: 'Use Python 3.x'
 
     - task: DownloadPipelineArtifact@2
-      displayName: 'Download Hinted TTF'
+      displayName: 'Download Static TTFs'
       inputs:
-        artifactName: 'output-hinted'
+        artifactName: output
+        itemPattern: |
+          static/*.ttf
+        targetPath: build
+
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Hinted TTFs'
+      inputs:
+        artifactName: 'output-variable-hinted'
         itemPattern: '*.ttf'
         targetPath: build
 
@@ -94,5 +105,65 @@ jobs:
       displayName: 'Publish WOFF fonts'
       inputs:
         targetPath: build
-        artifact: 'woff2'
+        artifact: 'output-woff2'
+
+  - job: archive
+    displayName: Archive Output (macOS)
+    dependsOn: [ "alt-formats", "hint", "build" ]
+    pool:
+      vmImage: macOS-latest
+    steps:
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Static TTFs'
+      inputs:
+        artifactName: output
+        itemPattern: |
+          static/*.ttf
+        targetPath: archive/static-ttf
+
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Hinted TTFs'
+      inputs:
+        artifactName: 'output-variable-hinted'
+        itemPattern: '*.ttf'
+        targetPath: archive/ttf
+
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Static OTFs'
+      inputs:
+        artifactName: output
+        itemPattern: |
+          static/*.otf
+        targetPath: archive/otf
+
+    # The woff2s with - in their names are the static ones
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Static WOFF2s'
+      inputs:
+        artifactName: 'output-woff2'
+        itemPattern: |
+          *-*.woff2
+        targetPath: archive/static-woff2
+
+    # The woff2s without - in their names are the variable ones
+    - task: DownloadPipelineArtifact@2
+      displayName: 'Download Static WOFF2s'
+      inputs:
+        artifactName: 'output-woff2'
+        itemPattern: |
+          *.woff2
+          !*-*.woff2
+        targetPath: archive/woff2
+
+    - bash: |
+       mkdir -p out
+       cd archive
+       zip -r ../out/CascadiaCode.zip ttf static-ttf otf static-otf woff2 static-otf2
+      displayName: 'Archive all fonts'
+
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish archive'
+      inputs:
+        targetPath: out
+        artifact: 'archive'
 
