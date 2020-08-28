@@ -79,6 +79,7 @@ def set_font_metaData(font, sort):
             },
         ]
 
+
 def overlapFlag(varFont):
     
     glyf = varFont["glyf"]
@@ -312,7 +313,8 @@ if __name__ == "__main__":
     if args.static_fonts == True:
 
         print ("*** *** *** Autohinting Static Fonts *** *** ***")
-        otfs = list(Path("build").glob("*.otf"))
+
+        otfs = list(Path("build/static").glob("*.otf"))
         if otfs:
             for otf in otfs:
                 path = os.fspath(otf)
