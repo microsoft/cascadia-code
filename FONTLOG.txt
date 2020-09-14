@@ -59,6 +59,13 @@ Added anchors to all alphabetic characters (and brevecomb-cy)
 added fi/fl ligatures (decomposed!)
 Fixed the weight of horncomb in bold
 
+9-14-2020
+1) Added support for Salishan language groups
+2) Remastered mark positioning for glyphs with 2 diacritics (needed for Salishan)
+3) Rebuild Build Script to simplify code
+4) Fixed minor other hinting issues
+5) Fixed RVRN substitutions for heavy weight
+
 Acknowledgements
 -----------------------------------
 

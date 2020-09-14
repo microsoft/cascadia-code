@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lmiddletilde" format="2">
+  <advance width="1200"/>
+  <unicode hex="2C62"/>
+  <anchor x="710" y="0" name="bottom"/>
+  <anchor x="694" y="710" name="center"/>
+  <anchor x="445" y="1420" name="top"/>
+  <anchor x="1158" y="1420" name="topright"/>
+  <outline>
+    <contour>
+      <point x="318" y="0" type="line"/>
+      <point x="572" y="0" type="line"/>
+      <point x="572" y="1420" type="line"/>
+      <point x="318" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="318" y="0" type="line"/>
+      <point x="1117" y="0" type="line"/>
+      <point x="1117" y="243" type="line"/>
+      <point x="318" y="243" type="line"/>
+    </contour>
+    <contour>
+      <point x="-14" y="562" type="line"/>
+      <point x="219" y="562" type="line"/>
+      <point x="219" y="647" type="line" smooth="yes"/>
+      <point x="219" y="695"/>
+      <point x="240" y="716"/>
+      <point x="290" y="716" type="curve" smooth="yes"/>
+      <point x="346" y="716"/>
+      <point x="392" y="695"/>
+      <point x="453.2" y="660.8" type="curve" smooth="yes"/>
+      <point x="522" y="622"/>
+      <point x="597" y="590"/>
+      <point x="682" y="590" type="curve" smooth="yes"/>
+      <point x="844" y="590"/>
+      <point x="914" y="669"/>
+      <point x="914" y="854" type="curve" smooth="yes"/>
+      <point x="914" y="970" type="line"/>
+      <point x="682" y="970" type="line"/>
+      <point x="682" y="886" type="line" smooth="yes"/>
+      <point x="682" y="838"/>
+      <point x="665" y="817"/>
+      <point x="621" y="817" type="curve" smooth="yes"/>
+      <point x="571" y="817"/>
+      <point x="525" y="842"/>
+      <point x="474" y="872" type="curve" smooth="yes"/>
+      <point x="399" y="916"/>
+      <point x="329" y="943"/>
+      <point x="242" y="943" type="curve" smooth="yes"/>
+      <point x="64" y="943"/>
+      <point x="-14" y="864"/>
+      <point x="-14" y="679" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

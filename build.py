@@ -18,7 +18,6 @@ INPUT_DIR = Path("sources")
 OUTPUT_DIR = Path("build")
 VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode.ttx"
 
-
 def step_set_font_name(n):
     def _set(instance):
         instance.info.familyName = n
@@ -49,8 +48,8 @@ def step_set_feature_file(n):
     return _set
 
 def set_font_metaData(font, sort):
-    font.info.versionMajor = 2008
-    font.info.versionMinor = 28
+    font.info.versionMajor = 2009
+    font.info.versionMinor = 14
 
     font.info.openTypeOS2TypoAscender = 1900
     font.info.openTypeOS2TypoDescender = -480
@@ -79,10 +78,10 @@ def set_font_metaData(font, sort):
             },
         ]
 
-
 def overlapFlag(varFont):
     
-    glyf = varFont["glyf"]
+    tt = varFont
+    glyf = tt["glyf"]
 
     for glyph_name in glyf.keys():
         glyph = glyf[glyph_name]
@@ -92,44 +91,10 @@ def overlapFlag(varFont):
         # Set OVERLAP_SIMPLE bit for simple glyphs
         elif glyph.numberOfContours > 0:
             glyph.flags[0] |= 0x40
-    return varFont
+    return tt
 
-def build_font_instance(instance, *steps):
-    if os.path.exists(OUTPUT_DIR / "static") == False:
-        os.mkdir(OUTPUT_DIR / "static")
 
-    for step in steps:
-        step(instance)
-
-    familyName = instance.info.familyName
-    fontName = familyName +" "+instance.info.styleName
-
-    file_stem = instance.info.familyName.replace(" ", "")
-
-    for format in ["otf","ttf"]:
-
-        set_font_metaData(instance, format)
-
-        file_path = (OUTPUT_DIR / "static" / str(file_stem+"-"+instance.info.styleName)).with_suffix(f".{format}")
-
-        print(f"[{fontName}] Compiling")
-        if format == "ttf":
-            instance_font = ufo2ft.compileTTF(instance, removeOverlaps=True, inplace=True)
-        else:
-            # Do not optimize, because we have to do it again after autohinting.
-            instance_font = ufo2ft.compileOTF(
-                instance,
-                removeOverlaps=True,
-                inplace=True,
-                optimizeCFF=ufo2ft.CFFOptimization.NONE
-            )
-
-        print(f"[{fontName}] Saving")
-        instance_font.save(file_path)
-
-        print(f"[{fontName}] Done: {file_path}")
-
-def build_variable_fonts(designspace, *steps):
+def build_fonts(designspace, static, *steps):
     for font in [source.font for source in designspace.sources]:
         for step in steps:
             step(font)
@@ -157,25 +122,28 @@ def build_variable_fonts(designspace, *steps):
 
     print(f"[{familyName}] Done: {file_path}")
 
-    # Disable variable OTF (CFF2) compilation until psautohint can better deal with overlaps: https://github.com/adobe-type-tools/psautohint/issues/40
+    if static:
+        if os.path.exists(OUTPUT_DIR / "static") == False:
+            os.mkdir(OUTPUT_DIR / "static")
+        generator = fontmake.instantiator.Instantiator.from_designspace(designspace)
+        print(f"[{familyName}] Building static instances")
+        for instance_descriptor in designspace.instances:
+            instance = generator.generate_instance(instance_descriptor)
+            print(f"[{familyName}] "+instance.info.styleName)
+            instance = generator.generate_instance(instance_descriptor)
+            staticTTF = ufo2ft.compileTTF(instance,removeOverlaps=True)
+            staticOTF = ufo2ft.compileOTF(instance,removeOverlaps=True)
 
-    # print(f"[{familyName}] Compiling CFF2")
-    # file_path_cff2 = (OUTPUT_DIR / file_stem).with_suffix(f".otf")
-    # # Do not optimize, because we have to do it again after autohinting.
-    # varFontCFF2 = ufo2ft.compileVariableCFF2(
-    #    designspace,
-    #    inplace=True,  # Can compile in-place because `designspace` won't be reused here.
-    #    useProductionNames=True,
-    #    optimizeCFF=ufo2ft.CFFOptimization.NONE,
-    # )
+            file_name = file_stem+"-"+instance.info.styleName
 
-    # print(f"[{familyName}] Adding STAT table")
-    # lib.apply_stylespace_to_variable_font(styleSpace,varFontCFF2,{})
+            file_path_static = (OUTPUT_DIR / "static" / file_name).with_suffix(f".ttf")
+            file_path_static_otf = (OUTPUT_DIR / "static" / file_name).with_suffix(f".otf")
 
-    # print(f"[{familyName}] Saving")
-    # varFontCFF2.save(file_path_cff2)
+            staticTTF.save(file_path_static)
+            staticOTF.save(file_path_static_otf)
 
-    # print(f"[{familyName}] Done: {file_path_cff2}")
+        print(f"[{familyName}] Done building static instances")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="build some fonts")
@@ -195,7 +163,6 @@ if __name__ == "__main__":
         if s.lib.get("com.schriftgestaltung.export", True)
     ]
 
-
     OUTPUT_DIR.mkdir(exist_ok=True)
 
     step_merge_pl = step_merge_glyphs_from_ufo(
@@ -212,106 +179,63 @@ if __name__ == "__main__":
             INPUT_DIR / "nerdfonts" / "NerdfontsNF.ufo"
         )
 
-    if args.static_fonts == True:
-        # Prepare masters for interpolation.
-        generator = fontmake.instantiator.Instantiator.from_designspace(designspace)
-
-        for instance_descriptor in designspace.instances:
-            # Generate instances once.
-            instance = generator.generate_instance(instance_descriptor)
-            glyphsLib.interpolation.apply_instance_data_to_ufo(instance, instance_descriptor, designspace)
-
-            build_font_instance(
-                copy.deepcopy(instance),
-                step_set_feature_file(INPUT_DIR / "features" / "features_code.fea"),
-            )
-
-            if not args.no_mono:
-                build_font_instance(
-                    copy.deepcopy(instance),
-                    step_set_font_name("Cascadia Mono"),
-                    step_set_feature_file(INPUT_DIR / "features" / "features_mono.fea"),
-                )
-
-            if not args.no_powerline:
-                build_font_instance(
-                    copy.deepcopy(instance),
-                    step_set_font_name("Cascadia Code PL"),
-                    step_set_feature_file(INPUT_DIR / "features" / "features_code_PL.fea"),
-                    step_merge_pl,
-                )
-
-                if not args.no_mono:
-                    build_font_instance(
-                        copy.deepcopy(instance),
-                        step_set_font_name("Cascadia Mono PL"),
-                        step_set_feature_file(INPUT_DIR / "features" / "features_mono_PL.fea"),
-                        step_merge_pl,
-                    )
-
-            if not args.no_nerdfonts:
-                build_font_instance(
-                    copy.deepcopy(instance),
-                    step_set_font_name("Cascadia Code NF"),
-                    step_merge_nf,
-                )
-
-                if not args.no_mono:
-                    build_font_instance(
-                        copy.deepcopy(instance),
-                        step_set_font_name("Cascadia Mono NF"),
-                        step_merge_nf,
-                    )
-
     print ("*** *** *** Building Variable Fonts *** *** ***")
 
     designspace.loadSourceFonts(ufoLib2.Font.open, lazy=False)
-    build_variable_fonts(
+    build_fonts(
         copy.deepcopy(designspace), 
+        args.static_fonts,
         step_set_feature_file(INPUT_DIR / "features" / "features_code.fea"),
     )
 
     if not args.no_mono:
-        build_variable_fonts(
+        build_fonts(
             copy.deepcopy(designspace),
+            args.static_fonts,
             step_set_font_name("Cascadia Mono"),
             step_set_feature_file(INPUT_DIR / "features" / "features_mono.fea"),
         )
 
     if not args.no_powerline:
-        build_variable_fonts(
+        build_fonts(
             copy.deepcopy(designspace),
+            args.static_fonts,
             step_set_font_name("Cascadia Code PL"),
             step_set_feature_file(INPUT_DIR / "features" / "features_code_PL.fea"),
             step_merge_pl,
         )
 
         if not args.no_mono:
-            build_variable_fonts(
+            build_fonts(
                 copy.deepcopy(designspace),
+                args.static_fonts,
                 step_set_font_name("Cascadia Mono PL"),
                 step_set_feature_file(INPUT_DIR / "features" / "features_mono_PL.fea"),
                 step_merge_pl,
             )
 
     if not args.no_nerdfonts:
-        build_variable_fonts(
+        build_fonts(
             copy.deepcopy(designspace),
+            args.static_fonts,
             step_set_font_name("Cascadia Code NF"),
             step_merge_nf,
         )
 
         if not args.no_mono:
-            build_variable_fonts(
+            build_fonts(
                 copy.deepcopy(designspace),
+                args.static_fonts,
                 step_set_font_name("Cascadia Mono NF"),
                 step_merge_nf,
             )
 
+    print("All done")
+    print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
 
 
     if args.static_fonts == True:
-
+    
         print ("*** *** *** Autohinting Static Fonts *** *** ***")
 
         otfs = list(Path("build/static").glob("*.otf"))
@@ -335,6 +259,3 @@ if __name__ == "__main__":
                         os.rename(path[:-4]+"-hinted.ttf", path)
         except:
             print ("ttfautohint failed. Please reinstall and try again.")
-
-    print("All done")
-    print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
