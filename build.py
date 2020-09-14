@@ -6,7 +6,6 @@ import os
 
 import fontmake.instantiator
 import fontTools.designspaceLib
-from fontTools.varLib import mutator
 import ufo2ft
 import ufoLib2
 import glyphsLib.interpolation
