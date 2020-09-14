@@ -115,6 +115,8 @@ def build_fonts(designspace, static, *steps):
     print(f"[{familyName}] Merging VTT")
     vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
 
+    varFont = overlapFlag(varFont)
+
     print(f"[{familyName}] Saving")
     varFont.save(file_path)
 
@@ -233,6 +235,7 @@ if __name__ == "__main__":
     if args.static_fonts == True:
     
         print ("*** *** *** Autohinting Static Fonts *** *** ***")
+
         otfs = list(Path("build/static").glob("*.otf"))
         if otfs:
             for otf in otfs:
