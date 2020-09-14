@@ -50,7 +50,7 @@ def step_set_feature_file(n):
 
 def set_font_metaData(font, sort):
     font.info.versionMajor = 2008
-    font.info.versionMinor = 25
+    font.info.versionMinor = 28
 
     font.info.openTypeOS2TypoAscender = 1900
     font.info.openTypeOS2TypoDescender = -480
@@ -79,6 +79,20 @@ def set_font_metaData(font, sort):
             },
         ]
 
+
+def overlapFlag(varFont):
+    
+    glyf = varFont["glyf"]
+
+    for glyph_name in glyf.keys():
+        glyph = glyf[glyph_name]
+        # Set OVERLAP_COMPOUND bit for compound glyphs
+        if glyph.isComposite():
+            glyph.components[0].flags |= 0x400
+        # Set OVERLAP_SIMPLE bit for simple glyphs
+        elif glyph.numberOfContours > 0:
+            glyph.flags[0] |= 0x40
+    return varFont
 
 def build_font_instance(instance, *steps):
     if os.path.exists(OUTPUT_DIR / "static") == False:
@@ -135,6 +149,8 @@ def build_variable_fonts(designspace, *steps):
 
     print(f"[{familyName}] Merging VTT")
     vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
+
+    varFont = overlapFlag(varFont)
 
     print(f"[{familyName}] Saving")
     varFont.save(file_path)
@@ -297,6 +313,7 @@ if __name__ == "__main__":
     if args.static_fonts == True:
 
         print ("*** *** *** Autohinting Static Fonts *** *** ***")
+
         otfs = list(Path("build/static").glob("*.otf"))
         if otfs:
             for otf in otfs:
