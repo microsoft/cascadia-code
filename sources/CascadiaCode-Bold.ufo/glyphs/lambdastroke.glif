@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lambdastroke" format="2">
+  <advance width="1200"/>
+  <unicode hex="019B"/>
+  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="800" y="1460" name="top"/>
+  <outline>
+    <contour>
+      <point x="96" y="822" type="line"/>
+      <point x="1082" y="1124" type="line"/>
+      <point x="1030" y="1349" type="line"/>
+      <point x="44" y="1047" type="line"/>
+    </contour>
+    <component base="lambda"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

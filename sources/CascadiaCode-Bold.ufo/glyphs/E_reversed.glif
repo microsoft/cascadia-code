@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ereversed" format="2">
+  <advance width="1200"/>
+  <unicode hex="018E"/>
+  <anchor x="570" y="0" name="bottom"/>
+  <anchor x="120" y="10" name="ogonek"/>
+  <anchor x="570" y="1420" name="top"/>
+  <anchor x="1180" y="1420" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1057" y="0" type="line"/>
+      <point x="1057" y="1420" type="line"/>
+      <point x="793" y="1420" type="line"/>
+      <point x="793" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1057" y="0" type="line"/>
+      <point x="1057" y="243" type="line"/>
+      <point x="83" y="243" type="line"/>
+      <point x="83" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1057" y="589" type="line"/>
+      <point x="1057" y="833" type="line"/>
+      <point x="263" y="833" type="line"/>
+      <point x="263" y="589" type="line"/>
+    </contour>
+    <contour>
+      <point x="1057" y="1177" type="line"/>
+      <point x="1057" y="1420" type="line"/>
+      <point x="83" y="1420" type="line"/>
+      <point x="83" y="1177" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>
