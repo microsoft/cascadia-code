@@ -123,6 +123,8 @@ def build_fonts(designspace, static, *steps):
     print(f"[{familyName}] Done: {file_path}")
 
     if static:
+        if os.path.exists(OUTPUT_DIR / "static") == False:
+            os.mkdir(OUTPUT_DIR / "static")
         generator = fontmake.instantiator.Instantiator.from_designspace(designspace)
         print(f"[{familyName}] Building static instances")
         for instance_descriptor in designspace.instances:
