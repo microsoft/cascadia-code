@@ -20,7 +20,7 @@ The variants contained within are:
 -  `Cascadia Mono`: version of Cascadia that doesn't have ligatures
 -  `Cascadia (Code|Mono) PL`: version of Cascadia that has embedded Powerline symbols
 
-For optimal rendering quality, we recommend using the TTF version on Windows and any other OS that employs TrueType hinting. The OTF version is supplied for users who prefer that format.
+For optimal rendering quality, we recommend using the TTF version on Windows and any other OS that employs TrueType hinting. For more information on different font formats, [please check the wiki](https://github.com/microsoft/cascadia-code/wiki/Installing-Cascadia-Code).
 
 Once unzipped, right-click the font file and click "Install for all users". This will install the font onto your machine. 
 
