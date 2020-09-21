@@ -49,7 +49,7 @@ def step_set_feature_file(path: Path, instance: ufoLib2.Font) -> None:
 
 def set_font_metaData(font: ufoLib2.Font) -> None:
     font.info.versionMajor = 2009
-    font.info.versionMinor = 14
+    font.info.versionMinor = 21
 
     font.info.openTypeOS2TypoAscender = 1900
     font.info.openTypeOS2TypoDescender = -480
