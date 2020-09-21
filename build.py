@@ -173,6 +173,7 @@ def compile_variable_and_save(
     print(f"[{familyName}] Merging VTT")
     vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
     if vtt_compile:
+        print(f"[{familyName}] Compiling VTT")
         vttLib.compile_instructions(varFont, ship=True)
 
     varFont = set_overlap_flag(varFont)
