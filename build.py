@@ -105,8 +105,10 @@ def prepare_fonts(
                 NERDFONTS_DIR / "NerdfontsPL-Regular.ufo", source.font
             )
             step_set_font_name(name, source.font)
-        else:
+        elif name == "Cascadia Code":
             step_set_feature_file(FEATURES_DIR / "features_code.fea", source.font)
+        else:
+            print ("Variant name not identified. Please check.")
         set_font_metaData(source.font)
 
 
