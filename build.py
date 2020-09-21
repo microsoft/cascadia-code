@@ -16,6 +16,7 @@ import statmake.classes
 import statmake.lib
 import ufo2ft
 import ufoLib2
+import vttLib
 import vttLib.transfer
 
 INPUT_DIR = Path("sources")
@@ -117,10 +118,12 @@ def prepare_fonts(
 
 
 def build_font_variable(
-    designspace: fontTools.designspaceLib.DesignSpaceDocument, name: str
+    designspace: fontTools.designspaceLib.DesignSpaceDocument,
+    name: str,
+    vtt_compile: bool = True,
 ) -> None:
     prepare_fonts(designspace, name)
-    compile_variable_and_save(designspace)
+    compile_variable_and_save(designspace, vtt_compile)
 
 
 def build_font_static(
@@ -141,6 +144,7 @@ def build_font_static(
 
 def compile_variable_and_save(
     designspace: fontTools.designspaceLib.DesignSpaceDocument,
+    vtt_compile: bool = True,
 ) -> None:
     familyName = designspace.default.font.info.familyName
     file_stem = familyName.replace(" ", "")
@@ -155,6 +159,8 @@ def compile_variable_and_save(
 
     print(f"[{familyName}] Merging VTT")
     vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
+    if vtt_compile:
+        vttLib.compile_instructions(varFont, ship=True)
 
     varFont = set_overlap_flag(varFont)
 
@@ -233,6 +239,14 @@ if __name__ == "__main__":
     parser.add_argument("-P", "--no-powerline", action="store_false", dest="powerline")
     parser.add_argument("-M", "--no-mono", action="store_false", dest="mono")
     parser.add_argument("-S", "--static-fonts", action="store_true")
+    parser.add_argument(
+        "-V",
+        "--no-vtt-compile",
+        action="store_false",
+        dest="vtt_compile",
+        help="Do not compile VTT code but leave in the VTT sources.",
+    )
+    parser.add_argument("-W", "--web-fonts", action="store_true")
     args = parser.parse_args()
 
     # Load Designspace and filter out instances that are marked as non-exportable.
@@ -258,6 +272,7 @@ if __name__ == "__main__":
             (
                 designspace,
                 "Cascadia Code",
+                args.vtt_compile,
             ),
         )
     )
@@ -268,6 +283,7 @@ if __name__ == "__main__":
                 (
                     designspace,
                     "Cascadia Mono",
+                    args.vtt_compile,
                 ),
             )
         )
@@ -278,6 +294,7 @@ if __name__ == "__main__":
                 (
                     designspace,
                     "Cascadia Code PL",
+                    args.vtt_compile,
                 ),
             )
         )
@@ -288,6 +305,7 @@ if __name__ == "__main__":
                     (
                         designspace,
                         "Cascadia Mono PL",
+                        args.vtt_compile,
                     ),
                 )
             )
