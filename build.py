@@ -25,8 +25,6 @@ VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode.ttx"
 FEATURES_DIR = INPUT_DIR / "features"
 NERDFONTS_DIR = INPUT_DIR / "nerdfonts"
 
-timeStart = time.perf_counter()
-
 # Font modifications
 # ****************************************************************
 
