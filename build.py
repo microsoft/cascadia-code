@@ -89,7 +89,9 @@ def set_overlap_flag(varfont: fontTools.ttLib.TTFont) -> fontTools.ttLib.TTFont:
             # Set OVERLAP_SIMPLE bit for simple glyphs
             glyph.flags[0] |= 0x40
 
-    return varfont
+def manualHacks(varfont: fontTools.ttLib.TTFont) -> fontTools.ttLib.TTFont:
+    varfont["head"].flags = 0x000b
+    varfont.importXML(INPUT_DIR / "cvar.ttx")
 
 
 def prepare_fonts(
@@ -179,7 +181,11 @@ def compile_variable_and_save(
         print(f"[{familyName}] Compiling VTT")
         vttLib.compile_instructions(varFont, ship=True)
 
-    varFont = set_overlap_flag(varFont)
+    set_overlap_flag(varFont)
+
+    # last minute manual corrections to set things correctly
+    manualHacks(varFont)
+
 
     print(f"[{familyName}] Saving")
     file_path.parent.mkdir(exist_ok=True, parents=True)
