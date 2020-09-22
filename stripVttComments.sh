@@ -1,6 +1,11 @@
 #!/bin/bash
 TTX_PATH="sources/vtt_data/CascadiaCode.ttx"
-if ! sed -e '/\* VTT 6\./d' < "$TTX_PATH" > "$TTX_PATH.$$"; then
+SED_SCRIPT='
+/\* VTT 6\./d
+/\* GUI generated/d
+/\* ACT generated/d
+'
+if ! sed -e "$SED_SCRIPT" < "$TTX_PATH" > "$TTX_PATH.$$"; then
     printf "failed; not replacing ttx source\n" >&2
     exit 1
 fi
