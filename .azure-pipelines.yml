@@ -10,6 +10,10 @@ parameters:
     type: boolean
     default: true
 
+variables:
+  - name: runCodesignValidationInjectionBG
+    value: false
+
 jobs:
   - job: build
     displayName: Build Font
