@@ -19,6 +19,9 @@ import ufoLib2
 import vttLib
 import vttLib.transfer
 
+VERSION_YEAR_MONTH = 2009
+VERSION_DAY = 22
+
 OUTPUT_DIR = Path("build")
 OUTPUT_OTF_DIR = OUTPUT_DIR / "otf"
 OUTPUT_TTF_DIR = OUTPUT_DIR / "ttf"
@@ -54,8 +57,8 @@ def step_set_feature_file(path: Path, instance: ufoLib2.Font) -> None:
 
 
 def set_font_metaData(font: ufoLib2.Font) -> None:
-    font.info.versionMajor = 2009
-    font.info.versionMinor = 21
+    font.info.versionMajor = VERSION_YEAR_MONTH
+    font.info.versionMinor = VERSION_DAY
 
     font.info.openTypeOS2TypoAscender = 1900
     font.info.openTypeOS2TypoDescender = -480
