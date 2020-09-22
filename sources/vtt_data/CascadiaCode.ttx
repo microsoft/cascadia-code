@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.0">
-
-
-  <TSI0>
-    <!-- This table will be calculated by the compiler -->
-  </TSI0>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.15">
 
   <TSI1>
 
@@ -39714,6 +39709,25 @@ Smooth()
     <glyphgroup name="zeta" value="3"/>
   </TSI5>
 
+  <maxp>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="0x10000"/>
+    <numGlyphs value="1688"/>
+    <maxPoints value="144"/>
+    <maxContours value="36"/>
+    <maxCompositePoints value="92"/>
+    <maxCompositeContours value="15"/>
+    <maxZones value="2"/>
+    <maxTwilightPoints value="16"/>
+    <maxStorage value="47"/>
+    <maxFunctionDefs value="154"/>
+    <maxInstructionDefs value="0"/>
+    <maxStackElements value="776"/>
+    <maxSizeOfInstructions value="3971"/>
+    <maxComponentElements value="3"/>
+    <maxComponentDepth value="3"/>
+  </maxp>
+
   <TSIC>
     <Version value="0x00010001"/>
     <Flags value="0"/>
@@ -39751,23 +39765,181 @@ Smooth()
     </Record>
   </TSIC>
 
-  <maxp>
-    <!-- Most of this table will be recalculated by the compiler -->
-    <tableVersion value="0x10000"/>
-    <numGlyphs value="1547"/>
-    <maxPoints value="148"/>
-    <maxContours value="37"/>
-    <maxCompositePoints value="83"/>
-    <maxCompositeContours value="6"/>
-    <maxZones value="2"/>
-    <maxTwilightPoints value="16"/>
-    <maxStorage value="47"/>
-    <maxFunctionDefs value="154"/>
-    <maxInstructionDefs value="0"/>
-    <maxStackElements value="717"/>
-    <maxSizeOfInstructions value="3971"/>
-    <maxComponentElements value="3"/>
-    <maxComponentDepth value="4"/>
-  </maxp>
+  <cvt>
+    <cv index="0" value="1500"/>
+    <cv index="1" value="20"/>
+    <cv index="2" value="1420"/>
+    <cv index="3" value="20"/>
+    <cv index="4" value="1420"/>
+    <cv index="5" value="20"/>
+    <cv index="6" value="1060"/>
+    <cv index="7" value="20"/>
+    <cv index="8" value="0"/>
+    <cv index="9" value="-20"/>
+    <cv index="10" value="0"/>
+    <cv index="11" value="-20"/>
+    <cv index="12" value="0"/>
+    <cv index="13" value="-20"/>
+    <cv index="14" value="-460"/>
+    <cv index="15" value="-18"/>
+    <cv index="16" value="1420"/>
+    <cv index="17" value="20"/>
+    <cv index="18" value="0"/>
+    <cv index="19" value="-20"/>
+    <cv index="20" value="0"/>
+    <cv index="21" value="206"/>
+    <cv index="22" value="199"/>
+    <cv index="23" value="190"/>
+    <cv index="24" value="190"/>
+    <cv index="25" value="212"/>
+    <cv index="26" value="176"/>
+    <cv index="27" value="176"/>
+    <cv index="28" value="13"/>
+    <cv index="29" value="200"/>
+    <cv index="30" value="10"/>
+    <cv index="31" value="188"/>
+    <cv index="32" value="95"/>
+    <cv index="33" value="-4"/>
+    <cv index="34" value="340"/>
+    <cv index="35" value="142"/>
+    <cv index="36" value="204"/>
+    <cv index="37" value="192"/>
+    <cv index="38" value="195"/>
+    <cv index="39" value="12"/>
+    <cv index="40" value="213"/>
+    <cv index="41" value="176"/>
+    <cv index="42" value="80"/>
+    <cv index="43" value="182"/>
+    <cv index="44" value="-8"/>
+    <cv index="45" value="190"/>
+    <cv index="46" value="117"/>
+    <cv index="47" value="190"/>
+    <cv index="48" value="177"/>
+    <cv index="49" value="213"/>
+    <cv index="50" value="213"/>
+    <cv index="51" value="149"/>
+    <cv index="52" value="334"/>
+    <cv index="53" value="18"/>
+    <cv index="54" value="184"/>
+    <cv index="55" value="154"/>
+    <cv index="56" value="205"/>
+    <cv index="57" value="192"/>
+    <cv index="58" value="3"/>
+    <cv index="59" value="214"/>
+    <cv index="60" value="197"/>
+    <cv index="61" value="181"/>
+    <cv index="62" value="172"/>
+    <cv index="63" value="183"/>
+    <cv index="64" value="163"/>
+    <cv index="65" value="189"/>
+    <cv index="66" value="380"/>
+    <cv index="67" value="184"/>
+    <cv index="68" value="168"/>
+    <cv index="69" value="192"/>
+    <cv index="70" value="203"/>
+    <cv index="71" value="230"/>
+    <cv index="72" value="12"/>
+    <cv index="73" value="30"/>
+    <cv index="74" value="192"/>
+    <cv index="75" value="200"/>
+    <cv index="76" value="211"/>
+    <cv index="77" value="95"/>
+    <cv index="78" value="183"/>
+    <cv index="79" value="190"/>
+    <cv index="80" value="340"/>
+    <cv index="81" value="122"/>
+    <cv index="82" value="142"/>
+    <cv index="83" value="165"/>
+    <cv index="84" value="176"/>
+    <cv index="85" value="187"/>
+    <cv index="86" value="196"/>
+    <cv index="87" value="208"/>
+    <cv index="88" value="216"/>
+    <cv index="89" value="12"/>
+    <cv index="90" value="160"/>
+    <cv index="91" value="176"/>
+    <cv index="92" value="192"/>
+    <cv index="93" value="200"/>
+    <cv index="94" value="212"/>
+    <cv index="95" value="220"/>
+    <cv index="96" value="80"/>
+    <cv index="97" value="140"/>
+    <cv index="98" value="161"/>
+    <cv index="99" value="173"/>
+    <cv index="100" value="180"/>
+    <cv index="101" value="191"/>
+    <cv index="102" value="226"/>
+    <cv index="103" value="117"/>
+    <cv index="104" value="171"/>
+    <cv index="105" value="177"/>
+    <cv index="106" value="185"/>
+    <cv index="107" value="190"/>
+    <cv index="108" value="199"/>
+    <cv index="109" value="204"/>
+    <cv index="110" value="208"/>
+    <cv index="111" value="213"/>
+    <cv index="112" value="138"/>
+    <cv index="113" value="154"/>
+    <cv index="114" value="172"/>
+    <cv index="115" value="202"/>
+    <cv index="116" value="206"/>
+    <cv index="117" value="214"/>
+    <cv index="118" value="220"/>
+    <cv index="119" value="252"/>
+    <cv index="120" value="334"/>
+    <cv index="121" value="18"/>
+    <cv index="122" value="176"/>
+    <cv index="123" value="184"/>
+    <cv index="124" value="190"/>
+    <cv index="125" value="149"/>
+    <cv index="126" value="158"/>
+    <cv index="127" value="192"/>
+    <cv index="128" value="207"/>
+    <cv index="129" value="3"/>
+    <cv index="130" value="171"/>
+    <cv index="131" value="181"/>
+    <cv index="132" value="192"/>
+    <cv index="133" value="201"/>
+    <cv index="134" value="216"/>
+    <cv index="135" value="163"/>
+    <cv index="136" value="170"/>
+    <cv index="137" value="180"/>
+    <cv index="138" value="188"/>
+    <cv index="139" value="201"/>
+    <cv index="140" value="380"/>
+    <cv index="141" value="159"/>
+    <cv index="142" value="168"/>
+    <cv index="143" value="182"/>
+    <cv index="144" value="193"/>
+    <cv index="145" value="204"/>
+    <cv index="146" value="230"/>
+    <cv index="147" value="802"/>
+    <cv index="148" value="1052"/>
+    <cv index="149" value="1730"/>
+    <cv index="150" value="1176"/>
+    <cv index="151" value="810"/>
+    <cv index="152" value="1610"/>
+    <cv index="153" value="1634"/>
+    <cv index="154" value="1620"/>
+    <cv index="155" value="2226"/>
+    <cv index="156" value="1900"/>
+    <cv index="157" value="-480"/>
+  </cvt>
+
+  <cvar>
+    <version major="1" minor="0"/>
+    <tuple>
+      <coord axis="wght" value="-1.0"/>
+      <delta cvt="147" value="-48"/>
+      <delta cvt="148" value="-48"/>
+      <delta cvt="151" value="-45"/>
+    </tuple>
+    <tuple>
+      <coord axis="wght" value="1.0"/>
+      <delta cvt="147" value="28"/>
+      <delta cvt="148" value="33"/>
+      <delta cvt="151" value="33"/>
+    </tuple>
+  </cvar>
 
 </ttFont>
