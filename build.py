@@ -78,7 +78,7 @@ def set_font_metaData(font: ufoLib2.Font) -> None:
     ]
 
 
-def set_overlap_flag(varfont: fontTools.ttLib.TTFont):
+def set_overlap_flag(varfont: fontTools.ttLib.TTFont) -> fontTools.ttLib.TTFont:
     glyf = cast(_g_l_y_f.table__g_l_y_f, varfont["glyf"])
     for glyph_name in glyf.keys():
         glyph = glyf[glyph_name]
@@ -89,8 +89,8 @@ def set_overlap_flag(varfont: fontTools.ttLib.TTFont):
             # Set OVERLAP_SIMPLE bit for simple glyphs
             glyph.flags[0] |= 0x40
 
-def manualHacks(varfont: fontTools.ttLib.TTFont):
-    varfont["head"].flags = 0x000b
+    return varfont
+
 
 def prepare_fonts(
     designspace: fontTools.designspaceLib.DesignSpaceDocument, name: str
@@ -179,10 +179,7 @@ def compile_variable_and_save(
         print(f"[{familyName}] Compiling VTT")
         vttLib.compile_instructions(varFont, ship=True)
 
-    set_overlap_flag(varFont)
-
-    # last minute manual corrections to set things correctly
-    manualHacks(varFont)
+    varFont = set_overlap_flag(varFont)
 
     print(f"[{familyName}] Saving")
     file_path.parent.mkdir(exist_ok=True, parents=True)
