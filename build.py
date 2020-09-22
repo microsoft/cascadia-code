@@ -16,11 +16,20 @@ import statmake.classes
 import statmake.lib
 import ufo2ft
 import ufoLib2
+import vttLib
 import vttLib.transfer
 
-INPUT_DIR = Path("sources")
+VERSION_YEAR_MONTH = 2009
+VERSION_DAY = 22
+
 OUTPUT_DIR = Path("build")
-OUTPUT_STATIC_DIR = OUTPUT_DIR / "static"
+OUTPUT_OTF_DIR = OUTPUT_DIR / "otf"
+OUTPUT_TTF_DIR = OUTPUT_DIR / "ttf"
+OUTPUT_WOFF2_DIR = OUTPUT_DIR / "woff2"
+OUTPUT_STATIC_OTF_DIR = OUTPUT_OTF_DIR / "static"
+OUTPUT_STATIC_TTF_DIR = OUTPUT_TTF_DIR / "static"
+OUTPUT_STATIC_WOFF2_DIR = OUTPUT_WOFF2_DIR / "static"
+INPUT_DIR = Path("sources")
 VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode.ttx"
 FEATURES_DIR = INPUT_DIR / "features"
 NERDFONTS_DIR = INPUT_DIR / "nerdfonts"
@@ -48,8 +57,8 @@ def step_set_feature_file(path: Path, instance: ufoLib2.Font) -> None:
 
 
 def set_font_metaData(font: ufoLib2.Font) -> None:
-    font.info.versionMajor = 2009
-    font.info.versionMinor = 21
+    font.info.versionMajor = VERSION_YEAR_MONTH
+    font.info.versionMinor = VERSION_DAY
 
     font.info.openTypeOS2TypoAscender = 1900
     font.info.openTypeOS2TypoDescender = -480
@@ -80,7 +89,9 @@ def set_overlap_flag(varfont: fontTools.ttLib.TTFont) -> fontTools.ttLib.TTFont:
             # Set OVERLAP_SIMPLE bit for simple glyphs
             glyph.flags[0] |= 0x40
 
-    return varfont
+def manualHacks(varfont: fontTools.ttLib.TTFont) -> fontTools.ttLib.TTFont:
+    varfont["head"].flags = 0x000b
+    varfont.importXML(INPUT_DIR / "cvar.ttx")
 
 
 def prepare_fonts(
@@ -108,8 +119,16 @@ def prepare_fonts(
         elif name == "Cascadia Code":
             step_set_feature_file(FEATURES_DIR / "features_code.fea", source.font)
         else:
-            print ("Variant name not identified. Please check.")
+            print("Variant name not identified. Please check.")
         set_font_metaData(source.font)
+
+
+def to_woff2(source_path: Path, target_path: Path) -> None:
+    print(f"[WOFF2] Compressing {source_path} to {target_path}")
+    font = fontTools.ttLib.TTFont(source_path)
+    font.flavor = "woff2"
+    target_path.parent.mkdir(exist_ok=True, parents=True)
+    font.save(target_path)
 
 
 # Build fonts
@@ -117,10 +136,12 @@ def prepare_fonts(
 
 
 def build_font_variable(
-    designspace: fontTools.designspaceLib.DesignSpaceDocument, name: str
+    designspace: fontTools.designspaceLib.DesignSpaceDocument,
+    name: str,
+    vtt_compile: bool = True,
 ) -> None:
     prepare_fonts(designspace, name)
-    compile_variable_and_save(designspace)
+    compile_variable_and_save(designspace, vtt_compile)
 
 
 def build_font_static(
@@ -141,10 +162,11 @@ def build_font_static(
 
 def compile_variable_and_save(
     designspace: fontTools.designspaceLib.DesignSpaceDocument,
+    vtt_compile: bool = True,
 ) -> None:
     familyName = designspace.default.font.info.familyName
     file_stem = familyName.replace(" ", "")
-    file_path = (OUTPUT_DIR / file_stem).with_suffix(f".ttf")
+    file_path: Path = (OUTPUT_TTF_DIR / file_stem).with_suffix(".ttf")
 
     print(f"[{familyName}] Compiling")
     varFont = ufo2ft.compileVariableTTF(designspace, inplace=True)
@@ -155,10 +177,18 @@ def compile_variable_and_save(
 
     print(f"[{familyName}] Merging VTT")
     vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
+    if vtt_compile:
+        print(f"[{familyName}] Compiling VTT")
+        vttLib.compile_instructions(varFont, ship=True)
 
-    varFont = set_overlap_flag(varFont)
+    set_overlap_flag(varFont)
+
+    # last minute manual corrections to set things correctly
+    manualHacks(varFont)
+
 
     print(f"[{familyName}] Saving")
+    file_path.parent.mkdir(exist_ok=True, parents=True)
     varFont.save(file_path)
 
     print(f"[{familyName}] Done: {file_path}")
@@ -186,10 +216,12 @@ def compile_static_and_save(instance: ufoLib2.Font) -> None:
     )
 
     file_name = f"{family_name}-{style_name}".replace(" ", "")
-    file_path_static = (OUTPUT_STATIC_DIR / file_name).with_suffix(".ttf")
-    file_path_static_otf = (OUTPUT_STATIC_DIR / file_name).with_suffix(".otf")
+    file_path_static = (OUTPUT_STATIC_TTF_DIR / file_name).with_suffix(".ttf")
+    file_path_static_otf = (OUTPUT_STATIC_OTF_DIR / file_name).with_suffix(".otf")
 
+    file_path_static.parent.mkdir(exist_ok=True, parents=True)
     static_ttf.save(file_path_static)
+    file_path_static_otf.parent.mkdir(exist_ok=True, parents=True)
     static_otf.save(file_path_static_otf)
     print(f"[{family_name}] Done: {file_path_static}, {file_path_static_otf}")
 
@@ -216,7 +248,7 @@ def ttfautohint(path: str) -> None:
             "--stem-width",
             "nsn",
             "--reference",
-            "build/static/CascadiaCode-Regular.ttf",
+            os.fspath(OUTPUT_STATIC_TTF_DIR / "CascadiaCode-Regular.ttf"),
             path,
             path[:-4] + "-hinted.ttf",
         ]
@@ -233,6 +265,14 @@ if __name__ == "__main__":
     parser.add_argument("-P", "--no-powerline", action="store_false", dest="powerline")
     parser.add_argument("-M", "--no-mono", action="store_false", dest="mono")
     parser.add_argument("-S", "--static-fonts", action="store_true")
+    parser.add_argument(
+        "-V",
+        "--no-vtt-compile",
+        action="store_false",
+        dest="vtt_compile",
+        help="Do not compile VTT code but leave in the VTT sources.",
+    )
+    parser.add_argument("-W", "--web-fonts", action="store_true")
     args = parser.parse_args()
 
     # Load Designspace and filter out instances that are marked as non-exportable.
@@ -245,10 +285,6 @@ if __name__ == "__main__":
         if s.lib.get("com.schriftgestaltung.export", True)
     ]
 
-    OUTPUT_DIR.mkdir(exist_ok=True)
-    if args.static_fonts:
-        OUTPUT_STATIC_DIR.mkdir(exist_ok=True)
-
     # Stage 1: Make all the things.
     pool = multiprocessing.pool.Pool(processes=multiprocessing.cpu_count())
     processes = []
@@ -258,6 +294,7 @@ if __name__ == "__main__":
             (
                 designspace,
                 "Cascadia Code",
+                args.vtt_compile,
             ),
         )
     )
@@ -268,6 +305,7 @@ if __name__ == "__main__":
                 (
                     designspace,
                     "Cascadia Mono",
+                    args.vtt_compile,
                 ),
             )
         )
@@ -278,6 +316,7 @@ if __name__ == "__main__":
                 (
                     designspace,
                     "Cascadia Code PL",
+                    args.vtt_compile,
                 ),
             )
         )
@@ -288,6 +327,7 @@ if __name__ == "__main__":
                     (
                         designspace,
                         "Cascadia Mono PL",
+                        args.vtt_compile,
                     ),
                 )
             )
@@ -342,12 +382,11 @@ if __name__ == "__main__":
     pool.join()
     for process in processes:
         process.get()
-    del processes
-    del pool
+    del processes, pool
 
     # Stage 2: Autohint and maybe compress all the static things.
     if args.static_fonts is True:
-        otfs = list(Path("build/static").glob("*.otf"))
+        otfs = list(OUTPUT_STATIC_OTF_DIR.glob("*.otf"))
         if otfs:
             pool = multiprocessing.Pool(processes=multiprocessing.cpu_count())
             processes = [pool.apply_async(autohint, (otf,)) for otf in otfs]
@@ -355,12 +394,34 @@ if __name__ == "__main__":
             pool.join()
             for process in processes:
                 process.get()
+            del processes, pool
 
         try:
-            for ttf_path in Path("build/static").glob("*.ttf"):
+            for ttf_path in OUTPUT_STATIC_TTF_DIR.glob("*.ttf"):
                 if not ttf_path.stem.endswith("-hinted"):
                     ttfautohint(os.fspath(ttf_path))
         except Exception as e:
             print(f"ttfautohint failed. Please reinstall and try again. {str(e)}")
+
+    # Stage 3: Have some web fonts.
+    if args.web_fonts:
+        pool = multiprocessing.Pool(processes=multiprocessing.cpu_count())
+        processes = [
+            pool.apply_async(
+                to_woff2,
+                (
+                    path,
+                    # This removes build/ttf from the found files and prepends
+                    # build/woff2 instead, keeping the sub-structure.
+                    OUTPUT_WOFF2_DIR
+                    / path.relative_to(OUTPUT_TTF_DIR).with_suffix(".woff2"),
+                ),
+            )
+            for path in OUTPUT_TTF_DIR.glob("**/*.ttf")
+        ]
+        pool.close()
+        pool.join()
+        for process in processes:
+            process.get()
 
     print("All done.")

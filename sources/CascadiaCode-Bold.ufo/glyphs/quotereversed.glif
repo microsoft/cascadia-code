@@ -3,21 +3,15 @@
   <advance width="1200"/>
   <unicode hex="201B"/>
   <outline>
-    <component base="quoteright" xScale="-1" xOffset="1240"/>
+    <contour>
+      <point x="875" y="730" type="line"/>
+      <point x="706" y="1420" type="line"/>
+      <point x="321" y="1420" type="line"/>
+      <point x="673" y="730" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>quoteright</string>
-        </dict>
-      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
