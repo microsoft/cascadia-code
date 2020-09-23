@@ -8173,10 +8173,21 @@ IUP[X]
     </glyphProgram>
 
     <glyphProgram name="partialdiff">
-
-/* VTTTalk Unicode 0x2202 */
-
-SOFFSET[R], 624, 1202, 0, -1, 0, 0, 1
+/* TT glyph 859, char 0x2202 */
+SVTCA[Y]
+CALL[], 4, 4, 114
+CALL[], 4, 3, 106
+CALL[], 9, 13, 114
+CALL[], 9, 24, 106
+SRP2[], 4
+IP[], 15
+MDAP[R], 15
+SRP2[], 9
+SLOOP[], 7
+IP[], 18, 1, 8, 21, 20, 0, 27
+CALL[], 15, 30, 106
+IUP[Y]
+IUP[X]
 
     </glyphProgram>
 
@@ -8664,10 +8675,13 @@ IUP[X]
     </glyphProgram>
 
     <glyphProgram name="quotereversed">
+/* TT glyph 720, char 0x201b */
+SVTCA[Y]
+CALL[], 3, 16, 114
+CALL[], 3, 1, 106
+IUP[Y]
+IUP[X]
 
-/* VTTTalk Unicode 0x201b */
-
-SOFFSET[R], 719, 1240, 0, -1, 0, 0, 1
 
     </glyphProgram>
 
@@ -31844,6 +31858,25 @@ Smooth()
 
     </glyphProgram>
 
+    <glyphProgram name="partialdiff">
+/* VTTTalk glyph 859, char 0x2202 */
+
+/* Y direction */
+ResYAnchor(4,4)
+ResYDist(4,3)
+ResYAnchor(9,13)
+ResYDist(9,24)
+YIPAnchor(4,15,9)
+YInterpolate(15,18,1,8,21,20,0,27,9)
+ResYDist(15,30)
+
+/* X direction */
+
+Smooth()
+
+
+    </glyphProgram>
+
     <glyphProgram name="percent">
 /* VTTTalk glyph 861, char 0x25 (%) */
 
@@ -32234,6 +32267,20 @@ Smooth()
 /* Y direction */
 ResYAnchor(1,16)
 ResYDist(1,0)
+
+/* X direction */
+
+Smooth()
+
+
+    </glyphProgram>
+
+    <glyphProgram name="quotereversed">
+/* VTTTalk glyph 720, char 0x201b */
+
+/* Y direction */
+ResYAnchor(3,16)
+ResYDist(3,1)
 
 /* X direction */
 
@@ -37973,24 +38020,6 @@ YInterpolate(26,13,27)
 Smooth()
 
     </glyphProgram>
-
-    <extraProgram name="reserved0">
-/* VTTTalk glyph 799, char 0xa2 */
-
-/* Y direction */
-ResYAnchor(4,11)
-YDist(4,3,&gt;=3/2)
-ResYDist(4,23)
-ResYAnchor(10,7)
-YDist(10,1,&gt;=3/2)
-ResYDist(10,17)
-YInterpolate(4,14,13,10)
-
-/* X direction */
-
-Smooth()
-
-    </extraProgram>
 
   </TSI3>
 
