@@ -2,9 +2,13 @@ import argparse
 import multiprocessing
 import multiprocessing.pool
 import os
+import pathlib
+from re import L
 import subprocess
 from pathlib import Path
 from typing import cast
+
+from fontTools.ttLib.tables.TupleVariation import TUPLES_SHARE_POINT_NUMBERS
 
 import cffsubr.__main__
 import fontmake.instantiator
@@ -18,6 +22,8 @@ import ufo2ft
 import ufoLib2
 import vttLib
 import vttLib.transfer
+import xml.etree.cElementTree as ET
+from fontTools.ttLib.tables.TupleVariation import TupleVariation
 
 VERSION_YEAR_MONTH = 2009
 VERSION_DAY = 22
@@ -30,7 +36,7 @@ OUTPUT_STATIC_OTF_DIR = OUTPUT_OTF_DIR / "static"
 OUTPUT_STATIC_TTF_DIR = OUTPUT_TTF_DIR / "static"
 OUTPUT_STATIC_WOFF2_DIR = OUTPUT_WOFF2_DIR / "static"
 INPUT_DIR = Path("sources")
-VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode.ttx"
+VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode_VTT.ttf"
 FEATURES_DIR = INPUT_DIR / "features"
 NERDFONTS_DIR = INPUT_DIR / "nerdfonts"
 
@@ -89,11 +95,6 @@ def set_overlap_flag(varfont: fontTools.ttLib.TTFont) -> fontTools.ttLib.TTFont:
             # Set OVERLAP_SIMPLE bit for simple glyphs
             glyph.flags[0] |= 0x40
 
-def manualHacks(varfont: fontTools.ttLib.TTFont) -> fontTools.ttLib.TTFont:
-    varfont["head"].flags = 0x000b
-    varfont.importXML(INPUT_DIR / "cvar.ttx")
-
-
 def prepare_fonts(
     designspace: fontTools.designspaceLib.DesignSpaceDocument, name: str
 ) -> None:
@@ -129,6 +130,133 @@ def to_woff2(source_path: Path, target_path: Path) -> None:
     font.flavor = "woff2"
     target_path.parent.mkdir(exist_ok=True, parents=True)
     font.save(target_path)
+
+class axisStore():
+    header = []
+    axisTags = []
+    originLocs = []
+    def copy(self):
+        return self
+    def items(self):
+        return self.header
+    def keys(self):
+        return self.axisTags
+    def get(self,axis,values):
+        for o in self.originLocs:
+            if axis in o[0]:
+                return o[1]
+                break
+
+
+
+def reWriteTSI1(vtt_font: fontTools.ttLib.TTFont, varFont: fontTools.ttLib.TTFont) -> None:
+
+    glyphOrder = varFont.getGlyphOrder()
+    glyphOrder_old = vtt_font.getGlyphOrder()
+
+    for program in varFont["TSI1"].glyphPrograms:
+        data = str.encode(varFont["TSI1"].glyphPrograms.get(program))
+        data = str(data.decode())
+
+        lines = data.splitlines()
+
+        newdata = ""
+
+        for line in lines:
+            if "OFFSET" in line:
+                splitLine = line.split(", ")
+                name = glyphOrder_old[int(splitLine[1])]
+                pos = ""
+                if name in glyphOrder:
+                    pos = glyphOrder.index(name)
+                else:
+                    print ("glyph missing from new font file!")
+                    break
+                
+                line = splitLine[0] + ", "+ str(pos)
+                i=2
+                while i < len(splitLine):
+                    line = line+", "+splitLine[i]
+                    i+=1
+            # If the font has been rehinted for any reason, we want to strip these out as they lead to misalignments of diacritics. 
+            elif line == "SVTCA[X]":
+                break
+            newdata = newdata+"\n"+line 
+
+        varFont["TSI1"].glyphPrograms[program] = newdata
+        varFont["TSI1"].glyphPrograms[program].encode()
+
+def makeCVAR (varFont: fontTools.ttLib.TTFont, tree: ET.ElementTree) -> None:
+    root = tree.getroot()
+    TSIC = root.find("TSIC")
+
+    axisSet = []
+    for axis in TSIC.findall("AxisArray"):
+        axisSet.append(axis.get("value"))
+
+    locations = []
+    for loc in TSIC.findall("RecordLocations"):
+        axisLoc = []
+        for axis in loc.findall("Axis"):
+            axisLoc.append([axis.get("index"),axis.get("value")])
+        locations.append(axisLoc)
+    print (locations)
+    CVT_num = []
+    CVT_val = []
+    for rec in TSIC.findall("Record"):
+        RecNum = []
+        RecVal = []
+        for num in rec.findall("CVTArray"):
+            RecNum.append(int(num.get("value")))
+        for pos in rec.findall("CVTValueArray"):
+            RecVal.append(int(pos.get("value")))
+        CVT_num.append(RecNum)
+        CVT_val.append(RecVal)
+
+    variations = []
+
+    # Now let's play the game of making TupleVariation happy, somehow. 
+    for x, l in enumerate(locations):
+
+        for loc in l:
+            support = axisStore()
+
+            for tag in axisSet:
+                support.axisTags.append(tag)
+
+            #support.originLocs.append((x,(-1, -1, 0)))
+
+            for aPos in loc:
+                axisChoice = int(float(loc[0]))
+                if float(aPos[1]) < 0:
+                    support.header.append([axisSet[axisChoice],float(aPos[1])])
+                elif float(aPos[1]) > 0:
+                    support.header.append([axisSet[axisChoice],float(aPos[1])])
+            print (support.header)
+
+        #    if n-1 > 0:
+        #        support = support+", "
+        #    axisChoice = int(float(loc[0]))
+        #    if float(loc[1]) < 0:
+        #        support = axisSet[axisChoice]+"=("+loc[1]+", "+loc[1]+", 0)"
+        #    elif float(loc[1]) > 0:
+        #        support = axisSet[axisChoice]+"=(0, "+loc[1]+", "+loc[1]+")"
+
+            delta = []
+            for i in range(0, len(varFont["cvt "])-1):
+                if i in CVT_num[x]:
+                    deltaVal = CVT_val[x][CVT_num[x].index(i)]
+                    delta.append(deltaVal)
+                else:
+                    delta.append(None)
+            
+            var = TupleVariation(support, delta)
+            print (var)
+            variations.append(var)
+
+    varFont["cvar"] = fontTools.ttLib.newTable('cvar')
+    varFont["cvar"].version = 1
+    varFont["cvar"].variations = variations
 
 
 # Build fonts
@@ -176,16 +304,38 @@ def compile_variable_and_save(
     statmake.lib.apply_stylespace_to_variable_font(styleSpace, varFont, {})
 
     print(f"[{familyName}] Merging VTT")
-    vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
+
+    font_vtt = fontTools.ttLib.TTFont(VTT_DATA_FILE)
+
+    for table in ["TSI0", "TSI1", "TSI2", "TSI3", "TSI5", "TSIC", "maxp"]:
+        varFont[table] = fontTools.ttLib.newTable(table)
+        varFont[table] = font_vtt[table]
+
+    # this will correct the OFFSET[R] commands in TSI1 and remove any icky SVTCA[X]
+    if font_vtt.getGlyphOrder() != varFont.getGlyphOrder():
+        reWriteTSI1(font_vtt, varFont)
+
     if vtt_compile:
         print(f"[{familyName}] Compiling VTT")
+    
+        tree = ET.ElementTree()
+        if os.path.isfile(OUTPUT_DIR / "Cascadia_TSIC.ttx"):
+            tree = ET.parse(OUTPUT_DIR / "Cascadia_TSIC.ttx")
+        else:
+            varFont.saveXML(OUTPUT_DIR / "Cascadia_TSIC.ttx", tables=["TSIC"])
+            tree = ET.parse(OUTPUT_DIR / "Cascadia_TSIC.ttx")
+        os.remove(OUTPUT_DIR / "Cascadia_TSIC.ttx")
+        varFont.saveXML(OUTPUT_DIR / "Cascadia_TSIC.ttx", tables=["TSIC"])
         vttLib.compile_instructions(varFont, ship=True)
+        makeCVAR(varFont, tree)
+
+    else:
+        file_path = Path(str(file_path)[:-4]+"_VTT.ttf")
 
     set_overlap_flag(varFont)
 
     # last minute manual corrections to set things correctly
-    manualHacks(varFont)
-
+    varFont["head"].flags = 0x000b
 
     print(f"[{familyName}] Saving")
     file_path.parent.mkdir(exist_ok=True, parents=True)
