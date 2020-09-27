@@ -44,11 +44,11 @@ NERDFONTS_DIR = INPUT_DIR / "nerdfonts"
 # ****************************************************************
 
 
-def step_set_font_name(name: str, instance: ufoLib2.Font) -> None:
-    instance.info.familyName = name
+def step_set_font_name(name: str, source: ufoLib2.Font) -> None:
+    source.info.familyName = source.info.familyName.replace("Cascadia Code", name)
     # We have to change the style map family name because that's what
     # Windows uses to map Bold/Regular/Medium/etc. fonts
-    instance.info.styleMapFamilyName = name
+    source.info.styleMapFamilyName = source.info.styleMapFamilyName.replace("Cascadia Code", name)
 
 
 def step_merge_glyphs_from_ufo(path: Path, instance: ufoLib2.Font) -> None:
@@ -122,6 +122,10 @@ def prepare_fonts(
         else:
             print("Variant name not identified. Please check.")
         set_font_metaData(source.font)
+    for instance in designspace.instances:
+        instance.name = instance.name.replace("Cascadia Code", name)
+        instance.familyName = instance.familyName.replace("Cascadia Code", name)
+        instance.styleMapFamilyName = instance.styleMapFamilyName.replace("Cascadia Code", name)
 
 
 def to_woff2(source_path: Path, target_path: Path) -> None:
@@ -280,8 +284,7 @@ def build_font_static(
     prepare_fonts(designspace, name)
     generator = fontmake.instantiator.Instantiator.from_designspace(designspace)
     instance = generator.generate_instance(instance_descriptor)
-    step_set_font_name(name, instance)
-    compile_static_and_save(instance)
+    compile_static_and_save(instance, name)
 
 
 # Export fonts
@@ -344,8 +347,8 @@ def compile_variable_and_save(
     print(f"[{familyName}] Done: {file_path}")
 
 
-def compile_static_and_save(instance: ufoLib2.Font) -> None:
-    family_name = instance.info.familyName
+def compile_static_and_save(instance: ufoLib2.Font, name:str) -> None:
+    family_name = name
     style_name = instance.info.styleName
     print(f"[{family_name}] Building static instance: {style_name}")
 
@@ -365,7 +368,7 @@ def compile_static_and_save(instance: ufoLib2.Font) -> None:
         optimizeCFF=ufo2ft.CFFOptimization.NONE,
     )
 
-    file_name = f"{family_name}-{style_name}".replace(" ", "")
+    file_name = name.replace(" ", "") + "-"  + instance.info.styleName
     file_path_static = (OUTPUT_STATIC_TTF_DIR / file_name).with_suffix(".ttf")
     file_path_static_otf = (OUTPUT_STATIC_OTF_DIR / file_name).with_suffix(".otf")
 
