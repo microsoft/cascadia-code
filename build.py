@@ -218,7 +218,7 @@ def compile_static_and_save(instance: ufoLib2.Font, name:str) -> None:
         optimizeCFF=ufo2ft.CFFOptimization.NONE,
     )
 
-    file_name = name.replace(" ", "") + "-"  + instance.info.styleName
+    file_name = f"{family_name}-{style_name}".replace(" ", "")
     file_path_static = (OUTPUT_STATIC_TTF_DIR / file_name).with_suffix(".ttf")
     file_path_static_otf = (OUTPUT_STATIC_OTF_DIR / file_name).with_suffix(".otf")
 
