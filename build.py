@@ -38,11 +38,11 @@ NERDFONTS_DIR = INPUT_DIR / "nerdfonts"
 # ****************************************************************
 
 
-def step_set_font_name(name: str, instance: ufoLib2.Font) -> None:
-    instance.info.familyName = name
+def step_set_font_name(name: str, source: ufoLib2.Font) -> None:
+    source.info.familyName = name
     # We have to change the style map family name because that's what
     # Windows uses to map Bold/Regular/Medium/etc. fonts
-    instance.info.styleMapFamilyName = name
+    source.info.styleMapFamilyName = name
 
 
 def step_merge_glyphs_from_ufo(path: Path, instance: ufoLib2.Font) -> None:
@@ -121,6 +121,9 @@ def prepare_fonts(
         else:
             print("Variant name not identified. Please check.")
         set_font_metaData(source.font)
+    for instance in designspace.instances:
+            instance.familyName = name
+            instance.styleMapFamilyName = name
 
 
 def to_woff2(source_path: Path, target_path: Path) -> None:
@@ -152,7 +155,6 @@ def build_font_static(
     prepare_fonts(designspace, name)
     generator = fontmake.instantiator.Instantiator.from_designspace(designspace)
     instance = generator.generate_instance(instance_descriptor)
-    step_set_font_name(name, instance)
     compile_static_and_save(instance)
 
 
