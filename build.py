@@ -200,7 +200,7 @@ def compile_variable_and_save(
         os.remove(OUTPUT_DIR / "Cascadia_TSIC.ttx")
         varFont.saveXML(OUTPUT_DIR / "Cascadia_TSIC.ttx", tables=["TSIC"])
         vttLib.compile_instructions(varFont, ship=True)
-        makeCVAR(varFont, tree)
+        tsi1.makeCVAR(varFont, tree)
 
     else:
         file_path = Path(str(file_path)[:-4]+"_VTT.ttf")
