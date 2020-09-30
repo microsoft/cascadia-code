@@ -21,7 +21,7 @@ import ufo2ft
 import ufoLib2
 import vttLib
 import vttLib.transfer
-from vttmisc import tsi1
+from vttmisc import tsi1, tsic
 
 VERSION_YEAR_MONTH = 2009
 VERSION_DAY = 22
@@ -186,7 +186,7 @@ def compile_variable_and_save(
 
     # this will correct the OFFSET[R] commands in TSI1
     if font_vtt.getGlyphOrder() != varFont.getGlyphOrder():
-        tsi1.fixOFFSET(font_vtt, varFont)
+        tsi1.fixOFFSET(varFont, font_vtt)
         pass
 
     if vtt_compile:
@@ -197,7 +197,7 @@ def compile_variable_and_save(
         varFont.saveXML(TSICfile.name, tables=["TSIC"])
         tree = ET.parse(TSICfile.name)
         vttLib.compile_instructions(varFont, ship=True)
-        #tsi1.makeCVAR(varFont, tree)
+        tsic.makeCVAR(varFont, tree)
 
     else:
         file_path = Path(str(file_path)[:-4]+"_VTT.ttf")
