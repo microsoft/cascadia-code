@@ -2,12 +2,12 @@ import argparse
 import multiprocessing
 import multiprocessing.pool
 import os
-import pathlib
 from re import L
 import subprocess
 from pathlib import Path
 from typing import cast
 import xml.etree.cElementTree as ET
+import tempfile
 
 import cffsubr.__main__
 import fontmake.instantiator
@@ -187,20 +187,17 @@ def compile_variable_and_save(
     # this will correct the OFFSET[R] commands in TSI1
     if font_vtt.getGlyphOrder() != varFont.getGlyphOrder():
         tsi1.fixOFFSET(font_vtt, varFont)
+        pass
 
     if vtt_compile:
         print(f"[{familyName}] Compiling VTT")
-    
+        
         tree = ET.ElementTree()
-        if os.path.isfile(OUTPUT_DIR / "Cascadia_TSIC.ttx"):
-            tree = ET.parse(OUTPUT_DIR / "Cascadia_TSIC.ttx")
-        else:
-            varFont.saveXML(OUTPUT_DIR / "Cascadia_TSIC.ttx", tables=["TSIC"])
-            tree = ET.parse(OUTPUT_DIR / "Cascadia_TSIC.ttx")
-        os.remove(OUTPUT_DIR / "Cascadia_TSIC.ttx")
-        varFont.saveXML(OUTPUT_DIR / "Cascadia_TSIC.ttx", tables=["TSIC"])
+        TSICfile = tempfile.NamedTemporaryFile()
+        varFont.saveXML(TSICfile.name, tables=["TSIC"])
+        tree = ET.parse(TSICfile.name)
         vttLib.compile_instructions(varFont, ship=True)
-        tsi1.makeCVAR(varFont, tree)
+        #tsi1.makeCVAR(varFont, tree)
 
     else:
         file_path = Path(str(file_path)[:-4]+"_VTT.ttf")
