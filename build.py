@@ -2,7 +2,6 @@ import argparse
 import multiprocessing
 import multiprocessing.pool
 import os
-from re import L
 import subprocess
 from pathlib import Path
 from typing import cast
