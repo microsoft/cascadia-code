@@ -94,7 +94,7 @@ When you'd like the team to take a look, (even if the work is not yet fully-comp
 
 ### Merge
 
-Once your code has been reviewed and approved by the requisite number of team members, it will be merged into the master branch. Once merged, your PR will be automatically closed.
+Once your code has been reviewed and approved by the requisite number of team members, it will be merged into the main branch. Once merged, your PR will be automatically closed.
 
 ---
 
