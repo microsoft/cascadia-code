@@ -5,6 +5,8 @@ import os
 import subprocess
 from pathlib import Path
 from typing import cast
+import xml.etree.cElementTree as ET
+import tempfile
 
 import cffsubr.__main__
 import fontmake.instantiator
@@ -18,6 +20,7 @@ import ufo2ft
 import ufoLib2
 import vttLib
 import vttLib.transfer
+from vttmisc import tsi1, tsic
 
 VERSION_YEAR_MONTH = 2009
 VERSION_DAY = 22
@@ -30,7 +33,7 @@ OUTPUT_STATIC_OTF_DIR = OUTPUT_OTF_DIR / "static"
 OUTPUT_STATIC_TTF_DIR = OUTPUT_TTF_DIR / "static"
 OUTPUT_STATIC_WOFF2_DIR = OUTPUT_WOFF2_DIR / "static"
 INPUT_DIR = Path("sources")
-VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode.ttx"
+VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode_VTT.ttf"
 FEATURES_DIR = INPUT_DIR / "features"
 NERDFONTS_DIR = INPUT_DIR / "nerdfonts"
 
@@ -89,11 +92,6 @@ def set_overlap_flag(varfont: fontTools.ttLib.TTFont) -> fontTools.ttLib.TTFont:
             # Set OVERLAP_SIMPLE bit for simple glyphs
             glyph.flags[0] |= 0x40
 
-def manualHacks(varfont: fontTools.ttLib.TTFont) -> fontTools.ttLib.TTFont:
-    varfont["head"].flags = 0x000b
-    varfont.importXML(INPUT_DIR / "cvar.ttx")
-
-
 def prepare_fonts(
     designspace: fontTools.designspaceLib.DesignSpaceDocument, name: str
 ) -> None:
@@ -133,7 +131,6 @@ def to_woff2(source_path: Path, target_path: Path) -> None:
     font.flavor = "woff2"
     target_path.parent.mkdir(exist_ok=True, parents=True)
     font.save(target_path)
-
 
 # Build fonts
 # ****************************************************************
@@ -179,16 +176,35 @@ def compile_variable_and_save(
     statmake.lib.apply_stylespace_to_variable_font(styleSpace, varFont, {})
 
     print(f"[{familyName}] Merging VTT")
-    vttLib.transfer.merge_from_file(varFont, VTT_DATA_FILE)
+
+    font_vtt = fontTools.ttLib.TTFont(VTT_DATA_FILE)
+
+    for table in ["TSI0", "TSI1", "TSI2", "TSI3", "TSI5", "TSIC", "maxp"]:
+        varFont[table] = fontTools.ttLib.newTable(table)
+        varFont[table] = font_vtt[table]
+
+    # this will correct the OFFSET[R] commands in TSI1
+    if font_vtt.getGlyphOrder() != varFont.getGlyphOrder():
+        tsi1.fixOFFSET(varFont, font_vtt)
+        pass
+
     if vtt_compile:
         print(f"[{familyName}] Compiling VTT")
+        
+        tree = ET.ElementTree()
+        TSICfile = tempfile.NamedTemporaryFile()
+        varFont.saveXML(TSICfile.name, tables=["TSIC"])
+        tree = ET.parse(TSICfile.name)
         vttLib.compile_instructions(varFont, ship=True)
+        tsic.makeCVAR(varFont, tree)
+
+    else:
+        file_path = Path(str(file_path)[:-4]+"_VTT.ttf")
 
     set_overlap_flag(varFont)
 
     # last minute manual corrections to set things correctly
-    manualHacks(varFont)
-
+    varFont["head"].flags = 0x000b
 
     print(f"[{familyName}] Saving")
     file_path.parent.mkdir(exist_ok=True, parents=True)
