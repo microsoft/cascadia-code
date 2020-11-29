@@ -94,10 +94,12 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Adotbelow</string>
       <string>Agrave</string>
       <string>Ahookabove</string>
+      <string>Alpha-latin</string>
       <string>Amacron</string>
       <string>Aogonek</string>
       <string>Aring</string>
       <string>Aringacute</string>
+      <string>Astroke</string>
       <string>Atilde</string>
       <string>AE</string>
       <string>AEacute</string>
@@ -108,6 +110,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Ccedilla</string>
       <string>Ccircumflex</string>
       <string>Cdotaccent</string>
+      <string>Cstroke</string>
       <string>D</string>
       <string>Eth</string>
       <string>Dcaron</string>
@@ -130,6 +133,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Emacron</string>
       <string>Eogonek</string>
       <string>Eopen</string>
+      <string>Ereversed</string>
       <string>Esh</string>
       <string>Etilde</string>
       <string>Ezh</string>
@@ -140,10 +144,12 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Gcircumflex</string>
       <string>Gcommaaccent</string>
       <string>Gdotaccent</string>
+      <string>Gstroke</string>
       <string>H</string>
       <string>Hbar</string>
       <string>Hcaron</string>
       <string>Hcircumflex</string>
+      <string>Hdotbelow</string>
       <string>I</string>
       <string>IJ</string>
       <string>Iacute</string>
@@ -156,16 +162,24 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Ihookabove</string>
       <string>Imacron</string>
       <string>Iogonek</string>
+      <string>Iotaafrican</string>
       <string>Itilde</string>
       <string>J</string>
       <string>Jcircumflex</string>
       <string>K</string>
+      <string>Kacute</string>
       <string>Kcommaaccent</string>
+      <string>Kdotbelow</string>
+      <string>Klinebelow</string>
       <string>L</string>
       <string>Lacute</string>
+      <string>Lbar</string>
       <string>Lcaron</string>
       <string>Lcommaaccent</string>
       <string>Ldot</string>
+      <string>Ldotbelow</string>
+      <string>Llinebelow</string>
+      <string>Lmiddletilde</string>
       <string>Lslash</string>
       <string>M</string>
       <string>N</string>
@@ -174,6 +188,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Ncommaaccent</string>
       <string>Eng</string>
       <string>Nhookleft</string>
+      <string>Nlinebelow</string>
       <string>Ntilde</string>
       <string>O</string>
       <string>Oacute</string>
@@ -196,6 +211,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Ohorntilde</string>
       <string>Ohungarumlaut</string>
       <string>Omacron</string>
+      <string>Omacronacute</string>
+      <string>Omacrongrave</string>
       <string>Oogonek</string>
       <string>Oopen</string>
       <string>Oslash</string>
@@ -209,12 +226,14 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Racute</string>
       <string>Rcaron</string>
       <string>Rcommaaccent</string>
+      <string>Rdotbelow</string>
       <string>S</string>
       <string>Sacute</string>
       <string>Scaron</string>
       <string>Scedilla</string>
       <string>Scircumflex</string>
       <string>Scommaaccent</string>
+      <string>Sdotbelow</string>
       <string>Germandbls</string>
       <string>Schwa</string>
       <string>T</string>
@@ -222,6 +241,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Tcaron</string>
       <string>Tcedilla</string>
       <string>Tcommaaccent</string>
+      <string>Tdiagonalstroke</string>
+      <string>Tlinebelow</string>
       <string>U</string>
       <string>Uacute</string>
       <string>Ubreve</string>
@@ -239,9 +260,12 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Uhungarumlaut</string>
       <string>Umacron</string>
       <string>Uogonek</string>
+      <string>Upsilonafrican</string>
       <string>Uring</string>
       <string>Utilde</string>
       <string>V</string>
+      <string>Gammaafrican</string>
+      <string>Vhook</string>
       <string>Vturned</string>
       <string>W</string>
       <string>Wacute</string>
@@ -268,7 +292,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Oacute.loclPLK</string>
       <string>Sacute.loclPLK</string>
       <string>Zacute.loclPLK</string>
+      <string>Asmall</string>
+      <string>Gsmall</string>
       <string>Ismall</string>
+      <string>Lsmall</string>
       <string>a</string>
       <string>aacute</string>
       <string>abreve</string>
@@ -288,6 +315,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>adotbelow</string>
       <string>agrave</string>
       <string>ahookabove</string>
+      <string>alpha-latin</string>
       <string>amacron</string>
       <string>aogonek</string>
       <string>aring</string>
@@ -326,19 +354,25 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>eopen</string>
       <string>esh</string>
       <string>etilde</string>
+      <string>eturned</string>
       <string>schwa</string>
       <string>ezh</string>
       <string>f</string>
       <string>g</string>
+      <string>gamma-latin</string>
       <string>gbreve</string>
       <string>gcaron</string>
       <string>gcircumflex</string>
       <string>gcommaaccent</string>
       <string>gdotaccent</string>
+      <string>glottalstop</string>
+      <string>glottalstopreversed</string>
+      <string>gstroke</string>
       <string>h</string>
       <string>hbar</string>
       <string>hcaron</string>
       <string>hcircumflex</string>
+      <string>hdotbelow</string>
       <string>i</string>
       <string>idotless</string>
       <string>iacute</string>
@@ -351,18 +385,28 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>ij</string>
       <string>imacron</string>
       <string>iogonek</string>
+      <string>iota-latin</string>
       <string>itilde</string>
       <string>j</string>
       <string>jdotless</string>
+      <string>jcaron</string>
       <string>jcircumflex</string>
       <string>k</string>
       <string>kcommaaccent</string>
+      <string>kdotbelow</string>
       <string>kgreenlandic</string>
+      <string>klinebelow</string>
       <string>l</string>
       <string>lacute</string>
+      <string>lambdastroke</string>
+      <string>lbar</string>
+      <string>lbelt</string>
       <string>lcaron</string>
       <string>lcommaaccent</string>
       <string>ldot</string>
+      <string>ldotbelow</string>
+      <string>llinebelow</string>
+      <string>lmiddletilde</string>
       <string>lslash</string>
       <string>m</string>
       <string>n</string>
@@ -372,6 +416,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>ncommaaccent</string>
       <string>eng</string>
       <string>nhookleft</string>
+      <string>nlinebelow</string>
       <string>ntilde</string>
       <string>o</string>
       <string>oacute</string>
@@ -394,6 +439,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>ohorntilde</string>
       <string>ohungarumlaut</string>
       <string>omacron</string>
+      <string>omacronacute</string>
+      <string>omacrongrave</string>
       <string>oogonek</string>
       <string>oopen</string>
       <string>oslash</string>
@@ -407,12 +454,14 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>racute</string>
       <string>rcaron</string>
       <string>rcommaaccent</string>
+      <string>rdotbelow</string>
       <string>s</string>
       <string>sacute</string>
       <string>scaron</string>
       <string>scedilla</string>
       <string>scircumflex</string>
       <string>scommaaccent</string>
+      <string>sdotbelow</string>
       <string>germandbls</string>
       <string>longs</string>
       <string>t</string>
@@ -438,9 +487,11 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uhungarumlaut</string>
       <string>umacron</string>
       <string>uogonek</string>
+      <string>upsilon-latin</string>
       <string>uring</string>
       <string>utilde</string>
       <string>v</string>
+      <string>vhook</string>
       <string>vturned</string>
       <string>w</string>
       <string>wacute</string>
@@ -469,10 +520,14 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>sacute.loclPLK</string>
       <string>zacute.loclPLK</string>
       <string>x.multiply</string>
+      <string>fi</string>
+      <string>fl</string>
       <string>w_w_w.liga</string>
       <string>ordfeminine</string>
       <string>ordmasculine</string>
       <string>nmod</string>
+      <string>wmod</string>
+      <string>ymod</string>
       <string>A-cy</string>
       <string>Be-cy</string>
       <string>Ve-cy</string>
@@ -692,6 +747,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>epsilontonos</string>
       <string>etatonos</string>
       <string>kaiSymbol</string>
+      <string>thetamod</string>
+      <string>zmod</string>
       <string>zero</string>
       <string>one</string>
       <string>two</string>
@@ -1636,8 +1693,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>numeral-greek</string>
       <string>lowernumeral-greek</string>
       <string>apostrophemod</string>
+      <string>colontriangularmod</string>
       <string>commaturnedmod</string>
       <string>firsttonechinese</string>
+      <string>glottalstopmod</string>
       <string>dieresiscomb</string>
       <string>dotaccentcomb</string>
       <string>gravecomb</string>
@@ -1651,11 +1710,16 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>macroncomb</string>
       <string>hookabovecomb</string>
       <string>commaturnedabovecomb</string>
+      <string>commaabovecomb</string>
+      <string>commaaboverightcomb</string>
       <string>horncomb</string>
       <string>dotbelowcomb</string>
+      <string>ringbelowcomb</string>
       <string>commaaccentcomb</string>
       <string>cedillacomb</string>
       <string>ogonekcomb</string>
+      <string>macronbelowcomb</string>
+      <string>lowlinecomb</string>
       <string>gravetonecomb</string>
       <string>acutetonecomb</string>
       <string>dieresis</string>
@@ -1694,70 +1758,6 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>brevecomb-cy.case</string>
       <string>uni0009</string>
       <string>LIG</string>
-      <string>fi</string>
-      <string>fl</string>
-      <string>Alpha-latin</string>
-      <string>Astroke</string>
-      <string>Cstroke</string>
-      <string>Ereversed</string>
-      <string>Gstroke</string>
-      <string>Hdotbelow</string>
-      <string>Iotaafrican</string>
-      <string>Kacute</string>
-      <string>Kdotbelow</string>
-      <string>Klinebelow</string>
-      <string>Lbar</string>
-      <string>Ldotbelow</string>
-      <string>Llinebelow</string>
-      <string>Lmiddletilde</string>
-      <string>Nlinebelow</string>
-      <string>Omacronacute</string>
-      <string>Omacrongrave</string>
-      <string>Rdotbelow</string>
-      <string>Sdotbelow</string>
-      <string>Tdiagonalstroke</string>
-      <string>Tlinebelow</string>
-      <string>Upsilonafrican</string>
-      <string>Gammaafrican</string>
-      <string>Vhook</string>
-      <string>Asmall</string>
-      <string>Gsmall</string>
-      <string>Lsmall</string>
-      <string>alpha-latin</string>
-      <string>eturned</string>
-      <string>gamma-latin</string>
-      <string>glottalstop</string>
-      <string>glottalstopreversed</string>
-      <string>gstroke</string>
-      <string>hdotbelow</string>
-      <string>iota-latin</string>
-      <string>jcaron</string>
-      <string>kdotbelow</string>
-      <string>klinebelow</string>
-      <string>lambdastroke</string>
-      <string>lbar</string>
-      <string>lbelt</string>
-      <string>ldotbelow</string>
-      <string>llinebelow</string>
-      <string>lmiddletilde</string>
-      <string>nlinebelow</string>
-      <string>omacronacute</string>
-      <string>omacrongrave</string>
-      <string>rdotbelow</string>
-      <string>sdotbelow</string>
-      <string>upsilon-latin</string>
-      <string>vhook</string>
-      <string>wmod</string>
-      <string>ymod</string>
-      <string>thetamod</string>
-      <string>zmod</string>
-      <string>colontriangularmod</string>
-      <string>glottalstopmod</string>
-      <string>commaabovecomb</string>
-      <string>commaaboverightcomb</string>
-      <string>ringbelowcomb</string>
-      <string>macronbelowcomb</string>
-      <string>lowlinecomb</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>

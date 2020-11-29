@@ -17,8 +17,8 @@ Other related repositories include:
 The variants contained within are:
 
 -  `Cascadia Code`: standard version of Cascadia
--  `Cascadia Mono`: version of Cascadia that doesn't have ligatures
--  `Cascadia (Code|Mono) PL`: version of Cascadia that has embedded Powerline symbols
+-  `Cascadia Mono`: a version of Cascadia that doesn't have ligatures
+-  `Cascadia (Code|Mono) PL`: a version of Cascadia that has embedded Powerline symbols
 
 For optimal rendering quality, we recommend using the TTF version on Windows and any other OS that employs TrueType hinting. For more information on different font formats, [please check the wiki](https://github.com/microsoft/cascadia-code/wiki/Installing-Cascadia-Code).
 
@@ -34,7 +34,7 @@ Instructions on how to modify and submit an update to the Cascadia Code source i
 
 # Communicating with the Team
 
-The easiest way to communicate with the team is via GitHub issues. Please file new issues, feature requests and suggestions, but **DO search for similar open/closed pre-existing issues before you do**.
+The easiest way to communicate with the team is via GitHub Issues. Please file new issues, feature requests and suggestions, but **DO search for similar open/closed pre-existing issues before you do**.
 
 Please help us keep this repository clean, inclusive, and fun! We will not tolerate any abusive, rude, disrespectful or inappropriate behavior. Read our [Code of Conduct](https://opensource.microsoft.com/codeofconduct/) for more details.
 
