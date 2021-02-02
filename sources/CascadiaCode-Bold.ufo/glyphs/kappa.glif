@@ -2,37 +2,31 @@
 <glyph name="kappa" format="2">
   <advance width="1200"/>
   <unicode hex="03BA"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="616" y="1060" name="top"/>
+  <anchor x="590" y="0" name="bottom"/>
+  <anchor x="606" y="1060" name="top"/>
   <outline>
     <contour>
-      <point x="402" y="0" type="line"/>
-      <point x="1144" y="911" type="line"/>
-      <point x="945" y="1080" type="line"/>
-      <point x="614" y="679" type="line" smooth="yes"/>
-      <point x="516" y="562"/>
-      <point x="464" y="437"/>
-      <point x="460" y="304" type="curve"/>
-      <point x="364" y="304" type="line"/>
+      <point x="392" y="0" type="line"/>
+      <point x="1134" y="911" type="line"/>
+      <point x="935" y="1080" type="line"/>
+      <point x="604" y="679" type="line" smooth="yes"/>
+      <point x="506" y="562"/>
+      <point x="454" y="437"/>
+      <point x="450" y="304" type="curve"/>
+      <point x="354" y="304" type="line"/>
     </contour>
     <contour>
-      <point x="151" y="0" type="line"/>
-      <point x="402" y="0" type="line"/>
-      <point x="422" y="107" type="line"/>
-      <point x="422" y="1060" type="line"/>
-      <point x="151" y="1060" type="line"/>
+      <point x="141" y="0" type="line"/>
+      <point x="392" y="0" type="line"/>
+      <point x="412" y="107" type="line"/>
+      <point x="412" y="1060" type="line"/>
+      <point x="141" y="1060" type="line"/>
     </contour>
     <contour>
-      <point x="848" y="0" type="line"/>
-      <point x="1177" y="0" type="line"/>
-      <point x="766" y="608" type="line"/>
-      <point x="542" y="468" type="line"/>
+      <point x="838" y="0" type="line"/>
+      <point x="1167" y="0" type="line"/>
+      <point x="756" y="608" type="line"/>
+      <point x="532" y="468" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

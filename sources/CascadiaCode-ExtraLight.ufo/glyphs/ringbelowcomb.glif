@@ -2,6 +2,7 @@
 <glyph name="ringbelowcomb" format="2">
   <unicode hex="0325"/>
   <anchor x="600" y="0" name="_bottom"/>
+  <anchor x="600" y="-338" name="bottom"/>
   <outline>
     <component base="ringcomb" yOffset="-1698"/>
   </outline>
@@ -10,7 +11,7 @@
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>1200</integer>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

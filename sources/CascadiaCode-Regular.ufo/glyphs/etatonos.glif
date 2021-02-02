@@ -2,16 +2,10 @@
 <glyph name="etatonos" format="2">
   <advance width="1200"/>
   <unicode hex="03AE"/>
-  <anchor x="600" y="-280" name="bottom"/>
-  <anchor x="590" y="1580" name="top"/>
+  <anchor x="590" y="-280" name="bottom"/>
+  <anchor x="590" y="1060" name="top"/>
   <outline>
     <component base="eta"/>
-    <component base="tonos" xOffset="20"/>
+    <component base="tonos" xOffset="50"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

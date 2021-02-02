@@ -3,32 +3,19 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-2406" y="112" type="line"/>
-      <point x="-2406" y="435" type="line"/>
-      <point x="-2664" y="502"/>
-      <point x="-2731" y="524"/>
-      <point x="-2846" y="543" type="curve"/>
-      <point x="-2846" y="874" type="line"/>
-      <point x="-2727" y="894"/>
-      <point x="-2655" y="913"/>
-      <point x="-2406" y="981" type="curve"/>
-      <point x="-2406" y="1304" type="line"/>
-      <point x="-3360" y="770" type="line"/>
-      <point x="-3360" y="648" type="line"/>
+      <point x="441" y="584" type="line"/>
+      <point x="1598" y="584" type="line"/>
+      <point x="1598" y="834" type="line"/>
+      <point x="441" y="834" type="line"/>
     </contour>
     <contour>
-      <point x="-3042" y="587" type="line"/>
-      <point x="-2002" y="587" type="line"/>
-      <point x="-2002" y="830" type="line"/>
-      <point x="-3042" y="830" type="line"/>
+      <point x="2318" y="587" type="line"/>
+      <point x="4520" y="587" type="line"/>
+      <point x="4520" y="830" type="line"/>
+      <point x="2318" y="830" type="line"/>
     </contour>
-    <contour>
-      <point x="-1282" y="587" type="line"/>
-      <point x="920" y="587" type="line"/>
-      <point x="920" y="830" type="line"/>
-      <point x="-1282" y="830" type="line"/>
-    </contour>
-    <component base="exclam" xOffset="-2240"/>
+    <component base="less.alt" xOffset="37"/>
+    <component base="exclam" xOffset="1360"/>
   </outline>
   <lib>
     <dict>
@@ -38,13 +25,13 @@
           <key>alignment</key>
           <integer>-1</integer>
           <key>index</key>
-          <integer>0</integer>
+          <integer>1</integer>
           <key>name</key>
           <string>exclam</string>
         </dict>
       </array>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

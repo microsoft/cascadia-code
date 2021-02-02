@@ -2,11 +2,11 @@
 <glyph name="Nhookleft" format="2">
   <advance width="1200"/>
   <unicode hex="019D"/>
-  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="-388" name="bottom"/>
   <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="-124" y="-480" type="line"/>
+      <point x="-74" y="-480" type="line"/>
       <point x="15" y="-477" type="line" smooth="yes"/>
       <point x="271" y="-473"/>
       <point x="385" y="-355"/>
@@ -17,7 +17,7 @@
       <point x="131" y="-187"/>
       <point x="88" y="-235"/>
       <point x="-13" y="-237" type="curve" smooth="yes"/>
-      <point x="-126" y="-240" type="line"/>
+      <point x="-76" y="-240" type="line"/>
     </contour>
     <component base="N"/>
   </outline>
@@ -35,7 +35,7 @@
         </dict>
       </array>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

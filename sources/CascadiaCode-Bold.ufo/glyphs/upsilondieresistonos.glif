@@ -3,15 +3,9 @@
   <advance width="1200"/>
   <unicode hex="03B0"/>
   <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="1580" name="top"/>
+  <anchor x="600" y="1060" name="top"/>
   <outline>
     <component base="upsilon"/>
     <component base="dieresistonos" xOffset="22"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

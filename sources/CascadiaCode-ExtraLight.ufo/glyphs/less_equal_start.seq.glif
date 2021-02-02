@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_equal_start.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1220" y="414" type="line"/>
+      <point x="1220" y="504" type="line"/>
+      <point x="306" y="504" type="line"/>
+      <point x="406" y="414" type="line"/>
+    </contour>
+    <contour>
+      <point x="1220" y="914" type="line"/>
+      <point x="1220" y="1004" type="line"/>
+      <point x="406" y="1004" type="line"/>
+      <point x="306" y="914" type="line"/>
+    </contour>
+    <component base="less.alt" xOffset="-176"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

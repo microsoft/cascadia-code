@@ -2,41 +2,41 @@
 <glyph name="D" format="2">
   <advance width="1200"/>
   <unicode hex="0044"/>
-  <anchor x="550" y="0" name="bottom"/>
-  <anchor x="550" y="710" name="center"/>
-  <anchor x="550" y="1420" name="top"/>
+  <anchor x="530" y="0" name="bottom"/>
+  <anchor x="530" y="710" name="center"/>
+  <anchor x="530" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="393" y="0" type="line"/>
-      <point x="504" y="0" type="line" smooth="yes"/>
-      <point x="949" y="0"/>
-      <point x="1171" y="229"/>
-      <point x="1171" y="690" type="curve" smooth="yes"/>
-      <point x="1171" y="1179"/>
-      <point x="949" y="1420"/>
-      <point x="504" y="1420" type="curve" smooth="yes"/>
-      <point x="373" y="1420" type="line"/>
-      <point x="397" y="1168" type="line"/>
-      <point x="504" y="1168" type="line" smooth="yes"/>
-      <point x="764" y="1168"/>
-      <point x="894" y="1004"/>
-      <point x="894" y="690" type="curve" smooth="yes"/>
-      <point x="894" y="404"/>
-      <point x="764" y="253"/>
-      <point x="504" y="253" type="curve" smooth="yes"/>
-      <point x="393" y="253" type="line"/>
+      <point x="373" y="0" type="line"/>
+      <point x="484" y="0" type="line" smooth="yes"/>
+      <point x="929" y="0"/>
+      <point x="1151" y="229"/>
+      <point x="1151" y="690" type="curve" smooth="yes"/>
+      <point x="1151" y="1179"/>
+      <point x="929" y="1420"/>
+      <point x="484" y="1420" type="curve" smooth="yes"/>
+      <point x="353" y="1420" type="line"/>
+      <point x="377" y="1168" type="line"/>
+      <point x="484" y="1168" type="line" smooth="yes"/>
+      <point x="744" y="1168"/>
+      <point x="874" y="1004"/>
+      <point x="874" y="690" type="curve" smooth="yes"/>
+      <point x="874" y="404"/>
+      <point x="744" y="253"/>
+      <point x="484" y="253" type="curve" smooth="yes"/>
+      <point x="373" y="253" type="line"/>
     </contour>
     <contour>
-      <point x="143" y="0" type="line"/>
-      <point x="407" y="0" type="line"/>
-      <point x="407" y="1420" type="line"/>
-      <point x="143" y="1420" type="line"/>
+      <point x="123" y="0" type="line"/>
+      <point x="387" y="0" type="line"/>
+      <point x="387" y="1420" type="line"/>
+      <point x="123" y="1420" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

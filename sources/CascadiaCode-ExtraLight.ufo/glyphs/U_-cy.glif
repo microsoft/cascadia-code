@@ -2,34 +2,28 @@
 <glyph name="U-cy" format="2">
   <advance width="1200"/>
   <unicode hex="0423"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="650" y="1420" name="top"/>
-  <anchor x="50" y="1420" name="topleft"/>
+  <anchor x="590" y="0" name="bottom"/>
+  <anchor x="640" y="1420" name="top"/>
+  <anchor x="40" y="1420" name="topleft"/>
   <outline>
     <contour>
-      <point x="227" y="0" type="line"/>
-      <point x="550" y="0"/>
-      <point x="702" y="106"/>
-      <point x="803" y="400" type="curve" smooth="yes"/>
-      <point x="1152" y="1420" type="line"/>
-      <point x="1056" y="1420" type="line"/>
-      <point x="726" y="430" type="line" smooth="yes"/>
-      <point x="642" y="179"/>
-      <point x="514" y="88"/>
-      <point x="227" y="88" type="curve"/>
+      <point x="217" y="0" type="line"/>
+      <point x="540" y="0"/>
+      <point x="692" y="106"/>
+      <point x="793" y="400" type="curve" smooth="yes"/>
+      <point x="1142" y="1420" type="line"/>
+      <point x="1046" y="1420" type="line"/>
+      <point x="716" y="430" type="line" smooth="yes"/>
+      <point x="632" y="179"/>
+      <point x="504" y="88"/>
+      <point x="217" y="88" type="curve"/>
     </contour>
     <contour>
-      <point x="613" y="169" type="line"/>
-      <point x="693" y="297" type="line"/>
-      <point x="659" y="297" type="line"/>
-      <point x="216" y="1420" type="line"/>
-      <point x="120" y="1420" type="line"/>
+      <point x="603" y="169" type="line"/>
+      <point x="683" y="297" type="line"/>
+      <point x="649" y="297" type="line"/>
+      <point x="206" y="1420" type="line"/>
+      <point x="110" y="1420" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

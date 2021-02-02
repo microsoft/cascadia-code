@@ -2,21 +2,15 @@
 <glyph name="chedescender-cy" format="2">
   <advance width="1200"/>
   <unicode hex="04B7"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="1060" name="top"/>
+  <anchor x="570" y="0" name="bottom"/>
+  <anchor x="570" y="1060" name="top"/>
   <outline>
     <contour>
-      <point x="966" y="-270" type="line"/>
-      <point x="1166" y="-270" type="line"/>
-      <point x="1166" y="190" type="line"/>
-      <point x="966" y="190" type="line"/>
+      <point x="946" y="-270" type="line"/>
+      <point x="1146" y="-270" type="line"/>
+      <point x="1146" y="190" type="line"/>
+      <point x="946" y="190" type="line"/>
     </contour>
     <component base="che-cy"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

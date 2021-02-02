@@ -91,6 +91,27 @@
     <dict>
       <key>GSDimensionPlugin.Dimensions</key>
       <dict>
+        <key>32D0959D-6118-411E-BC46-DBE7BC1E7C0B</key>
+        <dict>
+          <key>HH</key>
+          <string>190</string>
+          <key>HV</key>
+          <string>200</string>
+          <key>OH</key>
+          <string>184</string>
+          <key>OV</key>
+          <string>210</string>
+          <key>cydeH</key>
+          <string>186</string>
+          <key>nV</key>
+          <string>212</string>
+          <key>oH</key>
+          <string>190</string>
+          <key>oV</key>
+          <string>220</string>
+          <key>tH</key>
+          <string>186</string>
+        </dict>
         <key>47A123F8-062D-4F48-9577-BC700BC51F36</key>
         <dict>
           <key>HH</key>
@@ -111,6 +132,36 @@
           <string>96</string>
           <key>tH</key>
           <string>90</string>
+        </dict>
+        <key>7062B15D-7097-4448-A185-D08BD1167FB1</key>
+        <dict>
+          <key>HV</key>
+          <string>205</string>
+          <key>OH</key>
+          <string>184</string>
+          <key>OV</key>
+          <string>210</string>
+          <key>nV</key>
+          <string>212</string>
+          <key>nd</key>
+          <string>204</string>
+          <key>oH</key>
+          <string>190</string>
+          <key>oV</key>
+          <string>214</string>
+          <key>tH</key>
+          <string>195</string>
+        </dict>
+        <key>A38DF493-7C5F-490B-8624-7E8A09AEE4F3</key>
+        <dict>
+          <key>nV</key>
+          <string>270</string>
+          <key>oH</key>
+          <string>257</string>
+          <key>oV</key>
+          <string>287</string>
+          <key>tH</key>
+          <string>250</string>
         </dict>
         <key>CF6B61C3-38FB-41CB-B8C0-98C1B61AF433</key>
         <dict>
@@ -134,6 +185,38 @@
           <string>264</string>
         </dict>
       </dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>A.half</string>
+        <string>B.half</string>
+        <string>C.half</string>
+        <string>D.half</string>
+        <string>E.half</string>
+        <string>F.half</string>
+        <string>G.half</string>
+        <string>H.half</string>
+        <string>I.half</string>
+        <string>K.half</string>
+        <string>L.half</string>
+        <string>M.half</string>
+        <string>N.half</string>
+        <string>O.half</string>
+        <string>P.half</string>
+        <string>Q.half</string>
+        <string>R.half</string>
+        <string>S.half</string>
+        <string>T.half</string>
+        <string>U.half</string>
+        <string>V.half</string>
+        <string>X.half</string>
+        <string>Y.half</string>
+        <string>four.half</string>
+        <string>greater.alt</string>
+        <string>less.alt</string>
+        <string>one.half</string>
+        <string>three.half</string>
+        <string>two.half</string>
+      </array>
     </dict>
   </lib>
 </designspace>

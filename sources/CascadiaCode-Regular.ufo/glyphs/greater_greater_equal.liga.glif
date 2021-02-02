@@ -3,44 +3,35 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-2120" y="112" type="line"/>
-      <point x="-1166" y="648" type="line"/>
-      <point x="-1166" y="770" type="line"/>
-      <point x="-2120" y="1304" type="line"/>
-      <point x="-2120" y="1084" type="line"/>
-      <point x="-1460" y="718" type="line"/>
-      <point x="-1460" y="700" type="line"/>
-      <point x="-2120" y="332" type="line"/>
+      <point x="1298" y="876" type="line"/>
+      <point x="3320" y="876" type="line"/>
+      <point x="3320" y="1052" type="line"/>
+      <point x="1298" y="1052" type="line"/>
     </contour>
     <contour>
-      <point x="-1300" y="112" type="line"/>
-      <point x="-776" y="408" type="line"/>
-      <point x="-908" y="552" type="line"/>
-      <point x="-1300" y="332" type="line"/>
+      <point x="1020" y="2" type="line"/>
+      <point x="1541" y="542" type="line"/>
+      <point x="1298" y="542" type="line"/>
+      <point x="890" y="117" type="line"/>
     </contour>
     <contour>
-      <point x="-908" y="866" type="line"/>
-      <point x="-776" y="1008" type="line"/>
-      <point x="-1300" y="1304" type="line"/>
-      <point x="-1300" y="1084" type="line"/>
+      <point x="1298" y="876" type="line"/>
+      <point x="1542" y="876" type="line"/>
+      <point x="1020" y="1412" type="line"/>
+      <point x="890" y="1297" type="line"/>
     </contour>
     <contour>
-      <point x="-908" y="366" type="line"/>
-      <point x="920" y="366" type="line"/>
-      <point x="920" y="552" type="line"/>
-      <point x="-908" y="552" type="line"/>
+      <point x="1298" y="366" type="line"/>
+      <point x="3320" y="366" type="line"/>
+      <point x="3320" y="542" type="line"/>
+      <point x="1298" y="542" type="line"/>
     </contour>
-    <contour>
-      <point x="-908" y="866" type="line"/>
-      <point x="920" y="866" type="line"/>
-      <point x="920" y="1052" type="line"/>
-      <point x="-908" y="1052" type="line"/>
-    </contour>
+    <component base="greater.alt" xOffset="37"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -3,17 +3,17 @@
   <advance width="1200"/>
   <unicode hex="00CD"/>
   <anchor x="600" y="0" name="bottom"/>
-  <anchor x="1080" y="10" name="ogonek"/>
+  <anchor x="600" y="10" name="ogonek"/>
   <anchor x="600" y="1770" name="top"/>
   <anchor x="20" y="1420" name="topleft"/>
   <outline>
     <component base="I"/>
-    <component base="acutecomb.case"/>
+    <component base="acutecomb.case" xOffset="79"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -3,46 +3,24 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-486" y="109" type="line"/>
-      <point x="-486" y="307" type="line"/>
-      <point x="-603" y="337" type="line"/>
-      <point x="-603" y="444" type="line"/>
-      <point x="-1096" y="700" type="line"/>
-      <point x="-1096" y="718" type="line"/>
-      <point x="-603" y="982" type="line"/>
-      <point x="-603" y="1077" type="line"/>
-      <point x="-486" y="1109" type="line"/>
-      <point x="-486" y="1307" type="line"/>
-      <point x="-1440" y="770" type="line"/>
-      <point x="-1440" y="648" type="line"/>
+      <point x="3320" y="336" type="line"/>
+      <point x="3320" y="578" type="line"/>
+      <point x="1144" y="578" type="line"/>
+      <point x="1404" y="336" type="line"/>
     </contour>
     <contour>
-      <point x="-1206" y="109" type="line"/>
-      <point x="-1206" y="407" type="line"/>
-      <point x="-1774" y="700" type="line"/>
-      <point x="-1774" y="718" type="line"/>
-      <point x="-1206" y="1009" type="line"/>
-      <point x="-1206" y="1307" type="line"/>
-      <point x="-2160" y="770" type="line"/>
-      <point x="-2160" y="648" type="line"/>
+      <point x="3320" y="838" type="line"/>
+      <point x="3320" y="1080" type="line"/>
+      <point x="1384" y="1080" type="line"/>
+      <point x="1167" y="838" type="line"/>
     </contour>
-    <contour>
-      <point x="-900" y="386" type="line"/>
-      <point x="920" y="386" type="line"/>
-      <point x="920" y="622" type="line"/>
-      <point x="-1160" y="622" type="line"/>
-    </contour>
-    <contour>
-      <point x="-1137" y="796" type="line"/>
-      <point x="920" y="796" type="line"/>
-      <point x="920" y="1032" type="line"/>
-      <point x="-760" y="1032" type="line"/>
-    </contour>
+    <component base="less.alt" xOffset="37"/>
+    <component base="less.alt" xOffset="677"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

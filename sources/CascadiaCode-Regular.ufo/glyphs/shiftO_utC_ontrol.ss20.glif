@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shiftOutControl.ss20" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="934" y="309" type="line"/>
+      <point x="997" y="365" type="line"/>
+      <point x="246" y="1086" type="line"/>
+      <point x="183" y="1028" type="line"/>
+    </contour>
+    <contour>
+      <point x="266" y="309" type="line"/>
+      <point x="1009" y="1021" type="line"/>
+      <point x="946" y="1079" type="line"/>
+      <point x="203" y="365" type="line"/>
+    </contour>
+    <component base="whiteCircle"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

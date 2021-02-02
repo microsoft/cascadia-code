@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar_underscore_middle.seq" format="2">
+  <advance width="1200"/>
+  <guideline x="1009" y="619" angle="90"/>
+  <outline>
+    <contour>
+      <point x="555" y="-50" type="line"/>
+      <point x="645" y="-50" type="line"/>
+      <point x="645" y="1730" type="line"/>
+      <point x="555" y="1730" type="line"/>
+    </contour>
+    <component base="underscore_middle.seq"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

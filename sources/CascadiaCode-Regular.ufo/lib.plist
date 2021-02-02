@@ -2,18 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>GSCornerRadius</key>
-    <integer>15</integer>
-    <key>GSOffsetHorizontal</key>
-    <integer>95</integer>
-    <key>GSOffsetMakeStroke</key>
-    <integer>1</integer>
-    <key>GSOffsetPosition</key>
-    <integer>1</integer>
-    <key>GSOffsetVertical</key>
-    <integer>110</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1346</string>
+    <string>1342</string>
+    <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
+    <array>
+      <dict>
+        <key>Name</key>
+        <string>Weight</string>
+        <key>Tag</key>
+        <string>wght</string>
+      </dict>
+    </array>
+    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+    <array>
+      <string>/nmod</string>
+      <string>n/greater.center n</string>
+      <string>/greater.center n/less.center n</string>
+      <string>/glottalstopmod</string>
+    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
@@ -42,7 +48,22 @@ def ligatureProcess(production):
 				glyph.layers[0].LSB = glyph.layers[0].LSB + 3600		
 		
 
-ligatureProcess(True) #True for production mode, False for editable</string>
+ligatureProcess(True) #True for production mode, False for editable
+
+
+
+Settings for scaler for halves and thirds
+
+Third
+
+30		30		30
+40		40		40
+80		-160	-340
+
+Half
+70		70		70
+45		45		45
+60		-220	-360</string>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -58,7 +79,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
     <integer>500</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
-    <integer>100</integer>
+    <integer>0</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.keyboardIncrement</key>
@@ -69,8 +90,6 @@ ligatureProcess(True) #True for production mode, False for editable</string>
     <integer>500</integer>
     <key>com.schriftgestaltung.width</key>
     <string>Regular</string>
-    <key>com.schriftgestaltung.widthValue</key>
-    <integer>100</integer>
     <key>public.glyphOrder</key>
     <array>
       <string>A</string>
@@ -290,6 +309,29 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>Oacute.loclPLK</string>
       <string>Sacute.loclPLK</string>
       <string>Zacute.loclPLK</string>
+      <string>A.half</string>
+      <string>B.half</string>
+      <string>C.half</string>
+      <string>D.half</string>
+      <string>E.half</string>
+      <string>F.half</string>
+      <string>G.half</string>
+      <string>H.half</string>
+      <string>I.half</string>
+      <string>K.half</string>
+      <string>L.half</string>
+      <string>M.half</string>
+      <string>N.half</string>
+      <string>O.half</string>
+      <string>P.half</string>
+      <string>Q.half</string>
+      <string>R.half</string>
+      <string>S.half</string>
+      <string>T.half</string>
+      <string>U.half</string>
+      <string>V.half</string>
+      <string>X.half</string>
+      <string>Y.half</string>
       <string>Asmall</string>
       <string>Gsmall</string>
       <string>Ismall</string>
@@ -758,6 +800,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>eight</string>
       <string>nine</string>
       <string>zero.zero</string>
+      <string>one.half</string>
+      <string>two.half</string>
+      <string>three.half</string>
+      <string>four.half</string>
       <string>zeroinferior</string>
       <string>oneinferior</string>
       <string>twoinferior</string>
@@ -824,13 +870,16 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>overline</string>
       <string>slash</string>
       <string>backslash</string>
+      <string>colon.center</string>
       <string>parenleft</string>
       <string>parenright</string>
       <string>braceleft</string>
       <string>braceright</string>
       <string>bracketleft</string>
       <string>bracketright</string>
+      <string>heavyleftpointinganglebracketornament</string>
       <string>heavyleftpointinganglequotationmarkornament</string>
+      <string>heavyrightpointinganglebracketornament</string>
       <string>heavyrightpointinganglequotationmarkornament</string>
       <string>mediumleftpointinganglebracketornament</string>
       <string>mediumrightpointinganglebracketornament</string>
@@ -881,10 +930,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>colon_colon_colon.liga</string>
       <string>colon_colon_equal.liga</string>
       <string>colon_equal.liga</string>
-      <string>colon_greater.liga</string>
-      <string>colon_less.liga</string>
       <string>colon_slash_slash.liga</string>
       <string>semicolon_semicolon.liga</string>
+      <string>exclam_period.liga</string>
+      <string>exclam_colon.liga</string>
       <string>exclam_exclam.liga</string>
       <string>exclam_exclam_period.liga</string>
       <string>exclam_equal.liga</string>
@@ -892,6 +941,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>question_period.liga</string>
       <string>question_colon.liga</string>
       <string>question_question.liga</string>
+      <string>question_question_equal.liga</string>
       <string>question_equal.liga</string>
       <string>asterisk_parenright.liga</string>
       <string>asterisk_asterisk.liga</string>
@@ -904,9 +954,6 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>numbersign_colon.liga</string>
       <string>numbersign_exclam.liga</string>
       <string>numbersign_question.liga</string>
-      <string>numbersign_numbersign.liga</string>
-      <string>numbersign_numbersign_numbersign.liga</string>
-      <string>numbersign_numbersign_numbersign_numbersign.liga</string>
       <string>numbersign_equal.liga</string>
       <string>numbersign_underscore.liga</string>
       <string>numbersign_underscore_parenleft.liga</string>
@@ -916,9 +963,27 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>slash_greater.liga</string>
       <string>slash_slash.liga</string>
       <string>slash_slash_slash.liga</string>
+      <string>slash_backslash.liga</string>
+      <string>backslash_slash.liga</string>
       <string>backslash_backslash.liga</string>
-      <string>underscore_bar_underscore.liga</string>
       <string>underscore_underscore.liga</string>
+      <string>hyphen_middle.seq</string>
+      <string>hyphen_start.seq</string>
+      <string>hyphen_end.seq</string>
+      <string>colon_equal_middle.seq</string>
+      <string>exclam_equal_middle.seq</string>
+      <string>numbersign_end.seq</string>
+      <string>numbersign_middle.seq</string>
+      <string>numbersign_start.seq</string>
+      <string>slash_equal_end.seq</string>
+      <string>slash_equal_middle.seq</string>
+      <string>slash_equal_start.seq</string>
+      <string>slash_slash_equal_end.seq</string>
+      <string>slash_slash_equal_middle.seq</string>
+      <string>slash_slash_equal_start.seq</string>
+      <string>underscore_end.seq</string>
+      <string>underscore_middle.seq</string>
+      <string>underscore_start.seq</string>
       <string>anoteleia</string>
       <string>questiongreek</string>
       <string>punctuationspace</string>
@@ -995,6 +1060,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>perthousand</string>
       <string>strictlyequivalentto</string>
       <string>vectorOrCrossProduct</string>
+      <string>greater.center</string>
+      <string>less.center</string>
+      <string>greater.alt</string>
+      <string>less.alt</string>
       <string>upArrow</string>
       <string>rightArrow</string>
       <string>downArrow</string>
@@ -1002,6 +1071,7 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>leftRightArrow</string>
       <string>upDownArrow</string>
       <string>upDownbaseArrow</string>
+      <string>downTipLeftArrow</string>
       <string>upDashArrow</string>
       <string>dashdownArrow</string>
       <string>lowerOneEighthBlock</string>
@@ -1309,6 +1379,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>diamondBlackSuit</string>
       <string>checkmark</string>
       <string>rotatedFloralHeartBullet</string>
+      <string>acknowledgeControl</string>
+      <string>backspaceControl</string>
       <string>at</string>
       <string>ampersand</string>
       <string>paragraph</string>
@@ -1326,8 +1398,9 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>dagger</string>
       <string>literSign</string>
       <string>daggerdbl</string>
-      <string>numero</string>
       <string>estimated</string>
+      <string>numero</string>
+      <string>bellControl</string>
       <string>blackHexagon</string>
       <string>blackHorizontalEllipse</string>
       <string>blackLargeCircle</string>
@@ -1343,13 +1416,52 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>blackSmallLozenge</string>
       <string>blackVerticalEllipse</string>
       <string>blackVerysmallSquare</string>
+      <string>blank</string>
+      <string>blankSymbol</string>
       <string>bottomHalfBlackCircle</string>
+      <string>cancelControl</string>
+      <string>carriageReturnControl</string>
+      <string>dataLinkEscapeControl</string>
+      <string>deleteControl</string>
+      <string>deleteFormTwoControl</string>
+      <string>deviceControlFourControl</string>
+      <string>deviceControlOneControl</string>
+      <string>deviceControlThreeControl</string>
+      <string>deviceControlTwoControl</string>
+      <string>endOfMediumControl</string>
+      <string>endOfTextControl</string>
+      <string>endOfTransmissionBlockControl</string>
+      <string>endOfTransmissionControl</string>
+      <string>enquiryControl</string>
+      <string>escapeControl</string>
+      <string>fileSeparatorControl</string>
+      <string>formFeedControl</string>
+      <string>groupSeparatorControl</string>
       <string>horizontalBlackHexagon</string>
+      <string>horizontalTabulationControl</string>
+      <string>house</string>
+      <string>returnsymbol</string>
+      <string>lineFeedControl</string>
       <string>lowerHalfWhiteSquare</string>
       <string>lowerLeftHalfWhiteSquare</string>
+      <string>negativeAcknowledgeControl</string>
+      <string>newlineControl</string>
+      <string>nullControl</string>
+      <string>prescription</string>
+      <string>recordSeparatorControl</string>
+      <string>shiftInControl</string>
+      <string>shiftOutControl</string>
+      <string>spaceControl</string>
+      <string>startOfHeadingControl</string>
+      <string>startOfTextControl</string>
+      <string>substituteControl</string>
+      <string>substituteFormTwoControl</string>
+      <string>synchronousIdleControl</string>
       <string>topHalfBlackCircle</string>
       <string>topHalfWhiteSquare</string>
       <string>topRightHalfWhiteSquare</string>
+      <string>unitSeparatorControl</string>
+      <string>verticalTabulationControl</string>
       <string>whiteHexagon</string>
       <string>whiteHorizontalEllipse</string>
       <string>whiteLargeSquare</string>
@@ -1359,11 +1471,35 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>whiteSmallLozenge</string>
       <string>whiteVerticalEllipse</string>
       <string>whiteVerysmallSquare</string>
+      <string>acknowledgeControl.ss20</string>
+      <string>backspaceControl.ss20</string>
+      <string>bellControl.ss20</string>
+      <string>cancelControl.ss20</string>
+      <string>carriageReturnControl.ss20</string>
+      <string>dataLinkEscapeControl.ss20</string>
+      <string>endOfMediumControl.ss20</string>
+      <string>endOfTextControl.ss20</string>
+      <string>endOfTransmissionBlockControl.ss20</string>
+      <string>endOfTransmissionControl.ss20</string>
+      <string>enquiryControl.ss20</string>
+      <string>escapeControl.ss20</string>
+      <string>formFeedControl.ss20</string>
+      <string>horizontalTabulationControl.ss20</string>
+      <string>lineFeedControl.ss20</string>
+      <string>negativeAcknowledgeControl.ss20</string>
+      <string>shiftInControl.ss20</string>
+      <string>shiftOutControl.ss20</string>
+      <string>startOfHeadingControl.ss20</string>
+      <string>startOfTextControl.ss20</string>
+      <string>substituteControl.ss20</string>
+      <string>synchronousIdleControl.ss20</string>
+      <string>verticalTabulationControl.ss20</string>
       <string>ampersand_ampersand.liga</string>
       <string>bar_hyphen.liga</string>
       <string>bar_braceright.liga</string>
       <string>bar_bracketright.liga</string>
       <string>bar_bar.liga</string>
+      <string>bar_bar_bar.liga</string>
       <string>bar_bar_bar_greater.liga</string>
       <string>bar_bar_equal.liga</string>
       <string>bar_bar_greater.liga</string>
@@ -1384,7 +1520,6 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>equal_slash_equal.liga</string>
       <string>greater_hyphen.liga</string>
       <string>greater_hyphen_greater.liga</string>
-      <string>greater_colon.liga</string>
       <string>greater_equal.liga</string>
       <string>greater_equal_greater.liga</string>
       <string>greater_greater.liga</string>
@@ -1395,7 +1530,6 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>less_hyphen_hyphen.liga</string>
       <string>less_hyphen_greater.liga</string>
       <string>less_hyphen_less.liga</string>
-      <string>less_colon.liga</string>
       <string>less_exclam_hyphen_hyphen.liga</string>
       <string>less_asterisk.liga</string>
       <string>less_asterisk_greater.liga</string>
@@ -1430,6 +1564,46 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>asciitilde_asciitilde_greater.liga</string>
       <string>asciicircum_equal.liga</string>
       <string>percent_percent.liga</string>
+      <string>bar_underscore_middle.seq</string>
+      <string>bar_bar_equal_middle.seq</string>
+      <string>bar_equal_middle.seq</string>
+      <string>bar_bar_equal_end.seq</string>
+      <string>bar_bar_equal_start.seq</string>
+      <string>bar_bar_hyphen_middle.seq</string>
+      <string>bar_hyphen_middle.seq</string>
+      <string>bar_bar_hyphen_end.seq</string>
+      <string>bar_bar_hyphen_start.seq</string>
+      <string>bar_equal_end.seq</string>
+      <string>bar_equal_start.seq</string>
+      <string>bar_hyphen_end.seq</string>
+      <string>bar_hyphen_start.seq</string>
+      <string>equal_middle.seq</string>
+      <string>equal_end.seq</string>
+      <string>equal_start.seq</string>
+      <string>greater_greater_equal_middle.seq</string>
+      <string>greater_equal_middle.seq</string>
+      <string>greater_greater_equal_end.seq</string>
+      <string>greater_greater_equal_start.seq</string>
+      <string>greater_equal_start.seq</string>
+      <string>greater_equal_end.seq</string>
+      <string>greater_greater_hyphen_middle.seq</string>
+      <string>greater_hyphen_middle.seq</string>
+      <string>greater_greater_hyphen_end.seq</string>
+      <string>greater_greater_hyphen_start.seq</string>
+      <string>greater_hyphen_start.seq</string>
+      <string>greater_hyphen_end.seq</string>
+      <string>less_less_equal_middle.seq</string>
+      <string>less_equal_middle.seq</string>
+      <string>less_less_equal_end.seq</string>
+      <string>less_less_equal_start.seq</string>
+      <string>less_equal_end.seq</string>
+      <string>less_equal_start.seq</string>
+      <string>less_less_hyphen_middle.seq</string>
+      <string>less_hyphen_middle.seq</string>
+      <string>less_less_hyphen_end.seq</string>
+      <string>less_less_hyphen_start.seq</string>
+      <string>less_hyphen_end.seq</string>
+      <string>less_hyphen_start.seq</string>
       <string>note-musical</string>
       <string>notedbl-musical</string>
       <string>blank-braille</string>
@@ -1754,7 +1928,6 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>dieresistonos</string>
       <string>brevecomb-cy</string>
       <string>brevecomb-cy.case</string>
-      <string>uni0009</string>
       <string>LIG</string>
     </array>
     <key>public.postscriptNames</key>
@@ -2107,6 +2280,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni1EA9</string>
       <key>acircumflextilde</key>
       <string>uni1EAB</string>
+      <key>acknowledgeControl</key>
+      <string>uni2406</string>
+      <key>acknowledgeControl.ss20</key>
+      <string>uni2406.ss20</string>
       <key>acutetonecomb</key>
       <string>uni0341</string>
       <key>adotbelow</key>
@@ -2117,6 +2294,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0251</string>
       <key>apostrophemod</key>
       <string>uni02BC</string>
+      <key>backspaceControl</key>
+      <string>uni2408</string>
+      <key>backspaceControl.ss20</key>
+      <string>uni2408.ss20</string>
       <key>baht</key>
       <string>uni0E3F</string>
       <key>baht.BRACKET.600</key>
@@ -2125,6 +2306,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0431</string>
       <key>be-cy.loclSRB</key>
       <string>uni0431.loclSRB</string>
+      <key>bellControl</key>
+      <string>uni2407</string>
+      <key>bellControl.ss20</key>
+      <string>uni2407.ss20</string>
       <key>blackCircle</key>
       <string>uni25CF</string>
       <key>blackDiamond</key>
@@ -2171,8 +2356,12 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25AE</string>
       <key>blackVerysmallSquare</key>
       <string>uni2B1D</string>
+      <key>blank</key>
+      <string>uni2423</string>
       <key>blank-braille</key>
       <string>uni2800</string>
+      <key>blankSymbol</key>
+      <string>uni2422</string>
       <key>bottomHalfBlackCircle</key>
       <string>uni2BCB</string>
       <key>bottomHalfBlackDiamond</key>
@@ -2445,12 +2634,20 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni2219</string>
       <key>bullseye</key>
       <string>uni25CE</string>
+      <key>cancelControl</key>
+      <string>uni2418</string>
+      <key>cancelControl.ss20</key>
+      <string>uni2418.ss20</string>
       <key>careof</key>
       <string>uni2105</string>
       <key>caroncomb</key>
       <string>uni030C</string>
       <key>caroncomb.case</key>
       <string>uni030C.case</string>
+      <key>carriageReturnControl</key>
+      <string>uni240D</string>
+      <key>carriageReturnControl.ss20</key>
+      <string>uni240D.ss20</string>
       <key>cedi</key>
       <string>uni20B5</string>
       <key>cedillacomb</key>
@@ -2485,10 +2682,26 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25A6</string>
       <key>dashdownArrow</key>
       <string>uni21E3</string>
+      <key>dataLinkEscapeControl</key>
+      <string>uni2410</string>
+      <key>dataLinkEscapeControl.ss20</key>
+      <string>uni2410.ss20</string>
       <key>de-cy</key>
       <string>uni0434</string>
       <key>de-cy.loclBGR</key>
       <string>uni0434.loclBGR</string>
+      <key>deleteControl</key>
+      <string>uni2421</string>
+      <key>deleteFormTwoControl</key>
+      <string>uni2425</string>
+      <key>deviceControlFourControl</key>
+      <string>uni2414</string>
+      <key>deviceControlOneControl</key>
+      <string>uni2411</string>
+      <key>deviceControlThreeControl</key>
+      <string>uni2413</string>
+      <key>deviceControlTwoControl</key>
+      <string>uni2412</string>
       <key>diagonalcrosshatchFillSquare</key>
       <string>uni25A9</string>
       <key>diamondBlackSuit</key>
@@ -3025,6 +3238,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25BE</string>
       <key>downBlackTriangle</key>
       <string>triagdn</string>
+      <key>downTipLeftArrow</key>
+      <string>uni21B2</string>
       <key>downWhiteSmallTriangle</key>
       <string>uni25BF</string>
       <key>downWhiteTriangle</key>
@@ -3063,8 +3278,28 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni043C</string>
       <key>en-cy</key>
       <string>uni043D</string>
+      <key>endOfMediumControl</key>
+      <string>uni2419</string>
+      <key>endOfMediumControl.ss20</key>
+      <string>uni2419.ss20</string>
+      <key>endOfTextControl</key>
+      <string>uni2403</string>
+      <key>endOfTextControl.ss20</key>
+      <string>uni2403.ss20</string>
+      <key>endOfTransmissionBlockControl</key>
+      <string>uni2417</string>
+      <key>endOfTransmissionBlockControl.ss20</key>
+      <string>uni2417.ss20</string>
+      <key>endOfTransmissionControl</key>
+      <string>uni2404</string>
+      <key>endOfTransmissionControl.ss20</key>
+      <string>uni2404.ss20</string>
       <key>endescender-cy</key>
       <string>uni04A3</string>
+      <key>enquiryControl</key>
+      <string>uni2405</string>
+      <key>enquiryControl.ss20</key>
+      <string>uni2405.ss20</string>
       <key>eopen</key>
       <string>uni025B</string>
       <key>er-cy</key>
@@ -3073,6 +3308,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni044D</string>
       <key>es-cy</key>
       <string>uni0441</string>
+      <key>escapeControl</key>
+      <string>uni241B</string>
+      <key>escapeControl.ss20</key>
+      <string>uni241B.ss20</string>
       <key>esh</key>
       <string>uni0283</string>
       <key>etilde</key>
@@ -3087,6 +3326,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>exclamdbl</string>
       <key>ezh</key>
       <string>uni0292</string>
+      <key>fileSeparatorControl</key>
+      <string>uni241C</string>
       <key>filledRect</key>
       <string>filledrect</string>
       <key>firsttonechinese</key>
@@ -3097,6 +3338,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni2085</string>
       <key>fivesuperior</key>
       <string>uni2075</string>
+      <key>formFeedControl</key>
+      <string>uni240C</string>
+      <key>formFeedControl.ss20</key>
+      <string>uni240C.ss20</string>
       <key>fourinferior</key>
       <string>uni2084</string>
       <key>foursuperior</key>
@@ -3127,6 +3372,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0295</string>
       <key>gravetonecomb</key>
       <string>uni0340</string>
+      <key>groupSeparatorControl</key>
+      <string>uni241D</string>
       <key>gstroke</key>
       <string>uni01E5</string>
       <key>guarani</key>
@@ -3149,14 +3396,22 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni1E25</string>
       <key>heartBlackSuit</key>
       <string>heart</string>
+      <key>heavyleftpointinganglebracketornament</key>
+      <string>uni2770</string>
       <key>heavyleftpointinganglequotationmarkornament</key>
       <string>uni276E</string>
+      <key>heavyrightpointinganglebracketornament</key>
+      <string>uni2771</string>
       <key>heavyrightpointinganglequotationmarkornament</key>
       <string>uni276F</string>
       <key>horizontalBlackHexagon</key>
       <string>uni2B23</string>
       <key>horizontalFillSquare</key>
       <string>uni25A4</string>
+      <key>horizontalTabulationControl</key>
+      <string>uni2409</string>
+      <key>horizontalTabulationControl.ss20</key>
+      <string>uni2409.ss20</string>
       <key>horizontalbar</key>
       <string>uni2015</string>
       <key>horizontallineextension</key>
@@ -3305,6 +3560,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25C3</string>
       <key>leftWhiteTriangle</key>
       <string>uni25C1</string>
+      <key>lineFeedControl</key>
+      <string>uni240A</string>
+      <key>lineFeedControl.ss20</key>
+      <string>uni240A.ss20</string>
       <key>lineseparator</key>
       <string>uni2028</string>
       <key>liraTurkish</key>
@@ -3419,6 +3678,12 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni00A0</string>
       <key>ncommaaccent</key>
       <string>uni0146</string>
+      <key>negativeAcknowledgeControl</key>
+      <string>uni2415</string>
+      <key>negativeAcknowledgeControl.ss20</key>
+      <string>uni2415.ss20</string>
+      <key>newlineControl</key>
+      <string>uni2424</string>
       <key>nhookleft</key>
       <string>uni0272</string>
       <key>nineinferior</key>
@@ -3439,10 +3704,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>musicalnotedbl</string>
       <key>notidentical</key>
       <string>uni2262</string>
-      <key>numbersign_numbersign_numbersign.liga</key>
-      <string>uniA774A774A774.liga</string>
-      <key>numbersign_numbersign_numbersign_numbersign.liga</key>
-      <string>uniA774A774A774A774.liga</string>
+      <key>nullControl</key>
+      <string>uni2400</string>
       <key>numeral-greek</key>
       <string>uni0374</string>
       <key>numero</key>
@@ -3511,6 +3774,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni0157</string>
       <key>rdotbelow</key>
       <string>uni1E5B</string>
+      <key>recordSeparatorControl</key>
+      <string>uni241E</string>
+      <key>returnsymbol</key>
+      <string>uni23CE</string>
       <key>reversedRotatedFloralHeartBullet</key>
       <string>uni2619</string>
       <key>rightArrow</key>
@@ -3593,6 +3860,14 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni20AA</string>
       <key>shha-cy</key>
       <string>uni04BB</string>
+      <key>shiftInControl</key>
+      <string>uni240F</string>
+      <key>shiftInControl.ss20</key>
+      <string>uni240F.ss20</string>
+      <key>shiftOutControl</key>
+      <string>uni240E</string>
+      <key>shiftOutControl.ss20</key>
+      <string>uni240E.ss20</string>
       <key>sigmafinal</key>
       <string>uni03C2</string>
       <key>sixinferior</key>
@@ -3605,12 +3880,32 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni044C</string>
       <key>softsign-cy.loclBGR</key>
       <string>uni044C.loclBGR</string>
+      <key>spaceControl</key>
+      <string>uni2420</string>
       <key>spadeBlackSuit</key>
       <string>spade</string>
+      <key>startOfHeadingControl</key>
+      <string>uni2401</string>
+      <key>startOfHeadingControl.ss20</key>
+      <string>uni2401.ss20</string>
+      <key>startOfTextControl</key>
+      <string>uni2402</string>
+      <key>startOfTextControl.ss20</key>
+      <string>uni2402.ss20</string>
       <key>strictlyequivalentto</key>
       <string>uni2263</string>
+      <key>substituteControl</key>
+      <string>uni241A</string>
+      <key>substituteControl.ss20</key>
+      <string>uni241A.ss20</string>
+      <key>substituteFormTwoControl</key>
+      <string>uni2426</string>
       <key>sunWithRays</key>
       <string>sun</string>
+      <key>synchronousIdleControl</key>
+      <string>uni2416</string>
+      <key>synchronousIdleControl.ss20</key>
+      <string>uni2416.ss20</string>
       <key>tcedilla</key>
       <string>uni0163</string>
       <key>tcommaaccent</key>
@@ -3667,6 +3962,8 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni1EEF</string>
       <key>umacron-cy</key>
       <string>uni04EF</string>
+      <key>unitSeparatorControl</key>
+      <string>uni241F</string>
       <key>upArrow</key>
       <string>arrowup</string>
       <key>upBlackSmallTriangle</key>
@@ -3783,6 +4080,10 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <string>uni25CD</string>
       <key>verticalFillSquare</key>
       <string>uni25A5</string>
+      <key>verticalTabulationControl</key>
+      <string>uni240B</string>
+      <key>verticalTabulationControl.ss20</key>
+      <string>uni240B.ss20</string>
       <key>vhook</key>
       <string>uni028B</string>
       <key>vturned</key>
@@ -3870,5 +4171,37 @@ ligatureProcess(True) #True for production mode, False for editable</string>
       <key>zmod</key>
       <string>uni1DBB</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>A.half</string>
+      <string>B.half</string>
+      <string>C.half</string>
+      <string>D.half</string>
+      <string>E.half</string>
+      <string>F.half</string>
+      <string>G.half</string>
+      <string>H.half</string>
+      <string>I.half</string>
+      <string>K.half</string>
+      <string>L.half</string>
+      <string>M.half</string>
+      <string>N.half</string>
+      <string>O.half</string>
+      <string>P.half</string>
+      <string>Q.half</string>
+      <string>R.half</string>
+      <string>S.half</string>
+      <string>T.half</string>
+      <string>U.half</string>
+      <string>V.half</string>
+      <string>X.half</string>
+      <string>Y.half</string>
+      <string>four.half</string>
+      <string>greater.alt</string>
+      <string>less.alt</string>
+      <string>one.half</string>
+      <string>three.half</string>
+      <string>two.half</string>
+    </array>
   </dict>
 </plist>

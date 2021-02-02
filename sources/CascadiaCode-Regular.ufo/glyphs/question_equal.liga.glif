@@ -3,25 +3,25 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-98" y="366" type="line"/>
-      <point x="920" y="366" type="line"/>
-      <point x="920" y="552" type="line"/>
-      <point x="-98" y="552" type="line"/>
+      <point x="1102" y="366" type="line"/>
+      <point x="2120" y="366" type="line"/>
+      <point x="2120" y="552" type="line"/>
+      <point x="1102" y="552" type="line"/>
     </contour>
     <contour>
-      <point x="-44" y="866" type="curve"/>
-      <point x="920" y="866" type="line"/>
-      <point x="920" y="1052" type="line"/>
-      <point x="20" y="1052" type="line"/>
-      <point x="10" y="994"/>
-      <point x="-14" y="920"/>
+      <point x="1156" y="866" type="curve"/>
+      <point x="2120" y="866" type="line"/>
+      <point x="2120" y="1052" type="line"/>
+      <point x="1220" y="1052" type="line"/>
+      <point x="1210" y="994"/>
+      <point x="1186" y="920"/>
     </contour>
-    <component base="question" xOffset="-1158"/>
+    <component base="question" xOffset="42"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

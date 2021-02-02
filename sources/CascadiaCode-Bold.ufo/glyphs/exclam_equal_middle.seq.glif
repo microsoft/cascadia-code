@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="983" y="835" type="line"/>
+      <point x="1220" y="835" type="line"/>
+      <point x="1220" y="1079" type="line"/>
+      <point x="983" y="1079" type="line"/>
+    </contour>
+    <contour>
+      <point x="983" y="326" type="line"/>
+      <point x="1220" y="326" type="line"/>
+      <point x="1220" y="568" type="line"/>
+      <point x="983" y="568" type="line"/>
+    </contour>
+    <contour>
+      <point x="-20" y="835" type="line"/>
+      <point x="217" y="835" type="line"/>
+      <point x="217" y="1079" type="line"/>
+      <point x="-20" y="1079" type="line"/>
+    </contour>
+    <contour>
+      <point x="-20" y="326" type="line"/>
+      <point x="217" y="326" type="line"/>
+      <point x="217" y="568" type="line"/>
+      <point x="-20" y="568" type="line"/>
+    </contour>
+    <component base="exclam"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

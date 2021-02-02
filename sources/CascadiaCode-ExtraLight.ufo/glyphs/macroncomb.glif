@@ -2,13 +2,13 @@
 <glyph name="macroncomb" format="2">
   <unicode hex="0304"/>
   <anchor x="600" y="1060" name="_top"/>
-  <anchor x="600" y="1400" name="top"/>
+  <anchor x="600" y="1360" name="top"/>
   <outline>
     <contour>
-      <point x="196" y="1288" type="line"/>
-      <point x="1004" y="1288" type="line"/>
-      <point x="1004" y="1378" type="line"/>
-      <point x="196" y="1378" type="line"/>
+      <point x="196" y="1248" type="line"/>
+      <point x="1004" y="1248" type="line"/>
+      <point x="1004" y="1338" type="line"/>
+      <point x="196" y="1338" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -16,7 +16,7 @@
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>1200</integer>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

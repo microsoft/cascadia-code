@@ -2,17 +2,17 @@
 <glyph name="Tcedilla" format="2">
   <advance width="1200"/>
   <unicode hex="0162"/>
-  <anchor x="595" y="-280" name="bottom"/>
+  <anchor x="520" y="-418" name="bottom"/>
   <anchor x="600" y="710" name="center"/>
   <anchor x="600" y="1420" name="top"/>
   <outline>
     <component base="T"/>
-    <component base="cedillacomb" xOffset="-80"/>
+    <component base="cedillacomb" xOffset="20"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

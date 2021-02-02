@@ -3,36 +3,18 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-1300" y="112" type="line"/>
-      <point x="-346" y="698" type="line"/>
-      <point x="-346" y="720" type="line"/>
-      <point x="-1300" y="1304" type="line"/>
-      <point x="-1300" y="1194" type="line"/>
-      <point x="-500" y="718" type="line"/>
-      <point x="-500" y="700" type="line"/>
-      <point x="-1300" y="222" type="line"/>
+      <point x="1545" y="664" type="line"/>
+      <point x="3320" y="664" type="line"/>
+      <point x="3320" y="754" type="line"/>
+      <point x="1545" y="754" type="line"/>
     </contour>
-    <contour>
-      <point x="-2120" y="112" type="line"/>
-      <point x="-1166" y="698" type="line"/>
-      <point x="-1166" y="720" type="line"/>
-      <point x="-2120" y="1304" type="line"/>
-      <point x="-2120" y="1194" type="line"/>
-      <point x="-1320" y="718" type="line"/>
-      <point x="-1320" y="700" type="line"/>
-      <point x="-2120" y="222" type="line"/>
-    </contour>
-    <contour>
-      <point x="-452" y="663" type="line"/>
-      <point x="920" y="663" type="line"/>
-      <point x="920" y="753" type="line"/>
-      <point x="-452" y="753" type="line"/>
-    </contour>
+    <component base="greater.alt" xOffset="30"/>
+    <component base="greater.alt" xOffset="664"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

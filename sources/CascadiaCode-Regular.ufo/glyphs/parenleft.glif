@@ -2,11 +2,12 @@
 <glyph name="parenleft" format="2">
   <advance width="1200"/>
   <unicode hex="0028"/>
+  <guideline x="998" y="812" angle="90"/>
   <outline>
     <contour>
       <point x="950" y="-200" type="curve" smooth="yes"/>
       <point x="998" y="-200" type="line"/>
-      <point x="978" y="-20" type="line"/>
+      <point x="998" y="-20" type="line"/>
       <point x="970" y="-20" type="line" smooth="yes"/>
       <point x="654" y="-20"/>
       <point x="476" y="249"/>
@@ -14,7 +15,7 @@
       <point x="476" y="1175"/>
       <point x="654" y="1440"/>
       <point x="970" y="1440" type="curve" smooth="yes"/>
-      <point x="978" y="1440" type="line"/>
+      <point x="998" y="1440" type="line"/>
       <point x="998" y="1620" type="line"/>
       <point x="950" y="1620" type="line" smooth="yes"/>
       <point x="516" y="1620"/>

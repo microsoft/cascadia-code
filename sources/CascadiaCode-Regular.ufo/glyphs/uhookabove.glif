@@ -2,18 +2,18 @@
 <glyph name="uhookabove" format="2">
   <advance width="1200"/>
   <unicode hex="1EE7"/>
-  <anchor x="570" y="0" name="bottom"/>
-  <anchor x="1080" y="10" name="ogonek"/>
+  <anchor x="560" y="0" name="bottom"/>
+  <anchor x="1070" y="10" name="ogonek"/>
   <anchor x="590" y="1618" name="top"/>
-  <anchor x="1120" y="1060" name="topright"/>
+  <anchor x="1110" y="1060" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="hookabovecomb" xOffset="10"/>
+    <component base="hookabovecomb"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

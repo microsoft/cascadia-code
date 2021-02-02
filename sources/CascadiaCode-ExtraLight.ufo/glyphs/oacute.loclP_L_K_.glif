@@ -5,15 +5,15 @@
   <anchor x="600" y="530" name="center"/>
   <anchor x="600" y="10" name="ogonek"/>
   <anchor x="600" y="1580" name="top"/>
-  <anchor x="1040" y="1060" name="topright"/>
+  <anchor x="1017" y="1060" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="acutecomb.loclPLK" xOffset="30"/>
+    <component base="acutecomb.loclPLK" xOffset="50"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

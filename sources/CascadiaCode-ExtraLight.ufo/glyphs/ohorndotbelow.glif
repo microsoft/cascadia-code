@@ -2,11 +2,11 @@
 <glyph name="ohorndotbelow" format="2">
   <advance width="1200"/>
   <unicode hex="1EE3"/>
-  <anchor x="600" y="-280" name="bottom"/>
+  <anchor x="600" y="-338" name="bottom"/>
   <anchor x="600" y="530" name="center"/>
   <anchor x="600" y="10" name="ogonek"/>
   <anchor x="600" y="1060" name="top"/>
-  <anchor x="1040" y="1060" name="topright"/>
+  <anchor x="1017" y="1060" name="topright"/>
   <outline>
     <component base="ohorn"/>
     <component base="dotbelowcomb"/>
@@ -14,7 +14,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

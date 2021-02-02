@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bellControl.ss20" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="75" y="305" type="line"/>
+      <point x="171" y="305" type="line"/>
+      <point x="171" y="385" type="line" smooth="yes"/>
+      <point x="171" y="822"/>
+      <point x="306" y="1023"/>
+      <point x="600" y="1023" type="curve" smooth="yes"/>
+      <point x="894" y="1023"/>
+      <point x="1029" y="822"/>
+      <point x="1029" y="385" type="curve" smooth="yes"/>
+      <point x="1029" y="305" type="line"/>
+      <point x="1125" y="305" type="line"/>
+      <point x="1125" y="385" type="line" smooth="yes"/>
+      <point x="1125" y="886"/>
+      <point x="960" y="1115"/>
+      <point x="600" y="1115" type="curve" smooth="yes"/>
+      <point x="240" y="1115"/>
+      <point x="75" y="886"/>
+      <point x="75" y="385" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="125" y="305" type="line"/>
+      <point x="1075" y="305" type="line"/>
+      <point x="1075" y="395" type="line"/>
+      <point x="125" y="395" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

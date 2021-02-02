@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="U.half" format="2">
+  <advance width="839"/>
+  <outline>
+    <contour>
+      <point x="417" y="-9" type="curve" smooth="yes"/>
+      <point x="631" y="-9"/>
+      <point x="737" y="78"/>
+      <point x="737" y="255" type="curve" smooth="yes"/>
+      <point x="737" y="639" type="line"/>
+      <point x="616" y="639" type="line"/>
+      <point x="616" y="255" type="line" smooth="yes"/>
+      <point x="616" y="152"/>
+      <point x="551" y="101"/>
+      <point x="420" y="101" type="curve" smooth="yes"/>
+      <point x="289" y="101"/>
+      <point x="223" y="152"/>
+      <point x="223" y="255" type="curve" smooth="yes"/>
+      <point x="223" y="639" type="line"/>
+      <point x="102" y="639" type="line"/>
+      <point x="102" y="255" type="line" smooth="yes"/>
+      <point x="102" y="78"/>
+      <point x="206" y="-9"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

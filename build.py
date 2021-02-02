@@ -22,8 +22,8 @@ import vttLib
 import vttLib.transfer
 from vttmisc import tsi1, tsic
 
-VERSION_YEAR_MONTH = 2009
-VERSION_DAY = 22
+VERSION_YEAR_MONTH = 2102
+VERSION_DAY = 3
 
 OUTPUT_DIR = Path("build")
 OUTPUT_OTF_DIR = OUTPUT_DIR / "otf"
@@ -204,7 +204,15 @@ def compile_variable_and_save(
     set_overlap_flag(varFont)
 
     # last minute manual corrections to set things correctly
+    # flag to enable proper rendering
+    # Adjusted the font full name so that it aligns with font spec, and also shows as expected!
+    # Adjusting postscript name to make room for the upcoming Italic
+    # Helping mac office generage the postscript name correctly for variable fonts
     varFont["head"].flags = 0x000b
+    varFont["name"].setName(familyName, 4, 3, 1, 1033)
+    varFont["name"].setName(familyName.replace(" ","")+"-Roman", 6, 3, 1, 1033)
+    varFont["name"].setName("Roman", 17, 3, 1, 1033)
+    varFont["name"].setName(familyName.replace(" ","")+"Roman", 25, 3, 1, 1033)
 
     print(f"[{familyName}] Saving")
     file_path.parent.mkdir(exist_ok=True, parents=True)
@@ -318,7 +326,7 @@ if __name__ == "__main__":
         )
     )
     if args.mono:
-        processes.append(
+        processes.append( 
             pool.apply_async(
                 build_font_variable,
                 (

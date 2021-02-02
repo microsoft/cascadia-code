@@ -3,14 +3,8 @@
   <advance width="1200"/>
   <unicode hex="028C"/>
   <anchor x="600" y="0" name="bottom"/>
-  <anchor x="605" y="1060" name="top"/>
+  <anchor x="600" y="1060" name="top"/>
   <outline>
     <component base="el-cy.loclBGR"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

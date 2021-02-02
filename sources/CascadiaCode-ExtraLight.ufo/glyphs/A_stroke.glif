@@ -2,30 +2,30 @@
 <glyph name="Astroke" format="2">
   <advance width="1200"/>
   <unicode hex="023A"/>
-  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="-388" name="bottom"/>
+  <anchor x="600" y="1500" name="top"/>
   <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="483" y="-330" type="line"/>
-      <point x="628" y="409" type="line"/>
-      <point x="636" y="451" type="line"/>
-      <point x="746" y="1011" type="line"/>
-      <point x="753" y="1046" type="line"/>
-      <point x="879" y="1692" type="line"/>
-      <point x="783" y="1716" type="line"/>
-      <point x="693" y="1246" type="line"/>
-      <point x="684" y="1199" type="line"/>
-      <point x="542" y="455" type="line"/>
-      <point x="535" y="420" type="line"/>
-      <point x="397" y="-306" type="line"/>
+      <point x="482" y="-330" type="line"/>
+      <point x="629" y="422" type="line"/>
+      <point x="636" y="456" type="line"/>
+      <point x="744" y="1009" type="line"/>
+      <point x="755" y="1064" type="line"/>
+      <point x="878" y="1692" type="line"/>
+      <point x="781" y="1708" type="line"/>
+      <point x="687" y="1214" type="line"/>
+      <point x="680" y="1178" type="line"/>
+      <point x="544" y="467" type="line"/>
+      <point x="537" y="429" type="line"/>
+      <point x="395" y="-314" type="line"/>
     </contour>
     <component base="A"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

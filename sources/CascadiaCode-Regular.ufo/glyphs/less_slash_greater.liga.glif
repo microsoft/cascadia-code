@@ -3,31 +3,31 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="2" y="214" type="line"/>
-      <point x="960" y="608" type="line"/>
-      <point x="960" y="810" type="line"/>
-      <point x="-341" y="1362" type="line"/>
-      <point x="-341" y="1147" type="line"/>
-      <point x="702" y="718" type="line"/>
-      <point x="702" y="700" type="line"/>
-      <point x="2" y="434" type="line"/>
+      <point x="2402" y="214" type="line"/>
+      <point x="3360" y="608" type="line"/>
+      <point x="3360" y="810" type="line"/>
+      <point x="2059" y="1362" type="line"/>
+      <point x="2059" y="1147" type="line"/>
+      <point x="3102" y="718" type="line"/>
+      <point x="3102" y="700" type="line"/>
+      <point x="2402" y="434" type="line"/>
     </contour>
     <contour>
-      <point x="-864" y="46" type="line"/>
-      <point x="-834" y="246" type="line"/>
-      <point x="-1912" y="700" type="line"/>
-      <point x="-1912" y="718" type="line"/>
-      <point x="-1182" y="994" type="line"/>
-      <point x="-1182" y="1214" type="line"/>
-      <point x="-2160" y="810" type="line"/>
-      <point x="-2160" y="608" type="line"/>
+      <point x="1536" y="46" type="line"/>
+      <point x="1566" y="246" type="line"/>
+      <point x="488" y="700" type="line"/>
+      <point x="488" y="718" type="line"/>
+      <point x="1218" y="994" type="line"/>
+      <point x="1218" y="1214" type="line"/>
+      <point x="240" y="810" type="line"/>
+      <point x="240" y="608" type="line"/>
     </contour>
-    <component base="slash" xOffset="-1190"/>
+    <component base="slash" xOffset="1210"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>
