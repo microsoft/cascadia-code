@@ -2,38 +2,8 @@
 <glyph name="asciitilde_equal.liga" format="2">
   <advance width="1200"/>
   <outline>
-    <contour>
-      <point x="526" y="686" type="line"/>
-      <point x="622" y="686" type="line"/>
-      <point x="622" y="736" type="line" smooth="yes"/>
-      <point x="622" y="929"/>
-      <point x="699" y="1024"/>
-      <point x="854" y="1024" type="curve" smooth="yes"/>
-      <point x="1118" y="1024"/>
-      <point x="1276" y="700"/>
-      <point x="1580" y="700" type="curve" smooth="yes"/>
-      <point x="1779" y="700"/>
-      <point x="1874" y="812"/>
-      <point x="1874" y="1040" type="curve" smooth="yes"/>
-      <point x="1874" y="1130" type="line"/>
-      <point x="1778" y="1130" type="line"/>
-      <point x="1778" y="1060" type="line" smooth="yes"/>
-      <point x="1778" y="880"/>
-      <point x="1710" y="792"/>
-      <point x="1578" y="792" type="curve" smooth="yes"/>
-      <point x="1315" y="792"/>
-      <point x="1163" y="1116"/>
-      <point x="860" y="1116" type="curve" smooth="yes"/>
-      <point x="636" y="1116"/>
-      <point x="526" y="997"/>
-      <point x="526" y="756" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="526" y="414" type="line"/>
-      <point x="1874" y="414" type="line"/>
-      <point x="1874" y="504" type="line"/>
-      <point x="526" y="504" type="line"/>
-    </contour>
+    <component base="asciitilde" xOffset="39"/>
+    <component base="equal" xOffset="1161"/>
   </outline>
   <lib>
     <dict>
