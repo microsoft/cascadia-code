@@ -274,6 +274,8 @@ def ttfautohint(path: str) -> None:
             "ttfautohint",
             "--stem-width",
             "nsn",
+            "--increase-x-height",
+            "0",
             "--reference",
             os.fspath(OUTPUT_STATIC_TTF_DIR / "CascadiaCode-Regular.ttf"),
             path,
