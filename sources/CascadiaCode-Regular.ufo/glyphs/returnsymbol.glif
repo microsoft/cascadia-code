@@ -15,7 +15,22 @@
       <point x="775" y="1128" type="line"/>
       <point x="775" y="942" type="line"/>
     </contour>
-    <component base="leftArrow" xOffset="-20" yOffset="-258"/>
+    <contour>
+      <point x="1080" y="358" type="line"/>
+      <point x="1080" y="544" type="line"/>
+      <point x="130" y="544" type="line"/>
+      <point x="130" y="358" type="line"/>
+    </contour>
+    <contour>
+      <point x="490" y="-71" type="line"/>
+      <point x="620" y="44" type="line"/>
+      <point x="238" y="442" type="line"/>
+      <point x="238" y="460" type="line"/>
+      <point x="620" y="856" type="line"/>
+      <point x="490" y="971" type="line"/>
+      <point x="44" y="512" type="line"/>
+      <point x="44" y="390" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

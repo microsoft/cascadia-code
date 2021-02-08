@@ -8,7 +8,22 @@
       <point x="1125" y="1024" type="line"/>
       <point x="883" y="1024" type="line"/>
     </contour>
-    <component base="leftArrow" yOffset="193"/>
+    <contour>
+      <point x="1100" y="777" type="line"/>
+      <point x="1100" y="1027" type="line"/>
+      <point x="253" y="1027" type="line"/>
+      <point x="253" y="777" type="line"/>
+    </contour>
+    <contour>
+      <point x="554" y="341" type="line"/>
+      <point x="734" y="496" type="line"/>
+      <point x="348" y="893" type="line"/>
+      <point x="348" y="911" type="line"/>
+      <point x="734" y="1308" type="line"/>
+      <point x="554" y="1463" type="line"/>
+      <point x="64" y="963" type="line"/>
+      <point x="64" y="841" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

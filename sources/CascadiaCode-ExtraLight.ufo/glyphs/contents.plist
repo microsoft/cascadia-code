@@ -840,8 +840,6 @@
     <string>bar_bar_bar.liga.glif</string>
     <key>bar_bar_bar_greater.liga</key>
     <string>bar_bar_bar_greater.liga.glif</string>
-    <key>bar_bar_equal.liga</key>
-    <string>bar_bar_equal.liga.glif</string>
     <key>bar_bar_equal_end.seq</key>
     <string>bar_bar_equal_end.seq.glif</string>
     <key>bar_bar_equal_middle.seq</key>
@@ -860,8 +858,6 @@
     <string>bar_braceright.liga.glif</string>
     <key>bar_bracketright.liga</key>
     <string>bar_bracketright.liga.glif</string>
-    <key>bar_equal.liga</key>
-    <string>bar_equal.liga.glif</string>
     <key>bar_equal_end.seq</key>
     <string>bar_equal_end.seq.glif</string>
     <key>bar_equal_middle.seq</key>
@@ -870,8 +866,6 @@
     <string>bar_equal_start.seq.glif</string>
     <key>bar_greater.liga</key>
     <string>bar_greater.liga.glif</string>
-    <key>bar_hyphen.liga</key>
-    <string>bar_hyphen.liga.glif</string>
     <key>bar_hyphen_end.seq</key>
     <string>bar_hyphen_end.seq.glif</string>
     <key>bar_hyphen_middle.seq</key>
@@ -2026,28 +2020,14 @@
     <string>epsilontonos.glif</string>
     <key>equal</key>
     <string>equal.glif</string>
-    <key>equal_colon_equal.liga</key>
-    <string>equal_colon_equal.liga.glif</string>
     <key>equal_end.seq</key>
     <string>equal_end.seq.glif</string>
     <key>equal_equal.liga</key>
     <string>equal_equal.liga.glif</string>
     <key>equal_equal_equal.liga</key>
     <string>equal_equal_equal.liga.glif</string>
-    <key>equal_equal_greater.liga</key>
-    <string>equal_equal_greater.liga.glif</string>
-    <key>equal_exclam_equal.liga</key>
-    <string>equal_exclam_equal.liga.glif</string>
-    <key>equal_greater.liga</key>
-    <string>equal_greater.liga.glif</string>
-    <key>equal_greater_greater.liga</key>
-    <string>equal_greater_greater.liga.glif</string>
-    <key>equal_less_less.liga</key>
-    <string>equal_less_less.liga.glif</string>
     <key>equal_middle.seq</key>
     <string>equal_middle.seq.glif</string>
-    <key>equal_slash_equal.liga</key>
-    <string>equal_slash_equal.liga.glif</string>
     <key>equal_start.seq</key>
     <string>equal_start.seq.glif</string>
     <key>equivalence</key>
@@ -2206,16 +2186,12 @@
     <string>greater_equal.liga.glif</string>
     <key>greater_equal_end.seq</key>
     <string>greater_equal_end.seq.glif</string>
-    <key>greater_equal_greater.liga</key>
-    <string>greater_equal_greater.liga.glif</string>
     <key>greater_equal_middle.seq</key>
     <string>greater_equal_middle.seq.glif</string>
     <key>greater_equal_start.seq</key>
     <string>greater_equal_start.seq.glif</string>
     <key>greater_greater.liga</key>
     <string>greater_greater.liga.glif</string>
-    <key>greater_greater_equal.liga</key>
-    <string>greater_greater_equal.liga.glif</string>
     <key>greater_greater_equal_end.seq</key>
     <string>greater_greater_equal_end.seq.glif</string>
     <key>greater_greater_equal_middle.seq</key>
@@ -2224,20 +2200,14 @@
     <string>greater_greater_equal_start.seq.glif</string>
     <key>greater_greater_greater.liga</key>
     <string>greater_greater_greater.liga.glif</string>
-    <key>greater_greater_hyphen.liga</key>
-    <string>greater_greater_hyphen.liga.glif</string>
     <key>greater_greater_hyphen_end.seq</key>
     <string>greater_greater_hyphen_end.seq.glif</string>
     <key>greater_greater_hyphen_middle.seq</key>
     <string>greater_greater_hyphen_middle.seq.glif</string>
     <key>greater_greater_hyphen_start.seq</key>
     <string>greater_greater_hyphen_start.seq.glif</string>
-    <key>greater_hyphen.liga</key>
-    <string>greater_hyphen.liga.glif</string>
     <key>greater_hyphen_end.seq</key>
     <string>greater_hyphen_end.seq.glif</string>
-    <key>greater_hyphen_greater.liga</key>
-    <string>greater_hyphen_greater.liga.glif</string>
     <key>greater_hyphen_middle.seq</key>
     <string>greater_hyphen_middle.seq.glif</string>
     <key>greater_hyphen_start.seq</key>
@@ -2320,24 +2290,12 @@
     <string>hyphen.glif</string>
     <key>hyphen_asciitilde.liga</key>
     <string>hyphen_asciitilde.liga.glif</string>
-    <key>hyphen_bar.liga</key>
-    <string>hyphen_bar.liga.glif</string>
     <key>hyphen_end.seq</key>
     <string>hyphen_end.seq.glif</string>
-    <key>hyphen_greater.liga</key>
-    <string>hyphen_greater.liga.glif</string>
-    <key>hyphen_greater_greater.liga</key>
-    <string>hyphen_greater_greater.liga.glif</string>
     <key>hyphen_hyphen.liga</key>
     <string>hyphen_hyphen.liga.glif</string>
-    <key>hyphen_hyphen_greater.liga</key>
-    <string>hyphen_hyphen_greater.liga.glif</string>
     <key>hyphen_hyphen_hyphen.liga</key>
     <string>hyphen_hyphen_hyphen.liga.glif</string>
-    <key>hyphen_less.liga</key>
-    <string>hyphen_less.liga.glif</string>
-    <key>hyphen_less_less.liga</key>
-    <string>hyphen_less_less.liga.glif</string>
     <key>hyphen_middle.seq</key>
     <string>hyphen_middle.seq.glif</string>
     <key>hyphen_start.seq</key>
@@ -2572,14 +2530,6 @@
     <string>less_equal.liga.glif</string>
     <key>less_equal_end.seq</key>
     <string>less_equal_end.seq.glif</string>
-    <key>less_equal_equal.liga</key>
-    <string>less_equal_equal.liga.glif</string>
-    <key>less_equal_equal_greater.liga</key>
-    <string>less_equal_equal_greater.liga.glif</string>
-    <key>less_equal_greater.liga</key>
-    <string>less_equal_greater.liga.glif</string>
-    <key>less_equal_less.liga</key>
-    <string>less_equal_less.liga.glif</string>
     <key>less_equal_middle.seq</key>
     <string>less_equal_middle.seq.glif</string>
     <key>less_equal_start.seq</key>
@@ -2588,32 +2538,20 @@
     <string>less_exclam_hyphen_hyphen.liga.glif</string>
     <key>less_greater.liga</key>
     <string>less_greater.liga.glif</string>
-    <key>less_hyphen.liga</key>
-    <string>less_hyphen.liga.glif</string>
     <key>less_hyphen_end.seq</key>
     <string>less_hyphen_end.seq.glif</string>
-    <key>less_hyphen_greater.liga</key>
-    <string>less_hyphen_greater.liga.glif</string>
-    <key>less_hyphen_hyphen.liga</key>
-    <string>less_hyphen_hyphen.liga.glif</string>
-    <key>less_hyphen_less.liga</key>
-    <string>less_hyphen_less.liga.glif</string>
     <key>less_hyphen_middle.seq</key>
     <string>less_hyphen_middle.seq.glif</string>
     <key>less_hyphen_start.seq</key>
     <string>less_hyphen_start.seq.glif</string>
     <key>less_less.liga</key>
     <string>less_less.liga.glif</string>
-    <key>less_less_equal.liga</key>
-    <string>less_less_equal.liga.glif</string>
     <key>less_less_equal_end.seq</key>
     <string>less_less_equal_end.seq.glif</string>
     <key>less_less_equal_middle.seq</key>
     <string>less_less_equal_middle.seq.glif</string>
     <key>less_less_equal_start.seq</key>
     <string>less_less_equal_start.seq.glif</string>
-    <key>less_less_hyphen.liga</key>
-    <string>less_less_hyphen.liga.glif</string>
     <key>less_less_hyphen_end.seq</key>
     <string>less_less_hyphen_end.seq.glif</string>
     <key>less_less_hyphen_middle.seq</key>
@@ -3222,12 +3160,8 @@
     <string>slash_asterisk.liga.glif</string>
     <key>slash_backslash.liga</key>
     <string>slash_backslash.liga.glif</string>
-    <key>slash_equal.liga</key>
-    <string>slash_equal.liga.glif</string>
     <key>slash_equal_end.seq</key>
     <string>slash_equal_end.seq.glif</string>
-    <key>slash_equal_equal.liga</key>
-    <string>slash_equal_equal.liga.glif</string>
     <key>slash_equal_middle.seq</key>
     <string>slash_equal_middle.seq.glif</string>
     <key>slash_equal_start.seq</key>
