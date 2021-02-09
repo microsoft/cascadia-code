@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater_equal_start.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="312" y="2" type="line"/>
+      <point x="864" y="569" type="line"/>
+      <point x="538" y="575" type="line"/>
+      <point x="142" y="157" type="line"/>
+    </contour>
+    <contour>
+      <point x="538" y="333" type="line"/>
+      <point x="1220" y="333" type="line"/>
+      <point x="1220" y="575" type="line"/>
+      <point x="538" y="575" type="line"/>
+    </contour>
+    <contour>
+      <point x="538" y="843" type="line"/>
+      <point x="829" y="887" type="line"/>
+      <point x="312" y="1412" type="line"/>
+      <point x="142" y="1257" type="line"/>
+    </contour>
+    <contour>
+      <point x="538" y="843" type="line"/>
+      <point x="1220" y="843" type="line"/>
+      <point x="1220" y="1085" type="line"/>
+      <point x="538" y="1085" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

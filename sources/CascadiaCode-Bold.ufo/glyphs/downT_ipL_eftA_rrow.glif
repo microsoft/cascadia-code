@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downTipLeftArrow" format="2">
+  <advance width="1200"/>
+  <unicode hex="21B2"/>
+  <outline>
+    <contour>
+      <point x="883" y="388" type="line"/>
+      <point x="1125" y="388" type="line"/>
+      <point x="1125" y="1127" type="line"/>
+      <point x="883" y="1127" type="line"/>
+    </contour>
+    <component base="leftArrow" yOffset="-198"/>
+  </outline>
+</glyph>

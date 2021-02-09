@@ -10,12 +10,12 @@
   <anchor x="1180" y="1420" name="topright"/>
   <outline>
     <component base="Oslash"/>
-    <component base="acutecomb.case"/>
+    <component base="acutecomb.case" xOffset="61"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

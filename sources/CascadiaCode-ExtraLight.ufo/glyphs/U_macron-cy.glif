@@ -2,17 +2,11 @@
 <glyph name="Umacron-cy" format="2">
   <advance width="1200"/>
   <unicode hex="04EE"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="1720" name="top"/>
-  <anchor x="50" y="1420" name="topleft"/>
+  <anchor x="590" y="0" name="bottom"/>
+  <anchor x="640" y="1720" name="top"/>
+  <anchor x="40" y="1420" name="topleft"/>
   <outline>
     <component base="U-cy"/>
-    <component base="macroncomb.case" xOffset="50"/>
+    <component base="macroncomb.case" xOffset="40"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -3,15 +3,9 @@
   <advance width="1200"/>
   <unicode hex="0390"/>
   <anchor x="600" y="0" name="bottom"/>
-  <anchor x="536" y="1580" name="top"/>
+  <anchor x="536" y="1060" name="top"/>
   <outline>
     <component base="iota"/>
     <component base="dieresistonos" xOffset="-42"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

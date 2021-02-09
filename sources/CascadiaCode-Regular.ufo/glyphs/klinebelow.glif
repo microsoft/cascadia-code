@@ -2,8 +2,8 @@
 <glyph name="klinebelow" format="2">
   <advance width="1200"/>
   <unicode hex="1E35"/>
-  <anchor x="620" y="0" name="bottom"/>
-  <anchor x="716" y="1200" name="top"/>
+  <anchor x="620" y="-378" name="bottom"/>
+  <anchor x="264" y="1500" name="top"/>
   <outline>
     <component base="k"/>
     <component base="macronbelowcomb" xOffset="20"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

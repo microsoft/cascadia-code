@@ -2,40 +2,34 @@
 <glyph name="gamma" format="2">
   <advance width="1200"/>
   <unicode hex="03B3"/>
-  <anchor x="600" y="-280" name="bottom"/>
-  <anchor x="600" y="1060" name="top"/>
+  <anchor x="590" y="-280" name="bottom"/>
+  <anchor x="590" y="1060" name="top"/>
   <outline>
     <contour>
-      <point x="364" y="-20" type="line"/>
-      <point x="894" y="-20"/>
-      <point x="1157" y="338"/>
-      <point x="1157" y="1060" type="curve"/>
-      <point x="886" y="1060" type="line"/>
-      <point x="886" y="509"/>
-      <point x="714" y="237"/>
-      <point x="364" y="237" type="curve"/>
+      <point x="354" y="-20" type="line"/>
+      <point x="884" y="-20"/>
+      <point x="1147" y="338"/>
+      <point x="1147" y="1060" type="curve"/>
+      <point x="876" y="1060" type="line"/>
+      <point x="876" y="509"/>
+      <point x="704" y="237"/>
+      <point x="354" y="237" type="curve"/>
     </contour>
     <contour>
-      <point x="269" y="-460" type="curve"/>
-      <point x="540" y="-460" type="line"/>
-      <point x="547" y="-329"/>
-      <point x="550" y="-173"/>
-      <point x="550" y="10" type="curve" smooth="yes"/>
-      <point x="550" y="678"/>
-      <point x="476" y="896"/>
-      <point x="183" y="1100" type="curve"/>
-      <point x="19" y="892" type="line"/>
-      <point x="227" y="736"/>
-      <point x="279" y="558"/>
-      <point x="279" y="10" type="curve" smooth="yes"/>
-      <point x="279" y="-173"/>
-      <point x="276" y="-329"/>
+      <point x="259" y="-460" type="curve"/>
+      <point x="530" y="-460" type="line"/>
+      <point x="537" y="-329"/>
+      <point x="540" y="-173"/>
+      <point x="540" y="10" type="curve" smooth="yes"/>
+      <point x="540" y="678"/>
+      <point x="466" y="896"/>
+      <point x="173" y="1100" type="curve"/>
+      <point x="9" y="892" type="line"/>
+      <point x="217" y="736"/>
+      <point x="269" y="558"/>
+      <point x="269" y="10" type="curve" smooth="yes"/>
+      <point x="269" y="-173"/>
+      <point x="266" y="-329"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

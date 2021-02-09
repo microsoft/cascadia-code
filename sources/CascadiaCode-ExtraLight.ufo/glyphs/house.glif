@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="house" format="2">
+  <advance width="1200"/>
+  <unicode hex="2302"/>
+  <outline>
+    <contour>
+      <point x="100" y="0" type="line"/>
+      <point x="1100" y="0" type="line"/>
+      <point x="1100" y="706" type="line"/>
+      <point x="600" y="1142" type="line"/>
+      <point x="100" y="706" type="line"/>
+    </contour>
+    <contour>
+      <point x="190" y="90" type="line"/>
+      <point x="190" y="665.068" type="line"/>
+      <point x="599.399" y="1022.064" type="line"/>
+      <point x="1010" y="666" type="line"/>
+      <point x="1010" y="90" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

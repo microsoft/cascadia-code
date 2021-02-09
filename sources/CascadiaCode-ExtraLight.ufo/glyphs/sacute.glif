@@ -2,16 +2,16 @@
 <glyph name="sacute" format="2">
   <advance width="1200"/>
   <unicode hex="015B"/>
-  <anchor x="610" y="0" name="bottom"/>
+  <anchor x="590" y="0" name="bottom"/>
   <anchor x="630" y="1540" name="top"/>
   <outline>
     <component base="s"/>
-    <component base="acutecomb" xOffset="60"/>
+    <component base="acutecomb" xOffset="120"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

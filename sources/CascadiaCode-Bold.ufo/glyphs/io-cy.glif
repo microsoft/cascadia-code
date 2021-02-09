@@ -3,16 +3,10 @@
   <advance width="1200"/>
   <unicode hex="0451"/>
   <anchor x="630" y="0" name="bottom"/>
-  <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="622" y="1500" name="top"/>
+  <anchor x="1057" y="10" name="ogonek"/>
+  <anchor x="612" y="1500" name="top"/>
   <outline>
     <component base="ie-cy"/>
-    <component base="dieresiscomb" xOffset="22"/>
+    <component base="dieresiscomb" xOffset="12"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

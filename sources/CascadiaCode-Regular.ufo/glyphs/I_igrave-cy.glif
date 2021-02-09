@@ -6,12 +6,6 @@
   <anchor x="600" y="1770" name="top"/>
   <outline>
     <component base="Ii-cy"/>
-    <component base="gravecomb.case"/>
+    <component base="gravecomb.case" xOffset="-60"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

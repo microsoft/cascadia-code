@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater_greater_equal_end.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-20" y="333" type="line"/>
+      <point x="996" y="333" type="line"/>
+      <point x="1256" y="575" type="line"/>
+      <point x="-20" y="575" type="line"/>
+    </contour>
+    <contour>
+      <point x="-20" y="843" type="line"/>
+      <point x="1233" y="843" type="line"/>
+      <point x="1016" y="1085" type="line"/>
+      <point x="-20" y="1085" type="line"/>
+    </contour>
+    <component base="greater.alt" xOffset="539"/>
+    <component base="greater.alt" xOffset="1179"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -20,8 +20,8 @@
       <point x="0" y="1060" type="line"/>
       <point x="0" y="870" type="line"/>
       <point x="248" y="870" type="line"/>
-      <point x="248" y="402" type="line" smooth="yes"/>
-      <point x="250" y="132"/>
+      <point x="248" y="372" type="line" smooth="yes"/>
+      <point x="250" y="121"/>
       <point x="402" y="-20"/>
     </contour>
     <contour>
@@ -39,10 +39,4 @@
       <point x="821" y="164"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

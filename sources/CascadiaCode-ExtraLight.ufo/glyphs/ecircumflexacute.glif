@@ -2,13 +2,13 @@
 <glyph name="ecircumflexacute" format="2">
   <advance width="1200"/>
   <unicode hex="1EBF"/>
-  <anchor x="620" y="0" name="bottom"/>
-  <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="620" y="1780" name="top"/>
+  <anchor x="630" y="0" name="bottom"/>
+  <anchor x="1057" y="10" name="ogonek"/>
+  <anchor x="967" y="1880" name="top"/>
   <outline>
     <component base="e"/>
     <component base="circumflexcomb" xOffset="10"/>
-    <component base="acutecomb" xOffset="397" yOffset="340"/>
+    <component base="acutecomb" xOffset="457" yOffset="340"/>
   </outline>
   <lib>
     <dict>
@@ -24,7 +24,7 @@
         </dict>
       </array>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -3,30 +3,10 @@
   <advance width="1200"/>
   <unicode hex="201E"/>
   <outline>
-    <component base="quoteright" xOffset="218" yOffset="-1166"/>
-    <component base="quoteright" xOffset="-222" yOffset="-1166"/>
+    <component base="quotedblright" xOffset="20" yOffset="-1165"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>quoteright</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>quoteright</string>
-        </dict>
-      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

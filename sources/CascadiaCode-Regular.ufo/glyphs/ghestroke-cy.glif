@@ -3,20 +3,14 @@
   <advance width="1200"/>
   <unicode hex="0493"/>
   <anchor x="600" y="0" name="bottom"/>
-  <anchor x="640" y="1060" name="top"/>
+  <anchor x="690" y="1060" name="top"/>
   <outline>
     <contour>
-      <point x="106" y="423" type="line"/>
-      <point x="788" y="423" type="line"/>
-      <point x="788" y="597" type="line"/>
-      <point x="106" y="597" type="line"/>
+      <point x="56" y="423" type="line"/>
+      <point x="738" y="423" type="line"/>
+      <point x="738" y="597" type="line"/>
+      <point x="56" y="597" type="line"/>
     </contour>
     <component base="ge-cy"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

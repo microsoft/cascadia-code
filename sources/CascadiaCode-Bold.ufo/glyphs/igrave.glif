@@ -3,16 +3,16 @@
   <advance width="1200"/>
   <unicode hex="00EC"/>
   <anchor x="670" y="0" name="bottom"/>
-  <anchor x="1080" y="10" name="ogonek"/>
+  <anchor x="731" y="10" name="ogonek"/>
   <anchor x="650" y="1540" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="gravecomb" xOffset="95"/>
+    <component base="gravecomb" xOffset="5"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="negativeAcknowledgeControl.ss20" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1125" y="535" type="line"/>
+      <point x="1125" y="735" type="line"/>
+      <point x="439" y="1000" type="line"/>
+      <point x="439" y="800" type="line"/>
+    </contour>
+    <component base="acknowledgeControl.ss20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

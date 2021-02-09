@@ -2,16 +2,10 @@
 <glyph name="kje-cy" format="2">
   <advance width="1200"/>
   <unicode hex="045C"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="590" y="1540" name="top"/>
+  <anchor x="590" y="0" name="bottom"/>
+  <anchor x="580" y="1540" name="top"/>
   <outline>
     <component base="ka-cy"/>
-    <component base="acutecomb" xOffset="20"/>
+    <component base="acutecomb" xOffset="41"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -4,17 +4,28 @@
   <unicode hex="1EBE"/>
   <anchor x="630" y="0" name="bottom"/>
   <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="630" y="1980" name="top"/>
+  <anchor x="1014" y="2018" name="top"/>
   <anchor x="20" y="1420" name="topleft"/>
   <outline>
     <component base="E"/>
     <component base="circumflexcomb.case" xOffset="30"/>
-    <component base="acutecomb.case" xOffset="414" yOffset="248"/>
+    <component base="acutecomb.case" xOffset="493" yOffset="248"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_viet</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>acutecomb.case</string>
+        </dict>
+      </array>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

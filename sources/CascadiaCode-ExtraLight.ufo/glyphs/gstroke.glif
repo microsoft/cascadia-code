@@ -2,21 +2,21 @@
 <glyph name="gstroke" format="2">
   <advance width="1200"/>
   <unicode hex="01E5"/>
-  <anchor x="540" y="-480" name="bottom"/>
+  <anchor x="540" y="-420" name="bottom"/>
   <anchor x="580" y="1060" name="top"/>
   <outline>
     <contour>
-      <point x="1156" y="-135" type="line"/>
-      <point x="44" y="-135" type="line"/>
       <point x="44" y="-223" type="line"/>
       <point x="1156" y="-223" type="line"/>
+      <point x="1156" y="-135" type="line"/>
+      <point x="44" y="-135" type="line"/>
     </contour>
     <component base="g"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

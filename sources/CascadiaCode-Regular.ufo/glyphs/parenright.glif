@@ -2,6 +2,7 @@
 <glyph name="parenright" format="2">
   <advance width="1200"/>
   <unicode hex="0029"/>
+  <guideline x="202" y="812" angle="90"/>
   <outline>
     <contour>
       <point x="202" y="-200" type="line"/>
@@ -13,7 +14,7 @@
       <point x="684" y="1620"/>
       <point x="250" y="1620" type="curve" smooth="yes"/>
       <point x="202" y="1620" type="line"/>
-      <point x="222" y="1440" type="line"/>
+      <point x="202" y="1440" type="line"/>
       <point x="230" y="1440" type="line" smooth="yes"/>
       <point x="546" y="1440"/>
       <point x="724" y="1175"/>
@@ -21,7 +22,7 @@
       <point x="724" y="249"/>
       <point x="546" y="-20"/>
       <point x="230" y="-20" type="curve" smooth="yes"/>
-      <point x="222" y="-20" type="line"/>
+      <point x="202" y="-20" type="line"/>
     </contour>
   </outline>
   <lib>

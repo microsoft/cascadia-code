@@ -11,6 +11,12 @@
   <outline>
     <component base="O"/>
     <component base="macroncomb.case"/>
-    <component base="acutecomb.case" yOffset="300"/>
+    <component base="acutecomb.case" xOffset="70" yOffset="300"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>
