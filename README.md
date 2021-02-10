@@ -28,7 +28,7 @@ Once unzipped, right-click the font file and click "Install for all users". This
 
 For more details and app-specific instructions, [please check the wiki](https://github.com/microsoft/cascadia-code/wiki/Installing-Cascadia-Code). 
 
-**Visual Studio users:** Cascadia Code looks much better in the editor after setting this option: Tools->Options->Text Editor->Advanced->Text formatting method->Ideal.
+**Visual Studio users:** Cascadia Code may look better in the editor after setting this option: Tools->Options->Text Editor->Advanced->Text formatting method->Ideal. This may not be necessary on high DPI screens.
 
 # Get involved
 Instructions on how to modify and submit an update to the Cascadia Code source is [available in the wiki](https://github.com/microsoft/cascadia-code/wiki/Modifying-Cascadia-Code).
