@@ -15,10 +15,8 @@
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <array>
-      <string>/dollar_greater.liga</string>
-      <string>/dollar_greater.liga 
-/less_dollar.liga 
-/less_dollar_greater.liga</string>
+      <string>a/Klinebelow ,/space/Llinebelow ,/space/Nlinebelow ,/space/Tlinebelow ,/space/klinebelow ,/space/llinebelow ,/space/nlinebelow/space in/space any/space sequence/space like/space/Klinebelow/Llinebelow/Nlinebelow/Tlinebelow/klinebelow/llinebelow/nlinebelow ./lowlinecomb</string>
+      <string>t/lowlinecomb s/lowlinecomb/space</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
@@ -182,6 +180,7 @@ Half
       <string>Iotaafrican</string>
       <string>Itilde</string>
       <string>J</string>
+      <string>Jacute</string>
       <string>Jcircumflex</string>
       <string>K</string>
       <string>Kacute</string>
@@ -303,7 +302,6 @@ Half
       <string>Zacute</string>
       <string>Zcaron</string>
       <string>Zdotaccent</string>
-      <string>Iacute_J.loclNLD</string>
       <string>Cacute.loclPLK</string>
       <string>Nacute.loclPLK</string>
       <string>Oacute.loclPLK</string>
@@ -429,6 +427,7 @@ Half
       <string>itilde</string>
       <string>j</string>
       <string>jdotless</string>
+      <string>jacute</string>
       <string>jcaron</string>
       <string>jcircumflex</string>
       <string>k</string>
@@ -553,7 +552,6 @@ Half
       <string>zcaron</string>
       <string>zdotaccent</string>
       <string>dcaron.alt</string>
-      <string>iacute_j.loclNLD</string>
       <string>cacute.loclPLK</string>
       <string>nacute.loclPLK</string>
       <string>oacute.loclPLK</string>
@@ -2055,6 +2053,8 @@ Half
       <string>uni026A</string>
       <key>Iu-cy</key>
       <string>uni042E</string>
+      <key>Jacute</key>
+      <string>uni00A40301</string>
       <key>Je-cy</key>
       <string>uni0408</string>
       <key>Ka-cy</key>
@@ -3437,6 +3437,8 @@ Half
       <string>uni044E</string>
       <key>iu-cy.loclBGR</key>
       <string>uni044E.loclBGR</string>
+      <key>jacute</key>
+      <string>uni006A0301</string>
       <key>jcaron</key>
       <string>uni01F0</string>
       <key>jdotless</key>
