@@ -112,13 +112,6 @@ lookup locl_latn_1 {
 	sub acutecomb by acutecomb.loclPLK;
 } locl_latn_1;
 
-lookup locl_latn_2 {
-	script latn;
-	language NLD;
-	sub iacute j' by jacute;
-	sub Iacute J' by Jacute;
-} locl_latn_2;
-
 lookup locl_cyrl_0 {
 	script cyrl;
 	language BGR;
