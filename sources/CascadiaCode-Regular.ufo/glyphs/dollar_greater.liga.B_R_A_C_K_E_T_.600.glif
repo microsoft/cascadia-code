@@ -3,20 +3,14 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="1207" y="214" type="line"/>
-      <point x="2165" y="608" type="line"/>
-      <point x="2165" y="810" type="line"/>
-      <point x="618" y="1471" type="line"/>
-      <point x="618" y="1256" type="line"/>
-      <point x="1907" y="718" type="line"/>
-      <point x="1907" y="700" type="line"/>
-      <point x="1207" y="434" type="line"/>
-    </contour>
-    <contour>
-      <point x="604" y="-320" type="line"/>
-      <point x="742" y="-320" type="line"/>
-      <point x="742" y="74" type="line"/>
-      <point x="604" y="74" type="line"/>
+      <point x="1277" y="214" type="line"/>
+      <point x="2160" y="608" type="line"/>
+      <point x="2160" y="810" type="line"/>
+      <point x="698" y="1457" type="line"/>
+      <point x="635" y="1269" type="line"/>
+      <point x="1902" y="718" type="line"/>
+      <point x="1902" y="700" type="line"/>
+      <point x="1277" y="434" type="line"/>
     </contour>
     <contour>
       <point x="608" y="-20" type="curve" smooth="yes"/>
@@ -55,10 +49,16 @@
       <point x="446" y="-20"/>
     </contour>
     <contour>
-      <point x="604" y="1256" type="line"/>
+      <point x="604" y="164" type="line"/>
+      <point x="604" y="-320" type="line"/>
+      <point x="742" y="-320" type="line"/>
+      <point x="742" y="164" type="line"/>
+    </contour>
+    <contour>
       <point x="742" y="1256" type="line"/>
       <point x="742" y="1740" type="line"/>
       <point x="604" y="1740" type="line"/>
+      <point x="604" y="1256" type="line"/>
     </contour>
   </outline>
   <lib>

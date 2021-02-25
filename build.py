@@ -209,7 +209,7 @@ def compile_variable_and_save(
     # Adjusting postscript name to make room for the upcoming Italic
     # Helping mac office generage the postscript name correctly for variable fonts
     varFont["head"].flags = 0x000b
-    varFont["name"].setName(familyName, 4, 3, 1, 1033)
+    
     varFont["name"].setName(familyName.replace(" ","")+"-Roman", 6, 3, 1, 1033)
     varFont["name"].setName("Roman", 17, 3, 1, 1033)
     varFont["name"].setName(familyName.replace(" ","")+"Roman", 25, 3, 1, 1033)
