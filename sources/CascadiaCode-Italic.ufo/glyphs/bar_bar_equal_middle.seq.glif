@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar_bar_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1637" y="866" type="line"/>
+      <point x="2509" y="866" type="line"/>
+      <point x="2542" y="1052" type="line"/>
+      <point x="1670" y="1052" type="line"/>
+    </contour>
+    <contour>
+      <point x="-79" y="366" type="line"/>
+      <point x="775" y="366" type="line"/>
+      <point x="808" y="552" type="line"/>
+      <point x="-46" y="552" type="line"/>
+    </contour>
+    <contour>
+      <point x="9" y="866" type="line"/>
+      <point x="863" y="866" type="line"/>
+      <point x="896" y="1052" type="line"/>
+      <point x="42" y="1052" type="line"/>
+    </contour>
+    <contour>
+      <point x="1549" y="366" type="line"/>
+      <point x="2421" y="366" type="line"/>
+      <point x="2454" y="552" type="line"/>
+      <point x="1582" y="552" type="line"/>
+    </contour>
+    <component base="bar" xOffset="182"/>
+    <component base="bar" xOffset="1019"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

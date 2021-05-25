@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Sigma" format="2">
+  <advance width="1200"/>
+  <unicode hex="03A3"/>
+  <anchor x="506" y="1" name="bottom"/>
+  <anchor x="757" y="1421" name="top"/>
+  <outline>
+    <contour>
+      <point x="240" y="68" type="line"/>
+      <point x="880" y="713" type="line"/>
+      <point x="434" y="1362" type="line"/>
+      <point x="274" y="1230" type="line"/>
+      <point x="619" y="713" type="line"/>
+      <point x="90" y="190" type="line"/>
+    </contour>
+    <contour>
+      <point x="57" y="0" type="line"/>
+      <point x="977" y="0" type="line"/>
+      <point x="1010" y="190" type="line"/>
+      <point x="90" y="190" type="line"/>
+    </contour>
+    <contour>
+      <point x="274" y="1230" type="line"/>
+      <point x="1174" y="1230" type="line"/>
+      <point x="1207" y="1420" type="line"/>
+      <point x="307" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

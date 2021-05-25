@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign_question.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="757" y="0" type="line"/>
+      <point x="938" y="0" type="line"/>
+      <point x="1303" y="1420" type="line"/>
+      <point x="1122" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="250" y="360" type="line"/>
+      <point x="1250" y="360" type="line"/>
+      <point x="1280" y="530" type="line"/>
+      <point x="280" y="530" type="line"/>
+    </contour>
+    <contour>
+      <point x="321" y="0" type="line"/>
+      <point x="502" y="0" type="line"/>
+      <point x="867" y="1420" type="line"/>
+      <point x="686" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="343" y="890" type="line"/>
+      <point x="1538" y="890" type="line"/>
+      <point x="1568" y="1060" type="line"/>
+      <point x="373" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="1358" y="968" type="curve"/>
+      <point x="1552" y="968" type="line"/>
+      <point x="1582" y="1137"/>
+      <point x="1710" y="1250"/>
+      <point x="1871" y="1250" type="curve"/>
+      <point x="1917" y="1440" type="line"/>
+      <point x="1605" y="1440"/>
+      <point x="1381" y="1251"/>
+    </contour>
+    <contour>
+      <point x="1597" y="456" type="line"/>
+      <point x="1793" y="456" type="line"/>
+      <point x="1801" y="505" type="line" smooth="yes"/>
+      <point x="1815" y="589"/>
+      <point x="1876" y="673"/>
+      <point x="2011" y="768" type="curve" smooth="yes"/>
+      <point x="2176" y="884"/>
+      <point x="2264" y="990"/>
+      <point x="2264" y="1142" type="curve" smooth="yes"/>
+      <point x="2264" y="1329"/>
+      <point x="2135" y="1440"/>
+      <point x="1917" y="1440" type="curve"/>
+      <point x="1871" y="1250" type="line"/>
+      <point x="1980" y="1250"/>
+      <point x="2044" y="1200"/>
+      <point x="2044" y="1115" type="curve" smooth="yes"/>
+      <point x="2044" y="1026"/>
+      <point x="1986" y="968"/>
+      <point x="1882" y="894" type="curve" smooth="yes"/>
+      <point x="1725" y="782"/>
+      <point x="1625" y="676"/>
+      <point x="1605" y="519" type="curve" smooth="yes"/>
+    </contour>
+    <component base="period" xOffset="1118"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="spadeBlackSuit" format="2">
+  <advance width="1200"/>
+  <unicode hex="2660"/>
+  <guideline x="637" y="60" angle="0"/>
+  <guideline x="637" y="1280" angle="0"/>
+  <guideline x="637" y="1260" angle="0"/>
+  <guideline x="637" y="80" angle="0"/>
+  <guideline x="637" y="40" angle="0"/>
+  <outline>
+    <contour>
+      <point x="261" y="162" type="curve" smooth="yes"/>
+      <point x="406" y="162"/>
+      <point x="493" y="231"/>
+      <point x="520" y="363" type="curve"/>
+      <point x="642" y="363" type="line"/>
+      <point x="619" y="231"/>
+      <point x="670" y="162"/>
+      <point x="812" y="162" type="curve" smooth="yes"/>
+      <point x="995" y="162"/>
+      <point x="1091" y="302"/>
+      <point x="1091" y="571" type="curve" smooth="yes"/>
+      <point x="1091" y="860"/>
+      <point x="969" y="1103"/>
+      <point x="743" y="1280" type="curve"/>
+      <point x="354" y="1062"/>
+      <point x="87" y="692"/>
+      <point x="87" y="360" type="curve" smooth="yes"/>
+      <point x="87" y="230"/>
+      <point x="146" y="162"/>
+    </contour>
+    <contour>
+      <point x="479" y="60" type="line"/>
+      <point x="575" y="60" type="line"/>
+      <point x="752" y="1060" type="line"/>
+      <point x="656" y="1060" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

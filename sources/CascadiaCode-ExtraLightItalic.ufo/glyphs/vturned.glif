@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vturned" format="2">
+  <advance width="1200"/>
+  <unicode hex="028C"/>
+  <anchor x="507" y="0" name="bottom"/>
+  <anchor x="754" y="1060" name="top"/>
+  <outline>
+    <contour>
+      <point x="830" y="1060" type="line"/>
+      <point x="696" y="1060" type="line"/>
+      <point x="277" y="818"/>
+      <point x="48" y="456"/>
+      <point x="27" y="0" type="curve"/>
+      <point x="123" y="0" type="line"/>
+      <point x="141" y="408"/>
+      <point x="343" y="728"/>
+      <point x="723" y="970" type="curve"/>
+      <point x="741" y="970" type="line"/>
+      <point x="919" y="0" type="line"/>
+      <point x="1018" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

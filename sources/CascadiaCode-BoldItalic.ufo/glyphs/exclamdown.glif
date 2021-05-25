@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclamdown" format="2">
+  <advance width="1200"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <contour>
+      <point x="305" y="-302" type="line"/>
+      <point x="600" y="-302" type="line"/>
+      <point x="742" y="572" type="line"/>
+      <point x="478" y="572" type="line"/>
+    </contour>
+    <component base="period" xOffset="142" yOffset="804"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

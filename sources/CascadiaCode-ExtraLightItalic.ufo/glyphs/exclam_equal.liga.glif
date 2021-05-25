@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="573" y="-100" type="line"/>
+      <point x="685" y="-100" type="line"/>
+      <point x="1875" y="1520" type="line"/>
+      <point x="1763" y="1520" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="414" type="line"/>
+      <point x="2199" y="414" type="line"/>
+      <point x="2215" y="504" type="line"/>
+      <point x="176" y="504" type="line"/>
+    </contour>
+    <contour>
+      <point x="248" y="914" type="line"/>
+      <point x="2287" y="914" type="line"/>
+      <point x="2303" y="1004" type="line"/>
+      <point x="264" y="1004" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

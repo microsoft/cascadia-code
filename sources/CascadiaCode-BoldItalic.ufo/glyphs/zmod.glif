@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zmod" format="2">
+  <advance width="1200"/>
+  <unicode hex="1DBB"/>
+  <outline>
+    <contour>
+      <point x="522" y="918" type="line"/>
+      <point x="1022" y="1215" type="line"/>
+      <point x="881" y="1288" type="line"/>
+      <point x="365" y="994" type="line"/>
+    </contour>
+    <contour>
+      <point x="389" y="790" type="line"/>
+      <point x="940" y="790" type="line"/>
+      <point x="976" y="994" type="line"/>
+      <point x="365" y="994" type="line"/>
+    </contour>
+    <contour>
+      <point x="424" y="1215" type="line"/>
+      <point x="1022" y="1215" type="line"/>
+      <point x="999" y="1420" type="line"/>
+      <point x="461" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ustraightstroke-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04B1"/>
+  <outline>
+    <contour>
+      <point x="92" y="-174" type="line"/>
+      <point x="863" y="-174" type="line"/>
+      <point x="893" y="0" type="line"/>
+      <point x="122" y="0" type="line"/>
+    </contour>
+    <component base="ustraight-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

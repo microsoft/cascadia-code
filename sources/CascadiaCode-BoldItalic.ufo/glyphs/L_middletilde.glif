@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lmiddletilde" format="2">
+  <advance width="1200"/>
+  <unicode hex="2C62"/>
+  <anchor x="643" y="0" name="bottom"/>
+  <anchor x="752" y="710" name="center"/>
+  <anchor x="608" y="1420" name="top"/>
+  <anchor x="1342" y="1420" name="topright"/>
+  <outline>
+    <contour>
+      <point x="225" y="0" type="line"/>
+      <point x="491" y="0" type="line"/>
+      <point x="741" y="1420" type="line"/>
+      <point x="475" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="225" y="0" type="line"/>
+      <point x="1023" y="0" type="line"/>
+      <point x="1066" y="243" type="line"/>
+      <point x="268" y="243" type="line"/>
+    </contour>
+    <contour>
+      <point x="-9" y="562" type="line"/>
+      <point x="224" y="562" type="line"/>
+      <point x="239" y="647" type="line" smooth="yes"/>
+      <point x="247" y="695"/>
+      <point x="272" y="716"/>
+      <point x="322" y="716" type="curve" smooth="yes"/>
+      <point x="378" y="716"/>
+      <point x="420" y="695"/>
+      <point x="476" y="661" type="curve" smooth="yes"/>
+      <point x="537" y="622"/>
+      <point x="607" y="590"/>
+      <point x="692" y="590" type="curve" smooth="yes"/>
+      <point x="854" y="590"/>
+      <point x="937" y="669"/>
+      <point x="970" y="854" type="curve" smooth="yes"/>
+      <point x="991" y="970" type="line"/>
+      <point x="759" y="970" type="line"/>
+      <point x="744" y="886" type="line" smooth="yes"/>
+      <point x="735" y="838"/>
+      <point x="715" y="817"/>
+      <point x="671" y="817" type="curve" smooth="yes"/>
+      <point x="621" y="817"/>
+      <point x="579" y="842"/>
+      <point x="534" y="872" type="curve" smooth="yes"/>
+      <point x="466" y="916"/>
+      <point x="401" y="943"/>
+      <point x="314" y="943" type="curve" smooth="yes"/>
+      <point x="136" y="943"/>
+      <point x="45" y="864"/>
+      <point x="12" y="679" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

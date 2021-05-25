@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etatonos" format="2">
+  <advance width="1200"/>
+  <unicode hex="0389"/>
+  <anchor x="622" y="0" name="bottom"/>
+  <anchor x="872" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="847" y="0" type="line"/>
+      <point x="943" y="0" type="line"/>
+      <point x="1193" y="1420" type="line"/>
+      <point x="1097" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="246" y="0" type="line"/>
+      <point x="342" y="0" type="line"/>
+      <point x="592" y="1420" type="line"/>
+      <point x="496" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="405" y="662" type="line"/>
+      <point x="1013" y="662" type="line"/>
+      <point x="1033" y="752" type="line"/>
+      <point x="425" y="752" type="line"/>
+    </contour>
+    <contour>
+      <point x="113" y="1040" type="line"/>
+      <point x="207" y="1040" type="line"/>
+      <point x="386" y="1420" type="line"/>
+      <point x="277" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

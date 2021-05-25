@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcaron.alt" format="2">
+  <advance width="1200"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="568" y="532" name="center"/>
+  <anchor x="994" y="1500" name="top"/>
+  <anchor x="1168" y="1062" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1221" y="1188" type="line"/>
+      <point x="1298" y="1188" type="line"/>
+      <point x="1445" y="1568" type="line"/>
+      <point x="1350" y="1568" type="line"/>
+    </contour>
+    <contour>
+      <point x="994" y="1444" type="line"/>
+      <point x="860" y="689" type="line"/>
+      <point x="809" y="339" type="line"/>
+      <point x="757" y="-10" type="line"/>
+      <point x="1017" y="0" type="line"/>
+      <point x="1031" y="82" type="line"/>
+      <point x="806" y="82" type="line"/>
+      <point x="839" y="23" type="line"/>
+      <point x="1102" y="1514" type="line"/>
+      <point x="791" y="1500" type="line"/>
+      <point x="776" y="1418" type="line"/>
+      <point x="1069" y="1418" type="line"/>
+    </contour>
+    <contour>
+      <point x="846" y="284" type="line"/>
+      <point x="865" y="709" type="line"/>
+      <point x="792" y="287"/>
+      <point x="647" y="71"/>
+      <point x="399" y="71" type="curve" smooth="yes"/>
+      <point x="252" y="71"/>
+      <point x="166" y="148"/>
+      <point x="166" y="282" type="curve" smooth="yes"/>
+      <point x="166" y="677"/>
+      <point x="499" y="958"/>
+      <point x="1000" y="978" type="curve"/>
+      <point x="1016" y="1070" type="line"/>
+      <point x="1008" y="1070" type="line" smooth="yes"/>
+      <point x="474" y="1070"/>
+      <point x="70" y="758"/>
+      <point x="70" y="277" type="curve" smooth="yes"/>
+      <point x="70" y="88"/>
+      <point x="184" y="-21"/>
+      <point x="384" y="-21" type="curve" smooth="yes"/>
+      <point x="584" y="-21"/>
+      <point x="741" y="114"/>
+      <point x="813" y="352" type="curve"/>
+      <point x="752" y="284" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

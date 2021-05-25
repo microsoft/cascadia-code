@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guarani" format="2">
+  <advance width="1200"/>
+  <unicode hex="20B2"/>
+  <outline>
+    <contour>
+      <point x="422" y="-320" type="line"/>
+      <point x="560" y="-320" type="line"/>
+      <point x="619" y="15" type="line"/>
+      <point x="633" y="93" type="line"/>
+      <point x="723" y="603" type="line"/>
+      <point x="734" y="665" type="line"/>
+      <point x="923" y="1740" type="line"/>
+      <point x="785" y="1740" type="line"/>
+    </contour>
+    <component base="G"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

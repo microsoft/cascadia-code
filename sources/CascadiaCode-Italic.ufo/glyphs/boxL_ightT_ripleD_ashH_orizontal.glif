@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boxLightTripleDashHorizontal" format="2">
+  <advance width="1200"/>
+  <unicode hex="2504"/>
+  <outline>
+    <contour>
+      <point x="866" y="603" type="line"/>
+      <point x="1133" y="603" type="line"/>
+      <point x="1133" y="811" type="line"/>
+      <point x="866" y="811" type="line"/>
+    </contour>
+    <contour>
+      <point x="66" y="603" type="line"/>
+      <point x="333" y="603" type="line"/>
+      <point x="333" y="811" type="line"/>
+      <point x="66" y="811" type="line"/>
+    </contour>
+    <contour>
+      <point x="466" y="603" type="line"/>
+      <point x="733" y="603" type="line"/>
+      <point x="733" y="811" type="line"/>
+      <point x="466" y="811" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

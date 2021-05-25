@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dzhe-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="045F"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="693" y="1060" name="top"/>
+  <outline>
+    <contour>
+      <point x="529" y="-480" type="line"/>
+      <point x="573" y="-361"/>
+      <point x="599" y="-248"/>
+      <point x="624" y="-113" type="curve"/>
+      <point x="383" y="-87" type="line"/>
+      <point x="352" y="-198"/>
+      <point x="289" y="-376"/>
+      <point x="254" y="-460" type="curve"/>
+    </contour>
+    <component base="u" xOffset="3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

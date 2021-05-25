@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dots237-braille" format="2">
+  <advance width="1200"/>
+  <unicode hex="2846"/>
+  <outline>
+    <contour>
+      <point x="350" y="763" type="curve" smooth="yes"/>
+      <point x="400" y="763"/>
+      <point x="440" y="803"/>
+      <point x="440" y="853" type="curve" smooth="yes"/>
+      <point x="440" y="903"/>
+      <point x="400" y="943"/>
+      <point x="350" y="943" type="curve" smooth="yes"/>
+      <point x="300" y="943"/>
+      <point x="260" y="903"/>
+      <point x="260" y="853" type="curve" smooth="yes"/>
+      <point x="260" y="803"/>
+      <point x="300" y="763"/>
+    </contour>
+    <contour>
+      <point x="350" y="-110" type="curve" smooth="yes"/>
+      <point x="400" y="-110"/>
+      <point x="440" y="-70"/>
+      <point x="440" y="-20" type="curve" smooth="yes"/>
+      <point x="440" y="30"/>
+      <point x="400" y="70"/>
+      <point x="350" y="70" type="curve" smooth="yes"/>
+      <point x="300" y="70"/>
+      <point x="260" y="30"/>
+      <point x="260" y="-20" type="curve" smooth="yes"/>
+      <point x="260" y="-70"/>
+      <point x="300" y="-110"/>
+    </contour>
+    <contour>
+      <point x="350" y="327" type="curve" smooth="yes"/>
+      <point x="400" y="327"/>
+      <point x="440" y="367"/>
+      <point x="440" y="417" type="curve" smooth="yes"/>
+      <point x="440" y="467"/>
+      <point x="400" y="507"/>
+      <point x="350" y="507" type="curve" smooth="yes"/>
+      <point x="300" y="507"/>
+      <point x="260" y="467"/>
+      <point x="260" y="417" type="curve" smooth="yes"/>
+      <point x="260" y="367"/>
+      <point x="300" y="327"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

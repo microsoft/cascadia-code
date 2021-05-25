@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalFillCircle" format="2">
+  <advance width="1200"/>
+  <unicode hex="25CD"/>
+  <note>
+uni25CD
+</note>
+  <outline>
+    <contour>
+      <point x="403" y="274" type="line"/>
+      <point x="497" y="274" type="line"/>
+      <point x="497" y="1168" type="line"/>
+      <point x="403" y="1169" type="line"/>
+    </contour>
+    <contour>
+      <point x="703" y="274" type="line"/>
+      <point x="797" y="274" type="line"/>
+      <point x="797" y="1168" type="line"/>
+      <point x="703" y="1169" type="line"/>
+    </contour>
+    <component base="whiteCircle" yScale="-1" yOffset="1420"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

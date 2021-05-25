@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Softsign-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="042C"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="757" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="415" y="0" type="line"/>
+      <point x="808" y="0"/>
+      <point x="1080" y="203"/>
+      <point x="1080" y="518" type="curve" smooth="yes"/>
+      <point x="1080" y="778"/>
+      <point x="878" y="939"/>
+      <point x="587" y="939" type="curve" smooth="yes"/>
+      <point x="485" y="939"/>
+      <point x="395" y="930"/>
+      <point x="312" y="904" type="curve"/>
+      <point x="299" y="808" type="line"/>
+      <point x="387" y="837"/>
+      <point x="473" y="849"/>
+      <point x="583" y="849" type="curve" smooth="yes"/>
+      <point x="824" y="849"/>
+      <point x="984" y="723"/>
+      <point x="984" y="517" type="curve" smooth="yes"/>
+      <point x="984" y="249"/>
+      <point x="752" y="90"/>
+      <point x="421" y="90" type="curve" smooth="yes"/>
+      <point x="90" y="90" type="line"/>
+      <point x="73" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="71" y="0" type="line"/>
+      <point x="167" y="0" type="line"/>
+      <point x="417" y="1420" type="line"/>
+      <point x="321" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

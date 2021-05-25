@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oslash" format="2">
+  <advance width="1200"/>
+  <unicode hex="00D8"/>
+  <outline>
+    <contour>
+      <point x="86" y="-142" type="line"/>
+      <point x="1283" y="1449" type="line"/>
+      <point x="1154" y="1540" type="line"/>
+      <point x="-43" y="-41" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

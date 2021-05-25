@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asciitilde_greater.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="169" y="454" type="line"/>
+      <point x="433" y="454" type="line"/>
+      <point x="447" y="534" type="line" smooth="yes"/>
+      <point x="461" y="612"/>
+      <point x="521" y="649"/>
+      <point x="612" y="649" type="curve" smooth="yes"/>
+      <point x="680" y="649"/>
+      <point x="729" y="604"/>
+      <point x="779" y="571" type="curve" smooth="yes"/>
+      <point x="862" y="516"/>
+      <point x="930" y="488"/>
+      <point x="1029" y="488" type="curve" smooth="yes"/>
+      <point x="1213" y="488"/>
+      <point x="1348" y="613"/>
+      <point x="1564" y="613" type="curve" smooth="yes"/>
+      <point x="1701" y="613"/>
+      <point x="1807" y="587"/>
+      <point x="1954" y="587" type="curve"/>
+      <point x="1995" y="817" type="line"/>
+      <point x="1841" y="817"/>
+      <point x="1712" y="864"/>
+      <point x="1558" y="864" type="curve" smooth="yes"/>
+      <point x="1364" y="864"/>
+      <point x="1240" y="747"/>
+      <point x="1081" y="747" type="curve" smooth="yes"/>
+      <point x="996" y="747"/>
+      <point x="932" y="787"/>
+      <point x="865" y="829" type="curve" smooth="yes"/>
+      <point x="779" y="886"/>
+      <point x="680" y="932"/>
+      <point x="557" y="932" type="curve" smooth="yes"/>
+      <point x="351" y="932"/>
+      <point x="233" y="808"/>
+      <point x="187" y="554" type="curve" smooth="yes"/>
+    </contour>
+    <component base="greater.alt" xOffset="1184" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

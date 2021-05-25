@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_asciitilde.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1898" y="517" type="curve" smooth="yes"/>
+      <point x="2085" y="517"/>
+      <point x="2193" y="619"/>
+      <point x="2227" y="815" type="curve" smooth="yes"/>
+      <point x="2247" y="930" type="line"/>
+      <point x="2151" y="930" type="line"/>
+      <point x="2133" y="826" type="line" smooth="yes"/>
+      <point x="2108" y="679"/>
+      <point x="2032" y="607"/>
+      <point x="1912" y="607" type="curve" smooth="yes"/>
+      <point x="1804" y="607"/>
+      <point x="1729" y="672"/>
+      <point x="1647" y="722" type="curve" smooth="yes"/>
+      <point x="1558" y="777"/>
+      <point x="1471" y="842"/>
+      <point x="1355" y="842" type="curve" smooth="yes"/>
+      <point x="1175" y="842"/>
+      <point x="1043" y="705"/>
+      <point x="833" y="705" type="curve" smooth="yes"/>
+      <point x="671" y="705"/>
+      <point x="549" y="753"/>
+      <point x="375" y="753" type="curve"/>
+      <point x="360" y="671" type="line"/>
+      <point x="526" y="671"/>
+      <point x="661" y="615"/>
+      <point x="827" y="615" type="curve" smooth="yes"/>
+      <point x="1038" y="615"/>
+      <point x="1174" y="752"/>
+      <point x="1349" y="752" type="curve" smooth="yes"/>
+      <point x="1444" y="752"/>
+      <point x="1512" y="689"/>
+      <point x="1590" y="643" type="curve" smooth="yes"/>
+      <point x="1685" y="587"/>
+      <point x="1773" y="517"/>
+    </contour>
+    <component base="less.alt" xOffset="15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

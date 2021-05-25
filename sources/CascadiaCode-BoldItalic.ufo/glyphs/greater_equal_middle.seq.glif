@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="greater.alt"/>
+    <component base="equal_middle.seq"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

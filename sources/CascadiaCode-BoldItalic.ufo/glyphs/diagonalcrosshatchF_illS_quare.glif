@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="diagonalcrosshatchFillSquare" format="2">
+  <advance width="1200"/>
+  <unicode hex="25A9"/>
+  <note>
+uni25A9
+</note>
+  <outline>
+    <contour>
+      <point x="1003" y="223" type="line"/>
+      <point x="1087" y="317" type="line"/>
+      <point x="223" y="1181" type="line"/>
+      <point x="129" y="1097" type="line"/>
+    </contour>
+    <contour>
+      <point x="620" y="321" type="line"/>
+      <point x="798" y="321" type="line"/>
+      <point x="200" y="919" type="line"/>
+      <point x="200" y="741" type="line"/>
+    </contour>
+    <contour>
+      <point x="197" y="223" type="line"/>
+      <point x="1071" y="1097" type="line"/>
+      <point x="977" y="1181" type="line"/>
+      <point x="113" y="317" type="line"/>
+    </contour>
+    <contour>
+      <point x="402" y="321" type="line"/>
+      <point x="580" y="321" type="line"/>
+      <point x="1000" y="741" type="line"/>
+      <point x="1000" y="919" type="line"/>
+    </contour>
+    <contour>
+      <point x="170" y="464" type="line"/>
+      <point x="791" y="1102" type="line"/>
+      <point x="613" y="1102" type="line"/>
+      <point x="170" y="643" type="line"/>
+    </contour>
+    <contour>
+      <point x="1030" y="464" type="line"/>
+      <point x="1030" y="643" type="line"/>
+      <point x="587" y="1102" type="line"/>
+      <point x="409" y="1102" type="line"/>
+    </contour>
+    <component base="whiteSquare"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteSquare</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Astroke" format="2">
+  <advance width="1200"/>
+  <unicode hex="023A"/>
+  <anchor x="438" y="-388" name="bottom"/>
+  <anchor x="871" y="1500" name="top"/>
+  <outline>
+    <contour>
+      <point x="364" y="-338" type="line"/>
+      <point x="640" y="428" type="line"/>
+      <point x="649" y="479" type="line"/>
+      <point x="835" y="994" type="line"/>
+      <point x="886" y="1107" type="line"/>
+      <point x="1095" y="1684" type="line"/>
+      <point x="967" y="1716" type="line"/>
+      <point x="815" y="1296" type="line"/>
+      <point x="796" y="1231" type="line"/>
+      <point x="526" y="484" type="line"/>
+      <point x="498" y="420" type="line"/>
+      <point x="235" y="-306" type="line"/>
+    </contour>
+    <component base="A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

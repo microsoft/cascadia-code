@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upDownbaseArrow" format="2">
+  <advance width="1200"/>
+  <unicode hex="21A8"/>
+  <outline>
+    <contour>
+      <point x="11" y="-88" type="line"/>
+      <point x="971" y="-88" type="line"/>
+      <point x="987" y="0" type="line"/>
+      <point x="27" y="0" type="line"/>
+    </contour>
+    <component base="upDownArrow"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yeru-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="042B"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="757" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="65" y="0" type="line"/>
+      <point x="222" y="0" type="line" smooth="yes"/>
+      <point x="556" y="0"/>
+      <point x="740" y="293"/>
+      <point x="740" y="657" type="curve" smooth="yes"/>
+      <point x="740" y="920"/>
+      <point x="607" y="1012"/>
+      <point x="470" y="1012" type="curve" smooth="yes"/>
+      <point x="430" y="1012"/>
+      <point x="363" y="1004"/>
+      <point x="332" y="995" type="curve"/>
+      <point x="289" y="762" type="line"/>
+      <point x="317" y="765"/>
+      <point x="364" y="770"/>
+      <point x="390" y="770" type="curve" smooth="yes"/>
+      <point x="451" y="770"/>
+      <point x="500" y="744"/>
+      <point x="500" y="637" type="curve" smooth="yes"/>
+      <point x="500" y="438"/>
+      <point x="433" y="244"/>
+      <point x="279" y="244" type="curve" smooth="yes"/>
+      <point x="111" y="244" type="line"/>
+    </contour>
+    <contour>
+      <point x="22" y="0" type="line"/>
+      <point x="222" y="0" type="line"/>
+      <point x="287" y="85" type="line"/>
+      <point x="522" y="1420" type="line"/>
+      <point x="272" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="726" y="0" type="line"/>
+      <point x="992" y="0" type="line"/>
+      <point x="1242" y="1420" type="line"/>
+      <point x="976" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

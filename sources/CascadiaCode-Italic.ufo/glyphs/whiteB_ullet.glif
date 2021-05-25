@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteBullet" format="2">
+  <advance width="1200"/>
+  <unicode hex="25E6"/>
+  <note>
+openbullet
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="414" type="curve" smooth="yes"/>
+      <point x="778" y="414"/>
+      <point x="896" y="532"/>
+      <point x="896" y="710" type="curve" smooth="yes"/>
+      <point x="896" y="888"/>
+      <point x="778" y="1006"/>
+      <point x="600" y="1006" type="curve" smooth="yes"/>
+      <point x="422" y="1006"/>
+      <point x="304" y="888"/>
+      <point x="304" y="710" type="curve" smooth="yes"/>
+      <point x="304" y="532"/>
+      <point x="422" y="414"/>
+    </contour>
+    <contour>
+      <point x="600" y="564" type="curve" smooth="yes"/>
+      <point x="512" y="564"/>
+      <point x="454" y="622"/>
+      <point x="454" y="710" type="curve" smooth="yes"/>
+      <point x="454" y="798"/>
+      <point x="512" y="856"/>
+      <point x="600" y="856" type="curve" smooth="yes"/>
+      <point x="688" y="856"/>
+      <point x="746" y="798"/>
+      <point x="746" y="710" type="curve" smooth="yes"/>
+      <point x="746" y="622"/>
+      <point x="688" y="564"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

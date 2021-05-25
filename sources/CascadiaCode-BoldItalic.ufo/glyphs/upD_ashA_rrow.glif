@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upDashArrow" format="2">
+  <advance width="1200"/>
+  <unicode hex="21E1"/>
+  <outline>
+    <contour>
+      <point x="375" y="0" type="line"/>
+      <point x="637" y="0" type="line"/>
+      <point x="676" y="219" type="line"/>
+      <point x="414" y="219" type="line"/>
+    </contour>
+    <contour>
+      <point x="426" y="287" type="line"/>
+      <point x="688" y="287" type="line"/>
+      <point x="726" y="503" type="line"/>
+      <point x="464" y="503" type="line"/>
+    </contour>
+    <contour>
+      <point x="476" y="571" type="line"/>
+      <point x="738" y="571" type="line"/>
+      <point x="774" y="778" type="line"/>
+      <point x="512" y="778" type="line"/>
+    </contour>
+    <contour>
+      <point x="524" y="846" type="line"/>
+      <point x="786" y="846" type="line"/>
+      <point x="847" y="1192" type="line"/>
+      <point x="585" y="1192" type="line"/>
+    </contour>
+    <contour>
+      <point x="1236" y="980" type="line"/>
+      <point x="822" y="1440" type="line"/>
+      <point x="700" y="1440" type="line"/>
+      <point x="144" y="1030" type="line"/>
+      <point x="301" y="840" type="line"/>
+      <point x="696" y="1161" type="line"/>
+      <point x="714" y="1161" type="line"/>
+      <point x="1048" y="795" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

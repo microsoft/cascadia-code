@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilontonos" format="2">
+  <advance width="1200"/>
+  <unicode hex="0388"/>
+  <anchor x="634" y="0" name="bottom"/>
+  <anchor x="884" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="266" y="0" type="line"/>
+      <point x="466" y="0" type="line"/>
+      <point x="716" y="1420" type="line"/>
+      <point x="516" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="266" y="0" type="line"/>
+      <point x="1006" y="0" type="line"/>
+      <point x="1039" y="190" type="line"/>
+      <point x="299" y="190" type="line"/>
+    </contour>
+    <contour>
+      <point x="374" y="616" type="line"/>
+      <point x="934" y="616" type="line"/>
+      <point x="968" y="806" type="line"/>
+      <point x="408" y="806" type="line"/>
+    </contour>
+    <contour>
+      <point x="483" y="1230" type="line"/>
+      <point x="1223" y="1230" type="line"/>
+      <point x="1256" y="1420" type="line"/>
+      <point x="516" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="84" y="1040" type="line"/>
+      <point x="276" y="1040" type="line"/>
+      <point x="453" y="1420" type="line"/>
+      <point x="241" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seveneighths" format="2">
+  <advance width="1200"/>
+  <unicode hex="215E"/>
+  <outline>
+    <contour>
+      <point x="147" y="284" type="line"/>
+      <point x="1167" y="1012" type="line"/>
+      <point x="1103" y="1122" type="line"/>
+      <point x="82" y="400" type="line"/>
+    </contour>
+    <component base="sevensuperior" xOffset="-260"/>
+    <component base="eightinferior" xOffset="270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

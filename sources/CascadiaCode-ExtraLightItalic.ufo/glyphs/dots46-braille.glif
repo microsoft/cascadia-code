@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dots46-braille" format="2">
+  <advance width="1200"/>
+  <unicode hex="2828"/>
+  <outline>
+    <contour>
+      <point x="850" y="1200" type="curve" smooth="yes"/>
+      <point x="900" y="1200"/>
+      <point x="940" y="1240"/>
+      <point x="940" y="1290" type="curve" smooth="yes"/>
+      <point x="940" y="1340"/>
+      <point x="900" y="1380"/>
+      <point x="850" y="1380" type="curve" smooth="yes"/>
+      <point x="800" y="1380"/>
+      <point x="760" y="1340"/>
+      <point x="760" y="1290" type="curve" smooth="yes"/>
+      <point x="760" y="1240"/>
+      <point x="800" y="1200"/>
+    </contour>
+    <contour>
+      <point x="850" y="327" type="curve" smooth="yes"/>
+      <point x="900" y="327"/>
+      <point x="940" y="367"/>
+      <point x="940" y="417" type="curve" smooth="yes"/>
+      <point x="940" y="467"/>
+      <point x="900" y="507"/>
+      <point x="850" y="507" type="curve" smooth="yes"/>
+      <point x="800" y="507"/>
+      <point x="760" y="467"/>
+      <point x="760" y="417" type="curve" smooth="yes"/>
+      <point x="760" y="367"/>
+      <point x="800" y="327"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

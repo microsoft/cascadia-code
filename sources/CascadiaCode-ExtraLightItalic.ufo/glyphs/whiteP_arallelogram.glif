@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteParallelogram" format="2">
+  <advance width="1200"/>
+  <unicode hex="25B1"/>
+  <note>
+uni25B1
+</note>
+  <outline>
+    <contour>
+      <point x="0" y="410" type="line"/>
+      <point x="1030" y="410" type="line"/>
+      <point x="1200" y="1010" type="line"/>
+      <point x="170" y="1010" type="line"/>
+    </contour>
+    <contour>
+      <point x="121" y="482" type="line"/>
+      <point x="250" y="938" type="line"/>
+      <point x="202" y="920" type="line"/>
+      <point x="1083" y="920" type="line"/>
+      <point x="1079" y="938" type="line"/>
+      <point x="950" y="482" type="line"/>
+      <point x="998" y="500" type="line"/>
+      <point x="117" y="500" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

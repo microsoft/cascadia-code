@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zhedescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="0496"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="757" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="392" y="0" type="line"/>
+      <point x="580" y="0" type="line"/>
+      <point x="831" y="1420" type="line"/>
+      <point x="643" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-86" y="0" type="curve"/>
+      <point x="122" y="0" type="line"/>
+      <point x="217" y="232"/>
+      <point x="284" y="404"/>
+      <point x="417" y="640" type="curve"/>
+      <point x="250" y="705" type="line"/>
+      <point x="66" y="370"/>
+      <point x="1" y="207"/>
+    </contour>
+    <contour>
+      <point x="1026" y="-321" type="line"/>
+      <point x="1063" y="-221"/>
+      <point x="1121" y="40"/>
+      <point x="1134" y="190" type="curve"/>
+      <point x="959" y="190" type="line"/>
+      <point x="921" y="0" type="line"/>
+      <point x="903" y="-85"/>
+      <point x="876" y="-190"/>
+      <point x="843" y="-281" type="curve"/>
+    </contour>
+    <contour>
+      <point x="859" y="0" type="line"/>
+      <point x="1060" y="0" type="line"/>
+      <point x="981" y="683" type="line"/>
+      <point x="798" y="698" type="line"/>
+    </contour>
+    <contour>
+      <point x="969" y="655" type="line"/>
+      <point x="1088" y="854"/>
+      <point x="1230" y="1204"/>
+      <point x="1291" y="1420" type="curve"/>
+      <point x="1103" y="1420" type="line"/>
+      <point x="1044" y="1245"/>
+      <point x="908" y="858"/>
+      <point x="784" y="669" type="curve"/>
+    </contour>
+    <contour>
+      <point x="402" y="608" type="line"/>
+      <point x="378" y="1420" type="line"/>
+      <point x="176" y="1420" type="line"/>
+      <point x="234" y="669" type="line"/>
+    </contour>
+    <contour>
+      <point x="250" y="561" type="line"/>
+      <point x="880" y="561" type="line"/>
+      <point x="914" y="751" type="line"/>
+      <point x="284" y="751" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

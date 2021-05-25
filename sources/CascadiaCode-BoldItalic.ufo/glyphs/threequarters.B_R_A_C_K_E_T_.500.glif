@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threequarters.BRACKET.500" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="788" y="698" type="line"/>
+      <point x="1227" y="959" type="line"/>
+      <point x="1096" y="1176" type="line"/>
+      <point x="709" y="835" type="line"/>
+    </contour>
+    <contour>
+      <point x="190" y="231" type="line"/>
+      <point x="578" y="565" type="line"/>
+      <point x="503" y="704" type="line"/>
+      <point x="66" y="451" type="line"/>
+    </contour>
+    <component base="threesuperior" xOffset="-260"/>
+    <component base="fourinferior" xOffset="270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
+      <string>[500]</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boxHeavyDoubleDashVertical" format="2">
+  <advance width="1200"/>
+  <unicode hex="254F"/>
+  <outline>
+    <contour>
+      <point x="392" y="1013" type="line"/>
+      <point x="808" y="1013" type="line"/>
+      <point x="808" y="1626" type="line"/>
+      <point x="392" y="1626" type="line"/>
+    </contour>
+    <contour>
+      <point x="392" y="-212" type="line"/>
+      <point x="808" y="-212" type="line"/>
+      <point x="808" y="401" type="line"/>
+      <point x="392" y="401" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

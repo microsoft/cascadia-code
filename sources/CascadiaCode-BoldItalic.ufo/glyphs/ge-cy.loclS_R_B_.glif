@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ge-cy.loclSRB" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="281" y="1251" type="line"/>
+      <point x="982" y="1251" type="line"/>
+      <point x="1027" y="1500" type="line"/>
+      <point x="326" y="1500" type="line"/>
+    </contour>
+    <component base="idotless"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>idotless</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

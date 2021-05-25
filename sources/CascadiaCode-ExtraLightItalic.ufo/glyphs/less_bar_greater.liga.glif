@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_bar_greater.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="greater" xOffset="2262"/>
+    <component base="less" xOffset="158"/>
+    <component base="bar" xOffset="1209"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

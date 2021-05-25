@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar_equal_end.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="48" y="914" type="line"/>
+      <point x="670" y="914" type="line"/>
+      <point x="686" y="1004" type="line"/>
+      <point x="64" y="1004" type="line"/>
+    </contour>
+    <contour>
+      <point x="-40" y="414" type="line"/>
+      <point x="582" y="414" type="line"/>
+      <point x="598" y="504" type="line"/>
+      <point x="-24" y="504" type="line"/>
+    </contour>
+    <component base="bar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

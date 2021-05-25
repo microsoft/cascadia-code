@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Endescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04A2"/>
+  <outline>
+    <contour>
+      <point x="938" y="-324" type="line"/>
+      <point x="978" y="-219"/>
+      <point x="1025" y="-37"/>
+      <point x="1041" y="90" type="curve"/>
+      <point x="948" y="90" type="line"/>
+      <point x="938" y="37" type="line" smooth="yes"/>
+      <point x="923" y="-44"/>
+      <point x="886" y="-191"/>
+      <point x="844" y="-303" type="curve"/>
+    </contour>
+    <component base="En-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

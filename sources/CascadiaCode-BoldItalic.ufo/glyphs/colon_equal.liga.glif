@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1153" y="835" type="line"/>
+      <point x="2173" y="835" type="line"/>
+      <point x="2217" y="1085" type="line"/>
+      <point x="1197" y="1085" type="line"/>
+    </contour>
+    <contour>
+      <point x="1065" y="333" type="line"/>
+      <point x="2085" y="333" type="line"/>
+      <point x="2129" y="583" type="line"/>
+      <point x="1109" y="583" type="line"/>
+    </contour>
+    <component base="colon" xOffset="-25" yOffset="180"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

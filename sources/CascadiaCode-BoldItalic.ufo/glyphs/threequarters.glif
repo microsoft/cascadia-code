@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threequarters" format="2">
+  <advance width="1200"/>
+  <unicode hex="00BE"/>
+  <outline>
+    <contour>
+      <point x="190" y="241" type="line"/>
+      <point x="1217" y="969" type="line"/>
+      <point x="1096" y="1166" type="line"/>
+      <point x="76" y="441" type="line"/>
+    </contour>
+    <component base="threesuperior" xOffset="-260"/>
+    <component base="fourinferior" xOffset="270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

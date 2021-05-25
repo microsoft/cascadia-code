@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iu-cy.loclBGR" format="2">
+  <advance width="1200"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="400" y="1500" name="top"/>
+  <outline>
+    <contour>
+      <point x="1" y="0" type="line"/>
+      <point x="261" y="0" type="line"/>
+      <point x="536" y="1500" type="line"/>
+      <point x="263" y="1500" type="line"/>
+    </contour>
+    <component base="iu-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

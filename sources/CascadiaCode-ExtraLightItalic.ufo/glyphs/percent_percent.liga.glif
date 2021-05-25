@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="percent_percent.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="217" y="306" type="line"/>
+      <point x="1360" y="1121" type="line"/>
+      <point x="1316" y="1197" type="line"/>
+      <point x="173" y="382" type="line"/>
+    </contour>
+    <contour>
+      <point x="1157" y="228" type="line"/>
+      <point x="2287" y="1030" type="line"/>
+      <point x="2243" y="1106" type="line"/>
+      <point x="1113" y="304" type="line"/>
+    </contour>
+    <component base="zerosuperior" xOffset="-190"/>
+    <component base="zeroinferior" xOffset="340"/>
+    <component base="zerosuperior" xOffset="860"/>
+    <component base="zeroinferior" xOffset="1390"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asciitilde_hyphen.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="971" y="480" type="curve" smooth="yes"/>
+      <point x="1108" y="480"/>
+      <point x="1182" y="560"/>
+      <point x="1216" y="730" type="curve" smooth="yes"/>
+      <point x="1218" y="740" type="line"/>
+      <point x="1124" y="744" type="line"/>
+      <point x="1120" y="716" type="line" smooth="yes"/>
+      <point x="1105" y="612"/>
+      <point x="1059" y="570"/>
+      <point x="986" y="570" type="curve" smooth="yes"/>
+      <point x="917" y="570"/>
+      <point x="849" y="616"/>
+      <point x="768" y="717" type="curve" smooth="yes"/>
+      <point x="664" y="846"/>
+      <point x="615" y="896"/>
+      <point x="515" y="896" type="curve" smooth="yes"/>
+      <point x="357" y="896"/>
+      <point x="270" y="797"/>
+      <point x="230" y="566" type="curve" smooth="yes"/>
+      <point x="216" y="486" type="line"/>
+      <point x="312" y="486" type="line"/>
+      <point x="328" y="576" type="line" smooth="yes"/>
+      <point x="357" y="737"/>
+      <point x="406" y="806"/>
+      <point x="498" y="806" type="curve" smooth="yes"/>
+      <point x="576" y="806"/>
+      <point x="614" y="755"/>
+      <point x="712" y="634" type="curve" smooth="yes"/>
+      <point x="799" y="528"/>
+      <point x="879" y="480"/>
+    </contour>
+    <contour>
+      <point x="1119" y="654" type="line"/>
+      <point x="2142" y="654" type="line"/>
+      <point x="2158" y="744" type="line"/>
+      <point x="1124" y="744" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ereversed" format="2">
+  <advance width="1200"/>
+  <unicode hex="018E"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="757" y="1420" name="top"/>
+  <anchor x="1364" y="1420" name="topright"/>
+  <outline>
+    <contour>
+      <point x="698" y="0" type="line"/>
+      <point x="964" y="0" type="line"/>
+      <point x="1214" y="1420" type="line"/>
+      <point x="948" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-10" y="0" type="line"/>
+      <point x="964" y="0" type="line"/>
+      <point x="1007" y="244" type="line"/>
+      <point x="33" y="244" type="line"/>
+    </contour>
+    <contour>
+      <point x="273" y="587" type="line"/>
+      <point x="1067" y="587" type="line"/>
+      <point x="1110" y="831" type="line"/>
+      <point x="316" y="831" type="line"/>
+    </contour>
+    <contour>
+      <point x="197" y="1176" type="line"/>
+      <point x="1170" y="1176" type="line"/>
+      <point x="1214" y="1420" type="line"/>
+      <point x="240" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

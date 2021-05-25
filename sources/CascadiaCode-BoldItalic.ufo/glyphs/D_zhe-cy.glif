@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Dzhe-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="040F"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="757" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="718" y="0" type="line"/>
+      <point x="984" y="0" type="line"/>
+      <point x="1234" y="1420" type="line"/>
+      <point x="968" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="532" y="-319" type="line"/>
+      <point x="608" y="-188"/>
+      <point x="675" y="97"/>
+      <point x="683" y="244" type="curve"/>
+      <point x="414" y="46" type="line"/>
+      <point x="404" y="-43"/>
+      <point x="353" y="-162"/>
+      <point x="296" y="-270" type="curve"/>
+    </contour>
+    <contour>
+      <point x="102" y="0" type="line"/>
+      <point x="913" y="0" type="line"/>
+      <point x="946" y="244" type="line"/>
+      <point x="135" y="244" type="line"/>
+    </contour>
+    <contour>
+      <point x="30" y="0" type="line"/>
+      <point x="296" y="0" type="line"/>
+      <point x="546" y="1420" type="line"/>
+      <point x="280" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

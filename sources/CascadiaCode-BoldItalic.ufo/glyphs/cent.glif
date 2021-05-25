@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cent" format="2">
+  <advance width="1200"/>
+  <unicode hex="00A2"/>
+  <outline>
+    <contour>
+      <point x="367" y="-354" type="line"/>
+      <point x="631" y="-354" type="line"/>
+      <point x="934" y="1414" type="line"/>
+      <point x="670" y="1414" type="line"/>
+    </contour>
+    <component base="c"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

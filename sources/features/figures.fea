@@ -1,0 +1,142 @@
+feature subs {
+# automatic
+sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+# sub eight-ar by eight-arinferior;
+# sub eight-persian by eight-persianinferior;
+# sub five-ar by five-arinferior;
+# sub five-persian by five-persianinferior;
+# sub four-ar by four-arinferior;
+# sub four-persian by four-persianinferior;
+# sub nine-ar by nine-arinferior;
+# sub nine-persian by nine-persianinferior;
+# sub one-ar by one-arinferior;
+# sub one-persian by one-persianinferior;
+# sub seven-ar by seven-arinferior;
+# sub seven-persian by seven-persianinferior;
+# sub six-ar by six-arinferior;
+# sub six-persian by six-persianinferior;
+# sub three-ar by three-arinferior;
+# sub three-persian by three-persianinferior;
+# sub two-ar by two-arinferior;
+# sub two-persian by two-persianinferior;
+# sub four-persian.urdu by four-persian.urduinferior;
+# sub seven-persian.urdu by seven-persian.urduinferior;
+# sub zero-ar by zero-arinferior;
+# sub zero-persian by zero-persianinferior;
+
+
+} subs;
+
+feature sinf {
+# automatic
+sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+# sub eight-ar by eight-arinferior;
+# sub eight-persian by eight-persianinferior;
+# sub five-ar by five-arinferior;
+# sub five-persian by five-persianinferior;
+# sub four-ar by four-arinferior;
+# sub four-persian by four-persianinferior;
+# sub nine-ar by nine-arinferior;
+# sub nine-persian by nine-persianinferior;
+# sub one-ar by one-arinferior;
+# sub one-persian by one-persianinferior;
+# sub seven-ar by seven-arinferior;
+# sub seven-persian by seven-persianinferior;
+# sub six-ar by six-arinferior;
+# sub six-persian by six-persianinferior;
+# sub three-ar by three-arinferior;
+# sub three-persian by three-persianinferior;
+# sub two-ar by two-arinferior;
+# sub two-persian by two-persianinferior;
+# sub four-persian.urdu by four-persian.urduinferior;
+# sub seven-persian.urdu by seven-persian.urduinferior;
+# sub zero-ar by zero-arinferior;
+# sub zero-persian by zero-persianinferior;
+
+
+} sinf;
+
+feature sups {
+# automatic
+sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+# sub eight-ar by eight-arsuperior;
+# sub eight-persian by eight-persiansuperior;
+# sub five-ar by five-arsuperior;
+# sub five-persian by five-persiansuperior;
+# sub four-ar by four-arsuperior;
+# sub four-persian by four-persiansuperior;
+# sub nine-ar by nine-arsuperior;
+# sub nine-persian by nine-persiansuperior;
+# sub one-ar by one-arsuperior;
+# sub one-persian by one-persiansuperior;
+# sub seven-ar by seven-arsuperior;
+# sub seven-persian by seven-persiansuperior;
+# sub six-ar by six-arsuperior;
+# sub six-persian by six-persiansuperior;
+# sub three-ar by three-arsuperior;
+# sub three-persian by three-persiansuperior;
+# sub two-ar by two-arsuperior;
+# sub two-persian by two-persiansuperior;
+# sub four-persian.urdu by four-persian.urdusuperior;
+# sub seven-persian.urdu by seven-persian.urdusuperior;
+# sub zero-ar by zero-arsuperior;
+# sub zero-persian by zero-persiansuperior;
+
+} sups;
+
+feature numr {
+# automatic
+sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+
+} numr;
+
+feature dnom {
+# automatic
+sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+
+} dnom;

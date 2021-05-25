@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period_hyphen.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1043" y="664" type="line"/>
+      <point x="2143" y="664" type="line"/>
+      <point x="2159" y="754" type="line"/>
+      <point x="1059" y="754" type="line"/>
+    </contour>
+    <component base="period" xOffset="50" yOffset="630"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

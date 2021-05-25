@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dagger" format="2">
+  <advance width="1200"/>
+  <unicode hex="2020"/>
+  <outline>
+    <contour>
+      <point x="463" y="272" type="line"/>
+      <point x="639" y="272" type="line"/>
+      <point x="855" y="1440" type="line"/>
+      <point x="659" y="1440" type="line"/>
+    </contour>
+    <contour>
+      <point x="296" y="964" type="line"/>
+      <point x="678" y="964" type="line"/>
+      <point x="1057" y="964" type="line"/>
+      <point x="1087" y="1132" type="line"/>
+      <point x="708" y="1132" type="line"/>
+      <point x="326" y="1132" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

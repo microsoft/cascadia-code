@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ymod" format="2">
+  <advance width="1200"/>
+  <unicode hex="02B8"/>
+  <guideline x="863" y="790" angle="0"/>
+  <outline>
+    <contour>
+      <point x="332" y="506" type="line"/>
+      <point x="728" y="662"/>
+      <point x="1028" y="936"/>
+      <point x="1145" y="1421" type="curve"/>
+      <point x="904" y="1421" type="line"/>
+      <point x="830" y="1052"/>
+      <point x="602" y="822"/>
+      <point x="257" y="689" type="curve"/>
+    </contour>
+    <contour>
+      <point x="609" y="1433" type="curve"/>
+      <point x="362" y="1421" type="line"/>
+      <point x="418" y="1167"/>
+      <point x="495" y="968"/>
+      <point x="575" y="818" type="curve"/>
+      <point x="801" y="890" type="line"/>
+      <point x="726" y="1012"/>
+      <point x="657" y="1191"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

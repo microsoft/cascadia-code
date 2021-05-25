@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Be-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="0411"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="757" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="93" y="0" type="line"/>
+      <point x="444" y="0" type="line" smooth="yes"/>
+      <point x="852" y="0"/>
+      <point x="1079" y="186"/>
+      <point x="1079" y="487" type="curve" smooth="yes"/>
+      <point x="1079" y="724"/>
+      <point x="894" y="878"/>
+      <point x="576" y="878" type="curve" smooth="yes"/>
+      <point x="474" y="878"/>
+      <point x="361" y="859"/>
+      <point x="270" y="828" type="curve"/>
+      <point x="258" y="736" type="line"/>
+      <point x="352" y="770"/>
+      <point x="472" y="792"/>
+      <point x="576" y="792" type="curve" smooth="yes"/>
+      <point x="828" y="792"/>
+      <point x="983" y="675"/>
+      <point x="983" y="486" type="curve" smooth="yes"/>
+      <point x="983" y="232"/>
+      <point x="797" y="85"/>
+      <point x="449" y="86" type="curve" smooth="yes"/>
+      <point x="109" y="87" type="line"/>
+    </contour>
+    <contour>
+      <point x="91" y="0" type="line"/>
+      <point x="187" y="0" type="line"/>
+      <point x="437" y="1420" type="line"/>
+      <point x="341" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="325" y="1330" type="line"/>
+      <point x="1124" y="1330" type="line"/>
+      <point x="1140" y="1420" type="line"/>
+      <point x="341" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

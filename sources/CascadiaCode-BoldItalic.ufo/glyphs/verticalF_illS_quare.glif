@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalFillSquare" format="2">
+  <advance width="1200"/>
+  <unicode hex="25A5"/>
+  <note>
+uni25A5
+</note>
+  <outline>
+    <contour>
+      <point x="567" y="259" type="line"/>
+      <point x="567" y="1161" type="line"/>
+      <point x="383" y="1161" type="line"/>
+      <point x="383" y="259" type="line"/>
+    </contour>
+    <contour>
+      <point x="817" y="259" type="line"/>
+      <point x="817" y="1161" type="line"/>
+      <point x="633" y="1161" type="line"/>
+      <point x="633" y="259" type="line"/>
+    </contour>
+    <component base="whiteSquare" xScale="0" xyScale="1" yxScale="-1" yScale="0" xOffset="1310" yOffset="110"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteSquare</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

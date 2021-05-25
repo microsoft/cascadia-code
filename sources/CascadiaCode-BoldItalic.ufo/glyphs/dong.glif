@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dong" format="2">
+  <advance width="1200"/>
+  <unicode hex="20AB"/>
+  <outline>
+    <contour>
+      <point x="42" y="-330" type="line"/>
+      <point x="908" y="-330" type="line"/>
+      <point x="939" y="-154" type="line"/>
+      <point x="73" y="-154" type="line"/>
+    </contour>
+    <component base="dcroat"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

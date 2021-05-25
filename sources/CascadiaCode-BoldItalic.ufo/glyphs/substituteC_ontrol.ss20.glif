@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="substituteControl.ss20" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="747" y="604" type="line"/>
+      <point x="747" y="625" type="line" smooth="yes"/>
+      <point x="747" y="740"/>
+      <point x="663" y="818"/>
+      <point x="500" y="868" type="curve" smooth="yes"/>
+      <point x="448" y="884"/>
+      <point x="428" y="900"/>
+      <point x="428" y="923" type="curve" smooth="yes"/>
+      <point x="428" y="969"/>
+      <point x="469" y="990"/>
+      <point x="560" y="990" type="curve"/>
+      <point x="558" y="1240" type="line"/>
+      <point x="277" y="1240"/>
+      <point x="148" y="1152"/>
+      <point x="148" y="960" type="curve" smooth="yes"/>
+      <point x="148" y="856"/>
+      <point x="200" y="770"/>
+      <point x="310" y="733" type="curve" smooth="yes"/>
+      <point x="432" y="692"/>
+      <point x="485" y="657"/>
+      <point x="485" y="615" type="curve" smooth="yes"/>
+      <point x="485" y="604" type="line"/>
+    </contour>
+    <contour>
+      <point x="920" y="912" type="curve"/>
+      <point x="1038" y="1128" type="line"/>
+      <point x="933" y="1205"/>
+      <point x="782" y="1240"/>
+      <point x="558" y="1240" type="curve"/>
+      <point x="560" y="990" type="line"/>
+      <point x="705" y="990"/>
+      <point x="818" y="965"/>
+    </contour>
+    <component base="period" xOffset="83" yOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

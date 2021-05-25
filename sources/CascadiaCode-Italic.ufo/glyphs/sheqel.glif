@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheqel" format="2">
+  <advance width="1200"/>
+  <unicode hex="20AA"/>
+  <outline>
+    <contour>
+      <point x="837" y="0" type="line"/>
+      <point x="1027" y="0" type="line"/>
+      <point x="1214" y="1060" type="line"/>
+      <point x="1024" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="-13" y="0" type="line"/>
+      <point x="177" y="0" type="line"/>
+      <point x="364" y="1060" type="line"/>
+      <point x="174" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="286" y="0" type="line"/>
+      <point x="1027" y="0" type="line"/>
+      <point x="1057" y="170" type="line"/>
+      <point x="316" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="286" y="0" type="line"/>
+      <point x="446" y="0" type="line"/>
+      <point x="584" y="780" type="line"/>
+      <point x="424" y="780" type="line"/>
+    </contour>
+    <contour>
+      <point x="617" y="280" type="line"/>
+      <point x="777" y="280" type="line"/>
+      <point x="915" y="1060" type="line"/>
+      <point x="755" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="144" y="890" type="line"/>
+      <point x="885" y="890" type="line"/>
+      <point x="915" y="1060" type="line"/>
+      <point x="174" y="1060" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Shha-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04BA"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="1109" y="0" name="bottomright"/>
+  <anchor x="757" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="781" y="0" type="line"/>
+      <point x="982" y="0" type="line"/>
+      <point x="1008" y="107" type="line" smooth="yes"/>
+      <point x="1041" y="241"/>
+      <point x="1065" y="389"/>
+      <point x="1065" y="498" type="curve" smooth="yes"/>
+      <point x="1065" y="763"/>
+      <point x="896" y="927"/>
+      <point x="626" y="927" type="curve" smooth="yes"/>
+      <point x="488" y="927"/>
+      <point x="374" y="881"/>
+      <point x="283" y="816" type="curve"/>
+      <point x="260" y="613" type="line"/>
+      <point x="383" y="685"/>
+      <point x="469" y="735"/>
+      <point x="598" y="735" type="curve" smooth="yes"/>
+      <point x="776" y="735"/>
+      <point x="860" y="650"/>
+      <point x="860" y="479" type="curve" smooth="yes"/>
+      <point x="860" y="374"/>
+      <point x="833" y="251"/>
+      <point x="806" y="121" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="47" y="0" type="line"/>
+      <point x="255" y="0" type="line"/>
+      <point x="505" y="1420" type="line"/>
+      <point x="297" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

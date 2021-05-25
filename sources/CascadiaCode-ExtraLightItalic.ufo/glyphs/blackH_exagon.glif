@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackHexagon" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B22"/>
+  <note>
+uni2B22
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="110" type="line"/>
+      <point x="1120" y="410" type="line"/>
+      <point x="1120" y="1010" type="line"/>
+      <point x="600" y="1310" type="line"/>
+      <point x="80" y="1010" type="line"/>
+      <point x="80" y="410" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

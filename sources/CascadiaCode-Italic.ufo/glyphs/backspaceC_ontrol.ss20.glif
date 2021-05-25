@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backspaceControl.ss20" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="945" y="285" type="line"/>
+      <point x="1125" y="285" type="line"/>
+      <point x="1125" y="995" type="line"/>
+      <point x="945" y="995" type="line"/>
+    </contour>
+    <contour>
+      <point x="1100" y="809" type="line"/>
+      <point x="1100" y="995" type="line"/>
+      <point x="150" y="995" type="line"/>
+      <point x="150" y="809" type="line"/>
+    </contour>
+    <contour>
+      <point x="510" y="380" type="line"/>
+      <point x="640" y="495" type="line"/>
+      <point x="258" y="893" type="line"/>
+      <point x="258" y="911" type="line"/>
+      <point x="640" y="1307" type="line"/>
+      <point x="510" y="1422" type="line"/>
+      <point x="64" y="963" type="line"/>
+      <point x="64" y="841" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

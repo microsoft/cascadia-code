@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period_period_less.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="3260" y="197" type="line"/>
+      <point x="3307" y="459" type="line"/>
+      <point x="2503" y="691" type="line"/>
+      <point x="2507" y="709" type="line"/>
+      <point x="3392" y="942" type="line"/>
+      <point x="3441" y="1221" type="line"/>
+      <point x="2237" y="843" type="line"/>
+      <point x="2190" y="575" type="line"/>
+    </contour>
+    <component base="period" xOffset="39" yOffset="545"/>
+    <component base="period" xOffset="934" yOffset="545"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

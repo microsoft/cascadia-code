@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omega" format="2">
+  <advance width="1200"/>
+  <unicode hex="03A9"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="757" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="253" y="51" type="line"/>
+      <point x="440" y="90" type="line"/>
+      <point x="280" y="158"/>
+      <point x="207" y="291"/>
+      <point x="207" y="514" type="curve" smooth="yes"/>
+      <point x="207" y="934"/>
+      <point x="370" y="1350"/>
+      <point x="745" y="1350" type="curve" smooth="yes"/>
+      <point x="959" y="1350"/>
+      <point x="1067" y="1210"/>
+      <point x="1067" y="929" type="curve" smooth="yes"/>
+      <point x="1067" y="591"/>
+      <point x="954" y="171"/>
+      <point x="604" y="90" type="curve"/>
+      <point x="778" y="59" type="line"/>
+      <point x="786" y="99" type="line"/>
+      <point x="1079" y="210"/>
+      <point x="1164" y="652"/>
+      <point x="1164" y="939" type="curve" smooth="yes"/>
+      <point x="1164" y="1274"/>
+      <point x="1030" y="1440"/>
+      <point x="761" y="1440" type="curve" smooth="yes"/>
+      <point x="308" y="1440"/>
+      <point x="107" y="991"/>
+      <point x="107" y="497" type="curve" smooth="yes"/>
+      <point x="107" y="309"/>
+      <point x="156" y="184"/>
+      <point x="262" y="99" type="curve"/>
+    </contour>
+    <contour>
+      <point x="35" y="0" type="line"/>
+      <point x="424" y="0" type="line"/>
+      <point x="440" y="90" type="line"/>
+      <point x="51" y="90" type="line"/>
+    </contour>
+    <contour>
+      <point x="588" y="0" type="line"/>
+      <point x="979" y="0" type="line"/>
+      <point x="995" y="90" type="line"/>
+      <point x="604" y="90" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

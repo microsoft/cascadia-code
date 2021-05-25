@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fiveeighths" format="2">
+  <advance width="1200"/>
+  <unicode hex="215D"/>
+  <outline>
+    <contour>
+      <point x="137" y="306" type="line"/>
+      <point x="1157" y="1030" type="line"/>
+      <point x="1113" y="1106" type="line"/>
+      <point x="93" y="382" type="line"/>
+    </contour>
+    <component base="fivesuperior" xOffset="-260"/>
+    <component base="eightinferior" xOffset="270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

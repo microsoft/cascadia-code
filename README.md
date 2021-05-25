@@ -1,6 +1,7 @@
 ![Cascadia Code](/images/cascadia-code.png)
 
 ![Cascadia Code Characters](/images/cascadia-code-characters.png)
+![Cascadia Code Italic Characters](/images/cascadia-code-italic-characters.png)
 
 # Welcome!
 

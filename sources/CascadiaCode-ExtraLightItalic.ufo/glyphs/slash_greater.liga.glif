@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash_greater.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1240" y="214" type="line"/>
+      <point x="2227" y="653" type="line"/>
+      <point x="2247" y="765" type="line"/>
+      <point x="1155" y="1338" type="line"/>
+      <point x="1137" y="1239" type="line"/>
+      <point x="2151" y="718" type="line"/>
+      <point x="2149" y="710" type="line"/>
+      <point x="1260" y="325" type="line"/>
+    </contour>
+    <component base="slash" xOffset="93"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

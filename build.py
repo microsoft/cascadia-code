@@ -22,8 +22,8 @@ import vttLib
 import vttLib.transfer
 from vttmisc import tsi1, tsic
 
-VERSION_YEAR_MONTH = 2102
-VERSION_DAY = 3
+VERSION_YEAR_MONTH = 2105
+VERSION_DAY = 24
 
 OUTPUT_DIR = Path("build")
 OUTPUT_OTF_DIR = OUTPUT_DIR / "otf"
@@ -34,6 +34,7 @@ OUTPUT_STATIC_TTF_DIR = OUTPUT_TTF_DIR / "static"
 OUTPUT_STATIC_WOFF2_DIR = OUTPUT_WOFF2_DIR / "static"
 INPUT_DIR = Path("sources")
 VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode_VTT.ttf"
+ITALIC_VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode-Italic_VTT.ttf"
 FEATURES_DIR = INPUT_DIR / "features"
 NERDFONTS_DIR = INPUT_DIR / "nerdfonts"
 
@@ -45,18 +46,66 @@ def step_set_font_name(name: str, source: ufoLib2.Font) -> None:
     source.info.familyName = source.info.familyName.replace("Cascadia Code", name)
     # We have to change the style map family name because that's what
     # Windows uses to map Bold/Regular/Medium/etc. fonts
-    source.info.styleMapFamilyName = source.info.styleMapFamilyName.replace("Cascadia Code", name)
+    if source.info.styleMapFamilyName:
+        source.info.styleMapFamilyName = source.info.styleMapFamilyName.replace("Cascadia Code", name)
 
 
 def step_merge_glyphs_from_ufo(path: Path, instance: ufoLib2.Font) -> None:
     ufo = ufoLib2.Font.open(path)
-    for glyph in ufo.glyphOrder:
-        if glyph not in instance.glyphOrder:
-            instance.addGlyph(ufo[glyph])
+    for glyph in ufo:
+        if glyph.name not in instance:
+            instance.addGlyph(ufo[glyph.name])
 
 
-def step_set_feature_file(path: Path, instance: ufoLib2.Font) -> None:
-    instance.features.text = path.read_text()
+def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None:
+    featureSet = ""
+    if "Italic" in name: #until I can come up with a more elegent solution, this'll do. 
+        featureList = [
+            "header_italic", # adds definitions, language systems
+            "aalt_italic",
+            "calt_italic", 
+            "locl_italic", 
+            "figures_italic", # contains subs/sinf/sups/numr/dnom
+            "frac", 
+            "ordn", 
+            "case", 
+            "ss02",
+            "ss03", 
+            "ss19", 
+            "ss20", 
+            "rclt", 
+            "zero"
+            ]
+    else:
+        featureList = [
+            "header", # adds definitions, language systems
+            "aalt",
+            "calt", 
+            "locl", 
+            "figures", # contains subs/sinf/sups/numr/dnom
+            "frac", 
+            "ordn", 
+            "case", 
+            "ss02", 
+            "ss19", 
+            "ss20", 
+            "rclt", 
+            "zero",
+            #"init",
+            #"medi",
+            #"fina",
+            #"rlig",
+            #"dlig"
+            ]
+
+    for item in featureList:
+        if "PL" in name and item == "rclt":
+            featureSet += Path(path / str("rclt_PL.fea")).read_text()
+        elif "Mono" in name and "calt" in item:
+            featureSet += Path(path / str("calt_mono.fea")).read_text() #both Italic and Regular can use same mono
+        else:
+            featureSet += Path(path / str(item+".fea")).read_text()
+    instance.features.text = featureSet   
 
 
 def set_font_metaData(font: ufoLib2.Font) -> None:
@@ -97,32 +146,34 @@ def prepare_fonts(
 ) -> None:
     designspace.loadSourceFonts(ufoLib2.Font.open)
     for source in designspace.sources:
+
+        step_set_feature_file(FEATURES_DIR, name, source.font)
+
         if "Mono" in name and "PL" in name:
-            step_set_feature_file(FEATURES_DIR / "features_mono_PL.fea", source.font)
             print(f"[{name} {source.styleName}] Merging PL glyphs")
             step_merge_glyphs_from_ufo(
                 NERDFONTS_DIR / "NerdfontsPL-Regular.ufo", source.font
             )
             step_set_font_name(name, source.font)
         elif "Mono" in name:
-            step_set_feature_file(FEATURES_DIR / "features_mono.fea", source.font)
             step_set_font_name(name, source.font)
         elif "PL" in name:
-            step_set_feature_file(FEATURES_DIR / "features_code_PL.fea", source.font)
             print(f"[{name} {source.styleName}] Merging PL glyphs")
             step_merge_glyphs_from_ufo(
                 NERDFONTS_DIR / "NerdfontsPL-Regular.ufo", source.font
             )
             step_set_font_name(name, source.font)
-        elif name == "Cascadia Code":
-            step_set_feature_file(FEATURES_DIR / "features_code.fea", source.font)
+        elif "Cascadia Code" in name:
+            pass
         else:
             print("Variant name not identified. Please check.")
+
         set_font_metaData(source.font)
     for instance in designspace.instances:
         instance.name = instance.name.replace("Cascadia Code", name)
         instance.familyName = instance.familyName.replace("Cascadia Code", name)
-        instance.styleMapFamilyName = instance.styleMapFamilyName.replace("Cascadia Code", name)
+        if instance.styleMapFamilyName:
+            instance.styleMapFamilyName = instance.styleMapFamilyName.replace("Cascadia Code", name)
 
 
 def to_woff2(source_path: Path, target_path: Path) -> None:
@@ -164,57 +215,67 @@ def compile_variable_and_save(
     designspace: fontTools.designspaceLib.DesignSpaceDocument,
     vtt_compile: bool = True,
 ) -> None:
+    
+    if "Italic" in designspace.default.font.info.familyName: #Some weird stuff happens with Italics
+        designspace.default.font.info.familyName = designspace.default.font.info.familyName.replace(" Italic", "")
+    
     familyName = designspace.default.font.info.familyName
+    styleName = designspace.default.font.info.styleName
     file_stem = familyName.replace(" ", "")
+    if "Italic" in styleName and "Italic" not in file_stem:
+        file_stem = file_stem+"Italic"
     file_path: Path = (OUTPUT_TTF_DIR / file_stem).with_suffix(".ttf")
 
-    print(f"[{familyName}] Compiling")
+    print(f"[{familyName} {styleName}] Compiling")
     varFont = ufo2ft.compileVariableTTF(designspace, inplace=True)
 
-    print(f"[{familyName}] Adding STAT table")
+    print(f"[{familyName} {styleName}] Adding STAT table")
     styleSpace = statmake.classes.Stylespace.from_file(INPUT_DIR / "STAT.plist")
     statmake.lib.apply_stylespace_to_variable_font(styleSpace, varFont, {})
 
-    print(f"[{familyName}] Merging VTT")
 
-    font_vtt = fontTools.ttLib.TTFont(VTT_DATA_FILE)
+    if "Italic" in styleName:
+        print(f"[{familyName} {styleName}] Merging VTT")
 
-    for table in ["TSI0", "TSI1", "TSI2", "TSI3", "TSI5", "TSIC", "maxp"]:
-        varFont[table] = fontTools.ttLib.newTable(table)
-        varFont[table] = font_vtt[table]
+        if "Italic" in styleName:
+            font_vtt = fontTools.ttLib.TTFont(ITALIC_VTT_DATA_FILE)
+        else:
+            font_vtt = fontTools.ttLib.TTFont(VTT_DATA_FILE)
 
-    # this will correct the OFFSET[R] commands in TSI1
-    if font_vtt.getGlyphOrder() != varFont.getGlyphOrder():
-        tsi1.fixOFFSET(varFont, font_vtt)
-        pass
+        for table in ["TSI0", "TSI1", "TSI2", "TSI3", "TSI5", "TSIC", "maxp"]:
+            varFont[table] = fontTools.ttLib.newTable(table)
+            varFont[table] = font_vtt[table]
 
-    if vtt_compile:
-        print(f"[{familyName}] Compiling VTT")
-        
-        tree = ET.ElementTree()
-        TSICfile = tempfile.NamedTemporaryFile()
-        varFont.saveXML(TSICfile.name, tables=["TSIC"])
-        tree = ET.parse(TSICfile.name)
-        vttLib.compile_instructions(varFont, ship=True)
-        tsic.makeCVAR(varFont, tree)
+        # this will correct the OFFSET[R] commands in TSI1
+        if font_vtt.getGlyphOrder() != varFont.getGlyphOrder():
+            tsi1.fixOFFSET(varFont, font_vtt)
+            pass
 
-    else:
-        file_path = Path(str(file_path)[:-4]+"_VTT.ttf")
+        if vtt_compile:
+            print(f"[{familyName} {styleName}] Compiling VTT")
 
-    set_overlap_flag(varFont)
+            tree = ET.ElementTree()
+            TSICfile = tempfile.NamedTemporaryFile()
+            varFont.saveXML(TSICfile.name, tables=["TSIC"])
+            tree = ET.parse(TSICfile.name)
+            vttLib.compile_instructions(varFont, ship=True)
+            #tsic.makeCVAR(varFont, tree)
+        else:
+            file_path = (OUTPUT_TTF_DIR / str(file_stem+"_VTT")).with_suffix(".ttf")
 
     # last minute manual corrections to set things correctly
-    # flag to enable proper rendering
-    # Adjusted the font full name so that it aligns with font spec, and also shows as expected!
-    # Adjusting postscript name to make room for the upcoming Italic
-    # Helping mac office generage the postscript name correctly for variable fonts
-    varFont["head"].flags = 0x000b
-    varFont["name"].setName(familyName, 4, 3, 1, 1033)
-    varFont["name"].setName(familyName.replace(" ","")+"-Roman", 6, 3, 1, 1033)
-    varFont["name"].setName("Roman", 17, 3, 1, 1033)
-    varFont["name"].setName(familyName.replace(" ","")+"Roman", 25, 3, 1, 1033)
+    # set two flags to enable proper rendering (one for overlaps in Mac, the other for windows hinting)
+    # Helping mac office generage the postscript name correctly for variable fonts when an italic is present
 
-    print(f"[{familyName}] Saving")
+    set_overlap_flag(varFont)
+    varFont["head"].flags = 0x000b
+
+    if "Regular" in styleName:
+        varFont["name"].setName(familyName.replace(" ","")+"-Roman", 6, 3, 1, 1033)
+        varFont["name"].setName("Roman", 17, 3, 1, 1033)
+        varFont["name"].setName(familyName.replace(" ","")+"Roman", 25, 3, 1, 1033)
+
+    print(f"[{familyName} {styleName}] Saving")
     file_path.parent.mkdir(exist_ok=True, parents=True)
     varFont.save(file_path)
 
@@ -225,6 +286,8 @@ def compile_static_and_save(instance: ufoLib2.Font, name:str) -> None:
     family_name = name
     style_name = instance.info.styleName
     print(f"[{family_name}] Building static instance: {style_name}")
+
+    print (instance.lib)
 
     # Use pathops backend for overlap removal because it is, at the time of this
     # writing, massively faster than booleanOperations and thanks to autohinting,
@@ -294,6 +357,7 @@ if __name__ == "__main__":
     parser.add_argument("-P", "--no-powerline", action="store_false", dest="powerline")
     parser.add_argument("-M", "--no-mono", action="store_false", dest="mono")
     parser.add_argument("-S", "--static-fonts", action="store_true")
+    parser.add_argument("-I", "--no-italic", action="store_false", dest="italic")
     parser.add_argument(
         "-V",
         "--no-vtt-compile",
@@ -306,13 +370,25 @@ if __name__ == "__main__":
 
     # Load Designspace and filter out instances that are marked as non-exportable.
     designspace = fontTools.designspaceLib.DesignSpaceDocument.fromfile(
-        INPUT_DIR / "CascadiaCode.designspace"
+        INPUT_DIR / "CascadiaCode_variable.designspace"
     )
+
     designspace.instances = [
         s
         for s in designspace.instances
         if s.lib.get("com.schriftgestaltung.export", True)
     ]
+
+    designspaceItalic = fontTools.designspaceLib.DesignSpaceDocument.fromfile(
+        INPUT_DIR / "CascadiaCode_variable_italic.designspace"
+    )
+
+    designspaceItalic.instances = [
+        s
+        for s in designspaceItalic.instances
+        if s.lib.get("com.schriftgestaltung.export", True)
+    ]
+
 
     # Stage 1: Make all the things.
     pool = multiprocessing.pool.Pool(processes=multiprocessing.cpu_count())
@@ -327,8 +403,19 @@ if __name__ == "__main__":
             ),
         )
     )
+    if args.italic:
+        processes.append(
+            pool.apply_async(
+                build_font_variable,
+                (
+                    designspaceItalic,
+                    "Cascadia Code Italic",
+                    args.vtt_compile,
+                ),
+            )
+        )
     if args.mono:
-        processes.append( 
+        processes.append(
             pool.apply_async(
                 build_font_variable,
                 (
@@ -338,6 +425,17 @@ if __name__ == "__main__":
                 ),
             )
         )
+        if args.italic:
+            processes.append(
+                pool.apply_async(
+                    build_font_variable,
+                    (
+                        designspaceItalic,
+                        "Cascadia Mono Italic",
+                        args.vtt_compile,
+                    ),
+                )
+            )
     if args.powerline:
         processes.append(
             pool.apply_async(
@@ -349,6 +447,17 @@ if __name__ == "__main__":
                 ),
             )
         )
+        if args.italic:
+            processes.append(
+                pool.apply_async(
+                    build_font_variable,
+                    (
+                        designspaceItalic,
+                        "Cascadia Code PL Italic",
+                        args.vtt_compile,
+                    ),
+                )
+            )
         if args.mono:
             processes.append(
                 pool.apply_async(
@@ -360,8 +469,20 @@ if __name__ == "__main__":
                     ),
                 )
             )
+            if args.italic:
+                processes.append(
+                    pool.apply_async(
+                        build_font_variable,
+                        (
+                            designspaceItalic,
+                            "Cascadia Mono PL Italic",
+                            args.vtt_compile,
+                        ),
+                    )
+                )
 
     if args.static_fonts:
+        # Build the Regulars
         for instance_descriptor in designspace.instances:
             processes.append(
                 pool.apply_async(
@@ -406,6 +527,52 @@ if __name__ == "__main__":
                             ),
                         )
                     )
+        if args.italic:
+            # Build the Regulars
+            for instance_descriptor in designspaceItalic.instances:
+                processes.append(
+                    pool.apply_async(
+                        build_font_static,
+                        (
+                            designspaceItalic,
+                            instance_descriptor,
+                            "Cascadia Code Italic",
+                        ),
+                    )
+                )
+                if args.mono:
+                    processes.append(
+                        pool.apply_async(
+                            build_font_static,
+                            (
+                                designspaceItalic,
+                                instance_descriptor,
+                                "Cascadia Mono Italic",
+                            ),
+                        )
+                    )
+                if args.powerline:
+                    processes.append(
+                        pool.apply_async(
+                            build_font_static,
+                            (
+                                designspaceItalic,
+                                instance_descriptor,
+                                "Cascadia Code PL Italic",
+                            ),
+                        )
+                    )
+                    if args.mono:
+                        processes.append(
+                            pool.apply_async(
+                                build_font_static,
+                                (
+                                    designspaceItalic,
+                                    instance_descriptor,
+                                    "Cascadia Mono PL Italic",
+                                ),
+                            )
+                        )
 
     pool.close()
     pool.join()
