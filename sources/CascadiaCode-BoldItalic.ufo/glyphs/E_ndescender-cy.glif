@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Endescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04A2"/>
+  <outline>
+    <contour>
+      <point x="998" y="-319" type="line"/>
+      <point x="1044" y="-188"/>
+      <point x="1111" y="97"/>
+      <point x="1119" y="244" type="curve"/>
+      <point x="885" y="244" type="line"/>
+      <point x="850" y="46" type="line"/>
+      <point x="832" y="-42"/>
+      <point x="803" y="-147"/>
+      <point x="762" y="-270" type="curve"/>
+    </contour>
+    <component base="En-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>En-cy</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

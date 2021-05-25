@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="checkmark" format="2">
+  <advance width="1200"/>
+  <unicode hex="2713"/>
+  <outline>
+    <contour>
+      <point x="231" y="0" type="line"/>
+      <point x="512" y="0" type="line"/>
+      <point x="1283" y="1420" type="line"/>
+      <point x="1062" y="1420" type="line"/>
+      <point x="408" y="180" type="line"/>
+      <point x="390" y="180" type="line"/>
+      <point x="340" y="601" type="line"/>
+      <point x="139" y="601" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

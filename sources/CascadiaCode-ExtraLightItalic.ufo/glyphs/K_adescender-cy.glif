@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kadescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="049A"/>
+  <outline>
+    <contour>
+      <point x="954" y="-324" type="line"/>
+      <point x="994" y="-219"/>
+      <point x="1041" y="-37"/>
+      <point x="1057" y="90" type="curve"/>
+      <point x="964" y="90" type="line"/>
+      <point x="954" y="37" type="line" smooth="yes"/>
+      <point x="939" y="-44"/>
+      <point x="902" y="-191"/>
+      <point x="860" y="-303" type="curve"/>
+    </contour>
+    <component base="Ka-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

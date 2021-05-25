@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphatonos" format="2">
+  <advance width="1200"/>
+  <unicode hex="0386"/>
+  <anchor x="634" y="0" name="bottom"/>
+  <anchor x="884" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="376" y="0" type="line"/>
+      <point x="480" y="335"/>
+      <point x="675" y="927"/>
+      <point x="817" y="1249" type="curve"/>
+      <point x="835" y="1249" type="line"/>
+      <point x="852" y="0" type="line"/>
+      <point x="1062" y="0" type="line"/>
+      <point x="1013" y="1421" type="line"/>
+      <point x="704" y="1421" type="line"/>
+      <point x="516" y="1036"/>
+      <point x="287" y="400"/>
+      <point x="165" y="0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="403" y="346" type="line"/>
+      <point x="923" y="346" type="line"/>
+      <point x="957" y="536" type="line"/>
+      <point x="437" y="536" type="line"/>
+    </contour>
+    <contour>
+      <point x="89" y="1040" type="line"/>
+      <point x="291" y="1040" type="line"/>
+      <point x="458" y="1420" type="line"/>
+      <point x="236" y="1420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

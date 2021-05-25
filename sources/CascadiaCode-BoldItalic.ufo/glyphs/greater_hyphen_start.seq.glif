@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater_hyphen_start.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="763" y="584" type="line"/>
+      <point x="1230" y="584" type="line"/>
+      <point x="1274" y="834" type="line"/>
+      <point x="807" y="834" type="line"/>
+    </contour>
+    <component base="greater.alt" xOffset="-73"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

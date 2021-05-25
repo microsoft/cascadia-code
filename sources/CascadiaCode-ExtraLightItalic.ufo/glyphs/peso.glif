@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peso" format="2">
+  <advance width="1200"/>
+  <unicode hex="20B1"/>
+  <outline>
+    <contour>
+      <point x="108" y="1006" type="line"/>
+      <point x="1260" y="1006" type="line"/>
+      <point x="1276" y="1096" type="line"/>
+      <point x="124" y="1096" type="line"/>
+    </contour>
+    <contour>
+      <point x="64" y="759" type="line"/>
+      <point x="1216" y="759" type="line"/>
+      <point x="1232" y="849" type="line"/>
+      <point x="80" y="849" type="line"/>
+    </contour>
+    <component base="P"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowerHalfInverseWhiteCircle" format="2">
+  <advance width="1200"/>
+  <unicode hex="25DB"/>
+  <note>
+uni25DB
+</note>
+  <outline>
+    <contour>
+      <point x="0" y="110" type="line"/>
+      <point x="1200" y="110" type="line"/>
+      <point x="1200" y="710" type="line"/>
+      <point x="1125" y="710" type="line"/>
+      <point x="1125" y="394"/>
+      <point x="916" y="185"/>
+      <point x="600" y="185" type="curve" smooth="yes"/>
+      <point x="284" y="185"/>
+      <point x="75" y="394"/>
+      <point x="75" y="710" type="curve"/>
+      <point x="0" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="335" type="curve" smooth="yes"/>
+      <point x="826" y="335"/>
+      <point x="975" y="484"/>
+      <point x="975" y="710" type="curve"/>
+      <point x="225" y="710" type="line"/>
+      <point x="225" y="484"/>
+      <point x="374" y="335"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

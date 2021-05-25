@@ -1,0 +1,10 @@
+feature rlig {
+lookup rlig_arabic_1 {
+    lookupflag IgnoreMarks;
+    sub [lam-ar.init lamVabove-ar.init lamDotabove-ar.init lamThreedotsabove-ar.init lamThreedotsbelow-ar.init lamDoublebar-ar.init lamBar-ar.init]' lookup rlig_arabic_3 [alef-ar.fina alef-ar.fina.short alefHamzaabove-ar.fina alefHamzabelow-ar.fina alefMadda-ar.fina alefWasla-ar.fina alefTwoabove-ar.fina alefThreeabove-ar.fina alefWavyhamzaabove-ar.fina alefWavyhamzabelow-ar.fina highhamzaAlef-ar.fina alefFathatan-ar.fina]' lookup rlig_arabic_3;
+    sub [lam-ar.medi lamVabove-ar.medi lamDotabove-ar.medi lamThreedotsabove-ar.medi lamThreedotsbelow-ar.medi lamDoublebar-ar.medi lamBar-ar.medi]' lookup rlig_arabic_4 [alef-ar.fina alef-ar.fina.short alefHamzaabove-ar.fina alefHamzabelow-ar.fina alefMadda-ar.fina alefWasla-ar.fina alefTwoabove-ar.fina alefThreeabove-ar.fina alefWavyhamzaabove-ar.fina alefWavyhamzabelow-ar.fina highhamzaAlef-ar.fina alefFathatan-ar.fina]' lookup rlig_arabic_4;
+} rlig_arabic_1;
+
+script arab;
+lookup rlig_arabic_1;
+} rlig;

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij_acute" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="125" y="-480" type="line"/>
+      <point x="315" y="-468" type="line" smooth="yes"/>
+      <point x="734" y="-442"/>
+      <point x="848" y="-266"/>
+      <point x="918" y="134" type="curve" smooth="yes"/>
+      <point x="1081" y="1060" type="line"/>
+      <point x="866" y="1060" type="line"/>
+      <point x="697" y="102" type="line" smooth="yes"/>
+      <point x="654" y="-140"/>
+      <point x="590" y="-253"/>
+      <point x="335" y="-274" type="curve" smooth="yes"/>
+      <point x="115" y="-292" type="line"/>
+    </contour>
+    <contour>
+      <point x="176" y="0" type="line"/>
+      <point x="391" y="0" type="line"/>
+      <point x="577" y="1060" type="line"/>
+      <point x="362" y="1060" type="line"/>
+    </contour>
+    <component base="acutecomb" xOffset="276"/>
+    <component base="acutecomb" xOffset="-225"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>acutecomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>acutecomb</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

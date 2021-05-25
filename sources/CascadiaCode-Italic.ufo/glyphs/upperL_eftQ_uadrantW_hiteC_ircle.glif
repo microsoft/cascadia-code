@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upperLeftQuadrantWhiteCircle" format="2">
+  <advance width="1200"/>
+  <unicode hex="25F4"/>
+  <note>
+uni25F4
+</note>
+  <outline>
+    <contour>
+      <point x="153" y="635" type="line"/>
+      <point x="675" y="635" type="line"/>
+      <point x="675" y="1148" type="line"/>
+      <point x="525" y="1148" type="line"/>
+      <point x="525" y="785" type="line"/>
+      <point x="153" y="785" type="line"/>
+    </contour>
+    <component base="whiteCircle" xScale="-1" xOffset="1200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar_bar_hyphen_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1625" y="664" type="line"/>
+      <point x="2473" y="664" type="line"/>
+      <point x="2489" y="754" type="line"/>
+      <point x="1641" y="754" type="line"/>
+    </contour>
+    <contour>
+      <point x="-26" y="664" type="line"/>
+      <point x="815" y="664" type="line"/>
+      <point x="831" y="754" type="line"/>
+      <point x="-10" y="754" type="line"/>
+    </contour>
+    <component base="bar" xOffset="1022"/>
+    <component base="bar" xOffset="182"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

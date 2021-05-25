@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less_bar_bar.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1905" y="-10" type="line"/>
+      <point x="2159" y="1430" type="line"/>
+      <point x="552" y="845" type="line"/>
+      <point x="505" y="577" type="line"/>
+    </contour>
+    <contour>
+      <point x="1694" y="304" type="line"/>
+      <point x="1784" y="351" type="line"/>
+      <point x="875" y="689" type="line"/>
+      <point x="881" y="723" type="line"/>
+      <point x="1908" y="1050" type="line"/>
+      <point x="1838" y="1117" type="line"/>
+    </contour>
+    <component base="bar" xOffset="2240"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

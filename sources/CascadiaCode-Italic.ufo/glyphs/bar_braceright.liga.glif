@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar_braceright.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1377" y="-214" type="curve" smooth="yes"/>
+      <point x="1658" y="-214"/>
+      <point x="1830" y="-35"/>
+      <point x="1830" y="254" type="curve" smooth="yes"/>
+      <point x="1830" y="284"/>
+      <point x="1829" y="314"/>
+      <point x="1829" y="345" type="curve" smooth="yes"/>
+      <point x="1829" y="543"/>
+      <point x="1942" y="627"/>
+      <point x="2177" y="627" type="curve"/>
+      <point x="2205" y="785" type="line"/>
+      <point x="2098" y="785"/>
+      <point x="1916" y="817"/>
+      <point x="1916" y="922" type="curve" smooth="yes"/>
+      <point x="1916" y="1076"/>
+      <point x="2028" y="1143"/>
+      <point x="2028" y="1343" type="curve" smooth="yes"/>
+      <point x="2028" y="1523"/>
+      <point x="1913" y="1626"/>
+      <point x="1702" y="1626" type="curve" smooth="yes"/>
+      <point x="1607" y="1626"/>
+      <point x="1545" y="1618"/>
+      <point x="1488" y="1606" type="curve"/>
+      <point x="1482" y="1432" type="line"/>
+      <point x="1543" y="1438"/>
+      <point x="1601" y="1442"/>
+      <point x="1647" y="1442" type="curve" smooth="yes"/>
+      <point x="1757" y="1442"/>
+      <point x="1814" y="1392"/>
+      <point x="1814" y="1306" type="curve" smooth="yes"/>
+      <point x="1814" y="1127"/>
+      <point x="1702" y="1065"/>
+      <point x="1702" y="905" type="curve" smooth="yes"/>
+      <point x="1702" y="794"/>
+      <point x="1797" y="726"/>
+      <point x="1968" y="723" type="curve"/>
+      <point x="1962" y="689" type="line"/>
+      <point x="1727" y="685"/>
+      <point x="1613" y="581"/>
+      <point x="1613" y="369" type="curve" smooth="yes"/>
+      <point x="1613" y="325"/>
+      <point x="1616" y="283"/>
+      <point x="1616" y="239" type="curve" smooth="yes"/>
+      <point x="1616" y="66"/>
+      <point x="1535" y="-30"/>
+      <point x="1386" y="-30" type="curve" smooth="yes"/>
+      <point x="1339" y="-30"/>
+      <point x="1284" y="-26"/>
+      <point x="1225" y="-20" type="curve"/>
+      <point x="1171" y="-194" type="line"/>
+      <point x="1223" y="-206"/>
+      <point x="1281" y="-214"/>
+    </contour>
+    <component base="bar" xOffset="3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

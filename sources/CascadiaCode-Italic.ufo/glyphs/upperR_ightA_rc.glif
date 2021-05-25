@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upperRightArc" format="2">
+  <advance width="1200"/>
+  <unicode hex="25DD"/>
+  <note>
+uni25DD
+</note>
+  <outline>
+    <contour>
+      <point x="975" y="710" type="curve"/>
+      <point x="1125" y="710" type="line"/>
+      <point x="1125" y="1026"/>
+      <point x="916" y="1235"/>
+      <point x="600" y="1235" type="curve"/>
+      <point x="600" y="1085" type="line"/>
+      <point x="826" y="1085"/>
+      <point x="975" y="936"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

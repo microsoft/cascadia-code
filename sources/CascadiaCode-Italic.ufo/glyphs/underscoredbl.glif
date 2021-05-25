@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscoredbl" format="2">
+  <advance width="1200"/>
+  <unicode hex="2017"/>
+  <guideline x="1099" y="366" angle="261.2025"/>
+  <guideline x="99" y="366" angle="261.2025"/>
+  <outline>
+    <component base="underscore" xOffset="-3"/>
+    <component base="underscore" xOffset="-50" yOffset="-304"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

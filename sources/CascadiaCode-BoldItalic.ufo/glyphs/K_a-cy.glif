@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ka-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="041A"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="634" y="710" name="center"/>
+  <anchor x="757" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="54" y="0" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="570" y="1420" type="line"/>
+      <point x="304" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="262" y="487" type="line"/>
+      <point x="714" y="487" type="line"/>
+      <point x="761" y="729" type="line"/>
+      <point x="308" y="729" type="line"/>
+    </contour>
+    <contour>
+      <point x="780" y="0" type="line"/>
+      <point x="1078" y="0" type="line"/>
+      <point x="773" y="745" type="line"/>
+      <point x="520" y="665" type="line"/>
+    </contour>
+    <contour>
+      <point x="735" y="503" type="line"/>
+      <point x="1070" y="757"/>
+      <point x="1262" y="1205"/>
+      <point x="1323" y="1420" type="curve"/>
+      <point x="1054" y="1420" type="line"/>
+      <point x="1013" y="1278"/>
+      <point x="813" y="802"/>
+      <point x="533" y="648" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

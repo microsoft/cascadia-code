@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="diamondBlackSuit" format="2">
+  <advance width="1200"/>
+  <unicode hex="2666"/>
+  <outline>
+    <contour>
+      <point x="513" y="40" type="line"/>
+      <point x="1149" y="670" type="line"/>
+      <point x="736" y="1300" type="line"/>
+      <point x="101" y="670" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

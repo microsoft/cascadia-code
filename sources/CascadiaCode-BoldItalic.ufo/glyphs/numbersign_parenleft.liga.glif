@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign_parenleft.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="714" y="0" type="line"/>
+      <point x="957" y="0" type="line"/>
+      <point x="1327" y="1420" type="line"/>
+      <point x="1084" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="224" y="310" type="line"/>
+      <point x="1557" y="310" type="line"/>
+      <point x="1601" y="558" type="line"/>
+      <point x="268" y="558" type="line"/>
+    </contour>
+    <contour>
+      <point x="295" y="0" type="line"/>
+      <point x="538" y="0" type="line"/>
+      <point x="908" y="1420" type="line"/>
+      <point x="665" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="322" y="862" type="line"/>
+      <point x="1655" y="862" type="line"/>
+      <point x="1699" y="1110" type="line"/>
+      <point x="366" y="1110" type="line"/>
+    </contour>
+    <component base="parenleft" xOffset="1180"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

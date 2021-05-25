@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chedescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04B6"/>
+  <outline>
+    <contour>
+      <point x="917" y="-324" type="line"/>
+      <point x="957" y="-219"/>
+      <point x="1004" y="-37"/>
+      <point x="1020" y="90" type="curve"/>
+      <point x="927" y="90" type="line"/>
+      <point x="917" y="37" type="line" smooth="yes"/>
+      <point x="902" y="-44"/>
+      <point x="865" y="-191"/>
+      <point x="824" y="-303" type="curve"/>
+    </contour>
+    <component base="Che-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

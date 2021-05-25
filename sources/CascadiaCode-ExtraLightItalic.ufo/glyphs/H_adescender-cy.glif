@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hadescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04B2"/>
+  <outline>
+    <contour>
+      <point x="929" y="-324" type="line"/>
+      <point x="976" y="-192"/>
+      <point x="1024" y="-11"/>
+      <point x="1031" y="90" type="curve"/>
+      <point x="988" y="128" type="line"/>
+      <point x="933" y="83" type="line"/>
+      <point x="931" y="68" type="line" smooth="yes"/>
+      <point x="920" y="-29"/>
+      <point x="887" y="-160"/>
+      <point x="834" y="-303" type="curve"/>
+    </contour>
+    <component base="X"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

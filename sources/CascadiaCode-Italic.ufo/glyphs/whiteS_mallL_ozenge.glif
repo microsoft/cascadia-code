@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteSmallLozenge" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B2B"/>
+  <note>
+uni2B2B
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="402" type="line"/>
+      <point x="785" y="710" type="line"/>
+      <point x="600" y="1019" type="line"/>
+      <point x="415" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="596" type="line"/>
+      <point x="532" y="710" type="line"/>
+      <point x="600" y="824" type="line"/>
+      <point x="669" y="710" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="venus" format="2">
+  <advance width="1200"/>
+  <unicode hex="2640"/>
+  <outline>
+    <contour>
+      <point x="603" y="560" type="curve" smooth="yes"/>
+      <point x="922" y="560"/>
+      <point x="1134" y="759"/>
+      <point x="1134" y="1058" type="curve" smooth="yes"/>
+      <point x="1134" y="1287"/>
+      <point x="984" y="1440"/>
+      <point x="759" y="1440" type="curve" smooth="yes"/>
+      <point x="439" y="1440"/>
+      <point x="225" y="1229"/>
+      <point x="225" y="913" type="curve" smooth="yes"/>
+      <point x="225" y="701"/>
+      <point x="376" y="560"/>
+    </contour>
+    <contour>
+      <point x="154" y="232" type="line"/>
+      <point x="947" y="232" type="line"/>
+      <point x="963" y="322" type="line"/>
+      <point x="170" y="322" type="line"/>
+    </contour>
+    <contour>
+      <point x="459" y="0" type="line"/>
+      <point x="555" y="0" type="line"/>
+      <point x="664" y="620" type="line"/>
+      <point x="568" y="620" type="line"/>
+    </contour>
+    <contour>
+      <point x="619" y="652" type="curve" smooth="yes"/>
+      <point x="440" y="652"/>
+      <point x="321" y="756"/>
+      <point x="321" y="913" type="curve" smooth="yes"/>
+      <point x="321" y="1174"/>
+      <point x="489" y="1348"/>
+      <point x="742" y="1348" type="curve" smooth="yes"/>
+      <point x="920" y="1348"/>
+      <point x="1038" y="1232"/>
+      <point x="1038" y="1058" type="curve" smooth="yes"/>
+      <point x="1038" y="814"/>
+      <point x="870" y="652"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

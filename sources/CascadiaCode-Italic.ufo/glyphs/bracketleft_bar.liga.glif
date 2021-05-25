@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketleft_bar.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="409" y="-214" type="line"/>
+      <point x="624" y="-214" type="line"/>
+      <point x="950" y="1634" type="line"/>
+      <point x="735" y="1634" type="line"/>
+    </contour>
+    <contour>
+      <point x="604" y="-214" type="line"/>
+      <point x="1215" y="-214" type="line"/>
+      <point x="1249" y="-24" type="line"/>
+      <point x="638" y="-24" type="line"/>
+    </contour>
+    <contour>
+      <point x="896" y="1444" type="line"/>
+      <point x="1507" y="1444" type="line"/>
+      <point x="1541" y="1634" type="line"/>
+      <point x="930" y="1634" type="line"/>
+    </contour>
+    <component base="bar" xOffset="1149"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

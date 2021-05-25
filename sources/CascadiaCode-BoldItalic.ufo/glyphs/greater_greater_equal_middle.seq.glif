@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater_greater_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1260" y="2" type="line"/>
+      <point x="1912" y="583" type="line"/>
+      <point x="1583" y="583" type="line"/>
+      <point x="1114" y="169" type="line"/>
+    </contour>
+    <contour>
+      <point x="-84" y="333" type="line"/>
+      <point x="762" y="333" type="line"/>
+      <point x="1066" y="583" type="line"/>
+      <point x="-40" y="583" type="line"/>
+    </contour>
+    <contour>
+      <point x="4" y="835" type="line"/>
+      <point x="1087" y="835" type="line"/>
+      <point x="914" y="1085" type="line"/>
+      <point x="48" y="1085" type="line"/>
+    </contour>
+    <contour>
+      <point x="1584" y="333" type="line"/>
+      <point x="2415" y="333" type="line"/>
+      <point x="2459" y="583" type="line"/>
+      <point x="1628" y="583" type="line"/>
+    </contour>
+    <contour>
+      <point x="1672" y="835" type="line"/>
+      <point x="1973" y="835" type="line"/>
+      <point x="1515" y="1426" type="line"/>
+      <point x="1323" y="1276" type="line"/>
+    </contour>
+    <contour>
+      <point x="1672" y="835" type="line"/>
+      <point x="2503" y="835" type="line"/>
+      <point x="2548" y="1085" type="line"/>
+      <point x="1716" y="1085" type="line"/>
+    </contour>
+    <component base="greater.alt" xOffset="357"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

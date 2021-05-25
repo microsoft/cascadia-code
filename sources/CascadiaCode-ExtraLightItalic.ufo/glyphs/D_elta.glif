@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Delta" format="2">
+  <advance width="1200"/>
+  <unicode hex="0394"/>
+  <anchor x="534" y="0" name="bottom"/>
+  <anchor x="757" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="-24" y="0" type="line"/>
+      <point x="86" y="0" type="line"/>
+      <point x="732" y="1333" type="line"/>
+      <point x="750" y="1333" type="line"/>
+      <point x="822" y="1045"/>
+      <point x="879" y="626"/>
+      <point x="932" y="0" type="curve"/>
+      <point x="1038" y="0" type="line"/>
+      <point x="976" y="655"/>
+      <point x="910" y="1102"/>
+      <point x="829" y="1421" type="curve"/>
+      <point x="681" y="1421" type="line"/>
+    </contour>
+    <contour>
+      <point x="50" y="0" type="line"/>
+      <point x="940" y="0" type="line"/>
+      <point x="957" y="90" type="line"/>
+      <point x="67" y="90" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

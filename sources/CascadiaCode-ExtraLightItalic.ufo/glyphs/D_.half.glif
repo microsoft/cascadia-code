@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="D.half" format="2">
+  <advance width="840"/>
+  <outline>
+    <contour>
+      <point x="206" y="0" type="line"/>
+      <point x="403" y="0" type="line" smooth="yes"/>
+      <point x="654" y="0"/>
+      <point x="798" y="113"/>
+      <point x="798" y="311" type="curve" smooth="yes"/>
+      <point x="798" y="520"/>
+      <point x="654" y="639"/>
+      <point x="403" y="639" type="curve" smooth="yes"/>
+      <point x="192" y="639" type="line"/>
+      <point x="209" y="551" type="line"/>
+      <point x="403" y="551" type="line" smooth="yes"/>
+      <point x="592" y="551"/>
+      <point x="700" y="464"/>
+      <point x="700" y="311" type="curve" smooth="yes"/>
+      <point x="700" y="169"/>
+      <point x="592" y="88"/>
+      <point x="403" y="88" type="curve" smooth="yes"/>
+      <point x="206" y="88" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="0" type="line"/>
+      <point x="216" y="0" type="line"/>
+      <point x="216" y="639" type="line"/>
+      <point x="122" y="639" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

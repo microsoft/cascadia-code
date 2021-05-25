@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="florin" format="2">
+  <advance width="1200"/>
+  <unicode hex="0192"/>
+  <outline>
+    <contour>
+      <point x="80" y="-480" type="curve" smooth="yes"/>
+      <point x="290" y="-480"/>
+      <point x="425" y="-346"/>
+      <point x="470" y="-90" type="curve" smooth="yes"/>
+      <point x="682" y="1113" type="line" smooth="yes"/>
+      <point x="720" y="1330"/>
+      <point x="824" y="1430"/>
+      <point x="1014" y="1430" type="curve" smooth="yes"/>
+      <point x="1124" y="1430"/>
+      <point x="1205" y="1390"/>
+      <point x="1271" y="1303" type="curve"/>
+      <point x="1348" y="1363" type="line"/>
+      <point x="1274" y="1466"/>
+      <point x="1164" y="1520"/>
+      <point x="1025" y="1520" type="curve" smooth="yes"/>
+      <point x="774" y="1520"/>
+      <point x="637" y="1399"/>
+      <point x="590" y="1134" type="curve" smooth="yes"/>
+      <point x="377" y="-73" type="line" smooth="yes"/>
+      <point x="340" y="-282"/>
+      <point x="240" y="-390"/>
+      <point x="91" y="-390" type="curve" smooth="yes"/>
+      <point x="-9" y="-390"/>
+      <point x="-91" y="-344"/>
+      <point x="-150" y="-256" type="curve"/>
+      <point x="-225" y="-321" type="line"/>
+      <point x="-152" y="-425"/>
+      <point x="-47" y="-480"/>
+    </contour>
+    <contour>
+      <point x="110" y="606" type="line"/>
+      <point x="1090" y="606" type="line"/>
+      <point x="1106" y="696" type="line"/>
+      <point x="126" y="696" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

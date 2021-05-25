@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen_hyphen_hyphen.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="2538" y="588" type="line"/>
+      <point x="3331" y="588" type="line"/>
+      <point x="3373" y="830" type="line"/>
+      <point x="2580" y="830" type="line"/>
+    </contour>
+    <contour>
+      <point x="291" y="588" type="line"/>
+      <point x="1078" y="588" type="line"/>
+      <point x="1120" y="830" type="line"/>
+      <point x="333" y="830" type="line"/>
+    </contour>
+    <contour>
+      <point x="1408" y="588" type="line"/>
+      <point x="2208" y="588" type="line"/>
+      <point x="2250" y="830" type="line"/>
+      <point x="1450" y="830" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

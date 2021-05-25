@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftHalfBlackWhiteCircle" format="2">
+  <advance width="1200"/>
+  <unicode hex="25D0"/>
+  <note>
+uni25D0
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="271" type="line"/>
+      <point x="600" y="1114" type="line"/>
+      <point x="302" y="1114" type="line"/>
+      <point x="142" y="704" type="line"/>
+      <point x="349" y="291" type="line"/>
+    </contour>
+    <component base="whiteCircle"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteCircle</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

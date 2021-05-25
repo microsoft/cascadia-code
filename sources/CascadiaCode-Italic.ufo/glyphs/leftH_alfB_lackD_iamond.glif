@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftHalfBlackDiamond" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B16"/>
+  <note>
+uni2B16
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="192" type="line"/>
+      <point x="600" y="1228" type="line"/>
+      <point x="67" y="710" type="line"/>
+    </contour>
+    <component base="whiteDiamond"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

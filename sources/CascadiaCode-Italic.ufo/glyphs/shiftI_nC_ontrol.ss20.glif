@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shiftInControl.ss20" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="600" y="550" type="curve" smooth="yes"/>
+      <point x="696" y="550"/>
+      <point x="760" y="614"/>
+      <point x="760" y="710" type="curve" smooth="yes"/>
+      <point x="760" y="806"/>
+      <point x="696" y="870"/>
+      <point x="600" y="870" type="curve" smooth="yes"/>
+      <point x="504" y="870"/>
+      <point x="440" y="806"/>
+      <point x="440" y="710" type="curve" smooth="yes"/>
+      <point x="440" y="614"/>
+      <point x="504" y="550"/>
+    </contour>
+    <component base="whiteCircle"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upWhiteTriangle" format="2">
+  <advance width="1200"/>
+  <unicode hex="25B3"/>
+  <note>
+uni25B3
+</note>
+  <outline>
+    <contour>
+      <point x="0" y="230" type="line"/>
+      <point x="1200" y="230" type="line"/>
+      <point x="600" y="1250" type="line"/>
+    </contour>
+    <contour>
+      <point x="253" y="250" type="line"/>
+      <point x="702" y="1013" type="line"/>
+      <point x="500" y="1015" type="line"/>
+      <point x="944" y="256" type="line"/>
+      <point x="1056" y="447" type="line"/>
+      <point x="144" y="447" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

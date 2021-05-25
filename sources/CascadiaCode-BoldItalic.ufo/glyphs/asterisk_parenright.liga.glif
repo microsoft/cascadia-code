@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterisk_parenright.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1219" y="-200" type="line"/>
+      <point x="1262" y="-200" type="line" smooth="yes"/>
+      <point x="1768" y="-200"/>
+      <point x="2132" y="2"/>
+      <point x="2235" y="716" type="curve" smooth="yes"/>
+      <point x="2318" y="1291"/>
+      <point x="2105" y="1620"/>
+      <point x="1582" y="1620" type="curve" smooth="yes"/>
+      <point x="1539" y="1620" type="line"/>
+      <point x="1495" y="1369" type="line"/>
+      <point x="1538" y="1369" type="line" smooth="yes"/>
+      <point x="1889" y="1369"/>
+      <point x="2024" y="1130"/>
+      <point x="1958" y="716" type="curve" smooth="yes"/>
+      <point x="1884" y="252"/>
+      <point x="1638" y="51"/>
+      <point x="1306" y="51" type="curve" smooth="yes"/>
+      <point x="1263" y="51" type="line"/>
+    </contour>
+    <component base="asterisk" xOffset="205"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I.half" format="2">
+  <advance width="840"/>
+  <outline>
+    <contour>
+      <point x="359" y="0" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="480" y="639" type="line"/>
+      <point x="359" y="639" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="0" type="line"/>
+      <point x="718" y="0" type="line"/>
+      <point x="718" y="105" type="line"/>
+      <point x="122" y="105" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="534" type="line"/>
+      <point x="718" y="534" type="line"/>
+      <point x="718" y="639" type="line"/>
+      <point x="122" y="639" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

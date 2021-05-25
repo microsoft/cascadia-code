@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gheupturn-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="0491"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="693" y="1060" name="top"/>
+  <outline>
+    <contour>
+      <point x="515" y="-20" type="curve" smooth="yes"/>
+      <point x="631" y="-20"/>
+      <point x="843" y="2"/>
+      <point x="1001" y="119" type="curve"/>
+      <point x="909" y="338" type="line"/>
+      <point x="781" y="272"/>
+      <point x="655" y="237"/>
+      <point x="549" y="237" type="curve" smooth="yes"/>
+      <point x="451" y="237"/>
+      <point x="405" y="258"/>
+      <point x="405" y="307" type="curve" smooth="yes"/>
+      <point x="405" y="444"/>
+      <point x="1079" y="454"/>
+      <point x="1079" y="786" type="curve" smooth="yes"/>
+      <point x="1079" y="974"/>
+      <point x="943" y="1080"/>
+      <point x="722" y="1080" type="curve" smooth="yes"/>
+      <point x="591" y="1080"/>
+      <point x="480" y="1024"/>
+      <point x="436" y="928" type="curve"/>
+      <point x="287" y="972" type="line"/>
+      <point x="343" y="681" type="line"/>
+      <point x="435" y="767"/>
+      <point x="559" y="823"/>
+      <point x="673" y="823" type="curve" smooth="yes"/>
+      <point x="754" y="823"/>
+      <point x="796" y="799"/>
+      <point x="796" y="753" type="curve" smooth="yes"/>
+      <point x="796" y="611"/>
+      <point x="128" y="635"/>
+      <point x="128" y="270" type="curve" smooth="yes"/>
+      <point x="128" y="43"/>
+      <point x="336" y="-20"/>
+    </contour>
+    <contour>
+      <point x="343" y="681" type="line"/>
+      <point x="409" y="912" type="line"/>
+      <point x="533" y="1320" type="line"/>
+      <point x="269" y="1320" type="line"/>
+      <point x="167" y="733" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

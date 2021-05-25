@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1417" y="860" type="line"/>
+      <point x="2177" y="860" type="line"/>
+      <point x="2222" y="1110" type="line"/>
+      <point x="1462" y="1110" type="line"/>
+    </contour>
+    <contour>
+      <point x="1320" y="310" type="line"/>
+      <point x="2080" y="310" type="line"/>
+      <point x="2125" y="560" type="line"/>
+      <point x="1365" y="560" type="line"/>
+    </contour>
+    <component base="numbersign" xOffset="160"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

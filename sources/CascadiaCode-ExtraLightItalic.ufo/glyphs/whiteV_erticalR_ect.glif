@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteVerticalRect" format="2">
+  <advance width="1200"/>
+  <unicode hex="25AF"/>
+  <note>
+uni25AF
+</note>
+  <outline>
+    <contour>
+      <point x="300" y="110" type="line"/>
+      <point x="900" y="110" type="line"/>
+      <point x="900" y="1310" type="line"/>
+      <point x="300" y="1310" type="line"/>
+    </contour>
+    <contour>
+      <point x="394" y="200" type="line"/>
+      <point x="394" y="1220" type="line"/>
+      <point x="806" y="1220" type="line"/>
+      <point x="806" y="200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

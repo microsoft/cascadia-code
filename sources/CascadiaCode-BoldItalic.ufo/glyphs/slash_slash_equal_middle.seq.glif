@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash_slash_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1358" y="333" type="line"/>
+      <point x="2415" y="333" type="line"/>
+      <point x="2459" y="583" type="line"/>
+      <point x="1509" y="583" type="line"/>
+    </contour>
+    <contour>
+      <point x="-84" y="333" type="line"/>
+      <point x="612" y="333" type="line"/>
+      <point x="763" y="583" type="line"/>
+      <point x="-40" y="583" type="line"/>
+    </contour>
+    <contour>
+      <point x="4" y="835" type="line"/>
+      <point x="885" y="835" type="line"/>
+      <point x="1026" y="1085" type="line"/>
+      <point x="48" y="1085" type="line"/>
+    </contour>
+    <contour>
+      <point x="1671" y="835" type="line"/>
+      <point x="2503" y="835" type="line"/>
+      <point x="2547" y="1085" type="line"/>
+      <point x="1822" y="1085" type="line"/>
+    </contour>
+    <component base="slash" xOffset="234"/>
+    <component base="slash" xOffset="916"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

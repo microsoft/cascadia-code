@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tau" format="2">
+  <advance width="1200"/>
+  <unicode hex="03C4"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="693" y="1060" name="top"/>
+  <outline>
+    <contour>
+      <point x="707" y="-20" type="curve" smooth="yes"/>
+      <point x="799" y="-20"/>
+      <point x="877" y="-7"/>
+      <point x="954" y="22" type="curve"/>
+      <point x="963" y="208" type="line"/>
+      <point x="876" y="182"/>
+      <point x="812" y="170"/>
+      <point x="760" y="170" type="curve" smooth="yes"/>
+      <point x="623" y="170"/>
+      <point x="573" y="245"/>
+      <point x="602" y="410" type="curve" smooth="yes"/>
+      <point x="716" y="1060" type="line"/>
+      <point x="502" y="1060" type="line"/>
+      <point x="386" y="400" type="line" smooth="yes"/>
+      <point x="335" y="112"/>
+      <point x="436" y="-20"/>
+    </contour>
+    <contour>
+      <point x="170" y="870" type="line"/>
+      <point x="1110" y="870" type="line"/>
+      <point x="1143" y="1060" type="line"/>
+      <point x="203" y="1060" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

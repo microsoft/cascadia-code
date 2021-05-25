@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oneeighth" format="2">
+  <advance width="1200"/>
+  <unicode hex="215B"/>
+  <outline>
+    <contour>
+      <point x="220" y="241" type="line"/>
+      <point x="1247" y="969" type="line"/>
+      <point x="1126" y="1166" type="line"/>
+      <point x="106" y="441" type="line"/>
+    </contour>
+    <component base="onesuperior" xOffset="-260"/>
+    <component base="eightinferior" xOffset="270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

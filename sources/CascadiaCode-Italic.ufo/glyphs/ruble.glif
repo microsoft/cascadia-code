@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ruble" format="2">
+  <advance width="1200"/>
+  <unicode hex="20BD"/>
+  <outline>
+    <contour>
+      <point x="-74" y="111" type="line"/>
+      <point x="750" y="111" type="line"/>
+      <point x="774" y="249" type="line"/>
+      <point x="-50" y="249" type="line"/>
+    </contour>
+    <contour>
+      <point x="-30" y="360" type="line"/>
+      <point x="288" y="360" type="line"/>
+      <point x="322" y="550" type="line"/>
+      <point x="3" y="549" type="line"/>
+    </contour>
+    <component base="P"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

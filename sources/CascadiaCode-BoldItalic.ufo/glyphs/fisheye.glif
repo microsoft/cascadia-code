@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fisheye" format="2">
+  <advance width="1200"/>
+  <unicode hex="25C9"/>
+  <note>
+uni25C9
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="518" type="curve" smooth="yes"/>
+      <point x="716" y="518"/>
+      <point x="793" y="594"/>
+      <point x="793" y="710" type="curve" smooth="yes"/>
+      <point x="793" y="826"/>
+      <point x="716" y="903"/>
+      <point x="600" y="903" type="curve" smooth="yes"/>
+      <point x="484" y="903"/>
+      <point x="408" y="826"/>
+      <point x="408" y="710" type="curve" smooth="yes"/>
+      <point x="408" y="594"/>
+      <point x="484" y="518"/>
+    </contour>
+    <component base="whiteCircle" yScale="-1" yOffset="1420"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteCircle</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q.half" format="2">
+  <advance width="840"/>
+  <outline>
+    <contour>
+      <point x="612" y="-217" type="curve" smooth="yes"/>
+      <point x="709" y="-217" type="line"/>
+      <point x="719" y="-132" type="line"/>
+      <point x="612" y="-132" type="line" smooth="yes"/>
+      <point x="513" y="-132"/>
+      <point x="464" y="-98"/>
+      <point x="464" y="-30" type="curve" smooth="yes"/>
+      <point x="464" y="27" type="line"/>
+      <point x="370" y="27" type="line"/>
+      <point x="370" y="-29" type="line" smooth="yes"/>
+      <point x="370" y="-155"/>
+      <point x="450" y="-217"/>
+    </contour>
+    <component base="O.half"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>O.half</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

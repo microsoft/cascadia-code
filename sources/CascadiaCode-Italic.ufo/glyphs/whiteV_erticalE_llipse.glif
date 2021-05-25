@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whiteVerticalEllipse" format="2">
+  <advance width="1200"/>
+  <unicode hex="2B2F"/>
+  <note>
+uni2B2F
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="185" type="curve" smooth="yes"/>
+      <point x="790" y="185"/>
+      <point x="915" y="394"/>
+      <point x="915" y="710" type="curve" smooth="yes"/>
+      <point x="915" y="1026"/>
+      <point x="790" y="1235"/>
+      <point x="600" y="1235" type="curve" smooth="yes"/>
+      <point x="410" y="1235"/>
+      <point x="285" y="1026"/>
+      <point x="285" y="710" type="curve" smooth="yes"/>
+      <point x="285" y="394"/>
+      <point x="410" y="185"/>
+    </contour>
+    <contour>
+      <point x="600" y="335" type="curve" smooth="yes"/>
+      <point x="501" y="335"/>
+      <point x="435" y="484"/>
+      <point x="435" y="710" type="curve" smooth="yes"/>
+      <point x="435" y="936"/>
+      <point x="501" y="1085"/>
+      <point x="600" y="1085" type="curve" smooth="yes"/>
+      <point x="699" y="1085"/>
+      <point x="765" y="936"/>
+      <point x="765" y="710" type="curve" smooth="yes"/>
+      <point x="765" y="484"/>
+      <point x="699" y="335"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

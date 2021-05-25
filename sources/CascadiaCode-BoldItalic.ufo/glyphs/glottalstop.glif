@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalstop" format="2">
+  <advance width="1200"/>
+  <unicode hex="0294"/>
+  <anchor x="770" y="1500" name="top"/>
+  <outline>
+    <contour>
+      <point x="335" y="0" type="line"/>
+      <point x="613" y="0" type="line"/>
+      <point x="673" y="341" type="line" smooth="yes"/>
+      <point x="694" y="461"/>
+      <point x="738" y="560"/>
+      <point x="837" y="655" type="curve" smooth="yes"/>
+      <point x="1008" y="820"/>
+      <point x="1145" y="969"/>
+      <point x="1145" y="1188" type="curve" smooth="yes"/>
+      <point x="1145" y="1400"/>
+      <point x="1004" y="1520"/>
+      <point x="747" y="1520" type="curve"/>
+      <point x="701" y="1263" type="line"/>
+      <point x="806" y="1263"/>
+      <point x="859" y="1222"/>
+      <point x="859" y="1139" type="curve" smooth="yes"/>
+      <point x="859" y="1032"/>
+      <point x="792" y="946"/>
+      <point x="703" y="871" type="curve" smooth="yes"/>
+      <point x="535" y="729"/>
+      <point x="442" y="603"/>
+      <point x="401" y="373" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="346" y="1096" type="line"/>
+      <point x="455" y="1206"/>
+      <point x="576" y="1263"/>
+      <point x="701" y="1263" type="curve"/>
+      <point x="747" y="1520" type="line"/>
+      <point x="533" y="1520"/>
+      <point x="353" y="1446"/>
+      <point x="223" y="1304" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

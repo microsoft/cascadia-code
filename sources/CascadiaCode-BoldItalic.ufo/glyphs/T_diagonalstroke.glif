@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tdiagonalstroke" format="2">
+  <advance width="1200"/>
+  <unicode hex="023E"/>
+  <anchor x="438" y="-388" name="bottom"/>
+  <anchor x="770" y="1500" name="top"/>
+  <outline>
+    <contour>
+      <point x="174" y="-362" type="line"/>
+      <point x="1386" y="1658" type="line"/>
+      <point x="1223" y="1739" type="line"/>
+      <point x="23" y="-285" type="line"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

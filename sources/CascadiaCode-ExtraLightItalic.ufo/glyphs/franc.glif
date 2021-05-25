@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="franc" format="2">
+  <advance width="1200"/>
+  <unicode hex="20A3"/>
+  <outline>
+    <contour>
+      <point x="6" y="255" type="line"/>
+      <point x="630" y="255" type="line"/>
+      <point x="646" y="345" type="line"/>
+      <point x="22" y="345" type="line"/>
+    </contour>
+    <component base="F"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

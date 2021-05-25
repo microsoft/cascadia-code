@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftRightArrow" format="2">
+  <advance width="1200"/>
+  <unicode hex="2194"/>
+  <outline>
+    <contour>
+      <point x="733" y="267" type="line"/>
+      <point x="1156" y="648" type="line"/>
+      <point x="1178" y="770" type="line"/>
+      <point x="888" y="1149" type="line"/>
+      <point x="738" y="1034" type="line"/>
+      <point x="974" y="718" type="line"/>
+      <point x="971" y="700" type="line"/>
+      <point x="623" y="382" type="line"/>
+    </contour>
+    <contour>
+      <point x="374" y="267" type="line"/>
+      <point x="524" y="382" type="line"/>
+      <point x="288" y="700" type="line"/>
+      <point x="291" y="718" type="line"/>
+      <point x="639" y="1034" type="line"/>
+      <point x="529" y="1149" type="line"/>
+      <point x="107" y="770" type="line"/>
+      <point x="85" y="648" type="line"/>
+    </contour>
+    <contour>
+      <point x="165" y="616" type="line"/>
+      <point x="1064" y="616" type="line"/>
+      <point x="1097" y="802" type="line"/>
+      <point x="198" y="802" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

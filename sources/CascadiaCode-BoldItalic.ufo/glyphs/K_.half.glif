@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="K.half" format="2">
+  <advance width="840"/>
+  <outline>
+    <contour>
+      <point x="202" y="167" type="line"/>
+      <point x="565" y="167"/>
+      <point x="775" y="437"/>
+      <point x="775" y="639" type="curve"/>
+      <point x="619" y="639" type="line"/>
+      <point x="619" y="516"/>
+      <point x="497" y="305"/>
+      <point x="215" y="305" type="curve"/>
+    </contour>
+    <contour>
+      <point x="109" y="0" type="line"/>
+      <point x="260" y="0" type="line"/>
+      <point x="260" y="639" type="line"/>
+      <point x="109" y="639" type="line"/>
+    </contour>
+    <contour>
+      <point x="639" y="0" type="line"/>
+      <point x="823" y="0" type="line"/>
+      <point x="567" y="387" type="line"/>
+      <point x="430" y="324" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>
