@@ -287,8 +287,6 @@ def compile_static_and_save(instance: ufoLib2.Font, name:str) -> None:
     style_name = instance.info.styleName
     print(f"[{family_name}] Building static instance: {style_name}")
 
-    print (instance.lib)
-
     # Use pathops backend for overlap removal because it is, at the time of this
     # writing, massively faster than booleanOperations and thanks to autohinting,
     # there is no need to keep outlines compatible to previous releases.
