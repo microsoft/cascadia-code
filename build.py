@@ -202,9 +202,13 @@ def build_font_static(
     name: str,
 ) -> None:
     prepare_fonts(designspace, name)
+
     generator = fontmake.instantiator.Instantiator.from_designspace(designspace)
     instance = generator.generate_instance(instance_descriptor)
-    compile_static_and_save(instance, name)
+    instance.info.familyName = instance.info.familyName.replace(" Italic","")
+    if instance.info.styleMapFamilyName:
+        instance.info.styleMapFamilyName = instance.info.styleMapFamilyName.replace(" Italic","")
+    compile_static_and_save(instance, name.replace(" Italic",""))
 
 
 # Export fonts
