@@ -234,34 +234,33 @@ def compile_variable_and_save(
     statmake.lib.apply_stylespace_to_variable_font(styleSpace, varFont, {})
 
 
+    print(f"[{familyName} {styleName}] Merging VTT")
+
     if "Italic" in styleName:
-        print(f"[{familyName} {styleName}] Merging VTT")
+        font_vtt = fontTools.ttLib.TTFont(ITALIC_VTT_DATA_FILE)
+    else:
+        font_vtt = fontTools.ttLib.TTFont(VTT_DATA_FILE)
 
-        if "Italic" in styleName:
-            font_vtt = fontTools.ttLib.TTFont(ITALIC_VTT_DATA_FILE)
-        else:
-            font_vtt = fontTools.ttLib.TTFont(VTT_DATA_FILE)
+    for table in ["TSI0", "TSI1", "TSI2", "TSI3", "TSI5", "TSIC", "maxp"]:
+        varFont[table] = fontTools.ttLib.newTable(table)
+        varFont[table] = font_vtt[table]
 
-        for table in ["TSI0", "TSI1", "TSI2", "TSI3", "TSI5", "TSIC", "maxp"]:
-            varFont[table] = fontTools.ttLib.newTable(table)
-            varFont[table] = font_vtt[table]
+    # this will correct the OFFSET[R] commands in TSI1
+    if font_vtt.getGlyphOrder() != varFont.getGlyphOrder():
+        tsi1.fixOFFSET(varFont, font_vtt)
+        pass
 
-        # this will correct the OFFSET[R] commands in TSI1
-        if font_vtt.getGlyphOrder() != varFont.getGlyphOrder():
-            tsi1.fixOFFSET(varFont, font_vtt)
-            pass
+    if vtt_compile:
+        print(f"[{familyName} {styleName}] Compiling VTT")
 
-        if vtt_compile:
-            print(f"[{familyName} {styleName}] Compiling VTT")
-
-            tree = ET.ElementTree()
-            TSICfile = tempfile.NamedTemporaryFile()
-            varFont.saveXML(TSICfile.name, tables=["TSIC"])
-            tree = ET.parse(TSICfile.name)
-            vttLib.compile_instructions(varFont, ship=True)
-            #tsic.makeCVAR(varFont, tree)
-        else:
-            file_path = (OUTPUT_TTF_DIR / str(file_stem+"_VTT")).with_suffix(".ttf")
+        tree = ET.ElementTree()
+        TSICfile = tempfile.NamedTemporaryFile()
+        varFont.saveXML(TSICfile.name, tables=["TSIC"])
+        tree = ET.parse(TSICfile.name)
+        vttLib.compile_instructions(varFont, ship=True)
+        #tsic.makeCVAR(varFont, tree)
+    else:
+        file_path = (OUTPUT_TTF_DIR / str(file_stem+"_VTT")).with_suffix(".ttf")
 
     # last minute manual corrections to set things correctly
     # set two flags to enable proper rendering (one for overlaps in Mac, the other for windows hinting)

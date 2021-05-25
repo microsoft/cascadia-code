@@ -6,7 +6,7 @@
 #
 appdirs==1.4.4
     # via fs
-attrs==20.2.0
+attrs==21.2.0
     # via
     #   cattrs
     #   fontmake
@@ -18,21 +18,21 @@ booleanoperations==0.9.0
     #   ufo2ft
 brotli==1.0.9
     # via fonttools
-cattrs==1.0.0
+cattrs==1.6.0
     # via statmake
-cffsubr==0.2.7
+cffsubr==0.2.8
     # via ufo2ft
-compreffor==0.5.0
+compreffor==0.5.1
     # via ufo2ft
 cu2qu==1.6.7
     # via
     #   fontmake
     #   ufo2ft
-fontmake==2.2.1
+fontmake==2.4.0
     # via -r requirements.in
 fontmath==0.6.0
     # via fontmake
-fonttools[lxml,ufo,unicode,woff]==4.15.0
+fonttools[lxml,ufo,unicode,woff]==4.24.4
     # via
     #   -r requirements.in
     #   booleanoperations
@@ -48,38 +48,40 @@ fonttools[lxml,ufo,unicode,woff]==4.15.0
     #   ufolib2
     #   vttlib
     #   vttmisc
-fs==2.4.11
+fs==2.4.13
     # via fonttools
-glyphslib==5.2.0
+glyphslib==5.3.2
     # via fontmake
-lxml==4.6.2
+lxml==4.6.3
     # via fonttools
-psautohint==2.1.0
+psautohint==2.3.0
     # via -r requirements.in
-pyclipper==1.2.0
+pyclipper==1.2.1
     # via booleanoperations
 pyparsing==2.4.7
     # via vttlib
-pytz==2020.1
+pytz==2021.1
     # via fs
-six==1.15.0
+six==1.16.0
     # via fs
-skia-pathops==0.4.1
+skia-pathops==0.6.0.post2
     # via -r requirements.in
 statmake==0.3.0
     # via -r requirements.in
-ufo2ft[cffsubr]==2.16.0
+ufo2ft[compreffor]==2.21.0
     # via fontmake
-ufolib2==0.8.0
+ufolib2==0.11.1
     # via
     #   fontmake
     #   glyphslib
     #   vttlib
-vttlib==0.9.1.post2
+unicodedata2==13.0.0.post2
+    # via fonttools
+vttlib==0.11.0
     # via -r requirements.in
-vttmisc==0.0.2
+vttmisc==0.0.5
     # via -r requirements.in
-zopfli==0.1.7
+zopfli==0.1.8
     # via fonttools
 
 # The following packages are considered to be unsafe in a requirements file:
