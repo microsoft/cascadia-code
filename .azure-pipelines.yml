@@ -5,14 +5,64 @@ pr:
       - main
 
 parameters:
+  - name: mono
+    displayName: Generate Cascadia Mono family
+    type: boolean
+    default: true
+  - name: powerline
+    displayName: Generate Cascadia Mono/Code PL
+    type: boolean
+    default: true
+  - name: italic
+    displayName: Generate Cascadia Mono/Code Italic
+    type: boolean
+    default: true
+  - name: woff
+    displayName: Generate WOFF2 fonts for web use
+    type: boolean
+    default: true
+  - name: hinted
+    displayName: Compile hinting instructions
+    type: boolean
+    default: true
   - name: static
-    displayName: Generate Static Fonts
+    displayName: Generate static variants of all fonts
     type: boolean
     default: true
 
 variables:
   - name: runCodesignValidationInjectionBG
     value: false
+  - name: OPT_mono
+    ${{ if eq(parameters.mono, true) }}:
+      value: ""
+    ${{ if eq(parameters.mono, false) }}:
+      value: "-M"
+  - name: OPT_powerline
+    ${{ if eq(parameters.powerline, true) }}:
+      value: ""
+    ${{ if eq(parameters.powerline, false) }}:
+      value: "-P"
+  - name: OPT_static
+    ${{ if eq(parameters.static, true) }}:
+      value: "-S"
+    ${{ if eq(parameters.static, false) }}:
+      value: ""
+  - name: OPT_italic
+    ${{ if eq(parameters.italic, true) }}:
+      value: ""
+    ${{ if eq(parameters.italic, false) }}:
+      value: "-I"
+  - name: OPT_hinted
+    ${{ if eq(parameters.hinted, true) }}:
+      value: ""
+    ${{ if eq(parameters.hinted, false) }}:
+      value: "-V"
+  - name: OPT_woff
+    ${{ if eq(parameters.woff, true) }}:
+      value: "-W"
+    ${{ if eq(parameters.woff, false) }}:
+      value: ""
 
 jobs:
   - job: build
@@ -34,15 +84,9 @@ jobs:
          ufolint sources/*.ufo
         displayName: 'Lint sources'
 
-      - ${{ if eq(parameters.static, true) }}:
-        - bash: |
-           python ./build.py -S -W
-          displayName: 'Build variable + static fonts'
-
-      - ${{ if eq(parameters.static, false) }}:
-        - bash: |
-           python ./build.py -W
-          displayName: 'Build variable fonts only'
+      - bash: |
+         python ./build.py $(OPT_static) $(OPT_woff) $(OPT_hinted) $(OPT_mono) $(OPT_powerline) $(OPT_italic)
+        displayName: 'Build selKected fonts'
 
       - bash: |
          mkdir -p out
