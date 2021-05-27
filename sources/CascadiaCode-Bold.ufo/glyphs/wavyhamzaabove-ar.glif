@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wavyhamzaabove-ar" format="2">
+  <advance width="1200"/>
+  <anchor x="620" y="1189" name="_top"/>
+  <anchor x="620" y="1104" name="_top.dot"/>
+  <anchor x="622" y="1621" name="top"/>
+  <outline>
+    <component base="_hamzawavy" xOffset="21" yOffset="635"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_hamzawavy</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

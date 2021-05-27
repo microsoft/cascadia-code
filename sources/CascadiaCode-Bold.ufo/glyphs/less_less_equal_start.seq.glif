@@ -4,23 +4,17 @@
   <outline>
     <contour>
       <point x="2420" y="333" type="line"/>
-      <point x="2420" y="575" type="line"/>
-      <point x="1144" y="575" type="line"/>
+      <point x="2420" y="583" type="line"/>
+      <point x="1144" y="583" type="line"/>
       <point x="1404" y="333" type="line"/>
     </contour>
     <contour>
-      <point x="2420" y="843" type="line"/>
+      <point x="2420" y="835" type="line"/>
       <point x="2420" y="1085" type="line"/>
       <point x="1384" y="1085" type="line"/>
-      <point x="1167" y="843" type="line"/>
+      <point x="1167" y="835" type="line"/>
     </contour>
     <component base="less.alt" xOffset="21"/>
     <component base="less.alt" xOffset="661"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

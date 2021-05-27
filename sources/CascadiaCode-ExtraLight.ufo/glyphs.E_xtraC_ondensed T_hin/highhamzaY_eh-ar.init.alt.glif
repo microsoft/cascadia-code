@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="highhamzaYeh-ar.init.alt" format="2">
+  <advance width="237"/>
+  <outline>
+    <component base="alefMaksura-ar.init"/>
+    <component base="highhamza-ar" xOffset="180" yOffset="90"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>highhamza-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

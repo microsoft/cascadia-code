@@ -2,16 +2,8 @@
 <glyph name="ydotbelow" format="2">
   <advance width="1200"/>
   <unicode hex="1EF5"/>
-  <anchor x="945" y="-338" name="bottom"/>
-  <anchor x="615" y="1060" name="top"/>
   <outline>
     <component base="y"/>
     <component base="dotbelowcomb" xOffset="345"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

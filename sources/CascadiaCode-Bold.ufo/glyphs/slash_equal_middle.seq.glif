@@ -2,24 +2,7 @@
 <glyph name="slash_equal_middle.seq" format="2">
   <advance width="1200"/>
   <outline>
-    <contour>
-      <point x="-49" y="843" type="line"/>
-      <point x="1250" y="843" type="line"/>
-      <point x="1250" y="1085" type="line"/>
-      <point x="-50" y="1085" type="line"/>
-    </contour>
-    <contour>
-      <point x="-49" y="333" type="line"/>
-      <point x="1250" y="333" type="line"/>
-      <point x="1250" y="575" type="line"/>
-      <point x="-49" y="575" type="line"/>
-    </contour>
     <component base="slash"/>
+    <component base="equal_middle.seq"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

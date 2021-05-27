@@ -2,9 +2,6 @@
 <glyph name="Tbar" format="2">
   <advance width="1200"/>
   <unicode hex="0166"/>
-  <anchor x="595" y="0" name="bottom"/>
-  <anchor x="600" y="710" name="center"/>
-  <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
       <point x="172" y="561" type="line"/>
@@ -27,8 +24,6 @@
           <string>T</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

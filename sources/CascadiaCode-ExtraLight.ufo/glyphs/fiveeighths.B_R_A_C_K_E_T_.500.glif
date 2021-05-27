@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fiveeighths.BRACKET.500" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="653" y="678" type="line"/>
+      <point x="1078" y="1020" type="line"/>
+      <point x="1024" y="1096" type="line"/>
+      <point x="599" y="754" type="line"/>
+    </contour>
+    <contour>
+      <point x="186" y="296" type="line"/>
+      <point x="601" y="639" type="line"/>
+      <point x="547" y="714" type="line"/>
+      <point x="132" y="372" type="line"/>
+    </contour>
+    <component base="fivesuperior" xOffset="-260"/>
+    <component base="eightinferior" xOffset="270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
+      <string>[500]</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wawring-ar.fina" format="2">
+  <advance width="366"/>
+  <outline>
+    <component base="_wawDotcenter-ar.fina"/>
+    <component base="ringArabic" xOffset="23" yOffset="-245"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_wawDotcenter-ar.fina</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

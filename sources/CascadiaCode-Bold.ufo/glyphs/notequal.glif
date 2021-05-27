@@ -9,23 +9,6 @@
       <point x="1091" y="1420" type="line"/>
       <point x="823" y="1420" type="line"/>
     </contour>
-    <contour>
-      <point x="83" y="333" type="line"/>
-      <point x="1117" y="333" type="line"/>
-      <point x="1117" y="575" type="line"/>
-      <point x="83" y="575" type="line"/>
-    </contour>
-    <contour>
-      <point x="83" y="843" type="line"/>
-      <point x="1117" y="843" type="line"/>
-      <point x="1117" y="1085" type="line"/>
-      <point x="83" y="1085" type="line"/>
-    </contour>
+    <component base="equal"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

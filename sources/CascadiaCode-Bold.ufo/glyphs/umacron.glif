@@ -2,18 +2,8 @@
 <glyph name="umacron" format="2">
   <advance width="1200"/>
   <unicode hex="016B"/>
-  <anchor x="560" y="0" name="bottom"/>
-  <anchor x="1070" y="10" name="ogonek"/>
-  <anchor x="580" y="1400" name="top"/>
-  <anchor x="1110" y="1060" name="topright"/>
   <outline>
     <component base="u"/>
     <component base="macroncomb" xOffset="-20"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

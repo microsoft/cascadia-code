@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hehgoalHamzaabove-ar.init" format="2">
+  <advance width="268"/>
+  <outline>
+    <component base="hehgoal-ar.init"/>
+    <component base="hamzaabove-ar" xOffset="215" yOffset="-227"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>hehgoal-ar.init</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

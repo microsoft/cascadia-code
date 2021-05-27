@@ -2,17 +2,8 @@
 <glyph name="Yacute" format="2">
   <advance width="1200"/>
   <unicode hex="00DD"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="1770" name="top"/>
-  <anchor x="20" y="1420" name="topleft"/>
   <outline>
     <component base="Y"/>
     <component base="acutecomb.case" xOffset="61"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalDotbelow-ar.fina" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="-40" yOffset="-24"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

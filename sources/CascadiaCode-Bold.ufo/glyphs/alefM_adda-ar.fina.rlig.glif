@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefMadda-ar.fina.rlig" format="2">
+  <anchor x="0" y="0" name="_overlap"/>
+  <anchor x="283" y="-141" name="bottom"/>
+  <anchor x="293" y="1521" name="top"/>
+  <outline>
+    <component base="alef-ar.fina.short.rlig"/>
+    <component base="madda-ar" xOffset="-399" yOffset="36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>alef-ar.fina.short.rlig</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

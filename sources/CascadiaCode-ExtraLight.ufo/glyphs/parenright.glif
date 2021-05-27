@@ -15,19 +15,13 @@
       <point x="226" y="1620" type="line"/>
       <point x="226" y="1530" type="line"/>
       <point x="254" y="1530" type="line" smooth="yes"/>
-      <point x="615" y="1530"/>
-      <point x="818" y="1232"/>
-      <point x="818" y="716" type="curve" smooth="yes"/>
-      <point x="818" y="192"/>
-      <point x="615" y="-110"/>
+      <point x="612" y="1530"/>
+      <point x="814" y="1232"/>
+      <point x="814" y="716" type="curve" smooth="yes"/>
+      <point x="814" y="192"/>
+      <point x="612" y="-110"/>
       <point x="254" y="-110" type="curve" smooth="yes"/>
       <point x="226" y="-110" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafThreedotsbelow-ar.fina" format="2">
+  <advance width="1200"/>
+  <anchor x="561" y="-618" name="bottom"/>
+  <outline>
+    <component base="kaf-ar.fina"/>
+    <component base="threedotsupbelow-ar" xScale="0.96" yScale="0.96" xOffset="-21" yOffset="-18"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fourdotsabove-ar" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="752" name="_top"/>
+  <anchor x="600" y="532" name="_top.dot"/>
+  <anchor x="606" y="1161" name="top"/>
+  <outline>
+    <component base="_fourdotscenter-ar" xScale="0.92" yScale="0.92" xOffset="47" yOffset="516"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_fourdotscenter-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

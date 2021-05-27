@@ -1,6 +1,6 @@
 feature ss20 {
 # notes:
-# Name: 
+# Name: Graphical Control
 sub acknowledgeControl by acknowledgeControl.ss20;
 sub backspaceControl by backspaceControl.ss20;
 sub bellControl by bellControl.ss20;

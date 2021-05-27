@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_twodotstah" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="767" name="_top"/>
+  <anchor x="600" y="532" name="_top.dot"/>
+  <anchor x="628" y="1367" name="top"/>
+  <outline>
+    <component base="_tahabove" xScale="0.9" yScale="0.9" xOffset="99" yOffset="402"/>
+    <component base="_twodotshorizontal-ar" yOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_tahabove</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_twodotshorizontal-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

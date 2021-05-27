@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alef-ar.fina" format="2">
+  <advance width="1200"/>
+  <unicode hex="FEFC"/>
+  <anchor x="293" y="-26" name="bottom.dot"/>
+  <anchor x="923" y="-141" name="bottom_1"/>
+  <anchor x="293" y="-141" name="bottom_2"/>
+  <anchor x="945" y="1545" name="top_1"/>
+  <anchor x="294" y="1390" name="top_2"/>
+  <outline>
+    <contour>
+      <point x="1190" y="-6" type="curve" smooth="yes"/>
+      <point x="1253" y="-6"/>
+      <point x="1286" y="34"/>
+      <point x="1286" y="81" type="curve" smooth="yes"/>
+      <point x="1286" y="126"/>
+      <point x="1263" y="206"/>
+      <point x="1200" y="206" type="curve" smooth="yes"/>
+      <point x="1139" y="206"/>
+      <point x="1071" y="222"/>
+      <point x="1069" y="325" type="curve" smooth="yes"/>
+      <point x="1048" y="1500" type="line"/>
+      <point x="842" y="1500" type="line"/>
+      <point x="868" y="506" type="line"/>
+      <point x="878" y="337" type="line" smooth="yes"/>
+      <point x="892" y="95"/>
+      <point x="976" y="-6"/>
+    </contour>
+    <contour>
+      <point x="405" y="-7" type="curve" smooth="yes"/>
+      <point x="828" y="-7"/>
+      <point x="1006" y="104"/>
+      <point x="996" y="562" type="curve"/>
+      <point x="868" y="506" type="line"/>
+      <point x="874" y="294"/>
+      <point x="833" y="209"/>
+      <point x="435" y="209" type="curve" smooth="yes"/>
+      <point x="308" y="209"/>
+      <point x="220" y="215"/>
+      <point x="87" y="225" type="curve"/>
+      <point x="76" y="13" type="line"/>
+      <point x="129" y="5"/>
+      <point x="331" y="-7"/>
+    </contour>
+    <contour>
+      <point x="690" y="179" type="curve"/>
+      <point x="860" y="266" type="line"/>
+      <point x="700" y="625"/>
+      <point x="434" y="1070"/>
+      <point x="215" y="1349" type="curve"/>
+      <point x="56" y="1222" type="line"/>
+      <point x="275" y="935"/>
+      <point x="525" y="526"/>
+    </contour>
+  </outline>
+</glyph>

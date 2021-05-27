@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehFourbelow-farsi.init" format="2">
+  <advance width="257"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.wide"/>
+    <component base="four-persianbelow-ar" xOffset="25" yOffset="-32"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dotlessbeh-ar.init.wide</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotlessbeh-ar.init.wide</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotlessbeh-ar.init.wide</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gimel-hb" format="2">
+  <advance width="1200"/>
+  <unicode hex="05D2"/>
+  <anchor x="401" y="600" name="center"/>
+  <outline>
+    <contour>
+      <point x="351" y="-17" type="curve" smooth="yes"/>
+      <point x="669" y="-2"/>
+      <point x="838" y="352"/>
+      <point x="844" y="677" type="curve" smooth="yes"/>
+      <point x="848" y="803" type="line"/>
+      <point x="660" y="803" type="line"/>
+      <point x="659" y="703" type="line" smooth="yes"/>
+      <point x="656" y="404"/>
+      <point x="558" y="181"/>
+      <point x="340" y="181" type="curve" smooth="yes"/>
+      <point x="282" y="181"/>
+      <point x="233" y="191"/>
+      <point x="189" y="206" type="curve"/>
+      <point x="160" y="12" type="line"/>
+      <point x="224" y="-15"/>
+      <point x="284" y="-20"/>
+    </contour>
+    <contour>
+      <point x="737" y="0" type="line"/>
+      <point x="921" y="0" type="line"/>
+      <point x="853" y="467" type="line"/>
+      <point x="853" y="1200" type="line"/>
+      <point x="660" y="1200" type="line"/>
+      <point x="660" y="607" type="line"/>
+    </contour>
+    <contour>
+      <point x="297" y="1000" type="line"/>
+      <point x="829" y="1000" type="line"/>
+      <point x="829" y="1200" type="line"/>
+      <point x="297" y="1200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

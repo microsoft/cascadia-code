@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jeem-ar.init" format="2">
+  <advance width="1200"/>
+  <unicode hex="FE9F"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="dotbelow-ar" xOffset="80" yOffset="76"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

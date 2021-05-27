@@ -3,22 +3,22 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="1590" y="-200" type="line"/>
-      <point x="1854" y="-200" type="line"/>
-      <point x="1854" y="1620" type="line"/>
-      <point x="1590" y="1620" type="line"/>
+      <point x="1620" y="-214" type="line"/>
+      <point x="1884" y="-214" type="line"/>
+      <point x="1884" y="1634" type="line"/>
+      <point x="1620" y="1634" type="line"/>
     </contour>
     <contour>
-      <point x="986" y="-200" type="line"/>
-      <point x="1610" y="-200" type="line"/>
-      <point x="1610" y="41" type="line"/>
-      <point x="986" y="41" type="line"/>
+      <point x="1016" y="-214" type="line"/>
+      <point x="1640" y="-214" type="line"/>
+      <point x="1640" y="27" type="line"/>
+      <point x="1016" y="27" type="line"/>
     </contour>
     <contour>
-      <point x="986" y="1379" type="line"/>
-      <point x="1610" y="1379" type="line"/>
-      <point x="1610" y="1620" type="line"/>
-      <point x="986" y="1620" type="line"/>
+      <point x="1016" y="1393" type="line"/>
+      <point x="1640" y="1393" type="line"/>
+      <point x="1640" y="1634" type="line"/>
+      <point x="1016" y="1634" type="line"/>
     </contour>
     <component base="bar" xOffset="46"/>
   </outline>
@@ -35,8 +35,6 @@
           <string>bar</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -4,57 +4,57 @@
   <outline>
     <contour>
       <point x="1490" y="-214" type="curve" smooth="yes"/>
-      <point x="1770" y="-214"/>
-      <point x="1932" y="-74"/>
-      <point x="1932" y="166" type="curve" smooth="yes"/>
-      <point x="1932" y="259"/>
-      <point x="1890" y="348"/>
-      <point x="1890" y="445" type="curve" smooth="yes"/>
-      <point x="1890" y="544"/>
-      <point x="1999" y="589"/>
-      <point x="2177" y="589" type="curve"/>
-      <point x="2177" y="841" type="line"/>
-      <point x="2000" y="841"/>
-      <point x="1890" y="889"/>
-      <point x="1890" y="985" type="curve" smooth="yes"/>
-      <point x="1890" y="1086"/>
-      <point x="1932" y="1171"/>
-      <point x="1932" y="1264" type="curve" smooth="yes"/>
-      <point x="1932" y="1495"/>
-      <point x="1770" y="1626"/>
+      <point x="1745" y="-214"/>
+      <point x="1892" y="-78"/>
+      <point x="1892" y="156" type="curve" smooth="yes"/>
+      <point x="1892" y="252"/>
+      <point x="1850" y="344"/>
+      <point x="1850" y="445" type="curve" smooth="yes"/>
+      <point x="1850" y="538"/>
+      <point x="1974" y="580"/>
+      <point x="2177" y="580" type="curve"/>
+      <point x="2177" y="832" type="line"/>
+      <point x="1975" y="832"/>
+      <point x="1850" y="883"/>
+      <point x="1850" y="985" type="curve" smooth="yes"/>
+      <point x="1850" y="1090"/>
+      <point x="1892" y="1178"/>
+      <point x="1892" y="1274" type="curve" smooth="yes"/>
+      <point x="1892" y="1499"/>
+      <point x="1745" y="1626"/>
       <point x="1490" y="1626" type="curve" smooth="yes"/>
-      <point x="1366" y="1626"/>
-      <point x="1286" y="1618"/>
-      <point x="1220" y="1606" type="curve"/>
-      <point x="1244" y="1365" type="line"/>
-      <point x="1312" y="1371"/>
-      <point x="1377" y="1375"/>
+      <point x="1367" y="1626"/>
+      <point x="1292" y="1618"/>
+      <point x="1223" y="1606" type="curve"/>
+      <point x="1247" y="1365" type="line"/>
+      <point x="1315" y="1371"/>
+      <point x="1378" y="1375"/>
       <point x="1430" y="1375" type="curve" smooth="yes"/>
-      <point x="1583" y="1375"/>
-      <point x="1665" y="1309"/>
-      <point x="1665" y="1193" type="curve" smooth="yes"/>
-      <point x="1665" y="1106"/>
-      <point x="1619" y="1030"/>
-      <point x="1619" y="942" type="curve" smooth="yes"/>
-      <point x="1619" y="813"/>
-      <point x="1716" y="739"/>
-      <point x="1881" y="736" type="curve"/>
-      <point x="1881" y="694" type="line"/>
-      <point x="1716" y="691"/>
-      <point x="1619" y="613"/>
-      <point x="1619" y="488" type="curve" smooth="yes"/>
-      <point x="1619" y="397"/>
-      <point x="1665" y="321"/>
-      <point x="1665" y="237" type="curve" smooth="yes"/>
-      <point x="1665" y="110"/>
-      <point x="1583" y="37"/>
+      <point x="1557" y="1375"/>
+      <point x="1625" y="1312"/>
+      <point x="1625" y="1203" type="curve" smooth="yes"/>
+      <point x="1625" y="1112"/>
+      <point x="1579" y="1033"/>
+      <point x="1579" y="942" type="curve" smooth="yes"/>
+      <point x="1579" y="807"/>
+      <point x="1691" y="730"/>
+      <point x="1881" y="727" type="curve"/>
+      <point x="1881" y="685" type="line"/>
+      <point x="1691" y="682"/>
+      <point x="1579" y="608"/>
+      <point x="1579" y="488" type="curve" smooth="yes"/>
+      <point x="1579" y="393"/>
+      <point x="1625" y="315"/>
+      <point x="1625" y="227" type="curve" smooth="yes"/>
+      <point x="1625" y="106"/>
+      <point x="1557" y="37"/>
       <point x="1430" y="37" type="curve" smooth="yes"/>
-      <point x="1377" y="37"/>
-      <point x="1312" y="41"/>
-      <point x="1244" y="47" type="curve"/>
-      <point x="1220" y="-194" type="line"/>
-      <point x="1290" y="-206"/>
-      <point x="1366" y="-214"/>
+      <point x="1378" y="37"/>
+      <point x="1315" y="41"/>
+      <point x="1247" y="47" type="curve"/>
+      <point x="1223" y="-194" type="line"/>
+      <point x="1292" y="-206"/>
+      <point x="1367" y="-214"/>
     </contour>
     <component base="bar" xScale="-1" xOffset="1200"/>
   </outline>
@@ -71,8 +71,6 @@
           <string>bar</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

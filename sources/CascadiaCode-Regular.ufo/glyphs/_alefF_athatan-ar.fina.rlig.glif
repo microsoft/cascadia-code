@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_alefFathatan-ar.fina.rlig" format="2">
+  <anchor x="0" y="0" name="_overlap"/>
+  <anchor x="343" y="-141" name="bottom"/>
+  <anchor x="273" y="1701" name="top"/>
+  <outline>
+    <component base="_alef-ar.fina.rlig"/>
+    <component base="fathatan-ar" xOffset="-302" yOffset="3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_alef-ar.fina.rlig</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

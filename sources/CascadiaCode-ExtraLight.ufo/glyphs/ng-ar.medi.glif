@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ng-ar.medi" format="2">
+  <advance width="1200"/>
+  <unicode hex="FBD6"/>
+  <anchor x="395.7" y="1673.8" name="top"/>
+  <outline>
+    <component base="kaf-ar.medi"/>
+    <component base="threedotsupabove-ar.v2" xScale="0.9" yScale="0.9" xOffset="-102" yOffset="619"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar.v2</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

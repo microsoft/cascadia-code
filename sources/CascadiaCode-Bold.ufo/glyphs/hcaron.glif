@@ -2,17 +2,8 @@
 <glyph name="hcaron" format="2">
   <advance width="1200"/>
   <unicode hex="021F"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="784" name="center"/>
-  <anchor x="288" y="1880" name="top"/>
   <outline>
     <component base="h"/>
     <component base="caroncomb.case" xOffset="-312" yOffset="80"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

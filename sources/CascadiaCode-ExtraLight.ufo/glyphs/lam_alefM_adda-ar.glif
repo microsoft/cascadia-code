@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alefMadda-ar" format="2">
+  <advance width="1200"/>
+  <unicode hex="FEF5"/>
+  <outline>
+    <component base="lam_alef-ar.short"/>
+    <component base="madda-ar" xOffset="-379" yOffset="48"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam_alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam_alef-ar</string>
+    </dict>
+  </lib>
+</glyph>

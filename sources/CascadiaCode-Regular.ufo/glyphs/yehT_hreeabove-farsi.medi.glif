@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehThreeabove-farsi.medi" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-10" yOffset="-24"/>
+    <component base="three-persian.small01" xOffset="50" yOffset="-349"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>three-persian.small01</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

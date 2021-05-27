@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehDotbelowThreedotsabove-ar.init" format="2">
+  <advance width="386"/>
+  <outline>
+    <component base="dotlessfeh-ar.init"/>
+    <component base="dotbelow-ar" xOffset="167" yOffset="-21"/>
+    <component base="threedotsupabove-ar" xOffset="113" yOffset="179"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

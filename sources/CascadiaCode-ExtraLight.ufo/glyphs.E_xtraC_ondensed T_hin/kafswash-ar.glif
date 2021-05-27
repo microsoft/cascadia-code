@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafswash-ar" format="2">
+  <advance width="875"/>
+  <unicode hex="06AA"/>
+  <anchor x="432" y="-111" name="bottom"/>
+  <anchor x="319" y="611" name="top"/>
+  <outline>
+    <contour>
+      <point x="325" y="-15" type="line"/>
+      <point x="386" y="-15"/>
+      <point x="535" y="-15"/>
+      <point x="599" y="-15" type="curve" smooth="yes"/>
+      <point x="758" y="-15"/>
+      <point x="842" y="23"/>
+      <point x="842" y="141" type="curve" smooth="yes"/>
+      <point x="842" y="215"/>
+      <point x="806" y="256"/>
+      <point x="704" y="256" type="curve" smooth="yes"/>
+      <point x="389" y="256" type="line" smooth="yes"/>
+      <point x="312" y="256"/>
+      <point x="286" y="275"/>
+      <point x="286" y="319" type="curve" smooth="yes"/>
+      <point x="286" y="396"/>
+      <point x="397" y="479"/>
+      <point x="574" y="558" type="curve"/>
+      <point x="566" y="582" type="line"/>
+      <point x="391" y="504"/>
+      <point x="262" y="417"/>
+      <point x="262" y="319" type="curve" smooth="yes"/>
+      <point x="262" y="256"/>
+      <point x="301" y="231"/>
+      <point x="384" y="231" type="curve" smooth="yes"/>
+      <point x="701" y="231" type="line" smooth="yes"/>
+      <point x="794" y="231"/>
+      <point x="818" y="200"/>
+      <point x="818" y="140" type="curve" smooth="yes"/>
+      <point x="818" y="44"/>
+      <point x="750" y="11"/>
+      <point x="605" y="11" type="curve" smooth="yes"/>
+      <point x="542" y="11"/>
+      <point x="393" y="11"/>
+      <point x="333" y="11" type="curve"/>
+    </contour>
+    <component base="_part.beh.fina" xOffset="-8"/>
+  </outline>
+</glyph>

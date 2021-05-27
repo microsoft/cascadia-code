@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij_acute" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="-480" name="bottom"/>
+  <anchor x="600" y="1480" name="top"/>
+  <outline>
+    <contour>
+      <point x="235" y="-480" type="line"/>
+      <point x="422" y="-468" type="line" smooth="yes"/>
+      <point x="810" y="-443"/>
+      <point x="977" y="-284"/>
+      <point x="977" y="94" type="curve" smooth="yes"/>
+      <point x="977" y="384" type="line"/>
+      <point x="698" y="384" type="line"/>
+      <point x="698" y="62" type="line" smooth="yes"/>
+      <point x="698" y="-113"/>
+      <point x="621" y="-192"/>
+      <point x="442" y="-207" type="curve" smooth="yes"/>
+      <point x="225" y="-225" type="line"/>
+    </contour>
+    <contour>
+      <point x="227" y="0" type="line"/>
+      <point x="506" y="0" type="line"/>
+      <point x="506" y="1060" type="line"/>
+      <point x="227" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="698" y="350" type="line"/>
+      <point x="977" y="350" type="line"/>
+      <point x="977" y="1060" type="line"/>
+      <point x="698" y="1060" type="line"/>
+    </contour>
+    <component base="acutecomb" xOffset="300"/>
+    <component base="acutecomb" xOffset="-210"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>acutecomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>acutecomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

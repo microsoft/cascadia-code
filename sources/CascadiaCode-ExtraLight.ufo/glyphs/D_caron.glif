@@ -2,17 +2,8 @@
 <glyph name="Dcaron" format="2">
   <advance width="1200"/>
   <unicode hex="010E"/>
-  <anchor x="540" y="0" name="bottom"/>
-  <anchor x="540" y="710" name="center"/>
-  <anchor x="540" y="1800" name="top"/>
   <outline>
     <component base="D"/>
     <component base="caroncomb.case" xOffset="-60"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twodotstahcenter-ar" format="2">
+  <advance width="1200"/>
+  <anchor x="599" y="320" name="_center"/>
+  <outline>
+    <component base="_tahabovesmall" yOffset="-50"/>
+    <component base="_dot-ar" xScale="0.7" yScale="0.7" xOffset="269" yOffset="-223"/>
+    <component base="_dot-ar" xScale="0.7" yScale="0.7" xOffset="88" yOffset="-223"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_tahabovesmall</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_dot-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>_dot-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

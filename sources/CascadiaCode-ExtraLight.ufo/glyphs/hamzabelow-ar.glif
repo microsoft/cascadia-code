@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hamzabelow-ar" format="2">
+  <unicode hex="0655"/>
+  <anchor x="602" y="-117" name="_bottom"/>
+  <anchor x="605" y="0" name="_bottom.dot"/>
+  <anchor x="619" y="-467" name="bottom"/>
+  <outline>
+    <component base="_hamzasmall-ar" xOffset="20" yOffset="-1049"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_hamzasmall-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1200</integer>
+    </dict>
+  </lib>
+</glyph>

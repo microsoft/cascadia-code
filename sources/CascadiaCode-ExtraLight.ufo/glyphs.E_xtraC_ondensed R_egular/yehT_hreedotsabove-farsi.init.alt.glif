@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehThreedotsabove-farsi.init.alt" format="2">
+  <advance width="239"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.wide"/>
+    <component base="threedotsupabove-ar" xOffset="19" yOffset="-14"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-3" yOffset="-30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

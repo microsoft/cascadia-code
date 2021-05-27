@@ -2,17 +2,8 @@
 <glyph name="zacute" format="2">
   <advance width="1200"/>
   <unicode hex="017A"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="530" name="center"/>
-  <anchor x="600" y="1540" name="top"/>
   <outline>
     <component base="z"/>
     <component base="acutecomb" xOffset="61"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

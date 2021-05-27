@@ -2,16 +2,8 @@
 <glyph name="ydieresis" format="2">
   <advance width="1200"/>
   <unicode hex="00FF"/>
-  <anchor x="945" y="0" name="bottom"/>
-  <anchor x="617" y="1500" name="top"/>
   <outline>
     <component base="y"/>
     <component base="dieresiscomb" xOffset="17"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

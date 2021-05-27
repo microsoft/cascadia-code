@@ -2,9 +2,6 @@
 <glyph name="ecircumflexacute" format="2">
   <advance width="1200"/>
   <unicode hex="1EBF"/>
-  <anchor x="630" y="0" name="bottom"/>
-  <anchor x="1057" y="10" name="ogonek"/>
-  <anchor x="968" y="1880" name="top"/>
   <outline>
     <component base="e"/>
     <component base="circumflexcomb" xOffset="10"/>
@@ -23,8 +20,6 @@
           <string>acutecomb</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

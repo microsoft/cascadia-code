@@ -2,15 +2,7 @@
 <glyph name="alpha-latin" format="2">
   <advance width="1200"/>
   <unicode hex="0251"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="580" y="1060" name="top"/>
   <outline>
     <component base="alpha"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

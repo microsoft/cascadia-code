@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="finalpe-hb" format="2">
+  <advance width="1200"/>
+  <unicode hex="05E3"/>
+  <anchor x="568" y="807" name="center"/>
+  <outline>
+    <contour>
+      <point x="803" y="-460" type="line"/>
+      <point x="996" y="-460" type="line"/>
+      <point x="996" y="809" type="line"/>
+      <point x="991" y="1063"/>
+      <point x="855" y="1200"/>
+      <point x="585" y="1200" type="curve" smooth="yes"/>
+      <point x="213" y="1200" type="line"/>
+      <point x="173" y="1046"/>
+      <point x="132" y="739"/>
+      <point x="115" y="479" type="curve"/>
+      <point x="307" y="478" type="line"/>
+      <point x="326" y="695"/>
+      <point x="345" y="882"/>
+      <point x="363" y="1000" type="curve"/>
+      <point x="545" y="1000" type="line" smooth="yes"/>
+      <point x="725" y="998"/>
+      <point x="803" y="924"/>
+      <point x="803" y="708" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="532" y="419" type="line"/>
+      <point x="561" y="614" type="line"/>
+      <point x="155" y="673" type="line"/>
+      <point x="115" y="479" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

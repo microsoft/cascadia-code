@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaf-hb" format="2">
+  <advance width="1200"/>
+  <unicode hex="05DB"/>
+  <guideline x="148" y="806" angle="90"/>
+  <anchor x="442" y="607" name="center"/>
+  <outline>
+    <contour>
+      <point x="994" y="270" type="line"/>
+      <point x="150" y="270" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="994" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="994" y="809" type="line"/>
+      <point x="987" y="1067"/>
+      <point x="850" y="1200"/>
+      <point x="563" y="1200" type="curve" smooth="yes"/>
+      <point x="423" y="1200" type="line" smooth="yes"/>
+      <point x="350" y="1200"/>
+      <point x="268" y="1234"/>
+      <point x="238" y="1253" type="curve"/>
+      <point x="148" y="1018" type="line"/>
+      <point x="214" y="970"/>
+      <point x="311" y="930"/>
+      <point x="424" y="930" type="curve" smooth="yes"/>
+      <point x="509" y="930" type="line" smooth="yes"/>
+      <point x="692" y="926"/>
+      <point x="736" y="874"/>
+      <point x="736" y="639" type="curve" smooth="yes"/>
+      <point x="736" y="0" type="line"/>
+      <point x="994" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

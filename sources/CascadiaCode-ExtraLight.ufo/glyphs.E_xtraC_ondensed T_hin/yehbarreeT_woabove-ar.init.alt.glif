@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehbarreeTwoabove-ar.init.alt" format="2">
+  <advance width="205"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.wide"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-2" yOffset="-40"/>
+    <component base="two-persian.small01" yOffset="-66"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>two-persian.small01</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

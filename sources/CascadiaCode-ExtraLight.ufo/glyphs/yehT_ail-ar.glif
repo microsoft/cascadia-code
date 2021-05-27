@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTail-ar" format="2">
+  <advance width="1200"/>
+  <unicode hex="06CD"/>
+  <anchor x="585" y="-399" name="bottom"/>
+  <anchor x="585" y="-326" name="bottom.dot"/>
+  <anchor x="291" y="656" name="top"/>
+  <anchor x="184" y="440" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="561" y="-356" type="curve" smooth="yes"/>
+      <point x="937" y="-356"/>
+      <point x="1138" y="-159"/>
+      <point x="1138" y="49" type="curve" smooth="yes"/>
+      <point x="1138" y="155"/>
+      <point x="1103" y="231"/>
+      <point x="899" y="278" type="curve" smooth="yes"/>
+      <point x="725" y="318"/>
+      <point x="686" y="341"/>
+      <point x="686" y="409" type="curve" smooth="yes"/>
+      <point x="686" y="489"/>
+      <point x="773" y="601"/>
+      <point x="937" y="601" type="curve" smooth="yes"/>
+      <point x="1009" y="601"/>
+      <point x="1058" y="581"/>
+      <point x="1106" y="554" type="curve"/>
+      <point x="1147" y="749" type="line"/>
+      <point x="1093" y="787"/>
+      <point x="1032" y="813"/>
+      <point x="940" y="813" type="curve" smooth="yes"/>
+      <point x="676" y="813"/>
+      <point x="489" y="587"/>
+      <point x="489" y="367" type="curve" smooth="yes"/>
+      <point x="489" y="219"/>
+      <point x="565" y="152"/>
+      <point x="754" y="111" type="curve" smooth="yes"/>
+      <point x="906" y="78"/>
+      <point x="940" y="60"/>
+      <point x="940" y="14" type="curve" smooth="yes"/>
+      <point x="940" y="-59"/>
+      <point x="829" y="-145"/>
+      <point x="601" y="-145" type="curve" smooth="yes"/>
+      <point x="338" y="-145"/>
+      <point x="229" y="-90"/>
+      <point x="229" y="103" type="curve" smooth="yes"/>
+      <point x="229" y="183"/>
+      <point x="236" y="247"/>
+      <point x="247" y="352" type="curve"/>
+      <point x="94" y="401" type="line"/>
+      <point x="-163" y="317" type="line"/>
+      <point x="-120" y="132" type="line"/>
+      <point x="99" y="202" type="line"/>
+      <point x="48" y="272" type="line"/>
+      <point x="38" y="187"/>
+      <point x="34" y="116"/>
+      <point x="34" y="60" type="curve" smooth="yes"/>
+      <point x="34" y="-242"/>
+      <point x="230" y="-356"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=alefMaksura-ar</string>
+    </dict>
+  </lib>
+</glyph>

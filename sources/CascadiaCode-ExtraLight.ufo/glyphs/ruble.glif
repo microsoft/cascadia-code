@@ -2,27 +2,19 @@
 <glyph name="ruble" format="2">
   <advance width="1200"/>
   <unicode hex="20BD"/>
-  <anchor x="560" y="0" name="bottom"/>
-  <anchor x="560" y="1580" name="top"/>
   <outline>
     <contour>
-      <point x="24" y="186" type="line"/>
-      <point x="788" y="186" type="line"/>
-      <point x="788" y="274" type="line"/>
-      <point x="24" y="274" type="line"/>
+      <point x="24" y="185" type="line"/>
+      <point x="788" y="185" type="line"/>
+      <point x="788" y="275" type="line"/>
+      <point x="24" y="275" type="line"/>
     </contour>
     <contour>
-      <point x="24" y="490" type="line"/>
-      <point x="437" y="490" type="line"/>
-      <point x="437" y="578" type="line"/>
-      <point x="24" y="578" type="line"/>
+      <point x="24" y="489" type="line"/>
+      <point x="437" y="489" type="line"/>
+      <point x="437" y="579" type="line"/>
+      <point x="24" y="579" type="line"/>
     </contour>
     <component base="P"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

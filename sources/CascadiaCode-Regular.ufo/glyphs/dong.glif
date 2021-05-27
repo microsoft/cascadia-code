@@ -2,23 +2,13 @@
 <glyph name="dong" format="2">
   <advance width="1200"/>
   <unicode hex="20AB"/>
-  <anchor x="540" y="0" name="bottom"/>
-  <anchor x="600" y="530" name="center"/>
-  <anchor x="926" y="1500" name="top"/>
-  <anchor x="1157" y="1060" name="topright"/>
   <outline>
     <contour>
-      <point x="166" y="-330" type="line"/>
-      <point x="1032" y="-330" type="line"/>
-      <point x="1032" y="-154" type="line"/>
-      <point x="166" y="-154" type="line"/>
+      <point x="167" y="-330" type="line"/>
+      <point x="1033" y="-330" type="line"/>
+      <point x="1033" y="-154" type="line"/>
+      <point x="167" y="-154" type="line"/>
     </contour>
     <component base="dcroat"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

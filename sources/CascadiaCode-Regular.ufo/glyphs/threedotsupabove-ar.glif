@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threedotsupabove-ar" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="752" name="_top"/>
+  <anchor x="600" y="542" name="_top.dot"/>
+  <anchor x="601" y="1182" name="top"/>
+  <outline>
+    <component base="_threedots-ar" yOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_threedots-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

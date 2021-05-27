@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwodotsbelowNoonabove-ar.init.alt" format="2">
+  <advance width="1200"/>
+  <anchor x="0" y="0" name="overlap"/>
+  <outline>
+    <component base="behDotless-ar.init.alt"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="210" yOffset="-24"/>
+    <component base="noonabove-ar" xOffset="275" yOffset="345"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>noonabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

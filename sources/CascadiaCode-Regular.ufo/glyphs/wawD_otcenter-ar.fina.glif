@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wawDotcenter-ar.fina" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="dotcenter-ar" xScale="0.96" yScale="0.96" xOffset="-243" yOffset="-385"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotcenter-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

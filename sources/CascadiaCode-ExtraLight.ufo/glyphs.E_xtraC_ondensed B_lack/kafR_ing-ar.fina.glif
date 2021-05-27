@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafRing-ar.fina" format="2">
+  <advance width="771"/>
+  <anchor x="320" y="-111" name="bottom"/>
+  <anchor x="244" y="619" name="top"/>
+  <outline>
+    <component base="keheh-ar.fina"/>
+    <component base="_ringArabic" xScale="0.86" yScale="0.86" xOffset="563" yOffset="433"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>keheh-ar.fina</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_ringArabic</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

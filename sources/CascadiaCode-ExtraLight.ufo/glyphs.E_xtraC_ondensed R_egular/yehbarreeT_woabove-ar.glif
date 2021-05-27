@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehbarreeTwoabove-ar" format="2">
+  <advance width="770"/>
+  <unicode hex="077A"/>
+  <outline>
+    <component base="yehbarree-ar"/>
+    <component base="two-persian.small01" xOffset="26" yOffset="-164"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>yehbarree-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>two-persian.small01</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

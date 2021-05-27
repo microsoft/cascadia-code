@@ -4,21 +4,9 @@
   <unicode hex="2C62"/>
   <anchor x="709" y="0" name="bottom"/>
   <anchor x="693" y="710" name="center"/>
-  <anchor x="427" y="1420" name="top"/>
+  <anchor x="431" y="1420" name="top"/>
   <anchor x="1157" y="1420" name="topright"/>
   <outline>
-    <contour>
-      <point x="334" y="0" type="line"/>
-      <point x="520" y="0" type="line"/>
-      <point x="520" y="1420" type="line"/>
-      <point x="334" y="1420" type="line"/>
-    </contour>
-    <contour>
-      <point x="334" y="0" type="line"/>
-      <point x="1100" y="0" type="line"/>
-      <point x="1100" y="190" type="line"/>
-      <point x="334" y="190" type="line"/>
-    </contour>
     <contour>
       <point x="-1" y="589" type="line"/>
       <point x="181" y="589" type="line"/>
@@ -51,11 +39,17 @@
       <point x="-1" y="844"/>
       <point x="-1" y="673" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="330" y="0" type="line"/>
+      <point x="1100" y="0" type="line"/>
+      <point x="1100" y="190" type="line"/>
+      <point x="330" y="190" type="line"/>
+    </contour>
+    <contour>
+      <point x="330" y="0" type="line"/>
+      <point x="538" y="0" type="line"/>
+      <point x="538" y="1420" type="line"/>
+      <point x="330" y="1420" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

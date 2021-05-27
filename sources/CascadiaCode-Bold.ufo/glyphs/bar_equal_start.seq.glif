@@ -3,23 +3,17 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="586" y="843" type="line"/>
-      <point x="1220" y="843" type="line"/>
+      <point x="586" y="835" type="line"/>
+      <point x="1220" y="835" type="line"/>
       <point x="1220" y="1085" type="line"/>
       <point x="585" y="1085" type="line"/>
     </contour>
     <contour>
       <point x="586" y="333" type="line"/>
       <point x="1220" y="333" type="line"/>
-      <point x="1220" y="575" type="line"/>
-      <point x="586" y="575" type="line"/>
+      <point x="1220" y="583" type="line"/>
+      <point x="586" y="583" type="line"/>
     </contour>
     <component base="bar"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

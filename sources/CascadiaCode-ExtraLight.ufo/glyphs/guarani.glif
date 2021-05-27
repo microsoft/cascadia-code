@@ -2,25 +2,17 @@
 <glyph name="guarani" format="2">
   <advance width="1200"/>
   <unicode hex="20B2"/>
-  <anchor x="695" y="0" name="bottom"/>
-  <anchor x="675" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="588" y="-320" type="line"/>
-      <point x="678" y="-320" type="line"/>
-      <point x="678" y="3" type="line"/>
-      <point x="678" y="33" type="line"/>
-      <point x="678" y="591" type="line"/>
-      <point x="678" y="632" type="line"/>
-      <point x="678" y="1740" type="line"/>
-      <point x="588" y="1740" type="line"/>
+      <point x="586" y="-320" type="line"/>
+      <point x="680" y="-320" type="line"/>
+      <point x="680" y="3" type="line"/>
+      <point x="680" y="33" type="line"/>
+      <point x="680" y="591" type="line"/>
+      <point x="680" y="632" type="line"/>
+      <point x="680" y="1740" type="line"/>
+      <point x="586" y="1740" type="line"/>
     </contour>
     <component base="G"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

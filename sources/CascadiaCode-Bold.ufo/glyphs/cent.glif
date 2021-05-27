@@ -2,8 +2,6 @@
 <glyph name="cent" format="2">
   <advance width="1200"/>
   <unicode hex="00A2"/>
-  <anchor x="650" y="0" name="bottom"/>
-  <anchor x="650" y="1060" name="top"/>
   <outline>
     <contour>
       <point x="534" y="-334" type="line"/>
@@ -26,8 +24,6 @@
           <string>c</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vav-hb" format="2">
+  <advance width="1200"/>
+  <unicode hex="05D5"/>
+  <guideline x="1153" y="634" angle="90"/>
+  <guideline x="45" y="609" angle="90"/>
+  <anchor x="400" y="590" name="center"/>
+  <anchor x="470" y="1200" name="top"/>
+  <outline>
+    <contour>
+      <point x="758" y="0" type="line"/>
+      <point x="758" y="1200" type="line"/>
+      <point x="659" y="1200" type="line"/>
+      <point x="659" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="757" y="1200" type="line"/>
+      <point x="757" y="1101" type="line"/>
+    </contour>
+    <contour>
+      <point x="757" y="1200" type="line"/>
+      <point x="191" y="1200" type="line"/>
+      <point x="191" y="1101" type="line"/>
+      <point x="757" y="1101" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>
