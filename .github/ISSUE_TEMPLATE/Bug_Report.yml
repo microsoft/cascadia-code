@@ -1,0 +1,70 @@
+name: "Bug report 🐛"
+description: Report rendering issues or unexpected behavior
+body:
+- type: markdown
+  attributes:
+    value: |
+      Please make sure to [search for existing issues](https://github.com/microsoft/cascadia-code/issues) before filing a new one!
+
+- type: input
+  id: version
+  attributes:
+    label: Cascadia family version
+    placeholder: "2102.04, 2105.25"
+  validations:
+    required: true
+
+- type: dropdown
+  id: variant
+  attributes:
+    label: Cascadia family variant(s)
+    multiple: true
+    options:
+      - Cascadia Code (the version with ligatures)
+      - Cascadia Mono (the version without ligatures)
+  validations:
+    required: true
+
+- type: dropdown
+  id: format
+  attributes:
+    label: Font file format(s)
+    multiple: true
+    options:
+      - Windows Terminal included version (TTF (variable))
+      - .ttf (variable)
+      - .ttf (static)
+      - .otf (static)
+      - .woff2 (variable)
+      - .woff2 (static)
+      - I don't know
+  validations:
+    required: true
+
+- type: input
+  id: platform
+  attributes:
+    label: Platform
+    placeholder: "Windows; Linux (freetype 2.10.4); macOS 12.301"
+  validations:
+    required: true
+
+- type: textarea
+  id: software
+  attributes:
+    label: Other Software
+    description: If you're reporting a bug about Cascadia's interaction with other software, what software? What versions?
+    placeholder: |
+      Visual Studio Code
+      Visual Studio 2019 Update 5
+      Windows Terminal 1.9
+  validations:
+    required: false
+
+- type: textarea
+  id: what-happened
+  attributes:
+    label: What happened?
+    placeholder: Tell us what's happening. Include some screenshots! Does it happen only at a certain font size or a certain pixel density?
+  validations:
+    required: true
