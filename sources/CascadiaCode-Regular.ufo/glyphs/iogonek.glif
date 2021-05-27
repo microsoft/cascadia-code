@@ -2,8 +2,6 @@
 <glyph name="iogonek" format="2">
   <advance width="1200"/>
   <unicode hex="012F"/>
-  <anchor x="670" y="0" name="bottom"/>
-  <anchor x="658" y="1480" name="top"/>
   <outline>
     <contour>
       <point x="670" y="-424" type="curve" smooth="yes"/>
@@ -31,10 +29,4 @@
     </contour>
     <component base="i"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

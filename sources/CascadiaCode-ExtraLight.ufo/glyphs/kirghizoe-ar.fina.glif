@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kirghizoe-ar.fina" format="2">
+  <advance width="1200"/>
+  <unicode hex="FBE1"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="_stroke" yScale="0.94" xOffset="-38" yOffset="-430"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_stroke</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

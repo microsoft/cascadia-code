@@ -2,10 +2,6 @@
 <glyph name="tcaron" format="2">
   <advance width="1200"/>
   <unicode hex="0165"/>
-  <anchor x="665" y="0" name="bottom"/>
-  <anchor x="442" y="570" name="center"/>
-  <anchor x="832" y="1180" name="top"/>
-  <anchor x="1080" y="1060" name="topright"/>
   <outline>
     <contour>
       <point x="712" y="1228" type="line"/>
@@ -15,10 +11,4 @@
     </contour>
     <component base="t"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

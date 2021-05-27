@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehRing-ar" format="2">
+  <advance width="846"/>
+  <unicode hex="067C"/>
+  <outline>
+    <component base="dotlessbeh-ar"/>
+    <component base="twodotshorizontalabove-ar" xOffset="256" yOffset="-221"/>
+    <component base="ringArabic" xOffset="297" yOffset="-135"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dotlessbeh-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>ringArabic</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

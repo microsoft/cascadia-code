@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamBar-ar.medi.rlig" format="2">
+  <advance width="243"/>
+  <outline>
+    <component base="lam-ar.medi"/>
+    <component base="_barshort" xOffset="15" yOffset="8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>lam-ar.medi</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_barshort</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

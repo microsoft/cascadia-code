@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefThreeabove-ar.fina.rlig" format="2">
+  <anchor x="0" y="0" name="_overlap"/>
+  <anchor x="283" y="-141" name="bottom"/>
+  <anchor x="7" y="1490" name="top"/>
+  <outline>
+    <component base="three-persian.small01" xOffset="-600" yOffset="-151"/>
+    <component base="alef-ar.fina.short.rlig"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>three-persian.small01</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

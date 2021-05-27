@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefabove-ar" format="2">
+  <unicode hex="0670"/>
+  <anchor x="621" y="527" name="_top"/>
+  <anchor x="620" y="414" name="_top.dot"/>
+  <anchor x="573" y="1025" name="top"/>
+  <outline>
+    <component base="_alefabove" xOffset="-1" yOffset="3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_alefabove</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1200</integer>
+    </dict>
+  </lib>
+</glyph>

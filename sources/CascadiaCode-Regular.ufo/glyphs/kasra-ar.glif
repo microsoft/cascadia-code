@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kasra-ar" format="2">
+  <unicode hex="0650"/>
+  <anchor x="598" y="0" name="_bottom"/>
+  <anchor x="602" y="-237" name="bottom"/>
+  <outline>
+    <component base="_fatha-ar" xOffset="3" yOffset="-1568"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_fatha-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1200</integer>
+    </dict>
+  </lib>
+</glyph>

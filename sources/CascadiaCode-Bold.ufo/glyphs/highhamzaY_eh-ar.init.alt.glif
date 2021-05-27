@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="highhamzaYeh-ar.init.alt" format="2">
+  <advance width="1200"/>
+  <anchor x="0" y="0" name="overlap"/>
+  <anchor x="792" y="1325" name="top"/>
+  <outline>
+    <component base="highhamza-ar" xOffset="532" yOffset="-203"/>
+    <component base="behDotless-ar.init.alt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>highhamza-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

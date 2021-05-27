@@ -3,14 +3,20 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="1785" y="-56" type="line"/>
-      <point x="1790" y="211" type="line"/>
+      <point x="1825" y="-56" type="line"/>
+      <point x="1830" y="211" type="line"/>
       <point x="555" y="692" type="line"/>
       <point x="555" y="726" type="line"/>
-      <point x="1217" y="961" type="line"/>
-      <point x="1217" y="1231" type="line"/>
+      <point x="1177" y="961" type="line"/>
+      <point x="1177" y="1231" type="line"/>
       <point x="240" y="843" type="line"/>
       <point x="240" y="575" type="line"/>
+    </contour>
+    <contour>
+      <point x="1674" y="-320" type="line"/>
+      <point x="1927" y="-320" type="line"/>
+      <point x="1927" y="230" type="line"/>
+      <point x="1674" y="230" type="line"/>
     </contour>
     <contour>
       <point x="1738" y="-22" type="line"/>
@@ -27,7 +33,7 @@
       <point x="1623" y="1136"/>
       <point x="1692" y="1189"/>
       <point x="1812" y="1189" type="curve"/>
-      <point x="1811" y="1440" type="line"/>
+      <point x="1812" y="1440" type="line"/>
       <point x="1509" y="1440"/>
       <point x="1337" y="1298"/>
       <point x="1337" y="1050" type="curve" smooth="yes"/>
@@ -43,34 +49,26 @@
       <point x="1754" y="230" type="curve"/>
     </contour>
     <contour>
-      <point x="1674" y="230" type="line"/>
-      <point x="1674" y="-320" type="line"/>
-      <point x="1927" y="-320" type="line"/>
-      <point x="1927" y="230" type="line"/>
+      <point x="1674" y="1189" type="line"/>
+      <point x="1927" y="1189" type="line"/>
+      <point x="1927" y="1740" type="line"/>
+      <point x="1674" y="1740" type="line"/>
     </contour>
     <contour>
-      <point x="2386" y="189" type="line"/>
+      <point x="2426" y="189" type="line"/>
       <point x="3360" y="575" type="line"/>
       <point x="3360" y="843" type="line"/>
       <point x="1850" y="1458" type="line"/>
       <point x="1850" y="1189" type="line"/>
       <point x="3043" y="726" type="line"/>
       <point x="3043" y="692" type="line"/>
-      <point x="2386" y="459" type="line"/>
-    </contour>
-    <contour>
-      <point x="1927" y="1189" type="line"/>
-      <point x="1927" y="1740" type="line"/>
-      <point x="1674" y="1740" type="line"/>
-      <point x="1674" y="1189" type="line"/>
+      <point x="2426" y="459" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
       <string>[600]</string>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonRing-ar.fina" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="noon-ar.fina"/>
+    <component base="ringArabic" xOffset="-43" yOffset="-494"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>ringArabic</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

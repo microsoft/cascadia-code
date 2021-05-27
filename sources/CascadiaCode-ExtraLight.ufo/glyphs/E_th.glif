@@ -2,22 +2,13 @@
 <glyph name="Eth" format="2">
   <advance width="1200"/>
   <unicode hex="00D0"/>
-  <anchor x="540" y="0" name="bottom"/>
-  <anchor x="540" y="710" name="center"/>
-  <anchor x="540" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="12" y="663" type="line"/>
-      <point x="651" y="663" type="line"/>
-      <point x="651" y="751" type="line"/>
-      <point x="12" y="751" type="line"/>
+      <point x="12" y="662" type="line"/>
+      <point x="651" y="662" type="line"/>
+      <point x="651" y="752" type="line"/>
+      <point x="12" y="752" type="line"/>
     </contour>
     <component base="D"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

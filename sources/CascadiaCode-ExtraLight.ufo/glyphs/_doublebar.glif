@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_doublebar" format="2">
+  <advance width="1200"/>
+  <anchor x="596" y="318" name="_center"/>
+  <outline>
+    <component base="_bar" yOffset="-103"/>
+    <component base="_bar" yOffset="117"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_bar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_bar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

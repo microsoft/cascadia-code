@@ -2,18 +2,12 @@
 <glyph name="Obarred-cy" format="2">
   <advance width="1200"/>
   <unicode hex="04E8"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="710" name="center"/>
-  <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="600" y="1420" name="top"/>
-  <anchor x="20" y="1420" name="topleft"/>
-  <anchor x="1180" y="1420" name="topright"/>
   <outline>
     <contour>
-      <point x="182" y="663" type="line"/>
-      <point x="1023" y="663" type="line"/>
-      <point x="1023" y="751" type="line"/>
-      <point x="182" y="751" type="line"/>
+      <point x="182" y="662" type="line"/>
+      <point x="1023" y="662" type="line"/>
+      <point x="1023" y="752" type="line"/>
+      <point x="182" y="752" type="line"/>
     </contour>
     <component base="O"/>
   </outline>

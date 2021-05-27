@@ -2,10 +2,6 @@
 <glyph name="Lcaron" format="2">
   <advance width="1200"/>
   <unicode hex="013D"/>
-  <anchor x="620" y="0" name="bottom"/>
-  <anchor x="600" y="710" name="center"/>
-  <anchor x="275" y="1420" name="top"/>
-  <anchor x="1180" y="1420" name="topright"/>
   <outline>
     <contour>
       <point x="704" y="1188" type="line"/>
@@ -28,8 +24,6 @@
           <string>L</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

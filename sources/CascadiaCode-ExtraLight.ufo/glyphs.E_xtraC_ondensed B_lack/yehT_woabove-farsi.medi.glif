@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwoabove-farsi.medi" format="2">
+  <advance width="352"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi.wide"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="22" yOffset="-23"/>
+    <component base="two-persian.small01" xOffset="40" yOffset="-197"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>two-persian.small01</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

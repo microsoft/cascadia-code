@@ -2,9 +2,6 @@
 <glyph name="Aringacute" format="2">
   <advance width="1200"/>
   <unicode hex="01FA"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="509" y="2018" name="top"/>
   <outline>
     <component base="acutecomb.case" xOffset="-30" yOffset="248"/>
     <component base="Aring"/>
@@ -22,8 +19,6 @@
           <string>acutecomb.case</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

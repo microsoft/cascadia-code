@@ -2,19 +2,8 @@
 <glyph name="ograve" format="2">
   <advance width="1200"/>
   <unicode hex="00F2"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="530" name="center"/>
-  <anchor x="600" y="10" name="ogonek"/>
-  <anchor x="600" y="1540" name="top"/>
-  <anchor x="1017" y="1060" name="topright"/>
   <outline>
     <component base="o"/>
     <component base="gravecomb" xOffset="-69"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

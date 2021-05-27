@@ -2,10 +2,6 @@
 <glyph name="lbelt" format="2">
   <advance width="1200"/>
   <unicode hex="026C"/>
-  <anchor x="680" y="0" name="bottom"/>
-  <anchor x="520" y="784" name="center"/>
-  <anchor x="516" y="1500" name="top"/>
-  <anchor x="970" y="1500" name="topright"/>
   <outline>
     <contour>
       <point x="310" y="547" type="curve" smooth="yes"/>
@@ -34,10 +30,4 @@
     </contour>
     <component base="l"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

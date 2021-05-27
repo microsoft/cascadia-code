@@ -26,12 +26,12 @@ lookup locl_latn_1 {
 	sub acutecomb by acutecomb.loclPLK;
 } locl_latn_1;
 
-# lookup locl_latn_2 {
-# 	script latn;
-# 	language NLD;
-# 	sub ij acutecomb by ij_acute;
-# 	sub IJ acutecomb by IJ_acute;
-# } locl_latn_2;
+lookup locl_latn_2 {
+	script latn;
+	language NLD;
+	sub ij acutecomb by ij_acute;
+	sub IJ acutecomb by IJ_acute;
+} locl_latn_2;
 
 # lookup locl_arab_0 {
 # 	script arab;

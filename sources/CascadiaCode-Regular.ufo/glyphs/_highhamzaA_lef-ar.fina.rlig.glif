@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_highhamzaAlef-ar.fina.rlig" format="2">
+  <anchor x="0" y="0" name="_overlap"/>
+  <anchor x="343" y="-141" name="bottom"/>
+  <anchor x="532" y="1741" name="top"/>
+  <outline>
+    <component base="highhamza-ar" xOffset="-94" yOffset="118"/>
+    <component base="_alef-ar.fina.rlig"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>highhamza-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

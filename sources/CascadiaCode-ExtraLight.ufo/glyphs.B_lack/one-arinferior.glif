@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one-arinferior" format="2">
+  <advance width="258"/>
+  <outline>
+    <contour>
+      <point x="200" y="-133" type="line"/>
+      <point x="209" y="-76"/>
+      <point x="213" y="-35"/>
+      <point x="213" y="8" type="curve" smooth="yes"/>
+      <point x="213" y="49"/>
+      <point x="202" y="158"/>
+      <point x="166" y="256" type="curve"/>
+      <point x="35" y="208" type="line"/>
+      <point x="66" y="108"/>
+      <point x="81" y="-3"/>
+      <point x="88" y="-133" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Small</string>
+    </dict>
+  </lib>
+</glyph>

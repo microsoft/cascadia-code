@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwodotsabove-farsi.init.alt" format="2">
+  <advance width="1200"/>
+  <anchor x="0" y="0" name="overlap"/>
+  <outline>
+    <component base="behDotless-ar.init.alt"/>
+    <component base="twodotshorizontalabove-ar" xOffset="275" yOffset="345"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="210" yOffset="-24"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

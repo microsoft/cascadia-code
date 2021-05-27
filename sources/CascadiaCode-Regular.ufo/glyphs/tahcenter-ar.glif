@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tahcenter-ar" format="2">
+  <advance width="1200"/>
+  <anchor x="599" y="320" name="_center"/>
+  <outline>
+    <component base="_tahabove" xScale="0.9" yScale="0.9" xOffset="103" yOffset="-402"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_tahabove</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

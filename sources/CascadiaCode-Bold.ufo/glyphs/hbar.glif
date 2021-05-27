@@ -2,9 +2,6 @@
 <glyph name="hbar" format="2">
   <advance width="1200"/>
   <unicode hex="0127"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="784" name="center"/>
-  <anchor x="288" y="1500" name="top"/>
   <outline>
     <contour>
       <point x="5" y="1185" type="line"/>
@@ -27,8 +24,6 @@
           <string>h</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

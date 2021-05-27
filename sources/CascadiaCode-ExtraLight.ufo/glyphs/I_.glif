@@ -8,28 +8,22 @@
   <anchor x="20" y="1420" name="topleft"/>
   <outline>
     <contour>
-      <point x="554" y="0" type="line"/>
-      <point x="644" y="0" type="line"/>
-      <point x="644" y="1420" type="line"/>
-      <point x="554" y="1420" type="line"/>
+      <point x="552" y="0" type="line"/>
+      <point x="646" y="0" type="line"/>
+      <point x="646" y="1420" type="line"/>
+      <point x="552" y="1420" type="line"/>
     </contour>
     <contour>
       <point x="192" y="0" type="line"/>
       <point x="1008" y="0" type="line"/>
-      <point x="1008" y="88" type="line"/>
-      <point x="192" y="88" type="line"/>
+      <point x="1008" y="90" type="line"/>
+      <point x="192" y="90" type="line"/>
     </contour>
     <contour>
-      <point x="192" y="1332" type="line"/>
-      <point x="1008" y="1332" type="line"/>
+      <point x="192" y="1330" type="line"/>
+      <point x="1008" y="1330" type="line"/>
       <point x="1008" y="1420" type="line"/>
       <point x="192" y="1420" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
-    </dict>
-  </lib>
 </glyph>

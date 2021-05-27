@@ -3,16 +3,16 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="1360" y="861" type="line"/>
-      <point x="2120" y="861" type="line"/>
+      <point x="1360" y="860" type="line"/>
+      <point x="2120" y="860" type="line"/>
       <point x="2120" y="1110" type="line"/>
       <point x="1360" y="1110" type="line"/>
     </contour>
     <contour>
       <point x="1360" y="310" type="line"/>
       <point x="2120" y="310" type="line"/>
-      <point x="2120" y="559" type="line"/>
-      <point x="1360" y="559" type="line"/>
+      <point x="2120" y="560" type="line"/>
+      <point x="1360" y="560" type="line"/>
     </contour>
     <component base="numbersign" xOffset="160"/>
   </outline>
@@ -29,8 +29,6 @@
           <string>numbersign</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

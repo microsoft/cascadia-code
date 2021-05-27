@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotbelow-ar" format="2">
+  <advance width="1200"/>
+  <anchor x="602" y="-117" name="_bottom"/>
+  <anchor x="602" y="-2" name="_bottom.dot"/>
+  <anchor x="599" y="-414" name="bottom"/>
+  <outline>
+    <component base="_dot-ar" yOffset="-782"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_dot-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

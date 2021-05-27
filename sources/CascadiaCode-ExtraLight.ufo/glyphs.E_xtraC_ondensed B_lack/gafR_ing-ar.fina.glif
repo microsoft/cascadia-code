@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafRing-ar.fina" format="2">
+  <advance width="771"/>
+  <anchor x="336" y="-111" name="bottom"/>
+  <anchor x="244" y="619" name="top"/>
+  <outline>
+    <component base="gaf-ar.fina"/>
+    <component base="ringArabic" xOffset="581" yOffset="431"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>ringArabic</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

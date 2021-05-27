@@ -7,10 +7,10 @@
   <outline>
     <contour>
       <point x="140" y="0" type="line"/>
-      <point x="340" y="0" type="line"/>
-      <point x="340" y="930" type="line" smooth="yes"/>
-      <point x="340" y="1154"/>
-      <point x="434" y="1251"/>
+      <point x="348" y="0" type="line"/>
+      <point x="348" y="930" type="line" smooth="yes"/>
+      <point x="348" y="1154"/>
+      <point x="440" y="1251"/>
       <point x="656" y="1250" type="curve" smooth="yes"/>
       <point x="749" y="1250"/>
       <point x="840" y="1210"/>
@@ -50,10 +50,4 @@
       <point x="583" y="-20"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

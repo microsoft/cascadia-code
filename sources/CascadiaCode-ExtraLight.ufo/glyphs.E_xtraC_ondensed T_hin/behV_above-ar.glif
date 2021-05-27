@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behVabove-ar" format="2">
+  <advance width="750"/>
+  <unicode hex="0756"/>
+  <outline>
+    <component base="dotlessbeh-ar"/>
+    <component base="vabove-ar" xOffset="273" yOffset="-67"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

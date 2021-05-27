@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threedotsdowncenter-ar" format="2">
+  <advance width="1200"/>
+  <anchor x="599" y="320" name="_center"/>
+  <outline>
+    <component base="_threedots-ar" yScale="-1" yOffset="948"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_threedots-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

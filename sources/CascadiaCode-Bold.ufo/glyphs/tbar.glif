@@ -2,16 +2,12 @@
 <glyph name="tbar" format="2">
   <advance width="1200"/>
   <unicode hex="0167"/>
-  <anchor x="665" y="0" name="bottom"/>
-  <anchor x="442" y="570" name="center"/>
-  <anchor x="832" y="1180" name="top"/>
-  <anchor x="1080" y="1060" name="topright"/>
   <outline>
     <contour>
-      <point x="70" y="421" type="line"/>
-      <point x="1030" y="421" type="line"/>
-      <point x="1030" y="670" type="line"/>
-      <point x="70" y="670" type="line"/>
+      <point x="53" y="421" type="line"/>
+      <point x="1047" y="421" type="line"/>
+      <point x="1047" y="670" type="line"/>
+      <point x="53" y="670" type="line"/>
     </contour>
     <component base="t"/>
   </outline>
@@ -28,8 +24,6 @@
           <string>t</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

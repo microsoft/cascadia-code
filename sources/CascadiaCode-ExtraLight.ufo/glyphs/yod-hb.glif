@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yod-hb" format="2">
+  <advance width="1200"/>
+  <unicode hex="05D9"/>
+  <anchor x="331" y="694" name="center"/>
+  <outline>
+    <contour>
+      <point x="719" y="594" type="line"/>
+      <point x="749" y="666"/>
+      <point x="776" y="764"/>
+      <point x="776" y="918" type="curve" smooth="yes"/>
+      <point x="776" y="1200" type="line"/>
+      <point x="677" y="1200" type="line"/>
+      <point x="677" y="918" type="line" smooth="yes"/>
+      <point x="677" y="764"/>
+      <point x="657" y="694"/>
+      <point x="627" y="622" type="curve"/>
+    </contour>
+    <contour>
+      <point x="149" y="1101" type="line"/>
+      <point x="776" y="1101" type="line"/>
+      <point x="776" y="1200" type="line"/>
+      <point x="149" y="1200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

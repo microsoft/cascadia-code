@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefbelow-ar" format="2">
+  <unicode hex="0656"/>
+  <anchor x="612" y="-117" name="_bottom"/>
+  <anchor x="615" y="0" name="_bottom.dot"/>
+  <anchor x="609" y="-577" name="bottom"/>
+  <outline>
+    <component base="_alefabove" xOffset="29" yOffset="-1081"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_alefabove</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1200</integer>
+    </dict>
+  </lib>
+</glyph>

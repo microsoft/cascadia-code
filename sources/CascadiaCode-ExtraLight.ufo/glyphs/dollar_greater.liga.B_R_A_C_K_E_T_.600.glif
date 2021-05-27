@@ -3,14 +3,20 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="1277" y="214" type="line"/>
-      <point x="2160" y="653" type="line"/>
-      <point x="2160" y="765" type="line"/>
-      <point x="654" y="1453" type="line"/>
-      <point x="654" y="1358" type="line"/>
-      <point x="2077" y="713" type="line"/>
-      <point x="2077" y="705" type="line"/>
-      <point x="1277" y="309" type="line"/>
+      <point x="1275" y="214" type="line"/>
+      <point x="2233" y="653" type="line"/>
+      <point x="2233" y="765" type="line"/>
+      <point x="666" y="1445" type="line"/>
+      <point x="666" y="1350" type="line"/>
+      <point x="2150" y="713" type="line"/>
+      <point x="2150" y="705" type="line"/>
+      <point x="1275" y="314" type="line"/>
+    </contour>
+    <contour>
+      <point x="625" y="-320" type="line"/>
+      <point x="719" y="-320" type="line"/>
+      <point x="719" y="68" type="line"/>
+      <point x="625" y="68" type="line"/>
     </contour>
     <contour>
       <point x="610" y="-20" type="curve" smooth="yes"/>
@@ -49,24 +55,16 @@
       <point x="462" y="-20"/>
     </contour>
     <contour>
-      <point x="627" y="68" type="line"/>
-      <point x="627" y="-320" type="line"/>
-      <point x="717" y="-320" type="line"/>
-      <point x="717" y="68" type="line"/>
-    </contour>
-    <contour>
-      <point x="717" y="1350" type="line"/>
-      <point x="717" y="1740" type="line"/>
-      <point x="627" y="1740" type="line"/>
-      <point x="627" y="1350" type="line"/>
+      <point x="625" y="1350" type="line"/>
+      <point x="719" y="1350" type="line"/>
+      <point x="719" y="1740" type="line"/>
+      <point x="625" y="1740" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
       <string>[600]</string>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

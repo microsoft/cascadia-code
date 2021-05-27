@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_dots.horz.below" format="2">
+  <advance width="1200"/>
+  <anchor x="602" y="-117" name="_bottom"/>
+  <anchor x="600" y="-8" name="_bottom.dot"/>
+  <anchor x="599" y="-414" name="bottom"/>
+  <outline>
+    <component base="_dot-ar" xScale="0.96" yScale="0.96" xOffset="24" yOffset="-741"/>
+    <component base="_dot-ar" xScale="0.96" yScale="0.96" xOffset="-226" yOffset="-741"/>
+    <component base="_dot-ar" xScale="0.96" yScale="0.96" xOffset="274" yOffset="-741"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_dot-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_dot-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>_dot-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

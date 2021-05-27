@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threeeighths.BRACKET.500" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="211" y="269" type="line"/>
+      <point x="577" y="593" type="line"/>
+      <point x="484" y="715" type="line"/>
+      <point x="79" y="449" type="line"/>
+    </contour>
+    <contour>
+      <point x="710" y="692" type="line"/>
+      <point x="1121" y="969" type="line"/>
+      <point x="989" y="1143" type="line"/>
+      <point x="617" y="814" type="line"/>
+    </contour>
+    <component base="threesuperior" xOffset="-260"/>
+    <component base="eightinferior" xOffset="270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>threesuperior</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>eightinferior</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
+      <string>[500]</string>
+    </dict>
+  </lib>
+</glyph>

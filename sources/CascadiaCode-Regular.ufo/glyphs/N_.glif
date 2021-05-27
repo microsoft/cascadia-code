@@ -6,32 +6,46 @@
   <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="800" y="0" type="line"/>
-      <point x="890" y="0" type="line"/>
-      <point x="890" y="340" type="line"/>
-      <point x="840" y="340" type="line"/>
-      <point x="400" y="1420" type="line"/>
-      <point x="268" y="1420" type="line"/>
-      <point x="268" y="1080" type="line"/>
-      <point x="360" y="1080" type="line"/>
+      <point x="784" y="0" type="line"/>
+      <point x="874" y="0" type="line"/>
+      <point x="874" y="340" type="line"/>
+      <point x="824" y="340" type="line"/>
+      <point x="416" y="1420" type="line"/>
+      <point x="284" y="1420" type="line"/>
+      <point x="284" y="1080" type="line"/>
+      <point x="376" y="1080" type="line"/>
     </contour>
     <contour>
       <point x="148" y="0" type="line"/>
-      <point x="340" y="0" type="line"/>
-      <point x="340" y="1420" type="line"/>
+      <point x="356" y="0" type="line"/>
+      <point x="356" y="1420" type="line"/>
       <point x="148" y="1420" type="line"/>
     </contour>
     <contour>
-      <point x="860" y="0" type="line"/>
+      <point x="844" y="0" type="line"/>
       <point x="1052" y="0" type="line"/>
       <point x="1052" y="1420" type="line"/>
-      <point x="860" y="1420" type="line"/>
+      <point x="844" y="1420" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>603.456</real>
+            <real>1706.061</real>
+          </array>
+          <key>text</key>
+          <string>vertical stems feel light. Maybe need a little boost? (see D)</string>
+          <key>type</key>
+          <string>Text</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -2,13 +2,21 @@
 <glyph name="less_greater.liga" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="less" xOffset="156"/>
-    <component base="greater" xOffset="1064"/>
+    <contour>
+      <point x="1210" y="214" type="line"/>
+      <point x="2168" y="608" type="line"/>
+      <point x="2168" y="810" type="line"/>
+      <point x="1210" y="1204" type="line"/>
+      <point x="252" y="810" type="line"/>
+      <point x="252" y="608" type="line"/>
+    </contour>
+    <contour>
+      <point x="1210" y="434" type="line"/>
+      <point x="470" y="700" type="line"/>
+      <point x="470" y="718" type="line"/>
+      <point x="1210" y="984" type="line"/>
+      <point x="1910" y="718" type="line"/>
+      <point x="1910" y="700" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

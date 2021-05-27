@@ -2,18 +2,9 @@
 <glyph name="Abrevedotbelow" format="2">
   <advance width="1200"/>
   <unicode hex="1EB6"/>
-  <anchor x="600" y="-378" name="bottom"/>
-  <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="600" y="1820" name="top"/>
   <outline>
     <component base="A"/>
     <component base="dotbelowcomb"/>
     <component base="brevecomb.case"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

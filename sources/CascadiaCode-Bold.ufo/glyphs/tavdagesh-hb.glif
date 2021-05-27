@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tavdagesh-hb" format="2">
+  <advance width="1200"/>
+  <unicode hex="FB4A"/>
+  <outline>
+    <component base="tav-hb"/>
+    <component base="dagesh-hb" xOffset="36" yOffset="63"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

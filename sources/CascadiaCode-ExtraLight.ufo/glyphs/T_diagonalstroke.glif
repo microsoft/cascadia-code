@@ -4,7 +4,6 @@
   <unicode hex="023E"/>
   <anchor x="600" y="-388" name="bottom"/>
   <anchor x="600" y="1500" name="top"/>
-  <anchor x="600" y="710" name="center"/>
   <outline>
     <contour>
       <point x="428" y="-330" type="line"/>
@@ -14,10 +13,4 @@
     </contour>
     <component base="T"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ng-ar.fina" format="2">
+  <advance width="1200"/>
+  <unicode hex="FBD4"/>
+  <outline>
+    <component base="kaf-ar.fina"/>
+    <component base="threedotsupabove-ar" xScale="0.7" yScale="0.7" xOffset="114" yOffset="561"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

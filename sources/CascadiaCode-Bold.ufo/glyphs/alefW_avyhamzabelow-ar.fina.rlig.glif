@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefWavyhamzabelow-ar.fina.rlig" format="2">
+  <anchor x="0" y="0" name="_overlap"/>
+  <anchor x="271" y="-491" name="bottom"/>
+  <anchor x="274" y="1310" name="top"/>
+  <outline>
+    <component base="alef-ar.fina.rlig"/>
+    <component base="wavyhamzabelow-ar" xOffset="-312" yOffset="-26"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>alef-ar.fina.rlig</string>
+        </dict>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>wavyhamzabelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

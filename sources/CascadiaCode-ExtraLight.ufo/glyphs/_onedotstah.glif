@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_onedotstah" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="762" name="_top"/>
+  <anchor x="600" y="532" name="_top.dot"/>
+  <anchor x="601" y="1462" name="top"/>
+  <outline>
+    <component base="_tahabove" xScale="0.94" yScale="0.94" xOffset="60" yOffset="434"/>
+    <component base="dotabove-ar" xOffset="-4" yOffset="1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_tahabove</string>
+        </dict>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

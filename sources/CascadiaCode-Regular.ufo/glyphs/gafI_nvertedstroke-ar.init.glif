@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafInvertedstroke-ar.init" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="keheh-ar.init"/>
+    <component base="_invertedstroke" xOffset="376" yOffset="-81"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_invertedstroke</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

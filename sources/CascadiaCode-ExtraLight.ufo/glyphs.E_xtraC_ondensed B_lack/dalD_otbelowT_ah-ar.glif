@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalDotbelowTah-ar" format="2">
+  <advance width="1200"/>
+  <unicode hex="068B"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="dotbelow-ar" xOffset="-30" yOffset="-24"/>
+    <component base="uniFBC0" xOffset="16" yOffset="411"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>uniFBC0</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dal-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dal-ar</string>
+    </dict>
+  </lib>
+</glyph>

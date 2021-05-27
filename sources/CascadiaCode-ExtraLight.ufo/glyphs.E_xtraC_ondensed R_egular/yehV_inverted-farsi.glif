@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehVinverted-farsi" format="2">
+  <advance width="1200"/>
+  <unicode hex="063D"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="vinvertedabove-ar" xOffset="43" yOffset="-196"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vinvertedabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

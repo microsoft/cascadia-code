@@ -2,17 +2,8 @@
 <glyph name="Tlinebelow" format="2">
   <advance width="1200"/>
   <unicode hex="1E6E"/>
-  <anchor x="595" y="-338" name="bottom"/>
-  <anchor x="600" y="710" name="center"/>
-  <anchor x="600" y="1420" name="top"/>
   <outline>
     <component base="T"/>
     <component base="macronbelowcomb" xOffset="-5"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

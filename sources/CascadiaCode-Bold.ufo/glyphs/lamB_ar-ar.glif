@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamBar-ar" format="2">
+  <advance width="1200"/>
+  <unicode hex="076A"/>
+  <outline>
+    <component base="lam-ar"/>
+    <component base="_bar" xScale="0.9" xOffset="451" yOffset="633"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam-ar</string>
+    </dict>
+  </lib>
+</glyph>

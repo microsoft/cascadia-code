@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qof-hb" format="2">
+  <advance width="1200"/>
+  <unicode hex="05E7"/>
+  <anchor x="599" y="607" name="center"/>
+  <outline>
+    <contour>
+      <point x="1052" y="1200" type="line"/>
+      <point x="160" y="1200" type="line"/>
+      <point x="160" y="930" type="line"/>
+      <point x="1052" y="930" type="line"/>
+    </contour>
+    <contour>
+      <point x="418" y="-460" type="line"/>
+      <point x="418" y="683" type="line"/>
+      <point x="160" y="683" type="line"/>
+      <point x="160" y="-460" type="line"/>
+    </contour>
+    <contour>
+      <point x="794" y="1200" type="line"/>
+      <point x="794" y="752" type="line" smooth="yes"/>
+      <point x="794" y="437"/>
+      <point x="831" y="308"/>
+      <point x="531" y="249" type="curve"/>
+      <point x="590" y="-19" type="line"/>
+      <point x="984" y="56"/>
+      <point x="1052" y="257"/>
+      <point x="1052" y="652" type="curve" smooth="yes"/>
+      <point x="1052" y="1200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>
