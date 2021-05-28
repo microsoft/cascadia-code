@@ -2,17 +2,8 @@
 <glyph name="AEacute" format="2">
   <advance width="1200"/>
   <unicode hex="01FC"/>
-  <anchor x="640" y="0" name="bottom"/>
-  <anchor x="1054" y="10" name="ogonek"/>
-  <anchor x="640" y="1770" name="top"/>
   <outline>
     <component base="AE"/>
     <component base="acutecomb.case" xOffset="119"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

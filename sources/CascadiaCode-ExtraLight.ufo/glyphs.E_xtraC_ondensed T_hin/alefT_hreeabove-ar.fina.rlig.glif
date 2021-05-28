@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefThreeabove-ar.fina.rlig" format="2">
+  <advance width="261"/>
+  <outline>
+    <component base="alef-ar.fina" xOffset="7"/>
+    <component base="three-persian.small01" xOffset="-2" yOffset="217"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>alef-ar.fina</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>three-persian.small01</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

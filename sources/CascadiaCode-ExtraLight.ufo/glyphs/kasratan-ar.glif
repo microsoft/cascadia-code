@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kasratan-ar" format="2">
+  <unicode hex="064D"/>
+  <anchor x="608" y="0" name="_bottom"/>
+  <anchor x="602" y="-497" name="bottom"/>
+  <outline>
+    <component base="_fatha-ar" yOffset="-1799"/>
+    <component base="_fatha-ar" yOffset="-1599"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_fatha-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1200</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -2,16 +2,8 @@
 <glyph name="Wacute" format="2">
   <advance width="1200"/>
   <unicode hex="1E82"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="1770" name="top"/>
   <outline>
     <component base="W"/>
     <component base="acutecomb.case" xOffset="70"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -8,10 +8,10 @@
   <anchor x="20" y="1420" name="topleft"/>
   <outline>
     <contour>
-      <point x="499" y="0" type="line"/>
-      <point x="699" y="0" type="line"/>
-      <point x="699" y="1420" type="line"/>
-      <point x="499" y="1420" type="line"/>
+      <point x="495" y="0" type="line"/>
+      <point x="703" y="0" type="line"/>
+      <point x="703" y="1420" type="line"/>
+      <point x="495" y="1420" type="line"/>
     </contour>
     <contour>
       <point x="168" y="0" type="line"/>
@@ -26,10 +26,4 @@
       <point x="168" y="1420" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
-    </dict>
-  </lib>
 </glyph>

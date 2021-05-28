@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehDotbelow-ar" format="2">
+  <advance width="800"/>
+  <unicode hex="06A3"/>
+  <outline>
+    <component base="dotlessfeh-ar"/>
+    <component base="dotabove-ar" xOffset="529" yOffset="126"/>
+    <component base="dotbelow-ar" xOffset="526" yOffset="-18"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -2,8 +2,6 @@
 <glyph name="won" format="2">
   <advance width="1200"/>
   <unicode hex="20A9"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
       <point x="0" y="501" type="line"/>
@@ -13,10 +11,4 @@
     </contour>
     <component base="W"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehRing-ar" format="2">
+  <advance width="1200"/>
+  <unicode hex="0693"/>
+  <anchor x="497" y="-645" name="bottom"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="_ringArabic" xOffset="109" yOffset="-480"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_ringArabic</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

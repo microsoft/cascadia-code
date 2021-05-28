@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="resh-hb" format="2">
+  <advance width="1200"/>
+  <unicode hex="05E8"/>
+  <outline>
+    <contour>
+      <point x="148" y="1233" type="curve"/>
+      <point x="60" y="988" type="line"/>
+      <point x="107" y="960"/>
+      <point x="209" y="929"/>
+      <point x="306" y="929" type="curve" smooth="yes"/>
+      <point x="467" y="929" type="line"/>
+      <point x="567" y="926"/>
+      <point x="616" y="873"/>
+      <point x="616" y="753" type="curve"/>
+      <point x="849" y="870" type="line"/>
+      <point x="849" y="1077"/>
+      <point x="738" y="1200"/>
+      <point x="554" y="1200" type="curve"/>
+      <point x="332" y="1200" type="line" smooth="yes"/>
+      <point x="260" y="1200"/>
+      <point x="188" y="1217"/>
+    </contour>
+    <contour>
+      <point x="849" y="0" type="line"/>
+      <point x="849" y="877" type="line"/>
+      <point x="616" y="754" type="line"/>
+      <point x="616" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -2,16 +2,8 @@
 <glyph name="rdotbelow" format="2">
   <advance width="1200"/>
   <unicode hex="1E5B"/>
-  <anchor x="430" y="-418" name="bottom"/>
-  <anchor x="600" y="1060" name="top"/>
   <outline>
     <component base="r"/>
     <component base="dotbelowcomb" xOffset="-170"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tet-hb" format="2">
+  <advance width="1200"/>
+  <unicode hex="05D8"/>
+  <anchor x="576" y="490" name="center"/>
+  <outline>
+    <contour>
+      <point x="420" y="-20" type="curve" smooth="yes"/>
+      <point x="879" y="-20"/>
+      <point x="1033" y="187"/>
+      <point x="1033" y="608" type="curve" smooth="yes"/>
+      <point x="1033" y="788" type="line" smooth="yes"/>
+      <point x="1033" y="1037"/>
+      <point x="882" y="1200"/>
+      <point x="575" y="1200" type="curve"/>
+      <point x="545" y="1088"/>
+      <point x="516" y="939"/>
+      <point x="487" y="731" type="curve"/>
+      <point x="646" y="731" type="line"/>
+      <point x="673" y="899"/>
+      <point x="684" y="947"/>
+      <point x="696" y="996" type="curve"/>
+      <point x="759" y="996"/>
+      <point x="835" y="938"/>
+      <point x="835" y="750" type="curve" smooth="yes"/>
+      <point x="835" y="609" type="line" smooth="yes"/>
+      <point x="835" y="289"/>
+      <point x="729" y="192"/>
+      <point x="453" y="192" type="curve" smooth="yes"/>
+      <point x="364" y="192"/>
+      <point x="292" y="202"/>
+      <point x="218" y="212" type="curve"/>
+      <point x="139" y="0" type="line"/>
+      <point x="198" y="-12"/>
+      <point x="322" y="-20"/>
+    </contour>
+    <contour>
+      <point x="139" y="0" type="line"/>
+      <point x="338" y="0" type="line"/>
+      <point x="338" y="1200" type="line"/>
+      <point x="139" y="1200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

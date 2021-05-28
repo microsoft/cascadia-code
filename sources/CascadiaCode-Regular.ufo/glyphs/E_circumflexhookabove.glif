@@ -2,10 +2,6 @@
 <glyph name="Ecircumflexhookabove" format="2">
   <advance width="1200"/>
   <unicode hex="1EC2"/>
-  <anchor x="630" y="0" name="bottom"/>
-  <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="981" y="2088" name="top"/>
-  <anchor x="20" y="1420" name="topleft"/>
   <outline>
     <component base="E"/>
     <component base="circumflexcomb.case" xOffset="30"/>
@@ -24,8 +20,6 @@
           <string>hookabovecomb.case</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

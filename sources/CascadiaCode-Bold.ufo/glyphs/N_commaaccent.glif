@@ -2,16 +2,8 @@
 <glyph name="Ncommaaccent" format="2">
   <advance width="1200"/>
   <unicode hex="0145"/>
-  <anchor x="600" y="-418" name="bottom"/>
-  <anchor x="600" y="1420" name="top"/>
   <outline>
     <component base="N"/>
     <component base="commaaccentcomb"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

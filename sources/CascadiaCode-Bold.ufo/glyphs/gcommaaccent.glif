@@ -2,16 +2,8 @@
 <glyph name="gcommaaccent" format="2">
   <advance width="1200"/>
   <unicode hex="0123"/>
-  <anchor x="540" y="-420" name="bottom"/>
-  <anchor x="580" y="1540" name="top"/>
   <outline>
     <component base="g"/>
-    <component base="commaturnedabovecomb" xOffset="-10"/>
+    <component base="commaturnedabovecomb" xOffset="-30"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

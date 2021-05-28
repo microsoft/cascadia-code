@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefTwoabove-ar.fina" format="2">
+  <advance width="1200"/>
+  <anchor x="221" y="1570" name="top"/>
+  <outline>
+    <component base="two-persian.small01" xOffset="-414" yOffset="-83"/>
+    <component base="alef-ar.fina.short"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>two-persian.small01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=alef-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

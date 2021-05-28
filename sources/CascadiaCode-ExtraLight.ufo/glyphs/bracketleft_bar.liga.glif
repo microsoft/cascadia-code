@@ -3,29 +3,23 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="564" y="-200" type="line"/>
-      <point x="658" y="-200" type="line"/>
-      <point x="658" y="1620" type="line"/>
-      <point x="564" y="1620" type="line"/>
+      <point x="564" y="-214" type="line"/>
+      <point x="662" y="-214" type="line"/>
+      <point x="662" y="1634" type="line"/>
+      <point x="564" y="1634" type="line"/>
     </contour>
     <contour>
-      <point x="638" y="-200" type="line"/>
-      <point x="1388" y="-200" type="line"/>
-      <point x="1388" y="-110" type="line"/>
-      <point x="638" y="-110" type="line"/>
+      <point x="642" y="-214" type="line"/>
+      <point x="1248" y="-214" type="line"/>
+      <point x="1248" y="-122" type="line"/>
+      <point x="642" y="-122" type="line"/>
     </contour>
     <contour>
-      <point x="638" y="1530" type="line"/>
-      <point x="1388" y="1530" type="line"/>
-      <point x="1388" y="1620" type="line"/>
-      <point x="638" y="1620" type="line"/>
+      <point x="642" y="1542" type="line"/>
+      <point x="1248" y="1542" type="line"/>
+      <point x="1248" y="1634" type="line"/>
+      <point x="642" y="1634" type="line"/>
     </contour>
     <component base="bar" xOffset="1154"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

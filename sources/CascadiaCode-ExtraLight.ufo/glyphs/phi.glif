@@ -2,7 +2,7 @@
 <glyph name="phi" format="2">
   <advance width="1200"/>
   <unicode hex="03C6"/>
-  <anchor x="600" y="-440" name="bottom"/>
+  <anchor x="600" y="-460" name="bottom"/>
   <anchor x="600" y="1460" name="top"/>
   <outline>
     <contour>
@@ -20,10 +20,10 @@
       <point x="272" y="-20"/>
     </contour>
     <contour>
-      <point x="555" y="-440" type="line"/>
-      <point x="645" y="-440" type="line"/>
-      <point x="646" y="31" type="line"/>
-      <point x="554" y="31" type="line"/>
+      <point x="553" y="-460" type="line"/>
+      <point x="647" y="-460" type="line"/>
+      <point x="647" y="33" type="line"/>
+      <point x="553" y="33" type="line"/>
     </contour>
     <contour>
       <point x="600" y="72" type="curve" smooth="yes"/>
@@ -40,16 +40,16 @@
       <point x="864" y="72"/>
     </contour>
     <contour>
-      <point x="555" y="42" type="line"/>
-      <point x="645" y="42" type="line"/>
-      <point x="645" y="1033" type="line"/>
-      <point x="555" y="1033" type="line"/>
+      <point x="553" y="42" type="line"/>
+      <point x="647" y="42" type="line"/>
+      <point x="647" y="1033" type="line"/>
+      <point x="553" y="1033" type="line"/>
     </contour>
     <contour>
-      <point x="554" y="1018" type="line"/>
-      <point x="646" y="1018" type="line"/>
-      <point x="645" y="1500" type="line"/>
-      <point x="555" y="1500" type="line"/>
+      <point x="553" y="1007" type="line"/>
+      <point x="647" y="1007" type="line"/>
+      <point x="647" y="1500" type="line"/>
+      <point x="553" y="1500" type="line"/>
     </contour>
   </outline>
 </glyph>

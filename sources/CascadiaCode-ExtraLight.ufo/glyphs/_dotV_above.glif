@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_dotVabove" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="762" name="_top"/>
+  <anchor x="600" y="532" name="_top.dot"/>
+  <anchor x="601" y="1332" name="top"/>
+  <outline>
+    <component base="dotabove-ar" xOffset="-4" yOffset="1"/>
+    <component base="vabove-ar" xOffset="-4" yOffset="401"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>anchor</key>
+          <string>top</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

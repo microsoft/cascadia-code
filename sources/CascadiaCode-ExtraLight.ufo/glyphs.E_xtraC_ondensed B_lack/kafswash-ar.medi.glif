@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafswash-ar.medi" format="2">
+  <advance width="736"/>
+  <outline>
+    <component base="kafswash-ar.init"/>
+    <component base="_part.instroke" xOffset="566"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_part.instroke</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>kafswash-ar.init</string>
+    </dict>
+  </lib>
+</glyph>

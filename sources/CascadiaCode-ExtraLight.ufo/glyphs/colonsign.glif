@@ -2,8 +2,6 @@
 <glyph name="colonsign" format="2">
   <advance width="1200"/>
   <unicode hex="20A1"/>
-  <anchor x="665" y="0" name="bottom"/>
-  <anchor x="695" y="1420" name="top"/>
   <outline>
     <contour>
       <point x="633" y="-330" type="line"/>
@@ -19,10 +17,4 @@
     </contour>
     <component base="C"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

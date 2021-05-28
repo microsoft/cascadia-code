@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peheh-ar" format="2">
+  <advance width="1200"/>
+  <unicode hex="06A6"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <component base="fourdotsabove-ar" xOffset="249" yOffset="470"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>fourdotsabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -3,8 +3,6 @@
   <advance width="1200"/>
   <unicode hex="0119"/>
   <anchor x="630" y="-480" name="bottom"/>
-  <anchor x="1057" y="10" name="ogonek"/>
-  <anchor x="610" y="1060" name="top"/>
   <outline>
     <contour>
       <point x="878" y="-424" type="curve" smooth="yes"/>
@@ -32,10 +30,4 @@
     </contour>
     <component base="e"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

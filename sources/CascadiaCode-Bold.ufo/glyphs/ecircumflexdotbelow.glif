@@ -2,18 +2,9 @@
 <glyph name="ecircumflexdotbelow" format="2">
   <advance width="1200"/>
   <unicode hex="1EC7"/>
-  <anchor x="630" y="-418" name="bottom"/>
-  <anchor x="1057" y="10" name="ogonek"/>
-  <anchor x="610" y="1580" name="top"/>
   <outline>
     <component base="e"/>
     <component base="dotbelowcomb" xOffset="30"/>
     <component base="circumflexcomb" xOffset="10"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

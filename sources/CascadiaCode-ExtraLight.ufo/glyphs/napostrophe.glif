@@ -2,21 +2,27 @@
 <glyph name="napostrophe" format="2">
   <advance width="1200"/>
   <unicode hex="0149"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="590" y="1060" name="top"/>
   <outline>
     <contour>
-      <point x="20" y="1248" type="line"/>
-      <point x="122" y="1248" type="line"/>
-      <point x="252" y="1628" type="line"/>
-      <point x="150" y="1628" type="line"/>
+      <point x="138" y="1168" type="line"/>
+      <point x="195" y="1231" type="line" smooth="yes"/>
+      <point x="267" y="1310"/>
+      <point x="305" y="1388"/>
+      <point x="305" y="1458" type="curve" smooth="yes"/>
+      <point x="305" y="1591"/>
+      <point x="232" y="1660"/>
+      <point x="91" y="1660" type="curve" smooth="yes"/>
+      <point x="16" y="1660" type="line"/>
+      <point x="16" y="1570" type="line"/>
+      <point x="61" y="1570" type="line" smooth="yes"/>
+      <point x="158" y="1570"/>
+      <point x="209" y="1532"/>
+      <point x="209" y="1458" type="curve" smooth="yes"/>
+      <point x="209" y="1414"/>
+      <point x="179" y="1359"/>
+      <point x="119" y="1297" type="curve" smooth="yes"/>
+      <point x="59" y="1234" type="line"/>
     </contour>
     <component base="n"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

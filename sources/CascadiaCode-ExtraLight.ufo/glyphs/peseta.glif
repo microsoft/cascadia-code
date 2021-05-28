@@ -2,21 +2,13 @@
 <glyph name="peseta" format="2">
   <advance width="1200"/>
   <unicode hex="20A7"/>
-  <anchor x="540" y="0" name="bottom"/>
-  <anchor x="540" y="1580" name="top"/>
   <outline>
     <contour>
-      <point x="24" y="876" type="line"/>
-      <point x="1176" y="876" type="line"/>
-      <point x="1176" y="964" type="line"/>
-      <point x="24" y="964" type="line"/>
+      <point x="24" y="875" type="line"/>
+      <point x="1176" y="875" type="line"/>
+      <point x="1176" y="965" type="line"/>
+      <point x="24" y="965" type="line"/>
     </contour>
     <component base="P" xOffset="-20"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -2,14 +2,12 @@
 <glyph name="dollar" format="2">
   <advance width="1200"/>
   <unicode hex="0024"/>
-  <anchor x="610" y="0" name="bottom"/>
-  <anchor x="620" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="568" y="-320" type="line"/>
-      <point x="658" y="-320" type="line"/>
-      <point x="658" y="1740" type="line"/>
-      <point x="568" y="1740" type="line"/>
+      <point x="566" y="-320" type="line"/>
+      <point x="660" y="-320" type="line"/>
+      <point x="660" y="1740" type="line"/>
+      <point x="566" y="1740" type="line"/>
     </contour>
     <component base="S"/>
   </outline>
@@ -19,8 +17,6 @@
       <string>=S</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=S</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

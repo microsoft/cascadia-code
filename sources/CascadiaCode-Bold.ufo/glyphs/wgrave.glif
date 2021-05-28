@@ -2,16 +2,8 @@
 <glyph name="wgrave" format="2">
   <advance width="1200"/>
   <unicode hex="1E81"/>
-  <anchor x="590" y="0" name="bottom"/>
-  <anchor x="590" y="1540" name="top"/>
   <outline>
     <component base="w"/>
     <component base="gravecomb" xOffset="-55"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

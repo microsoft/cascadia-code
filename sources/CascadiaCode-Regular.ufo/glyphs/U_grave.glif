@@ -2,18 +2,8 @@
 <glyph name="Ugrave" format="2">
   <advance width="1200"/>
   <unicode hex="00D9"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="600" y="1770" name="top"/>
-  <anchor x="1180" y="1420" name="topright"/>
   <outline>
     <component base="U"/>
     <component base="gravecomb.case" xOffset="-60"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

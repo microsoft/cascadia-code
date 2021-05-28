@@ -2,17 +2,8 @@
 <glyph name="aring" format="2">
   <advance width="1200"/>
   <unicode hex="00E5"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="1057" y="10" name="ogonek"/>
-  <anchor x="580" y="1580" name="top"/>
   <outline>
     <component base="a"/>
     <component base="ringcomb" xOffset="-20"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

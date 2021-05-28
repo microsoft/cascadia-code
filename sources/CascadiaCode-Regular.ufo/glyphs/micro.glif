@@ -2,15 +2,7 @@
 <glyph name="micro" format="2">
   <advance width="1200"/>
   <unicode hex="00B5"/>
-  <anchor x="595" y="-280" name="bottom"/>
-  <anchor x="581" y="1060" name="top"/>
   <outline>
     <component base="mu"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

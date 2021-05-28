@@ -2,16 +2,8 @@
 <glyph name="Sdotbelow" format="2">
   <advance width="1200"/>
   <unicode hex="1E62"/>
-  <anchor x="610" y="-338" name="bottom"/>
-  <anchor x="620" y="1420" name="top"/>
   <outline>
     <component base="S"/>
     <component base="dotbelowcomb" xOffset="10"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

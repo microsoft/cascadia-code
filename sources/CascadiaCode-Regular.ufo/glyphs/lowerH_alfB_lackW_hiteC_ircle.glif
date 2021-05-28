@@ -13,12 +13,21 @@ uni25D2
       <point x="181" y="710" type="line"/>
       <point x="181" y="459" type="line"/>
     </contour>
-    <component base="whiteCircle" xScale="-1" xOffset="1200"/>
+    <component base="whiteCircle"/>
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>whiteCircle</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

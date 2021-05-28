@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zayin-hb" format="2">
+  <advance width="1200"/>
+  <unicode hex="05D6"/>
+  <anchor x="282" y="607" name="center"/>
+  <outline>
+    <contour>
+      <point x="451" y="0" type="line"/>
+      <point x="709" y="0" type="line"/>
+      <point x="709" y="646" type="line" smooth="yes"/>
+      <point x="709" y="755"/>
+      <point x="733" y="929"/>
+      <point x="871" y="929" type="curve"/>
+      <point x="603" y="994" type="line"/>
+      <point x="603" y="922" type="line"/>
+      <point x="536" y="893"/>
+      <point x="458" y="804"/>
+      <point x="451" y="665" type="curve"/>
+    </contour>
+    <contour>
+      <point x="184" y="930" type="line"/>
+      <point x="924" y="930" type="line"/>
+      <point x="924" y="1200" type="line"/>
+      <point x="184" y="1200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

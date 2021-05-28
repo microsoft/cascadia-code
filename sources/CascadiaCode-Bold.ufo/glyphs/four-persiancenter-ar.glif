@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four-persiancenter-ar" format="2">
+  <advance width="1200"/>
+  <anchor x="616" y="298" name="_center"/>
+  <outline>
+    <component base="_four-persian.small01" xOffset="-10" yOffset="-529"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_four-persian.small01</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

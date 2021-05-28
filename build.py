@@ -34,7 +34,7 @@ OUTPUT_STATIC_TTF_DIR = OUTPUT_TTF_DIR / "static"
 OUTPUT_STATIC_WOFF2_DIR = OUTPUT_WOFF2_DIR / "static"
 INPUT_DIR = Path("sources")
 VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode_VTT.ttf"
-ITALIC_VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCode-Italic_VTT.ttf"
+ITALIC_VTT_DATA_FILE = INPUT_DIR / "vtt_data" / "CascadiaCodeItalic_VTT.ttf"
 FEATURES_DIR = INPUT_DIR / "features"
 NERDFONTS_DIR = INPUT_DIR / "nerdfonts"
 
@@ -274,8 +274,7 @@ def compile_variable_and_save(
     varFont["head"].flags = 0x000b
 
     if "Regular" in styleName:
-        varFont["name"].setName(familyName.replace(" ","")+"-Roman", 6, 3, 1, 1033)
-        varFont["name"].setName("Roman", 17, 3, 1, 1033)
+        varFont["name"].setName(familyName.replace(" Regular",""), 4, 3, 1, 1033)
         varFont["name"].setName(familyName.replace(" ","")+"Roman", 25, 3, 1, 1033)
 
     print(f"[{familyName} {styleName}] Saving")

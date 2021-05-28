@@ -3,35 +3,29 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-19" y="333" type="line"/>
+      <point x="-20" y="333" type="line"/>
       <point x="1022" y="333" type="line"/>
-      <point x="1022" y="575" type="line"/>
-      <point x="-19" y="575" type="line"/>
+      <point x="1022" y="583" type="line"/>
+      <point x="-20" y="583" type="line"/>
     </contour>
     <contour>
-      <point x="-19" y="843" type="line"/>
-      <point x="1022" y="843" type="line"/>
+      <point x="-20" y="835" type="line"/>
+      <point x="1022" y="835" type="line"/>
       <point x="1022" y="1085" type="line"/>
       <point x="-20" y="1085" type="line"/>
     </contour>
     <contour>
       <point x="1248" y="2" type="line"/>
       <point x="1418" y="157" type="line"/>
-      <point x="1022" y="575" type="line"/>
-      <point x="696" y="569" type="line"/>
+      <point x="1022" y="583" type="line"/>
+      <point x="696" y="577" type="line"/>
     </contour>
     <contour>
-      <point x="688" y="843" type="line"/>
-      <point x="1022" y="843" type="line"/>
+      <point x="688" y="835" type="line"/>
+      <point x="1022" y="835" type="line"/>
       <point x="1418" y="1257" type="line"/>
       <point x="1248" y="1412" type="line"/>
     </contour>
     <component base="less.alt" xOffset="1061"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

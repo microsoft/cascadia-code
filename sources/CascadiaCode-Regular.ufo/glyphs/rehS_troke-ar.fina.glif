@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehStroke-ar.fina" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="_stroke" xOffset="-47" yOffset="-336"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_stroke</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=reh-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

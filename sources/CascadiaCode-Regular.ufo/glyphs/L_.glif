@@ -4,13 +4,13 @@
   <unicode hex="004C"/>
   <anchor x="620" y="0" name="bottom"/>
   <anchor x="600" y="710" name="center"/>
-  <anchor x="260" y="1420" name="top"/>
+  <anchor x="264" y="1420" name="top"/>
   <anchor x="1180" y="1420" name="topright"/>
   <outline>
     <contour>
       <point x="160" y="0" type="line"/>
-      <point x="360" y="0" type="line"/>
-      <point x="360" y="1420" type="line"/>
+      <point x="368" y="0" type="line"/>
+      <point x="368" y="1420" type="line"/>
       <point x="160" y="1420" type="line"/>
     </contour>
     <contour>
@@ -20,10 +20,4 @@
       <point x="160" y="190" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
-    </dict>
-  </lib>
 </glyph>

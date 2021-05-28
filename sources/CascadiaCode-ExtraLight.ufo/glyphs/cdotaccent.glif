@@ -2,16 +2,8 @@
 <glyph name="cdotaccent" format="2">
   <advance width="1200"/>
   <unicode hex="010B"/>
-  <anchor x="650" y="0" name="bottom"/>
-  <anchor x="648" y="1500" name="top"/>
   <outline>
     <component base="c"/>
     <component base="dotaccentcomb" xOffset="48"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

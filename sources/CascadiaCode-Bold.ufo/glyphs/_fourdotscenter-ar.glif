@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_fourdotscenter-ar" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="dotbelow-ar" xScale="0.9" yScale="0.9" xOffset="-60" yOffset="681"/>
+    <component base="dotbelow-ar" xScale="0.9" yScale="0.9" xOffset="-63" yOffset="434"/>
+    <component base="dotbelow-ar" xScale="0.9" yScale="0.9" xOffset="183" yOffset="682"/>
+    <component base="dotbelow-ar" xScale="0.9" yScale="0.9" xOffset="180" yOffset="435"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

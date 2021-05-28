@@ -2,17 +2,8 @@
 <glyph name="eacute" format="2">
   <advance width="1200"/>
   <unicode hex="00E9"/>
-  <anchor x="630" y="0" name="bottom"/>
-  <anchor x="1057" y="10" name="ogonek"/>
-  <anchor x="610" y="1540" name="top"/>
   <outline>
     <component base="e"/>
     <component base="acutecomb" xOffset="71"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

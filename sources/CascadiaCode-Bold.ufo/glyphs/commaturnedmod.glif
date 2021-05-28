@@ -3,17 +3,6 @@
   <advance width="1200"/>
   <unicode hex="02BB"/>
   <outline>
-    <contour>
-      <point x="340" y="780" type="line"/>
-      <point x="706" y="780" type="line"/>
-      <point x="906" y="1470" type="line"/>
-      <point x="685" y="1470" type="line"/>
-    </contour>
+    <component base="quoteleft" yOffset="75"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

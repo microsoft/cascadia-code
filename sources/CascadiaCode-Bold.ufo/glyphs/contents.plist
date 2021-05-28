@@ -266,6 +266,8 @@
     <string>I_.half.glif</string>
     <key>IJ</key>
     <string>I_J_.glif</string>
+    <key>IJ_acute</key>
+    <string>I_J__acute.glif</string>
     <key>Ia-cy</key>
     <string>I_a-cy.glif</string>
     <key>Iacute</key>
@@ -698,6 +700,96 @@
     <string>Z_he-cy.glif</string>
     <key>Zhedescender-cy</key>
     <string>Z_hedescender-cy.glif</string>
+    <key>_alef-ar.fina.rlig</key>
+    <string>_alef-ar.fina.rlig.glif</string>
+    <key>_alef-ar.fina.short.rlig</key>
+    <string>_alef-ar.fina.short.rlig.glif</string>
+    <key>_alefFathatan-ar.fina.rlig</key>
+    <string>_alefF_athatan-ar.fina.rlig.glif</string>
+    <key>_alefHamzaabove-ar.fina.rlig</key>
+    <string>_alefH_amzaabove-ar.fina.rlig.glif</string>
+    <key>_alefHamzabelow-ar.fina.rlig</key>
+    <string>_alefH_amzabelow-ar.fina.rlig.glif</string>
+    <key>_alefMadda-ar.fina.rlig</key>
+    <string>_alefM_adda-ar.fina.rlig.glif</string>
+    <key>_alefThreeabove-ar.fina.rlig</key>
+    <string>_alefT_hreeabove-ar.fina.rlig.glif</string>
+    <key>_alefTwoabove-ar.fina.rlig</key>
+    <string>_alefT_woabove-ar.fina.rlig.glif</string>
+    <key>_alefWasla-ar.fina.rlig</key>
+    <string>_alefW_asla-ar.fina.rlig.glif</string>
+    <key>_alefWavyhamzaabove-ar.fina.rlig</key>
+    <string>_alefW_avyhamzaabove-ar.fina.rlig.glif</string>
+    <key>_alefWavyhamzabelow-ar.fina.rlig</key>
+    <string>_alefW_avyhamzabelow-ar.fina.rlig.glif</string>
+    <key>_alefabove</key>
+    <string>_alefabove.glif</string>
+    <key>_bar</key>
+    <string>_bar.glif</string>
+    <key>_cuberoot_fourthroot-ar</key>
+    <string>_cuberoot_fourthroot-ar.glif</string>
+    <key>_damma-ar</key>
+    <string>_damma-ar.glif</string>
+    <key>_dot-ar</key>
+    <string>_dot-ar.glif</string>
+    <key>_dotVInvertedabove</key>
+    <string>_dotV_I_nvertedabove.glif</string>
+    <key>_dotVabove</key>
+    <string>_dotV_above.glif</string>
+    <key>_dots.horz.below</key>
+    <string>_dots.horz.below.glif</string>
+    <key>_doublebar</key>
+    <string>_doublebar.glif</string>
+    <key>_fatha-ar</key>
+    <string>_fatha-ar.glif</string>
+    <key>_four-persian.small01</key>
+    <string>_four-persian.small01.glif</string>
+    <key>_fourdotscenter-ar</key>
+    <string>_fourdotscenter-ar.glif</string>
+    <key>_fourthroot-ar</key>
+    <string>_fourthroot-ar.glif</string>
+    <key>_hamzasmall-ar</key>
+    <string>_hamzasmall-ar.glif</string>
+    <key>_hamzawavy</key>
+    <string>_hamzawavy.glif</string>
+    <key>_hehgoalcomma</key>
+    <string>_hehgoalcomma.glif</string>
+    <key>_highhamzaAlef-ar.fina.rlig</key>
+    <string>_highhamzaA_lef-ar.fina.rlig.glif</string>
+    <key>_invertedstroke</key>
+    <string>_invertedstroke.glif</string>
+    <key>_onedotstah</key>
+    <string>_onedotstah.glif</string>
+    <key>_ringArabic</key>
+    <string>_ringA_rabic.glif</string>
+    <key>_stroke</key>
+    <string>_stroke.glif</string>
+    <key>_stroke.wide</key>
+    <string>_stroke.wide.glif</string>
+    <key>_tahabove</key>
+    <string>_tahabove.glif</string>
+    <key>_tahabovesmall</key>
+    <string>_tahabovesmall.glif</string>
+    <key>_threedots-ar</key>
+    <string>_threedots-ar.glif</string>
+    <key>_twodotshorizontal-ar</key>
+    <string>_twodotshorizontal-ar.glif</string>
+    <key>_twodotstah</key>
+    <string>_twodotstah.glif</string>
+    <key>_twodotsverticalabove-ar</key>
+    <string>_twodotsverticalabove-ar.glif</string>
+    <key>_vabove</key>
+    <string>_vabove.glif</string>
+    <key>_vbelow-ar</key>
+    <string>_vbelow-ar.glif</string>
+    <key>_vinvertedbelow-ar</key>
+    <string>_vinvertedbelow-ar.glif</string>
+    <key>_wawDotcenter-ar</key>
+    <string>_wawD_otcenter-ar.glif</string>
+    <key>_yehRohingya-ar</key>
+    <string>_yehR_ohingya-ar.glif</string>
+    <key>_yehRohingya-ar.fina</key>
+    <string>_yehR_ohingya-ar.fina.glif</string>
     <key>a</key>
     <string>a.glif</string>
     <key>a-cy</key>
@@ -752,12 +844,162 @@
     <string>adotbelow.glif</string>
     <key>ae</key>
     <string>ae.glif</string>
+    <key>ae-ar</key>
+    <string>ae-ar.glif</string>
+    <key>ae-ar.fina</key>
+    <string>ae-ar.fina.glif</string>
     <key>aeacute</key>
     <string>aeacute.glif</string>
     <key>agrave</key>
     <string>agrave.glif</string>
     <key>ahookabove</key>
     <string>ahookabove.glif</string>
+    <key>ain-ar</key>
+    <string>ain-ar.glif</string>
+    <key>ain-ar.fina</key>
+    <string>ain-ar.fina.glif</string>
+    <key>ain-ar.init</key>
+    <string>ain-ar.init.glif</string>
+    <key>ain-ar.medi</key>
+    <string>ain-ar.medi.glif</string>
+    <key>ainThreedots-ar</key>
+    <string>ainT_hreedots-ar.glif</string>
+    <key>ainThreedots-ar.fina</key>
+    <string>ainT_hreedots-ar.fina.glif</string>
+    <key>ainThreedots-ar.init</key>
+    <string>ainT_hreedots-ar.init.glif</string>
+    <key>ainThreedots-ar.medi</key>
+    <string>ainT_hreedots-ar.medi.glif</string>
+    <key>ainThreedotsdownabove-ar</key>
+    <string>ainT_hreedotsdownabove-ar.glif</string>
+    <key>ainThreedotsdownabove-ar.fina</key>
+    <string>ainT_hreedotsdownabove-ar.fina.glif</string>
+    <key>ainThreedotsdownabove-ar.init</key>
+    <string>ainT_hreedotsdownabove-ar.init.glif</string>
+    <key>ainThreedotsdownabove-ar.medi</key>
+    <string>ainT_hreedotsdownabove-ar.medi.glif</string>
+    <key>ainTwodotshorizontalabove-ar</key>
+    <string>ainT_wodotshorizontalabove-ar.glif</string>
+    <key>ainTwodotshorizontalabove-ar.fina</key>
+    <string>ainT_wodotshorizontalabove-ar.fina.glif</string>
+    <key>ainTwodotshorizontalabove-ar.init</key>
+    <string>ainT_wodotshorizontalabove-ar.init.glif</string>
+    <key>ainTwodotshorizontalabove-ar.medi</key>
+    <string>ainT_wodotshorizontalabove-ar.medi.glif</string>
+    <key>ainTwodotsverticalabove-ar</key>
+    <string>ainT_wodotsverticalabove-ar.glif</string>
+    <key>ainTwodotsverticalabove-ar.fina</key>
+    <string>ainT_wodotsverticalabove-ar.fina.glif</string>
+    <key>ainTwodotsverticalabove-ar.init</key>
+    <string>ainT_wodotsverticalabove-ar.init.glif</string>
+    <key>ainTwodotsverticalabove-ar.medi</key>
+    <string>ainT_wodotsverticalabove-ar.medi.glif</string>
+    <key>alef-ar</key>
+    <string>alef-ar.glif</string>
+    <key>alef-ar.fina</key>
+    <string>alef-ar.fina.glif</string>
+    <key>alef-ar.fina.alt</key>
+    <string>alef-ar.fina.alt.glif</string>
+    <key>alef-ar.fina.rlig</key>
+    <string>alef-ar.fina.rlig.glif</string>
+    <key>alef-ar.fina.short</key>
+    <string>alef-ar.fina.short.glif</string>
+    <key>alef-ar.fina.short.alt</key>
+    <string>alef-ar.fina.short.alt.glif</string>
+    <key>alef-ar.fina.short.rlig</key>
+    <string>alef-ar.fina.short.rlig.glif</string>
+    <key>alef-ar.short</key>
+    <string>alef-ar.short.glif</string>
+    <key>alef-hb</key>
+    <string>alef-hb.glif</string>
+    <key>alefFathatan-ar</key>
+    <string>alefF_athatan-ar.glif</string>
+    <key>alefFathatan-ar.fina</key>
+    <string>alefF_athatan-ar.fina.glif</string>
+    <key>alefFathatan-ar.fina.rlig</key>
+    <string>alefF_athatan-ar.fina.rlig.glif</string>
+    <key>alefHamzaabove-ar</key>
+    <string>alefH_amzaabove-ar.glif</string>
+    <key>alefHamzaabove-ar.fina</key>
+    <string>alefH_amzaabove-ar.fina.glif</string>
+    <key>alefHamzaabove-ar.fina.alt</key>
+    <string>alefH_amzaabove-ar.fina.alt.glif</string>
+    <key>alefHamzaabove-ar.fina.rlig</key>
+    <string>alefH_amzaabove-ar.fina.rlig.glif</string>
+    <key>alefHamzabelow-ar</key>
+    <string>alefH_amzabelow-ar.glif</string>
+    <key>alefHamzabelow-ar.fina</key>
+    <string>alefH_amzabelow-ar.fina.glif</string>
+    <key>alefHamzabelow-ar.fina.alt</key>
+    <string>alefH_amzabelow-ar.fina.alt.glif</string>
+    <key>alefHamzabelow-ar.fina.rlig</key>
+    <string>alefH_amzabelow-ar.fina.rlig.glif</string>
+    <key>alefMadda-ar</key>
+    <string>alefM_adda-ar.glif</string>
+    <key>alefMadda-ar.fina</key>
+    <string>alefM_adda-ar.fina.glif</string>
+    <key>alefMadda-ar.fina.alt</key>
+    <string>alefM_adda-ar.fina.alt.glif</string>
+    <key>alefMadda-ar.fina.rlig</key>
+    <string>alefM_adda-ar.fina.rlig.glif</string>
+    <key>alefMaksura-ar</key>
+    <string>alefM_aksura-ar.glif</string>
+    <key>alefMaksura-ar.fina</key>
+    <string>alefM_aksura-ar.fina.glif</string>
+    <key>alefMaksuraAlefabove-ar</key>
+    <string>alefM_aksuraA_lefabove-ar.glif</string>
+    <key>alefMaksuraAlefabove-ar.fina</key>
+    <string>alefM_aksuraA_lefabove-ar.fina.glif</string>
+    <key>alefThreeabove-ar</key>
+    <string>alefT_hreeabove-ar.glif</string>
+    <key>alefThreeabove-ar.fina</key>
+    <string>alefT_hreeabove-ar.fina.glif</string>
+    <key>alefThreeabove-ar.fina.alt</key>
+    <string>alefT_hreeabove-ar.fina.alt.glif</string>
+    <key>alefThreeabove-ar.fina.rlig</key>
+    <string>alefT_hreeabove-ar.fina.rlig.glif</string>
+    <key>alefTwoabove-ar</key>
+    <string>alefT_woabove-ar.glif</string>
+    <key>alefTwoabove-ar.fina</key>
+    <string>alefT_woabove-ar.fina.glif</string>
+    <key>alefTwoabove-ar.fina.alt</key>
+    <string>alefT_woabove-ar.fina.alt.glif</string>
+    <key>alefTwoabove-ar.fina.rlig</key>
+    <string>alefT_woabove-ar.fina.rlig.glif</string>
+    <key>alefWasla-ar</key>
+    <string>alefW_asla-ar.glif</string>
+    <key>alefWasla-ar.fina</key>
+    <string>alefW_asla-ar.fina.glif</string>
+    <key>alefWasla-ar.fina.alt</key>
+    <string>alefW_asla-ar.fina.alt.glif</string>
+    <key>alefWasla-ar.fina.rlig</key>
+    <string>alefW_asla-ar.fina.rlig.glif</string>
+    <key>alefWavyhamzaabove-ar</key>
+    <string>alefW_avyhamzaabove-ar.glif</string>
+    <key>alefWavyhamzaabove-ar.fina</key>
+    <string>alefW_avyhamzaabove-ar.fina.glif</string>
+    <key>alefWavyhamzaabove-ar.fina.alt</key>
+    <string>alefW_avyhamzaabove-ar.fina.alt.glif</string>
+    <key>alefWavyhamzaabove-ar.fina.rlig</key>
+    <string>alefW_avyhamzaabove-ar.fina.rlig.glif</string>
+    <key>alefWavyhamzabelow-ar</key>
+    <string>alefW_avyhamzabelow-ar.glif</string>
+    <key>alefWavyhamzabelow-ar.fina</key>
+    <string>alefW_avyhamzabelow-ar.fina.glif</string>
+    <key>alefWavyhamzabelow-ar.fina.alt</key>
+    <string>alefW_avyhamzabelow-ar.fina.alt.glif</string>
+    <key>alefWavyhamzabelow-ar.fina.rlig</key>
+    <string>alefW_avyhamzabelow-ar.fina.rlig.glif</string>
+    <key>alefabove-ar</key>
+    <string>alefabove-ar.glif</string>
+    <key>alefbelow-ar</key>
+    <string>alefbelow-ar.glif</string>
+    <key>alefdagesh-hb</key>
+    <string>alefdagesh-hb.glif</string>
+    <key>alefpatah-hb</key>
+    <string>alefpatah-hb.glif</string>
+    <key>alefqamats-hb</key>
+    <string>alefqamats-hb.glif</string>
     <key>alpha</key>
     <string>alpha.glif</string>
     <key>alpha-latin</key>
@@ -802,6 +1044,10 @@
     <string>asciitilde_hyphen.liga.glif</string>
     <key>asterisk</key>
     <string>asterisk.glif</string>
+    <key>asterisk-ar</key>
+    <string>asterisk-ar.glif</string>
+    <key>asteriskArt-ar</key>
+    <string>asteriskA_rt-ar.glif</string>
     <key>asterisk_asterisk.liga</key>
     <string>asterisk_asterisk.liga.glif</string>
     <key>asterisk_asterisk_asterisk.liga</key>
@@ -816,6 +1062,8 @@
     <string>at.glif</string>
     <key>atilde</key>
     <string>atilde.glif</string>
+    <key>ayin-hb</key>
+    <string>ayin-hb.glif</string>
     <key>b</key>
     <string>b.glif</string>
     <key>backslash</key>
@@ -878,12 +1126,198 @@
     <string>be-cy.glif</string>
     <key>be-cy.loclSRB</key>
     <string>be-cy.loclS_R_B_.glif</string>
+    <key>beeh-ar</key>
+    <string>beeh-ar.glif</string>
+    <key>beeh-ar.alt</key>
+    <string>beeh-ar.alt.glif</string>
+    <key>beeh-ar.fina</key>
+    <string>beeh-ar.fina.glif</string>
+    <key>beeh-ar.fina.alt</key>
+    <string>beeh-ar.fina.alt.glif</string>
+    <key>beeh-ar.init</key>
+    <string>beeh-ar.init.glif</string>
+    <key>beeh-ar.init.alt</key>
+    <string>beeh-ar.init.alt.glif</string>
+    <key>beeh-ar.medi</key>
+    <string>beeh-ar.medi.glif</string>
+    <key>beh-ar</key>
+    <string>beh-ar.glif</string>
+    <key>beh-ar.alt</key>
+    <string>beh-ar.alt.glif</string>
+    <key>beh-ar.fina</key>
+    <string>beh-ar.fina.glif</string>
+    <key>beh-ar.fina.alt</key>
+    <string>beh-ar.fina.alt.glif</string>
+    <key>beh-ar.init</key>
+    <string>beh-ar.init.glif</string>
+    <key>beh-ar.init.alt</key>
+    <string>beh-ar.init.alt.glif</string>
+    <key>beh-ar.medi</key>
+    <string>beh-ar.medi.glif</string>
+    <key>behDotless-ar</key>
+    <string>behD_otless-ar.glif</string>
+    <key>behDotless-ar.alt</key>
+    <string>behD_otless-ar.alt.glif</string>
+    <key>behDotless-ar.fina</key>
+    <string>behD_otless-ar.fina.glif</string>
+    <key>behDotless-ar.fina.alt</key>
+    <string>behD_otless-ar.fina.alt.glif</string>
+    <key>behDotless-ar.init</key>
+    <string>behD_otless-ar.init.glif</string>
+    <key>behDotless-ar.init.alt</key>
+    <string>behD_otless-ar.init.alt.glif</string>
+    <key>behDotless-ar.medi</key>
+    <string>behD_otless-ar.medi.glif</string>
+    <key>behMeemabove-ar</key>
+    <string>behM_eemabove-ar.glif</string>
+    <key>behMeemabove-ar.alt</key>
+    <string>behM_eemabove-ar.alt.glif</string>
+    <key>behMeemabove-ar.fina</key>
+    <string>behM_eemabove-ar.fina.glif</string>
+    <key>behMeemabove-ar.fina.alt</key>
+    <string>behM_eemabove-ar.fina.alt.glif</string>
+    <key>behMeemabove-ar.init</key>
+    <string>behM_eemabove-ar.init.glif</string>
+    <key>behMeemabove-ar.init.alt</key>
+    <string>behM_eemabove-ar.init.alt.glif</string>
+    <key>behMeemabove-ar.medi</key>
+    <string>behM_eemabove-ar.medi.glif</string>
+    <key>behThreedotshorizontalbelow-ar</key>
+    <string>behT_hreedotshorizontalbelow-ar.glif</string>
+    <key>behThreedotshorizontalbelow-ar.alt</key>
+    <string>behT_hreedotshorizontalbelow-ar.alt.glif</string>
+    <key>behThreedotshorizontalbelow-ar.fina</key>
+    <string>behT_hreedotshorizontalbelow-ar.fina.glif</string>
+    <key>behThreedotshorizontalbelow-ar.fina.alt</key>
+    <string>behT_hreedotshorizontalbelow-ar.fina.alt.glif</string>
+    <key>behThreedotshorizontalbelow-ar.init</key>
+    <string>behT_hreedotshorizontalbelow-ar.init.glif</string>
+    <key>behThreedotshorizontalbelow-ar.init.alt</key>
+    <string>behT_hreedotshorizontalbelow-ar.init.alt.glif</string>
+    <key>behThreedotshorizontalbelow-ar.medi</key>
+    <string>behT_hreedotshorizontalbelow-ar.medi.glif</string>
+    <key>behThreedotsupabove-ar</key>
+    <string>behT_hreedotsupabove-ar.glif</string>
+    <key>behThreedotsupabove-ar.alt</key>
+    <string>behT_hreedotsupabove-ar.alt.glif</string>
+    <key>behThreedotsupabove-ar.fina</key>
+    <string>behT_hreedotsupabove-ar.fina.glif</string>
+    <key>behThreedotsupabove-ar.fina.alt</key>
+    <string>behT_hreedotsupabove-ar.fina.alt.glif</string>
+    <key>behThreedotsupabove-ar.init</key>
+    <string>behT_hreedotsupabove-ar.init.glif</string>
+    <key>behThreedotsupabove-ar.init.alt</key>
+    <string>behT_hreedotsupabove-ar.init.alt.glif</string>
+    <key>behThreedotsupabove-ar.medi</key>
+    <string>behT_hreedotsupabove-ar.medi.glif</string>
+    <key>behThreedotsupbelow-ar</key>
+    <string>behT_hreedotsupbelow-ar.glif</string>
+    <key>behThreedotsupbelow-ar.alt</key>
+    <string>behT_hreedotsupbelow-ar.alt.glif</string>
+    <key>behThreedotsupbelow-ar.fina</key>
+    <string>behT_hreedotsupbelow-ar.fina.glif</string>
+    <key>behThreedotsupbelow-ar.fina.alt</key>
+    <string>behT_hreedotsupbelow-ar.fina.alt.glif</string>
+    <key>behThreedotsupbelow-ar.init</key>
+    <string>behT_hreedotsupbelow-ar.init.glif</string>
+    <key>behThreedotsupbelow-ar.init.alt</key>
+    <string>behT_hreedotsupbelow-ar.init.alt.glif</string>
+    <key>behThreedotsupbelow-ar.medi</key>
+    <string>behT_hreedotsupbelow-ar.medi.glif</string>
+    <key>behTwodotsbelowDotabove-ar</key>
+    <string>behT_wodotsbelowD_otabove-ar.glif</string>
+    <key>behTwodotsbelowDotabove-ar.alt</key>
+    <string>behT_wodotsbelowD_otabove-ar.alt.glif</string>
+    <key>behTwodotsbelowDotabove-ar.fina</key>
+    <string>behT_wodotsbelowD_otabove-ar.fina.glif</string>
+    <key>behTwodotsbelowDotabove-ar.fina.alt</key>
+    <string>behT_wodotsbelowD_otabove-ar.fina.alt.glif</string>
+    <key>behTwodotsbelowDotabove-ar.init</key>
+    <string>behT_wodotsbelowD_otabove-ar.init.glif</string>
+    <key>behTwodotsbelowDotabove-ar.init.alt</key>
+    <string>behT_wodotsbelowD_otabove-ar.init.alt.glif</string>
+    <key>behTwodotsbelowDotabove-ar.medi</key>
+    <string>behT_wodotsbelowD_otabove-ar.medi.glif</string>
+    <key>behVabove-ar</key>
+    <string>behV_above-ar.glif</string>
+    <key>behVabove-ar.alt</key>
+    <string>behV_above-ar.alt.glif</string>
+    <key>behVabove-ar.fina</key>
+    <string>behV_above-ar.fina.glif</string>
+    <key>behVabove-ar.fina.alt</key>
+    <string>behV_above-ar.fina.alt.glif</string>
+    <key>behVabove-ar.init</key>
+    <string>behV_above-ar.init.glif</string>
+    <key>behVabove-ar.init.alt</key>
+    <string>behV_above-ar.init.alt.glif</string>
+    <key>behVabove-ar.medi</key>
+    <string>behV_above-ar.medi.glif</string>
+    <key>behVbelow-ar</key>
+    <string>behV_below-ar.glif</string>
+    <key>behVbelow-ar.alt</key>
+    <string>behV_below-ar.alt.glif</string>
+    <key>behVbelow-ar.fina</key>
+    <string>behV_below-ar.fina.glif</string>
+    <key>behVbelow-ar.fina.alt</key>
+    <string>behV_below-ar.fina.alt.glif</string>
+    <key>behVbelow-ar.init</key>
+    <string>behV_below-ar.init.glif</string>
+    <key>behVbelow-ar.init.alt</key>
+    <string>behV_below-ar.init.alt.glif</string>
+    <key>behVbelow-ar.medi</key>
+    <string>behV_below-ar.medi.glif</string>
+    <key>behVinvertedbelow-ar</key>
+    <string>behV_invertedbelow-ar.glif</string>
+    <key>behVinvertedbelow-ar.alt</key>
+    <string>behV_invertedbelow-ar.alt.glif</string>
+    <key>behVinvertedbelow-ar.fina</key>
+    <string>behV_invertedbelow-ar.fina.glif</string>
+    <key>behVinvertedbelow-ar.fina.alt</key>
+    <string>behV_invertedbelow-ar.fina.alt.glif</string>
+    <key>behVinvertedbelow-ar.init</key>
+    <string>behV_invertedbelow-ar.init.glif</string>
+    <key>behVinvertedbelow-ar.init.alt</key>
+    <string>behV_invertedbelow-ar.init.alt.glif</string>
+    <key>behVinvertedbelow-ar.medi</key>
+    <string>behV_invertedbelow-ar.medi.glif</string>
+    <key>beheh-ar</key>
+    <string>beheh-ar.glif</string>
+    <key>beheh-ar.alt</key>
+    <string>beheh-ar.alt.glif</string>
+    <key>beheh-ar.fina</key>
+    <string>beheh-ar.fina.glif</string>
+    <key>beheh-ar.fina.alt</key>
+    <string>beheh-ar.fina.alt.glif</string>
+    <key>beheh-ar.init</key>
+    <string>beheh-ar.init.glif</string>
+    <key>beheh-ar.init.alt</key>
+    <string>beheh-ar.init.alt.glif</string>
+    <key>beheh-ar.medi</key>
+    <string>beheh-ar.medi.glif</string>
+    <key>behhamzaabove-ar</key>
+    <string>behhamzaabove-ar.glif</string>
+    <key>behhamzaabove-ar.alt</key>
+    <string>behhamzaabove-ar.alt.glif</string>
+    <key>behhamzaabove-ar.fina</key>
+    <string>behhamzaabove-ar.fina.glif</string>
+    <key>behhamzaabove-ar.fina.alt</key>
+    <string>behhamzaabove-ar.fina.alt.glif</string>
+    <key>behhamzaabove-ar.init</key>
+    <string>behhamzaabove-ar.init.glif</string>
+    <key>behhamzaabove-ar.medi</key>
+    <string>behhamzaabove-ar.medi.glif</string>
     <key>bellControl</key>
     <string>bellC_ontrol.glif</string>
     <key>bellControl.ss20</key>
     <string>bellC_ontrol.ss20.glif</string>
+    <key>bet-hb</key>
+    <string>bet-hb.glif</string>
     <key>beta</key>
     <string>beta.glif</string>
+    <key>betdagesh-hb</key>
+    <string>betdagesh-hb.glif</string>
+    <key>bitcoin</key>
+    <string>bitcoin.glif</string>
     <key>blackCircle</key>
     <string>blackC_ircle.glif</string>
     <key>blackDiamond</key>
@@ -942,260 +1376,516 @@
     <string>bottomH_alfB_lackD_iamond.glif</string>
     <key>boxDoubleDownAndHorizontal</key>
     <string>boxD_oubleD_ownA_ndH_orizontal.glif</string>
+    <key>boxDoubleDownAndHorizontal.stypo</key>
+    <string>boxD_oubleD_ownA_ndH_orizontal.stypo.glif</string>
     <key>boxDoubleDownAndLeft</key>
     <string>boxD_oubleD_ownA_ndL_eft.glif</string>
+    <key>boxDoubleDownAndLeft.stypo</key>
+    <string>boxD_oubleD_ownA_ndL_eft.stypo.glif</string>
     <key>boxDoubleDownAndRight</key>
     <string>boxD_oubleD_ownA_ndR_ight.glif</string>
+    <key>boxDoubleDownAndRight.stypo</key>
+    <string>boxD_oubleD_ownA_ndR_ight.stypo.glif</string>
     <key>boxDoubleHorizontal</key>
     <string>boxD_oubleH_orizontal.glif</string>
+    <key>boxDoubleHorizontal.stypo</key>
+    <string>boxD_oubleH_orizontal.stypo.glif</string>
     <key>boxDoubleUpAndHorizontal</key>
     <string>boxD_oubleU_pA_ndH_orizontal.glif</string>
+    <key>boxDoubleUpAndHorizontal.stypo</key>
+    <string>boxD_oubleU_pA_ndH_orizontal.stypo.glif</string>
     <key>boxDoubleUpAndLeft</key>
     <string>boxD_oubleU_pA_ndL_eft.glif</string>
+    <key>boxDoubleUpAndLeft.stypo</key>
+    <string>boxD_oubleU_pA_ndL_eft.stypo.glif</string>
     <key>boxDoubleUpAndRight</key>
     <string>boxD_oubleU_pA_ndR_ight.glif</string>
+    <key>boxDoubleUpAndRight.stypo</key>
+    <string>boxD_oubleU_pA_ndR_ight.stypo.glif</string>
     <key>boxDoubleVertical</key>
     <string>boxD_oubleV_ertical.glif</string>
+    <key>boxDoubleVertical.stypo</key>
+    <string>boxD_oubleV_ertical.stypo.glif</string>
     <key>boxDoubleVerticalAndHorizontal</key>
     <string>boxD_oubleV_erticalA_ndH_orizontal.glif</string>
+    <key>boxDoubleVerticalAndHorizontal.stypo</key>
+    <string>boxD_oubleV_erticalA_ndH_orizontal.stypo.glif</string>
     <key>boxDoubleVerticalAndLeft</key>
     <string>boxD_oubleV_erticalA_ndL_eft.glif</string>
+    <key>boxDoubleVerticalAndLeft.stypo</key>
+    <string>boxD_oubleV_erticalA_ndL_eft.stypo.glif</string>
     <key>boxDoubleVerticalAndRight</key>
     <string>boxD_oubleV_erticalA_ndR_ight.glif</string>
+    <key>boxDoubleVerticalAndRight.stypo</key>
+    <string>boxD_oubleV_erticalA_ndR_ight.stypo.glif</string>
     <key>boxDownDoubleAndHorizontalSingle</key>
     <string>boxD_ownD_oubleA_ndH_orizontalS_ingle.glif</string>
+    <key>boxDownDoubleAndHorizontalSingle.stypo</key>
+    <string>boxD_ownD_oubleA_ndH_orizontalS_ingle.stypo.glif</string>
     <key>boxDownDoubleAndLeftSingle</key>
     <string>boxD_ownD_oubleA_ndL_eftS_ingle.glif</string>
+    <key>boxDownDoubleAndLeftSingle.stypo</key>
+    <string>boxD_ownD_oubleA_ndL_eftS_ingle.stypo.glif</string>
     <key>boxDownDoubleAndRightSingle</key>
     <string>boxD_ownD_oubleA_ndR_ightS_ingle.glif</string>
+    <key>boxDownDoubleAndRightSingle.stypo</key>
+    <string>boxD_ownD_oubleA_ndR_ightS_ingle.stypo.glif</string>
     <key>boxDownHeavyAndHorizontalLight</key>
     <string>boxD_ownH_eavyA_ndH_orizontalL_ight.glif</string>
+    <key>boxDownHeavyAndHorizontalLight.stypo</key>
+    <string>boxD_ownH_eavyA_ndH_orizontalL_ight.stypo.glif</string>
     <key>boxDownHeavyAndLeftLight</key>
     <string>boxD_ownH_eavyA_ndL_eftL_ight.glif</string>
+    <key>boxDownHeavyAndLeftLight.stypo</key>
+    <string>boxD_ownH_eavyA_ndL_eftL_ight.stypo.glif</string>
     <key>boxDownHeavyAndLeftUpLight</key>
     <string>boxD_ownH_eavyA_ndL_eftU_pL_ight.glif</string>
+    <key>boxDownHeavyAndLeftUpLight.stypo</key>
+    <string>boxD_ownH_eavyA_ndL_eftU_pL_ight.stypo.glif</string>
     <key>boxDownHeavyAndRightLight</key>
     <string>boxD_ownH_eavyA_ndR_ightL_ight.glif</string>
+    <key>boxDownHeavyAndRightLight.stypo</key>
+    <string>boxD_ownH_eavyA_ndR_ightL_ight.stypo.glif</string>
     <key>boxDownHeavyAndRightUpLight</key>
     <string>boxD_ownH_eavyA_ndR_ightU_pL_ight.glif</string>
+    <key>boxDownHeavyAndRightUpLight.stypo</key>
+    <string>boxD_ownH_eavyA_ndR_ightU_pL_ight.stypo.glif</string>
     <key>boxDownHeavyAndUpHorizontalLight</key>
     <string>boxD_ownH_eavyA_ndU_pH_orizontalL_ight.glif</string>
+    <key>boxDownHeavyAndUpHorizontalLight.stypo</key>
+    <string>boxD_ownH_eavyA_ndU_pH_orizontalL_ight.stypo.glif</string>
     <key>boxDownLightAndHorizontalHeavy</key>
     <string>boxD_ownL_ightA_ndH_orizontalH_eavy.glif</string>
+    <key>boxDownLightAndHorizontalHeavy.stypo</key>
+    <string>boxD_ownL_ightA_ndH_orizontalH_eavy.stypo.glif</string>
     <key>boxDownLightAndLeftHeavy</key>
     <string>boxD_ownL_ightA_ndL_eftH_eavy.glif</string>
+    <key>boxDownLightAndLeftHeavy.stypo</key>
+    <string>boxD_ownL_ightA_ndL_eftH_eavy.stypo.glif</string>
     <key>boxDownLightAndLeftUpHeavy</key>
     <string>boxD_ownL_ightA_ndL_eftU_pH_eavy.glif</string>
+    <key>boxDownLightAndLeftUpHeavy.stypo</key>
+    <string>boxD_ownL_ightA_ndL_eftU_pH_eavy.stypo.glif</string>
     <key>boxDownLightAndRightHeavy</key>
     <string>boxD_ownL_ightA_ndR_ightH_eavy.glif</string>
+    <key>boxDownLightAndRightHeavy.stypo</key>
+    <string>boxD_ownL_ightA_ndR_ightH_eavy.stypo.glif</string>
     <key>boxDownLightAndRightUpHeavy</key>
     <string>boxD_ownL_ightA_ndR_ightU_pH_eavy.glif</string>
+    <key>boxDownLightAndRightUpHeavy.stypo</key>
+    <string>boxD_ownL_ightA_ndR_ightU_pH_eavy.stypo.glif</string>
     <key>boxDownLightAndUpHorizontalHeavy</key>
     <string>boxD_ownL_ightA_ndU_pH_orizontalH_eavy.glif</string>
+    <key>boxDownLightAndUpHorizontalHeavy.stypo</key>
+    <string>boxD_ownL_ightA_ndU_pH_orizontalH_eavy.stypo.glif</string>
     <key>boxDownSingleAndHorizontalDouble</key>
     <string>boxD_ownS_ingleA_ndH_orizontalD_ouble.glif</string>
+    <key>boxDownSingleAndHorizontalDouble.stypo</key>
+    <string>boxD_ownS_ingleA_ndH_orizontalD_ouble.stypo.glif</string>
     <key>boxDownSingleAndLeftDouble</key>
     <string>boxD_ownS_ingleA_ndL_eftD_ouble.glif</string>
+    <key>boxDownSingleAndLeftDouble.stypo</key>
+    <string>boxD_ownS_ingleA_ndL_eftD_ouble.stypo.glif</string>
     <key>boxDownSingleAndRightDouble</key>
     <string>boxD_ownS_ingleA_ndR_ightD_ouble.glif</string>
+    <key>boxDownSingleAndRightDouble.stypo</key>
+    <string>boxD_ownS_ingleA_ndR_ightD_ouble.stypo.glif</string>
     <key>boxHeavyDoubleDashHorizontal</key>
     <string>boxH_eavyD_oubleD_ashH_orizontal.glif</string>
+    <key>boxHeavyDoubleDashHorizontal.stypo</key>
+    <string>boxH_eavyD_oubleD_ashH_orizontal.stypo.glif</string>
     <key>boxHeavyDoubleDashVertical</key>
     <string>boxH_eavyD_oubleD_ashV_ertical.glif</string>
+    <key>boxHeavyDoubleDashVertical.stypo</key>
+    <string>boxH_eavyD_oubleD_ashV_ertical.stypo.glif</string>
     <key>boxHeavyDown</key>
     <string>boxH_eavyD_own.glif</string>
+    <key>boxHeavyDown.stypo</key>
+    <string>boxH_eavyD_own.stypo.glif</string>
     <key>boxHeavyDownAndHorizontal</key>
     <string>boxH_eavyD_ownA_ndH_orizontal.glif</string>
+    <key>boxHeavyDownAndHorizontal.stypo</key>
+    <string>boxH_eavyD_ownA_ndH_orizontal.stypo.glif</string>
     <key>boxHeavyDownAndLeft</key>
     <string>boxH_eavyD_ownA_ndL_eft.glif</string>
+    <key>boxHeavyDownAndLeft.stypo</key>
+    <string>boxH_eavyD_ownA_ndL_eft.stypo.glif</string>
     <key>boxHeavyDownAndRight</key>
     <string>boxH_eavyD_ownA_ndR_ight.glif</string>
+    <key>boxHeavyDownAndRight.stypo</key>
+    <string>boxH_eavyD_ownA_ndR_ight.stypo.glif</string>
     <key>boxHeavyHorizontal</key>
     <string>boxH_eavyH_orizontal.glif</string>
+    <key>boxHeavyHorizontal.stypo</key>
+    <string>boxH_eavyH_orizontal.stypo.glif</string>
     <key>boxHeavyLeft</key>
     <string>boxH_eavyL_eft.glif</string>
+    <key>boxHeavyLeft.stypo</key>
+    <string>boxH_eavyL_eft.stypo.glif</string>
     <key>boxHeavyLeftAndLightRight</key>
     <string>boxH_eavyL_eftA_ndL_ightR_ight.glif</string>
+    <key>boxHeavyLeftAndLightRight.stypo</key>
+    <string>boxH_eavyL_eftA_ndL_ightR_ight.stypo.glif</string>
     <key>boxHeavyQuadrupleDashHorizontal</key>
     <string>boxH_eavyQ_uadrupleD_ashH_orizontal.glif</string>
+    <key>boxHeavyQuadrupleDashHorizontal.stypo</key>
+    <string>boxH_eavyQ_uadrupleD_ashH_orizontal.stypo.glif</string>
     <key>boxHeavyQuadrupleDashVertical</key>
     <string>boxH_eavyQ_uadrupleD_ashV_ertical.glif</string>
+    <key>boxHeavyQuadrupleDashVertical.stypo</key>
+    <string>boxH_eavyQ_uadrupleD_ashV_ertical.stypo.glif</string>
     <key>boxHeavyRight</key>
     <string>boxH_eavyR_ight.glif</string>
+    <key>boxHeavyRight.stypo</key>
+    <string>boxH_eavyR_ight.stypo.glif</string>
     <key>boxHeavyTripleDashHorizontal</key>
     <string>boxH_eavyT_ripleD_ashH_orizontal.glif</string>
+    <key>boxHeavyTripleDashHorizontal.stypo</key>
+    <string>boxH_eavyT_ripleD_ashH_orizontal.stypo.glif</string>
     <key>boxHeavyTripleDashVertical</key>
     <string>boxH_eavyT_ripleD_ashV_ertical.glif</string>
+    <key>boxHeavyTripleDashVertical.stypo</key>
+    <string>boxH_eavyT_ripleD_ashV_ertical.stypo.glif</string>
     <key>boxHeavyUp</key>
     <string>boxH_eavyU_p.glif</string>
+    <key>boxHeavyUp.stypo</key>
+    <string>boxH_eavyU_p.stypo.glif</string>
     <key>boxHeavyUpAndHorizontal</key>
     <string>boxH_eavyU_pA_ndH_orizontal.glif</string>
+    <key>boxHeavyUpAndHorizontal.stypo</key>
+    <string>boxH_eavyU_pA_ndH_orizontal.stypo.glif</string>
     <key>boxHeavyUpAndLeft</key>
     <string>boxH_eavyU_pA_ndL_eft.glif</string>
+    <key>boxHeavyUpAndLeft.stypo</key>
+    <string>boxH_eavyU_pA_ndL_eft.stypo.glif</string>
     <key>boxHeavyUpAndLightDown</key>
     <string>boxH_eavyU_pA_ndL_ightD_own.glif</string>
+    <key>boxHeavyUpAndLightDown.stypo</key>
+    <string>boxH_eavyU_pA_ndL_ightD_own.stypo.glif</string>
     <key>boxHeavyUpAndRight</key>
     <string>boxH_eavyU_pA_ndR_ight.glif</string>
+    <key>boxHeavyUpAndRight.stypo</key>
+    <string>boxH_eavyU_pA_ndR_ight.stypo.glif</string>
     <key>boxHeavyVertical</key>
     <string>boxH_eavyV_ertical.glif</string>
+    <key>boxHeavyVertical.stypo</key>
+    <string>boxH_eavyV_ertical.stypo.glif</string>
     <key>boxHeavyVerticalAndHorizontal</key>
     <string>boxH_eavyV_erticalA_ndH_orizontal.glif</string>
+    <key>boxHeavyVerticalAndHorizontal.stypo</key>
+    <string>boxH_eavyV_erticalA_ndH_orizontal.stypo.glif</string>
     <key>boxHeavyVerticalAndLeft</key>
     <string>boxH_eavyV_erticalA_ndL_eft.glif</string>
+    <key>boxHeavyVerticalAndLeft.stypo</key>
+    <string>boxH_eavyV_erticalA_ndL_eft.stypo.glif</string>
     <key>boxHeavyVerticalAndRight</key>
     <string>boxH_eavyV_erticalA_ndR_ight.glif</string>
+    <key>boxHeavyVerticalAndRight.stypo</key>
+    <string>boxH_eavyV_erticalA_ndR_ight.stypo.glif</string>
     <key>boxLeftDownHeavyAndRightUpLight</key>
     <string>boxL_eftD_ownH_eavyA_ndR_ightU_pL_ight.glif</string>
+    <key>boxLeftDownHeavyAndRightUpLight.stypo</key>
+    <string>boxL_eftD_ownH_eavyA_ndR_ightU_pL_ight.stypo.glif</string>
     <key>boxLeftHeavyAndRightDownLight</key>
     <string>boxL_eftH_eavyA_ndR_ightD_ownL_ight.glif</string>
+    <key>boxLeftHeavyAndRightDownLight.stypo</key>
+    <string>boxL_eftH_eavyA_ndR_ightD_ownL_ight.stypo.glif</string>
     <key>boxLeftHeavyAndRightUpLight</key>
     <string>boxL_eftH_eavyA_ndR_ightU_pL_ight.glif</string>
+    <key>boxLeftHeavyAndRightUpLight.stypo</key>
+    <string>boxL_eftH_eavyA_ndR_ightU_pL_ight.stypo.glif</string>
     <key>boxLeftHeavyAndRightVerticalLight</key>
     <string>boxL_eftH_eavyA_ndR_ightV_erticalL_ight.glif</string>
+    <key>boxLeftHeavyAndRightVerticalLight.stypo</key>
+    <string>boxL_eftH_eavyA_ndR_ightV_erticalL_ight.stypo.glif</string>
     <key>boxLeftLightAndRightDownHeavy</key>
     <string>boxL_eftL_ightA_ndR_ightD_ownH_eavy.glif</string>
+    <key>boxLeftLightAndRightDownHeavy.stypo</key>
+    <string>boxL_eftL_ightA_ndR_ightD_ownH_eavy.stypo.glif</string>
     <key>boxLeftLightAndRightUpHeavy</key>
     <string>boxL_eftL_ightA_ndR_ightU_pH_eavy.glif</string>
+    <key>boxLeftLightAndRightUpHeavy.stypo</key>
+    <string>boxL_eftL_ightA_ndR_ightU_pH_eavy.stypo.glif</string>
     <key>boxLeftLightAndRightVerticalHeavy</key>
     <string>boxL_eftL_ightA_ndR_ightV_erticalH_eavy.glif</string>
+    <key>boxLeftLightAndRightVerticalHeavy.stypo</key>
+    <string>boxL_eftL_ightA_ndR_ightV_erticalH_eavy.stypo.glif</string>
     <key>boxLeftUpHeavyAndRightDownLight</key>
     <string>boxL_eftU_pH_eavyA_ndR_ightD_ownL_ight.glif</string>
+    <key>boxLeftUpHeavyAndRightDownLight.stypo</key>
+    <string>boxL_eftU_pH_eavyA_ndR_ightD_ownL_ight.stypo.glif</string>
     <key>boxLightArcDownAndLeft</key>
     <string>boxL_ightA_rcD_ownA_ndL_eft.glif</string>
+    <key>boxLightArcDownAndLeft.stypo</key>
+    <string>boxL_ightA_rcD_ownA_ndL_eft.stypo.glif</string>
     <key>boxLightArcDownAndRight</key>
     <string>boxL_ightA_rcD_ownA_ndR_ight.glif</string>
+    <key>boxLightArcDownAndRight.stypo</key>
+    <string>boxL_ightA_rcD_ownA_ndR_ight.stypo.glif</string>
     <key>boxLightArcUpAndLeft</key>
     <string>boxL_ightA_rcU_pA_ndL_eft.glif</string>
+    <key>boxLightArcUpAndLeft.stypo</key>
+    <string>boxL_ightA_rcU_pA_ndL_eft.stypo.glif</string>
     <key>boxLightArcUpAndRight</key>
     <string>boxL_ightA_rcU_pA_ndR_ight.glif</string>
+    <key>boxLightArcUpAndRight.stypo</key>
+    <string>boxL_ightA_rcU_pA_ndR_ight.stypo.glif</string>
     <key>boxLightDiagonalCross</key>
     <string>boxL_ightD_iagonalC_ross.glif</string>
+    <key>boxLightDiagonalCross.stypo</key>
+    <string>boxL_ightD_iagonalC_ross.stypo.glif</string>
     <key>boxLightDiagonalUpperLeftToLowerRight</key>
     <string>boxL_ightD_iagonalU_pperL_eftT_oL_owerR_ight.glif</string>
+    <key>boxLightDiagonalUpperLeftToLowerRight.stypo</key>
+    <string>boxL_ightD_iagonalU_pperL_eftT_oL_owerR_ight.stypo.glif</string>
     <key>boxLightDiagonalUpperRightToLowerLeft</key>
     <string>boxL_ightD_iagonalU_pperR_ightT_oL_owerL_eft.glif</string>
+    <key>boxLightDiagonalUpperRightToLowerLeft.stypo</key>
+    <string>boxL_ightD_iagonalU_pperR_ightT_oL_owerL_eft.stypo.glif</string>
     <key>boxLightDoubleDashHorizontal</key>
     <string>boxL_ightD_oubleD_ashH_orizontal.glif</string>
+    <key>boxLightDoubleDashHorizontal.stypo</key>
+    <string>boxL_ightD_oubleD_ashH_orizontal.stypo.glif</string>
     <key>boxLightDoubleDashVertical</key>
     <string>boxL_ightD_oubleD_ashV_ertical.glif</string>
+    <key>boxLightDoubleDashVertical.stypo</key>
+    <string>boxL_ightD_oubleD_ashV_ertical.stypo.glif</string>
     <key>boxLightDown</key>
     <string>boxL_ightD_own.glif</string>
+    <key>boxLightDown.stypo</key>
+    <string>boxL_ightD_own.stypo.glif</string>
     <key>boxLightDownAndHorizontal</key>
     <string>boxL_ightD_ownA_ndH_orizontal.glif</string>
+    <key>boxLightDownAndHorizontal.stypo</key>
+    <string>boxL_ightD_ownA_ndH_orizontal.stypo.glif</string>
     <key>boxLightDownAndLeft</key>
     <string>boxL_ightD_ownA_ndL_eft.glif</string>
+    <key>boxLightDownAndLeft.stypo</key>
+    <string>boxL_ightD_ownA_ndL_eft.stypo.glif</string>
     <key>boxLightDownAndRight</key>
     <string>boxL_ightD_ownA_ndR_ight.glif</string>
+    <key>boxLightDownAndRight.stypo</key>
+    <string>boxL_ightD_ownA_ndR_ight.stypo.glif</string>
     <key>boxLightHorizontal</key>
     <string>boxL_ightH_orizontal.glif</string>
+    <key>boxLightHorizontal.stypo</key>
+    <string>boxL_ightH_orizontal.stypo.glif</string>
     <key>boxLightLeft</key>
     <string>boxL_ightL_eft.glif</string>
+    <key>boxLightLeft.stypo</key>
+    <string>boxL_ightL_eft.stypo.glif</string>
     <key>boxLightLeftAndHeavyRight</key>
     <string>boxL_ightL_eftA_ndH_eavyR_ight.glif</string>
+    <key>boxLightLeftAndHeavyRight.stypo</key>
+    <string>boxL_ightL_eftA_ndH_eavyR_ight.stypo.glif</string>
     <key>boxLightQuadrupleDashHorizontal</key>
     <string>boxL_ightQ_uadrupleD_ashH_orizontal.glif</string>
+    <key>boxLightQuadrupleDashHorizontal.stypo</key>
+    <string>boxL_ightQ_uadrupleD_ashH_orizontal.stypo.glif</string>
     <key>boxLightQuadrupleDashVertical</key>
     <string>boxL_ightQ_uadrupleD_ashV_ertical.glif</string>
+    <key>boxLightQuadrupleDashVertical.stypo</key>
+    <string>boxL_ightQ_uadrupleD_ashV_ertical.stypo.glif</string>
     <key>boxLightRight</key>
     <string>boxL_ightR_ight.glif</string>
+    <key>boxLightRight.stypo</key>
+    <string>boxL_ightR_ight.stypo.glif</string>
     <key>boxLightTripleDashHorizontal</key>
     <string>boxL_ightT_ripleD_ashH_orizontal.glif</string>
+    <key>boxLightTripleDashHorizontal.stypo</key>
+    <string>boxL_ightT_ripleD_ashH_orizontal.stypo.glif</string>
     <key>boxLightTripleDashVertical</key>
     <string>boxL_ightT_ripleD_ashV_ertical.glif</string>
+    <key>boxLightTripleDashVertical.stypo</key>
+    <string>boxL_ightT_ripleD_ashV_ertical.stypo.glif</string>
     <key>boxLightUp</key>
     <string>boxL_ightU_p.glif</string>
+    <key>boxLightUp.stypo</key>
+    <string>boxL_ightU_p.stypo.glif</string>
     <key>boxLightUpAndHeavyDown</key>
     <string>boxL_ightU_pA_ndH_eavyD_own.glif</string>
+    <key>boxLightUpAndHeavyDown.stypo</key>
+    <string>boxL_ightU_pA_ndH_eavyD_own.stypo.glif</string>
     <key>boxLightUpAndHorizontal</key>
     <string>boxL_ightU_pA_ndH_orizontal.glif</string>
+    <key>boxLightUpAndHorizontal.stypo</key>
+    <string>boxL_ightU_pA_ndH_orizontal.stypo.glif</string>
     <key>boxLightUpAndLeft</key>
     <string>boxL_ightU_pA_ndL_eft.glif</string>
+    <key>boxLightUpAndLeft.stypo</key>
+    <string>boxL_ightU_pA_ndL_eft.stypo.glif</string>
     <key>boxLightUpAndRight</key>
     <string>boxL_ightU_pA_ndR_ight.glif</string>
+    <key>boxLightUpAndRight.stypo</key>
+    <string>boxL_ightU_pA_ndR_ight.stypo.glif</string>
     <key>boxLightVertical</key>
     <string>boxL_ightV_ertical.glif</string>
+    <key>boxLightVertical.stypo</key>
+    <string>boxL_ightV_ertical.stypo.glif</string>
     <key>boxLightVerticalAndHorizontal</key>
     <string>boxL_ightV_erticalA_ndH_orizontal.glif</string>
+    <key>boxLightVerticalAndHorizontal.stypo</key>
+    <string>boxL_ightV_erticalA_ndH_orizontal.stypo.glif</string>
     <key>boxLightVerticalAndLeft</key>
     <string>boxL_ightV_erticalA_ndL_eft.glif</string>
+    <key>boxLightVerticalAndLeft.stypo</key>
+    <string>boxL_ightV_erticalA_ndL_eft.stypo.glif</string>
     <key>boxLightVerticalAndRight</key>
     <string>boxL_ightV_erticalA_ndR_ight.glif</string>
+    <key>boxLightVerticalAndRight.stypo</key>
+    <string>boxL_ightV_erticalA_ndR_ight.stypo.glif</string>
     <key>boxRightDownHeavyAndLeftUpLight</key>
     <string>boxR_ightD_ownH_eavyA_ndL_eftU_pL_ight.glif</string>
+    <key>boxRightDownHeavyAndLeftUpLight.stypo</key>
+    <string>boxR_ightD_ownH_eavyA_ndL_eftU_pL_ight.stypo.glif</string>
     <key>boxRightHeavyAndLeftDownLight</key>
     <string>boxR_ightH_eavyA_ndL_eftD_ownL_ight.glif</string>
+    <key>boxRightHeavyAndLeftDownLight.stypo</key>
+    <string>boxR_ightH_eavyA_ndL_eftD_ownL_ight.stypo.glif</string>
     <key>boxRightHeavyAndLeftUpLight</key>
     <string>boxR_ightH_eavyA_ndL_eftU_pL_ight.glif</string>
+    <key>boxRightHeavyAndLeftUpLight.stypo</key>
+    <string>boxR_ightH_eavyA_ndL_eftU_pL_ight.stypo.glif</string>
     <key>boxRightHeavyAndLeftVerticalLight</key>
     <string>boxR_ightH_eavyA_ndL_eftV_erticalL_ight.glif</string>
+    <key>boxRightHeavyAndLeftVerticalLight.stypo</key>
+    <string>boxR_ightH_eavyA_ndL_eftV_erticalL_ight.stypo.glif</string>
     <key>boxRightLightAndLeftDownHeavy</key>
     <string>boxR_ightL_ightA_ndL_eftD_ownH_eavy.glif</string>
+    <key>boxRightLightAndLeftDownHeavy.stypo</key>
+    <string>boxR_ightL_ightA_ndL_eftD_ownH_eavy.stypo.glif</string>
     <key>boxRightLightAndLeftUpHeavy</key>
     <string>boxR_ightL_ightA_ndL_eftU_pH_eavy.glif</string>
+    <key>boxRightLightAndLeftUpHeavy.stypo</key>
+    <string>boxR_ightL_ightA_ndL_eftU_pH_eavy.stypo.glif</string>
     <key>boxRightLightAndLeftVerticalHeavy</key>
     <string>boxR_ightL_ightA_ndL_eftV_erticalH_eavy.glif</string>
+    <key>boxRightLightAndLeftVerticalHeavy.stypo</key>
+    <string>boxR_ightL_ightA_ndL_eftV_erticalH_eavy.stypo.glif</string>
     <key>boxRightUpHeavyAndLeftDownLight</key>
     <string>boxR_ightU_pH_eavyA_ndL_eftD_ownL_ight.glif</string>
+    <key>boxRightUpHeavyAndLeftDownLight.stypo</key>
+    <string>boxR_ightU_pH_eavyA_ndL_eftD_ownL_ight.stypo.glif</string>
     <key>boxUpDoubleAndHorizontalSingle</key>
     <string>boxU_pD_oubleA_ndH_orizontalS_ingle.glif</string>
+    <key>boxUpDoubleAndHorizontalSingle.stypo</key>
+    <string>boxU_pD_oubleA_ndH_orizontalS_ingle.stypo.glif</string>
     <key>boxUpDoubleAndLeftSingle</key>
     <string>boxU_pD_oubleA_ndL_eftS_ingle.glif</string>
+    <key>boxUpDoubleAndLeftSingle.stypo</key>
+    <string>boxU_pD_oubleA_ndL_eftS_ingle.stypo.glif</string>
     <key>boxUpDoubleAndRightSingle</key>
     <string>boxU_pD_oubleA_ndR_ightS_ingle.glif</string>
+    <key>boxUpDoubleAndRightSingle.stypo</key>
+    <string>boxU_pD_oubleA_ndR_ightS_ingle.stypo.glif</string>
     <key>boxUpHeavyAndDownHorizontalLight</key>
     <string>boxU_pH_eavyA_ndD_ownH_orizontalL_ight.glif</string>
+    <key>boxUpHeavyAndDownHorizontalLight.stypo</key>
+    <string>boxU_pH_eavyA_ndD_ownH_orizontalL_ight.stypo.glif</string>
     <key>boxUpHeavyAndHorizontalLight</key>
     <string>boxU_pH_eavyA_ndH_orizontalL_ight.glif</string>
+    <key>boxUpHeavyAndHorizontalLight.stypo</key>
+    <string>boxU_pH_eavyA_ndH_orizontalL_ight.stypo.glif</string>
     <key>boxUpHeavyAndLeftDownLight</key>
     <string>boxU_pH_eavyA_ndL_eftD_ownL_ight.glif</string>
+    <key>boxUpHeavyAndLeftDownLight.stypo</key>
+    <string>boxU_pH_eavyA_ndL_eftD_ownL_ight.stypo.glif</string>
     <key>boxUpHeavyAndLeftLight</key>
     <string>boxU_pH_eavyA_ndL_eftL_ight.glif</string>
+    <key>boxUpHeavyAndLeftLight.stypo</key>
+    <string>boxU_pH_eavyA_ndL_eftL_ight.stypo.glif</string>
     <key>boxUpHeavyAndRightDownLight</key>
     <string>boxU_pH_eavyA_ndR_ightD_ownL_ight.glif</string>
+    <key>boxUpHeavyAndRightDownLight.stypo</key>
+    <string>boxU_pH_eavyA_ndR_ightD_ownL_ight.stypo.glif</string>
     <key>boxUpHeavyAndRightLight</key>
     <string>boxU_pH_eavyA_ndR_ightL_ight.glif</string>
+    <key>boxUpHeavyAndRightLight.stypo</key>
+    <string>boxU_pH_eavyA_ndR_ightL_ight.stypo.glif</string>
     <key>boxUpLightAndDownHorizontalHeavy</key>
     <string>boxU_pL_ightA_ndD_ownH_orizontalH_eavy.glif</string>
+    <key>boxUpLightAndDownHorizontalHeavy.stypo</key>
+    <string>boxU_pL_ightA_ndD_ownH_orizontalH_eavy.stypo.glif</string>
     <key>boxUpLightAndHorizontalHeavy</key>
     <string>boxU_pL_ightA_ndH_orizontalH_eavy.glif</string>
+    <key>boxUpLightAndHorizontalHeavy.stypo</key>
+    <string>boxU_pL_ightA_ndH_orizontalH_eavy.stypo.glif</string>
     <key>boxUpLightAndLeftDownHeavy</key>
     <string>boxU_pL_ightA_ndL_eftD_ownH_eavy.glif</string>
+    <key>boxUpLightAndLeftDownHeavy.stypo</key>
+    <string>boxU_pL_ightA_ndL_eftD_ownH_eavy.stypo.glif</string>
     <key>boxUpLightAndLeftHeavy</key>
     <string>boxU_pL_ightA_ndL_eftH_eavy.glif</string>
+    <key>boxUpLightAndLeftHeavy.stypo</key>
+    <string>boxU_pL_ightA_ndL_eftH_eavy.stypo.glif</string>
     <key>boxUpLightAndRightDownHeavy</key>
     <string>boxU_pL_ightA_ndR_ightD_ownH_eavy.glif</string>
+    <key>boxUpLightAndRightDownHeavy.stypo</key>
+    <string>boxU_pL_ightA_ndR_ightD_ownH_eavy.stypo.glif</string>
     <key>boxUpLightAndRightHeavy</key>
     <string>boxU_pL_ightA_ndR_ightH_eavy.glif</string>
+    <key>boxUpLightAndRightHeavy.stypo</key>
+    <string>boxU_pL_ightA_ndR_ightH_eavy.stypo.glif</string>
     <key>boxUpSingleAndHorizontalDouble</key>
     <string>boxU_pS_ingleA_ndH_orizontalD_ouble.glif</string>
+    <key>boxUpSingleAndHorizontalDouble.stypo</key>
+    <string>boxU_pS_ingleA_ndH_orizontalD_ouble.stypo.glif</string>
     <key>boxUpSingleAndLeftDouble</key>
     <string>boxU_pS_ingleA_ndL_eftD_ouble.glif</string>
+    <key>boxUpSingleAndLeftDouble.stypo</key>
+    <string>boxU_pS_ingleA_ndL_eftD_ouble.stypo.glif</string>
     <key>boxUpSingleAndRightDouble</key>
     <string>boxU_pS_ingleA_ndR_ightD_ouble.glif</string>
+    <key>boxUpSingleAndRightDouble.stypo</key>
+    <string>boxU_pS_ingleA_ndR_ightD_ouble.stypo.glif</string>
     <key>boxVerticalDoubleAndHorizontalSingle</key>
     <string>boxV_erticalD_oubleA_ndH_orizontalS_ingle.glif</string>
+    <key>boxVerticalDoubleAndHorizontalSingle.stypo</key>
+    <string>boxV_erticalD_oubleA_ndH_orizontalS_ingle.stypo.glif</string>
     <key>boxVerticalDoubleAndLeftSingle</key>
     <string>boxV_erticalD_oubleA_ndL_eftS_ingle.glif</string>
+    <key>boxVerticalDoubleAndLeftSingle.stypo</key>
+    <string>boxV_erticalD_oubleA_ndL_eftS_ingle.stypo.glif</string>
     <key>boxVerticalDoubleAndRightSingle</key>
     <string>boxV_erticalD_oubleA_ndR_ightS_ingle.glif</string>
+    <key>boxVerticalDoubleAndRightSingle.stypo</key>
+    <string>boxV_erticalD_oubleA_ndR_ightS_ingle.stypo.glif</string>
     <key>boxVerticalHeavyAndHorizontalLight</key>
     <string>boxV_erticalH_eavyA_ndH_orizontalL_ight.glif</string>
+    <key>boxVerticalHeavyAndHorizontalLight.stypo</key>
+    <string>boxV_erticalH_eavyA_ndH_orizontalL_ight.stypo.glif</string>
     <key>boxVerticalHeavyAndLeftLight</key>
     <string>boxV_erticalH_eavyA_ndL_eftL_ight.glif</string>
+    <key>boxVerticalHeavyAndLeftLight.stypo</key>
+    <string>boxV_erticalH_eavyA_ndL_eftL_ight.stypo.glif</string>
     <key>boxVerticalHeavyAndRightLight</key>
     <string>boxV_erticalH_eavyA_ndR_ightL_ight.glif</string>
+    <key>boxVerticalHeavyAndRightLight.stypo</key>
+    <string>boxV_erticalH_eavyA_ndR_ightL_ight.stypo.glif</string>
     <key>boxVerticalLightAndHorizontalHeavy</key>
     <string>boxV_erticalL_ightA_ndH_orizontalH_eavy.glif</string>
+    <key>boxVerticalLightAndHorizontalHeavy.stypo</key>
+    <string>boxV_erticalL_ightA_ndH_orizontalH_eavy.stypo.glif</string>
     <key>boxVerticalLightAndLeftHeavy</key>
     <string>boxV_erticalL_ightA_ndL_eftH_eavy.glif</string>
+    <key>boxVerticalLightAndLeftHeavy.stypo</key>
+    <string>boxV_erticalL_ightA_ndL_eftH_eavy.stypo.glif</string>
     <key>boxVerticalLightAndRightHeavy</key>
     <string>boxV_erticalL_ightA_ndR_ightH_eavy.glif</string>
+    <key>boxVerticalLightAndRightHeavy.stypo</key>
+    <string>boxV_erticalL_ightA_ndR_ightH_eavy.stypo.glif</string>
     <key>boxVerticalSingleAndHorizontalDouble</key>
     <string>boxV_erticalS_ingleA_ndH_orizontalD_ouble.glif</string>
+    <key>boxVerticalSingleAndHorizontalDouble.stypo</key>
+    <string>boxV_erticalS_ingleA_ndH_orizontalD_ouble.stypo.glif</string>
     <key>boxVerticalSingleAndLeftDouble</key>
     <string>boxV_erticalS_ingleA_ndL_eftD_ouble.glif</string>
+    <key>boxVerticalSingleAndLeftDouble.stypo</key>
+    <string>boxV_erticalS_ingleA_ndL_eftD_ouble.stypo.glif</string>
     <key>boxVerticalSingleAndRightDouble</key>
     <string>boxV_erticalS_ingleA_ndR_ightD_ouble.glif</string>
+    <key>boxVerticalSingleAndRightDouble.stypo</key>
+    <string>boxV_erticalS_ingleA_ndR_ightD_ouble.stypo.glif</string>
     <key>braceleft</key>
     <string>braceleft.glif</string>
     <key>braceleft_bar.liga</key>
@@ -1306,6 +1996,8 @@
     <string>colontriangularmod.glif</string>
     <key>comma</key>
     <string>comma.glif</string>
+    <key>comma-ar</key>
+    <string>comma-ar.glif</string>
     <key>commaabovecomb</key>
     <string>commaabovecomb.glif</string>
     <key>commaaboverightcomb</key>
@@ -1320,30 +2012,122 @@
     <string>copyright.glif</string>
     <key>crosshatchFillSquare</key>
     <string>crosshatchF_illS_quare.glif</string>
+    <key>cuberoot-ar</key>
+    <string>cuberoot-ar.glif</string>
     <key>currency</key>
     <string>currency.glif</string>
     <key>d</key>
     <string>d.glif</string>
+    <key>dad-ar</key>
+    <string>dad-ar.glif</string>
+    <key>dad-ar.alt</key>
+    <string>dad-ar.alt.glif</string>
+    <key>dad-ar.fina</key>
+    <string>dad-ar.fina.glif</string>
+    <key>dad-ar.fina.alt</key>
+    <string>dad-ar.fina.alt.glif</string>
+    <key>dad-ar.init</key>
+    <string>dad-ar.init.glif</string>
+    <key>dad-ar.medi</key>
+    <string>dad-ar.medi.glif</string>
+    <key>dadDotbelow-ar</key>
+    <string>dadD_otbelow-ar.glif</string>
+    <key>dadDotbelow-ar.alt</key>
+    <string>dadD_otbelow-ar.alt.glif</string>
+    <key>dadDotbelow-ar.fina</key>
+    <string>dadD_otbelow-ar.fina.glif</string>
+    <key>dadDotbelow-ar.fina.alt</key>
+    <string>dadD_otbelow-ar.fina.alt.glif</string>
+    <key>dadDotbelow-ar.init</key>
+    <string>dadD_otbelow-ar.init.glif</string>
+    <key>dadDotbelow-ar.medi</key>
+    <string>dadD_otbelow-ar.medi.glif</string>
+    <key>dagesh-hb</key>
+    <string>dagesh-hb.glif</string>
     <key>dagger</key>
     <string>dagger.glif</string>
     <key>daggerdbl</key>
     <string>daggerdbl.glif</string>
+    <key>dahal-ar</key>
+    <string>dahal-ar.glif</string>
+    <key>dahal-ar.fina</key>
+    <string>dahal-ar.fina.glif</string>
+    <key>dal-ar</key>
+    <string>dal-ar.glif</string>
+    <key>dal-ar.fina</key>
+    <string>dal-ar.fina.glif</string>
+    <key>dalDotbelow-ar</key>
+    <string>dalD_otbelow-ar.glif</string>
+    <key>dalDotbelow-ar.fina</key>
+    <string>dalD_otbelow-ar.fina.glif</string>
+    <key>dalDotbelowTah-ar</key>
+    <string>dalD_otbelowT_ah-ar.glif</string>
+    <key>dalDotbelowTah-ar.fina</key>
+    <string>dalD_otbelowT_ah-ar.fina.glif</string>
+    <key>dalFourdots-ar</key>
+    <string>dalF_ourdots-ar.glif</string>
+    <key>dalFourdots-ar.fina</key>
+    <string>dalF_ourdots-ar.fina.glif</string>
+    <key>dalRing-ar</key>
+    <string>dalR_ing-ar.glif</string>
+    <key>dalRing-ar.fina</key>
+    <string>dalR_ing-ar.fina.glif</string>
+    <key>dalThreedotsbelow-ar</key>
+    <string>dalT_hreedotsbelow-ar.glif</string>
+    <key>dalThreedotsbelow-ar.fina</key>
+    <string>dalT_hreedotsbelow-ar.fina.glif</string>
+    <key>dalThreedotsdown-ar</key>
+    <string>dalT_hreedotsdown-ar.glif</string>
+    <key>dalThreedotsdown-ar.fina</key>
+    <string>dalT_hreedotsdown-ar.fina.glif</string>
+    <key>dalTwodotsverticalbelowTahabove-ar</key>
+    <string>dalT_wodotsverticalbelowT_ahabove-ar.glif</string>
+    <key>dalTwodotsverticalbelowTahabove-ar.fina</key>
+    <string>dalT_wodotsverticalbelowT_ahabove-ar.fina.glif</string>
+    <key>dalVinvertedabove-ar</key>
+    <string>dalV_invertedabove-ar.glif</string>
+    <key>dalVinvertedabove-ar.fina</key>
+    <string>dalV_invertedabove-ar.fina.glif</string>
+    <key>dalVinvertedbelow-ar</key>
+    <string>dalV_invertedbelow-ar.glif</string>
+    <key>dalVinvertedbelow-ar.fina</key>
+    <string>dalV_invertedbelow-ar.fina.glif</string>
+    <key>dalet-hb</key>
+    <string>dalet-hb.glif</string>
+    <key>daletdagesh-hb</key>
+    <string>daletdagesh-hb.glif</string>
+    <key>damma-ar</key>
+    <string>damma-ar.glif</string>
+    <key>dammatan-ar</key>
+    <string>dammatan-ar.glif</string>
     <key>dashdownArrow</key>
     <string>dashdownA_rrow.glif</string>
     <key>dataLinkEscapeControl</key>
     <string>dataL_inkE_scapeC_ontrol.glif</string>
     <key>dataLinkEscapeControl.ss20</key>
     <string>dataL_inkE_scapeC_ontrol.ss20.glif</string>
+    <key>dateseparator-ar</key>
+    <string>dateseparator-ar.glif</string>
     <key>dcaron</key>
     <string>dcaron.glif</string>
     <key>dcaron.alt</key>
     <string>dcaron.alt.glif</string>
     <key>dcroat</key>
     <string>dcroat.glif</string>
+    <key>ddahal-ar</key>
+    <string>ddahal-ar.glif</string>
+    <key>ddahal-ar.fina</key>
+    <string>ddahal-ar.fina.glif</string>
+    <key>ddal-ar</key>
+    <string>ddal-ar.glif</string>
+    <key>ddal-ar.fina</key>
+    <string>ddal-ar.fina.glif</string>
     <key>de-cy</key>
     <string>de-cy.glif</string>
     <key>de-cy.loclBGR</key>
     <string>de-cy.loclB_G_R_.glif</string>
+    <key>decimalseparator-ar</key>
+    <string>decimalseparator-ar.glif</string>
     <key>degree</key>
     <string>degree.glif</string>
     <key>deleteControl</key>
@@ -1388,14 +2172,20 @@
     <string>dollar_greater.liga.B_R_A_C_K_E_T_.600.glif</string>
     <key>dong</key>
     <string>dong.glif</string>
+    <key>dotabove-ar</key>
+    <string>dotabove-ar.glif</string>
     <key>dotaccent</key>
     <string>dotaccent.glif</string>
     <key>dotaccentcomb</key>
     <string>dotaccentcomb.glif</string>
     <key>dotaccentcomb.case</key>
     <string>dotaccentcomb.case.glif</string>
+    <key>dotbelow-ar</key>
+    <string>dotbelow-ar.glif</string>
     <key>dotbelowcomb</key>
     <string>dotbelowcomb.glif</string>
+    <key>dotcenter-ar</key>
+    <string>dotcenter-ar.glif</string>
     <key>dots1-braille</key>
     <string>dots1-braille.glif</string>
     <key>dots12-braille</key>
@@ -1910,6 +2700,8 @@
     <string>dottedC_ircle.glif</string>
     <key>dottedSquare</key>
     <string>dottedS_quare.glif</string>
+    <key>doubleverticalbarbelowSymbol-ar</key>
+    <string>doubleverticalbarbelowS_ymbol-ar.glif</string>
     <key>downArrow</key>
     <string>downA_rrow.glif</string>
     <key>downBlackSmallTriangle</key>
@@ -1922,12 +2714,34 @@
     <string>downW_hiteS_mallT_riangle.glif</string>
     <key>downWhiteTriangle</key>
     <string>downW_hiteT_riangle.glif</string>
+    <key>dul-ar</key>
+    <string>dul-ar.glif</string>
+    <key>dul-ar.fina</key>
+    <string>dul-ar.fina.glif</string>
+    <key>dyeh-ar</key>
+    <string>dyeh-ar.glif</string>
+    <key>dyeh-ar.fina</key>
+    <string>dyeh-ar.fina.glif</string>
+    <key>dyeh-ar.init</key>
+    <string>dyeh-ar.init.glif</string>
+    <key>dyeh-ar.medi</key>
+    <string>dyeh-ar.medi.glif</string>
     <key>dze-cy</key>
     <string>dze-cy.glif</string>
     <key>dzhe-cy</key>
     <string>dzhe-cy.glif</string>
     <key>e</key>
     <string>e.glif</string>
+    <key>e-ar</key>
+    <string>e-ar.glif</string>
+    <key>e-ar.fina</key>
+    <string>e-ar.fina.glif</string>
+    <key>e-ar.init</key>
+    <string>e-ar.init.glif</string>
+    <key>e-ar.init.alt</key>
+    <string>e-ar.init.alt.glif</string>
+    <key>e-ar.medi</key>
+    <string>e-ar.medi.glif</string>
     <key>e-cy</key>
     <string>e-cy.glif</string>
     <key>eacute</key>
@@ -1962,6 +2776,18 @@
     <string>ehookabove.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
+    <key>eight-ar</key>
+    <string>eight-ar.glif</string>
+    <key>eight-arinferior</key>
+    <string>eight-arinferior.glif</string>
+    <key>eight-arsuperior</key>
+    <string>eight-arsuperior.glif</string>
+    <key>eight-persian</key>
+    <string>eight-persian.glif</string>
+    <key>eight-persianinferior</key>
+    <string>eight-persianinferior.glif</string>
+    <key>eight-persiansuperior</key>
+    <string>eight-persiansuperior.glif</string>
     <key>eight.dnom</key>
     <string>eight.dnom.glif</string>
     <key>eight.numr</key>
@@ -2004,6 +2830,8 @@
     <string>endash.glif</string>
     <key>endescender-cy</key>
     <string>endescender-cy.glif</string>
+    <key>endofayah-ar</key>
+    <string>endofayah-ar.glif</string>
     <key>eng</key>
     <string>eng.glif</string>
     <key>enquiryControl</key>
@@ -2026,6 +2854,10 @@
     <string>equal_equal.liga.glif</string>
     <key>equal_equal_equal.liga</key>
     <string>equal_equal_equal.liga.glif</string>
+    <key>equal_greater_greater.liga</key>
+    <string>equal_greater_greater.liga.glif</string>
+    <key>equal_less_less.liga</key>
+    <string>equal_less_less.liga.glif</string>
     <key>equal_middle.seq</key>
     <string>equal_middle.seq.glif</string>
     <key>equal_start.seq</key>
@@ -2084,24 +2916,144 @@
     <string>ezh.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>fatha-ar</key>
+    <string>fatha-ar.glif</string>
+    <key>fathatan-ar</key>
+    <string>fathatan-ar.glif</string>
+    <key>feh-ar</key>
+    <string>feh-ar.glif</string>
+    <key>feh-ar.alt</key>
+    <string>feh-ar.alt.glif</string>
+    <key>feh-ar.fina</key>
+    <string>feh-ar.fina.glif</string>
+    <key>feh-ar.fina.alt</key>
+    <string>feh-ar.fina.alt.glif</string>
+    <key>feh-ar.init</key>
+    <string>feh-ar.init.glif</string>
+    <key>feh-ar.medi</key>
+    <string>feh-ar.medi.glif</string>
+    <key>fehDotMovedbelow-ar</key>
+    <string>fehD_otM_ovedbelow-ar.glif</string>
+    <key>fehDotMovedbelow-ar.alt</key>
+    <string>fehD_otM_ovedbelow-ar.alt.glif</string>
+    <key>fehDotbelow-ar</key>
+    <string>fehD_otbelow-ar.glif</string>
+    <key>fehDotbelow-ar.alt</key>
+    <string>fehD_otbelow-ar.alt.glif</string>
+    <key>fehDotbelow-ar.fina</key>
+    <string>fehD_otbelow-ar.fina.glif</string>
+    <key>fehDotbelow-ar.fina.alt</key>
+    <string>fehD_otbelow-ar.fina.alt.glif</string>
+    <key>fehDotbelow-ar.init</key>
+    <string>fehD_otbelow-ar.init.glif</string>
+    <key>fehDotbelow-ar.medi</key>
+    <string>fehD_otbelow-ar.medi.glif</string>
+    <key>fehDotbelowThreedotsabove-ar</key>
+    <string>fehD_otbelowT_hreedotsabove-ar.glif</string>
+    <key>fehDotbelowThreedotsabove-ar.alt</key>
+    <string>fehD_otbelowT_hreedotsabove-ar.alt.glif</string>
+    <key>fehDotbelowThreedotsabove-ar.fina</key>
+    <string>fehD_otbelowT_hreedotsabove-ar.fina.glif</string>
+    <key>fehDotbelowThreedotsabove-ar.fina.alt</key>
+    <string>fehD_otbelowT_hreedotsabove-ar.fina.alt.glif</string>
+    <key>fehDotbelowThreedotsabove-ar.init</key>
+    <string>fehD_otbelowT_hreedotsabove-ar.init.glif</string>
+    <key>fehDotbelowThreedotsabove-ar.medi</key>
+    <string>fehD_otbelowT_hreedotsabove-ar.medi.glif</string>
+    <key>fehDotless-ar</key>
+    <string>fehD_otless-ar.glif</string>
+    <key>fehDotless-ar.alt</key>
+    <string>fehD_otless-ar.alt.glif</string>
+    <key>fehDotless-ar.fina</key>
+    <string>fehD_otless-ar.fina.glif</string>
+    <key>fehDotless-ar.fina.alt</key>
+    <string>fehD_otless-ar.fina.alt.glif</string>
+    <key>fehDotless-ar.init</key>
+    <string>fehD_otless-ar.init.glif</string>
+    <key>fehDotless-ar.medi</key>
+    <string>fehD_otless-ar.medi.glif</string>
+    <key>fehThreedotsbelow-ar</key>
+    <string>fehT_hreedotsbelow-ar.glif</string>
+    <key>fehThreedotsbelow-ar.alt</key>
+    <string>fehT_hreedotsbelow-ar.alt.glif</string>
+    <key>fehThreedotsbelow-ar.fina</key>
+    <string>fehT_hreedotsbelow-ar.fina.glif</string>
+    <key>fehThreedotsbelow-ar.fina.alt</key>
+    <string>fehT_hreedotsbelow-ar.fina.alt.glif</string>
+    <key>fehThreedotsbelow-ar.init</key>
+    <string>fehT_hreedotsbelow-ar.init.glif</string>
+    <key>fehThreedotsbelow-ar.medi</key>
+    <string>fehT_hreedotsbelow-ar.medi.glif</string>
+    <key>fehThreedotsupbelow-ar</key>
+    <string>fehT_hreedotsupbelow-ar.glif</string>
+    <key>fehThreedotsupbelow-ar.alt</key>
+    <string>fehT_hreedotsupbelow-ar.alt.glif</string>
+    <key>fehThreedotsupbelow-ar.fina</key>
+    <string>fehT_hreedotsupbelow-ar.fina.glif</string>
+    <key>fehThreedotsupbelow-ar.fina.alt</key>
+    <string>fehT_hreedotsupbelow-ar.fina.alt.glif</string>
+    <key>fehThreedotsupbelow-ar.init</key>
+    <string>fehT_hreedotsupbelow-ar.init.glif</string>
+    <key>fehThreedotsupbelow-ar.medi</key>
+    <string>fehT_hreedotsupbelow-ar.medi.glif</string>
+    <key>fehTwodotsbelow-ar</key>
+    <string>fehT_wodotsbelow-ar.glif</string>
+    <key>fehTwodotsbelow-ar.alt</key>
+    <string>fehT_wodotsbelow-ar.alt.glif</string>
+    <key>fehTwodotsbelow-ar.fina</key>
+    <string>fehT_wodotsbelow-ar.fina.glif</string>
+    <key>fehTwodotsbelow-ar.fina.alt</key>
+    <string>fehT_wodotsbelow-ar.fina.alt.glif</string>
+    <key>fehTwodotsbelow-ar.init</key>
+    <string>fehT_wodotsbelow-ar.init.glif</string>
+    <key>fehTwodotsbelow-ar.medi</key>
+    <string>fehT_wodotsbelow-ar.medi.glif</string>
     <key>fi</key>
     <string>fi.glif</string>
     <key>fileSeparatorControl</key>
     <string>fileS_eparatorC_ontrol.glif</string>
     <key>filledRect</key>
     <string>filledR_ect.glif</string>
+    <key>finalkaf-hb</key>
+    <string>finalkaf-hb.glif</string>
+    <key>finalkafdagesh-hb</key>
+    <string>finalkafdagesh-hb.glif</string>
+    <key>finalmem-hb</key>
+    <string>finalmem-hb.glif</string>
+    <key>finalnun-hb</key>
+    <string>finalnun-hb.glif</string>
+    <key>finalpe-hb</key>
+    <string>finalpe-hb.glif</string>
+    <key>finalpedagesh-hb</key>
+    <string>finalpedagesh-hb.glif</string>
+    <key>finaltsadi-hb</key>
+    <string>finaltsadi-hb.glif</string>
     <key>firsttonechinese</key>
     <string>firsttonechinese.glif</string>
     <key>fisheye</key>
     <string>fisheye.glif</string>
     <key>five</key>
     <string>five.glif</string>
+    <key>five-ar</key>
+    <string>five-ar.glif</string>
+    <key>five-arinferior</key>
+    <string>five-arinferior.glif</string>
+    <key>five-arsuperior</key>
+    <string>five-arsuperior.glif</string>
+    <key>five-persian</key>
+    <string>five-persian.glif</string>
+    <key>five-persianinferior</key>
+    <string>five-persianinferior.glif</string>
+    <key>five-persiansuperior</key>
+    <string>five-persiansuperior.glif</string>
     <key>five.dnom</key>
     <string>five.dnom.glif</string>
     <key>five.numr</key>
     <string>five.numr.glif</string>
     <key>fiveeighths</key>
     <string>fiveeighths.glif</string>
+    <key>fiveeighths.BRACKET.500</key>
+    <string>fiveeighths.B_R_A_C_K_E_T_.500.glif</string>
     <key>fiveinferior</key>
     <string>fiveinferior.glif</string>
     <key>fivesuperior</key>
@@ -2110,22 +3062,56 @@
     <string>fl.glif</string>
     <key>florin</key>
     <string>florin.glif</string>
+    <key>footnotemarker-ar</key>
+    <string>footnotemarker-ar.glif</string>
     <key>formFeedControl</key>
     <string>formF_eedC_ontrol.glif</string>
     <key>formFeedControl.ss20</key>
     <string>formF_eedC_ontrol.ss20.glif</string>
     <key>four</key>
     <string>four.glif</string>
+    <key>four-ar</key>
+    <string>four-ar.glif</string>
+    <key>four-arinferior</key>
+    <string>four-arinferior.glif</string>
+    <key>four-arsuperior</key>
+    <string>four-arsuperior.glif</string>
+    <key>four-persian</key>
+    <string>four-persian.glif</string>
+    <key>four-persian.small01</key>
+    <string>four-persian.small01.glif</string>
+    <key>four-persian.urdu</key>
+    <string>four-persian.urdu.glif</string>
+    <key>four-persian.urduinferior</key>
+    <string>four-persian.urduinferior.glif</string>
+    <key>four-persian.urdusuperior</key>
+    <string>four-persian.urdusuperior.glif</string>
+    <key>four-persianbelow-ar</key>
+    <string>four-persianbelow-ar.glif</string>
+    <key>four-persiancenter-ar</key>
+    <string>four-persiancenter-ar.glif</string>
+    <key>four-persianinferior</key>
+    <string>four-persianinferior.glif</string>
+    <key>four-persiansuperior</key>
+    <string>four-persiansuperior.glif</string>
     <key>four.dnom</key>
     <string>four.dnom.glif</string>
     <key>four.half</key>
     <string>four.half.glif</string>
     <key>four.numr</key>
     <string>four.numr.glif</string>
+    <key>fourdotsabove-ar</key>
+    <string>fourdotsabove-ar.glif</string>
+    <key>fourdotsbelow-ar</key>
+    <string>fourdotsbelow-ar.glif</string>
+    <key>fourdotscenter-ar</key>
+    <string>fourdotscenter-ar.glif</string>
     <key>fourinferior</key>
     <string>fourinferior.glif</string>
     <key>foursuperior</key>
     <string>foursuperior.glif</string>
+    <key>fourthroot-ar</key>
+    <string>fourthroot-ar.glif</string>
     <key>fraction</key>
     <string>fraction.glif</string>
     <key>franc</key>
@@ -2134,8 +3120,52 @@
     <string>fullB_lock.glif</string>
     <key>fullBlock.stypo</key>
     <string>fullB_lock.stypo.glif</string>
+    <key>fullstop-ar</key>
+    <string>fullstop-ar.glif</string>
     <key>g</key>
     <string>g.glif</string>
+    <key>gaf-ar</key>
+    <string>gaf-ar.glif</string>
+    <key>gaf-ar.fina</key>
+    <string>gaf-ar.fina.glif</string>
+    <key>gaf-ar.init</key>
+    <string>gaf-ar.init.glif</string>
+    <key>gaf-ar.medi</key>
+    <string>gaf-ar.medi.glif</string>
+    <key>gafInvertedstroke-ar</key>
+    <string>gafI_nvertedstroke-ar.glif</string>
+    <key>gafInvertedstroke-ar.fina</key>
+    <string>gafI_nvertedstroke-ar.fina.glif</string>
+    <key>gafInvertedstroke-ar.init</key>
+    <string>gafI_nvertedstroke-ar.init.glif</string>
+    <key>gafInvertedstroke-ar.medi</key>
+    <string>gafI_nvertedstroke-ar.medi.glif</string>
+    <key>gafRing-ar</key>
+    <string>gafR_ing-ar.glif</string>
+    <key>gafRing-ar.fina</key>
+    <string>gafR_ing-ar.fina.glif</string>
+    <key>gafRing-ar.init</key>
+    <string>gafR_ing-ar.init.glif</string>
+    <key>gafRing-ar.medi</key>
+    <string>gafR_ing-ar.medi.glif</string>
+    <key>gafThreedots-ar</key>
+    <string>gafT_hreedots-ar.glif</string>
+    <key>gafThreedots-ar.fina</key>
+    <string>gafT_hreedots-ar.fina.glif</string>
+    <key>gafThreedots-ar.init</key>
+    <string>gafT_hreedots-ar.init.glif</string>
+    <key>gafThreedots-ar.medi</key>
+    <string>gafT_hreedots-ar.medi.glif</string>
+    <key>gafTwodotsbelow-ar</key>
+    <string>gafT_wodotsbelow-ar.glif</string>
+    <key>gafTwodotsbelow-ar.fina</key>
+    <string>gafT_wodotsbelow-ar.fina.glif</string>
+    <key>gafTwodotsbelow-ar.init</key>
+    <string>gafT_wodotsbelow-ar.init.glif</string>
+    <key>gafTwodotsbelow-ar.medi</key>
+    <string>gafT_wodotsbelow-ar.medi.glif</string>
+    <key>gafsarkashabove-ar</key>
+    <string>gafsarkashabove-ar.glif</string>
     <key>gamma</key>
     <string>gamma.glif</string>
     <key>gamma-latin</key>
@@ -2156,10 +3186,30 @@
     <string>ge-cy.loclB_G_R_.glif</string>
     <key>germandbls</key>
     <string>germandbls.glif</string>
+    <key>ghain-ar</key>
+    <string>ghain-ar.glif</string>
+    <key>ghain-ar.fina</key>
+    <string>ghain-ar.fina.glif</string>
+    <key>ghain-ar.init</key>
+    <string>ghain-ar.init.glif</string>
+    <key>ghain-ar.medi</key>
+    <string>ghain-ar.medi.glif</string>
+    <key>ghainDotbelow-ar</key>
+    <string>ghainD_otbelow-ar.glif</string>
+    <key>ghainDotbelow-ar.fina</key>
+    <string>ghainD_otbelow-ar.fina.glif</string>
+    <key>ghainDotbelow-ar.init</key>
+    <string>ghainD_otbelow-ar.init.glif</string>
+    <key>ghainDotbelow-ar.medi</key>
+    <string>ghainD_otbelow-ar.medi.glif</string>
     <key>ghestroke-cy</key>
     <string>ghestroke-cy.glif</string>
     <key>gheupturn-cy</key>
     <string>gheupturn-cy.glif</string>
+    <key>gimel-hb</key>
+    <string>gimel-hb.glif</string>
+    <key>gimeldagesh-hb</key>
+    <string>gimeldagesh-hb.glif</string>
     <key>gje-cy</key>
     <string>gje-cy.glif</string>
     <key>glottalstop</key>
@@ -2192,6 +3242,8 @@
     <string>greater_equal_start.seq.glif</string>
     <key>greater_greater.liga</key>
     <string>greater_greater.liga.glif</string>
+    <key>greater_greater_equal.liga</key>
+    <string>greater_greater_equal.liga.glif</string>
     <key>greater_greater_equal_end.seq</key>
     <string>greater_greater_equal_end.seq.glif</string>
     <key>greater_greater_equal_middle.seq</key>
@@ -2220,6 +3272,14 @@
     <string>gstroke.glif</string>
     <key>guarani</key>
     <string>guarani.glif</string>
+    <key>gueh-ar</key>
+    <string>gueh-ar.glif</string>
+    <key>gueh-ar.fina</key>
+    <string>gueh-ar.fina.glif</string>
+    <key>gueh-ar.init</key>
+    <string>gueh-ar.init.glif</string>
+    <key>gueh-ar.medi</key>
+    <string>gueh-ar.medi.glif</string>
     <key>guillemetleft</key>
     <string>guillemetleft.glif</string>
     <key>guillemetright</key>
@@ -2234,6 +3294,92 @@
     <string>ha-cy.glif</string>
     <key>hadescender-cy</key>
     <string>hadescender-cy.glif</string>
+    <key>hah-ar</key>
+    <string>hah-ar.glif</string>
+    <key>hah-ar.fina</key>
+    <string>hah-ar.fina.glif</string>
+    <key>hah-ar.init</key>
+    <string>hah-ar.init.glif</string>
+    <key>hah-ar.medi</key>
+    <string>hah-ar.medi.glif</string>
+    <key>hahFourbelow-ar</key>
+    <string>hahF_ourbelow-ar.glif</string>
+    <key>hahFourbelow-ar.fina</key>
+    <string>hahF_ourbelow-ar.fina.glif</string>
+    <key>hahFourbelow-ar.init</key>
+    <string>hahF_ourbelow-ar.init.glif</string>
+    <key>hahFourbelow-ar.medi</key>
+    <string>hahF_ourbelow-ar.medi.glif</string>
+    <key>hahHamzaabove-ar</key>
+    <string>hahH_amzaabove-ar.glif</string>
+    <key>hahHamzaabove-ar.fina</key>
+    <string>hahH_amzaabove-ar.fina.glif</string>
+    <key>hahHamzaabove-ar.init</key>
+    <string>hahH_amzaabove-ar.init.glif</string>
+    <key>hahHamzaabove-ar.medi</key>
+    <string>hahH_amzaabove-ar.medi.glif</string>
+    <key>hahTahTwodotshorizontalabove-ar</key>
+    <string>hahT_ahT_wodotshorizontalabove-ar.glif</string>
+    <key>hahTahTwodotshorizontalabove-ar.fina</key>
+    <string>hahT_ahT_wodotshorizontalabove-ar.fina.glif</string>
+    <key>hahTahTwodotshorizontalabove-ar.init</key>
+    <string>hahT_ahT_wodotshorizontalabove-ar.init.glif</string>
+    <key>hahTahTwodotshorizontalabove-ar.medi</key>
+    <string>hahT_ahT_wodotshorizontalabove-ar.medi.glif</string>
+    <key>hahTahabove-ar</key>
+    <string>hahT_ahabove-ar.glif</string>
+    <key>hahTahabove-ar.fina</key>
+    <string>hahT_ahabove-ar.fina.glif</string>
+    <key>hahTahabove-ar.init</key>
+    <string>hahT_ahabove-ar.init.glif</string>
+    <key>hahTahabove-ar.medi</key>
+    <string>hahT_ahabove-ar.medi.glif</string>
+    <key>hahTahbelow-ar</key>
+    <string>hahT_ahbelow-ar.glif</string>
+    <key>hahTahbelow-ar.fina</key>
+    <string>hahT_ahbelow-ar.fina.glif</string>
+    <key>hahTahbelow-ar.init</key>
+    <string>hahT_ahbelow-ar.init.glif</string>
+    <key>hahTahbelow-ar.medi</key>
+    <string>hahT_ahbelow-ar.medi.glif</string>
+    <key>hahThreedotsabove-ar</key>
+    <string>hahT_hreedotsabove-ar.glif</string>
+    <key>hahThreedotsabove-ar.fina</key>
+    <string>hahT_hreedotsabove-ar.fina.glif</string>
+    <key>hahThreedotsabove-ar.init</key>
+    <string>hahT_hreedotsabove-ar.init.glif</string>
+    <key>hahThreedotsabove-ar.medi</key>
+    <string>hahT_hreedotsabove-ar.medi.glif</string>
+    <key>hahThreedotsupbelow-ar</key>
+    <string>hahT_hreedotsupbelow-ar.glif</string>
+    <key>hahThreedotsupbelow-ar.fina</key>
+    <string>hahT_hreedotsupbelow-ar.fina.glif</string>
+    <key>hahThreedotsupbelow-ar.init</key>
+    <string>hahT_hreedotsupbelow-ar.init.glif</string>
+    <key>hahThreedotsupbelow-ar.medi</key>
+    <string>hahT_hreedotsupbelow-ar.medi.glif</string>
+    <key>hahTwodotshorizontalabove-ar</key>
+    <string>hahT_wodotshorizontalabove-ar.glif</string>
+    <key>hahTwodotshorizontalabove-ar.fina</key>
+    <string>hahT_wodotshorizontalabove-ar.fina.glif</string>
+    <key>hahTwodotshorizontalabove-ar.init</key>
+    <string>hahT_wodotshorizontalabove-ar.init.glif</string>
+    <key>hahTwodotshorizontalabove-ar.medi</key>
+    <string>hahT_wodotshorizontalabove-ar.medi.glif</string>
+    <key>hahTwodotsverticalabove-ar</key>
+    <string>hahT_wodotsverticalabove-ar.glif</string>
+    <key>hahTwodotsverticalabove-ar.fina</key>
+    <string>hahT_wodotsverticalabove-ar.fina.glif</string>
+    <key>hahTwodotsverticalabove-ar.init</key>
+    <string>hahT_wodotsverticalabove-ar.init.glif</string>
+    <key>hahTwodotsverticalabove-ar.medi</key>
+    <string>hahT_wodotsverticalabove-ar.medi.glif</string>
+    <key>hamza-ar</key>
+    <string>hamza-ar.glif</string>
+    <key>hamzaabove-ar</key>
+    <string>hamzaabove-ar.glif</string>
+    <key>hamzabelow-ar</key>
+    <string>hamzabelow-ar.glif</string>
     <key>hardsign-cy</key>
     <string>hardsign-cy.glif</string>
     <key>hardsign-cy.loclBGR</key>
@@ -2246,6 +3392,8 @@
     <string>hcircumflex.glif</string>
     <key>hdotbelow</key>
     <string>hdotbelow.glif</string>
+    <key>he-hb</key>
+    <string>he-hb.glif</string>
     <key>heartBlackSuit</key>
     <string>heartB_lackS_uit.glif</string>
     <key>heavyleftpointinganglebracketornament</key>
@@ -2256,6 +3404,88 @@
     <string>heavyrightpointinganglebracketornament.glif</string>
     <key>heavyrightpointinganglequotationmarkornament</key>
     <string>heavyrightpointinganglequotationmarkornament.glif</string>
+    <key>hedagesh-hb</key>
+    <string>hedagesh-hb.glif</string>
+    <key>heh-ar</key>
+    <string>heh-ar.glif</string>
+    <key>heh-ar.fina</key>
+    <string>heh-ar.fina.glif</string>
+    <key>heh-ar.init</key>
+    <string>heh-ar.init.glif</string>
+    <key>heh-ar.medi</key>
+    <string>heh-ar.medi.glif</string>
+    <key>hehAlefabove-ar.init</key>
+    <string>hehA_lefabove-ar.init.glif</string>
+    <key>hehAlefabove-ar.init.fina</key>
+    <string>hehA_lefabove-ar.init.fina.glif</string>
+    <key>hehDoachashmee-ar</key>
+    <string>hehD_oachashmee-ar.glif</string>
+    <key>hehDoachashmee-ar.fina</key>
+    <string>hehD_oachashmee-ar.fina.glif</string>
+    <key>hehDoachashmee-ar.init</key>
+    <string>hehD_oachashmee-ar.init.glif</string>
+    <key>hehDoachashmee-ar.medi</key>
+    <string>hehD_oachashmee-ar.medi.glif</string>
+    <key>hehHamzaabove-ar</key>
+    <string>hehH_amzaabove-ar.glif</string>
+    <key>hehHamzaabove-ar.fina</key>
+    <string>hehH_amzaabove-ar.fina.glif</string>
+    <key>hehVinvertedabove-ar</key>
+    <string>hehV_invertedabove-ar.glif</string>
+    <key>hehVinvertedabove-ar.fina</key>
+    <string>hehV_invertedabove-ar.fina.glif</string>
+    <key>hehVinvertedabove-ar.init</key>
+    <string>hehV_invertedabove-ar.init.glif</string>
+    <key>hehVinvertedabove-ar.medi</key>
+    <string>hehV_invertedabove-ar.medi.glif</string>
+    <key>hehgoal-ar</key>
+    <string>hehgoal-ar.glif</string>
+    <key>hehgoal-ar.fina</key>
+    <string>hehgoal-ar.fina.glif</string>
+    <key>hehgoal-ar.init</key>
+    <string>hehgoal-ar.init.glif</string>
+    <key>hehgoal-ar.init.alt</key>
+    <string>hehgoal-ar.init.alt.glif</string>
+    <key>hehgoal-ar.medi</key>
+    <string>hehgoal-ar.medi.glif</string>
+    <key>hehgoalHamzaabove-ar</key>
+    <string>hehgoalH_amzaabove-ar.glif</string>
+    <key>hehgoalHamzaabove-ar.fina</key>
+    <string>hehgoalH_amzaabove-ar.fina.glif</string>
+    <key>hehgoalHamzaabove-ar.init</key>
+    <string>hehgoalH_amzaabove-ar.init.glif</string>
+    <key>hehgoalHamzaabove-ar.init.alt</key>
+    <string>hehgoalH_amzaabove-ar.init.alt.glif</string>
+    <key>hehgoalHamzaabove-ar.medi</key>
+    <string>hehgoalH_amzaabove-ar.medi.glif</string>
+    <key>het-hb</key>
+    <string>het-hb.glif</string>
+    <key>highhamza-ar</key>
+    <string>highhamza-ar.glif</string>
+    <key>highhamzaAlef-ar</key>
+    <string>highhamzaA_lef-ar.glif</string>
+    <key>highhamzaAlef-ar.fina</key>
+    <string>highhamzaA_lef-ar.fina.glif</string>
+    <key>highhamzaAlef-ar.fina.rlig</key>
+    <string>highhamzaA_lef-ar.fina.rlig.glif</string>
+    <key>highhamzaWaw-ar</key>
+    <string>highhamzaW_aw-ar.glif</string>
+    <key>highhamzaWaw-ar.fina</key>
+    <string>highhamzaW_aw-ar.fina.glif</string>
+    <key>highhamzaYeh-ar</key>
+    <string>highhamzaY_eh-ar.glif</string>
+    <key>highhamzaYeh-ar.fina</key>
+    <string>highhamzaY_eh-ar.fina.glif</string>
+    <key>highhamzaYeh-ar.init</key>
+    <string>highhamzaY_eh-ar.init.glif</string>
+    <key>highhamzaYeh-ar.init.alt</key>
+    <string>highhamzaY_eh-ar.init.alt.glif</string>
+    <key>highhamzaYeh-ar.medi</key>
+    <string>highhamzaY_eh-ar.medi.glif</string>
+    <key>holam-hb</key>
+    <string>holam-hb.glif</string>
+    <key>holamhaser-hb</key>
+    <string>holamhaser-hb.glif</string>
     <key>hookabovecomb</key>
     <string>hookabovecomb.glif</string>
     <key>hookabovecomb.case</key>
@@ -2342,6 +3572,8 @@
     <string>iishort-cy.loclB_G_R_.glif</string>
     <key>ij</key>
     <string>ij.glif</string>
+    <key>ij_acute</key>
+    <string>ij_acute.glif</string>
     <key>imacron</key>
     <string>imacron.glif</string>
     <key>imacron-cy</key>
@@ -2394,6 +3626,26 @@
     <string>jdotless.glif</string>
     <key>je-cy</key>
     <string>je-cy.glif</string>
+    <key>jeem-ar</key>
+    <string>jeem-ar.glif</string>
+    <key>jeem-ar.fina</key>
+    <string>jeem-ar.fina.glif</string>
+    <key>jeem-ar.init</key>
+    <string>jeem-ar.init.glif</string>
+    <key>jeem-ar.medi</key>
+    <string>jeem-ar.medi.glif</string>
+    <key>jeemTwodotsabove-ar</key>
+    <string>jeemT_wodotsabove-ar.glif</string>
+    <key>jeemTwodotsabove-ar.fina</key>
+    <string>jeemT_wodotsabove-ar.fina.glif</string>
+    <key>jeemTwodotsabove-ar.init</key>
+    <string>jeemT_wodotsabove-ar.init.glif</string>
+    <key>jeemTwodotsabove-ar.medi</key>
+    <string>jeemT_wodotsabove-ar.medi.glif</string>
+    <key>jeh-ar</key>
+    <string>jeh-ar.glif</string>
+    <key>jeh-ar.fina</key>
+    <string>jeh-ar.fina.glif</string>
     <key>k</key>
     <string>k.glif</string>
     <key>ka-cy</key>
@@ -2402,18 +3654,140 @@
     <string>ka-cy.loclB_G_R_.glif</string>
     <key>kadescender-cy</key>
     <string>kadescender-cy.glif</string>
+    <key>kaf-ar</key>
+    <string>kaf-ar.glif</string>
+    <key>kaf-ar.fina</key>
+    <string>kaf-ar.fina.glif</string>
+    <key>kaf-ar.init</key>
+    <string>kaf-ar.init.glif</string>
+    <key>kaf-ar.medi</key>
+    <string>kaf-ar.medi.glif</string>
+    <key>kaf-hb</key>
+    <string>kaf-hb.glif</string>
+    <key>kafDotabove-ar</key>
+    <string>kafD_otabove-ar.glif</string>
+    <key>kafDotabove-ar.fina</key>
+    <string>kafD_otabove-ar.fina.glif</string>
+    <key>kafDotabove-ar.init</key>
+    <string>kafD_otabove-ar.init.glif</string>
+    <key>kafDotabove-ar.medi</key>
+    <string>kafD_otabove-ar.medi.glif</string>
+    <key>kafRing-ar</key>
+    <string>kafR_ing-ar.glif</string>
+    <key>kafRing-ar.fina</key>
+    <string>kafR_ing-ar.fina.glif</string>
+    <key>kafRing-ar.init</key>
+    <string>kafR_ing-ar.init.glif</string>
+    <key>kafRing-ar.medi</key>
+    <string>kafR_ing-ar.medi.glif</string>
+    <key>kafThreedotsbelow-ar</key>
+    <string>kafT_hreedotsbelow-ar.glif</string>
+    <key>kafThreedotsbelow-ar.fina</key>
+    <string>kafT_hreedotsbelow-ar.fina.glif</string>
+    <key>kafThreedotsbelow-ar.init</key>
+    <string>kafT_hreedotsbelow-ar.init.glif</string>
+    <key>kafThreedotsbelow-ar.medi</key>
+    <string>kafT_hreedotsbelow-ar.medi.glif</string>
+    <key>kafTwodotshorizontalabove-ar</key>
+    <string>kafT_wodotshorizontalabove-ar.glif</string>
+    <key>kafTwodotshorizontalabove-ar.fina</key>
+    <string>kafT_wodotshorizontalabove-ar.fina.glif</string>
+    <key>kafTwodotshorizontalabove-ar.init</key>
+    <string>kafT_wodotshorizontalabove-ar.init.glif</string>
+    <key>kafTwodotshorizontalabove-ar.medi</key>
+    <string>kafT_wodotshorizontalabove-ar.medi.glif</string>
+    <key>kafdagesh-hb</key>
+    <string>kafdagesh-hb.glif</string>
+    <key>kafswash-ar</key>
+    <string>kafswash-ar.glif</string>
+    <key>kafswash-ar.fina</key>
+    <string>kafswash-ar.fina.glif</string>
+    <key>kafswash-ar.init</key>
+    <string>kafswash-ar.init.glif</string>
+    <key>kafswash-ar.medi</key>
+    <string>kafswash-ar.medi.glif</string>
     <key>kaiSymbol</key>
     <string>kaiS_ymbol.glif</string>
     <key>kappa</key>
     <string>kappa.glif</string>
+    <key>kashida-ar</key>
+    <string>kashida-ar.glif</string>
+    <key>kasra-ar</key>
+    <string>kasra-ar.glif</string>
+    <key>kasratan-ar</key>
+    <string>kasratan-ar.glif</string>
     <key>kcommaaccent</key>
     <string>kcommaaccent.glif</string>
     <key>kdotbelow</key>
     <string>kdotbelow.glif</string>
+    <key>keheh-ar</key>
+    <string>keheh-ar.glif</string>
+    <key>keheh-ar.fina</key>
+    <string>keheh-ar.fina.glif</string>
+    <key>keheh-ar.init</key>
+    <string>keheh-ar.init.glif</string>
+    <key>keheh-ar.medi</key>
+    <string>keheh-ar.medi.glif</string>
+    <key>kehehDotabove-ar</key>
+    <string>kehehD_otabove-ar.glif</string>
+    <key>kehehDotabove-ar.fina</key>
+    <string>kehehD_otabove-ar.fina.glif</string>
+    <key>kehehDotabove-ar.init</key>
+    <string>kehehD_otabove-ar.init.glif</string>
+    <key>kehehDotabove-ar.medi</key>
+    <string>kehehD_otabove-ar.medi.glif</string>
+    <key>kehehThreedotsabove-ar</key>
+    <string>kehehT_hreedotsabove-ar.glif</string>
+    <key>kehehThreedotsabove-ar.fina</key>
+    <string>kehehT_hreedotsabove-ar.fina.glif</string>
+    <key>kehehThreedotsabove-ar.init</key>
+    <string>kehehT_hreedotsabove-ar.init.glif</string>
+    <key>kehehThreedotsabove-ar.medi</key>
+    <string>kehehT_hreedotsabove-ar.medi.glif</string>
+    <key>kehehThreedotsbelow-ar</key>
+    <string>kehehT_hreedotsbelow-ar.glif</string>
+    <key>kehehThreedotsbelow-ar.fina</key>
+    <string>kehehT_hreedotsbelow-ar.fina.glif</string>
+    <key>kehehThreedotsbelow-ar.init</key>
+    <string>kehehT_hreedotsbelow-ar.init.glif</string>
+    <key>kehehThreedotsbelow-ar.medi</key>
+    <string>kehehT_hreedotsbelow-ar.medi.glif</string>
+    <key>kehehThreedotsupbelow-ar</key>
+    <string>kehehT_hreedotsupbelow-ar.glif</string>
+    <key>kehehThreedotsupbelow-ar.fina</key>
+    <string>kehehT_hreedotsupbelow-ar.fina.glif</string>
+    <key>kehehThreedotsupbelow-ar.init</key>
+    <string>kehehT_hreedotsupbelow-ar.init.glif</string>
+    <key>kehehThreedotsupbelow-ar.medi</key>
+    <string>kehehT_hreedotsupbelow-ar.medi.glif</string>
+    <key>kehehTwodotshorizontalabove-ar</key>
+    <string>kehehT_wodotshorizontalabove-ar.glif</string>
+    <key>kehehTwodotshorizontalabove-ar.fina</key>
+    <string>kehehT_wodotshorizontalabove-ar.fina.glif</string>
+    <key>kehehTwodotshorizontalabove-ar.init</key>
+    <string>kehehT_wodotshorizontalabove-ar.init.glif</string>
+    <key>kehehTwodotshorizontalabove-ar.medi</key>
+    <string>kehehT_wodotshorizontalabove-ar.medi.glif</string>
     <key>kgreenlandic</key>
     <string>kgreenlandic.glif</string>
+    <key>khah-ar</key>
+    <string>khah-ar.glif</string>
+    <key>khah-ar.fina</key>
+    <string>khah-ar.fina.glif</string>
+    <key>khah-ar.init</key>
+    <string>khah-ar.init.glif</string>
+    <key>khah-ar.medi</key>
+    <string>khah-ar.medi.glif</string>
     <key>kip</key>
     <string>kip.glif</string>
+    <key>kirghizoe-ar</key>
+    <string>kirghizoe-ar.glif</string>
+    <key>kirghizoe-ar.fina</key>
+    <string>kirghizoe-ar.fina.glif</string>
+    <key>kirghizyu-ar</key>
+    <string>kirghizyu-ar.glif</string>
+    <key>kirghizyu-ar.fina</key>
+    <string>kirghizyu-ar.fina.glif</string>
     <key>kje-cy</key>
     <string>kje-cy.glif</string>
     <key>klinebelow</key>
@@ -2422,10 +3796,122 @@
     <string>l.glif</string>
     <key>lacute</key>
     <string>lacute.glif</string>
+    <key>lam-ar</key>
+    <string>lam-ar.glif</string>
+    <key>lam-ar.fina</key>
+    <string>lam-ar.fina.glif</string>
+    <key>lam-ar.init</key>
+    <string>lam-ar.init.glif</string>
+    <key>lam-ar.init.rlig</key>
+    <string>lam-ar.init.rlig.glif</string>
+    <key>lam-ar.medi</key>
+    <string>lam-ar.medi.glif</string>
+    <key>lam-ar.medi.rlig</key>
+    <string>lam-ar.medi.rlig.glif</string>
+    <key>lamBar-ar</key>
+    <string>lamB_ar-ar.glif</string>
+    <key>lamBar-ar.fina</key>
+    <string>lamB_ar-ar.fina.glif</string>
+    <key>lamBar-ar.init</key>
+    <string>lamB_ar-ar.init.glif</string>
+    <key>lamBar-ar.init.rlig</key>
+    <string>lamB_ar-ar.init.rlig.glif</string>
+    <key>lamBar-ar.medi</key>
+    <string>lamB_ar-ar.medi.glif</string>
+    <key>lamBar-ar.medi.rlig</key>
+    <string>lamB_ar-ar.medi.rlig.glif</string>
+    <key>lamDotabove-ar</key>
+    <string>lamD_otabove-ar.glif</string>
+    <key>lamDotabove-ar.fina</key>
+    <string>lamD_otabove-ar.fina.glif</string>
+    <key>lamDotabove-ar.init</key>
+    <string>lamD_otabove-ar.init.glif</string>
+    <key>lamDotabove-ar.init.rlig</key>
+    <string>lamD_otabove-ar.init.rlig.glif</string>
+    <key>lamDotabove-ar.medi</key>
+    <string>lamD_otabove-ar.medi.glif</string>
+    <key>lamDotabove-ar.medi.rlig</key>
+    <string>lamD_otabove-ar.medi.rlig.glif</string>
+    <key>lamDoublebar-ar</key>
+    <string>lamD_oublebar-ar.glif</string>
+    <key>lamDoublebar-ar.fina</key>
+    <string>lamD_oublebar-ar.fina.glif</string>
+    <key>lamDoublebar-ar.init</key>
+    <string>lamD_oublebar-ar.init.glif</string>
+    <key>lamDoublebar-ar.init.rlig</key>
+    <string>lamD_oublebar-ar.init.rlig.glif</string>
+    <key>lamDoublebar-ar.medi</key>
+    <string>lamD_oublebar-ar.medi.glif</string>
+    <key>lamDoublebar-ar.medi.rlig</key>
+    <string>lamD_oublebar-ar.medi.rlig.glif</string>
+    <key>lamThreedotsabove-ar</key>
+    <string>lamT_hreedotsabove-ar.glif</string>
+    <key>lamThreedotsabove-ar.fina</key>
+    <string>lamT_hreedotsabove-ar.fina.glif</string>
+    <key>lamThreedotsabove-ar.init</key>
+    <string>lamT_hreedotsabove-ar.init.glif</string>
+    <key>lamThreedotsabove-ar.init.rlig</key>
+    <string>lamT_hreedotsabove-ar.init.rlig.glif</string>
+    <key>lamThreedotsabove-ar.medi</key>
+    <string>lamT_hreedotsabove-ar.medi.glif</string>
+    <key>lamThreedotsabove-ar.medi.rlig</key>
+    <string>lamT_hreedotsabove-ar.medi.rlig.glif</string>
+    <key>lamThreedotsbelow-ar</key>
+    <string>lamT_hreedotsbelow-ar.glif</string>
+    <key>lamThreedotsbelow-ar.fina</key>
+    <string>lamT_hreedotsbelow-ar.fina.glif</string>
+    <key>lamThreedotsbelow-ar.init</key>
+    <string>lamT_hreedotsbelow-ar.init.glif</string>
+    <key>lamThreedotsbelow-ar.init.rlig</key>
+    <string>lamT_hreedotsbelow-ar.init.rlig.glif</string>
+    <key>lamThreedotsbelow-ar.medi</key>
+    <string>lamT_hreedotsbelow-ar.medi.glif</string>
+    <key>lamThreedotsbelow-ar.medi.rlig</key>
+    <string>lamT_hreedotsbelow-ar.medi.rlig.glif</string>
+    <key>lamVabove-ar</key>
+    <string>lamV_above-ar.glif</string>
+    <key>lamVabove-ar.fina</key>
+    <string>lamV_above-ar.fina.glif</string>
+    <key>lamVabove-ar.init</key>
+    <string>lamV_above-ar.init.glif</string>
+    <key>lamVabove-ar.init.rlig</key>
+    <string>lamV_above-ar.init.rlig.glif</string>
+    <key>lamVabove-ar.medi</key>
+    <string>lamV_above-ar.medi.glif</string>
+    <key>lamVabove-ar.medi.rlig</key>
+    <string>lamV_above-ar.medi.rlig.glif</string>
+    <key>lam_alef-ar</key>
+    <string>lam_alef-ar.glif</string>
+    <key>lam_alef-ar.fina</key>
+    <string>lam_alef-ar.fina.glif</string>
+    <key>lam_alef-ar.fina.short</key>
+    <string>lam_alef-ar.fina.short.glif</string>
+    <key>lam_alef-ar.short</key>
+    <string>lam_alef-ar.short.glif</string>
+    <key>lam_alefHamzaabove-ar</key>
+    <string>lam_alefH_amzaabove-ar.glif</string>
+    <key>lam_alefHamzaabove-ar.fina</key>
+    <string>lam_alefH_amzaabove-ar.fina.glif</string>
+    <key>lam_alefHamzabelow-ar</key>
+    <string>lam_alefH_amzabelow-ar.glif</string>
+    <key>lam_alefHamzabelow-ar.fina</key>
+    <string>lam_alefH_amzabelow-ar.fina.glif</string>
+    <key>lam_alefMadda-ar</key>
+    <string>lam_alefM_adda-ar.glif</string>
+    <key>lam_alefMadda-ar.fina</key>
+    <string>lam_alefM_adda-ar.fina.glif</string>
+    <key>lam_alefWasla-ar</key>
+    <string>lam_alefW_asla-ar.glif</string>
+    <key>lam_alefWasla-ar.fina</key>
+    <string>lam_alefW_asla-ar.fina.glif</string>
     <key>lambda</key>
     <string>lambda.glif</string>
     <key>lambdastroke</key>
     <string>lambdastroke.glif</string>
+    <key>lamed-hb</key>
+    <string>lamed-hb.glif</string>
+    <key>lameddagesh-hb</key>
+    <string>lameddagesh-hb.glif</string>
     <key>largeCircle</key>
     <string>largeC_ircle.glif</string>
     <key>lari</key>
@@ -2546,6 +4032,8 @@
     <string>less_hyphen_start.seq.glif</string>
     <key>less_less.liga</key>
     <string>less_less.liga.glif</string>
+    <key>less_less_equal.liga</key>
+    <string>less_less_equal.liga.glif</string>
     <key>less_less_equal_end.seq</key>
     <string>less_less_equal_end.seq.glif</string>
     <key>less_less_equal_middle.seq</key>
@@ -2676,8 +4164,12 @@
     <string>macroncomb.glif</string>
     <key>macroncomb.case</key>
     <string>macroncomb.case.glif</string>
+    <key>madda-ar</key>
+    <string>madda-ar.glif</string>
     <key>manat</key>
     <string>manat.glif</string>
+    <key>maqaf-hb</key>
+    <string>maqaf-hb.glif</string>
     <key>mars</key>
     <string>mars.glif</string>
     <key>mediumBlackSmallSquare</key>
@@ -2692,12 +4184,52 @@
     <string>mediumleftpointinganglebracketornament.glif</string>
     <key>mediumrightpointinganglebracketornament</key>
     <string>mediumrightpointinganglebracketornament.glif</string>
+    <key>meem-ar</key>
+    <string>meem-ar.glif</string>
+    <key>meem-ar.fina</key>
+    <string>meem-ar.fina.glif</string>
+    <key>meem-ar.init</key>
+    <string>meem-ar.init.glif</string>
+    <key>meem-ar.medi</key>
+    <string>meem-ar.medi.glif</string>
+    <key>meemDotabove-ar</key>
+    <string>meemD_otabove-ar.glif</string>
+    <key>meemDotabove-ar.fina</key>
+    <string>meemD_otabove-ar.fina.glif</string>
+    <key>meemDotabove-ar.init</key>
+    <string>meemD_otabove-ar.init.glif</string>
+    <key>meemDotabove-ar.medi</key>
+    <string>meemD_otabove-ar.medi.glif</string>
+    <key>meemDotbelow-ar</key>
+    <string>meemD_otbelow-ar.glif</string>
+    <key>meemDotbelow-ar.fina</key>
+    <string>meemD_otbelow-ar.fina.glif</string>
+    <key>meemDotbelow-ar.init</key>
+    <string>meemD_otbelow-ar.init.glif</string>
+    <key>meemDotbelow-ar.medi</key>
+    <string>meemD_otbelow-ar.medi.glif</string>
+    <key>meemStopabove-ar</key>
+    <string>meemS_topabove-ar.glif</string>
+    <key>meemThreedotsabove-ar</key>
+    <string>meemT_hreedotsabove-ar.glif</string>
+    <key>meemThreedotsabove-ar.fina</key>
+    <string>meemT_hreedotsabove-ar.fina.glif</string>
+    <key>meemThreedotsabove-ar.init</key>
+    <string>meemT_hreedotsabove-ar.init.glif</string>
+    <key>meemThreedotsabove-ar.medi</key>
+    <string>meemT_hreedotsabove-ar.medi.glif</string>
+    <key>mem-hb</key>
+    <string>mem-hb.glif</string>
+    <key>memdagesh-hb</key>
+    <string>memdagesh-hb.glif</string>
     <key>micro</key>
     <string>micro.glif</string>
     <key>minus</key>
     <string>minus.glif</string>
     <key>minute</key>
     <string>minute.glif</string>
+    <key>misraComma-ar</key>
+    <string>misraC_omma-ar.glif</string>
     <key>mu</key>
     <string>mu.glif</string>
     <key>multiply</key>
@@ -2724,10 +4256,38 @@
     <string>negativeA_cknowledgeC_ontrol.ss20.glif</string>
     <key>newlineControl</key>
     <string>newlineC_ontrol.glif</string>
+    <key>ng-ar</key>
+    <string>ng-ar.glif</string>
+    <key>ng-ar.fina</key>
+    <string>ng-ar.fina.glif</string>
+    <key>ng-ar.init</key>
+    <string>ng-ar.init.glif</string>
+    <key>ng-ar.medi</key>
+    <string>ng-ar.medi.glif</string>
+    <key>ngoeh-ar</key>
+    <string>ngoeh-ar.glif</string>
+    <key>ngoeh-ar.fina</key>
+    <string>ngoeh-ar.fina.glif</string>
+    <key>ngoeh-ar.init</key>
+    <string>ngoeh-ar.init.glif</string>
+    <key>ngoeh-ar.medi</key>
+    <string>ngoeh-ar.medi.glif</string>
     <key>nhookleft</key>
     <string>nhookleft.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
+    <key>nine-ar</key>
+    <string>nine-ar.glif</string>
+    <key>nine-arinferior</key>
+    <string>nine-arinferior.glif</string>
+    <key>nine-arsuperior</key>
+    <string>nine-arsuperior.glif</string>
+    <key>nine-persian</key>
+    <string>nine-persian.glif</string>
+    <key>nine-persianinferior</key>
+    <string>nine-persianinferior.glif</string>
+    <key>nine-persiansuperior</key>
+    <string>nine-persiansuperior.glif</string>
     <key>nine.dnom</key>
     <string>nine.dnom.glif</string>
     <key>nine.numr</key>
@@ -2744,6 +4304,100 @@
     <string>nmod.glif</string>
     <key>nonbreakinghyphen</key>
     <string>nonbreakinghyphen.glif</string>
+    <key>noon-ar</key>
+    <string>noon-ar.glif</string>
+    <key>noon-ar.fina</key>
+    <string>noon-ar.fina.glif</string>
+    <key>noon-ar.init</key>
+    <string>noon-ar.init.glif</string>
+    <key>noon-ar.init.alt</key>
+    <string>noon-ar.init.alt.glif</string>
+    <key>noon-ar.medi</key>
+    <string>noon-ar.medi.glif</string>
+    <key>noonAfrican-ar</key>
+    <string>noonA_frican-ar.glif</string>
+    <key>noonAfrican-ar.fina</key>
+    <string>noonA_frican-ar.fina.glif</string>
+    <key>noonAfrican-ar.init</key>
+    <string>noonA_frican-ar.init.glif</string>
+    <key>noonAfrican-ar.init.alt</key>
+    <string>noonA_frican-ar.init.alt.glif</string>
+    <key>noonAfrican-ar.medi</key>
+    <string>noonA_frican-ar.medi.glif</string>
+    <key>noonDotbelow-ar</key>
+    <string>noonD_otbelow-ar.glif</string>
+    <key>noonDotbelow-ar.fina</key>
+    <string>noonD_otbelow-ar.fina.glif</string>
+    <key>noonDotbelow-ar.init</key>
+    <string>noonD_otbelow-ar.init.glif</string>
+    <key>noonDotbelow-ar.init.alt</key>
+    <string>noonD_otbelow-ar.init.alt.glif</string>
+    <key>noonDotbelow-ar.medi</key>
+    <string>noonD_otbelow-ar.medi.glif</string>
+    <key>noonRing-ar</key>
+    <string>noonR_ing-ar.glif</string>
+    <key>noonRing-ar.fina</key>
+    <string>noonR_ing-ar.fina.glif</string>
+    <key>noonRing-ar.init</key>
+    <string>noonR_ing-ar.init.glif</string>
+    <key>noonRing-ar.init.alt</key>
+    <string>noonR_ing-ar.init.alt.glif</string>
+    <key>noonRing-ar.medi</key>
+    <string>noonR_ing-ar.medi.glif</string>
+    <key>noonTahabove-ar</key>
+    <string>noonT_ahabove-ar.glif</string>
+    <key>noonTahabove-ar.fina</key>
+    <string>noonT_ahabove-ar.fina.glif</string>
+    <key>noonTahabove-ar.init</key>
+    <string>noonT_ahabove-ar.init.glif</string>
+    <key>noonTahabove-ar.init.alt</key>
+    <string>noonT_ahabove-ar.init.alt.glif</string>
+    <key>noonTahabove-ar.medi</key>
+    <string>noonT_ahabove-ar.medi.glif</string>
+    <key>noonThreedotsabove-ar</key>
+    <string>noonT_hreedotsabove-ar.glif</string>
+    <key>noonThreedotsabove-ar.fina</key>
+    <string>noonT_hreedotsabove-ar.fina.glif</string>
+    <key>noonThreedotsabove-ar.init</key>
+    <string>noonT_hreedotsabove-ar.init.glif</string>
+    <key>noonThreedotsabove-ar.init.alt</key>
+    <string>noonT_hreedotsabove-ar.init.alt.glif</string>
+    <key>noonThreedotsabove-ar.medi</key>
+    <string>noonT_hreedotsabove-ar.medi.glif</string>
+    <key>noonTwodotsbelow-ar</key>
+    <string>noonT_wodotsbelow-ar.glif</string>
+    <key>noonTwodotsbelow-ar.fina</key>
+    <string>noonT_wodotsbelow-ar.fina.glif</string>
+    <key>noonTwodotsbelow-ar.init</key>
+    <string>noonT_wodotsbelow-ar.init.glif</string>
+    <key>noonTwodotsbelow-ar.init.alt</key>
+    <string>noonT_wodotsbelow-ar.init.alt.glif</string>
+    <key>noonTwodotsbelow-ar.medi</key>
+    <string>noonT_wodotsbelow-ar.medi.glif</string>
+    <key>noonVabove-ar</key>
+    <string>noonV_above-ar.glif</string>
+    <key>noonVabove-ar.fina</key>
+    <string>noonV_above-ar.fina.glif</string>
+    <key>noonVabove-ar.init</key>
+    <string>noonV_above-ar.init.glif</string>
+    <key>noonVabove-ar.init.alt</key>
+    <string>noonV_above-ar.init.alt.glif</string>
+    <key>noonVabove-ar.medi</key>
+    <string>noonV_above-ar.medi.glif</string>
+    <key>noonabove-ar</key>
+    <string>noonabove-ar.glif</string>
+    <key>noonghunna-ar</key>
+    <string>noonghunna-ar.glif</string>
+    <key>noonghunna-ar.fina</key>
+    <string>noonghunna-ar.fina.glif</string>
+    <key>noonghunna-ar.init</key>
+    <string>noonghunna-ar.init.glif</string>
+    <key>noonghunna-ar.init.alt</key>
+    <string>noonghunna-ar.init.alt.glif</string>
+    <key>noonghunna-ar.medi</key>
+    <string>noonghunna-ar.medi.glif</string>
+    <key>noonghunnaabove-ar</key>
+    <string>noonghunnaabove-ar.glif</string>
     <key>note-musical</key>
     <string>note-musical.glif</string>
     <key>notedbl-musical</key>
@@ -2758,6 +4412,10 @@
     <string>nu.glif</string>
     <key>nullControl</key>
     <string>nullC_ontrol.glif</string>
+    <key>number-ar</key>
+    <string>number-ar.glif</string>
+    <key>numbermark-ar</key>
+    <string>numbermark-ar.glif</string>
     <key>numbersign</key>
     <string>numbersign.glif</string>
     <key>numbersign_braceleft.liga</key>
@@ -2788,6 +4446,18 @@
     <string>numeral-greek.glif</string>
     <key>numero</key>
     <string>numero.glif</string>
+    <key>nun-hb</key>
+    <string>nun-hb.glif</string>
+    <key>nundagesh-hb</key>
+    <string>nundagesh-hb.glif</string>
+    <key>nyeh-ar</key>
+    <string>nyeh-ar.glif</string>
+    <key>nyeh-ar.fina</key>
+    <string>nyeh-ar.fina.glif</string>
+    <key>nyeh-ar.init</key>
+    <string>nyeh-ar.init.glif</string>
+    <key>nyeh-ar.medi</key>
+    <string>nyeh-ar.medi.glif</string>
     <key>o</key>
     <string>o.glif</string>
     <key>o-cy</key>
@@ -2818,6 +4488,10 @@
     <string>odotbelow.glif</string>
     <key>oe</key>
     <string>oe.glif</string>
+    <key>oe-ar</key>
+    <string>oe-ar.glif</string>
+    <key>oe-ar.fina</key>
+    <string>oe-ar.fina.glif</string>
     <key>ogonek</key>
     <string>ogonek.glif</string>
     <key>ogonekcomb</key>
@@ -2856,6 +4530,18 @@
     <string>omicrontonos.glif</string>
     <key>one</key>
     <string>one.glif</string>
+    <key>one-ar</key>
+    <string>one-ar.glif</string>
+    <key>one-arinferior</key>
+    <string>one-arinferior.glif</string>
+    <key>one-arsuperior</key>
+    <string>one-arsuperior.glif</string>
+    <key>one-persian</key>
+    <string>one-persian.glif</string>
+    <key>one-persianinferior</key>
+    <string>one-persianinferior.glif</string>
+    <key>one-persiansuperior</key>
+    <string>one-persiansuperior.glif</string>
     <key>one.dnom</key>
     <string>one.dnom.glif</string>
     <key>one.half</key>
@@ -2866,12 +4552,18 @@
     <string>onedotenleader.glif</string>
     <key>oneeighth</key>
     <string>oneeighth.glif</string>
+    <key>oneeighth.BRACKET.500</key>
+    <string>oneeighth.B_R_A_C_K_E_T_.500.glif</string>
     <key>onehalf</key>
     <string>onehalf.glif</string>
+    <key>onehalf.BRACKET.500</key>
+    <string>onehalf.B_R_A_C_K_E_T_.500.glif</string>
     <key>oneinferior</key>
     <string>oneinferior.glif</string>
     <key>onequarter</key>
     <string>onequarter.glif</string>
+    <key>onequarter.BRACKET.500</key>
+    <string>onequarter.B_R_A_C_K_E_T_.500.glif</string>
     <key>onesuperior</key>
     <string>onesuperior.glif</string>
     <key>oogonek</key>
@@ -2894,24 +4586,78 @@
     <string>overline.glif</string>
     <key>p</key>
     <string>p.glif</string>
+    <key>pagenumber-ar</key>
+    <string>pagenumber-ar.glif</string>
     <key>palochka-cy</key>
     <string>palochka-cy.glif</string>
     <key>paragraph</key>
     <string>paragraph.glif</string>
     <key>parenleft</key>
     <string>parenleft.glif</string>
+    <key>parenleft-ar</key>
+    <string>parenleft-ar.glif</string>
     <key>parenleft_asterisk.liga</key>
     <string>parenleft_asterisk.liga.glif</string>
     <key>parenright</key>
     <string>parenright.glif</string>
+    <key>parenright-ar</key>
+    <string>parenright-ar.glif</string>
     <key>partialdiff</key>
     <string>partialdiff.glif</string>
+    <key>patah-hb</key>
+    <string>patah-hb.glif</string>
     <key>pe-cy</key>
     <string>pe-cy.glif</string>
     <key>pe-cy.loclBGR</key>
     <string>pe-cy.loclB_G_R_.glif</string>
+    <key>pe-hb</key>
+    <string>pe-hb.glif</string>
+    <key>pedagesh-hb</key>
+    <string>pedagesh-hb.glif</string>
+    <key>peh-ar</key>
+    <string>peh-ar.glif</string>
+    <key>peh-ar.alt</key>
+    <string>peh-ar.alt.glif</string>
+    <key>peh-ar.fina</key>
+    <string>peh-ar.fina.glif</string>
+    <key>peh-ar.fina.alt</key>
+    <string>peh-ar.fina.alt.glif</string>
+    <key>peh-ar.init</key>
+    <string>peh-ar.init.glif</string>
+    <key>peh-ar.init.alt</key>
+    <string>peh-ar.init.alt.glif</string>
+    <key>peh-ar.medi</key>
+    <string>peh-ar.medi.glif</string>
+    <key>pehMeemabove-ar</key>
+    <string>pehM_eemabove-ar.glif</string>
+    <key>pehMeemabove-ar.alt</key>
+    <string>pehM_eemabove-ar.alt.glif</string>
+    <key>pehMeemabove-ar.fina</key>
+    <string>pehM_eemabove-ar.fina.glif</string>
+    <key>pehMeemabove-ar.fina.alt</key>
+    <string>pehM_eemabove-ar.fina.alt.glif</string>
+    <key>pehMeemabove-ar.init</key>
+    <string>pehM_eemabove-ar.init.glif</string>
+    <key>pehMeemabove-ar.init.alt</key>
+    <string>pehM_eemabove-ar.init.alt.glif</string>
+    <key>pehMeemabove-ar.medi</key>
+    <string>pehM_eemabove-ar.medi.glif</string>
+    <key>peheh-ar</key>
+    <string>peheh-ar.glif</string>
+    <key>peheh-ar.alt</key>
+    <string>peheh-ar.alt.glif</string>
+    <key>peheh-ar.fina</key>
+    <string>peheh-ar.fina.glif</string>
+    <key>peheh-ar.fina.alt</key>
+    <string>peheh-ar.fina.alt.glif</string>
+    <key>peheh-ar.init</key>
+    <string>peheh-ar.init.glif</string>
+    <key>peheh-ar.medi</key>
+    <string>peheh-ar.medi.glif</string>
     <key>percent</key>
     <string>percent.glif</string>
+    <key>percent-ar</key>
+    <string>percent-ar.glif</string>
     <key>percent_percent.liga</key>
     <string>percent_percent.liga.glif</string>
     <key>period</key>
@@ -2936,6 +4682,8 @@
     <string>perispomenicomb.glif</string>
     <key>perthousand</key>
     <string>perthousand.glif</string>
+    <key>perthousand-ar</key>
+    <string>perthousand-ar.glif</string>
     <key>peseta</key>
     <string>peseta.glif</string>
     <key>peso</key>
@@ -2966,8 +4714,62 @@
     <string>punctuationspace.glif</string>
     <key>q</key>
     <string>q.glif</string>
+    <key>qaf-ar</key>
+    <string>qaf-ar.glif</string>
+    <key>qaf-ar.fina</key>
+    <string>qaf-ar.fina.glif</string>
+    <key>qaf-ar.init</key>
+    <string>qaf-ar.init.glif</string>
+    <key>qaf-ar.medi</key>
+    <string>qaf-ar.medi.glif</string>
+    <key>qafAfrican-ar</key>
+    <string>qafA_frican-ar.glif</string>
+    <key>qafAfrican-ar.fina</key>
+    <string>qafA_frican-ar.fina.glif</string>
+    <key>qafAfrican-ar.init</key>
+    <string>qafA_frican-ar.init.glif</string>
+    <key>qafAfrican-ar.medi</key>
+    <string>qafA_frican-ar.medi.glif</string>
+    <key>qafDotabove-ar</key>
+    <string>qafD_otabove-ar.glif</string>
+    <key>qafDotabove-ar.fina</key>
+    <string>qafD_otabove-ar.fina.glif</string>
+    <key>qafDotabove-ar.init</key>
+    <string>qafD_otabove-ar.init.glif</string>
+    <key>qafDotabove-ar.medi</key>
+    <string>qafD_otabove-ar.medi.glif</string>
+    <key>qafDotbelow-ar</key>
+    <string>qafD_otbelow-ar.glif</string>
+    <key>qafDotbelow-ar.fina</key>
+    <string>qafD_otbelow-ar.fina.glif</string>
+    <key>qafDotbelow-ar.init</key>
+    <string>qafD_otbelow-ar.init.glif</string>
+    <key>qafDotbelow-ar.medi</key>
+    <string>qafD_otbelow-ar.medi.glif</string>
+    <key>qafDotless-ar</key>
+    <string>qafD_otless-ar.glif</string>
+    <key>qafDotless-ar.fina</key>
+    <string>qafD_otless-ar.fina.glif</string>
+    <key>qafThreedotsabove-ar</key>
+    <string>qafT_hreedotsabove-ar.glif</string>
+    <key>qafThreedotsabove-ar.fina</key>
+    <string>qafT_hreedotsabove-ar.fina.glif</string>
+    <key>qafThreedotsabove-ar.init</key>
+    <string>qafT_hreedotsabove-ar.init.glif</string>
+    <key>qafThreedotsabove-ar.medi</key>
+    <string>qafT_hreedotsabove-ar.medi.glif</string>
+    <key>qamats-hb</key>
+    <string>qamats-hb.glif</string>
+    <key>qamatsqatan-hb</key>
+    <string>qamatsqatan-hb.glif</string>
+    <key>qof-hb</key>
+    <string>qof-hb.glif</string>
+    <key>qofdagesh-hb</key>
+    <string>qofdagesh-hb.glif</string>
     <key>question</key>
     <string>question.glif</string>
+    <key>question-ar</key>
+    <string>question-ar.glif</string>
     <key>question_colon.liga</key>
     <string>question_colon.liga.glif</string>
     <key>question_equal.liga</key>
@@ -3016,6 +4818,70 @@
     <string>recordS_eparatorC_ontrol.glif</string>
     <key>registered</key>
     <string>registered.glif</string>
+    <key>reh-ar</key>
+    <string>reh-ar.glif</string>
+    <key>reh-ar.fina</key>
+    <string>reh-ar.fina.glif</string>
+    <key>rehAlefabove-ar</key>
+    <string>rehA_lefabove-ar.glif</string>
+    <key>rehAlefabove-ar.fina</key>
+    <string>rehA_lefabove-ar.fina.glif</string>
+    <key>rehDotbelow-ar</key>
+    <string>rehD_otbelow-ar.glif</string>
+    <key>rehDotbelow-ar.fina</key>
+    <string>rehD_otbelow-ar.fina.glif</string>
+    <key>rehDotbelowdotabove-ar</key>
+    <string>rehD_otbelowdotabove-ar.glif</string>
+    <key>rehDotbelowdotabove-ar.fina</key>
+    <string>rehD_otbelowdotabove-ar.fina.glif</string>
+    <key>rehFourdots-ar</key>
+    <string>rehF_ourdots-ar.glif</string>
+    <key>rehFourdots-ar.fina</key>
+    <string>rehF_ourdots-ar.fina.glif</string>
+    <key>rehHamzaabove-ar</key>
+    <string>rehH_amzaabove-ar.glif</string>
+    <key>rehHamzaabove-ar.fina</key>
+    <string>rehH_amzaabove-ar.fina.glif</string>
+    <key>rehLoop-ar</key>
+    <string>rehL_oop-ar.glif</string>
+    <key>rehRing-ar</key>
+    <string>rehR_ing-ar.glif</string>
+    <key>rehRing-ar.fina</key>
+    <string>rehR_ing-ar.fina.glif</string>
+    <key>rehStroke-ar</key>
+    <string>rehS_troke-ar.glif</string>
+    <key>rehStroke-ar.fina</key>
+    <string>rehS_troke-ar.fina.glif</string>
+    <key>rehTwodots-ar</key>
+    <string>rehT_wodots-ar.glif</string>
+    <key>rehTwodots-ar.fina</key>
+    <string>rehT_wodots-ar.fina.glif</string>
+    <key>rehTwodotshorizontalaboveTahabove-ar</key>
+    <string>rehT_wodotshorizontalaboveT_ahabove-ar.glif</string>
+    <key>rehTwodotshorizontalaboveTahabove-ar.fina</key>
+    <string>rehT_wodotshorizontalaboveT_ahabove-ar.fina.glif</string>
+    <key>rehTwodotsverticalabove-ar</key>
+    <string>rehT_wodotsverticalabove-ar.glif</string>
+    <key>rehTwodotsverticalabove-ar.fina</key>
+    <string>rehT_wodotsverticalabove-ar.fina.glif</string>
+    <key>rehVbelow-ar</key>
+    <string>rehV_below-ar.glif</string>
+    <key>rehVbelow-ar.fina</key>
+    <string>rehV_below-ar.fina.glif</string>
+    <key>rehVinvertedabove-ar</key>
+    <string>rehV_invertedabove-ar.glif</string>
+    <key>rehVinvertedabove-ar.fina</key>
+    <string>rehV_invertedabove-ar.fina.glif</string>
+    <key>rehv-ar</key>
+    <string>rehv-ar.glif</string>
+    <key>rehv-ar.fina</key>
+    <string>rehv-ar.fina.glif</string>
+    <key>replacementCharacter</key>
+    <string>replacementC_haracter.glif</string>
+    <key>resh-hb</key>
+    <string>resh-hb.glif</string>
+    <key>reshdagesh-hb</key>
+    <string>reshdagesh-hb.glif</string>
     <key>returnsymbol</key>
     <string>returnsymbol.glif</string>
     <key>reversedRotatedFloralHeartBullet</key>
@@ -3054,14 +4920,30 @@
     <string>rightW_hiteT_riangle.glif</string>
     <key>ring</key>
     <string>ring.glif</string>
+    <key>ringArabic</key>
+    <string>ringA_rabic.glif</string>
     <key>ringbelowcomb</key>
     <string>ringbelowcomb.glif</string>
     <key>ringcomb</key>
     <string>ringcomb.glif</string>
     <key>ringcomb.case</key>
     <string>ringcomb.case.glif</string>
+    <key>rnoon-ar</key>
+    <string>rnoon-ar.glif</string>
+    <key>rnoon-ar.fina</key>
+    <string>rnoon-ar.fina.glif</string>
+    <key>rnoon-ar.init</key>
+    <string>rnoon-ar.init.glif</string>
+    <key>rnoon-ar.init.alt</key>
+    <string>rnoon-ar.init.alt.glif</string>
+    <key>rnoon-ar.medi</key>
+    <string>rnoon-ar.medi.glif</string>
     <key>rotatedFloralHeartBullet</key>
     <string>rotatedF_loralH_eartB_ullet.glif</string>
+    <key>rreh-ar</key>
+    <string>rreh-ar.glif</string>
+    <key>rreh-ar.fina</key>
+    <string>rreh-ar.fina.glif</string>
     <key>ruble</key>
     <string>ruble.glif</string>
     <key>rupee</key>
@@ -3074,6 +4956,60 @@
     <string>sacute.glif</string>
     <key>sacute.loclPLK</key>
     <string>sacute.loclP_L_K_.glif</string>
+    <key>sad-ar</key>
+    <string>sad-ar.glif</string>
+    <key>sad-ar.alt</key>
+    <string>sad-ar.alt.glif</string>
+    <key>sad-ar.fina</key>
+    <string>sad-ar.fina.glif</string>
+    <key>sad-ar.fina.alt</key>
+    <string>sad-ar.fina.alt.glif</string>
+    <key>sad-ar.init</key>
+    <string>sad-ar.init.glif</string>
+    <key>sad-ar.medi</key>
+    <string>sad-ar.medi.glif</string>
+    <key>sadThreedots-ar</key>
+    <string>sadT_hreedots-ar.glif</string>
+    <key>sadThreedots-ar.alt</key>
+    <string>sadT_hreedots-ar.alt.glif</string>
+    <key>sadThreedots-ar.fina</key>
+    <string>sadT_hreedots-ar.fina.glif</string>
+    <key>sadThreedots-ar.fina.alt</key>
+    <string>sadT_hreedots-ar.fina.alt.glif</string>
+    <key>sadThreedots-ar.init</key>
+    <string>sadT_hreedots-ar.init.glif</string>
+    <key>sadThreedots-ar.medi</key>
+    <string>sadT_hreedots-ar.medi.glif</string>
+    <key>sadThreedotsbelow-ar</key>
+    <string>sadT_hreedotsbelow-ar.glif</string>
+    <key>sadThreedotsbelow-ar.alt</key>
+    <string>sadT_hreedotsbelow-ar.alt.glif</string>
+    <key>sadThreedotsbelow-ar.fina</key>
+    <string>sadT_hreedotsbelow-ar.fina.glif</string>
+    <key>sadThreedotsbelow-ar.fina.alt</key>
+    <string>sadT_hreedotsbelow-ar.fina.alt.glif</string>
+    <key>sadThreedotsbelow-ar.init</key>
+    <string>sadT_hreedotsbelow-ar.init.glif</string>
+    <key>sadThreedotsbelow-ar.medi</key>
+    <string>sadT_hreedotsbelow-ar.medi.glif</string>
+    <key>sadTwodotsbelow-ar</key>
+    <string>sadT_wodotsbelow-ar.glif</string>
+    <key>sadTwodotsbelow-ar.alt</key>
+    <string>sadT_wodotsbelow-ar.alt.glif</string>
+    <key>sadTwodotsbelow-ar.fina</key>
+    <string>sadT_wodotsbelow-ar.fina.glif</string>
+    <key>sadTwodotsbelow-ar.fina.alt</key>
+    <string>sadT_wodotsbelow-ar.fina.alt.glif</string>
+    <key>sadTwodotsbelow-ar.init</key>
+    <string>sadT_wodotsbelow-ar.init.glif</string>
+    <key>sadTwodotsbelow-ar.medi</key>
+    <string>sadT_wodotsbelow-ar.medi.glif</string>
+    <key>samekh-hb</key>
+    <string>samekh-hb.glif</string>
+    <key>samekhdagesh-hb</key>
+    <string>samekhdagesh-hb.glif</string>
+    <key>samvat-ar</key>
+    <string>samvat-ar.glif</string>
     <key>scaron</key>
     <string>scaron.glif</string>
     <key>scedilla</key>
@@ -3092,18 +5028,148 @@
     <string>second.glif</string>
     <key>section</key>
     <string>section.glif</string>
+    <key>seen-ar</key>
+    <string>seen-ar.glif</string>
+    <key>seen-ar.alt</key>
+    <string>seen-ar.alt.glif</string>
+    <key>seen-ar.fina</key>
+    <string>seen-ar.fina.glif</string>
+    <key>seen-ar.fina.alt</key>
+    <string>seen-ar.fina.alt.glif</string>
+    <key>seen-ar.init</key>
+    <string>seen-ar.init.glif</string>
+    <key>seen-ar.medi</key>
+    <string>seen-ar.medi.glif</string>
+    <key>seenDotbelowDotabove-ar</key>
+    <string>seenD_otbelowD_otabove-ar.glif</string>
+    <key>seenDotbelowDotabove-ar.alt</key>
+    <string>seenD_otbelowD_otabove-ar.alt.glif</string>
+    <key>seenDotbelowDotabove-ar.fina</key>
+    <string>seenD_otbelowD_otabove-ar.fina.glif</string>
+    <key>seenDotbelowDotabove-ar.fina.alt</key>
+    <string>seenD_otbelowD_otabove-ar.fina.alt.glif</string>
+    <key>seenDotbelowDotabove-ar.init</key>
+    <string>seenD_otbelowD_otabove-ar.init.glif</string>
+    <key>seenDotbelowDotabove-ar.medi</key>
+    <string>seenD_otbelowD_otabove-ar.medi.glif</string>
+    <key>seenFourabove-ar</key>
+    <string>seenF_ourabove-ar.glif</string>
+    <key>seenFourabove-ar.alt</key>
+    <string>seenF_ourabove-ar.alt.glif</string>
+    <key>seenFourabove-ar.fina</key>
+    <string>seenF_ourabove-ar.fina.glif</string>
+    <key>seenFourabove-ar.fina.alt</key>
+    <string>seenF_ourabove-ar.fina.alt.glif</string>
+    <key>seenFourabove-ar.init</key>
+    <string>seenF_ourabove-ar.init.glif</string>
+    <key>seenFourabove-ar.medi</key>
+    <string>seenF_ourabove-ar.medi.glif</string>
+    <key>seenFourdotsabove-ar</key>
+    <string>seenF_ourdotsabove-ar.glif</string>
+    <key>seenFourdotsabove-ar.alt</key>
+    <string>seenF_ourdotsabove-ar.alt.glif</string>
+    <key>seenFourdotsabove-ar.fina</key>
+    <string>seenF_ourdotsabove-ar.fina.glif</string>
+    <key>seenFourdotsabove-ar.fina.alt</key>
+    <string>seenF_ourdotsabove-ar.fina.alt.glif</string>
+    <key>seenFourdotsabove-ar.init</key>
+    <string>seenF_ourdotsabove-ar.init.glif</string>
+    <key>seenFourdotsabove-ar.medi</key>
+    <string>seenF_ourdotsabove-ar.medi.glif</string>
+    <key>seenTahTwodotshorizontalabove-ar</key>
+    <string>seenT_ahT_wodotshorizontalabove-ar.glif</string>
+    <key>seenTahTwodotshorizontalabove-ar.alt</key>
+    <string>seenT_ahT_wodotshorizontalabove-ar.alt.glif</string>
+    <key>seenTahTwodotshorizontalabove-ar.fina</key>
+    <string>seenT_ahT_wodotshorizontalabove-ar.fina.glif</string>
+    <key>seenTahTwodotshorizontalabove-ar.fina.alt</key>
+    <string>seenT_ahT_wodotshorizontalabove-ar.fina.alt.glif</string>
+    <key>seenTahTwodotshorizontalabove-ar.init</key>
+    <string>seenT_ahT_wodotshorizontalabove-ar.init.glif</string>
+    <key>seenTahTwodotshorizontalabove-ar.medi</key>
+    <string>seenT_ahT_wodotshorizontalabove-ar.medi.glif</string>
+    <key>seenThreedotsbelow-ar</key>
+    <string>seenT_hreedotsbelow-ar.glif</string>
+    <key>seenThreedotsbelow-ar.alt</key>
+    <string>seenT_hreedotsbelow-ar.alt.glif</string>
+    <key>seenThreedotsbelow-ar.fina</key>
+    <string>seenT_hreedotsbelow-ar.fina.glif</string>
+    <key>seenThreedotsbelow-ar.fina.alt</key>
+    <string>seenT_hreedotsbelow-ar.fina.alt.glif</string>
+    <key>seenThreedotsbelow-ar.init</key>
+    <string>seenT_hreedotsbelow-ar.init.glif</string>
+    <key>seenThreedotsbelow-ar.medi</key>
+    <string>seenT_hreedotsbelow-ar.medi.glif</string>
+    <key>seenThreedotsbelowthreedots-ar</key>
+    <string>seenT_hreedotsbelowthreedots-ar.glif</string>
+    <key>seenThreedotsbelowthreedots-ar.alt</key>
+    <string>seenT_hreedotsbelowthreedots-ar.alt.glif</string>
+    <key>seenThreedotsbelowthreedots-ar.fina</key>
+    <string>seenT_hreedotsbelowthreedots-ar.fina.glif</string>
+    <key>seenThreedotsbelowthreedots-ar.fina.alt</key>
+    <string>seenT_hreedotsbelowthreedots-ar.fina.alt.glif</string>
+    <key>seenThreedotsbelowthreedots-ar.init</key>
+    <string>seenT_hreedotsbelowthreedots-ar.init.glif</string>
+    <key>seenThreedotsbelowthreedots-ar.medi</key>
+    <string>seenT_hreedotsbelowthreedots-ar.medi.glif</string>
+    <key>seenTwodotshorizontalabove-ar</key>
+    <string>seenT_wodotshorizontalabove-ar.glif</string>
+    <key>seenTwodotshorizontalabove-ar.fina</key>
+    <string>seenT_wodotshorizontalabove-ar.fina.glif</string>
+    <key>seenTwodotshorizontalabove-ar.init</key>
+    <string>seenT_wodotshorizontalabove-ar.init.glif</string>
+    <key>seenTwodotshorizontalabove-ar.medi</key>
+    <string>seenT_wodotshorizontalabove-ar.medi.glif</string>
+    <key>seenTwodotsverticalabove-ar.alt</key>
+    <string>seenT_wodotsverticalabove-ar.alt.glif</string>
+    <key>seenTwodotsverticalabove-ar.fina.alt</key>
+    <string>seenT_wodotsverticalabove-ar.fina.alt.glif</string>
+    <key>seenVinvertedabove-ar</key>
+    <string>seenV_invertedabove-ar.glif</string>
+    <key>seenVinvertedabove-ar.alt</key>
+    <string>seenV_invertedabove-ar.alt.glif</string>
+    <key>seenVinvertedabove-ar.fina</key>
+    <string>seenV_invertedabove-ar.fina.glif</string>
+    <key>seenVinvertedabove-ar.fina.alt</key>
+    <string>seenV_invertedabove-ar.fina.alt.glif</string>
+    <key>seenVinvertedabove-ar.init</key>
+    <string>seenV_invertedabove-ar.init.glif</string>
+    <key>seenVinvertedabove-ar.medi</key>
+    <string>seenV_invertedabove-ar.medi.glif</string>
     <key>semicolon</key>
     <string>semicolon.glif</string>
+    <key>semicolon-ar</key>
+    <string>semicolon-ar.glif</string>
     <key>semicolon_semicolon.liga</key>
     <string>semicolon_semicolon.liga.glif</string>
     <key>seven</key>
     <string>seven.glif</string>
+    <key>seven-ar</key>
+    <string>seven-ar.glif</string>
+    <key>seven-arinferior</key>
+    <string>seven-arinferior.glif</string>
+    <key>seven-arsuperior</key>
+    <string>seven-arsuperior.glif</string>
+    <key>seven-persian</key>
+    <string>seven-persian.glif</string>
+    <key>seven-persian.urdu</key>
+    <string>seven-persian.urdu.glif</string>
+    <key>seven-persian.urduinferior</key>
+    <string>seven-persian.urduinferior.glif</string>
+    <key>seven-persian.urdusuperior</key>
+    <string>seven-persian.urdusuperior.glif</string>
+    <key>seven-persianinferior</key>
+    <string>seven-persianinferior.glif</string>
+    <key>seven-persiansuperior</key>
+    <string>seven-persiansuperior.glif</string>
     <key>seven.dnom</key>
     <string>seven.dnom.glif</string>
     <key>seven.numr</key>
     <string>seven.numr.glif</string>
     <key>seveneighths</key>
     <string>seveneighths.glif</string>
+    <key>seveneighths.BRACKET.500</key>
+    <string>seveneighths.B_R_A_C_K_E_T_.500.glif</string>
     <key>seveninferior</key>
     <string>seveninferior.glif</string>
     <key>sevensuperior</key>
@@ -3112,6 +5178,8 @@
     <string>sha-cy.glif</string>
     <key>sha-cy.loclBGR</key>
     <string>sha-cy.loclB_G_R_.glif</string>
+    <key>shadda-ar</key>
+    <string>shadda-ar.glif</string>
     <key>shadedark</key>
     <string>shadedark.glif</string>
     <key>shadedark.stypo</key>
@@ -3128,6 +5196,30 @@
     <string>shcha-cy.glif</string>
     <key>shcha-cy.loclBGR</key>
     <string>shcha-cy.loclB_G_R_.glif</string>
+    <key>sheen-ar</key>
+    <string>sheen-ar.glif</string>
+    <key>sheen-ar.alt</key>
+    <string>sheen-ar.alt.glif</string>
+    <key>sheen-ar.fina</key>
+    <string>sheen-ar.fina.glif</string>
+    <key>sheen-ar.fina.alt</key>
+    <string>sheen-ar.fina.alt.glif</string>
+    <key>sheen-ar.init</key>
+    <string>sheen-ar.init.glif</string>
+    <key>sheen-ar.medi</key>
+    <string>sheen-ar.medi.glif</string>
+    <key>sheenDotbelow-ar</key>
+    <string>sheenD_otbelow-ar.glif</string>
+    <key>sheenDotbelow-ar.alt</key>
+    <string>sheenD_otbelow-ar.alt.glif</string>
+    <key>sheenDotbelow-ar.fina</key>
+    <string>sheenD_otbelow-ar.fina.glif</string>
+    <key>sheenDotbelow-ar.fina.alt</key>
+    <string>sheenD_otbelow-ar.fina.alt.glif</string>
+    <key>sheenDotbelow-ar.init</key>
+    <string>sheenD_otbelow-ar.init.glif</string>
+    <key>sheenDotbelow-ar.medi</key>
+    <string>sheenD_otbelow-ar.medi.glif</string>
     <key>sheqel</key>
     <string>sheqel.glif</string>
     <key>shha-cy</key>
@@ -3140,12 +5232,44 @@
     <string>shiftO_utC_ontrol.glif</string>
     <key>shiftOutControl.ss20</key>
     <string>shiftO_utC_ontrol.ss20.glif</string>
+    <key>shin-hb</key>
+    <string>shin-hb.glif</string>
+    <key>shindagesh-hb</key>
+    <string>shindagesh-hb.glif</string>
+    <key>shindageshshindot-hb</key>
+    <string>shindageshshindot-hb.glif</string>
+    <key>shindageshsindot-hb</key>
+    <string>shindageshsindot-hb.glif</string>
+    <key>shindot-hb</key>
+    <string>shindot-hb.glif</string>
+    <key>shinshindot-hb</key>
+    <string>shinshindot-hb.glif</string>
+    <key>shinsindot-hb</key>
+    <string>shinsindot-hb.glif</string>
     <key>sigma</key>
     <string>sigma.glif</string>
     <key>sigmafinal</key>
     <string>sigmafinal.glif</string>
+    <key>sindhiampersand-ar</key>
+    <string>sindhiampersand-ar.glif</string>
+    <key>sindhipostpositionmen-ar</key>
+    <string>sindhipostpositionmen-ar.glif</string>
+    <key>sindot-hb</key>
+    <string>sindot-hb.glif</string>
     <key>six</key>
     <string>six.glif</string>
+    <key>six-ar</key>
+    <string>six-ar.glif</string>
+    <key>six-arinferior</key>
+    <string>six-arinferior.glif</string>
+    <key>six-arsuperior</key>
+    <string>six-arsuperior.glif</string>
+    <key>six-persian</key>
+    <string>six-persian.glif</string>
+    <key>six-persianinferior</key>
+    <string>six-persianinferior.glif</string>
+    <key>six-persiansuperior</key>
+    <string>six-persiansuperior.glif</string>
     <key>six.dnom</key>
     <string>six.dnom.glif</string>
     <key>six.numr</key>
@@ -3208,6 +5332,8 @@
     <string>substituteC_ontrol.ss20.glif</string>
     <key>substituteFormTwoControl</key>
     <string>substituteF_ormT_woC_ontrol.glif</string>
+    <key>sukun-ar</key>
+    <string>sukun-ar.glif</string>
     <key>summation</key>
     <string>summation.glif</string>
     <key>sunWithRays</key>
@@ -3218,44 +5344,258 @@
     <string>synchronousI_dleC_ontrol.ss20.glif</string>
     <key>t</key>
     <string>t.glif</string>
+    <key>tah-ar</key>
+    <string>tah-ar.glif</string>
+    <key>tah-ar.fina</key>
+    <string>tah-ar.fina.glif</string>
+    <key>tah-ar.init</key>
+    <string>tah-ar.init.glif</string>
+    <key>tah-ar.medi</key>
+    <string>tah-ar.medi.glif</string>
+    <key>tahThreedots-ar</key>
+    <string>tahT_hreedots-ar.glif</string>
+    <key>tahThreedots-ar.fina</key>
+    <string>tahT_hreedots-ar.fina.glif</string>
+    <key>tahThreedots-ar.init</key>
+    <string>tahT_hreedots-ar.init.glif</string>
+    <key>tahThreedots-ar.medi</key>
+    <string>tahT_hreedots-ar.medi.glif</string>
+    <key>tahTwodotsabove-ar</key>
+    <string>tahT_wodotsabove-ar.glif</string>
+    <key>tahTwodotsabove-ar.fina</key>
+    <string>tahT_wodotsabove-ar.fina.glif</string>
+    <key>tahTwodotsabove-ar.init</key>
+    <string>tahT_wodotsabove-ar.init.glif</string>
+    <key>tahTwodotsabove-ar.medi</key>
+    <string>tahT_wodotsabove-ar.medi.glif</string>
+    <key>tahabove-ar</key>
+    <string>tahabove-ar.glif</string>
+    <key>tahbelow-ar</key>
+    <string>tahbelow-ar.glif</string>
+    <key>tahcenter-ar</key>
+    <string>tahcenter-ar.glif</string>
     <key>tau</key>
     <string>tau.glif</string>
+    <key>tav-hb</key>
+    <string>tav-hb.glif</string>
+    <key>tavdagesh-hb</key>
+    <string>tavdagesh-hb.glif</string>
     <key>tbar</key>
     <string>tbar.glif</string>
     <key>tcaron</key>
     <string>tcaron.glif</string>
     <key>tcedilla</key>
     <string>tcedilla.glif</string>
+    <key>tcheh-ar</key>
+    <string>tcheh-ar.glif</string>
+    <key>tcheh-ar.fina</key>
+    <string>tcheh-ar.fina.glif</string>
+    <key>tcheh-ar.init</key>
+    <string>tcheh-ar.init.glif</string>
+    <key>tcheh-ar.medi</key>
+    <string>tcheh-ar.medi.glif</string>
+    <key>tchehDotabove-ar</key>
+    <string>tchehD_otabove-ar.glif</string>
+    <key>tchehDotabove-ar.fina</key>
+    <string>tchehD_otabove-ar.fina.glif</string>
+    <key>tchehDotabove-ar.init</key>
+    <string>tchehD_otabove-ar.init.glif</string>
+    <key>tchehDotabove-ar.medi</key>
+    <string>tchehD_otabove-ar.medi.glif</string>
+    <key>tcheheh-ar</key>
+    <string>tcheheh-ar.glif</string>
+    <key>tcheheh-ar.fina</key>
+    <string>tcheheh-ar.fina.glif</string>
+    <key>tcheheh-ar.init</key>
+    <string>tcheheh-ar.init.glif</string>
+    <key>tcheheh-ar.medi</key>
+    <string>tcheheh-ar.medi.glif</string>
     <key>tcommaaccent</key>
     <string>tcommaaccent.glif</string>
     <key>te-cy</key>
     <string>te-cy.glif</string>
     <key>te-cy.loclBGR</key>
     <string>te-cy.loclB_G_R_.glif</string>
+    <key>teh-ar</key>
+    <string>teh-ar.glif</string>
+    <key>teh-ar.alt</key>
+    <string>teh-ar.alt.glif</string>
+    <key>teh-ar.fina</key>
+    <string>teh-ar.fina.glif</string>
+    <key>teh-ar.fina.alt</key>
+    <string>teh-ar.fina.alt.glif</string>
+    <key>teh-ar.init</key>
+    <string>teh-ar.init.glif</string>
+    <key>teh-ar.init.alt</key>
+    <string>teh-ar.init.alt.glif</string>
+    <key>teh-ar.medi</key>
+    <string>teh-ar.medi.glif</string>
+    <key>tehMarbuta-ar</key>
+    <string>tehM_arbuta-ar.glif</string>
+    <key>tehMarbuta-ar.fina</key>
+    <string>tehM_arbuta-ar.fina.glif</string>
+    <key>tehMarbutagoal-ar</key>
+    <string>tehM_arbutagoal-ar.glif</string>
+    <key>tehMarbutagoal-ar.fina</key>
+    <string>tehM_arbutagoal-ar.fina.glif</string>
+    <key>tehRing-ar</key>
+    <string>tehR_ing-ar.glif</string>
+    <key>tehRing-ar.alt</key>
+    <string>tehR_ing-ar.alt.glif</string>
+    <key>tehRing-ar.fina</key>
+    <string>tehR_ing-ar.fina.glif</string>
+    <key>tehRing-ar.fina.alt</key>
+    <string>tehR_ing-ar.fina.alt.glif</string>
+    <key>tehRing-ar.init</key>
+    <string>tehR_ing-ar.init.glif</string>
+    <key>tehRing-ar.init.alt</key>
+    <string>tehR_ing-ar.init.alt.glif</string>
+    <key>tehRing-ar.medi</key>
+    <string>tehR_ing-ar.medi.glif</string>
+    <key>tehTehabove-ar</key>
+    <string>tehT_ehabove-ar.glif</string>
+    <key>tehTehabove-ar.alt</key>
+    <string>tehT_ehabove-ar.alt.glif</string>
+    <key>tehTehabove-ar.fina</key>
+    <string>tehT_ehabove-ar.fina.glif</string>
+    <key>tehTehabove-ar.fina.alt</key>
+    <string>tehT_ehabove-ar.fina.alt.glif</string>
+    <key>tehTehabove-ar.init</key>
+    <string>tehT_ehabove-ar.init.glif</string>
+    <key>tehTehabove-ar.init.alt</key>
+    <string>tehT_ehabove-ar.init.alt.glif</string>
+    <key>tehTehabove-ar.medi</key>
+    <string>tehT_ehabove-ar.medi.glif</string>
+    <key>tehThreedotsdown-ar</key>
+    <string>tehT_hreedotsdown-ar.glif</string>
+    <key>tehThreedotsdown-ar.alt</key>
+    <string>tehT_hreedotsdown-ar.alt.glif</string>
+    <key>tehThreedotsdown-ar.fina</key>
+    <string>tehT_hreedotsdown-ar.fina.glif</string>
+    <key>tehThreedotsdown-ar.fina.alt</key>
+    <string>tehT_hreedotsdown-ar.fina.alt.glif</string>
+    <key>tehThreedotsdown-ar.init</key>
+    <string>tehT_hreedotsdown-ar.init.glif</string>
+    <key>tehThreedotsdown-ar.init.alt</key>
+    <string>tehT_hreedotsdown-ar.init.alt.glif</string>
+    <key>tehThreedotsdown-ar.medi</key>
+    <string>tehT_hreedotsdown-ar.medi.glif</string>
+    <key>tehThreedotsupbelow-ar</key>
+    <string>tehT_hreedotsupbelow-ar.glif</string>
+    <key>tehThreedotsupbelow-ar.alt</key>
+    <string>tehT_hreedotsupbelow-ar.alt.glif</string>
+    <key>tehThreedotsupbelow-ar.fina</key>
+    <string>tehT_hreedotsupbelow-ar.fina.glif</string>
+    <key>tehThreedotsupbelow-ar.fina.alt</key>
+    <string>tehT_hreedotsupbelow-ar.fina.alt.glif</string>
+    <key>tehThreedotsupbelow-ar.init</key>
+    <string>tehT_hreedotsupbelow-ar.init.glif</string>
+    <key>tehThreedotsupbelow-ar.init.alt</key>
+    <string>tehT_hreedotsupbelow-ar.init.alt.glif</string>
+    <key>tehThreedotsupbelow-ar.medi</key>
+    <string>tehT_hreedotsupbelow-ar.medi.glif</string>
+    <key>tehabove-ar.small</key>
+    <string>tehabove-ar.small.glif</string>
+    <key>teheh-ar</key>
+    <string>teheh-ar.glif</string>
+    <key>teheh-ar.alt</key>
+    <string>teheh-ar.alt.glif</string>
+    <key>teheh-ar.fina</key>
+    <string>teheh-ar.fina.glif</string>
+    <key>teheh-ar.fina.alt</key>
+    <string>teheh-ar.fina.alt.glif</string>
+    <key>teheh-ar.init</key>
+    <string>teheh-ar.init.glif</string>
+    <key>teheh-ar.init.alt</key>
+    <string>teheh-ar.init.alt.glif</string>
+    <key>teheh-ar.medi</key>
+    <string>teheh-ar.medi.glif</string>
     <key>tenge</key>
     <string>tenge.glif</string>
     <key>tesh</key>
     <string>tesh.glif</string>
+    <key>tet-hb</key>
+    <string>tet-hb.glif</string>
+    <key>tetdagesh-hb</key>
+    <string>tetdagesh-hb.glif</string>
+    <key>thal-ar</key>
+    <string>thal-ar.glif</string>
+    <key>thal-ar.fina</key>
+    <string>thal-ar.fina.glif</string>
+    <key>thalAlefabove-ar</key>
+    <string>thalA_lefabove-ar.glif</string>
+    <key>thalAlefabove-ar.fina</key>
+    <string>thalA_lefabove-ar.fina.glif</string>
+    <key>theh-ar</key>
+    <string>theh-ar.glif</string>
+    <key>theh-ar.alt</key>
+    <string>theh-ar.alt.glif</string>
+    <key>theh-ar.fina</key>
+    <string>theh-ar.fina.glif</string>
+    <key>theh-ar.fina.alt</key>
+    <string>theh-ar.fina.alt.glif</string>
+    <key>theh-ar.init</key>
+    <string>theh-ar.init.glif</string>
+    <key>theh-ar.init.alt</key>
+    <string>theh-ar.init.alt.glif</string>
+    <key>theh-ar.medi</key>
+    <string>theh-ar.medi.glif</string>
     <key>theta</key>
     <string>theta.glif</string>
     <key>thetamod</key>
     <string>thetamod.glif</string>
     <key>thorn</key>
     <string>thorn.glif</string>
+    <key>thousandseparator-ar</key>
+    <string>thousandseparator-ar.glif</string>
     <key>three</key>
     <string>three.glif</string>
+    <key>three-ar</key>
+    <string>three-ar.glif</string>
+    <key>three-arinferior</key>
+    <string>three-arinferior.glif</string>
+    <key>three-arsuperior</key>
+    <string>three-arsuperior.glif</string>
+    <key>three-persian</key>
+    <string>three-persian.glif</string>
+    <key>three-persian.small01</key>
+    <string>three-persian.small01.glif</string>
+    <key>three-persianinferior</key>
+    <string>three-persianinferior.glif</string>
+    <key>three-persiansuperior</key>
+    <string>three-persiansuperior.glif</string>
     <key>three.dnom</key>
     <string>three.dnom.glif</string>
     <key>three.half</key>
     <string>three.half.glif</string>
     <key>three.numr</key>
     <string>three.numr.glif</string>
+    <key>threedots-ar</key>
+    <string>threedots-ar.glif</string>
+    <key>threedotsdownabove-ar</key>
+    <string>threedotsdownabove-ar.glif</string>
+    <key>threedotsdownbelow-ar</key>
+    <string>threedotsdownbelow-ar.glif</string>
+    <key>threedotsdowncenter-ar</key>
+    <string>threedotsdowncenter-ar.glif</string>
+    <key>threedotsupabove-ar</key>
+    <string>threedotsupabove-ar.glif</string>
+    <key>threedotsupabove-ar.v2</key>
+    <string>threedotsupabove-ar.v2.glif</string>
+    <key>threedotsupbelow-ar</key>
+    <string>threedotsupbelow-ar.glif</string>
+    <key>threedotsupcenter-ar</key>
+    <string>threedotsupcenter-ar.glif</string>
     <key>threeeighths</key>
     <string>threeeighths.glif</string>
+    <key>threeeighths.BRACKET.500</key>
+    <string>threeeighths.B_R_A_C_K_E_T_.500.glif</string>
     <key>threeinferior</key>
     <string>threeinferior.glif</string>
     <key>threequarters</key>
     <string>threequarters.glif</string>
+    <key>threequarters.BRACKET.500</key>
+    <string>threequarters.B_R_A_C_K_E_T_.500.glif</string>
     <key>threesuperior</key>
     <string>threesuperior.glif</string>
     <key>tilde</key>
@@ -3278,30 +5618,102 @@
     <string>topR_ightH_alfW_hiteS_quare.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
+    <key>tsadi-hb</key>
+    <string>tsadi-hb.glif</string>
+    <key>tsadidagesh-hb</key>
+    <string>tsadidagesh-hb.glif</string>
     <key>tse-cy</key>
     <string>tse-cy.glif</string>
     <key>tse-cy.loclBGR</key>
     <string>tse-cy.loclB_G_R_.glif</string>
     <key>tshe-cy</key>
     <string>tshe-cy.glif</string>
+    <key>tteh-ar</key>
+    <string>tteh-ar.glif</string>
+    <key>tteh-ar.alt</key>
+    <string>tteh-ar.alt.glif</string>
+    <key>tteh-ar.fina</key>
+    <string>tteh-ar.fina.glif</string>
+    <key>tteh-ar.fina.alt</key>
+    <string>tteh-ar.fina.alt.glif</string>
+    <key>tteh-ar.init</key>
+    <string>tteh-ar.init.glif</string>
+    <key>tteh-ar.init.alt</key>
+    <string>tteh-ar.init.alt.glif</string>
+    <key>tteh-ar.medi</key>
+    <string>tteh-ar.medi.glif</string>
+    <key>tteheh-ar</key>
+    <string>tteheh-ar.glif</string>
+    <key>tteheh-ar.alt</key>
+    <string>tteheh-ar.alt.glif</string>
+    <key>tteheh-ar.fina</key>
+    <string>tteheh-ar.fina.glif</string>
+    <key>tteheh-ar.fina.alt</key>
+    <string>tteheh-ar.fina.alt.glif</string>
+    <key>tteheh-ar.init</key>
+    <string>tteheh-ar.init.glif</string>
+    <key>tteheh-ar.init.alt</key>
+    <string>tteheh-ar.init.alt.glif</string>
+    <key>tteheh-ar.medi</key>
+    <string>tteheh-ar.medi.glif</string>
     <key>tugrik</key>
     <string>tugrik.glif</string>
     <key>two</key>
     <string>two.glif</string>
+    <key>two-ar</key>
+    <string>two-ar.glif</string>
+    <key>two-arinferior</key>
+    <string>two-arinferior.glif</string>
+    <key>two-arsuperior</key>
+    <string>two-arsuperior.glif</string>
+    <key>two-persian</key>
+    <string>two-persian.glif</string>
+    <key>two-persian.small01</key>
+    <string>two-persian.small01.glif</string>
+    <key>two-persianinferior</key>
+    <string>two-persianinferior.glif</string>
+    <key>two-persiansuperior</key>
+    <string>two-persiansuperior.glif</string>
     <key>two.dnom</key>
     <string>two.dnom.glif</string>
     <key>two.half</key>
     <string>two.half.glif</string>
     <key>two.numr</key>
     <string>two.numr.glif</string>
+    <key>twodotshorizontalabove-ar</key>
+    <string>twodotshorizontalabove-ar.glif</string>
+    <key>twodotshorizontalabove-ar.v2</key>
+    <string>twodotshorizontalabove-ar.v2.glif</string>
+    <key>twodotshorizontalbelow-ar</key>
+    <string>twodotshorizontalbelow-ar.glif</string>
+    <key>twodotshorizontalcenter-ar</key>
+    <string>twodotshorizontalcenter-ar.glif</string>
+    <key>twodotstahbelow-ar</key>
+    <string>twodotstahbelow-ar.glif</string>
+    <key>twodotstahcenter-ar</key>
+    <string>twodotstahcenter-ar.glif</string>
+    <key>twodotsverticalabove-ar</key>
+    <string>twodotsverticalabove-ar.glif</string>
+    <key>twodotsverticalbelow-ar</key>
+    <string>twodotsverticalbelow-ar.glif</string>
+    <key>twodotsverticalcenter-ar</key>
+    <string>twodotsverticalcenter-ar.glif</string>
     <key>twoinferior</key>
     <string>twoinferior.glif</string>
     <key>twosuperior</key>
     <string>twosuperior.glif</string>
     <key>u</key>
     <string>u.glif</string>
+    <key>u-ar</key>
+    <string>u-ar.glif</string>
+    <key>u-ar.fina</key>
+    <string>u-ar.fina.glif</string>
     <key>u-cy</key>
     <string>u-cy.glif</string>
+    <key>uHamzaabove-ar</key>
+    <string>uH_amzaabove-ar.glif</string>
+    <key>uHamzaabove-ar.fina</key>
+    <string>uH_amzaabove-ar.fina.glif</string>
     <key>uacute</key>
     <string>uacute.glif</string>
     <key>ubreve</key>
@@ -3346,6 +5758,30 @@
     <string>underscore_underscore.liga.glif</string>
     <key>underscoredbl</key>
     <string>underscoredbl.glif</string>
+    <key>uni08B3</key>
+    <string>uni08B_3.glif</string>
+    <key>uni08B3.fina</key>
+    <string>uni08B_3.fina.glif</string>
+    <key>uni08B3.init</key>
+    <string>uni08B_3.init.glif</string>
+    <key>uni08B3.medi</key>
+    <string>uni08B_3.medi.glif</string>
+    <key>uni08B4</key>
+    <string>uni08B_4.glif</string>
+    <key>uni08B4.fina</key>
+    <string>uni08B_4.fina.glif</string>
+    <key>uni08B4.init</key>
+    <string>uni08B_4.init.glif</string>
+    <key>uni08B4.medi</key>
+    <string>uni08B_4.medi.glif</string>
+    <key>uni08B9.fina</key>
+    <string>uni08B_9.fina.glif</string>
+    <key>uni08BB.init</key>
+    <string>uni08B_B_.init.glif</string>
+    <key>uni08BB.medi</key>
+    <string>uni08B_B_.medi.glif</string>
+    <key>uniFBC0</key>
+    <string>uniF_B_C_0.glif</string>
     <key>unitSeparatorControl</key>
     <string>unitS_eparatorC_ontrol.glif</string>
     <key>uogonek</key>
@@ -3466,14 +5902,40 @@
     <string>utilde.glif</string>
     <key>v</key>
     <string>v.glif</string>
+    <key>vabove-ar</key>
+    <string>vabove-ar.glif</string>
+    <key>vav-hb</key>
+    <string>vav-hb.glif</string>
+    <key>vavdagesh-hb</key>
+    <string>vavdagesh-hb.glif</string>
+    <key>vavholam-hb</key>
+    <string>vavholam-hb.glif</string>
+    <key>ve-ar</key>
+    <string>ve-ar.glif</string>
+    <key>ve-ar.fina</key>
+    <string>ve-ar.fina.glif</string>
     <key>ve-cy</key>
     <string>ve-cy.glif</string>
     <key>ve-cy.loclBGR</key>
     <string>ve-cy.loclB_G_R_.glif</string>
     <key>vectorOrCrossProduct</key>
     <string>vectorO_rC_rossP_roduct.glif</string>
+    <key>veh-ar</key>
+    <string>veh-ar.glif</string>
+    <key>veh-ar.alt</key>
+    <string>veh-ar.alt.glif</string>
+    <key>veh-ar.fina</key>
+    <string>veh-ar.fina.glif</string>
+    <key>veh-ar.fina.alt</key>
+    <string>veh-ar.fina.alt.glif</string>
+    <key>veh-ar.init</key>
+    <string>veh-ar.init.glif</string>
+    <key>veh-ar.medi</key>
+    <string>veh-ar.medi.glif</string>
     <key>venus</key>
     <string>venus.glif</string>
+    <key>verseComma-ar</key>
+    <string>verseC_omma-ar.glif</string>
     <key>verticalBisectingLineWhiteSquare</key>
     <string>verticalB_isectingL_ineW_hiteS_quare.glif</string>
     <key>verticalFillCircle</key>
@@ -3486,6 +5948,8 @@
     <string>verticalT_abulationC_ontrol.ss20.glif</string>
     <key>vhook</key>
     <string>vhook.glif</string>
+    <key>vinvertedabove-ar</key>
+    <string>vinvertedabove-ar.glif</string>
     <key>vturned</key>
     <string>vturned.glif</string>
     <key>w</key>
@@ -3494,6 +5958,46 @@
     <string>w_w_w.liga.glif</string>
     <key>wacute</key>
     <string>wacute.glif</string>
+    <key>wasla-ar</key>
+    <string>wasla-ar.glif</string>
+    <key>wavyhamzaabove-ar</key>
+    <string>wavyhamzaabove-ar.glif</string>
+    <key>wavyhamzabelow-ar</key>
+    <string>wavyhamzabelow-ar.glif</string>
+    <key>waw-ar</key>
+    <string>waw-ar.glif</string>
+    <key>waw-ar.fina</key>
+    <string>waw-ar.fina.glif</string>
+    <key>wawDotabove-ar</key>
+    <string>wawD_otabove-ar.glif</string>
+    <key>wawDotabove-ar.fina</key>
+    <string>wawD_otabove-ar.fina.glif</string>
+    <key>wawDotcenter-ar</key>
+    <string>wawD_otcenter-ar.glif</string>
+    <key>wawDotcenter-ar.fina</key>
+    <string>wawD_otcenter-ar.fina.glif</string>
+    <key>wawHamzaabove-ar</key>
+    <string>wawH_amzaabove-ar.glif</string>
+    <key>wawHamzaabove-ar.fina</key>
+    <string>wawH_amzaabove-ar.fina.glif</string>
+    <key>wawStraight-ar</key>
+    <string>wawS_traight-ar.glif</string>
+    <key>wawThreeAbove-ar</key>
+    <string>wawT_hreeA_bove-ar.glif</string>
+    <key>wawThreeAbove-ar.fina</key>
+    <string>wawT_hreeA_bove-ar.fina.glif</string>
+    <key>wawTwoabove-ar</key>
+    <string>wawT_woabove-ar.glif</string>
+    <key>wawTwoabove-ar.fina</key>
+    <string>wawT_woabove-ar.fina.glif</string>
+    <key>wawTwodots-ar</key>
+    <string>wawT_wodots-ar.glif</string>
+    <key>wawTwodots-ar.fina</key>
+    <string>wawT_wodots-ar.fina.glif</string>
+    <key>wawring-ar</key>
+    <string>wawring-ar.glif</string>
+    <key>wawring-ar.fina</key>
+    <string>wawring-ar.fina.glif</string>
     <key>wcircumflex</key>
     <string>wcircumflex.glif</string>
     <key>wdieresis</key>
@@ -3568,6 +6072,196 @@
     <string>ydieresis.glif</string>
     <key>ydotbelow</key>
     <string>ydotbelow.glif</string>
+    <key>year-ar</key>
+    <string>year-ar.glif</string>
+    <key>yeh-ar</key>
+    <string>yeh-ar.glif</string>
+    <key>yeh-ar.fina</key>
+    <string>yeh-ar.fina.glif</string>
+    <key>yeh-ar.init</key>
+    <string>yeh-ar.init.glif</string>
+    <key>yeh-ar.init.alt</key>
+    <string>yeh-ar.init.alt.glif</string>
+    <key>yeh-ar.medi</key>
+    <string>yeh-ar.medi.glif</string>
+    <key>yeh-farsi</key>
+    <string>yeh-farsi.glif</string>
+    <key>yeh-farsi.fina</key>
+    <string>yeh-farsi.fina.glif</string>
+    <key>yeh-farsi.init</key>
+    <string>yeh-farsi.init.glif</string>
+    <key>yeh-farsi.init.alt</key>
+    <string>yeh-farsi.init.alt.glif</string>
+    <key>yeh-farsi.medi</key>
+    <string>yeh-farsi.medi.glif</string>
+    <key>yehFourbelow-farsi</key>
+    <string>yehF_ourbelow-farsi.glif</string>
+    <key>yehFourbelow-farsi.fina</key>
+    <string>yehF_ourbelow-farsi.fina.glif</string>
+    <key>yehFourbelow-farsi.init</key>
+    <string>yehF_ourbelow-farsi.init.glif</string>
+    <key>yehFourbelow-farsi.init.alt</key>
+    <string>yehF_ourbelow-farsi.init.alt.glif</string>
+    <key>yehFourbelow-farsi.medi</key>
+    <string>yehF_ourbelow-farsi.medi.glif</string>
+    <key>yehHamzaabove-ar</key>
+    <string>yehH_amzaabove-ar.glif</string>
+    <key>yehHamzaabove-ar.fina</key>
+    <string>yehH_amzaabove-ar.fina.glif</string>
+    <key>yehHamzaabove-ar.init</key>
+    <string>yehH_amzaabove-ar.init.glif</string>
+    <key>yehHamzaabove-ar.init.alt</key>
+    <string>yehH_amzaabove-ar.init.alt.glif</string>
+    <key>yehHamzaabove-ar.medi</key>
+    <string>yehH_amzaabove-ar.medi.glif</string>
+    <key>yehKashmiri-ar</key>
+    <string>yehK_ashmiri-ar.glif</string>
+    <key>yehKashmiri-ar.fina</key>
+    <string>yehK_ashmiri-ar.fina.glif</string>
+    <key>yehKashmiri-ar.init</key>
+    <string>yehK_ashmiri-ar.init.glif</string>
+    <key>yehKashmiri-ar.init.alt</key>
+    <string>yehK_ashmiri-ar.init.alt.glif</string>
+    <key>yehKashmiri-ar.medi</key>
+    <string>yehK_ashmiri-ar.medi.glif</string>
+    <key>yehRohingya-ar</key>
+    <string>yehR_ohingya-ar.glif</string>
+    <key>yehRohingya-ar.fina</key>
+    <string>yehR_ohingya-ar.fina.glif</string>
+    <key>yehRohingya-ar.isol</key>
+    <string>yehR_ohingya-ar.isol.glif</string>
+    <key>yehTail-ar</key>
+    <string>yehT_ail-ar.glif</string>
+    <key>yehTail-ar.fina</key>
+    <string>yehT_ail-ar.fina.glif</string>
+    <key>yehThreeabove-farsi</key>
+    <string>yehT_hreeabove-farsi.glif</string>
+    <key>yehThreeabove-farsi.fina</key>
+    <string>yehT_hreeabove-farsi.fina.glif</string>
+    <key>yehThreeabove-farsi.init</key>
+    <string>yehT_hreeabove-farsi.init.glif</string>
+    <key>yehThreeabove-farsi.init.alt</key>
+    <string>yehT_hreeabove-farsi.init.alt.glif</string>
+    <key>yehThreeabove-farsi.medi</key>
+    <string>yehT_hreeabove-farsi.medi.glif</string>
+    <key>yehThreedotsabove-farsi</key>
+    <string>yehT_hreedotsabove-farsi.glif</string>
+    <key>yehThreedotsabove-farsi.fina</key>
+    <string>yehT_hreedotsabove-farsi.fina.glif</string>
+    <key>yehThreedotsabove-farsi.init</key>
+    <string>yehT_hreedotsabove-farsi.init.glif</string>
+    <key>yehThreedotsabove-farsi.init.alt</key>
+    <string>yehT_hreedotsabove-farsi.init.alt.glif</string>
+    <key>yehThreedotsabove-farsi.medi</key>
+    <string>yehT_hreedotsabove-farsi.medi.glif</string>
+    <key>yehThreedotsbelow-ar</key>
+    <string>yehT_hreedotsbelow-ar.glif</string>
+    <key>yehThreedotsbelow-ar.fina</key>
+    <string>yehT_hreedotsbelow-ar.fina.glif</string>
+    <key>yehThreedotsbelow-ar.init</key>
+    <string>yehT_hreedotsbelow-ar.init.glif</string>
+    <key>yehThreedotsbelow-ar.init.alt</key>
+    <string>yehT_hreedotsbelow-ar.init.alt.glif</string>
+    <key>yehThreedotsbelow-ar.medi</key>
+    <string>yehT_hreedotsbelow-ar.medi.glif</string>
+    <key>yehTwoabove-farsi</key>
+    <string>yehT_woabove-farsi.glif</string>
+    <key>yehTwoabove-farsi.fina</key>
+    <string>yehT_woabove-farsi.fina.glif</string>
+    <key>yehTwoabove-farsi.init</key>
+    <string>yehT_woabove-farsi.init.glif</string>
+    <key>yehTwoabove-farsi.init.alt</key>
+    <string>yehT_woabove-farsi.init.alt.glif</string>
+    <key>yehTwoabove-farsi.medi</key>
+    <string>yehT_woabove-farsi.medi.glif</string>
+    <key>yehTwodotsabove-farsi</key>
+    <string>yehT_wodotsabove-farsi.glif</string>
+    <key>yehTwodotsabove-farsi.fina</key>
+    <string>yehT_wodotsabove-farsi.fina.glif</string>
+    <key>yehTwodotsabove-farsi.init</key>
+    <string>yehT_wodotsabove-farsi.init.glif</string>
+    <key>yehTwodotsabove-farsi.init.alt</key>
+    <string>yehT_wodotsabove-farsi.init.alt.glif</string>
+    <key>yehTwodotsabove-farsi.medi</key>
+    <string>yehT_wodotsabove-farsi.medi.glif</string>
+    <key>yehTwodotsbelowDotabove-ar</key>
+    <string>yehT_wodotsbelowD_otabove-ar.glif</string>
+    <key>yehTwodotsbelowDotabove-ar.fina</key>
+    <string>yehT_wodotsbelowD_otabove-ar.fina.glif</string>
+    <key>yehTwodotsbelowDotabove-ar.init</key>
+    <string>yehT_wodotsbelowD_otabove-ar.init.glif</string>
+    <key>yehTwodotsbelowDotabove-ar.init.alt</key>
+    <string>yehT_wodotsbelowD_otabove-ar.init.alt.glif</string>
+    <key>yehTwodotsbelowDotabove-ar.medi</key>
+    <string>yehT_wodotsbelowD_otabove-ar.medi.glif</string>
+    <key>yehTwodotsbelowHamzaabove-ar</key>
+    <string>yehT_wodotsbelowH_amzaabove-ar.glif</string>
+    <key>yehTwodotsbelowHamzaabove-ar.fina</key>
+    <string>yehT_wodotsbelowH_amzaabove-ar.fina.glif</string>
+    <key>yehTwodotsbelowHamzaabove-ar.init</key>
+    <string>yehT_wodotsbelowH_amzaabove-ar.init.glif</string>
+    <key>yehTwodotsbelowHamzaabove-ar.init.alt</key>
+    <string>yehT_wodotsbelowH_amzaabove-ar.init.alt.glif</string>
+    <key>yehTwodotsbelowHamzaabove-ar.medi</key>
+    <string>yehT_wodotsbelowH_amzaabove-ar.medi.glif</string>
+    <key>yehTwodotsbelowNoonabove-ar</key>
+    <string>yehT_wodotsbelowN_oonabove-ar.glif</string>
+    <key>yehTwodotsbelowNoonabove-ar.fina</key>
+    <string>yehT_wodotsbelowN_oonabove-ar.fina.glif</string>
+    <key>yehTwodotsbelowNoonabove-ar.init</key>
+    <string>yehT_wodotsbelowN_oonabove-ar.init.glif</string>
+    <key>yehTwodotsbelowNoonabove-ar.init.alt</key>
+    <string>yehT_wodotsbelowN_oonabove-ar.init.alt.glif</string>
+    <key>yehTwodotsbelowNoonabove-ar.medi</key>
+    <string>yehT_wodotsbelowN_oonabove-ar.medi.glif</string>
+    <key>yehVabove-ar</key>
+    <string>yehV_above-ar.glif</string>
+    <key>yehVabove-ar.fina</key>
+    <string>yehV_above-ar.fina.glif</string>
+    <key>yehVabove-ar.init</key>
+    <string>yehV_above-ar.init.glif</string>
+    <key>yehVabove-ar.init.alt</key>
+    <string>yehV_above-ar.init.alt.glif</string>
+    <key>yehVabove-ar.medi</key>
+    <string>yehV_above-ar.medi.glif</string>
+    <key>yehVinverted-farsi</key>
+    <string>yehV_inverted-farsi.glif</string>
+    <key>yehVinverted-farsi.fina</key>
+    <string>yehV_inverted-farsi.fina.glif</string>
+    <key>yehVinverted-farsi.init</key>
+    <string>yehV_inverted-farsi.init.glif</string>
+    <key>yehVinverted-farsi.init.alt</key>
+    <string>yehV_inverted-farsi.init.alt.glif</string>
+    <key>yehVinverted-farsi.medi</key>
+    <string>yehV_inverted-farsi.medi.glif</string>
+    <key>yehbarree-ar</key>
+    <string>yehbarree-ar.glif</string>
+    <key>yehbarree-ar.fina</key>
+    <string>yehbarree-ar.fina.glif</string>
+    <key>yehbarreeHamzaabove-ar</key>
+    <string>yehbarreeH_amzaabove-ar.glif</string>
+    <key>yehbarreeHamzaabove-ar.fina</key>
+    <string>yehbarreeH_amzaabove-ar.fina.glif</string>
+    <key>yehbarreeThreeabove-ar</key>
+    <string>yehbarreeT_hreeabove-ar.glif</string>
+    <key>yehbarreeThreeabove-ar.fina</key>
+    <string>yehbarreeT_hreeabove-ar.fina.glif</string>
+    <key>yehbarreeThreeabove-ar.init</key>
+    <string>yehbarreeT_hreeabove-ar.init.glif</string>
+    <key>yehbarreeThreeabove-ar.init.alt</key>
+    <string>yehbarreeT_hreeabove-ar.init.alt.glif</string>
+    <key>yehbarreeThreeabove-ar.medi</key>
+    <string>yehbarreeT_hreeabove-ar.medi.glif</string>
+    <key>yehbarreeTwoabove-ar</key>
+    <string>yehbarreeT_woabove-ar.glif</string>
+    <key>yehbarreeTwoabove-ar.fina</key>
+    <string>yehbarreeT_woabove-ar.fina.glif</string>
+    <key>yehbarreeTwoabove-ar.init</key>
+    <string>yehbarreeT_woabove-ar.init.glif</string>
+    <key>yehbarreeTwoabove-ar.init.alt</key>
+    <string>yehbarreeT_woabove-ar.init.alt.glif</string>
+    <key>yehbarreeTwoabove-ar.medi</key>
+    <string>yehbarreeT_woabove-ar.medi.glif</string>
     <key>yen</key>
     <string>yen.glif</string>
     <key>yeru-cy</key>
@@ -3582,14 +6276,40 @@
     <string>ymacron.glif</string>
     <key>ymod</key>
     <string>ymod.glif</string>
+    <key>yod-hb</key>
+    <string>yod-hb.glif</string>
+    <key>yoddagesh-hb</key>
+    <string>yoddagesh-hb.glif</string>
     <key>ytilde</key>
     <string>ytilde.glif</string>
+    <key>yu-ar</key>
+    <string>yu-ar.glif</string>
+    <key>yu-ar.fina</key>
+    <string>yu-ar.fina.glif</string>
     <key>z</key>
     <string>z.glif</string>
     <key>zacute</key>
     <string>zacute.glif</string>
     <key>zacute.loclPLK</key>
     <string>zacute.loclP_L_K_.glif</string>
+    <key>zah-ar</key>
+    <string>zah-ar.glif</string>
+    <key>zah-ar.fina</key>
+    <string>zah-ar.fina.glif</string>
+    <key>zah-ar.init</key>
+    <string>zah-ar.init.glif</string>
+    <key>zah-ar.medi</key>
+    <string>zah-ar.medi.glif</string>
+    <key>zain-ar</key>
+    <string>zain-ar.glif</string>
+    <key>zain-ar.fina</key>
+    <string>zain-ar.fina.glif</string>
+    <key>zainVInvertedabove-ar</key>
+    <string>zainV_I_nvertedabove-ar.glif</string>
+    <key>zayin-hb</key>
+    <string>zayin-hb.glif</string>
+    <key>zayindagesh-hb</key>
+    <string>zayindagesh-hb.glif</string>
     <key>zcaron</key>
     <string>zcaron.glif</string>
     <key>zdotaccent</key>
@@ -3600,6 +6320,18 @@
     <string>ze-cy.loclB_G_R_.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
+    <key>zero-ar</key>
+    <string>zero-ar.glif</string>
+    <key>zero-arinferior</key>
+    <string>zero-arinferior.glif</string>
+    <key>zero-arsuperior</key>
+    <string>zero-arsuperior.glif</string>
+    <key>zero-persian</key>
+    <string>zero-persian.glif</string>
+    <key>zero-persianinferior</key>
+    <string>zero-persianinferior.glif</string>
+    <key>zero-persiansuperior</key>
+    <string>zero-persiansuperior.glif</string>
     <key>zero.dnom</key>
     <string>zero.dnom.glif</string>
     <key>zero.numr</key>

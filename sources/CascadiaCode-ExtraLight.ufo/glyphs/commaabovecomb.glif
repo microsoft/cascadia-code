@@ -5,18 +5,28 @@
   <anchor x="590" y="1498" name="top"/>
   <outline>
     <contour>
-      <point x="542" y="1208" type="line"/>
-      <point x="629" y="1208" type="line"/>
-      <point x="684" y="1588" type="line"/>
-      <point x="587" y="1588" type="line"/>
+      <point x="587" y="1192" type="line"/>
+      <point x="699" y="1308"/>
+      <point x="750" y="1392"/>
+      <point x="750" y="1459" type="curve" smooth="yes"/>
+      <point x="750" y="1567"/>
+      <point x="692" y="1616"/>
+      <point x="567" y="1616" type="curve" smooth="yes"/>
+      <point x="492" y="1616" type="line"/>
+      <point x="492" y="1524" type="line"/>
+      <point x="567" y="1524" type="line" smooth="yes"/>
+      <point x="627" y="1524"/>
+      <point x="654" y="1504"/>
+      <point x="654" y="1459" type="curve" smooth="yes"/>
+      <point x="654" y="1413"/>
+      <point x="609" y="1348"/>
+      <point x="510" y="1251" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>1200</integer>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sindot-hb" format="2">
+  <unicode hex="05C2"/>
+  <anchor x="600" y="1200" name="_topleft"/>
+  <outline>
+    <contour>
+      <point x="600" y="1370" type="curve" smooth="yes"/>
+      <point x="655" y="1370"/>
+      <point x="700" y="1414"/>
+      <point x="700" y="1469" type="curve" smooth="yes"/>
+      <point x="700" y="1524"/>
+      <point x="655" y="1569"/>
+      <point x="600" y="1569" type="curve" smooth="yes"/>
+      <point x="545" y="1569"/>
+      <point x="500" y="1524"/>
+      <point x="500" y="1469" type="curve" smooth="yes"/>
+      <point x="500" y="1414"/>
+      <point x="545" y="1370"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1200</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

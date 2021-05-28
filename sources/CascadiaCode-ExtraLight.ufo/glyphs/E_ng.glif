@@ -4,7 +4,6 @@
   <unicode hex="014A"/>
   <guideline x="860" y="123" angle="90"/>
   <anchor x="600" y="-388" name="bottom"/>
-  <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
       <point x="648" y="-480" type="line"/>
@@ -13,19 +12,13 @@
       <point x="1028" y="-320"/>
       <point x="1028" y="-56" type="curve" smooth="yes"/>
       <point x="1028" y="184" type="line"/>
-      <point x="938" y="184" type="line"/>
-      <point x="938" y="-48" type="line" smooth="yes"/>
-      <point x="938" y="-257"/>
-      <point x="882" y="-342"/>
+      <point x="934" y="184" type="line"/>
+      <point x="934" y="-48" type="line" smooth="yes"/>
+      <point x="934" y="-257"/>
+      <point x="879" y="-343"/>
       <point x="728" y="-371" type="curve" smooth="yes"/>
       <point x="638" y="-388" type="line"/>
     </contour>
     <component base="N"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

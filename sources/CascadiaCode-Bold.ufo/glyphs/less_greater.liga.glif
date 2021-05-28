@@ -2,32 +2,21 @@
 <glyph name="less_greater.liga" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="less" xOffset="123"/>
-    <component base="greater" xOffset="1097"/>
+    <contour>
+      <point x="1210" y="197" type="line"/>
+      <point x="2234" y="575" type="line"/>
+      <point x="2234" y="843" type="line"/>
+      <point x="1210" y="1221" type="line"/>
+      <point x="186" y="843" type="line"/>
+      <point x="186" y="575" type="line"/>
+    </contour>
+    <contour>
+      <point x="1210" y="467" type="line"/>
+      <point x="454" y="700" type="line"/>
+      <point x="454" y="718" type="line"/>
+      <point x="1210" y="951" type="line"/>
+      <point x="1960" y="718" type="line"/>
+      <point x="1960" y="700" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>less</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>greater</string>
-        </dict>
-      </array>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>
