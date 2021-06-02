@@ -63,6 +63,7 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
         featureList = [
             "header_italic", # adds definitions, language systems
             "aalt_italic",
+            "ccmp",
             "calt_italic", 
             "locl_italic", 
             "figures_italic", # contains subs/sinf/sups/numr/dnom
@@ -80,6 +81,7 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
         featureList = [
             "header", # adds definitions, language systems
             "aalt",
+            "ccmp",
             "calt", 
             "locl", 
             "figures", # contains subs/sinf/sups/numr/dnom
@@ -388,7 +390,6 @@ if __name__ == "__main__":
         for s in designspaceItalic.instances
         if s.lib.get("com.schriftgestaltung.export", True)
     ]
-
 
     # Stage 1: Make all the things.
     pool = multiprocessing.pool.Pool(processes=multiprocessing.cpu_count())
