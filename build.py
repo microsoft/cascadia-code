@@ -22,8 +22,8 @@ import vttLib
 import vttLib.transfer
 from vttmisc import tsi1, tsic
 
-VERSION_YEAR_MONTH = 2105
-VERSION_DAY = 26
+VERSION_YEAR_MONTH = 2106
+VERSION_DAY = 03
 
 OUTPUT_DIR = Path("build")
 OUTPUT_OTF_DIR = OUTPUT_DIR / "otf"
@@ -70,6 +70,8 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
             "frac", 
             "ordn", 
             "case", 
+            "salt",
+            "ss01",
             "ss02",
             "ss03", 
             "ss19", 
