@@ -28,7 +28,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1342</string>
+    <string>1352</string>
     <key>com.schriftgestaltung.customName</key>
     <string>Italic</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
@@ -594,6 +594,30 @@ Half
       <string>sacute.loclPLK</string>
       <string>zacute.loclPLK</string>
       <string>x.multiply</string>
+      <string>f.salt</string>
+      <string>l.salt</string>
+      <string>lacute.salt</string>
+      <string>lbar.salt</string>
+      <string>lbelt.salt</string>
+      <string>lcaron.salt</string>
+      <string>lcommaaccent.salt</string>
+      <string>ldot.salt</string>
+      <string>ldotbelow.salt</string>
+      <string>llinebelow.salt</string>
+      <string>lmiddletilde.salt</string>
+      <string>lslash.salt</string>
+      <string>r.salt</string>
+      <string>racute.salt</string>
+      <string>rcaron.salt</string>
+      <string>rcommaaccent.salt</string>
+      <string>rdotbelow.salt</string>
+      <string>s.salt</string>
+      <string>sacute.salt</string>
+      <string>scaron.salt</string>
+      <string>scedilla.salt</string>
+      <string>scircumflex.salt</string>
+      <string>scommaaccent.salt</string>
+      <string>sdotbelow.salt</string>
       <string>fi</string>
       <string>fl</string>
       <string>w_w_w.liga</string>
@@ -3879,12 +3903,20 @@ Half
       <string>uni20BE</string>
       <key>lbar</key>
       <string>uni019A</string>
+      <key>lbar.salt</key>
+      <string>uni019A.salt</string>
       <key>lbelt</key>
       <string>uni026C</string>
+      <key>lbelt.salt</key>
+      <string>uni026C.salt</string>
       <key>lcommaaccent</key>
       <string>uni013C</string>
+      <key>lcommaaccent.salt</key>
+      <string>uni013C.001</string>
       <key>ldotbelow</key>
       <string>uni1E37</string>
+      <key>ldotbelow.salt</key>
+      <string>uni1E37.salt</string>
       <key>leftArrow</key>
       <string>arrowleft</string>
       <key>leftBlackPointer</key>
@@ -3951,8 +3983,12 @@ Half
       <string>uni0459</string>
       <key>llinebelow</key>
       <string>uni1E3B</string>
+      <key>llinebelow.salt</key>
+      <string>uni1E3B.salt</string>
       <key>lmiddletilde</key>
       <string>uni026B</string>
+      <key>lmiddletilde.salt</key>
+      <string>uni026B.salt</string>
       <key>logicalnotReversed</key>
       <string>revlogicalnot</string>
       <key>lowerFiveEighthsBlock</key>
@@ -4149,8 +4185,12 @@ Half
       <string>uni037E</string>
       <key>rcommaaccent</key>
       <string>uni0157</string>
+      <key>rcommaaccent.salt</key>
+      <string>uni0157.001</string>
       <key>rdotbelow</key>
       <string>uni1E5B</string>
+      <key>rdotbelow.salt</key>
+      <string>uni1E5B.salt</string>
       <key>recordSeparatorControl</key>
       <string>uni241E</string>
       <key>replacementCharacter</key>
@@ -4209,8 +4249,12 @@ Half
       <string>uni04D9</string>
       <key>scommaaccent</key>
       <string>uni0219</string>
+      <key>scommaaccent.salt</key>
+      <string>uni0219.001</string>
       <key>sdotbelow</key>
       <string>uni1E63</string>
+      <key>sdotbelow.salt</key>
+      <string>uni1E63.salt</string>
       <key>seveninferior</key>
       <string>uni2087</string>
       <key>sevensuperior</key>
