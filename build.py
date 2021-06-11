@@ -94,11 +94,11 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
             "ss20", 
             "rclt", 
             "zero",
-            #"init",
-            #"medi",
-            #"fina",
-            #"rlig",
-            #"dlig"
+            "init",
+            "medi",
+            "fina",
+            "rlig",
+            "dlig"
             ]
 
     for item in featureList:
@@ -265,7 +265,6 @@ def compile_variable_and_save(
         varFont.saveXML(TSICfile.name, tables=["TSIC"])
         tree = ET.parse(TSICfile.name)
         vttLib.compile_instructions(varFont, ship=True)
-        #tsic.makeCVAR(varFont, tree)
     else:
         file_path = (OUTPUT_TTF_DIR / str(file_stem+"_VTT")).with_suffix(".ttf")
 
