@@ -3,10 +3,10 @@
   <advance width="1200"/>
   <anchor x="600" y="767" name="_top"/>
   <anchor x="600" y="532" name="_top.dot"/>
-  <anchor x="601" y="1282" name="top"/>
+  <anchor x="601" y="1302" name="top"/>
   <outline>
     <component base="dotbelow-ar" yOffset="976"/>
-    <component base="_vabove" xScale="-1" yScale="-1" xOffset="1200" yOffset="1831"/>
+    <component base="_vabove" xScale="-1" yScale="-1" xOffset="1200" yOffset="1851"/>
   </outline>
   <lib>
     <dict>
@@ -21,6 +21,8 @@
           <string>_vabove</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

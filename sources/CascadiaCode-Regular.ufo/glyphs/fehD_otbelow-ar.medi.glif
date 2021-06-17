@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="fehDotless-ar.medi"/>
-    <component base="dotabove-ar" xOffset="2" yOffset="317"/>
+    <component base="dotabove-ar" xOffset="1" yOffset="317"/>
     <component base="dotbelow-ar" xOffset="-17" yOffset="-24"/>
   </outline>
   <lib>
@@ -27,6 +27,8 @@
           <string>dotbelow-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

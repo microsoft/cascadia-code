@@ -3,14 +3,27 @@
   <advance width="1200"/>
   <outline>
     <component base="alefMaksura-ar.fina"/>
-    <component base="four-persianbelow-ar" xOffset="-85" yOffset="-341"/>
+    <component base="four-persianbelow-ar" xOffset="-85" yOffset="-379"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>four-persianbelow-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>alefMaksura-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>alefMaksura-ar.fina</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

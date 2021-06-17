@@ -3,32 +3,32 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="596" y="-20" type="curve" smooth="yes"/>
-      <point x="729" y="-20"/>
-      <point x="874" y="42"/>
-      <point x="874" y="226" type="curve" smooth="yes"/>
-      <point x="874" y="446"/>
-      <point x="772" y="573"/>
-      <point x="607" y="573" type="curve" smooth="yes"/>
-      <point x="446" y="573"/>
-      <point x="326" y="444"/>
-      <point x="326" y="223" type="curve" smooth="yes"/>
-      <point x="326" y="56"/>
-      <point x="441" y="-20"/>
+      <point x="596" y="-6" type="curve" smooth="yes"/>
+      <point x="729" y="-6"/>
+      <point x="874" y="56"/>
+      <point x="874" y="240" type="curve" smooth="yes"/>
+      <point x="874" y="460"/>
+      <point x="772" y="587"/>
+      <point x="607" y="587" type="curve" smooth="yes"/>
+      <point x="446" y="587"/>
+      <point x="326" y="458"/>
+      <point x="326" y="237" type="curve" smooth="yes"/>
+      <point x="326" y="70"/>
+      <point x="441" y="-6"/>
     </contour>
     <contour>
-      <point x="597" y="137" type="curve" smooth="yes"/>
-      <point x="524" y="137"/>
-      <point x="492" y="169"/>
-      <point x="492" y="235" type="curve" smooth="yes"/>
-      <point x="492" y="342"/>
-      <point x="530" y="410"/>
-      <point x="602" y="410" type="curve" smooth="yes"/>
-      <point x="672" y="410"/>
-      <point x="708" y="351"/>
-      <point x="708" y="244" type="curve" smooth="yes"/>
-      <point x="708" y="170"/>
-      <point x="671" y="137"/>
+      <point x="597" y="151" type="curve" smooth="yes"/>
+      <point x="524" y="151"/>
+      <point x="492" y="186"/>
+      <point x="492" y="259" type="curve" smooth="yes"/>
+      <point x="492" y="366"/>
+      <point x="530" y="424"/>
+      <point x="602" y="424" type="curve" smooth="yes"/>
+      <point x="672" y="424"/>
+      <point x="708" y="375"/>
+      <point x="708" y="268" type="curve" smooth="yes"/>
+      <point x="708" y="187"/>
+      <point x="671" y="151"/>
     </contour>
   </outline>
   <lib>
@@ -39,6 +39,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Small</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

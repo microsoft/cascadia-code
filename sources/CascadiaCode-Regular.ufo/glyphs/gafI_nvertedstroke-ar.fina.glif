@@ -4,7 +4,7 @@
   <anchor x="525" y="1284" name="top"/>
   <outline>
     <component base="keheh-ar.fina"/>
-    <component base="_invertedstroke" xOffset="604" yOffset="-81"/>
+    <component base="_invertedstroke" yScale="0.9999" xOffset="594" yOffset="-81"/>
   </outline>
   <lib>
     <dict>
@@ -23,6 +23,8 @@
       <string>keheh-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>keheh-ar.fina</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

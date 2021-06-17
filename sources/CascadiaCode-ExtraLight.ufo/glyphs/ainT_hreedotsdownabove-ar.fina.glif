@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ainThreedotsdownabove-ar.fina" format="2">
   <advance width="1200"/>
+  <anchor x="591" y="1434" name="top"/>
   <outline>
     <component base="ain-ar.fina"/>
-    <component base="threedotsdownabove-ar" xOffset="10" yOffset="283"/>
+    <component base="threedotsdownabove-ar" xScale="1.001" xOffset="-11" yOffset="263"/>
   </outline>
   <lib>
     <dict>
@@ -18,6 +19,8 @@
           <string>threedotsdownabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -9,8 +9,8 @@
   <anchor x="294" y="1317" name="top_2"/>
   <outline>
     <contour>
-      <point x="642" y="-10" type="curve" smooth="yes"/>
-      <point x="947" y="-10"/>
+      <point x="642" y="-6" type="curve" smooth="yes"/>
+      <point x="947" y="-6"/>
       <point x="1044" y="91"/>
       <point x="1044" y="279" type="curve" smooth="yes"/>
       <point x="1044" y="540"/>
@@ -21,9 +21,9 @@
       <point x="850" y="438"/>
       <point x="850" y="296" type="curve" smooth="yes"/>
       <point x="850" y="223"/>
-      <point x="802" y="202"/>
-      <point x="634" y="202" type="curve" smooth="yes"/>
-      <point x="553" y="202"/>
+      <point x="802" y="206"/>
+      <point x="634" y="206" type="curve" smooth="yes"/>
+      <point x="553" y="206"/>
       <point x="480" y="206"/>
       <point x="344" y="217" type="curve"/>
       <point x="338" y="170" type="line"/>
@@ -44,7 +44,13 @@
       <point x="190" y="263" type="curve"/>
       <point x="186" y="10" type="line"/>
       <point x="384" y="-4"/>
-      <point x="474" y="-10"/>
+      <point x="474" y="-6"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

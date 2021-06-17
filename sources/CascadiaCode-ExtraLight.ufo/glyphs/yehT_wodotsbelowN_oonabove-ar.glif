@@ -2,16 +2,25 @@
 <glyph name="yehTwodotsbelowNoonabove-ar" format="2">
   <advance width="1200"/>
   <unicode hex="08BA"/>
-  <anchor x="197" y="988" name="top"/>
+  <guideline x="-1178" y="-301" angle="0"/>
+  <anchor x="177" y="988" name="top"/>
   <outline>
     <component base="alefMaksura-ar"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="-17" yOffset="-282"/>
-    <component base="noonabove-ar" xOffset="-416" yOffset="-92"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-17" yOffset="-284"/>
+    <component base="noonabove-ar" xOffset="-416" yOffset="-640"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
         <dict>
           <key>anchor</key>
           <string>top.dot</string>
@@ -27,6 +36,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Other</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

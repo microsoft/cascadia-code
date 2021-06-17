@@ -2,9 +2,9 @@
 <glyph name="_threedots-ar" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="_dot-ar" xScale="0.9" yScale="0.9" xOffset="60" yOffset="310"/>
-    <component base="_dot-ar" xScale="0.96" yScale="0.96" xOffset="149" yOffset="30"/>
-    <component base="_dot-ar" xScale="0.96" yScale="0.96" xOffset="-101" yOffset="30"/>
+    <component base="_dot-ar" xScale="0.96" yScale="0.96" xOffset="31" yOffset="293"/>
+    <component base="_dot-ar" xScale="1.0001" xOffset="129" yOffset="30"/>
+    <component base="_dot-ar" xScale="1.0001" xOffset="-121" yOffset="30"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>_dot-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

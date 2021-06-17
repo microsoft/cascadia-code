@@ -4,7 +4,7 @@
   <unicode hex="FEF8"/>
   <outline>
     <component base="lam_alef-ar.fina.short"/>
-    <component base="hamzaabove-ar" xOffset="-346" yOffset="34"/>
+    <component base="hamzaabove-ar" xOffset="-346" yOffset="64"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>hamzaabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

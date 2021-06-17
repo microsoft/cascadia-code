@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="_alefTwoabove-ar.fina.rlig" format="2">
+  <guideline x="234" y="578" angle="0"/>
   <anchor x="0" y="0" name="_overlap"/>
   <anchor x="343" y="-141" name="bottom"/>
-  <anchor x="5" y="1481" name="top"/>
+  <anchor x="35" y="1481" name="top"/>
   <outline>
     <component base="_alef-ar.fina.short.rlig"/>
-    <component base="two-persian.small01" xOffset="-637" yOffset="-161"/>
+    <component base="two-persian.small01" xOffset="-607" yOffset="-161"/>
   </outline>
   <lib>
     <dict>
@@ -22,6 +23,8 @@
           <string>two-persian.small01</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

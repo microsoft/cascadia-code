@@ -2,7 +2,7 @@
 <glyph name="highhamzaAlef-ar" format="2">
   <advance width="1200"/>
   <unicode hex="0675"/>
-  <anchor x="635" y="1612" name="top"/>
+  <anchor x="594" y="1545" name="top"/>
   <outline>
     <component base="alef-ar"/>
     <component base="highhamza-ar" xOffset="353" yOffset="-49"/>
@@ -15,19 +15,13 @@
           <key>alignment</key>
           <integer>-1</integer>
           <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>alef-ar</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
           <integer>1</integer>
           <key>name</key>
           <string>highhamza-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

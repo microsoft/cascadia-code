@@ -1011,4 +1011,6 @@ lookup underscores {
 #Other non-ligature bits
 
 sub dcaron' [lacute lcaron lcommaaccent ldot lslash b h k l hbar hcircumflex kcommaaccent @Uppercase] by dcaron.alt;
+sub [B C D E F G H I J K M N O P Q R S T U V W X Y Z seven f Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Ghestroke-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Palochka-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy De-cy.loclBGR El-cy.loclBGR Ef-cy.loclBGR be-cy ve-cy iishort-cy ushort-cy be-cy.loclSRB ve-cy.salt] [b h k shha-cy iu-cy.loclBGR ka-cy.loclBGR]' by [b.alt h.alt k.alt shha-cy.alt iu-cy.loclBGR.alt ka-cy.loclBGR.alt];
+
 } calt;

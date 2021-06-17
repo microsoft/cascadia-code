@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_onedotstah" xOffset="235" yOffset="345"/>
+    <component base="_onedotstah" xOffset="235" yOffset="335"/>
   </outline>
   <lib>
     <dict>
@@ -22,6 +22,8 @@
       <string>dotlessbeh-ar.init</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>dotlessbeh-ar.init</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -4,8 +4,8 @@
   <anchor x="0" y="0" name="overlap"/>
   <outline>
     <component base="behDotless-ar.init.alt"/>
-    <component base="twodotshorizontalabove-ar" xOffset="275" yOffset="345"/>
-    <component base="ringArabic" xOffset="134" yOffset="-52"/>
+    <component base="twodotshorizontalabove-ar" xOffset="335" yOffset="285"/>
+    <component base="ringArabic" xOffset="134" yOffset="-74"/>
   </outline>
   <lib>
     <dict>
@@ -28,6 +28,8 @@
           <string>ringArabic</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

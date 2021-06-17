@@ -1,24 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gafThreedots-ar.medi" format="2">
   <advance width="1200"/>
-  <anchor x="440" y="1850" name="top"/>
+  <guideline x="424" y="739" angle="0"/>
+  <anchor x="430" y="1850" name="top"/>
   <outline>
     <component base="gaf-ar.medi"/>
-    <component base="threedotsupabove-ar.v2" xScale="0.8" yScale="0.8" xOffset="12" yOffset="912"/>
+    <component base="threedotsupabove-ar.v2" xScale="1.001" xOffset="-109" yOffset="726"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>anchor</key>
-          <string>top.dot</string>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>threedotsupabove-ar.v2</string>
-        </dict>
-      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

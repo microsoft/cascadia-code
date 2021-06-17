@@ -4,8 +4,8 @@
   <anchor x="608" y="0" name="_bottom"/>
   <anchor x="602" y="-497" name="bottom"/>
   <outline>
-    <component base="_fatha-ar" yOffset="-1799"/>
-    <component base="_fatha-ar" yOffset="-1599"/>
+    <component base="_fatha-ar" yScale="0.9999" yOffset="-1799"/>
+    <component base="_fatha-ar" yScale="0.9999" yOffset="-1599"/>
   </outline>
   <lib>
     <dict>
@@ -22,6 +22,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>1200</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

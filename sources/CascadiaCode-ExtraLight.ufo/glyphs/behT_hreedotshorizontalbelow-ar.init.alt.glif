@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="behThreedotshorizontalbelow-ar.init.alt" format="2">
   <advance width="1200"/>
+  <anchor x="908" y="-414" name="bottom"/>
   <anchor x="0" y="0" name="overlap"/>
   <outline>
     <component base="behDotless-ar.init.alt"/>
-    <component base="_dots.horz.below" xOffset="212" yOffset="-18"/>
+    <component base="_dots.horz.below" xOffset="302" yOffset="-18"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
           <key>anchor</key>
           <string>bottom.dot</string>
           <key>index</key>
@@ -19,10 +22,8 @@
           <string>_dots.horz.below</string>
         </dict>
       </array>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>dotlessbeh-ar.init.wide</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>dotlessbeh-ar.init.wide</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

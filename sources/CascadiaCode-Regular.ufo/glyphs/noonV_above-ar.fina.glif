@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
-    <component base="_dotVabove" xOffset="-38" yOffset="-69"/>
+    <component base="_dotVabove" xOffset="-38" yOffset="-13"/>
   </outline>
   <lib>
     <dict>
@@ -18,6 +18,8 @@
           <string>_dotVabove</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

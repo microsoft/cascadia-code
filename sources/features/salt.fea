@@ -1,5 +1,6 @@
 feature salt {
 sub f by f.salt;
+sub florin by f;
 sub l by l.salt;
 sub lacute by lacute.salt;
 sub lbar by lbar.salt;
@@ -23,4 +24,8 @@ sub scedilla by scedilla.salt;
 sub scircumflex by scircumflex.salt;
 sub scommaaccent by scommaaccent.salt;
 sub sdotbelow by sdotbelow.salt;
+sub ve-cy by ve-cy.salt;
+sub ze-cy by ze-cy.salt;
+sub che-cy by che-cy.salt;
+sub chedescender-cy by chedescender-cy.salt; 
 } salt;

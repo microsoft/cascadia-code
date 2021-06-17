@@ -3,13 +3,26 @@
   <advance width="1200"/>
   <unicode hex="FB44"/>
   <outline>
+    <contour>
+      <point x="597" y="748" type="curve" smooth="yes"/>
+      <point x="647" y="748"/>
+      <point x="688" y="788"/>
+      <point x="688" y="838" type="curve" smooth="yes"/>
+      <point x="688" y="888"/>
+      <point x="647" y="929"/>
+      <point x="597" y="929" type="curve" smooth="yes"/>
+      <point x="547" y="929"/>
+      <point x="506" y="888"/>
+      <point x="506" y="838" type="curve" smooth="yes"/>
+      <point x="506" y="788"/>
+      <point x="547" y="748"/>
+    </contour>
     <component base="pe-hb"/>
-    <component base="dagesh-hb" xOffset="-3" yOffset="294"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

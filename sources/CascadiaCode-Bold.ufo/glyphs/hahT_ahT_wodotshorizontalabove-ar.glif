@@ -4,7 +4,7 @@
   <unicode hex="076F"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="twodotstahcenter-ar" xOffset="59" yOffset="-366"/>
+    <component base="twodotstahcenter-ar" xScale="0.94" yScale="0.94" xOffset="125" yOffset="-337"/>
   </outline>
   <lib>
     <dict>
@@ -12,6 +12,8 @@
       <string>hah-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>hah-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

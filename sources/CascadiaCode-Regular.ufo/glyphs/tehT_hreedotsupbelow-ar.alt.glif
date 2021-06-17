@@ -4,7 +4,7 @@
   <outline>
     <component base="behDotless-ar.alt"/>
     <component base="twodotshorizontalabove-ar" xOffset="-610" yOffset="93"/>
-    <component base="threedotsdownbelow-ar" xOffset="-618" yOffset="-18"/>
+    <component base="threedotsupbelow-ar" xOffset="-620" yOffset="-24"/>
   </outline>
   <lib>
     <dict>
@@ -18,15 +18,9 @@
           <key>name</key>
           <string>twodotshorizontalabove-ar</string>
         </dict>
-        <dict>
-          <key>anchor</key>
-          <string>bottom.dot</string>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>threedotsdownbelow-ar</string>
-        </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

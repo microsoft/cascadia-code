@@ -25,32 +25,28 @@ uni043B
       <point x="732" y="193"/>
     </contour>
     <contour>
-      <point x="70" y="-20" type="curve" smooth="yes"/>
-      <point x="189" y="-20"/>
-      <point x="296" y="27"/>
-      <point x="372" y="117" type="curve" smooth="yes"/>
-      <point x="511" y="280"/>
-      <point x="602" y="572"/>
-      <point x="642" y="901" type="curve"/>
-      <point x="393" y="851" type="line"/>
-      <point x="364" y="695"/>
-      <point x="312" y="481"/>
-      <point x="220" y="351" type="curve" smooth="yes"/>
-      <point x="172" y="282"/>
-      <point x="116" y="237"/>
-      <point x="48" y="237" type="curve" smooth="yes"/>
-      <point x="25" y="237"/>
-      <point x="5" y="243"/>
-      <point x="-4" y="248" type="curve"/>
-      <point x="-46" y="0" type="line"/>
-      <point x="-16" y="-15"/>
-      <point x="29" y="-20"/>
+      <point x="90" y="-20" type="curve" smooth="yes"/>
+      <point x="416" y="-20"/>
+      <point x="548" y="305"/>
+      <point x="640" y="786" type="curve" smooth="yes"/>
+      <point x="662" y="901" type="line"/>
+      <point x="404" y="851" type="line"/>
+      <point x="379" y="735" type="line" smooth="yes"/>
+      <point x="325" y="486"/>
+      <point x="234" y="227"/>
+      <point x="69" y="227" type="curve" smooth="yes"/>
+      <point x="46" y="227"/>
+      <point x="46" y="233"/>
+      <point x="27" y="238" type="curve"/>
+      <point x="-15" y="0" type="line"/>
+      <point x="15" y="-15"/>
+      <point x="49" y="-20"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

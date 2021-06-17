@@ -4,7 +4,7 @@
   <anchor x="0" y="0" name="overlap"/>
   <outline>
     <component base="lam-ar.medi.rlig"/>
-    <component base="_doublebar" xScale="0.9" xOffset="424" yOffset="633"/>
+    <component base="_doublebar" xScale="0.9" xOffset="434" yOffset="633"/>
   </outline>
   <lib>
     <dict>
@@ -12,6 +12,8 @@
       <string>lam-ar.medi</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>lam-ar.medi</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

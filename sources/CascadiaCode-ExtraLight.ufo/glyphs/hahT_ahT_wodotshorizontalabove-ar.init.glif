@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hahTahTwodotshorizontalabove-ar.init" format="2">
   <advance width="1200"/>
+  <guideline x="384" y="-360" angle="0"/>
+  <guideline x="395" y="-339" angle="0"/>
   <outline>
     <component base="hah-ar.init"/>
     <component base="twodotstahbelow-ar" xOffset="80" yOffset="76"/>
@@ -20,6 +22,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>hah-ar.init</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

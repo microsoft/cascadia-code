@@ -2,27 +2,8 @@
 <glyph name="bar_bar_bar_greater.liga" format="2">
   <advance width="1200"/>
   <outline>
-    <contour>
-      <point x="2701" y="-10" type="line"/>
-      <point x="4308" y="575" type="line"/>
-      <point x="4355" y="843" type="line"/>
-      <point x="2955" y="1430" type="line"/>
-    </contour>
-    <contour>
-      <point x="3022" y="303" type="line"/>
-      <point x="3166" y="1116" type="line"/>
-      <point x="3076" y="1069" type="line"/>
-      <point x="3985" y="731" type="line"/>
-      <point x="3979" y="697" type="line"/>
-      <point x="2952" y="370" type="line"/>
-    </contour>
     <component base="bar" xOffset="356"/>
     <component base="bar" xOffset="1336"/>
+    <component base="bar_greater.liga" xOffset="2255"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

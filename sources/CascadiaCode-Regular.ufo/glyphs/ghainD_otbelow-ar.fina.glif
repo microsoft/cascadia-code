@@ -4,7 +4,7 @@
   <outline>
     <component base="ain-ar.fina"/>
     <component base="dotabove-ar" xOffset="10" yOffset="273"/>
-    <component base="dotcenter-ar" xOffset="57" yOffset="-494"/>
+    <component base="dotcenter-ar" xOffset="58" yOffset="-494"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>dotabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

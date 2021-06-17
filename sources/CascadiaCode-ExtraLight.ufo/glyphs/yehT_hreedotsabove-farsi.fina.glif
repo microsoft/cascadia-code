@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="alefMaksura-ar.fina"/>
-    <component base="threedotsupabove-ar" xOffset="-260" yOffset="-229"/>
+    <component base="threedotsupabove-ar" xOffset="-310" yOffset="-289"/>
   </outline>
   <lib>
     <dict>
@@ -20,6 +20,8 @@
           <string>threedotsupabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

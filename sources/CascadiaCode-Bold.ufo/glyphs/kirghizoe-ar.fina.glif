@@ -4,7 +4,7 @@
   <unicode hex="FBE1"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="_stroke" yScale="0.94" xOffset="-38" yOffset="-430"/>
+    <component base="_stroke" yScale="0.9" xOffset="-38" yOffset="-400"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>_stroke</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

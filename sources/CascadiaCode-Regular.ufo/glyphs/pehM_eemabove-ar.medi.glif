@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="meemStopabove-ar" xOffset="14" yOffset="223"/>
+    <component base="meemStopabove-ar" xOffset="14" yOffset="-239"/>
     <component base="threedotsdownbelow-ar" xOffset="-8" yOffset="-18"/>
   </outline>
   <lib>
@@ -33,6 +33,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Other</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

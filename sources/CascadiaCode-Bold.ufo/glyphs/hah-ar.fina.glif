@@ -2,23 +2,29 @@
 <glyph name="hah-ar.fina" format="2">
   <advance width="1200"/>
   <unicode hex="FEA2"/>
-  <anchor x="611" y="-74" name="center"/>
+  <anchor x="612" y="-42" name="center"/>
   <outline>
     <contour>
-      <point x="1188" y="-6" type="curve" smooth="yes"/>
-      <point x="1236" y="-6"/>
-      <point x="1275" y="21"/>
-      <point x="1275" y="135" type="curve" smooth="yes"/>
-      <point x="1275" y="196"/>
-      <point x="1251" y="206"/>
-      <point x="1200" y="206" type="curve" smooth="yes"/>
-      <point x="1044" y="206"/>
-      <point x="996" y="256"/>
-      <point x="981" y="489" type="curve"/>
+      <point x="1188" y="-10" type="curve" smooth="yes"/>
+      <point x="1266" y="-10"/>
+      <point x="1295" y="21"/>
+      <point x="1295" y="135" type="curve" smooth="yes"/>
+      <point x="1295" y="236"/>
+      <point x="1251" y="285"/>
+      <point x="1200" y="285" type="curve" smooth="yes"/>
+      <point x="1024" y="285"/>
+      <point x="1016" y="306"/>
+      <point x="1011" y="489" type="curve"/>
       <point x="813" y="424" type="line"/>
-      <point x="833" y="124"/>
-      <point x="912" y="-6"/>
+      <point x="823" y="114"/>
+      <point x="912" y="-10"/>
     </contour>
     <component base="hah-ar"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <unicode hex="FD3D"/>
   <outline>
     <component base="alef-ar"/>
-    <component base="fathatan-ar" xOffset="489" yOffset="-252"/>
+    <component base="fathatan-ar" xOffset="439" yOffset="-252"/>
   </outline>
   <lib>
     <dict>
@@ -21,6 +21,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>alef-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

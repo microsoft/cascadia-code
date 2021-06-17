@@ -2,34 +2,28 @@
 <glyph name="y" format="2">
   <advance width="1200"/>
   <unicode hex="0079"/>
-  <anchor x="811" y="0" name="bottom"/>
-  <anchor x="653" y="1060" name="top"/>
+  <anchor x="781" y="0" name="bottom"/>
+  <anchor x="623" y="1060" name="top"/>
   <outline>
     <contour>
-      <point x="48" y="-472" type="line"/>
-      <point x="711" y="-182"/>
-      <point x="1040" y="266"/>
-      <point x="1188" y="1060" type="curve"/>
-      <point x="1092" y="1060" type="line"/>
-      <point x="968" y="311"/>
-      <point x="656" y="-93"/>
-      <point x="9" y="-397" type="curve"/>
+      <point x="-2" y="-472" type="line"/>
+      <point x="661" y="-182"/>
+      <point x="990" y="266"/>
+      <point x="1138" y="1060" type="curve"/>
+      <point x="1042" y="1060" type="line"/>
+      <point x="918" y="311"/>
+      <point x="606" y="-93"/>
+      <point x="-41" y="-397" type="curve"/>
     </contour>
     <contour>
-      <point x="262" y="1070" type="curve"/>
-      <point x="167" y="1060" type="line"/>
-      <point x="300" y="620"/>
-      <point x="457" y="243"/>
-      <point x="647" y="11" type="curve"/>
-      <point x="705" y="101" type="line"/>
-      <point x="533" y="319"/>
-      <point x="386" y="640"/>
+      <point x="212" y="1070" type="curve"/>
+      <point x="117" y="1060" type="line"/>
+      <point x="250" y="620"/>
+      <point x="407" y="243"/>
+      <point x="597" y="11" type="curve"/>
+      <point x="655" y="101" type="line"/>
+      <point x="483" y="319"/>
+      <point x="336" y="640"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -7,10 +7,16 @@
   <anchor x="464" y="1451" name="top.dot"/>
   <outline>
     <contour>
-      <point x="295" y="1145" type="line"/>
+      <point x="285" y="1145" type="line"/>
       <point x="948" y="1571" type="line"/>
       <point x="949" y="1733" type="line"/>
-      <point x="296" y="1302" type="line"/>
+      <point x="286" y="1302" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

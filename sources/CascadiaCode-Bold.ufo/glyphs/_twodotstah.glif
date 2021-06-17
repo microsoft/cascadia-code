@@ -3,9 +3,9 @@
   <advance width="1200"/>
   <anchor x="600" y="767" name="_top"/>
   <anchor x="600" y="532" name="_top.dot"/>
-  <anchor x="628" y="1367" name="top"/>
+  <anchor x="628" y="1407" name="top"/>
   <outline>
-    <component base="_tahabove" xScale="0.9" yScale="0.9" xOffset="99" yOffset="402"/>
+    <component base="_tahabove" xScale="0.9" yScale="0.9" xOffset="99" yOffset="422"/>
     <component base="_twodotshorizontal-ar" yOffset="200"/>
   </outline>
   <lib>
@@ -29,6 +29,8 @@
           <string>_twodotshorizontal-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

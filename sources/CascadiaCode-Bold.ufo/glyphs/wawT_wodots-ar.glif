@@ -2,23 +2,15 @@
 <glyph name="wawTwodots-ar" format="2">
   <advance width="1200"/>
   <unicode hex="06CA"/>
+  <guideline x="183" y="507" angle="0"/>
   <outline>
     <component base="waw-ar"/>
     <component base="twodotshorizontalabove-ar" xOffset="70" yOffset="238"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>anchor</key>
-          <string>top.dot</string>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>twodotshorizontalabove-ar</string>
-        </dict>
-      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

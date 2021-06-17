@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rehDotbelowdotabove-ar.fina" format="2">
   <advance width="1200"/>
-  <anchor x="730" y="905" name="top"/>
+  <anchor x="352" y="-838" name="bottom"/>
+  <anchor x="620" y="905" name="top"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="dotabove-ar" xOffset="-130" yOffset="-609"/>
-    <component base="dotbelow-ar" xScale="0.96" yScale="0.96" xOffset="-191" yOffset="-428"/>
+    <component base="dotabove-ar" xOffset="-244" yOffset="-609"/>
+    <component base="dotbelow-ar" xScale="0.96" yScale="0.96" xOffset="-224" yOffset="-458"/>
   </outline>
   <lib>
     <dict>
@@ -28,6 +29,8 @@
           <string>dotbelow-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

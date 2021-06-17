@@ -3,34 +3,34 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="429" y="-1" type="curve"/>
-      <point x="582" y="-1" type="line"/>
-      <point x="561" y="147"/>
-      <point x="513" y="339"/>
-      <point x="513" y="401" type="curve" smooth="yes"/>
-      <point x="513" y="437"/>
-      <point x="531" y="459"/>
-      <point x="569" y="459" type="curve" smooth="yes"/>
-      <point x="613" y="459"/>
-      <point x="642" y="422"/>
-      <point x="652" y="325" type="curve"/>
-      <point x="799" y="325" type="line"/>
-      <point x="821" y="409"/>
-      <point x="866" y="517"/>
-      <point x="907" y="593" type="curve"/>
-      <point x="764" y="633" type="line"/>
-      <point x="743" y="582"/>
-      <point x="730" y="535"/>
-      <point x="716" y="473" type="curve"/>
-      <point x="705" y="473" type="line"/>
-      <point x="688" y="578"/>
-      <point x="628" y="629"/>
-      <point x="538" y="629" type="curve" smooth="yes"/>
-      <point x="432" y="629"/>
-      <point x="352" y="557"/>
-      <point x="352" y="436" type="curve" smooth="yes"/>
-      <point x="352" y="359"/>
-      <point x="410" y="134"/>
+      <point x="449" y="-1" type="curve"/>
+      <point x="541" y="-1" type="line"/>
+      <point x="520" y="137"/>
+      <point x="464" y="380"/>
+      <point x="464" y="452" type="curve" smooth="yes"/>
+      <point x="464" y="516"/>
+      <point x="508" y="542"/>
+      <point x="555" y="542" type="curve" smooth="yes"/>
+      <point x="616" y="542"/>
+      <point x="650" y="503"/>
+      <point x="672" y="345" type="curve"/>
+      <point x="771" y="345" type="line"/>
+      <point x="799" y="429"/>
+      <point x="841" y="526"/>
+      <point x="882" y="602" type="curve"/>
+      <point x="794" y="641" type="line"/>
+      <point x="774" y="600"/>
+      <point x="756" y="545"/>
+      <point x="732" y="473" type="curve"/>
+      <point x="721" y="473" type="line"/>
+      <point x="706" y="588"/>
+      <point x="643" y="637"/>
+      <point x="559" y="637" type="curve" smooth="yes"/>
+      <point x="447" y="637"/>
+      <point x="372" y="565"/>
+      <point x="372" y="464" type="curve" smooth="yes"/>
+      <point x="372" y="387"/>
+      <point x="426" y="144"/>
     </contour>
   </outline>
   <lib>
@@ -41,6 +41,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Small</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

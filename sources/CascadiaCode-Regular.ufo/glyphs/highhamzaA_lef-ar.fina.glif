@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="highhamzaAlef-ar.fina" format="2">
   <advance width="1200"/>
-  <anchor x="461" y="1612" name="top"/>
+  <anchor x="414" y="1545" name="top"/>
   <outline>
     <component base="alef-ar.fina"/>
-    <component base="highhamza-ar" xOffset="179" yOffset="-49"/>
+    <component base="highhamza-ar" xOffset="209" yOffset="-49"/>
   </outline>
   <lib>
     <dict>
@@ -21,6 +21,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>alef-ar.fina</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

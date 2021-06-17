@@ -5,7 +5,7 @@
   <anchor x="525" y="1284" name="top"/>
   <outline>
     <component base="keheh-ar"/>
-    <component base="_invertedstroke" xOffset="635" yOffset="-61"/>
+    <component base="_invertedstroke" yScale="0.9999" xOffset="635" yOffset="-61"/>
   </outline>
   <lib>
     <dict>
@@ -22,6 +22,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>keheh-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

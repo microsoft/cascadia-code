@@ -12,13 +12,19 @@
       <point x="1275" y="196"/>
       <point x="1251" y="206"/>
       <point x="1200" y="206" type="curve" smooth="yes"/>
-      <point x="1044" y="206"/>
-      <point x="996" y="256"/>
+      <point x="1014" y="206"/>
+      <point x="996" y="226"/>
       <point x="981" y="489" type="curve"/>
       <point x="813" y="424" type="line"/>
-      <point x="833" y="124"/>
-      <point x="912" y="-6"/>
+      <point x="833" y="94"/>
+      <point x="902" y="-6"/>
     </contour>
     <component base="hah-ar"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

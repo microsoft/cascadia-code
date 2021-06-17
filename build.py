@@ -63,8 +63,8 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
             "header_italic", # adds definitions, language systems
             "aalt_italic",
             "ccmp",
-            "calt_italic", 
             "locl_italic", 
+            "calt_italic", 
             "figures_italic", # contains subs/sinf/sups/numr/dnom
             "frac", 
             "ordn", 
@@ -83,8 +83,8 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
             "header", # adds definitions, language systems
             "aalt",
             "ccmp",
-            "calt", 
             "locl", 
+            "calt",
             "figures", # contains subs/sinf/sups/numr/dnom
             "frac", 
             "ordn", 
@@ -98,14 +98,13 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
             "medi",
             "fina",
             "rlig",
-            "dlig"
             ]
 
     for item in featureList:
         if "PL" in name and item == "rclt":
             featureSet += Path(path / str("rclt_PL.fea")).read_text()
         elif "Mono" in name and "calt" in item:
-            featureSet += Path(path / str("calt_mono.fea")).read_text() #both Italic and Regular can use same mono
+            featureSet += Path(path / str(item+"_mono.fea")).read_text() #both Italic and Regular can use same mono
         else:
             featureSet += Path(path / str(item+".fea")).read_text()
     instance.features.text = featureSet   

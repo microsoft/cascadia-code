@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <anchor x="600" y="752" name="_top"/>
   <anchor x="600" y="532" name="_top.dot"/>
-  <anchor x="611" y="962" name="top"/>
+  <anchor x="611" y="992" name="top"/>
   <outline>
     <component base="_twodotshorizontal-ar" yOffset="200"/>
   </outline>
@@ -20,6 +20,8 @@
           <string>_twodotshorizontal-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

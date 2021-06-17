@@ -4,8 +4,8 @@
   <anchor x="599" y="320" name="_center"/>
   <outline>
     <component base="_tahabovesmall" yOffset="-50"/>
-    <component base="_dot-ar" xScale="0.7" yScale="0.7" xOffset="269" yOffset="-223"/>
-    <component base="_dot-ar" xScale="0.7" yScale="0.7" xOffset="88" yOffset="-223"/>
+    <component base="_dot-ar" xScale="0.7" yScale="0.7" xOffset="272" yOffset="-243"/>
+    <component base="_dot-ar" xScale="0.7" yScale="0.7" xOffset="85" yOffset="-243"/>
   </outline>
   <lib>
     <dict>
@@ -36,6 +36,8 @@
           <string>_dot-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

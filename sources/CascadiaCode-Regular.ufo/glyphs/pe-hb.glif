@@ -2,7 +2,7 @@
 <glyph name="pe-hb" format="2">
   <advance width="1200"/>
   <unicode hex="05E4"/>
-  <anchor x="597" y="838" name="center"/>
+  <anchor x="634" y="825" name="center"/>
   <outline>
     <contour>
       <point x="1009" y="200" type="line"/>
@@ -18,19 +18,19 @@
     </contour>
     <contour>
       <point x="1009" y="817" type="line" smooth="yes"/>
-      <point x="1002" y="1066"/>
+      <point x="1009" y="1066"/>
       <point x="866" y="1200"/>
       <point x="599" y="1200" type="curve" smooth="yes"/>
       <point x="231" y="1200" type="line"/>
       <point x="193" y="1052"/>
       <point x="154" y="830"/>
       <point x="133" y="567" type="curve"/>
-      <point x="326" y="566" type="line"/>
-      <point x="345" y="775"/>
+      <point x="326" y="565" type="line"/>
+      <point x="345" y="774"/>
       <point x="365" y="907"/>
       <point x="382" y="1000" type="curve"/>
       <point x="558" y="1000" type="line" smooth="yes"/>
-      <point x="739" y="998"/>
+      <point x="739" y="1000"/>
       <point x="817" y="924"/>
       <point x="817" y="708" type="curve" smooth="yes"/>
       <point x="817" y="0" type="line"/>
@@ -40,7 +40,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

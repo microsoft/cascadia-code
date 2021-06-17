@@ -8,24 +8,6 @@
   <anchor x="1113" y="1060" name="topright"/>
   <outline>
     <contour>
-      <point x="712" y="-10" type="line"/>
-      <point x="1073" y="0" type="line"/>
-      <point x="1111" y="219" type="line"/>
-      <point x="926" y="219" type="line"/>
-      <point x="943" y="111" type="line"/>
-      <point x="1110" y="1059" type="line"/>
-      <point x="836" y="1060" type="line"/>
-      <point x="733" y="481" type="line"/>
-      <point x="737" y="376" type="line"/>
-    </contour>
-    <contour>
-      <point x="545" y="1041" type="curve"/>
-      <point x="273" y="1080" type="line"/>
-      <point x="133" y="753"/>
-      <point x="74" y="531"/>
-      <point x="74" y="337" type="curve" smooth="yes"/>
-      <point x="74" y="110"/>
-      <point x="186" y="-21"/>
       <point x="383" y="-21" type="curve" smooth="yes"/>
       <point x="602" y="-21"/>
       <point x="665" y="114"/>
@@ -41,12 +23,28 @@
       <point x="351" y="362" type="curve" smooth="yes"/>
       <point x="351" y="504"/>
       <point x="410" y="707"/>
+      <point x="545" y="1041" type="curve"/>
+      <point x="273" y="1080" type="line"/>
+      <point x="133" y="753"/>
+      <point x="74" y="531"/>
+      <point x="74" y="337" type="curve" smooth="yes"/>
+      <point x="74" y="110"/>
+      <point x="186" y="-21"/>
+    </contour>
+    <contour>
+      <point x="960" y="-10" type="curve" smooth="yes"/>
+      <point x="1069" y="-10" type="line"/>
+      <point x="1109" y="219" type="line"/>
+      <point x="1061" y="219" type="line" smooth="yes"/>
+      <point x="987" y="219"/>
+      <point x="968" y="247"/>
+      <point x="984" y="341" type="curve" smooth="yes"/>
+      <point x="1110" y="1060" type="line"/>
+      <point x="836" y="1060" type="line"/>
+      <point x="733" y="481" type="line"/>
+      <point x="740" y="250" type="line"/>
+      <point x="717" y="76"/>
+      <point x="790" y="-10"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

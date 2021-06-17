@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pedagesh-hb.BRACKET.600" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="729" y="166" type="curve" smooth="yes"/>
+      <point x="779" y="166"/>
+      <point x="820" y="206"/>
+      <point x="820" y="256" type="curve" smooth="yes"/>
+      <point x="820" y="306"/>
+      <point x="779" y="347"/>
+      <point x="729" y="347" type="curve" smooth="yes"/>
+      <point x="679" y="347"/>
+      <point x="638" y="306"/>
+      <point x="638" y="256" type="curve" smooth="yes"/>
+      <point x="638" y="206"/>
+      <point x="679" y="166"/>
+    </contour>
+    <component base="pe-hb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
+      <string>[600]</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

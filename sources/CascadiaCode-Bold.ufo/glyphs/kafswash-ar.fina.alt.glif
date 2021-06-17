@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafswash-ar.fina.alt" format="2">
+  <advance width="1200"/>
+  <anchor x="12" y="-141" name="bottom"/>
+  <anchor x="240" y="1057" name="top"/>
+  <outline>
+    <contour>
+      <point x="1189" y="-10" type="curve" smooth="yes"/>
+      <point x="1250" y="-10"/>
+      <point x="1280" y="41"/>
+      <point x="1280" y="146" type="curve" smooth="yes"/>
+      <point x="1280" y="244"/>
+      <point x="1256" y="285"/>
+      <point x="1200" y="285" type="curve" smooth="yes"/>
+      <point x="1055" y="285"/>
+      <point x="900" y="290"/>
+      <point x="828" y="305" type="curve"/>
+      <point x="751" y="72" type="line"/>
+      <point x="847" y="72" type="line"/>
+      <point x="877" y="9"/>
+      <point x="975" y="-10"/>
+    </contour>
+    <component base="kafswash-ar.alt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

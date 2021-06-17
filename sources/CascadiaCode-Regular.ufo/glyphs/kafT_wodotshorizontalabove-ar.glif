@@ -5,7 +5,7 @@
   <anchor x="545.9" y="1381.8" name="top"/>
   <outline>
     <component base="kaf-ar"/>
-    <component base="twodotshorizontalabove-ar" xScale="0.9" yScale="0.9" xOffset="-4" yOffset="516"/>
+    <component base="twodotshorizontalabove-ar" xScale="0.9" yScale="0.9" xOffset="6" yOffset="516"/>
   </outline>
   <lib>
     <dict>
@@ -20,6 +20,8 @@
           <string>twodotshorizontalabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

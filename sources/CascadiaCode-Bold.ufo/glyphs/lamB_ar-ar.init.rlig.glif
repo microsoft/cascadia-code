@@ -4,7 +4,7 @@
   <anchor x="0" y="0" name="overlap"/>
   <outline>
     <component base="lam-ar.init.rlig"/>
-    <component base="_bar" xScale="0.9" xOffset="400" yOffset="790"/>
+    <component base="_bar" xScale="0.9" xOffset="390" yOffset="790"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>_bar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -6,20 +6,20 @@
   <anchor x="757" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="458" y="0" type="line"/>
-      <point x="554" y="0" type="line"/>
-      <point x="804" y="1420" type="line"/>
-      <point x="708" y="1420" type="line"/>
+      <point x="459" y="0" type="line"/>
+      <point x="555" y="0" type="line"/>
+      <point x="805" y="1420" type="line"/>
+      <point x="709" y="1420" type="line"/>
     </contour>
     <contour>
-      <point x="-76" y="0" type="curve"/>
-      <point x="29" y="0" type="line"/>
-      <point x="130" y="200"/>
-      <point x="227" y="384"/>
-      <point x="403" y="667" type="curve"/>
-      <point x="323" y="708" type="line"/>
-      <point x="135" y="405"/>
-      <point x="30" y="208"/>
+      <point x="-70" y="0" type="curve"/>
+      <point x="35" y="0" type="line"/>
+      <point x="136" y="200"/>
+      <point x="233" y="384"/>
+      <point x="409" y="667" type="curve"/>
+      <point x="329" y="708" type="line"/>
+      <point x="141" y="405"/>
+      <point x="36" y="208"/>
     </contour>
     <contour>
       <point x="338" y="630" type="line"/>
@@ -28,24 +28,24 @@
       <point x="346" y="720" type="line"/>
     </contour>
     <contour>
-      <point x="991" y="0" type="line"/>
-      <point x="1090" y="0" type="line"/>
+      <point x="985" y="0" type="line"/>
+      <point x="1084" y="0" type="line"/>
       <point x="946" y="688" type="line"/>
       <point x="856" y="681" type="line"/>
     </contour>
     <contour>
-      <point x="403" y="650" type="line"/>
-      <point x="294" y="1420" type="line"/>
-      <point x="196" y="1420" type="line"/>
-      <point x="316" y="654" type="line"/>
+      <point x="409" y="650" type="line"/>
+      <point x="306" y="1420" type="line"/>
+      <point x="208" y="1420" type="line"/>
+      <point x="322" y="654" type="line"/>
     </contour>
     <contour>
       <point x="928" y="641" type="line"/>
       <point x="1071" y="857"/>
-      <point x="1247" y="1217"/>
-      <point x="1330" y="1420" type="curve"/>
-      <point x="1233" y="1420" type="line"/>
-      <point x="1147" y="1222"/>
+      <point x="1246" y="1217"/>
+      <point x="1329" y="1420" type="curve"/>
+      <point x="1232" y="1420" type="line"/>
+      <point x="1146" y="1222"/>
       <point x="981" y="877"/>
       <point x="845" y="672" type="curve"/>
     </contour>
@@ -77,8 +77,6 @@
           <integer>100</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
