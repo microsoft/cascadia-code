@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="patah-hb" format="2">
   <unicode hex="05B7"/>
+  <anchor x="599" y="0" name="_bottom"/>
   <outline>
     <contour>
+      <point x="799" y="-175" type="line"/>
+      <point x="401" y="-175" type="line"/>
       <point x="401" y="-321" type="line"/>
       <point x="799" y="-321" type="line"/>
-      <point x="796" y="-175" type="line"/>
-      <point x="401" y="-175" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -14,7 +15,7 @@
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>1200</integer>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

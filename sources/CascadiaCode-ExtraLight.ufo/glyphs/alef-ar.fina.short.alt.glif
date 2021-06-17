@@ -6,17 +6,27 @@
   <anchor x="273" y="1204" name="top.dot"/>
   <outline>
     <contour>
-      <point x="614" y="-6" type="curve"/>
-      <point x="651" y="121" type="line"/>
-      <point x="626" y="206" type="line"/>
-      <point x="399" y="206"/>
-      <point x="382" y="220"/>
-      <point x="380" y="451" type="curve" smooth="yes"/>
-      <point x="372" y="1198" type="line"/>
-      <point x="166" y="1198" type="line"/>
-      <point x="174" y="386" type="line" smooth="yes"/>
-      <point x="177" y="50"/>
-      <point x="319" y="-6"/>
+      <point x="618" y="-3" type="curve" smooth="yes"/>
+      <point x="649" y="-3"/>
+      <point x="665" y="14"/>
+      <point x="665" y="51" type="curve" smooth="yes"/>
+      <point x="665" y="79"/>
+      <point x="656" y="91"/>
+      <point x="630" y="91" type="curve" smooth="yes"/>
+      <point x="367" y="91"/>
+      <point x="325" y="103"/>
+      <point x="323" y="341" type="curve" smooth="yes"/>
+      <point x="317" y="1190" type="line"/>
+      <point x="225" y="1190" type="line"/>
+      <point x="231" y="306" type="line" smooth="yes"/>
+      <point x="233" y="49"/>
+      <point x="314" y="-3"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,11 +2,11 @@
 <glyph name="twodotshorizontalabove-ar.v2" format="2">
   <advance width="1200"/>
   <anchor x="600" y="752" name="_top"/>
-  <anchor x="600" y="572" name="_top.dot"/>
+  <anchor x="640" y="562" name="_top.dot"/>
   <anchor x="601" y="962" name="top"/>
   <outline>
     <component base="dotabove-ar" xOffset="-120" yOffset="-65"/>
-    <component base="dotabove-ar" xOffset="143" yOffset="82"/>
+    <component base="dotabove-ar" xOffset="183" yOffset="102"/>
   </outline>
   <lib>
     <dict>
@@ -29,6 +29,8 @@
           <string>dotabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

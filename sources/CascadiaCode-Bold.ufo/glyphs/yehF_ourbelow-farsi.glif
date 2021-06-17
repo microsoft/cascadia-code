@@ -4,14 +4,27 @@
   <unicode hex="0777"/>
   <outline>
     <component base="alefMaksura-ar"/>
-    <component base="four-persianbelow-ar" xOffset="-17" yOffset="-282"/>
+    <component base="four-persianbelow-ar" xOffset="-17" yOffset="-334"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>four-persianbelow-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>alefMaksura-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>alefMaksura-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

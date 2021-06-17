@@ -8,14 +8,14 @@
   <anchor x="184" y="440" name="top.dot"/>
   <outline>
     <contour>
-      <point x="561" y="-356" type="curve" smooth="yes"/>
+      <point x="551" y="-356" type="curve" smooth="yes"/>
       <point x="937" y="-356"/>
       <point x="1138" y="-159"/>
       <point x="1138" y="49" type="curve" smooth="yes"/>
       <point x="1138" y="155"/>
-      <point x="1103" y="231"/>
+      <point x="1103" y="223"/>
       <point x="899" y="278" type="curve" smooth="yes"/>
-      <point x="725" y="318"/>
+      <point x="727" y="324"/>
       <point x="686" y="341"/>
       <point x="686" y="409" type="curve" smooth="yes"/>
       <point x="686" y="489"/>
@@ -37,10 +37,10 @@
       <point x="906" y="78"/>
       <point x="940" y="60"/>
       <point x="940" y="14" type="curve" smooth="yes"/>
-      <point x="940" y="-59"/>
-      <point x="829" y="-145"/>
-      <point x="601" y="-145" type="curve" smooth="yes"/>
-      <point x="338" y="-145"/>
+      <point x="940" y="-69"/>
+      <point x="809" y="-145"/>
+      <point x="571" y="-145" type="curve" smooth="yes"/>
+      <point x="308" y="-145"/>
       <point x="229" y="-86"/>
       <point x="229" y="107" type="curve" smooth="yes"/>
       <point x="229" y="198"/>
@@ -51,7 +51,13 @@
       <point x="34" y="170"/>
       <point x="34" y="67" type="curve" smooth="yes"/>
       <point x="34" y="-235"/>
-      <point x="230" y="-356"/>
+      <point x="210" y="-356"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

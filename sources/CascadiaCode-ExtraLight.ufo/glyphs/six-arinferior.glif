@@ -3,21 +3,21 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="714" y="-15" type="curve"/>
-      <point x="884" y="-5" type="line"/>
-      <point x="860" y="160"/>
-      <point x="842" y="397"/>
-      <point x="830" y="618" type="curve"/>
-      <point x="722" y="617"/>
-      <point x="506" y="618"/>
-      <point x="411" y="621" type="curve"/>
-      <point x="409" y="469" type="line"/>
-      <point x="502" y="467"/>
-      <point x="667" y="466"/>
-      <point x="764" y="469" type="curve"/>
-      <point x="671" y="564" type="line"/>
-      <point x="675" y="377"/>
-      <point x="696" y="154"/>
+      <point x="770" y="-6" type="curve"/>
+      <point x="864" y="4" type="line"/>
+      <point x="840" y="179"/>
+      <point x="822" y="400"/>
+      <point x="810" y="631" type="curve"/>
+      <point x="694" y="630"/>
+      <point x="526" y="630"/>
+      <point x="431" y="633" type="curve"/>
+      <point x="429" y="539" type="line"/>
+      <point x="522" y="537"/>
+      <point x="667" y="537"/>
+      <point x="764" y="540" type="curve"/>
+      <point x="725" y="576" type="line"/>
+      <point x="729" y="379"/>
+      <point x="752" y="163"/>
     </contour>
   </outline>
   <lib>
@@ -28,6 +28,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Small</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

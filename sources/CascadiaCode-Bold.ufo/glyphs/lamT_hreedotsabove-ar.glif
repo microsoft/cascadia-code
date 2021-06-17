@@ -2,10 +2,12 @@
 <glyph name="lamThreedotsabove-ar" format="2">
   <advance width="1200"/>
   <unicode hex="06B7"/>
-  <anchor x="978" y="2033" name="top"/>
+  <guideline x="166" y="592" angle="0"/>
+  <guideline x="166" y="551" angle="0"/>
+  <anchor x="908" y="2033" name="top"/>
   <outline>
     <component base="lam-ar"/>
-    <component base="threedotsupabove-ar" xScale="0.9" yScale="0.9" xOffset="437" yOffset="979"/>
+    <component base="threedotsupabove-ar" xScale="0.9" yScale="0.9" xOffset="367" yOffset="979"/>
   </outline>
   <lib>
     <dict>
@@ -20,6 +22,8 @@
           <string>threedotsupabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

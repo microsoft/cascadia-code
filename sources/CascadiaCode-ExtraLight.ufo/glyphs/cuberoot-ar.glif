@@ -2,6 +2,8 @@
 <glyph name="cuberoot-ar" format="2">
   <advance width="1200"/>
   <unicode hex="0606"/>
+  <guideline x="317" y="690" angle="0"/>
+  <guideline x="527" y="289" angle="270"/>
   <outline>
     <component base="_cuberoot_fourthroot-ar"/>
     <component base="three-persian.small01" xOffset="110" yOffset="-115"/>
@@ -31,6 +33,8 @@
       <string>_cuberoot_fourthroot-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>_cuberoot_fourthroot-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

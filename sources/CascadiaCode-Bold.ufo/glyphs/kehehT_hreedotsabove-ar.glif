@@ -2,24 +2,15 @@
 <glyph name="kehehThreedotsabove-ar" format="2">
   <advance width="1200"/>
   <unicode hex="0763"/>
-  <anchor x="611.7" y="1673.8" name="top"/>
+  <anchor x="612" y="1634" name="top"/>
   <outline>
     <component base="keheh-ar"/>
-    <component base="threedotsupabove-ar.v2" xScale="0.9" yScale="0.9" xOffset="114" yOffset="619"/>
+    <component base="threedotsupabove-ar.v2" xScale="0.7" yScale="0.7" xOffset="206" yOffset="764"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>anchor</key>
-          <string>top.dot</string>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>threedotsupabove-ar.v2</string>
-        </dict>
-      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

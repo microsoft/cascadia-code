@@ -4,7 +4,7 @@
   <unicode hex="06C4"/>
   <anchor x="487" y="-565" name="bottom"/>
   <outline>
-    <component base="_wawDotcenter-ar"/>
+    <component base="waw-ar"/>
     <component base="ringArabic" xScale="0.92" yScale="0.92" xOffset="-162" yOffset="-213"/>
   </outline>
   <lib>
@@ -22,6 +22,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>waw-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

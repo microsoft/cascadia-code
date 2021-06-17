@@ -6,26 +6,22 @@
   <anchor x="494" y="1200" name="top"/>
   <outline>
     <contour>
+      <point x="614" y="0" type="line"/>
       <point x="809" y="0" type="line"/>
       <point x="809" y="1200" type="line"/>
       <point x="614" y="1200" type="line"/>
-      <point x="614" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="808" y="1200" type="line"/>
-      <point x="808" y="1000" type="line"/>
-    </contour>
-    <contour>
-      <point x="808" y="1200" type="line"/>
-      <point x="181" y="1200" type="line"/>
       <point x="181" y="1000" type="line"/>
       <point x="808" y="1000" type="line"/>
+      <point x="808" y="1200" type="line"/>
+      <point x="181" y="1200" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

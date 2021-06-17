@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="dad-ar.alt"/>
-    <component base="dotbelow-ar" xOffset="-130" yOffset="-24"/>
+    <component base="dotbelow-ar" xOffset="-160" yOffset="-24"/>
   </outline>
   <lib>
     <dict>
@@ -18,6 +18,8 @@
           <string>dotbelow-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafswash-ar.medi.alt" format="2">
+  <advance width="1200"/>
+  <anchor x="555" y="-141" name="bottom"/>
+  <anchor x="416" y="1057" name="top"/>
+  <outline>
+    <contour>
+      <point x="1189" y="-10" type="curve" smooth="yes"/>
+      <point x="1250" y="-10"/>
+      <point x="1280" y="41"/>
+      <point x="1280" y="146" type="curve" smooth="yes"/>
+      <point x="1280" y="244"/>
+      <point x="1256" y="285"/>
+      <point x="1200" y="285" type="curve" smooth="yes"/>
+      <point x="1077" y="285"/>
+      <point x="1022" y="287"/>
+      <point x="950" y="295" type="curve"/>
+      <point x="873" y="72" type="line"/>
+      <point x="979" y="72" type="line"/>
+      <point x="1018" y="11"/>
+      <point x="1085" y="-10"/>
+    </contour>
+    <component base="kafswash-ar.init.alt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>kafswash-ar.init</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

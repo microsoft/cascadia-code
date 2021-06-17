@@ -4,7 +4,7 @@
   <unicode hex="FE8C"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="hamzaabove-ar" xOffset="10" yOffset="-349"/>
+    <component base="hamzaabove-ar" xOffset="-10" yOffset="-449"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>hamzaabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -2,14 +2,31 @@
 <glyph name="shindageshsindot-hb" format="2">
   <advance width="1200"/>
   <unicode hex="FB2D"/>
+  <anchor x="630" y="379" name="_center"/>
+  <anchor x="630" y="379" name="center"/>
+  <anchor x="235" y="1200" name="topleft"/>
+  <anchor x="929" y="1201" name="topright"/>
   <outline>
-    <component base="shindagesh-hb"/>
-    <component base="sindot-hb" xOffset="-365"/>
+    <contour>
+      <point x="630" y="289" type="curve" smooth="yes"/>
+      <point x="680" y="289"/>
+      <point x="721" y="329"/>
+      <point x="721" y="379" type="curve" smooth="yes"/>
+      <point x="721" y="429"/>
+      <point x="680" y="470"/>
+      <point x="630" y="470" type="curve" smooth="yes"/>
+      <point x="580" y="470"/>
+      <point x="539" y="429"/>
+      <point x="539" y="379" type="curve" smooth="yes"/>
+      <point x="539" y="329"/>
+      <point x="580" y="289"/>
+    </contour>
+    <component base="shinsindot-hb"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

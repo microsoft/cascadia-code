@@ -5,6 +5,12 @@
   <anchor x="807" y="1486" name="top"/>
   <outline>
     <component base="keheh-ar.fina"/>
-    <component base="gafsarkashabove-ar" xOffset="244" yOffset="-73"/>
+    <component base="gafsarkashabove-ar" yScale="0.9999" xOffset="244" yOffset="-73"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

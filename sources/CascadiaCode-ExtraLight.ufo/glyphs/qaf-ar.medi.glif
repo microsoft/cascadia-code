@@ -4,21 +4,12 @@
   <unicode hex="FED8"/>
   <outline>
     <component base="fehDotless-ar.medi"/>
-    <component base="twodotshorizontalabove-ar" xOffset="2" yOffset="327"/>
+    <component base="twodotshorizontalabove-ar" xOffset="14" yOffset="327"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>anchor</key>
-          <string>top.dot</string>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>twodotshorizontalabove-ar</string>
-        </dict>
-      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="vinvertedabove-ar" xOffset="235" yOffset="345"/>
+    <component base="vinvertedabove-ar" xOffset="235" yOffset="335"/>
     <component base="twodotshorizontalbelow-ar" xOffset="170" yOffset="-24"/>
   </outline>
   <lib>
@@ -19,6 +19,8 @@
           <string>vinvertedabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

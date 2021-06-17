@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <anchor x="600" y="762" name="_top"/>
   <anchor x="600" y="532" name="_top.dot"/>
-  <anchor x="601" y="1462" name="top"/>
+  <anchor x="601" y="1472" name="top"/>
   <outline>
     <component base="_tahabove" xScale="0.94" yScale="0.94" xOffset="60" yOffset="434"/>
     <component base="dotabove-ar" xOffset="-4" yOffset="1"/>
@@ -29,6 +29,8 @@
           <string>dotabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <unicode hex="077A"/>
   <outline>
     <component base="yehbarree-ar"/>
-    <component base="two-persian.small01" xOffset="-415" yOffset="-627"/>
+    <component base="two-persian.small01" xOffset="-415" yOffset="-587"/>
   </outline>
   <lib>
     <dict>
@@ -21,6 +21,8 @@
           <string>two-persian.small01</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

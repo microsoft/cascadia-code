@@ -4,13 +4,21 @@
   <anchor x="696" y="1289" name="top"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="hamzaabove-ar" xScale="0.92" yScale="0.92" xOffset="352" yOffset="-249"/>
-    <component base="_damma-ar" xOffset="-120" yOffset="-359"/>
+    <component base="hamzaabove-ar" xScale="0.9" yScale="0.9" xOffset="352" yOffset="-239"/>
+    <component base="_damma-ar" xOffset="-130" yOffset="-359"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>waw-ar.fina</string>
+        </dict>
         <dict>
           <key>alignment</key>
           <integer>-1</integer>
@@ -30,6 +38,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>waw-ar.fina</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

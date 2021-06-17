@@ -4,19 +4,19 @@
   <unicode hex="0644"/>
   <anchor x="552" y="-407" name="bottom"/>
   <anchor x="553" y="-337" name="bottom.dot"/>
-  <anchor x="987" y="951" name="center"/>
-  <anchor x="974" y="1545" name="top"/>
-  <anchor x="977" y="1467" name="top.dot"/>
+  <anchor x="967" y="951" name="center"/>
+  <anchor x="954" y="1545" name="top"/>
+  <anchor x="957" y="1467" name="top.dot"/>
   <outline>
     <contour>
       <point x="555" y="-357" type="curve" smooth="yes"/>
       <point x="938" y="-357"/>
-      <point x="1117" y="-184"/>
-      <point x="1105" y="268" type="curve" smooth="yes"/>
-      <point x="1075" y="1420" type="line"/>
-      <point x="869" y="1420" type="line"/>
-      <point x="901" y="151" type="line" smooth="yes"/>
-      <point x="906" y="-49"/>
+      <point x="1097" y="-184"/>
+      <point x="1085" y="268" type="curve" smooth="yes"/>
+      <point x="1055" y="1420" type="line"/>
+      <point x="849" y="1420" type="line"/>
+      <point x="881" y="151" type="line" smooth="yes"/>
+      <point x="886" y="-49"/>
       <point x="846" y="-145"/>
       <point x="577" y="-145" type="curve" smooth="yes"/>
       <point x="345" y="-145"/>
@@ -33,4 +33,10 @@
       <point x="216" y="-357"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -5,6 +5,16 @@
   <anchor x="627" y="590" name="center"/>
   <outline>
     <contour>
+      <point x="1035" y="0" type="line"/>
+      <point x="1035" y="1200" type="line"/>
+      <point x="936" y="1200" type="line"/>
+      <point x="936" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="370" y="1094" type="line"/>
+      <point x="291" y="1056"/>
+      <point x="218" y="957"/>
+      <point x="218" y="789" type="curve" smooth="yes"/>
       <point x="218" y="0" type="line"/>
       <point x="317" y="0" type="line"/>
       <point x="317" y="770" type="line" smooth="yes"/>
@@ -12,35 +22,25 @@
       <point x="391" y="1101"/>
       <point x="627" y="1101" type="curve"/>
       <point x="370" y="1169" type="line"/>
-      <point x="370" y="1094" type="line"/>
-      <point x="291" y="1056"/>
-      <point x="223" y="957"/>
-      <point x="218" y="789" type="curve"/>
     </contour>
     <contour>
-      <point x="30" y="0" type="line"/>
-      <point x="317" y="0" type="line"/>
-      <point x="317" y="99" type="line"/>
-      <point x="30" y="99" type="line"/>
-    </contour>
-    <contour>
-      <point x="936" y="0" type="line"/>
-      <point x="1035" y="0" type="line"/>
-      <point x="1035" y="1200" type="line"/>
-      <point x="936" y="1200" type="line"/>
-    </contour>
-    <contour>
-      <point x="298" y="1101" type="line"/>
-      <point x="1034" y="1101" type="line"/>
       <point x="1034" y="1200" type="line"/>
       <point x="157" y="1200" type="line"/>
       <point x="157" y="1108" type="line"/>
+      <point x="298" y="1101" type="line"/>
+      <point x="1034" y="1101" type="line"/>
+    </contour>
+    <contour>
+      <point x="317" y="99" type="line"/>
+      <point x="30" y="99" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="317" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

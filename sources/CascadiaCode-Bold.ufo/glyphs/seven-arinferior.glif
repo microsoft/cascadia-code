@@ -2,7 +2,7 @@
 <glyph name="seven-arinferior" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="eight-arinferior" xScale="-1" yScale="-1" xOffset="1151" yOffset="599"/>
+    <component base="eight-arinferior" xScale="-1" yScale="-1" xOffset="1151" yOffset="632"/>
   </outline>
   <lib>
     <dict>
@@ -23,6 +23,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Small</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

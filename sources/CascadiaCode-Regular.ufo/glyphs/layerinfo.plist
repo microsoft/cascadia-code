@@ -112,6 +112,8 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.D.half</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Dafrican</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Dcaron</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Dcroat</key>
@@ -211,6 +213,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.F</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.F.half</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Fhook</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.G</key>
       <integer>1</integer>
@@ -768,8 +772,6 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph._stroke</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph._stroke.wide</key>
-      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph._tahabove</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph._tahabovesmall</key>
@@ -787,8 +789,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph._vbelow-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph._vinvertedbelow-ar</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph._wawDotcenter-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph._yehRohingya-ar</key>
       <integer>1</integer>
@@ -854,6 +854,8 @@
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.aeacute</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.afghani-ar</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.agrave</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ahookabove</key>
@@ -915,7 +917,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.alef-ar.short</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alef-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefFathatan-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefFathatan-ar.fina</key>
@@ -950,9 +952,13 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksura-ar.fina</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksura-ar.fina.alt</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksuraAlefabove-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksuraAlefabove-ar.fina</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksuraAlefabove-ar.fina.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefThreeabove-ar</key>
       <integer>2</integer>
@@ -999,11 +1005,13 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.alefbelow-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefpatah-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefqamats-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.allah-ar</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alpha</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alpha-latin</key>
@@ -1067,7 +1075,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.atilde</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ayin-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.b</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.backslash</key>
@@ -1147,7 +1155,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.beh-ar.alt</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.beh-ar.fina</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.beh-ar.fina.alt</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.beh-ar.init</key>
@@ -1163,7 +1171,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.behDotless-ar.fina</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.behDotless-ar.fina.alt</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.behDotless-ar.init</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.behDotless-ar.init.alt</key>
@@ -1313,11 +1321,11 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.bellControl.ss20</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.bet-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.beta</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.betdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.bitcoin</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.blackCircle</key>
@@ -2045,7 +2053,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.dadDotbelow-ar.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dagger</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.daggerdbl</key>
@@ -2095,9 +2103,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.dalVinvertedbelow-ar.fina</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dalet-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.daletdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.damma-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dammatan-ar</key>
@@ -2712,6 +2720,8 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.downWhiteTriangle</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.dtail</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dul-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dul-ar.fina</key>
@@ -2733,6 +2743,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.e-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.e-ar.fina</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.e-ar.fina.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.e-ar.init</key>
       <integer>2</integer>
@@ -2768,6 +2780,8 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ef-cy</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ef-cy.loclBGR</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.egrave</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ehookabove</key>
@@ -2777,15 +2791,15 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.eight-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eight-arinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eight-arsuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eight-persian</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eight-persianinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eight-persiansuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eight.dnom</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eight.numr</key>
@@ -2928,6 +2942,8 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.feh-ar.init</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.feh-ar.init.alt</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.feh-ar.medi</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.fehDotMovedbelow-ar</key>
@@ -2967,6 +2983,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.fehDotless-ar.fina.alt</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.fehDotless-ar.init</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.fehDotless-ar.init.alt</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.fehDotless-ar.medi</key>
       <integer>1</integer>
@@ -3013,19 +3031,19 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.filledRect</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.finalkaf-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.finalkafdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.finalmem-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.finalnun-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.finalpe-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.finalpedagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.finaltsadi-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.firsttonechinese</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.fisheye</key>
@@ -3037,13 +3055,13 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.five-arinferior</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.five-arsuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.five-persian</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.five-persianinferior</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.five-persiansuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.five.dnom</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.five.numr</key>
@@ -3071,7 +3089,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.four-arinferior</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.four-arsuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.four-persian</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.four-persian.small01</key>
@@ -3081,7 +3099,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.four-persian.urduinferior</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.four-persian.urdusuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.four-persianbelow-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.four-persiancenter-ar</key>
@@ -3089,7 +3107,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.four-persianinferior</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.four-persiansuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.four.dnom</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.four.half</key>
@@ -3180,7 +3198,11 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ge-cy.loclBGR</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.geresh-hb</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.germandbls</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.gershayim-hb</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ghain-ar</key>
       <integer>1</integer>
@@ -3203,9 +3225,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.gheupturn-cy</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.gimel-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.gimeldagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.gje-cy</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.glottalstop</key>
@@ -3295,7 +3317,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.hah-ar.fina</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.hah-ar.init</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.hah-ar.medi</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.hahFourbelow-ar</key>
@@ -3389,7 +3411,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.hdotbelow</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.he-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.heartBlackSuit</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.heavyleftpointinganglebracketornament</key>
@@ -3401,7 +3423,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.heavyrightpointinganglequotationmarkornament</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.hedagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.heh-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.heh-ar.fina</key>
@@ -3455,7 +3477,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.hehgoalHamzaabove-ar.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.het-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.highhamza-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.highhamzaAlef-ar</key>
@@ -3472,6 +3494,8 @@
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.highhamzaYeh-ar.fina</key>
       <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.highhamzaYeh-ar.fina.alt</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.highhamzaYeh-ar.init</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.highhamzaYeh-ar.init.alt</key>
@@ -3479,9 +3503,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.highhamzaYeh-ar.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.holam-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.holamhaser-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.hookabovecomb</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.hookabovecomb.case</key>
@@ -3659,7 +3683,7 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.kaf-ar.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.kaf-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.kafDotabove-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.kafDotabove-ar.fina</key>
@@ -3693,14 +3717,22 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.kafTwodotshorizontalabove-ar.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.kafdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.kafswash-ar</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.kafswash-ar.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.kafswash-ar.fina</key>
       <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.kafswash-ar.fina.alt</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.kafswash-ar.init</key>
       <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.kafswash-ar.init.alt</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.kafswash-ar.medi</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.kafswash-ar.medi.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.kaiSymbol</key>
       <integer>1</integer>
@@ -3900,14 +3932,16 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.lam_alefWasla-ar.fina</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.lam_lam_heh-ar</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.lambda</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.lambdastroke</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.lamed-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.lameddagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.largeCircle</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.lari</key>
@@ -4211,9 +4245,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.meemThreedotsabove-ar.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.mem-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.memdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.micro</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.minus</key>
@@ -4271,15 +4305,15 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.nine-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nine-arinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nine-arsuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nine-persian</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nine-persianinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nine-persiansuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nine.dnom</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nine.numr</key>
@@ -4439,9 +4473,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.numero</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nun-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nundagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nyeh-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nyeh-ar.fina</key>
@@ -4525,15 +4559,15 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.one-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.one-arinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.one-arsuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.one-persian</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.one-persianinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.one-persiansuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.one.dnom</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.one.half</key>
@@ -4590,16 +4624,18 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.partialdiff</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.patah-hb</key>
+      <key>com.schriftgestaltung.layerOrderInGlyph.paseq-hb</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.patah-hb</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.pe-cy</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.pe-cy.loclBGR</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.pe-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.pedagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.peh-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.peh-ar.alt</key>
@@ -4637,6 +4673,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.peheh-ar.fina.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.peheh-ar.init</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.peheh-ar.init.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.peheh-ar.medi</key>
       <integer>2</integer>
@@ -4706,6 +4744,8 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qaf-ar.init</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.qaf-ar.init.alt</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qaf-ar.medi</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qafAfrican-ar</key>
@@ -4714,6 +4754,8 @@
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qafAfrican-ar.init</key>
       <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.qafAfrican-ar.init.alt</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qafAfrican-ar.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qafDotabove-ar</key>
@@ -4721,6 +4763,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.qafDotabove-ar.fina</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qafDotabove-ar.init</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.qafDotabove-ar.init.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qafDotabove-ar.medi</key>
       <integer>2</integer>
@@ -4745,13 +4789,13 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.qafThreedotsabove-ar.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qamats-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qamatsqatan-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qof-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qofdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.question</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.question-ar</key>
@@ -4794,6 +4838,8 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.radical</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ray-ar</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.rcaron</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.rcommaaccent</key>
@@ -4865,9 +4911,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.replacementCharacter</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.resh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.reshdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.returnsymbol</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.reversedRotatedFloralHeartBullet</key>
@@ -4991,9 +5037,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.sadTwodotsbelow-ar.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.samekh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.samekhdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.samvat-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.scaron</key>
@@ -5133,9 +5179,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.seven-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.seven-arinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.seven-arsuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.seven-persian</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.seven-persian.urdu</key>
@@ -5143,11 +5189,11 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.seven-persian.urduinferior</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.seven-persian.urdusuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.seven-persianinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.seven-persiansuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.seven.dnom</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.seven.numr</key>
@@ -5217,19 +5263,19 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.shiftOutControl.ss20</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.shin-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.shindagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.shindageshshindot-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.shindageshsindot-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.shindot-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.shinshindot-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.shinsindot-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.sigma</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.sigmafinal</key>
@@ -5239,21 +5285,21 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.sindhipostpositionmen-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.sindot-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.six</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.six-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.six-arinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.six-arsuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.six-persian</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.six-persianinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.six-persiansuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.six.dnom</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.six.numr</key>
@@ -5361,9 +5407,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.tau</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tav-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tavdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tbar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tcaron</key>
@@ -5499,9 +5545,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.tesh</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tet-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tetdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.thal-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.thal-ar.fina</key>
@@ -5539,15 +5585,15 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.three-arinferior</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.three-arsuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.three-persian</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.three-persian.small01</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.three-persianinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.three-persiansuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.three.dnom</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.three.half</key>
@@ -5599,9 +5645,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.trademark</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tsadi-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tsadidagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tse-cy</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tse-cy.loclBGR</key>
@@ -5645,15 +5691,15 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.two-arinferior</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.two-arsuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.two-persian</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.two-persian.small01</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.two-persianinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.two-persiansuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.two.dnom</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.two.half</key>
@@ -5885,11 +5931,11 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.vabove-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.vav-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.vavdagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.vavholam-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ve-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ve-ar.fina</key>
@@ -5909,6 +5955,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.veh-ar.fina.alt</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.veh-ar.init</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.veh-ar.init.alt</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.veh-ar.medi</key>
       <integer>1</integer>
@@ -6058,6 +6106,8 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yeh-ar.fina</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yeh-ar.fina.alt</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yeh-ar.init</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yeh-ar.init.alt</key>
@@ -6067,6 +6117,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.yeh-farsi</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yeh-farsi.fina</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yeh-farsi.fina.alt</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yeh-farsi.init</key>
       <integer>1</integer>
@@ -6078,6 +6130,8 @@
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehFourbelow-farsi.fina</key>
       <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehFourbelow-farsi.fina.alt</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehFourbelow-farsi.init</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehFourbelow-farsi.init.alt</key>
@@ -6088,6 +6142,8 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehHamzaabove-ar.fina</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehHamzaabove-ar.fina.alt</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehHamzaabove-ar.init</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehHamzaabove-ar.init.alt</key>
@@ -6097,6 +6153,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.yehKashmiri-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehKashmiri-ar.fina</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehKashmiri-ar.fina.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehKashmiri-ar.init</key>
       <integer>2</integer>
@@ -6114,9 +6172,13 @@
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehTail-ar.fina</key>
       <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehTail-ar.fina.alt</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehThreeabove-farsi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehThreeabove-farsi.fina</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehThreeabove-farsi.fina.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehThreeabove-farsi.init</key>
       <integer>2</integer>
@@ -6128,6 +6190,8 @@
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehThreedotsabove-farsi.fina</key>
       <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehThreedotsabove-farsi.fina.alt</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehThreedotsabove-farsi.init</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehThreedotsabove-farsi.init.alt</key>
@@ -6137,6 +6201,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.yehThreedotsbelow-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehThreedotsbelow-ar.fina</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehThreedotsbelow-ar.fina.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehThreedotsbelow-ar.init</key>
       <integer>2</integer>
@@ -6148,6 +6214,8 @@
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehTwoabove-farsi.fina</key>
       <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehTwoabove-farsi.fina.alt</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehTwoabove-farsi.init</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehTwoabove-farsi.init.alt</key>
@@ -6157,6 +6225,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.yehTwodotsabove-farsi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehTwodotsabove-farsi.fina</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehTwodotsabove-farsi.fina.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehTwodotsabove-farsi.init</key>
       <integer>2</integer>
@@ -6188,6 +6258,8 @@
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehTwodotsbelowNoonabove-ar.fina</key>
       <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehTwodotsbelowNoonabove-ar.fina.alt</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehTwodotsbelowNoonabove-ar.init</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehTwodotsbelowNoonabove-ar.init.alt</key>
@@ -6198,6 +6270,8 @@
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehVabove-ar.fina</key>
       <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehVabove-ar.fina.alt</key>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehVabove-ar.init</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehVabove-ar.init.alt</key>
@@ -6207,6 +6281,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.yehVinverted-farsi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehVinverted-farsi.fina</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yehVinverted-farsi.fina.alt</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yehVinverted-farsi.init</key>
       <integer>2</integer>
@@ -6257,9 +6333,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.ymod</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yod-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yoddagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ytilde</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yu-ar</key>
@@ -6287,9 +6363,9 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.zainVInvertedabove-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zayin-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zayindagesh-hb</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zcaron</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zdotaccent</key>
@@ -6303,15 +6379,15 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.zero-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zero-arinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zero-arsuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zero-persian</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zero-persianinferior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zero-persiansuperior</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zero.dnom</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zero.numr</key>

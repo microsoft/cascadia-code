@@ -2,24 +2,15 @@
 <glyph name="ngoeh-ar.init" format="2">
   <advance width="1200"/>
   <unicode hex="FB9C"/>
-  <anchor x="453" y="1729" name="top"/>
+  <anchor x="433" y="1729" name="top"/>
   <outline>
     <component base="gaf-ar.init"/>
-    <component base="twodotshorizontalabove-ar.v2" xScale="0.9" yScale="0.9" xOffset="-73" yOffset="863"/>
+    <component base="twodotshorizontalabove-ar.v2" xScale="0.7" yScale="0.7" xOffset="39" yOffset="984"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>anchor</key>
-          <string>top.dot</string>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>twodotshorizontalabove-ar.v2</string>
-        </dict>
-      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

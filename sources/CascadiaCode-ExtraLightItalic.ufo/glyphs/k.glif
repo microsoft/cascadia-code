@@ -44,17 +44,20 @@
     <contour>
       <point x="91" y="0" type="line"/>
       <point x="187" y="0" type="line"/>
-      <point x="454" y="1514" type="line"/>
-      <point x="141" y="1500" type="line"/>
-      <point x="126" y="1418" type="line"/>
-      <point x="407" y="1418" type="line"/>
-      <point x="346" y="1447" type="line"/>
+      <point x="408" y="1247" type="line" smooth="yes"/>
+      <point x="441" y="1431"/>
+      <point x="384" y="1521"/>
+      <point x="211" y="1521" type="curve" smooth="yes"/>
+      <point x="170" y="1521"/>
+      <point x="129" y="1517"/>
+      <point x="89" y="1505" type="curve"/>
+      <point x="100" y="1418" type="line"/>
+      <point x="136" y="1426"/>
+      <point x="173" y="1429"/>
+      <point x="209" y="1429" type="curve" smooth="yes"/>
+      <point x="308" y="1429"/>
+      <point x="332" y="1367"/>
+      <point x="309" y="1237" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

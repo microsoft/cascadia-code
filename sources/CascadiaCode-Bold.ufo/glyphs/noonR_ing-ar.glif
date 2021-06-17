@@ -4,6 +4,12 @@
   <unicode hex="06BC"/>
   <outline>
     <component base="noon-ar"/>
-    <component base="ringArabic" xOffset="-8" yOffset="-412"/>
+    <component base="ringArabic" xOffset="-8" yOffset="-432"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

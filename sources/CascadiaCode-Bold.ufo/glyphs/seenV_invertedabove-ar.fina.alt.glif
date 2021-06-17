@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="seen-ar.fina.alt"/>
-    <component base="vinvertedabove-ar" xOffset="-169" yOffset="163"/>
+    <component base="vinvertedabove-ar" xOffset="-199" yOffset="163"/>
   </outline>
   <lib>
     <dict>
@@ -18,6 +18,8 @@
           <string>vinvertedabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -4,6 +4,12 @@
   <unicode hex="FE9E"/>
   <outline>
     <component base="hah-ar.fina"/>
-    <component base="dotcenter-ar" xOffset="15" yOffset="-392"/>
+    <component base="dotcenter-ar" xOffset="16" yOffset="-360"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

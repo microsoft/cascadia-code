@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="noonabove-ar" xOffset="80" yOffset="103"/>
+    <component base="noonabove-ar" xOffset="20" yOffset="-375"/>
   </outline>
   <lib>
     <dict>
@@ -24,6 +24,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Other</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

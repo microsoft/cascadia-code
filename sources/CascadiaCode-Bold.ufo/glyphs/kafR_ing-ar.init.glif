@@ -4,7 +4,7 @@
   <anchor x="569" y="-141" name="bottom"/>
   <outline>
     <component base="kaf-ar.init"/>
-    <component base="ringArabic" xOffset="241" yOffset="1066"/>
+    <component base="ringArabic" xOffset="234" yOffset="978"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>ringArabic</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

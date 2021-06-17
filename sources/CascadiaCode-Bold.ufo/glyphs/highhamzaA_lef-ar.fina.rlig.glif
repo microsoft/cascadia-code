@@ -2,9 +2,9 @@
 <glyph name="highhamzaAlef-ar.fina.rlig" format="2">
   <anchor x="0" y="0" name="_overlap"/>
   <anchor x="283" y="-141" name="bottom"/>
-  <anchor x="532" y="1651" name="top"/>
+  <anchor x="551" y="1661" name="top"/>
   <outline>
-    <component base="highhamza-ar" xOffset="-53" yOffset="11"/>
+    <component base="highhamza-ar" xScale="0.9" yScale="0.9" xOffset="7" yOffset="181"/>
     <component base="alef-ar.fina.rlig"/>
   </outline>
   <lib>
@@ -20,6 +20,8 @@
           <string>highhamza-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

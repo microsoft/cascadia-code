@@ -2,10 +2,10 @@
 <glyph name="alefMadda-ar.fina.alt" format="2">
   <anchor x="0" y="0" name="_overlap"/>
   <anchor x="319" y="-141" name="bottom"/>
-  <anchor x="293" y="1571" name="top"/>
+  <anchor x="293" y="1541" name="top"/>
   <outline>
-    <component base="madda-ar" xOffset="-395" yOffset="101"/>
     <component base="alef-ar.fina.short.alt" xOffset="6"/>
+    <component base="madda-ar" xOffset="-324" yOffset="81"/>
   </outline>
   <lib>
     <dict>
@@ -15,11 +15,23 @@
           <key>alignment</key>
           <integer>-1</integer>
           <key>index</key>
-          <integer>1</integer>
+          <integer>0</integer>
           <key>name</key>
           <string>alef-ar.fina.short.alt</string>
         </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>madda-ar</string>
+        </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

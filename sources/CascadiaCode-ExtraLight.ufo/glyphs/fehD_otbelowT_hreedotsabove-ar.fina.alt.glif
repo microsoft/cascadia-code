@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fehDotbelowThreedotsabove-ar.fina.alt" format="2">
   <advance width="1200"/>
+  <guideline x="502" y="617" angle="0"/>
   <outline>
     <component base="fehDotless-ar.fina.alt"/>
     <component base="dotbelow-ar" xOffset="-37" yOffset="-24"/>
-    <component base="threedotsupabove-ar" xOffset="-20" yOffset="352"/>
+    <component base="threedotsupabove-ar" xOffset="4" yOffset="317"/>
   </outline>
   <lib>
     <dict>
@@ -27,6 +28,8 @@
           <string>threedotsupabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

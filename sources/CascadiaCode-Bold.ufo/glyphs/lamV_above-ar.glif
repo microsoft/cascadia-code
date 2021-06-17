@@ -4,21 +4,23 @@
   <unicode hex="06B5"/>
   <outline>
     <component base="lam-ar"/>
-    <component base="vabove-ar" xOffset="377" yOffset="935"/>
+    <component base="vabove-ar" xOffset="307" yOffset="935"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>anchor</key>
-          <string>top.dot</string>
+          <key>alignment</key>
+          <integer>1</integer>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
           <string>vabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

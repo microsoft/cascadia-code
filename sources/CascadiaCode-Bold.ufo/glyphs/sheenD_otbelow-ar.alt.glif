@@ -3,8 +3,8 @@
   <advance width="1200"/>
   <outline>
     <component base="seen-ar.alt"/>
-    <component base="threedotsupabove-ar" xOffset="-169" yOffset="153"/>
-    <component base="dotbelow-ar" xOffset="-170" yOffset="-24"/>
+    <component base="threedotsupabove-ar" xOffset="-199" yOffset="153"/>
+    <component base="dotbelow-ar" xOffset="-180" yOffset="-24"/>
   </outline>
   <lib>
     <dict>
@@ -27,6 +27,8 @@
           <string>dotbelow-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

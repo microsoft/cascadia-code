@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="seen-ar.medi"/>
-    <component base="four-persian.small01" xOffset="60" yOffset="-409"/>
+    <component base="four-persian.small01" xOffset="30" yOffset="-409"/>
   </outline>
   <lib>
     <dict>
@@ -24,6 +24,8 @@
       <string>seen-ar.medi</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>seen-ar.medi</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -3,8 +3,8 @@
   <advance width="1200"/>
   <anchor x="596" y="318" name="_center"/>
   <outline>
-    <component base="_bar" yOffset="-103"/>
-    <component base="_bar" yOffset="117"/>
+    <component base="_bar" yScale="0.9" yOffset="-85"/>
+    <component base="_bar" yScale="0.9" yOffset="147"/>
   </outline>
   <lib>
     <dict>
@@ -27,6 +27,8 @@
           <string>_bar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

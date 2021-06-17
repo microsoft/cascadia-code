@@ -1,23 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dalThreedotsdown-ar.fina" format="2">
   <advance width="1200"/>
+  <guideline x="127" y="632" angle="0"/>
   <outline>
     <component base="dal-ar.fina"/>
-    <component base="threedotsdownabove-ar" xOffset="36" yOffset="492"/>
+    <component base="threedotsdownabove-ar" xOffset="36" yOffset="502"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>anchor</key>
-          <string>top.dot</string>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>threedotsdownabove-ar</string>
-        </dict>
-      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

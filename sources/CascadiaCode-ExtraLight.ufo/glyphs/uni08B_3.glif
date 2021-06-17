@@ -4,7 +4,7 @@
   <unicode hex="08B3"/>
   <outline>
     <component base="ain-ar"/>
-    <component base="threedotsdowncenter-ar" xScale="0.84" yScale="0.84" xOffset="155" yOffset="-385"/>
+    <component base="threedotsdowncenter-ar" xScale="1.001" xOffset="58" yOffset="-436"/>
   </outline>
   <lib>
     <dict>
@@ -14,6 +14,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Other</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

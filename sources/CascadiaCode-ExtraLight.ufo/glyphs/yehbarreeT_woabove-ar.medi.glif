@@ -4,7 +4,7 @@
   <outline>
     <component base="behDotless-ar.medi"/>
     <component base="twodotshorizontalbelow-ar" xOffset="-10" yOffset="-24"/>
-    <component base="two-persian.small01" yOffset="-398"/>
+    <component base="two-persian.small01" xOffset="-10" yOffset="-449"/>
   </outline>
   <lib>
     <dict>
@@ -12,13 +12,17 @@
       <array>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
+          <key>anchor</key>
+          <string>top.dot</string>
           <key>index</key>
           <integer>2</integer>
           <key>name</key>
           <string>two-persian.small01</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

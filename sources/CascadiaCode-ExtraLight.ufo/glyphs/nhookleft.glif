@@ -2,7 +2,7 @@
 <glyph name="nhookleft" format="2">
   <advance width="1200"/>
   <unicode hex="0272"/>
-  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="-460" name="bottom"/>
   <anchor x="600" y="1060" name="top"/>
   <outline>
     <contour>
@@ -27,7 +27,7 @@
     <contour>
       <point x="-118" y="-468" type="line"/>
       <point x="-100" y="-467" type="line" smooth="yes"/>
-      <point x="192" y="-451"/>
+      <point x="172" y="-452"/>
       <point x="286" y="-287"/>
       <point x="286" y="84" type="curve" smooth="yes"/>
       <point x="286" y="384" type="line"/>
