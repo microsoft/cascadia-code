@@ -4,7 +4,7 @@
   <unicode hex="0768"/>
   <outline>
     <component base="noonghunna-ar"/>
-    <component base="_onedotstah" xOffset="4" yOffset="21"/>
+    <component base="_onedotstah" xOffset="2" yOffset="-63"/>
   </outline>
   <lib>
     <dict>
@@ -23,6 +23,8 @@
       <string>noonghunna-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>noonghunna-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

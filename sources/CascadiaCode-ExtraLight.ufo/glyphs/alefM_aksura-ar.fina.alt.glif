@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefMaksura-ar.fina.alt" format="2">
+  <anchor x="0" y="0" name="_overlap"/>
+  <anchor x="517" y="-458" name="bottom"/>
+  <anchor x="517" y="-381" name="bottom.dot"/>
+  <anchor x="411" y="476" name="top"/>
+  <anchor x="154" y="270" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="527" y="-400" type="curve" smooth="yes"/>
+      <point x="888" y="-400"/>
+      <point x="1117" y="-264"/>
+      <point x="1117" y="-71" type="curve" smooth="yes"/>
+      <point x="1117" y="40"/>
+      <point x="1012" y="86"/>
+      <point x="746" y="116" type="curve"/>
+      <point x="734" y="22" type="line"/>
+      <point x="950" y="12"/>
+      <point x="1029" y="-18"/>
+      <point x="1029" y="-84" type="curve" smooth="yes"/>
+      <point x="1029" y="-185"/>
+      <point x="873" y="-306"/>
+      <point x="535" y="-306" type="curve" smooth="yes"/>
+      <point x="229" y="-306"/>
+      <point x="132" y="-232"/>
+      <point x="132" y="-23" type="curve" smooth="yes"/>
+      <point x="132" y="56"/>
+      <point x="144" y="127"/>
+      <point x="159" y="204" type="curve"/>
+      <point x="75" y="204" type="line"/>
+      <point x="51" y="118"/>
+      <point x="40" y="35"/>
+      <point x="40" y="-50" type="curve" smooth="yes"/>
+      <point x="40" y="-294"/>
+      <point x="167" y="-400"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

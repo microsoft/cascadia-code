@@ -3,8 +3,14 @@
   <advance width="1200"/>
   <anchor x="600" y="752" name="_top"/>
   <anchor x="600" y="562" name="_top.dot"/>
-  <anchor x="601" y="1152" name="top"/>
+  <anchor x="601" y="1172" name="top"/>
   <outline>
     <component base="_twodotsverticalabove-ar"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

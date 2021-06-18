@@ -4,7 +4,7 @@
   <unicode hex="FBC0"/>
   <anchor x="600" y="738" name="_top"/>
   <anchor x="600" y="623" name="_top.dot"/>
-  <anchor x="584" y="1169" name="top"/>
+  <anchor x="584" y="1189" name="top"/>
   <outline>
     <component base="_tahabove" xOffset="33" yOffset="77"/>
   </outline>
@@ -21,6 +21,8 @@
           <string>_tahabove</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

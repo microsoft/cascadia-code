@@ -2,10 +2,10 @@
 <glyph name="ngoeh-ar.medi" format="2">
   <advance width="1200"/>
   <unicode hex="FB9D"/>
-  <anchor x="492.9" y="1728.8" name="top"/>
+  <anchor x="493" y="1709" name="top"/>
   <outline>
     <component base="gaf-ar.medi"/>
-    <component base="twodotshorizontalabove-ar.v2" xScale="0.9" yScale="0.9" xOffset="-48" yOffset="863"/>
+    <component base="twodotshorizontalabove-ar.v2" xScale="0.9" yScale="0.9" xOffset="-30" yOffset="826"/>
   </outline>
   <lib>
     <dict>
@@ -20,6 +20,8 @@
           <string>twodotshorizontalabove-ar.v2</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

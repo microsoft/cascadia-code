@@ -7,24 +7,18 @@
   <anchor x="693" y="1060" name="top"/>
   <outline>
     <contour>
-      <point x="338" y="0" type="line"/>
-      <point x="597" y="0" type="line"/>
-      <point x="972" y="252"/>
-      <point x="1165" y="604"/>
-      <point x="1183" y="1060" type="curve"/>
-      <point x="969" y="1060" type="line"/>
-      <point x="956" y="693"/>
-      <point x="814" y="404"/>
-      <point x="540" y="186" type="curve"/>
-      <point x="522" y="186" type="line"/>
-      <point x="395" y="1080" type="line"/>
-      <point x="173" y="1060" type="line"/>
+      <point x="293" y="0" type="line"/>
+      <point x="552" y="0" type="line"/>
+      <point x="917" y="252"/>
+      <point x="1105" y="604"/>
+      <point x="1123" y="1060" type="curve"/>
+      <point x="909" y="1060" type="line"/>
+      <point x="896" y="693"/>
+      <point x="759" y="404"/>
+      <point x="495" y="186" type="curve"/>
+      <point x="477" y="186" type="line"/>
+      <point x="375" y="1080" type="line"/>
+      <point x="153" y="1060" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

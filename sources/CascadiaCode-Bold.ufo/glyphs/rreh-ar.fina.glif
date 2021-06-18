@@ -4,7 +4,7 @@
   <unicode hex="FB8D"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="uniFBC0" xOffset="80" yOffset="12"/>
+    <component base="uniFBC0" xOffset="20" yOffset="82"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>uniFBC0</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

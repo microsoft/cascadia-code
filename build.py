@@ -22,9 +22,8 @@ import vttLib
 import vttLib.transfer
 from vttmisc import tsi1, tsic
 
-VERSION_YEAR_MONTH = 2105
-VERSION_DAY = 26
-
+VERSION_YEAR_MONTH = 2106
+VERSION_DAY = 17
 OUTPUT_DIR = Path("build")
 OUTPUT_OTF_DIR = OUTPUT_DIR / "otf"
 OUTPUT_TTF_DIR = OUTPUT_DIR / "ttf"
@@ -63,12 +62,15 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
         featureList = [
             "header_italic", # adds definitions, language systems
             "aalt_italic",
-            "calt_italic", 
+            "ccmp",
             "locl_italic", 
+            "calt_italic", 
             "figures_italic", # contains subs/sinf/sups/numr/dnom
             "frac", 
             "ordn", 
             "case", 
+            "salt",
+            "ss01",
             "ss02",
             "ss03", 
             "ss19", 
@@ -80,8 +82,9 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
         featureList = [
             "header", # adds definitions, language systems
             "aalt",
-            "calt", 
+            "ccmp",
             "locl", 
+            "calt",
             "figures", # contains subs/sinf/sups/numr/dnom
             "frac", 
             "ordn", 
@@ -91,18 +94,17 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
             "ss20", 
             "rclt", 
             "zero",
-            #"init",
-            #"medi",
-            #"fina",
-            #"rlig",
-            #"dlig"
+            "init",
+            "medi",
+            "fina",
+            "rlig",
             ]
 
     for item in featureList:
         if "PL" in name and item == "rclt":
             featureSet += Path(path / str("rclt_PL.fea")).read_text()
         elif "Mono" in name and "calt" in item:
-            featureSet += Path(path / str("calt_mono.fea")).read_text() #both Italic and Regular can use same mono
+            featureSet += Path(path / str(item+"_mono.fea")).read_text() #both Italic and Regular can use same mono
         else:
             featureSet += Path(path / str(item+".fea")).read_text()
     instance.features.text = featureSet   
@@ -262,7 +264,6 @@ def compile_variable_and_save(
         varFont.saveXML(TSICfile.name, tables=["TSIC"])
         tree = ET.parse(TSICfile.name)
         vttLib.compile_instructions(varFont, ship=True)
-        #tsic.makeCVAR(varFont, tree)
     else:
         file_path = (OUTPUT_TTF_DIR / str(file_stem+"_VTT")).with_suffix(".ttf")
 
@@ -388,7 +389,6 @@ if __name__ == "__main__":
         for s in designspaceItalic.instances
         if s.lib.get("com.schriftgestaltung.export", True)
     ]
-
 
     # Stage 1: Make all the things.
     pool = multiprocessing.pool.Pool(processes=multiprocessing.cpu_count())

@@ -4,7 +4,7 @@
   <unicode hex="FEF2"/>
   <outline>
     <component base="alefMaksura-ar.fina"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="-85" yOffset="-379"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-85" yOffset="-399"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>twodotshorizontalbelow-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

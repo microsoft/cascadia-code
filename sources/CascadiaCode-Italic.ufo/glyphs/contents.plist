@@ -108,6 +108,8 @@
     <string>D_.glif</string>
     <key>D.half</key>
     <string>D_.half.glif</string>
+    <key>Dafrican</key>
+    <string>D_african.glif</string>
     <key>Dcaron</key>
     <string>D_caron.glif</string>
     <key>Dcroat</key>
@@ -208,6 +210,8 @@
     <string>F_.glif</string>
     <key>F.half</key>
     <string>F_.half.glif</string>
+    <key>Fhook</key>
+    <string>F_hook.glif</string>
     <key>G</key>
     <string>G_.glif</string>
     <key>G.half</key>
@@ -824,6 +828,8 @@
     <string>atilde.glif</string>
     <key>b</key>
     <string>b.glif</string>
+    <key>b.alt</key>
+    <string>b.alt.glif</string>
     <key>backslash</key>
     <string>backslash.glif</string>
     <key>backslash_backslash.liga</key>
@@ -1534,10 +1540,14 @@
     <string>cent.glif</string>
     <key>che-cy</key>
     <string>che-cy.glif</string>
+    <key>che-cy.salt</key>
+    <string>che-cy.salt.glif</string>
     <key>checkmark</key>
     <string>checkmark.glif</string>
     <key>chedescender-cy</key>
     <string>chedescender-cy.glif</string>
+    <key>chedescender-cy.salt</key>
+    <string>chedescender-cy.salt.glif</string>
     <key>chi</key>
     <string>chi.glif</string>
     <key>circumflex</key>
@@ -2186,6 +2196,8 @@
     <string>downW_hiteS_mallT_riangle.glif</string>
     <key>downWhiteTriangle</key>
     <string>downW_hiteT_riangle.glif</string>
+    <key>dtail</key>
+    <string>dtail.glif</string>
     <key>dze-cy</key>
     <string>dze-cy.glif</string>
     <key>dzhe-cy</key>
@@ -2350,6 +2362,10 @@
     <string>ezh.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>f.locl</key>
+    <string>f.locl.glif</string>
+    <key>f.salt</key>
+    <string>f.salt.glif</string>
     <key>fi</key>
     <string>fi.glif</string>
     <key>fileSeparatorControl</key>
@@ -2500,6 +2516,8 @@
     <string>guilsinglright.glif</string>
     <key>h</key>
     <string>h.glif</string>
+    <key>h.alt</key>
+    <string>h.alt.glif</string>
     <key>ha-cy</key>
     <string>ha-cy.glif</string>
     <key>hadescender-cy</key>
@@ -2646,6 +2664,8 @@
     <string>iu-cy.glif</string>
     <key>iu-cy.loclBGR</key>
     <string>iu-cy.loclB_G_R_.glif</string>
+    <key>iu-cy.loclBGR.alt</key>
+    <string>iu-cy.loclB_G_R_.alt.glif</string>
     <key>j</key>
     <string>j.glif</string>
     <key>jacute</key>
@@ -2660,10 +2680,14 @@
     <string>je-cy.glif</string>
     <key>k</key>
     <string>k.glif</string>
+    <key>k.alt</key>
+    <string>k.alt.glif</string>
     <key>ka-cy</key>
     <string>ka-cy.glif</string>
     <key>ka-cy.loclBGR</key>
     <string>ka-cy.loclB_G_R_.glif</string>
+    <key>ka-cy.loclBGR.alt</key>
+    <string>ka-cy.loclB_G_R_.alt.glif</string>
     <key>kadescender-cy</key>
     <string>kadescender-cy.glif</string>
     <key>kaiSymbol</key>
@@ -2684,8 +2708,12 @@
     <string>klinebelow.glif</string>
     <key>l</key>
     <string>l.glif</string>
+    <key>l.salt</key>
+    <string>l.salt.glif</string>
     <key>lacute</key>
     <string>lacute.glif</string>
+    <key>lacute.salt</key>
+    <string>lacute.salt.glif</string>
     <key>lambda</key>
     <string>lambda.glif</string>
     <key>lambdastroke</key>
@@ -2696,16 +2724,28 @@
     <string>lari.glif</string>
     <key>lbar</key>
     <string>lbar.glif</string>
+    <key>lbar.salt</key>
+    <string>lbar.salt.glif</string>
     <key>lbelt</key>
     <string>lbelt.glif</string>
+    <key>lbelt.salt</key>
+    <string>lbelt.salt.glif</string>
     <key>lcaron</key>
     <string>lcaron.glif</string>
+    <key>lcaron.salt</key>
+    <string>lcaron.salt.glif</string>
     <key>lcommaaccent</key>
     <string>lcommaaccent.glif</string>
+    <key>lcommaaccent.salt</key>
+    <string>lcommaaccent.salt.glif</string>
     <key>ldot</key>
     <string>ldot.glif</string>
+    <key>ldot.salt</key>
+    <string>ldot.salt.glif</string>
     <key>ldotbelow</key>
     <string>ldotbelow.glif</string>
+    <key>ldotbelow.salt</key>
+    <string>ldotbelow.salt.glif</string>
     <key>leftArrow</key>
     <string>leftA_rrow.glif</string>
     <key>leftBlackPointer</key>
@@ -2852,8 +2892,12 @@
     <string>lje-cy.glif</string>
     <key>llinebelow</key>
     <string>llinebelow.glif</string>
+    <key>llinebelow.salt</key>
+    <string>llinebelow.salt.glif</string>
     <key>lmiddletilde</key>
     <string>lmiddletilde.glif</string>
+    <key>lmiddletilde.salt</key>
+    <string>lmiddletilde.salt.glif</string>
     <key>logicalnot</key>
     <string>logicalnot.glif</string>
     <key>logicalnotReversed</key>
@@ -2932,6 +2976,8 @@
     <string>lozenge.glif</string>
     <key>lslash</key>
     <string>lslash.glif</string>
+    <key>lslash.salt</key>
+    <string>lslash.salt.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>macron</key>
@@ -3274,16 +3320,26 @@
     <string>quotesingle.glif</string>
     <key>r</key>
     <string>r.glif</string>
+    <key>r.salt</key>
+    <string>r.salt.glif</string>
     <key>racute</key>
     <string>racute.glif</string>
+    <key>racute.salt</key>
+    <string>racute.salt.glif</string>
     <key>radical</key>
     <string>radical.glif</string>
     <key>rcaron</key>
     <string>rcaron.glif</string>
+    <key>rcaron.salt</key>
+    <string>rcaron.salt.glif</string>
     <key>rcommaaccent</key>
     <string>rcommaaccent.glif</string>
+    <key>rcommaaccent.salt</key>
+    <string>rcommaaccent.salt.glif</string>
     <key>rdotbelow</key>
     <string>rdotbelow.glif</string>
+    <key>rdotbelow.salt</key>
+    <string>rdotbelow.salt.glif</string>
     <key>recordSeparatorControl</key>
     <string>recordS_eparatorC_ontrol.glif</string>
     <key>registered</key>
@@ -3344,24 +3400,38 @@
     <string>rupeeI_ndian.glif</string>
     <key>s</key>
     <string>s.glif</string>
+    <key>s.salt</key>
+    <string>s.salt.glif</string>
     <key>sacute</key>
     <string>sacute.glif</string>
     <key>sacute.loclPLK</key>
     <string>sacute.loclP_L_K_.glif</string>
+    <key>sacute.salt</key>
+    <string>sacute.salt.glif</string>
     <key>scaron</key>
     <string>scaron.glif</string>
+    <key>scaron.salt</key>
+    <string>scaron.salt.glif</string>
     <key>scedilla</key>
     <string>scedilla.glif</string>
+    <key>scedilla.salt</key>
+    <string>scedilla.salt.glif</string>
     <key>schwa</key>
     <string>schwa.glif</string>
     <key>schwa-cy</key>
     <string>schwa-cy.glif</string>
     <key>scircumflex</key>
     <string>scircumflex.glif</string>
+    <key>scircumflex.salt</key>
+    <string>scircumflex.salt.glif</string>
     <key>scommaaccent</key>
     <string>scommaaccent.glif</string>
+    <key>scommaaccent.salt</key>
+    <string>scommaaccent.salt.glif</string>
     <key>sdotbelow</key>
     <string>sdotbelow.glif</string>
+    <key>sdotbelow.salt</key>
+    <string>sdotbelow.salt.glif</string>
     <key>second</key>
     <string>second.glif</string>
     <key>section</key>
@@ -3404,6 +3474,8 @@
     <string>sheqel.glif</string>
     <key>shha-cy</key>
     <string>shha-cy.glif</string>
+    <key>shha-cy.alt</key>
+    <string>shha-cy.alt.glif</string>
     <key>shiftInControl</key>
     <string>shiftI_nC_ontrol.glif</string>
     <key>shiftInControl.ss20</key>
@@ -3740,6 +3812,8 @@
     <string>v.glif</string>
     <key>ve-cy</key>
     <string>ve-cy.glif</string>
+    <key>ve-cy.salt</key>
+    <string>ve-cy.salt.glif</string>
     <key>vectorOrCrossProduct</key>
     <string>vectorO_rC_rossP_roduct.glif</string>
     <key>venus</key>
@@ -3868,6 +3942,8 @@
     <string>ze-cy.glif</string>
     <key>ze-cy.loclBGR</key>
     <string>ze-cy.loclB_G_R_.glif</string>
+    <key>ze-cy.salt</key>
+    <string>ze-cy.salt.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
     <key>zero.dnom</key>

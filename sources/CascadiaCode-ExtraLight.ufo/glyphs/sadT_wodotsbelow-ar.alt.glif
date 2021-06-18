@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sadTwodotsbelow-ar.alt" format="2">
   <advance width="1200"/>
+  <guideline x="1064" y="460" angle="0"/>
   <outline>
     <component base="sad-ar.alt"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="-130" yOffset="-24"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-160" yOffset="-24"/>
   </outline>
   <lib>
     <dict>
@@ -18,6 +19,8 @@
           <string>twodotshorizontalbelow-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

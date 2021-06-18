@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alefThreeabove-ar.fina" format="2">
   <advance width="1200"/>
-  <anchor x="271" y="1570" name="top"/>
+  <anchor x="241" y="1570" name="top"/>
   <outline>
     <component base="alef-ar.fina.short"/>
-    <component base="three-persian.small01" xOffset="-356" yOffset="-84"/>
+    <component base="three-persian.small01" xOffset="-386" yOffset="-84"/>
   </outline>
   <lib>
     <dict>
@@ -21,6 +21,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=alef-ar.fina</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

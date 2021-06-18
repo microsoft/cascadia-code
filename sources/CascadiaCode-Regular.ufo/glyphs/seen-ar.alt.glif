@@ -12,10 +12,10 @@
       <point x="139" y="-181"/>
       <point x="139" y="176" type="curve" smooth="yes"/>
       <point x="139" y="332"/>
-      <point x="113" y="487"/>
-      <point x="99" y="602" type="curve"/>
-      <point x="-97" y="576" type="line"/>
-      <point x="-76" y="444"/>
+      <point x="123" y="487"/>
+      <point x="109" y="602" type="curve"/>
+      <point x="-87" y="586" type="line"/>
+      <point x="-69" y="444"/>
       <point x="-62" y="272"/>
       <point x="-62" y="152" type="curve" smooth="yes"/>
       <point x="-62" y="-89"/>
@@ -66,10 +66,10 @@
       <point x="861" y="91"/>
       <point x="861" y="292" type="curve" smooth="yes"/>
       <point x="861" y="396"/>
-      <point x="844" y="538"/>
-      <point x="817" y="673" type="curve"/>
-      <point x="636" y="642" type="line"/>
-      <point x="655" y="511"/>
+      <point x="844" y="518"/>
+      <point x="817" y="653" type="curve"/>
+      <point x="636" y="632" type="line"/>
+      <point x="655" y="501"/>
       <point x="672" y="399"/>
       <point x="672" y="304" type="curve" smooth="yes"/>
       <point x="672" y="209"/>
@@ -83,4 +83,10 @@
       <point x="451" y="-6"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

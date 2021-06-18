@@ -3,9 +3,9 @@
   <advance width="1200"/>
   <unicode hex="0773"/>
   <anchor x="610" y="-141" name="bottom"/>
-  <anchor x="391" y="1570" name="top"/>
+  <anchor x="361" y="1570" name="top"/>
   <outline>
-    <component base="two-persian.small01" xOffset="-239" yOffset="-83"/>
+    <component base="two-persian.small01" xOffset="-269" yOffset="-83"/>
     <component base="alef-ar.short"/>
   </outline>
   <lib>
@@ -23,6 +23,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=alef-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

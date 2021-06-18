@@ -1,9 +1,0 @@
-feature dlig {
-# automatic
-lookup dlig_RTL {
-lookupflag IgnoreMarks RightToLeft;
-	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina.short;
-	sub lam-ar.init alef-ar.fina by lam_alef-ar.short;
-} dlig_RTL;
-
-} dlig;

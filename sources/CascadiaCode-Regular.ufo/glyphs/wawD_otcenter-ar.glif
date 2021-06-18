@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <unicode hex="08AB"/>
   <outline>
-    <component base="_wawDotcenter-ar"/>
+    <component base="waw-ar"/>
     <component base="dotcenter-ar" xScale="0.96" yScale="0.96" xOffset="-243" yOffset="-385"/>
   </outline>
   <lib>
@@ -21,6 +21,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>waw-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

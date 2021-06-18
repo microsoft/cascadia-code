@@ -3,8 +3,8 @@
   <advance width="1200"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="dotabove-ar" xOffset="235" yOffset="335"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="170" yOffset="-24"/>
+    <component base="dotabove-ar" xOffset="275" yOffset="275"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="210" yOffset="-24"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>dotabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

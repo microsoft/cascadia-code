@@ -2,14 +2,28 @@
 <glyph name="shindagesh-hb" format="2">
   <advance width="1200"/>
   <unicode hex="FB49"/>
+  <anchor x="630" y="379" name="_center"/>
   <outline>
+    <contour>
+      <point x="630" y="289" type="curve" smooth="yes"/>
+      <point x="680" y="289"/>
+      <point x="721" y="329"/>
+      <point x="721" y="379" type="curve" smooth="yes"/>
+      <point x="721" y="429"/>
+      <point x="680" y="470"/>
+      <point x="630" y="470" type="curve" smooth="yes"/>
+      <point x="580" y="470"/>
+      <point x="539" y="429"/>
+      <point x="539" y="379" type="curve" smooth="yes"/>
+      <point x="539" y="329"/>
+      <point x="580" y="289"/>
+    </contour>
     <component base="shin-hb"/>
-    <component base="dagesh-hb" xOffset="30" yOffset="-165"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

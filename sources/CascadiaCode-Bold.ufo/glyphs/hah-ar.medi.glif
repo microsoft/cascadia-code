@@ -4,20 +4,26 @@
   <unicode hex="FEA4"/>
   <outline>
     <contour>
-      <point x="1188" y="-6" type="curve" smooth="yes"/>
-      <point x="1236" y="-6"/>
+      <point x="1188" y="-10" type="curve" smooth="yes"/>
+      <point x="1236" y="-10"/>
       <point x="1275" y="21"/>
       <point x="1275" y="135" type="curve" smooth="yes"/>
       <point x="1275" y="196"/>
-      <point x="1251" y="206"/>
-      <point x="1200" y="206" type="curve" smooth="yes"/>
-      <point x="1044" y="206"/>
-      <point x="996" y="256"/>
-      <point x="981" y="429" type="curve"/>
-      <point x="813" y="364" type="line"/>
-      <point x="833" y="124"/>
-      <point x="912" y="-6"/>
+      <point x="1251" y="285"/>
+      <point x="1200" y="285" type="curve" smooth="yes"/>
+      <point x="1054" y="285"/>
+      <point x="1039" y="296"/>
+      <point x="1031" y="429" type="curve"/>
+      <point x="824" y="364" type="line"/>
+      <point x="844" y="124"/>
+      <point x="882" y="-10"/>
     </contour>
     <component base="hah-ar.init"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

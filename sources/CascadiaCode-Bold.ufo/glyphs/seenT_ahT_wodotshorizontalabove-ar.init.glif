@@ -3,23 +3,14 @@
   <advance width="1200"/>
   <outline>
     <component base="seen-ar.init"/>
-    <component base="_twodotstah" xOffset="80" yOffset="163"/>
+    <component base="_twodotstah" xOffset="50" yOffset="178"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>anchor</key>
-          <string>top.dot</string>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_twodotstah</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>seen-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

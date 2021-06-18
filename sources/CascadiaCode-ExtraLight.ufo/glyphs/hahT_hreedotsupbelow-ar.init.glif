@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hahThreedotsupbelow-ar.init" format="2">
   <advance width="1200"/>
+  <guideline x="448" y="-114" angle="0"/>
   <outline>
     <component base="hah-ar.init"/>
     <component base="threedotsupbelow-ar" xOffset="82" yOffset="82"/>
@@ -18,6 +19,8 @@
           <string>threedotsupbelow-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

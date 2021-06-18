@@ -4,21 +4,12 @@
   <unicode hex="FE9B"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="threedotsupabove-ar" xOffset="235" yOffset="335"/>
+    <component base="threedotsupabove-ar" xOffset="275" yOffset="275"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>anchor</key>
-          <string>top.dot</string>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>threedotsupabove-ar</string>
-        </dict>
-      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <anchor x="0" y="0" name="overlap"/>
   <outline>
     <component base="behDotless-ar.init.alt"/>
-    <component base="hamzaabove-ar" xOffset="255" yOffset="-227"/>
+    <component base="hamzaabove-ar" xOffset="315" yOffset="-287"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>hamzaabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

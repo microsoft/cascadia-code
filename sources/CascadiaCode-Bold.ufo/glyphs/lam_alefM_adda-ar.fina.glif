@@ -4,6 +4,12 @@
   <unicode hex="FEF6"/>
   <outline>
     <component base="lam_alef-ar.fina.short"/>
-    <component base="madda-ar" xOffset="-399" yOffset="36"/>
+    <component base="madda-ar" xOffset="-329" yOffset="66"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

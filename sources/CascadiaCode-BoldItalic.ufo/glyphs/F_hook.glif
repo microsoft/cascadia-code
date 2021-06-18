@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Fhook" format="2">
+  <advance width="1200"/>
+  <unicode hex="0191"/>
+  <anchor x="438" y="-388" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="97" y="151" type="line"/>
+      <point x="64" y="-33" type="line" smooth="yes"/>
+      <point x="41" y="-162"/>
+      <point x="-30" y="-216"/>
+      <point x="-191" y="-246" type="curve" smooth="yes"/>
+      <point x="-234" y="-254" type="line"/>
+      <point x="-218" y="-476" type="line"/>
+      <point x="-187" y="-472" type="line" smooth="yes"/>
+      <point x="142" y="-430"/>
+      <point x="283" y="-311"/>
+      <point x="335" y="-6" type="curve" smooth="yes"/>
+      <point x="362" y="151" type="line"/>
+    </contour>
+    <component base="F"/>
+  </outline>
+</glyph>

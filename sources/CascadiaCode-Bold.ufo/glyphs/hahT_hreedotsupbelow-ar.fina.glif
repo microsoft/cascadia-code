@@ -3,6 +3,12 @@
   <advance width="1200"/>
   <outline>
     <component base="hah-ar.fina"/>
-    <component base="threedotsupcenter-ar" xOffset="12" yOffset="-394"/>
+    <component base="threedotsupcenter-ar" xScale="0.94" yScale="0.94" xOffset="49" yOffset="-343"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

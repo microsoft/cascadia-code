@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <unicode hex="05E9"/>
   <anchor x="634" y="360" name="center"/>
-  <anchor x="197" y="1200" name="topleft"/>
+  <anchor x="195" y="1200" name="topleft"/>
   <anchor x="927" y="1201" name="topright"/>
   <outline>
     <contour>
@@ -25,10 +25,10 @@
       <point x="260" y="-19"/>
     </contour>
     <contour>
-      <point x="147" y="0" type="line"/>
       <point x="246" y="0" type="line"/>
       <point x="246" y="1200" type="line"/>
       <point x="147" y="1200" type="line"/>
+      <point x="147" y="0" type="line"/>
     </contour>
     <contour>
       <point x="354" y="473" type="curve" smooth="yes"/>
@@ -44,7 +44,7 @@
       <point x="284" y="554"/>
       <point x="266" y="556"/>
       <point x="245" y="567" type="curve"/>
-      <point x="244" y="492" type="line"/>
+      <point x="215" y="503" type="line"/>
       <point x="271" y="481"/>
       <point x="293" y="473"/>
     </contour>
@@ -52,7 +52,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

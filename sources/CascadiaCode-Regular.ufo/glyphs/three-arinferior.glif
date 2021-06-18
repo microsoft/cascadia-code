@@ -3,55 +3,55 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="421" y="-11" type="curve"/>
-      <point x="576" y="-11" type="line"/>
-      <point x="575" y="144"/>
-      <point x="552" y="274"/>
-      <point x="510" y="402" type="curve"/>
-      <point x="431" y="364" type="line"/>
-      <point x="458" y="316"/>
-      <point x="471" y="286"/>
-      <point x="547" y="286" type="curve" smooth="yes"/>
-      <point x="604" y="286"/>
-      <point x="633" y="304"/>
-      <point x="644" y="355" type="curve"/>
-      <point x="660" y="356" type="line"/>
-      <point x="675" y="305"/>
-      <point x="711" y="286"/>
-      <point x="757" y="286" type="curve" smooth="yes"/>
-      <point x="844" y="286"/>
-      <point x="894" y="353"/>
-      <point x="894" y="473" type="curve" smooth="yes"/>
-      <point x="894" y="529"/>
-      <point x="887" y="578"/>
-      <point x="878" y="619" type="curve"/>
-      <point x="755" y="619" type="line"/>
-      <point x="760" y="566"/>
-      <point x="762" y="530"/>
-      <point x="762" y="494" type="curve" smooth="yes"/>
-      <point x="762" y="460"/>
-      <point x="750" y="449"/>
-      <point x="728" y="449" type="curve" smooth="yes"/>
-      <point x="709" y="449"/>
-      <point x="697" y="458"/>
-      <point x="694" y="488" type="curve" smooth="yes"/>
-      <point x="691" y="518"/>
-      <point x="691" y="583"/>
-      <point x="688" y="619" type="curve"/>
-      <point x="558" y="619" type="line"/>
-      <point x="560" y="568"/>
-      <point x="562" y="512"/>
-      <point x="560" y="484" type="curve" smooth="yes"/>
-      <point x="558" y="459"/>
-      <point x="548" y="449"/>
-      <point x="527" y="449" type="curve" smooth="yes"/>
-      <point x="509" y="449"/>
-      <point x="496" y="459"/>
-      <point x="486" y="499" type="curve" smooth="yes"/>
-      <point x="452" y="629" type="line"/>
-      <point x="301" y="573" type="line"/>
-      <point x="364" y="383"/>
-      <point x="414" y="155"/>
+      <point x="421" y="-1" type="curve"/>
+      <point x="576" y="-1" type="line"/>
+      <point x="575" y="154"/>
+      <point x="552" y="321"/>
+      <point x="510" y="449" type="curve"/>
+      <point x="431" y="411" type="line"/>
+      <point x="458" y="363"/>
+      <point x="471" y="333"/>
+      <point x="547" y="333" type="curve" smooth="yes"/>
+      <point x="604" y="333"/>
+      <point x="633" y="351"/>
+      <point x="644" y="402" type="curve"/>
+      <point x="660" y="403" type="line"/>
+      <point x="675" y="352"/>
+      <point x="711" y="333"/>
+      <point x="757" y="333" type="curve" smooth="yes"/>
+      <point x="844" y="333"/>
+      <point x="894" y="400"/>
+      <point x="894" y="520" type="curve" smooth="yes"/>
+      <point x="894" y="576"/>
+      <point x="887" y="591"/>
+      <point x="878" y="632" type="curve"/>
+      <point x="755" y="632" type="line"/>
+      <point x="760" y="579"/>
+      <point x="762" y="577"/>
+      <point x="762" y="541" type="curve" smooth="yes"/>
+      <point x="762" y="507"/>
+      <point x="750" y="496"/>
+      <point x="728" y="496" type="curve" smooth="yes"/>
+      <point x="709" y="496"/>
+      <point x="697" y="505"/>
+      <point x="694" y="535" type="curve" smooth="yes"/>
+      <point x="691" y="565"/>
+      <point x="691" y="596"/>
+      <point x="688" y="632" type="curve"/>
+      <point x="558" y="632" type="line"/>
+      <point x="560" y="581"/>
+      <point x="562" y="559"/>
+      <point x="560" y="531" type="curve" smooth="yes"/>
+      <point x="558" y="506"/>
+      <point x="550" y="496"/>
+      <point x="529" y="496" type="curve" smooth="yes"/>
+      <point x="511" y="496"/>
+      <point x="501" y="507"/>
+      <point x="488" y="546" type="curve" smooth="yes"/>
+      <point x="456" y="641" type="line"/>
+      <point x="301" y="605" type="line"/>
+      <point x="364" y="415"/>
+      <point x="414" y="165"/>
     </contour>
   </outline>
   <lib>
@@ -62,6 +62,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Small</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

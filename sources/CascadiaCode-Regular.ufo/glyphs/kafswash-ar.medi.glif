@@ -5,38 +5,6 @@
   <anchor x="436" y="1057" name="top"/>
   <outline>
     <contour>
-      <point x="-11" y="-6" type="line"/>
-      <point x="335" y="-6" type="line" smooth="yes"/>
-      <point x="823" y="-6"/>
-      <point x="1014" y="123"/>
-      <point x="1014" y="333" type="curve" smooth="yes"/>
-      <point x="1014" y="512"/>
-      <point x="915" y="602"/>
-      <point x="650" y="602" type="curve" smooth="yes"/>
-      <point x="505" y="602" type="line" smooth="yes"/>
-      <point x="412" y="602"/>
-      <point x="371" y="611"/>
-      <point x="371" y="644" type="curve" smooth="yes"/>
-      <point x="371" y="688"/>
-      <point x="464" y="767"/>
-      <point x="748" y="929" type="curve"/>
-      <point x="741" y="1142" type="line"/>
-      <point x="343" y="919"/>
-      <point x="192" y="772"/>
-      <point x="192" y="614" type="curve" smooth="yes"/>
-      <point x="192" y="511"/>
-      <point x="229" y="400"/>
-      <point x="520" y="400" type="curve" smooth="yes"/>
-      <point x="674" y="400" type="line" smooth="yes"/>
-      <point x="791" y="400"/>
-      <point x="840" y="382"/>
-      <point x="840" y="323" type="curve" smooth="yes"/>
-      <point x="840" y="241"/>
-      <point x="734" y="206"/>
-      <point x="363" y="206" type="curve" smooth="yes"/>
-      <point x="0" y="206" type="line"/>
-    </contour>
-    <contour>
       <point x="1189" y="-6" type="curve" smooth="yes"/>
       <point x="1250" y="-6"/>
       <point x="1280" y="31"/>
@@ -52,11 +20,14 @@
       <point x="877" y="12"/>
       <point x="923" y="-6"/>
     </contour>
+    <component base="kafswash-ar.init"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>kafswash-ar.init</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

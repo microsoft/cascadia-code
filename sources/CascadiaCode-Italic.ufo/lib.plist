@@ -21,6 +21,48 @@
         <integer>1</integer>
       </dict>
       <dict>
+        <key>exclude</key>
+        <array>
+          <string>baht</string>
+          <string>bitcoin</string>
+          <string>cedi</string>
+          <string>cent</string>
+          <string>colonsign</string>
+          <string>currency</string>
+          <string>dollar</string>
+          <string>dong</string>
+          <string>euro</string>
+          <string>eurocurrency</string>
+          <string>florin</string>
+          <string>franc</string>
+          <string>guarani</string>
+          <string>hryvnia</string>
+          <string>kip</string>
+          <string>lari</string>
+          <string>lira</string>
+          <string>liraTurkish</string>
+          <string>manat</string>
+          <string>naira</string>
+          <string>peseta</string>
+          <string>peso</string>
+          <string>ruble</string>
+          <string>rupee</string>
+          <string>rupeeIndian</string>
+          <string>sheqel</string>
+          <string>sterling</string>
+          <string>tenge</string>
+          <string>tugrik</string>
+          <string>won</string>
+          <string>yen</string>
+          <string>baht.BRACKET.600</string>
+          <string>dollar.BRACKET.600</string>
+          <string>lam_alef-ar</string>
+          <string>lam_alef-ar.fina</string>
+          <string>lam_alef-ar.fina.short</string>
+          <string>lam_alef-ar.short</string>
+          <string>lam_lam_heh-ar</string>
+          <string>allah-ar</string>
+        </array>
         <key>name</key>
         <string>propagateAnchors</string>
         <key>pre</key>
@@ -45,6 +87,15 @@
         <key>Tag</key>
         <string>ital</string>
       </dict>
+    </array>
+    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+    <array>
+      <string>/b.alt</string>
+      <string>/De-cy/Ka-cy/El-cy/De-cy.loclBGR/be-cy/ve-cy/ge-cy/gheupturn-cy/ze-cy/el-cy/en-cy/ef-cy/che-cy/tse-cy/sha-cy/shcha-cy/softsign-cy/hardsign-cy/yeru-cy/lje-cy/nje-cy/e-cy/ereversed-cy/iu-cy/ia-cy/dje-cy/ghestroke-cy/endescender-cy/chedescender-cy/shha-cy/shha-cy.alt/ka-cy.loclBGR.alt/iu-cy.loclBGR.alt/zhe-cy.loclBGR/ze-cy.loclBGR/ka-cy.loclBGR/ve-cy.salt/ze-cy.salt/che-cy.salt/chedescender-cy.salt</string>
+      <string>u/tse-cy</string>
+      <string>all/space of/space the/space limes
+all/space of/space the/space limes
+all/space of/space the/space limes</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
@@ -161,6 +212,7 @@ Half
       <string>Cdotaccent</string>
       <string>Cstroke</string>
       <string>D</string>
+      <string>Dafrican</string>
       <string>Eth</string>
       <string>Dcaron</string>
       <string>Dcroat</string>
@@ -187,6 +239,7 @@ Half
       <string>Etilde</string>
       <string>Ezh</string>
       <string>F</string>
+      <string>Fhook</string>
       <string>G</string>
       <string>Gbreve</string>
       <string>Gcaron</string>
@@ -407,6 +460,7 @@ Half
       <string>eth</string>
       <string>dcaron</string>
       <string>dcroat</string>
+      <string>dtail</string>
       <string>e</string>
       <string>eacute</string>
       <string>ebreve</string>
@@ -587,13 +641,41 @@ Half
       <string>zacute</string>
       <string>zcaron</string>
       <string>zdotaccent</string>
+      <string>b.alt</string>
       <string>dcaron.alt</string>
+      <string>h.alt</string>
+      <string>k.alt</string>
+      <string>f.locl</string>
       <string>cacute.loclPLK</string>
       <string>nacute.loclPLK</string>
       <string>oacute.loclPLK</string>
       <string>sacute.loclPLK</string>
       <string>zacute.loclPLK</string>
       <string>x.multiply</string>
+      <string>f.salt</string>
+      <string>l.salt</string>
+      <string>lacute.salt</string>
+      <string>lbar.salt</string>
+      <string>lbelt.salt</string>
+      <string>lcaron.salt</string>
+      <string>lcommaaccent.salt</string>
+      <string>ldot.salt</string>
+      <string>ldotbelow.salt</string>
+      <string>llinebelow.salt</string>
+      <string>lmiddletilde.salt</string>
+      <string>lslash.salt</string>
+      <string>r.salt</string>
+      <string>racute.salt</string>
+      <string>rcaron.salt</string>
+      <string>rcommaaccent.salt</string>
+      <string>rdotbelow.salt</string>
+      <string>s.salt</string>
+      <string>sacute.salt</string>
+      <string>scaron.salt</string>
+      <string>scedilla.salt</string>
+      <string>scircumflex.salt</string>
+      <string>scommaaccent.salt</string>
+      <string>sdotbelow.salt</string>
       <string>fi</string>
       <string>fl</string>
       <string>w_w_w.liga</string>
@@ -731,6 +813,9 @@ Half
       <string>imacron-cy</string>
       <string>obarred-cy</string>
       <string>umacron-cy</string>
+      <string>shha-cy.alt</string>
+      <string>ka-cy.loclBGR.alt</string>
+      <string>iu-cy.loclBGR.alt</string>
       <string>de-cy.loclBGR</string>
       <string>zhe-cy.loclBGR</string>
       <string>ze-cy.loclBGR</string>
@@ -740,6 +825,10 @@ Half
       <string>ge-cy.loclSRB</string>
       <string>pe-cy.loclSRB</string>
       <string>te-cy.loclSRB</string>
+      <string>ve-cy.salt</string>
+      <string>ze-cy.salt</string>
+      <string>che-cy.salt</string>
+      <string>chedescender-cy.salt</string>
       <string>Alpha</string>
       <string>Beta</string>
       <string>Gamma</string>
@@ -2099,6 +2188,8 @@ Half
       <string>uni04B6</string>
       <key>Cstroke</key>
       <string>uni023B</string>
+      <key>Dafrican</key>
+      <string>uni0189</string>
       <key>De-cy</key>
       <string>uni0414</string>
       <key>De-cy.loclBGR</key>
@@ -2157,6 +2248,8 @@ Half
       <string>uni1EBC</string>
       <key>Ezh</key>
       <string>uni01B7</string>
+      <key>Fhook</key>
+      <string>uni0191</string>
       <key>Gammaafrican</key>
       <string>uni0194</string>
       <key>Gcommaaccent</key>
@@ -3039,10 +3132,14 @@ Half
       <string>uni0327</string>
       <key>che-cy</key>
       <string>uni0447</string>
+      <key>che-cy.salt</key>
+      <string>uni0447.001</string>
       <key>checkmark</key>
       <string>uni2713</string>
       <key>chedescender-cy</key>
       <string>uni04B7</string>
+      <key>chedescender-cy.salt</key>
+      <string>uni04B7.001</string>
       <key>circumflexcomb</key>
       <string>uni0302</string>
       <key>circumflexcomb.case</key>
@@ -3629,6 +3726,8 @@ Half
       <string>uni25BF</string>
       <key>downWhiteTriangle</key>
       <string>uni25BD</string>
+      <key>dtail</key>
+      <string>uni0256</string>
       <key>dze-cy</key>
       <string>uni0455</string>
       <key>dzhe-cy</key>
@@ -3845,6 +3944,8 @@ Half
       <string>uni044E</string>
       <key>iu-cy.loclBGR</key>
       <string>uni044E.loclBGR</string>
+      <key>iu-cy.loclBGR.alt</key>
+      <string>uni044E.loclBGR.001</string>
       <key>jacute</key>
       <string>uni006A0301</string>
       <key>jcaron</key>
@@ -3857,6 +3958,8 @@ Half
       <string>uni043A</string>
       <key>ka-cy.loclBGR</key>
       <string>uni043A.loclBGR</string>
+      <key>ka-cy.loclBGR.alt</key>
+      <string>uni043A.loclBGR.001</string>
       <key>kadescender-cy</key>
       <string>uni049B</string>
       <key>kaiSymbol</key>
@@ -3879,12 +3982,20 @@ Half
       <string>uni20BE</string>
       <key>lbar</key>
       <string>uni019A</string>
+      <key>lbar.salt</key>
+      <string>uni019A.salt</string>
       <key>lbelt</key>
       <string>uni026C</string>
+      <key>lbelt.salt</key>
+      <string>uni026C.salt</string>
       <key>lcommaaccent</key>
       <string>uni013C</string>
+      <key>lcommaaccent.salt</key>
+      <string>uni013C.001</string>
       <key>ldotbelow</key>
       <string>uni1E37</string>
+      <key>ldotbelow.salt</key>
+      <string>uni1E37.salt</string>
       <key>leftArrow</key>
       <string>arrowleft</string>
       <key>leftBlackPointer</key>
@@ -3951,8 +4062,12 @@ Half
       <string>uni0459</string>
       <key>llinebelow</key>
       <string>uni1E3B</string>
+      <key>llinebelow.salt</key>
+      <string>uni1E3B.salt</string>
       <key>lmiddletilde</key>
       <string>uni026B</string>
+      <key>lmiddletilde.salt</key>
+      <string>uni026B.salt</string>
       <key>logicalnotReversed</key>
       <string>revlogicalnot</string>
       <key>lowerFiveEighthsBlock</key>
@@ -4149,8 +4264,12 @@ Half
       <string>uni037E</string>
       <key>rcommaaccent</key>
       <string>uni0157</string>
+      <key>rcommaaccent.salt</key>
+      <string>uni0157.001</string>
       <key>rdotbelow</key>
       <string>uni1E5B</string>
+      <key>rdotbelow.salt</key>
+      <string>uni1E5B.salt</string>
       <key>recordSeparatorControl</key>
       <string>uni241E</string>
       <key>replacementCharacter</key>
@@ -4209,8 +4328,12 @@ Half
       <string>uni04D9</string>
       <key>scommaaccent</key>
       <string>uni0219</string>
+      <key>scommaaccent.salt</key>
+      <string>uni0219.001</string>
       <key>sdotbelow</key>
       <string>uni1E63</string>
+      <key>sdotbelow.salt</key>
+      <string>uni1E63.salt</string>
       <key>seveninferior</key>
       <string>uni2087</string>
       <key>sevensuperior</key>
@@ -4235,6 +4358,8 @@ Half
       <string>uni20AA</string>
       <key>shha-cy</key>
       <string>uni04BB</string>
+      <key>shha-cy.alt</key>
+      <string>uni04BB.001</string>
       <key>shiftInControl</key>
       <string>uni240F</string>
       <key>shiftInControl.ss20</key>
@@ -4439,6 +4564,8 @@ Half
       <string>uni04B1</string>
       <key>ve-cy</key>
       <string>uni0432</string>
+      <key>ve-cy.salt</key>
+      <string>uni0432.001</string>
       <key>vectorOrCrossProduct</key>
       <string>uni2A2F</string>
       <key>venus</key>
@@ -4527,6 +4654,8 @@ Half
       <string>uni0437</string>
       <key>ze-cy.loclBGR</key>
       <string>uni0437.loclBGR</string>
+      <key>ze-cy.salt</key>
+      <string>uni0437.001</string>
       <key>zeroinferior</key>
       <string>uni2080</string>
       <key>zerosuperior</key>

@@ -3,10 +3,10 @@
   <unicode hex="064B"/>
   <anchor x="596" y="1314" name="_top"/>
   <anchor x="599" y="1246" name="_top.dot"/>
-  <anchor x="593" y="1701" name="top"/>
+  <anchor x="593" y="1711" name="top"/>
   <outline>
     <component base="_fatha-ar"/>
-    <component base="_fatha-ar" yOffset="200"/>
+    <component base="_fatha-ar" yScale="0.9999" yOffset="210"/>
   </outline>
   <lib>
     <dict>
@@ -23,6 +23,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>1200</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

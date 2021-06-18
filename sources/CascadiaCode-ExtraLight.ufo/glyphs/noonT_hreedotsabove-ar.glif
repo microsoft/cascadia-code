@@ -4,7 +4,7 @@
   <unicode hex="06BD"/>
   <outline>
     <component base="noonghunna-ar"/>
-    <component base="threedotsupabove-ar" xOffset="4" yOffset="11"/>
+    <component base="threedotsupabove-ar" xOffset="2" yOffset="7"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>threedotsupabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

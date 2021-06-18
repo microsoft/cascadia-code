@@ -4,12 +4,6 @@
   <unicode hex="0451"/>
   <outline>
     <component base="ie-cy"/>
-    <component base="dieresiscomb"/>
+    <component base="dieresiscomb" xOffset="5"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

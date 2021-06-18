@@ -2,10 +2,10 @@
 <glyph name="_alefWavyhamzaabove-ar.fina.rlig" format="2">
   <anchor x="0" y="0" name="_overlap"/>
   <anchor x="343" y="-141" name="bottom"/>
-  <anchor x="296" y="1688" name="top"/>
+  <anchor x="296" y="1708" name="top"/>
   <outline>
     <component base="_alef-ar.fina.short.rlig"/>
-    <component base="wavyhamzaabove-ar" xOffset="-326" yOffset="67"/>
+    <component base="wavyhamzaabove-ar" xOffset="-326" yOffset="87"/>
   </outline>
   <lib>
     <dict>
@@ -20,6 +20,8 @@
           <string>_alef-ar.fina.short.rlig</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,82 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sad-ar.fina.alt" format="2">
   <advance width="1200"/>
-  <anchor x="602" y="-141" name="bottom"/>
-  <anchor x="602" y="-26" name="bottom.dot"/>
-  <anchor x="-170" y="1075" name="top"/>
-  <anchor x="740" y="905" name="top.dot"/>
   <outline>
     <contour>
-      <point x="1189" y="-6" type="curve" smooth="yes"/>
-      <point x="1250" y="-6"/>
-      <point x="1280" y="31"/>
-      <point x="1280" y="116" type="curve" smooth="yes"/>
-      <point x="1280" y="184"/>
-      <point x="1256" y="206"/>
-      <point x="1200" y="206" type="curve" smooth="yes"/>
-      <point x="1105" y="206"/>
-      <point x="1016" y="214"/>
-      <point x="923" y="253" type="curve"/>
-      <point x="836" y="72" type="line"/>
-      <point x="1002" y="72" type="line"/>
-      <point x="1031" y="12"/>
-      <point x="1093" y="-6"/>
+      <point x="1189" y="-3" type="curve" smooth="yes"/>
+      <point x="1250" y="-3"/>
+      <point x="1276" y="13"/>
+      <point x="1276" y="44" type="curve" smooth="yes"/>
+      <point x="1276" y="76"/>
+      <point x="1263" y="91"/>
+      <point x="1200" y="91" type="curve" smooth="yes"/>
+      <point x="1111" y="91"/>
+      <point x="986" y="91"/>
+      <point x="859" y="102" type="curve"/>
+      <point x="818" y="49" type="line"/>
+      <point x="881" y="49" type="line"/>
+      <point x="899" y="10"/>
+      <point x="923" y="-3"/>
     </contour>
-    <contour>
-      <point x="-333" y="-357" type="curve" smooth="yes"/>
-      <point x="67" y="-357"/>
-      <point x="189" y="-181"/>
-      <point x="189" y="176" type="curve" smooth="yes"/>
-      <point x="189" y="298"/>
-      <point x="171" y="458"/>
-      <point x="157" y="560" type="curve"/>
-      <point x="-38" y="543" type="line"/>
-      <point x="-22" y="423"/>
-      <point x="-12" y="250"/>
-      <point x="-12" y="152" type="curve" smooth="yes"/>
-      <point x="-12" y="-89"/>
-      <point x="-80" y="-145"/>
-      <point x="-325" y="-145" type="curve" smooth="yes"/>
-      <point x="-564" y="-145"/>
-      <point x="-634" y="-77"/>
-      <point x="-634" y="122" type="curve" smooth="yes"/>
-      <point x="-634" y="236"/>
-      <point x="-612" y="356"/>
-      <point x="-585" y="484" type="curve"/>
-      <point x="-763" y="484" type="line"/>
-      <point x="-809" y="349"/>
-      <point x="-829" y="197"/>
-      <point x="-829" y="90" type="curve" smooth="yes"/>
-      <point x="-829" y="-230"/>
-      <point x="-682" y="-357"/>
-    </contour>
-    <contour>
-      <point x="552" y="-7" type="curve" smooth="yes"/>
-      <point x="923" y="-7"/>
-      <point x="1118" y="71"/>
-      <point x="1118" y="354" type="curve" smooth="yes"/>
-      <point x="1118" y="655"/>
-      <point x="949" y="838"/>
-      <point x="781" y="838" type="curve" smooth="yes"/>
-      <point x="592" y="838"/>
-      <point x="373" y="549"/>
-      <point x="190" y="175" type="curve"/>
-      <point x="346" y="114" type="line"/>
-      <point x="516" y="442"/>
-      <point x="666" y="634"/>
-      <point x="763" y="634" type="curve" smooth="yes"/>
-      <point x="855" y="634"/>
-      <point x="936" y="485"/>
-      <point x="936" y="369" type="curve" smooth="yes"/>
-      <point x="936" y="268"/>
-      <point x="915" y="206"/>
-      <point x="602" y="206" type="curve" smooth="yes"/>
-      <point x="319" y="206"/>
-      <point x="185" y="207"/>
-      <point x="86" y="243" type="curve"/>
-      <point x="66" y="47" type="line"/>
-      <point x="166" y="8"/>
-      <point x="333" y="-7"/>
-    </contour>
+    <component base="sad-ar.alt"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

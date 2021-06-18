@@ -3,17 +3,11 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="546" y="-55" type="line"/>
-      <point x="858" y="1730" type="line"/>
-      <point x="763" y="1730" type="line"/>
-      <point x="451" y="-55" type="line"/>
+      <point x="452" y="-40" type="line"/>
+      <point x="546" y="-40" type="line"/>
+      <point x="546" y="1730" type="line"/>
+      <point x="452" y="1730" type="line"/>
     </contour>
     <component base="underscore_middle.seq"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

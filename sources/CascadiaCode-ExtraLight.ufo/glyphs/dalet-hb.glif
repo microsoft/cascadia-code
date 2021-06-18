@@ -5,23 +5,23 @@
   <anchor x="461" y="590" name="center"/>
   <outline>
     <contour>
+      <point x="753" y="0" type="line"/>
       <point x="852" y="0" type="line"/>
       <point x="852" y="1200" type="line"/>
       <point x="753" y="1200" type="line"/>
-      <point x="753" y="0" type="line"/>
     </contour>
     <contour>
+      <point x="98" y="1101" type="line"/>
+      <point x="846" y="1101" type="line"/>
       <point x="1033" y="1118" type="line"/>
       <point x="1033" y="1200" type="line"/>
       <point x="98" y="1200" type="line"/>
-      <point x="98" y="1101" type="line"/>
-      <point x="846" y="1101" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

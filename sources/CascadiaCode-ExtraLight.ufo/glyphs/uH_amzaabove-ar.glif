@@ -5,8 +5,8 @@
   <anchor x="696" y="1289" name="top"/>
   <outline>
     <component base="waw-ar"/>
-    <component base="hamzaabove-ar" xScale="0.92" yScale="0.92" xOffset="352" yOffset="-249"/>
-    <component base="_damma-ar" xOffset="-120" yOffset="-359"/>
+    <component base="hamzaabove-ar" xScale="0.96" yScale="0.96" xOffset="302" yOffset="-289"/>
+    <component base="_damma-ar" xOffset="-150" yOffset="-359"/>
   </outline>
   <lib>
     <dict>
@@ -31,6 +31,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>waw-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

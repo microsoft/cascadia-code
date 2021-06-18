@@ -2,9 +2,10 @@
 <glyph name="yehThreedotsbelow-ar" format="2">
   <advance width="1200"/>
   <unicode hex="06D1"/>
+  <anchor x="585" y="-908" name="bottom"/>
   <outline>
     <component base="alefMaksura-ar"/>
-    <component base="threedotsdownbelow-ar" xOffset="-15" yOffset="-318"/>
+    <component base="threedotsdownbelow-ar" xScale="1.001" xOffset="-16" yOffset="-318"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +20,8 @@
           <string>threedotsdownbelow-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

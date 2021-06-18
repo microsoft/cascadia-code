@@ -2,10 +2,11 @@
 <glyph name="kehehTwodotshorizontalabove-ar" format="2">
   <advance width="1200"/>
   <unicode hex="063B"/>
-  <anchor x="654.9" y="1493.8" name="top"/>
+  <guideline x="725" y="-136" angle="0"/>
+  <anchor x="625" y="1494" name="top"/>
   <outline>
     <component base="keheh-ar"/>
-    <component base="twodotshorizontalabove-ar.v2" xScale="0.9" yScale="0.9" xOffset="114" yOffset="628"/>
+    <component base="twodotshorizontalabove-ar.v2" xScale="0.9" yScale="0.9" xOffset="132" yOffset="601"/>
   </outline>
   <lib>
     <dict>
@@ -20,6 +21,8 @@
           <string>twodotshorizontalabove-ar.v2</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

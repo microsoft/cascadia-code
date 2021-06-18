@@ -6,22 +6,22 @@
   <anchor x="693" y="1060" name="top"/>
   <outline>
     <contour>
-      <point x="992" y="-321" type="line"/>
-      <point x="1029" y="-221"/>
-      <point x="1087" y="40"/>
-      <point x="1100" y="190" type="curve"/>
-      <point x="925" y="190" type="line"/>
-      <point x="887" y="0" type="line"/>
-      <point x="869" y="-85"/>
-      <point x="842" y="-190"/>
-      <point x="809" y="-281" type="curve"/>
+      <point x="1012" y="-321" type="line"/>
+      <point x="1046" y="-228"/>
+      <point x="1099" y="5"/>
+      <point x="1117" y="160" type="curve"/>
+      <point x="937" y="149" type="line"/>
+      <point x="907" y="0" type="line" smooth="yes"/>
+      <point x="889" y="-85"/>
+      <point x="862" y="-190"/>
+      <point x="829" y="-281" type="curve"/>
     </contour>
     <component base="en-cy"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -436,16 +436,19 @@ lamBar-ar.medi.rlig ];
 # automatic
 languagesystem DFLT dflt;
 
+languagesystem arab dflt;
+
 languagesystem latn dflt;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn PLK;
 languagesystem latn NLD;
-languagesystem latn CAT;
 
 languagesystem cyrl dflt;
 languagesystem cyrl BGR;
 languagesystem cyrl SRB;
+
+languagesystem hebr dflt;
 
 
 feature aalt {

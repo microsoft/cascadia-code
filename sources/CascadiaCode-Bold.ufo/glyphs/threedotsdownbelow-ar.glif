@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threedotsdownbelow-ar" format="2">
   <advance width="1200"/>
-  <anchor x="602" y="-117" name="_bottom"/>
+  <anchor x="602" y="-137" name="_bottom"/>
   <anchor x="600" y="-8" name="_bottom.dot"/>
-  <anchor x="612" y="-608" name="bottom"/>
+  <anchor x="602" y="-628" name="bottom"/>
   <outline>
-    <component base="_threedots-ar" yScale="-1" yOffset="333"/>
+    <component base="_threedots-ar" yScale="-1" yOffset="313"/>
   </outline>
   <lib>
     <dict>
@@ -20,6 +20,8 @@
           <string>_threedots-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

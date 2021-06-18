@@ -2,7 +2,7 @@
 <glyph name="nine-persiansuperior" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="nine-arsuperior" xOffset="4" yOffset="1"/>
+    <component base="nine-arsuperior"/>
   </outline>
   <lib>
     <dict>
@@ -10,7 +10,7 @@
       <array>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
@@ -23,6 +23,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Small</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <anchor x="0" y="0" name="overlap"/>
   <outline>
     <component base="behDotless-ar.init.alt"/>
-    <component base="_dotVabove" xOffset="275" yOffset="345"/>
+    <component base="_dotVabove" xOffset="335" yOffset="205"/>
   </outline>
   <lib>
     <dict>
@@ -19,6 +19,8 @@
           <string>_dotVabove</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

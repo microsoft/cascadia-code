@@ -4,21 +4,27 @@
   <unicode hex="FEBC"/>
   <outline>
     <contour>
-      <point x="1189" y="-7" type="curve" smooth="yes"/>
-      <point x="1250" y="-7"/>
-      <point x="1280" y="31"/>
-      <point x="1280" y="116" type="curve" smooth="yes"/>
-      <point x="1280" y="184"/>
-      <point x="1256" y="205"/>
-      <point x="1200" y="205" type="curve" smooth="yes"/>
-      <point x="1135" y="205"/>
-      <point x="1091" y="210"/>
-      <point x="1008" y="243" type="curve"/>
-      <point x="911" y="72" type="line"/>
-      <point x="1017" y="72" type="line"/>
-      <point x="1046" y="12"/>
-      <point x="1093" y="-7"/>
+      <point x="1189" y="-3" type="curve" smooth="yes"/>
+      <point x="1250" y="-3"/>
+      <point x="1265" y="15"/>
+      <point x="1265" y="46" type="curve" smooth="yes"/>
+      <point x="1265" y="78"/>
+      <point x="1253" y="91"/>
+      <point x="1200" y="91" type="curve" smooth="yes"/>
+      <point x="1113" y="91"/>
+      <point x="1066" y="91"/>
+      <point x="949" y="102" type="curve"/>
+      <point x="908" y="49" type="line"/>
+      <point x="971" y="49" type="line"/>
+      <point x="989" y="7"/>
+      <point x="1033" y="-3"/>
     </contour>
     <component base="sad-ar.init"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

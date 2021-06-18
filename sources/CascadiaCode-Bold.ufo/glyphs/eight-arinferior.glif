@@ -3,26 +3,26 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="410" y="-20" type="line"/>
-      <point x="462" y="127"/>
-      <point x="514" y="295"/>
-      <point x="538" y="424" type="curve"/>
-      <point x="574" y="424" type="line"/>
-      <point x="580" y="454"/>
-      <point x="586" y="479"/>
-      <point x="591" y="503" type="curve"/>
-      <point x="537" y="500" type="line"/>
-      <point x="566" y="326"/>
-      <point x="621" y="145"/>
-      <point x="683" y="-20" type="curve"/>
-      <point x="853" y="13" type="line"/>
-      <point x="765" y="217"/>
-      <point x="693" y="407"/>
-      <point x="632" y="619" type="curve"/>
-      <point x="462" y="618" type="line"/>
-      <point x="394" y="403"/>
-      <point x="316" y="184"/>
-      <point x="242" y="3" type="curve"/>
+      <point x="470" y="-10" type="line"/>
+      <point x="522" y="137"/>
+      <point x="554" y="275"/>
+      <point x="578" y="404" type="curve"/>
+      <point x="614" y="404" type="line"/>
+      <point x="620" y="434"/>
+      <point x="626" y="459"/>
+      <point x="631" y="483" type="curve"/>
+      <point x="579" y="480" type="line"/>
+      <point x="600" y="316"/>
+      <point x="644" y="154"/>
+      <point x="703" y="-10" type="curve"/>
+      <point x="903" y="23" type="line"/>
+      <point x="815" y="227"/>
+      <point x="743" y="420"/>
+      <point x="682" y="632" type="curve"/>
+      <point x="492" y="631" type="line"/>
+      <point x="424" y="416"/>
+      <point x="346" y="194"/>
+      <point x="272" y="13" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -33,6 +33,8 @@
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Small</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

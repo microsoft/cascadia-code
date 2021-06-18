@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="dotcenter-ar" xScale="0.96" yScale="0.96" xOffset="-243" yOffset="-385"/>
+    <component base="dotcenter-ar" xScale="0.96" yScale="0.96" xOffset="-243" yOffset="-395"/>
   </outline>
   <lib>
     <dict>
@@ -18,6 +18,8 @@
           <string>dotcenter-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

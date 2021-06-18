@@ -55,4 +55,11 @@ lookup locl_cyrl_1 {
 	sub te-cy by te-cy.loclSRB; 
 } locl_cyrl_1;
 
+lookup locl_ewe {
+	script latn;
+	language EWE;
+	sub f by f.locl;
+	sub florin by f.salt;
+} locl_ewe;
+
 } locl;

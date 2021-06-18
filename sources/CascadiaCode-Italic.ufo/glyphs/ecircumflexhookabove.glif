@@ -5,13 +5,7 @@
   <anchor x="506" y="0" name="bottom"/>
   <outline>
     <component base="e"/>
-    <component base="circumflexcomb"/>
-    <component base="hookabovecomb" xOffset="358" yOffset="300"/>
+    <component base="circumflexcomb" xOffset="15"/>
+    <component base="hookabovecomb" xOffset="373" yOffset="300"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="hah-ar.fina"/>
-    <component base="twodotstahcenter-ar" xOffset="12" yOffset="-394"/>
+    <component base="twodotstahcenter-ar" xScale="1.001" xOffset="11" yOffset="-394"/>
   </outline>
   <lib>
     <dict>
@@ -11,6 +11,8 @@
       <string>hah-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>hah-ar.fina</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

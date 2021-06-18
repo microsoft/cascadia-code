@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rehVbelow-ar.fina" format="2">
   <advance width="1200"/>
+  <anchor x="352" y="-838" name="bottom"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="_vbelow-ar" xScale="0.9" yScale="0.9" xOffset="-155" yOffset="-428"/>
+    <component base="_vbelow-ar" xScale="0.9" yScale="0.9" xOffset="-188" yOffset="-458"/>
   </outline>
   <lib>
     <dict>
@@ -20,6 +21,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>reh-ar.fina</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

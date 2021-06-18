@@ -33,13 +33,13 @@ lookup locl_latn_2 {
 	sub IJ acutecomb by IJ_acute;
 } locl_latn_2;
 
-# lookup locl_arab_0 {
-# 	script arab;
-# 	language URD;
-# 	sub four-persian by four-persian.urdu;
-# 	sub six-persian by six-ar;
-# 	sub seven-persian by seven-persian.urdu;
-# } locl_arab_0;
+lookup locl_arab_0 {
+	script arab;
+	language URD;
+	sub four-persian by four-persian.urdu;
+	sub six-persian by six-ar;
+	sub seven-persian by seven-persian.urdu;
+} locl_arab_0;
 
 lookup locl_cyrl_0 {
 	script cyrl;

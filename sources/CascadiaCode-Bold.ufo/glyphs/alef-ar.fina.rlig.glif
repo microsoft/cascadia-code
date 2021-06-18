@@ -6,14 +6,20 @@
   <anchor x="274" y="1310" name="top"/>
   <outline>
     <contour>
-      <point x="755" y="239" type="curve"/>
-      <point x="900" y="366" type="line"/>
-      <point x="690" y="695"/>
-      <point x="434" y="1006"/>
-      <point x="203" y="1275" type="curve"/>
-      <point x="56" y="1142" type="line"/>
-      <point x="287" y="865"/>
-      <point x="540" y="556"/>
+      <point x="735" y="219" type="curve"/>
+      <point x="920" y="379" type="line"/>
+      <point x="722" y="700"/>
+      <point x="479" y="1025"/>
+      <point x="243" y="1298" type="curve"/>
+      <point x="36" y="1122" type="line"/>
+      <point x="259" y="858"/>
+      <point x="530" y="536"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,10 +2,10 @@
 <glyph name="ng-ar" format="2">
   <advance width="1200"/>
   <unicode hex="06AD"/>
-  <anchor x="536.9" y="1570.8" name="top"/>
+  <anchor x="537" y="1531" name="top"/>
   <outline>
     <component base="kaf-ar"/>
-    <component base="threedotsupabove-ar" xScale="0.9" yScale="0.9" xOffset="-4" yOffset="507"/>
+    <component base="threedotsupabove-ar" xScale="0.7" yScale="0.7" xOffset="116" yOffset="676"/>
   </outline>
   <lib>
     <dict>
@@ -20,6 +20,8 @@
           <string>threedotsupabove-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

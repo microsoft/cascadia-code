@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="seen-ar.alt"/>
-    <component base="_twodotstah" xOffset="-169" yOffset="163"/>
+    <component base="_twodotstah" xOffset="-199" yOffset="163"/>
   </outline>
   <lib>
     <dict>
@@ -22,6 +22,8 @@
       <string>seen-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>seen-ar</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>
