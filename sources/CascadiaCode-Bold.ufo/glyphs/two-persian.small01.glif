@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two-persian.small01" format="2">
+  <advance width="1200"/>
+  <anchor x="620" y="1334" name="_top"/>
+  <anchor x="620" y="1104" name="_top.dot"/>
+  <anchor x="622" y="1641" name="top"/>
+  <outline>
+    <contour>
+      <point x="535" y="1163" type="curve"/>
+      <point x="674" y="1163" type="line"/>
+      <point x="668" y="1284"/>
+      <point x="648" y="1358"/>
+      <point x="598" y="1503" type="curve"/>
+      <point x="570" y="1383" type="line"/>
+      <point x="594" y="1366"/>
+      <point x="611" y="1359"/>
+      <point x="659" y="1359" type="curve" smooth="yes"/>
+      <point x="767" y="1359"/>
+      <point x="806" y="1422"/>
+      <point x="806" y="1586" type="curve"/>
+      <point x="684" y="1586" type="line"/>
+      <point x="680" y="1504"/>
+      <point x="665" y="1495"/>
+      <point x="636" y="1495" type="curve" smooth="yes"/>
+      <point x="619" y="1495"/>
+      <point x="608" y="1504"/>
+      <point x="599" y="1523" type="curve" smooth="yes"/>
+      <point x="589" y="1544"/>
+      <point x="584" y="1561"/>
+      <point x="572" y="1594" type="curve"/>
+      <point x="435" y="1542" type="line"/>
+      <point x="479" y="1417"/>
+      <point x="524" y="1293"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -3,35 +3,29 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-320" y="0" type="line"/>
-      <point x="-234" y="0" type="line"/>
-      <point x="-114" y="1420" type="line"/>
-      <point x="-200" y="1420" type="line"/>
+      <point x="878" y="0" type="line"/>
+      <point x="968" y="0" type="line"/>
+      <point x="1088" y="1420" type="line"/>
+      <point x="998" y="1420" type="line"/>
     </contour>
     <contour>
-      <point x="-766" y="0" type="line"/>
-      <point x="-680" y="0" type="line"/>
-      <point x="-560" y="1420" type="line"/>
-      <point x="-646" y="1420" type="line"/>
+      <point x="432" y="0" type="line"/>
+      <point x="522" y="0" type="line"/>
+      <point x="642" y="1420" type="line"/>
+      <point x="552" y="1420" type="line"/>
     </contour>
     <contour>
-      <point x="-916" y="420" type="line"/>
-      <point x="406" y="420" type="line"/>
-      <point x="406" y="508" type="line"/>
-      <point x="-916" y="508" type="line"/>
+      <point x="284" y="419" type="line"/>
+      <point x="1606" y="419" type="line"/>
+      <point x="1606" y="509" type="line"/>
+      <point x="284" y="509" type="line"/>
     </contour>
     <contour>
-      <point x="-916" y="912" type="line"/>
-      <point x="406" y="912" type="line"/>
-      <point x="406" y="1000" type="line"/>
-      <point x="-916" y="1000" type="line"/>
+      <point x="284" y="911" type="line"/>
+      <point x="1606" y="911" type="line"/>
+      <point x="1606" y="1001" type="line"/>
+      <point x="284" y="1001" type="line"/>
     </contour>
-    <component base="bracketleft" xOffset="-36"/>
+    <component base="bracketleft" xOffset="1164"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

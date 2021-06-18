@@ -2,20 +2,20 @@
 <glyph name="Dzhe-cy" format="2">
   <advance width="1200"/>
   <unicode hex="040F"/>
-  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="-290" name="bottom"/>
   <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="860" y="0" type="line"/>
+      <point x="852" y="0" type="line"/>
       <point x="1060" y="0" type="line"/>
       <point x="1060" y="1420" type="line"/>
-      <point x="860" y="1420" type="line"/>
+      <point x="852" y="1420" type="line"/>
     </contour>
     <contour>
-      <point x="500" y="-290" type="line"/>
-      <point x="700" y="-290" type="line"/>
-      <point x="700" y="130" type="line"/>
-      <point x="500" y="130" type="line"/>
+      <point x="496" y="-290" type="line"/>
+      <point x="704" y="-290" type="line"/>
+      <point x="704" y="130" type="line"/>
+      <point x="496" y="130" type="line"/>
     </contour>
     <contour>
       <point x="140" y="0" type="line"/>
@@ -25,15 +25,9 @@
     </contour>
     <contour>
       <point x="140" y="0" type="line"/>
-      <point x="340" y="0" type="line"/>
-      <point x="340" y="1420" type="line"/>
+      <point x="348" y="0" type="line"/>
+      <point x="348" y="1420" type="line"/>
       <point x="140" y="1420" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

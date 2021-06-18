@@ -1,0 +1,33 @@
+feature ss01 {
+# notes:
+# Name: Stylistic alternates
+sub f by f.salt;
+sub florin by f;
+sub l by l.salt;
+sub lacute by lacute.salt;
+sub lbar by lbar.salt;
+sub lbelt by lbelt.salt;
+sub lcaron by lcaron.salt;
+sub lcommaaccent by lcommaaccent.salt;
+sub ldot by ldot.salt;
+sub ldotbelow by ldotbelow.salt;
+sub llinebelow by llinebelow.salt;
+sub lmiddletilde by lmiddletilde.salt;
+sub lslash by lslash.salt;
+sub r by r.salt;
+sub racute by racute.salt;
+sub rcaron by rcaron.salt;
+sub rcommaaccent by rcommaaccent.salt;
+sub rdotbelow by rdotbelow.salt;
+sub s by s.salt;
+sub sacute by sacute.salt;
+sub scaron by scaron.salt;
+sub scedilla by scedilla.salt;
+sub scircumflex by scircumflex.salt;
+sub scommaaccent by scommaaccent.salt;
+sub sdotbelow by sdotbelow.salt;
+sub ve-cy by ve-cy.salt;
+sub ze-cy by ze-cy.salt;
+sub che-cy by che-cy.salt;
+sub chedescender-cy by chedescender-cy.salt; 
+} ss01;

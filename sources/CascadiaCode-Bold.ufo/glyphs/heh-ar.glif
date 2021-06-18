@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="heh-ar" format="2">
+  <advance width="1200"/>
+  <unicode hex="0647"/>
+  <anchor x="605" y="-141" name="bottom"/>
+  <anchor x="592" y="1190" name="top"/>
+  <anchor x="599" y="940" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="585" y="-10" type="curve" smooth="yes"/>
+      <point x="878" y="-10"/>
+      <point x="1002" y="125"/>
+      <point x="1002" y="339" type="curve" smooth="yes"/>
+      <point x="1002" y="544"/>
+      <point x="904" y="749"/>
+      <point x="481" y="942" type="curve"/>
+      <point x="345" y="706" type="line"/>
+      <point x="690" y="544"/>
+      <point x="754" y="458"/>
+      <point x="754" y="367" type="curve" smooth="yes"/>
+      <point x="754" y="304"/>
+      <point x="713" y="285"/>
+      <point x="593" y="285" type="curve" smooth="yes"/>
+      <point x="471" y="285"/>
+      <point x="443" y="310"/>
+      <point x="443" y="367" type="curve" smooth="yes"/>
+      <point x="443" y="431"/>
+      <point x="499" y="519"/>
+      <point x="638" y="598" type="curve"/>
+      <point x="523" y="793" type="line"/>
+      <point x="280" y="606"/>
+      <point x="198" y="433"/>
+      <point x="198" y="304" type="curve" smooth="yes"/>
+      <point x="198" y="120"/>
+      <point x="296" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

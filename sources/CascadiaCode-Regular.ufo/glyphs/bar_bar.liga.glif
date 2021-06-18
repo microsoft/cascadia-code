@@ -2,13 +2,7 @@
 <glyph name="bar_bar.liga" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="bar" xOffset="-130"/>
-    <component base="bar" xOffset="-1070"/>
+    <component base="bar" xOffset="1070"/>
+    <component base="bar" xOffset="130"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

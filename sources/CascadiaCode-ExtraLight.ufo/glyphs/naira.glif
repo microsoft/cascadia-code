@@ -2,21 +2,13 @@
 <glyph name="naira" format="2">
   <advance width="1200"/>
   <unicode hex="20A6"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
-      <point x="24" y="666" type="line"/>
-      <point x="1176" y="666" type="line"/>
-      <point x="1176" y="754" type="line"/>
-      <point x="24" y="754" type="line"/>
+      <point x="24" y="665" type="line"/>
+      <point x="1176" y="665" type="line"/>
+      <point x="1176" y="755" type="line"/>
+      <point x="24" y="755" type="line"/>
     </contour>
     <component base="N"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

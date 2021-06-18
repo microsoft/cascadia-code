@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonghunna-ar.fina" format="2">
+  <advance width="1200"/>
+  <unicode hex="FB9F"/>
+  <anchor x="557" y="-383" name="bottom"/>
+  <anchor x="558" y="-313" name="bottom.dot"/>
+  <anchor x="565" y="799" name="top"/>
+  <anchor x="562" y="549" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="538" y="-357" type="curve" smooth="yes"/>
+      <point x="928" y="-357"/>
+      <point x="1051" y="-173"/>
+      <point x="1051" y="162" type="curve" smooth="yes"/>
+      <point x="1051" y="214"/>
+      <point x="1066" y="223"/>
+      <point x="1041" y="367" type="curve" smooth="yes"/>
+      <point x="1033" y="413"/>
+      <point x="1022" y="496"/>
+      <point x="1006" y="581" type="curve"/>
+      <point x="812" y="554" type="line"/>
+      <point x="834" y="421"/>
+      <point x="859" y="282"/>
+      <point x="859" y="162" type="curve" smooth="yes"/>
+      <point x="859" y="-89"/>
+      <point x="771" y="-145"/>
+      <point x="546" y="-145" type="curve" smooth="yes"/>
+      <point x="347" y="-145"/>
+      <point x="277" y="-77"/>
+      <point x="277" y="122" type="curve" smooth="yes"/>
+      <point x="277" y="236"/>
+      <point x="293" y="356"/>
+      <point x="316" y="484" type="curve"/>
+      <point x="138" y="484" type="line"/>
+      <point x="96" y="349"/>
+      <point x="82" y="197"/>
+      <point x="82" y="90" type="curve" smooth="yes"/>
+      <point x="82" y="-230"/>
+      <point x="229" y="-357"/>
+    </contour>
+    <contour>
+      <point x="1188" y="-6" type="curve" smooth="yes"/>
+      <point x="1273" y="-6"/>
+      <point x="1285" y="36"/>
+      <point x="1285" y="108" type="curve" smooth="yes"/>
+      <point x="1285" y="178"/>
+      <point x="1271" y="206"/>
+      <point x="1200" y="206" type="curve" smooth="yes"/>
+      <point x="1063" y="206"/>
+      <point x="1066" y="223"/>
+      <point x="1041" y="367" type="curve"/>
+      <point x="976" y="200" type="line"/>
+      <point x="1007" y="27"/>
+      <point x="1070" y="-6"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

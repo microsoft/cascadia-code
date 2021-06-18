@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dal-ar.fina" format="2">
+  <advance width="1200"/>
+  <unicode hex="FEAA"/>
+  <anchor x="562" y="-141" name="bottom"/>
+  <anchor x="562" y="-26" name="bottom.dot"/>
+  <anchor x="639" y="1274" name="top"/>
+  <anchor x="636" y="1024" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="398" y="-10" type="curve" smooth="yes"/>
+      <point x="647" y="-10"/>
+      <point x="830" y="60"/>
+      <point x="935" y="187" type="curve"/>
+      <point x="806" y="227" type="line"/>
+      <point x="886" y="40"/>
+      <point x="1012" y="-10"/>
+      <point x="1188" y="-10" type="curve" smooth="yes"/>
+      <point x="1246" y="-10"/>
+      <point x="1275" y="41"/>
+      <point x="1275" y="155" type="curve" smooth="yes"/>
+      <point x="1275" y="246"/>
+      <point x="1251" y="285"/>
+      <point x="1200" y="285" type="curve" smooth="yes"/>
+      <point x="1071" y="285"/>
+      <point x="1041" y="305"/>
+      <point x="993" y="432" type="curve" smooth="yes"/>
+      <point x="775" y="1013" type="line"/>
+      <point x="513" y="923" type="line"/>
+      <point x="735" y="343" type="line"/>
+      <point x="651" y="302"/>
+      <point x="526" y="285"/>
+      <point x="378" y="285" type="curve" smooth="yes"/>
+      <point x="271" y="285"/>
+      <point x="234" y="291"/>
+      <point x="151" y="301" type="curve"/>
+      <point x="143" y="12" type="line"/>
+      <point x="249" y="-5"/>
+      <point x="294" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

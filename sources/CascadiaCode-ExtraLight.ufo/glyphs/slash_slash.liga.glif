@@ -2,13 +2,30 @@
 <glyph name="slash_slash.liga" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="slash" xOffset="-1030"/>
-    <component base="slash" xOffset="-148"/>
+    <component base="slash" xOffset="150"/>
+    <component base="slash" xOffset="1032"/>
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>slash</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>slash</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

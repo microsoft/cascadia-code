@@ -21,7 +21,9 @@ jobs:
       vmImage: macOS-latest
     steps:
       - task: UsePythonVersion@0
-        displayName: 'Use Python 3.x'
+        displayName: 'Use Python 3.8'
+        inputs:
+          versionSpec: '3.8'
 
       - bash: |
          brew install ttfautohint

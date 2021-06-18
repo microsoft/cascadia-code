@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar_bar_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-50" y="866" type="line"/>
+      <point x="834" y="866" type="line"/>
+      <point x="834" y="1052" type="line"/>
+      <point x="-50" y="1052" type="line"/>
+    </contour>
+    <contour>
+      <point x="-50" y="366" type="line"/>
+      <point x="834" y="366" type="line"/>
+      <point x="834" y="552" type="line"/>
+      <point x="-50" y="552" type="line"/>
+    </contour>
+    <contour>
+      <point x="1568" y="866" type="line"/>
+      <point x="2450" y="866" type="line"/>
+      <point x="2450" y="1052" type="line"/>
+      <point x="1568" y="1052" type="line"/>
+    </contour>
+    <contour>
+      <point x="1568" y="366" type="line"/>
+      <point x="2450" y="366" type="line"/>
+      <point x="2450" y="552" type="line"/>
+      <point x="1568" y="552" type="line"/>
+    </contour>
+    <component base="bar" xOffset="1020"/>
+    <component base="bar" xOffset="180"/>
+  </outline>
+</glyph>

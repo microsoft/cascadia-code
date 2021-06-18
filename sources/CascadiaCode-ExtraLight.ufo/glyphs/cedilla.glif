@@ -3,12 +3,6 @@
   <advance width="1200"/>
   <unicode hex="00B8"/>
   <outline>
-    <component base="cedillacomb"/>
+    <component base="cedillacomb" xOffset="-80"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

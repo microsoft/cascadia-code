@@ -4,10 +4,10 @@
   <unicode hex="21A8"/>
   <outline>
     <contour>
-      <point x="200" y="-243" type="line"/>
-      <point x="990" y="-243" type="line"/>
-      <point x="990" y="0" type="line"/>
-      <point x="200" y="0" type="line"/>
+      <point x="120" y="-243" type="line"/>
+      <point x="1080" y="-243" type="line"/>
+      <point x="1080" y="0" type="line"/>
+      <point x="120" y="0" type="line"/>
     </contour>
     <component base="upDownArrow"/>
   </outline>
@@ -24,8 +24,6 @@
           <string>upDownArrow</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

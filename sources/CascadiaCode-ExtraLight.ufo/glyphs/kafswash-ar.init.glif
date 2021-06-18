@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafswash-ar.init" format="2">
+  <advance width="1200"/>
+  <anchor x="555" y="-141" name="bottom"/>
+  <anchor x="446" y="1057" name="top"/>
+  <outline>
+    <contour>
+      <point x="-11" y="-3" type="line"/>
+      <point x="319" y="-3" type="line" smooth="yes"/>
+      <point x="807" y="-3"/>
+      <point x="1004" y="123"/>
+      <point x="1004" y="333" type="curve" smooth="yes"/>
+      <point x="1004" y="472"/>
+      <point x="910" y="542"/>
+      <point x="700" y="542" type="curve" smooth="yes"/>
+      <point x="505" y="542" type="line" smooth="yes"/>
+      <point x="342" y="542"/>
+      <point x="294" y="561"/>
+      <point x="294" y="624" type="curve" smooth="yes"/>
+      <point x="294" y="728"/>
+      <point x="414" y="843"/>
+      <point x="738" y="1045" type="curve"/>
+      <point x="731" y="1142" type="line"/>
+      <point x="363" y="919"/>
+      <point x="202" y="772"/>
+      <point x="202" y="614" type="curve" smooth="yes"/>
+      <point x="202" y="511"/>
+      <point x="249" y="450"/>
+      <point x="520" y="450" type="curve" smooth="yes"/>
+      <point x="694" y="450" type="line" smooth="yes"/>
+      <point x="871" y="450"/>
+      <point x="912" y="402"/>
+      <point x="912" y="323" type="curve" smooth="yes"/>
+      <point x="912" y="181"/>
+      <point x="760" y="91"/>
+      <point x="339" y="91" type="curve" smooth="yes"/>
+      <point x="0" y="91" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

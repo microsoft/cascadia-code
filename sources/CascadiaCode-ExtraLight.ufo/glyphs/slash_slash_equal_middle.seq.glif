@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash_slash_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1440" y="414" type="line"/>
+      <point x="2450" y="414" type="line"/>
+      <point x="2450" y="504" type="line"/>
+      <point x="1482" y="504" type="line"/>
+    </contour>
+    <contour>
+      <point x="-50" y="414" type="line"/>
+      <point x="783" y="414" type="line"/>
+      <point x="825" y="504" type="line"/>
+      <point x="-50" y="504" type="line"/>
+    </contour>
+    <contour>
+      <point x="-50" y="914" type="line"/>
+      <point x="1018" y="914" type="line"/>
+      <point x="1060" y="1004" type="line"/>
+      <point x="-50" y="1004" type="line"/>
+    </contour>
+    <contour>
+      <point x="1675" y="914" type="line"/>
+      <point x="2450" y="914" type="line"/>
+      <point x="2450" y="1004" type="line"/>
+      <point x="1717" y="1004" type="line"/>
+    </contour>
+    <component base="slash" xOffset="250"/>
+    <component base="slash" xOffset="932"/>
+  </outline>
+</glyph>

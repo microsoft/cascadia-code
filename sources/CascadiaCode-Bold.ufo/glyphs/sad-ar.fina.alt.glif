@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad-ar.fina.alt" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1188" y="-10" type="curve" smooth="yes"/>
+      <point x="1236" y="-10"/>
+      <point x="1275" y="41"/>
+      <point x="1275" y="155" type="curve" smooth="yes"/>
+      <point x="1275" y="246"/>
+      <point x="1251" y="285"/>
+      <point x="1200" y="285" type="curve" smooth="yes"/>
+      <point x="1056" y="285"/>
+      <point x="940" y="287"/>
+      <point x="862" y="295" type="curve"/>
+      <point x="786" y="76" type="line"/>
+      <point x="962" y="72" type="line"/>
+      <point x="995" y="18"/>
+      <point x="1041" y="-10"/>
+    </contour>
+    <component base="sad-ar.alt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

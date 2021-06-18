@@ -2,10 +2,7 @@
 <glyph name="Endescender-cy" format="2">
   <advance width="1200"/>
   <unicode hex="04A2"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="600" y="710" name="center"/>
-  <anchor x="600" y="1420" name="top"/>
-  <anchor x="20" y="1420" name="topleft"/>
+  <anchor x="600" y="-290" name="bottom"/>
   <outline>
     <contour>
       <point x="915" y="-290" type="line"/>
@@ -28,8 +25,6 @@
           <string>En-cy</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

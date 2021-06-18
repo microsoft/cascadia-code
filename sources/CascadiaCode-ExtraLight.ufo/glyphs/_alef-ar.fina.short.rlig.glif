@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_alef-ar.fina.short.rlig" format="2">
+  <anchor x="0" y="0" name="_overlap"/>
+  <anchor x="333" y="-141" name="bottom"/>
+  <anchor x="294" y="1235" name="top"/>
+  <anchor x="294" y="1171" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="642" y="-3" type="curve" smooth="yes"/>
+      <point x="947" y="-3"/>
+      <point x="1014" y="88"/>
+      <point x="1014" y="229" type="curve" smooth="yes"/>
+      <point x="1014" y="442"/>
+      <point x="665" y="714"/>
+      <point x="193" y="1156" type="curve"/>
+      <point x="123" y="1077" type="line"/>
+      <point x="602" y="632"/>
+      <point x="920" y="388"/>
+      <point x="920" y="216" type="curve" smooth="yes"/>
+      <point x="920" y="113"/>
+      <point x="802" y="91"/>
+      <point x="634" y="91" type="curve" smooth="yes"/>
+      <point x="553" y="91"/>
+      <point x="382" y="95"/>
+      <point x="246" y="106" type="curve"/>
+      <point x="207" y="139" type="line"/>
+      <point x="206" y="10" type="line"/>
+      <point x="404" y="-4"/>
+      <point x="474" y="-3"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

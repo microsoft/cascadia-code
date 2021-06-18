@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tah-ar.medi" format="2">
+  <advance width="1200"/>
+  <unicode hex="FEC4"/>
+  <outline>
+    <contour>
+      <point x="1189" y="-3" type="curve" smooth="yes"/>
+      <point x="1250" y="-3"/>
+      <point x="1265" y="15"/>
+      <point x="1265" y="46" type="curve" smooth="yes"/>
+      <point x="1265" y="78"/>
+      <point x="1253" y="91"/>
+      <point x="1200" y="91" type="curve" smooth="yes"/>
+      <point x="1113" y="91"/>
+      <point x="1060" y="91"/>
+      <point x="943" y="102" type="curve"/>
+      <point x="902" y="49" type="line"/>
+      <point x="965" y="49" type="line"/>
+      <point x="983" y="7"/>
+      <point x="1033" y="-3"/>
+    </contour>
+    <component base="tah-ar.init"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

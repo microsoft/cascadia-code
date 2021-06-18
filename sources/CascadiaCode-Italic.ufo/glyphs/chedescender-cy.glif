@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chedescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04B7"/>
+  <outline>
+    <contour>
+      <point x="976" y="-321" type="line"/>
+      <point x="1010" y="-228"/>
+      <point x="1063" y="5"/>
+      <point x="1081" y="160" type="curve"/>
+      <point x="1021" y="156"/>
+      <point x="961" y="153"/>
+      <point x="901" y="149" type="curve"/>
+      <point x="871" y="0" type="line" smooth="yes"/>
+      <point x="854" y="-85"/>
+      <point x="826" y="-190"/>
+      <point x="793" y="-281" type="curve"/>
+    </contour>
+    <component base="che-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

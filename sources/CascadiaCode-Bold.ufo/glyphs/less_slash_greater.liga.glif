@@ -3,26 +3,26 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="3" y="189" type="line"/>
-      <point x="977" y="575" type="line"/>
-      <point x="977" y="843" type="line"/>
-      <point x="-369" y="1389" type="line"/>
-      <point x="-369" y="1120" type="line"/>
-      <point x="660" y="726" type="line"/>
-      <point x="660" y="692" type="line"/>
-      <point x="3" y="459" type="line"/>
+      <point x="2386" y="189" type="line"/>
+      <point x="3360" y="575" type="line"/>
+      <point x="3360" y="843" type="line"/>
+      <point x="2031" y="1389" type="line"/>
+      <point x="2031" y="1120" type="line"/>
+      <point x="3043" y="726" type="line"/>
+      <point x="3043" y="692" type="line"/>
+      <point x="2386" y="459" type="line"/>
     </contour>
     <contour>
-      <point x="-847" y="39" type="line"/>
-      <point x="-842" y="306" type="line"/>
-      <point x="-1845" y="692" type="line"/>
-      <point x="-1845" y="726" type="line"/>
-      <point x="-1183" y="961" type="line"/>
-      <point x="-1183" y="1231" type="line"/>
-      <point x="-2160" y="843" type="line"/>
-      <point x="-2160" y="575" type="line"/>
+      <point x="1553" y="39" type="line"/>
+      <point x="1558" y="306" type="line"/>
+      <point x="555" y="692" type="line"/>
+      <point x="555" y="726" type="line"/>
+      <point x="1217" y="961" type="line"/>
+      <point x="1217" y="1231" type="line"/>
+      <point x="240" y="843" type="line"/>
+      <point x="240" y="575" type="line"/>
     </contour>
-    <component base="slash" xOffset="-1190"/>
+    <component base="slash" xOffset="1210"/>
   </outline>
   <lib>
     <dict>
@@ -37,8 +37,6 @@
           <string>slash</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

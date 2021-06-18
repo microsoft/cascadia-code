@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefdagesh-hb.BRACKET.500" format="2">
+  <advance width="1200"/>
+  <anchor x="443" y="331" name="_center"/>
+  <outline>
+    <contour>
+      <point x="443" y="241" type="curve" smooth="yes"/>
+      <point x="493" y="241"/>
+      <point x="534" y="281"/>
+      <point x="534" y="331" type="curve" smooth="yes"/>
+      <point x="534" y="381"/>
+      <point x="493" y="422"/>
+      <point x="443" y="422" type="curve" smooth="yes"/>
+      <point x="393" y="422"/>
+      <point x="352" y="381"/>
+      <point x="352" y="331" type="curve" smooth="yes"/>
+      <point x="352" y="281"/>
+      <point x="393" y="241"/>
+    </contour>
+    <component base="alef-hb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
+      <string>[500]</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="983" y="835" type="line"/>
+      <point x="1250" y="835" type="line"/>
+      <point x="1250" y="1085" type="line"/>
+      <point x="983" y="1085" type="line"/>
+    </contour>
+    <contour>
+      <point x="983" y="333" type="line"/>
+      <point x="1250" y="333" type="line"/>
+      <point x="1250" y="583" type="line"/>
+      <point x="983" y="583" type="line"/>
+    </contour>
+    <contour>
+      <point x="-50" y="835" type="line"/>
+      <point x="217" y="835" type="line"/>
+      <point x="217" y="1085" type="line"/>
+      <point x="-50" y="1085" type="line"/>
+    </contour>
+    <contour>
+      <point x="-50" y="333" type="line"/>
+      <point x="217" y="333" type="line"/>
+      <point x="217" y="583" type="line"/>
+      <point x="-50" y="583" type="line"/>
+    </contour>
+    <component base="exclam"/>
+  </outline>
+</glyph>

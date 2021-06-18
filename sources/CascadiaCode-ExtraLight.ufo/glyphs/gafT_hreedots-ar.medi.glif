@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafThreedots-ar.medi" format="2">
+  <advance width="1200"/>
+  <guideline x="424" y="739" angle="0"/>
+  <anchor x="430" y="1850" name="top"/>
+  <outline>
+    <component base="gaf-ar.medi"/>
+    <component base="threedotsupabove-ar.v2" xScale="1.001" xOffset="-109" yOffset="726"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

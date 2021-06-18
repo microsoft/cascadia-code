@@ -16,13 +16,13 @@
     <array>
       <dict>
         <key>angle</key>
-        <integer>0</integer>
+        <integer>180</integer>
         <key>name</key>
         <string> [locked]</string>
         <key>x</key>
-        <integer>1100</integer>
+        <integer>1107</integer>
         <key>y</key>
-        <integer>1080</integer>
+        <integer>333</integer>
       </dict>
       <dict>
         <key>angle</key>
@@ -42,7 +42,7 @@
         <key>x</key>
         <integer>1052</integer>
         <key>y</key>
-        <integer>1500</integer>
+        <integer>-543</integer>
       </dict>
       <dict>
         <key>angle</key>
@@ -50,9 +50,9 @@
         <key>name</key>
         <string> [locked]</string>
         <key>x</key>
-        <integer>1276</integer>
+        <integer>1492</integer>
         <key>y</key>
-        <integer>1440</integer>
+        <integer>-819</integer>
       </dict>
       <dict>
         <key>angle</key>
@@ -66,7 +66,7 @@
       </dict>
       <dict>
         <key>angle</key>
-        <integer>90</integer>
+        <integer>270</integer>
         <key>name</key>
         <string> [locked]</string>
         <key>x</key>
@@ -80,7 +80,7 @@
         <key>name</key>
         <string> [locked]</string>
         <key>x</key>
-        <integer>2160</integer>
+        <integer>2194</integer>
         <key>y</key>
         <integer>332</integer>
       </dict>
@@ -90,13 +90,13 @@
         <key>name</key>
         <string> [locked]</string>
         <key>x</key>
-        <integer>2120</integer>
+        <integer>2154</integer>
         <key>y</key>
         <integer>342</integer>
       </dict>
       <dict>
         <key>angle</key>
-        <integer>90</integer>
+        <integer>270</integer>
         <key>name</key>
         <string> [locked]</string>
         <key>x</key>
@@ -161,6 +161,36 @@
         <integer>958</integer>
         <key>y</key>
         <integer>2226</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string> [locked]</string>
+        <key>x</key>
+        <integer>1117</integer>
+        <key>y</key>
+        <integer>1085</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>90</integer>
+        <key>name</key>
+        <string> [locked]</string>
+        <key>x</key>
+        <integer>1047</integer>
+        <key>y</key>
+        <integer>843</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string> [locked]</string>
+        <key>x</key>
+        <integer>1117</integer>
+        <key>y</key>
+        <integer>575</integer>
       </dict>
     </array>
     <key>italicAngle</key>
@@ -249,11 +279,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <key>postscriptUnderlinePosition</key>
     <integer>-100</integer>
     <key>postscriptUnderlineThickness</key>
-    <integer>50</integer>
-    <key>styleMapFamilyName</key>
-    <string>Cascadia Code</string>
-    <key>styleMapStyleName</key>
-    <string>regular</string>
+    <integer>100</integer>
     <key>styleName</key>
     <string>Bold</string>
     <key>trademark</key>

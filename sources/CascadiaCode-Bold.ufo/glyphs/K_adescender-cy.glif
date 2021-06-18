@@ -2,7 +2,7 @@
 <glyph name="Kadescender-cy" format="2">
   <advance width="1200"/>
   <unicode hex="049A"/>
-  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="590" y="-290" name="bottom"/>
   <anchor x="600" y="1420" name="top"/>
   <outline>
     <contour>
@@ -66,10 +66,4 @@
       <point x="837" y="-5"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

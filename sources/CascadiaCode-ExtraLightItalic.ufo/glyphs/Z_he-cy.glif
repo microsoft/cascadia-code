@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zhe-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="0416"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="757" y="1420" name="top"/>
+  <outline>
+    <contour>
+      <point x="459" y="0" type="line"/>
+      <point x="555" y="0" type="line"/>
+      <point x="805" y="1420" type="line"/>
+      <point x="709" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-70" y="0" type="curve"/>
+      <point x="35" y="0" type="line"/>
+      <point x="136" y="200"/>
+      <point x="233" y="384"/>
+      <point x="409" y="667" type="curve"/>
+      <point x="329" y="708" type="line"/>
+      <point x="141" y="405"/>
+      <point x="36" y="208"/>
+    </contour>
+    <contour>
+      <point x="338" y="630" type="line"/>
+      <point x="895" y="630" type="line"/>
+      <point x="903" y="720" type="line"/>
+      <point x="346" y="720" type="line"/>
+    </contour>
+    <contour>
+      <point x="985" y="0" type="line"/>
+      <point x="1084" y="0" type="line"/>
+      <point x="946" y="688" type="line"/>
+      <point x="856" y="681" type="line"/>
+    </contour>
+    <contour>
+      <point x="409" y="650" type="line"/>
+      <point x="306" y="1420" type="line"/>
+      <point x="208" y="1420" type="line"/>
+      <point x="322" y="654" type="line"/>
+    </contour>
+    <contour>
+      <point x="928" y="641" type="line"/>
+      <point x="1071" y="857"/>
+      <point x="1246" y="1217"/>
+      <point x="1329" y="1420" type="curve"/>
+      <point x="1232" y="1420" type="line"/>
+      <point x="1146" y="1222"/>
+      <point x="981" y="877"/>
+      <point x="845" y="672" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>1010.795</real>
+            <real>-63.731</real>
+          </array>
+          <key>type</key>
+          <string>Minus</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>1081.285</real>
+            <real>-55.901</real>
+          </array>
+          <key>type</key>
+          <string>Minus</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

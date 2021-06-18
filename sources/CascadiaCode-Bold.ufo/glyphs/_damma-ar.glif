@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_damma-ar" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="1229" name="_top"/>
+  <anchor x="599" y="1056" name="_top.dot"/>
+  <anchor x="593" y="1580" name="top"/>
+  <outline>
+    <contour>
+      <point x="330" y="1083" type="line"/>
+      <point x="612" y="1139"/>
+      <point x="822" y="1234"/>
+      <point x="822" y="1407" type="curve" smooth="yes"/>
+      <point x="822" y="1528"/>
+      <point x="746" y="1587"/>
+      <point x="650" y="1587" type="curve" smooth="yes"/>
+      <point x="552" y="1587"/>
+      <point x="474" y="1523"/>
+      <point x="474" y="1412" type="curve" smooth="yes"/>
+      <point x="474" y="1333"/>
+      <point x="518" y="1280"/>
+      <point x="562" y="1251" type="curve"/>
+      <point x="661" y="1314" type="line"/>
+      <point x="619" y="1331"/>
+      <point x="596" y="1355"/>
+      <point x="596" y="1394" type="curve" smooth="yes"/>
+      <point x="596" y="1425"/>
+      <point x="612" y="1447"/>
+      <point x="646" y="1447" type="curve" smooth="yes"/>
+      <point x="678" y="1447"/>
+      <point x="694" y="1425"/>
+      <point x="694" y="1394" type="curve" smooth="yes"/>
+      <point x="694" y="1334"/>
+      <point x="644" y="1302"/>
+      <point x="333" y="1242" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

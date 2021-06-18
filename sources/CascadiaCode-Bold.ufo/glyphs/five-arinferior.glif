@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five-arinferior" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="596" y="-10" type="curve" smooth="yes"/>
+      <point x="729" y="-10"/>
+      <point x="884" y="52"/>
+      <point x="884" y="236" type="curve" smooth="yes"/>
+      <point x="884" y="456"/>
+      <point x="772" y="583"/>
+      <point x="607" y="583" type="curve" smooth="yes"/>
+      <point x="446" y="583"/>
+      <point x="316" y="454"/>
+      <point x="316" y="233" type="curve" smooth="yes"/>
+      <point x="316" y="66"/>
+      <point x="441" y="-10"/>
+    </contour>
+    <contour>
+      <point x="597" y="167" type="curve" smooth="yes"/>
+      <point x="534" y="167"/>
+      <point x="512" y="199"/>
+      <point x="512" y="265" type="curve" smooth="yes"/>
+      <point x="512" y="352"/>
+      <point x="540" y="400"/>
+      <point x="602" y="400" type="curve" smooth="yes"/>
+      <point x="662" y="400"/>
+      <point x="688" y="346"/>
+      <point x="688" y="264" type="curve" smooth="yes"/>
+      <point x="688" y="200"/>
+      <point x="661" y="167"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Small</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

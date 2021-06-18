@@ -2,20 +2,14 @@
 <glyph name="commaaccentcomb" format="2">
   <unicode hex="0326"/>
   <anchor x="600" y="0" name="_bottom"/>
+  <anchor x="600" y="-378" name="bottom"/>
   <outline>
-    <contour>
-      <point x="415" y="-480" type="line"/>
-      <point x="597" y="-480" type="line"/>
-      <point x="714" y="-140" type="line"/>
-      <point x="492" y="-140" type="line"/>
-    </contour>
+    <component base="commaabovecomb" xOffset="-55" yOffset="-1730"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>1200</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

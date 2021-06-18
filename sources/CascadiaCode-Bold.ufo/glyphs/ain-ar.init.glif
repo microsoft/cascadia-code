@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ain-ar.init" format="2">
+  <advance width="1200"/>
+  <unicode hex="FECB"/>
+  <anchor x="663" y="-131" name="bottom"/>
+  <anchor x="663" y="-16" name="bottom.dot"/>
+  <anchor x="660" y="1185" name="top"/>
+  <anchor x="661" y="915" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="-17" y="-10" type="line"/>
+      <point x="560" y="-10"/>
+      <point x="807" y="40"/>
+      <point x="1073" y="97" type="curve"/>
+      <point x="1054" y="377" type="line"/>
+      <point x="919" y="360"/>
+      <point x="824" y="347"/>
+      <point x="741" y="347" type="curve" smooth="yes"/>
+      <point x="570" y="347"/>
+      <point x="540" y="379"/>
+      <point x="540" y="489" type="curve" smooth="yes"/>
+      <point x="540" y="580"/>
+      <point x="607" y="618"/>
+      <point x="734" y="618" type="curve" smooth="yes"/>
+      <point x="802" y="618"/>
+      <point x="891" y="606"/>
+      <point x="972" y="588" type="curve"/>
+      <point x="989" y="831" type="line"/>
+      <point x="897" y="867"/>
+      <point x="793" y="892"/>
+      <point x="690" y="892" type="curve" smooth="yes"/>
+      <point x="447" y="892"/>
+      <point x="283" y="745"/>
+      <point x="283" y="526" type="curve" smooth="yes"/>
+      <point x="283" y="390"/>
+      <point x="324" y="351"/>
+      <point x="384" y="313" type="curve"/>
+      <point x="384" y="260" type="line"/>
+      <point x="512" y="258" type="line"/>
+      <point x="504" y="308" type="line"/>
+      <point x="432" y="291"/>
+      <point x="331" y="285"/>
+      <point x="0" y="285" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

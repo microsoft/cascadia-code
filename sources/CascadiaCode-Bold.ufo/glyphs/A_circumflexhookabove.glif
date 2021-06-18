@@ -2,9 +2,6 @@
 <glyph name="Acircumflexhookabove" format="2">
   <advance width="1200"/>
   <unicode hex="1EA8"/>
-  <anchor x="600" y="0" name="bottom"/>
-  <anchor x="1080" y="10" name="ogonek"/>
-  <anchor x="600" y="2080" name="top"/>
   <outline>
     <component base="A"/>
     <component base="circumflexcomb.case"/>
@@ -12,8 +9,17 @@
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_viet</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>hookabovecomb.case</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

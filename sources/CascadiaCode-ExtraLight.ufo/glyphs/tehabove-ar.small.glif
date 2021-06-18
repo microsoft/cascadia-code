@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehabove-ar.small" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="762" name="_top"/>
+  <anchor x="600" y="532" name="_top.dot"/>
+  <anchor x="589" y="1021" name="top"/>
+  <outline>
+    <contour>
+      <point x="582" y="609" type="curve" smooth="yes"/>
+      <point x="765" y="609"/>
+      <point x="841" y="650"/>
+      <point x="841" y="769" type="curve" smooth="yes"/>
+      <point x="841" y="811"/>
+      <point x="833" y="849"/>
+      <point x="824" y="879" type="curve"/>
+      <point x="749" y="870" type="line"/>
+      <point x="755" y="836"/>
+      <point x="759" y="807"/>
+      <point x="759" y="773" type="curve" smooth="yes"/>
+      <point x="759" y="719"/>
+      <point x="728" y="693"/>
+      <point x="587" y="693" type="curve" smooth="yes"/>
+      <point x="452" y="693"/>
+      <point x="437" y="718"/>
+      <point x="437" y="769" type="curve" smooth="yes"/>
+      <point x="437" y="792"/>
+      <point x="441" y="821"/>
+      <point x="444" y="848" type="curve"/>
+      <point x="377" y="852" type="line"/>
+      <point x="365" y="820"/>
+      <point x="359" y="783"/>
+      <point x="359" y="752" type="curve" smooth="yes"/>
+      <point x="359" y="653"/>
+      <point x="417" y="609"/>
+    </contour>
+    <contour>
+      <point x="547" y="859" type="line"/>
+      <point x="609" y="923" type="line"/>
+      <point x="541" y="984" type="line"/>
+      <point x="480" y="922" type="line"/>
+    </contour>
+    <contour>
+      <point x="647" y="859" type="line"/>
+      <point x="709" y="923" type="line"/>
+      <point x="641" y="984" type="line"/>
+      <point x="580" y="922" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

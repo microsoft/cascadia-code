@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="200" maximum="700" default="400">
+      <map input="200" output="140"/>
+      <map input="300" output="260"/>
+      <map input="350" output="380"/>
+      <map input="400" output="500"/>
+      <map input="600" output="650"/>
+      <map input="700" output="750"/>
+    </axis>
+    <axis tag="ital" name="Italic" minimum="1" maximum="1" default="1"/>
+  </axes>
+  <rules>
+    <rule name="BRACKET.500.750">
+      <conditionset>
+        <condition name="Weight" minimum="500" maximum="750"/>
+      </conditionset>
+      <sub name="fiveeighths" with="fiveeighths.BRACKET.500"/>
+      <sub name="oneeighth" with="oneeighth.BRACKET.500"/>
+      <sub name="onehalf" with="onehalf.BRACKET.500"/>
+      <sub name="onequarter" with="onequarter.BRACKET.500"/>
+      <sub name="seveneighths" with="seveneighths.BRACKET.500"/>
+      <sub name="threeeighths" with="threeeighths.BRACKET.500"/>
+      <sub name="threequarters" with="threequarters.BRACKET.500"/>
+    </rule>
+    <rule name="BRACKET.600.750">
+      <conditionset>
+        <condition name="Weight" minimum="600" maximum="750"/>
+      </conditionset>
+      <sub name="ampersand" with="ampersand.BRACKET.600"/>
+      <sub name="ampersand_ampersand.liga" with="ampersand_ampersand.liga.BRACKET.600"/>
+      <sub name="baht" with="baht.BRACKET.600"/>
+      <sub name="dollar" with="dollar.BRACKET.600"/>
+      <sub name="dollar_greater.liga" with="dollar_greater.liga.BRACKET.600"/>
+      <sub name="less_dollar.liga" with="less_dollar.liga.BRACKET.600"/>
+      <sub name="less_dollar_greater.liga" with="less_dollar_greater.liga.BRACKET.600"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="CascadiaCode-ExtraLightItalic.ufo" name="Cascadia Code ExtraLight Italic" familyname="Cascadia Code" stylename="ExtraLight Italic">
+      <location>
+        <dimension name="Weight" xvalue="140"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="CascadiaCode-Italic.ufo" name="Cascadia Code Italic" familyname="Cascadia Code" stylename="Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="CascadiaCode-BoldItalic.ufo" name="Cascadia Code Bold Italic" familyname="Cascadia Code" stylename="Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="750"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Cascadia Code ExtraLight Italic" familyname="Cascadia Code" stylename="ExtraLight Italic" filename="instance_ufos/CascadiaCode-ExtraLightItalic.ufo" stylemapfamilyname="Cascadia Code ExtraLight" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="140"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>A4690C19-62E3-4552-AAB4-AF5F97C4421F</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Cascadia Code Light Italic" familyname="Cascadia Code" stylename="Light Italic" filename="instance_ufos/CascadiaCode-LightItalic.ufo" stylemapfamilyname="Cascadia Code Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="260"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>7062B15D-7097-4448-A185-D08BD1167FB1</key>
+            <real>0.33333</real>
+            <key>A4690C19-62E3-4552-AAB4-AF5F97C4421F</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Cascadia Code SemiLight Italic" familyname="Cascadia Code" stylename="SemiLight Italic" filename="instance_ufos/CascadiaCode-SemiLightItalic.ufo" stylemapfamilyname="Cascadia Code SemiLight" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="380"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>7062B15D-7097-4448-A185-D08BD1167FB1</key>
+            <real>0.66667</real>
+            <key>A4690C19-62E3-4552-AAB4-AF5F97C4421F</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Cascadia Code Italic" familyname="Cascadia Code" stylename="Italic" filename="instance_ufos/CascadiaCode-Italic.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>7062B15D-7097-4448-A185-D08BD1167FB1</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Cascadia Code SemiBold Italic" familyname="Cascadia Code" stylename="SemiBold Italic" filename="instance_ufos/CascadiaCode-SemiBoldItalic.ufo" stylemapfamilyname="Cascadia Code SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="650"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>7062B15D-7097-4448-A185-D08BD1167FB1</key>
+            <real>0.4</real>
+            <key>84EC96F5-B4D5-4389-883B-FBB110B3398F</key>
+            <real>0.6</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Cascadia Code Bold Italic" familyname="Cascadia Code" stylename="Bold Italic" filename="instance_ufos/CascadiaCode-BoldItalic.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="750"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>84EC96F5-B4D5-4389-883B-FBB110B3398F</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>32D0959D-6118-411E-BC46-DBE7BC1E7C0B</key>
+        <dict>
+          <key>HH</key>
+          <string>190</string>
+          <key>HV</key>
+          <string>200</string>
+          <key>OH</key>
+          <string>184</string>
+          <key>OV</key>
+          <string>210</string>
+          <key>cydeH</key>
+          <string>186</string>
+          <key>nV</key>
+          <string>212</string>
+          <key>oH</key>
+          <string>190</string>
+          <key>oV</key>
+          <string>220</string>
+          <key>tH</key>
+          <string>186</string>
+        </dict>
+        <key>47A123F8-062D-4F48-9577-BC700BC51F36</key>
+        <dict>
+          <key>HH</key>
+          <string>88</string>
+          <key>HV</key>
+          <string>90</string>
+          <key>OH</key>
+          <string>90</string>
+          <key>OV</key>
+          <string>92</string>
+          <key>cydeH</key>
+          <string>90</string>
+          <key>nV</key>
+          <string>94</string>
+          <key>oH</key>
+          <string>92</string>
+          <key>oV</key>
+          <string>96</string>
+          <key>tH</key>
+          <string>90</string>
+        </dict>
+        <key>7062B15D-7097-4448-A185-D08BD1167FB1</key>
+        <dict>
+          <key>HV</key>
+          <string>208</string>
+          <key>OH</key>
+          <string>184</string>
+          <key>OV</key>
+          <string>214</string>
+          <key>nV</key>
+          <string>215</string>
+          <key>oH</key>
+          <string>190</string>
+          <key>oV</key>
+          <string>214</string>
+          <key>tH</key>
+          <string>186</string>
+        </dict>
+        <key>84EC96F5-B4D5-4389-883B-FBB110B3398F</key>
+        <dict>
+          <key>HH</key>
+          <string>266</string>
+          <key>HV</key>
+          <string>266</string>
+          <key>OH</key>
+          <string>252</string>
+          <key>OV</key>
+          <string>278</string>
+          <key>nV</key>
+          <string>275</string>
+          <key>oH</key>
+          <string>257</string>
+          <key>oV</key>
+          <string>287</string>
+          <key>tH</key>
+          <string>249</string>
+        </dict>
+        <key>A38DF493-7C5F-490B-8624-7E8A09AEE4F3</key>
+        <dict>
+          <key>nV</key>
+          <string>270</string>
+          <key>oH</key>
+          <string>257</string>
+          <key>oV</key>
+          <string>287</string>
+          <key>tH</key>
+          <string>250</string>
+        </dict>
+        <key>A4690C19-62E3-4552-AAB4-AF5F97C4421F</key>
+        <dict>
+          <key>HH</key>
+          <string>90</string>
+          <key>HV</key>
+          <string>96</string>
+          <key>OH</key>
+          <string>90</string>
+          <key>OV</key>
+          <string>96</string>
+          <key>nV</key>
+          <string>96</string>
+          <key>oH</key>
+          <string>92</string>
+          <key>oV</key>
+          <string>96</string>
+          <key>tH</key>
+          <string>90</string>
+        </dict>
+        <key>CF6B61C3-38FB-41CB-B8C0-98C1B61AF433</key>
+        <dict>
+          <key>HH</key>
+          <string>254</string>
+          <key>HV</key>
+          <string>276</string>
+          <key>OH</key>
+          <string>265</string>
+          <key>OV</key>
+          <string>290</string>
+          <key>cydeH</key>
+          <string>264</string>
+          <key>nV</key>
+          <string>282</string>
+          <key>oH</key>
+          <string>270</string>
+          <key>oV</key>
+          <string>300</string>
+          <key>tH</key>
+          <string>264</string>
+        </dict>
+      </dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>A.half</string>
+        <string>B.half</string>
+        <string>C.half</string>
+        <string>D.half</string>
+        <string>E.half</string>
+        <string>F.half</string>
+        <string>G.half</string>
+        <string>H.half</string>
+        <string>I.half</string>
+        <string>K.half</string>
+        <string>L.half</string>
+        <string>M.half</string>
+        <string>N.half</string>
+        <string>O.half</string>
+        <string>P.half</string>
+        <string>Q.half</string>
+        <string>R.half</string>
+        <string>S.half</string>
+        <string>T.half</string>
+        <string>U.half</string>
+        <string>V.half</string>
+        <string>X.half</string>
+        <string>Y.half</string>
+        <string>four.half</string>
+        <string>one.half</string>
+        <string>three.half</string>
+        <string>two.half</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

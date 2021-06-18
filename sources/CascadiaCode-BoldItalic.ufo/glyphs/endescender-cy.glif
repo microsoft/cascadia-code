@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="endescender-cy" format="2">
+  <advance width="1200"/>
+  <unicode hex="04A3"/>
+  <anchor x="506" y="0" name="bottom"/>
+  <anchor x="693" y="1060" name="top"/>
+  <outline>
+    <contour>
+      <point x="1001" y="-318" type="line"/>
+      <point x="1047" y="-187"/>
+      <point x="1114" y="98"/>
+      <point x="1118" y="219" type="curve"/>
+      <point x="883" y="203" type="line"/>
+      <point x="853" y="47" type="line"/>
+      <point x="835" y="-41"/>
+      <point x="806" y="-146"/>
+      <point x="765" y="-269" type="curve"/>
+    </contour>
+    <component base="en-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>en-cy</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

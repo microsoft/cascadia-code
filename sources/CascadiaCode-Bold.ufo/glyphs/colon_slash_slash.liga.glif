@@ -2,9 +2,9 @@
 <glyph name="colon_slash_slash.liga" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="colon" xOffset="-2290"/>
-    <component base="slash" xOffset="-320"/>
-    <component base="slash" xOffset="-1280"/>
+    <component base="colon" xOffset="110"/>
+    <component base="slash" xOffset="2080"/>
+    <component base="slash" xOffset="1120"/>
   </outline>
   <lib>
     <dict>
@@ -35,8 +35,6 @@
           <string>slash</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

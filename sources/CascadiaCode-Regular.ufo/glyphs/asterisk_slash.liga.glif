@@ -2,13 +2,7 @@
 <glyph name="asterisk_slash.liga" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="asterisk" xOffset="-1138"/>
-    <component base="slash" xOffset="-58"/>
+    <component base="asterisk" xOffset="62"/>
+    <component base="slash" xOffset="1142"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

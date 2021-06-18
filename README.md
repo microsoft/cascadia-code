@@ -1,6 +1,7 @@
 ![Cascadia Code](/images/cascadia-code.png)
 
 ![Cascadia Code Characters](/images/cascadia-code-characters.png)
+![Cascadia Code Italic Characters](/images/cascadia-code-italic-characters.png)
 
 # Welcome!
 
@@ -49,7 +50,7 @@ Rich Turner, Program Manager: [@richturn_ms](https://twitter.com/richturn_ms)
 _Special thanks_ to:
 - Fira Code – OpenType code for the coding ligatures – [github](https://github.com/tonsky/FiraCode)
 - Nerd Fonts – Centralizing app iconography – [github](https://github.com/ryanoasis/nerd-fonts)
-- Viktoriya Grabowska – Cyrillic Consultant – [@vika_grabowska](https://twitter.com/vika_grabowska)
+- Viktoriya Grabowska – Designer of Cyrillic Italic and Consultant – [@vika_grabowska](https://twitter.com/vika_grabowska)
 - Gerry Leonidas – Greek Consultant – [@gerryleonidas](https://twitter.com/gerryleonidas)
 - Donny Trương – Vietnamese Consultant – [Vietnamese Typography](https://vietnamesetypography.com)
 
