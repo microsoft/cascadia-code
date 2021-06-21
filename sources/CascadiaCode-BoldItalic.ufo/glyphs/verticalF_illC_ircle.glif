@@ -18,21 +18,6 @@ uni25CD
       <point x="804" y="1168" type="line"/>
       <point x="638" y="1169" type="line"/>
     </contour>
-    <component base="whiteCircle" yScale="-1" yOffset="1420"/>
+    <component base="whiteCircle"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>whiteCircle</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>
