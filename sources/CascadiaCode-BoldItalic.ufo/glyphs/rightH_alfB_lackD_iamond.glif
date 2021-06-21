@@ -11,21 +11,6 @@ uni2B17
       <point x="1133" y="710" type="line"/>
       <point x="600" y="1228" type="line"/>
     </contour>
-    <component base="whiteDiamond" xScale="-1" xOffset="1200"/>
+    <component base="whiteDiamond"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>whiteDiamond</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>
