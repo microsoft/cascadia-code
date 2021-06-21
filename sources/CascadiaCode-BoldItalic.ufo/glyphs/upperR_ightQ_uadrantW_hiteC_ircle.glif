@@ -14,21 +14,6 @@ uni25F7
       <point x="692" y="1157" type="line"/>
       <point x="508" y="1157" type="line"/>
     </contour>
-    <component base="whiteCircle" yScale="-1" yOffset="1420"/>
+    <component base="whiteCircle"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>whiteCircle</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -24,21 +24,6 @@ uni25A8
       <point x="150" y="718" type="line"/>
       <point x="150" y="472" type="line"/>
     </contour>
-    <component base="whiteSquare" xScale="-1" xOffset="1200"/>
+    <component base="whiteSquare"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>whiteSquare</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>
