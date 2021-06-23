@@ -23,6 +23,9 @@ Enabling stylistic sets will [vary between applications](https://github.com/tons
 "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'"
 ```
 
+# Character Set
+![Cascadia Code](images/cascadia-code-characters.png)
+![Cascadia Code Italic](images/cascadia-code-italic-characters.png)
 
 # Installation
 
