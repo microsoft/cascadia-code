@@ -31,7 +31,7 @@ Enabling stylistic sets will [vary between applications](https://github.com/tons
 
 **You can download the latest version of Cascadia Code from the releases page here:** [https://github.com/microsoft/cascadia-code/releases](https://github.com/microsoft/cascadia-code/releases)
 
-#####Font formats:
+##### Font formats:
 
 - `ttf variable`: we recommend this version for **all users,** and particularly those on Windows or any other OS that employs TrueType hinting. It offers the greatest diversity of weight options (anything from 200-700).
 - `ttf static`: in the rare situation where the above variable font version is not supported, or a singular weight is preferred to the entire range, static formats are supplied. However, please note they do not have the same degree of hinting quality as the variable font versions.
