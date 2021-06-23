@@ -11,21 +11,6 @@ uni2B14
       <point x="1090" y="221" type="line"/>
       <point x="1090" y="1209" type="line"/>
     </contour>
-    <component base="whiteSquare" xScale="0" xyScale="1" yxScale="1" yScale="0" xOffset="-110" yOffset="110"/>
+    <component base="whiteSquare"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>whiteSquare</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

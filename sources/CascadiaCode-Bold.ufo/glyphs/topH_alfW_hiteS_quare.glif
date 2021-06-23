@@ -12,6 +12,12 @@ uni2B13
       <point x="1075" y="225" type="line"/>
       <point x="1075" y="710" type="line"/>
     </contour>
-    <component base="whiteSquare" xScale="0" xyScale="-1" yxScale="1" yScale="0" xOffset="-110" yOffset="1310"/>
+    <component base="whiteSquare"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>
