@@ -258,11 +258,6 @@ def compile_variable_and_save(
 
     if vtt_compile:
         print(f"[{familyName} {styleName}] Compiling VTT")
-
-        tree = ET.ElementTree()
-        TSICfile = tempfile.NamedTemporaryFile()
-        varFont.saveXML(TSICfile.name, tables=["TSIC"])
-        tree = ET.parse(TSICfile.name)
         vttLib.compile_instructions(varFont, ship=True)
     else:
         file_path = (OUTPUT_TTF_DIR / str(file_stem+"_VTT")).with_suffix(".ttf")
