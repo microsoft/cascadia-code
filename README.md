@@ -8,7 +8,7 @@ Cascadia is a fun new coding font that comes bundled with [Windows Terminal](htt
 -  `Cascadia Mono`: a version of Cascadia that doesn't have ligatures
 -  `Cascadia (Code|Mono) PL`: a version of Cascadia that has embedded Powerline symbols
 
-For the italic, there is a standard `italic` and a `cursive` variant accessible via `ss01` (see below). 
+For the italic, there is a standard `italic` and a `cursive` variant accessible via `ss01` (see [below](https://github.com/microsoft/cascadia-code/blob/main/README.md#to-enable-the-cursive-form-of-the-italic-heres-the-code-you-should-use)). 
 
 # Font features
 ![Coding Ligatures](images/ligatures.png)
