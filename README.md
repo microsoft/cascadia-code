@@ -25,8 +25,7 @@ Enabling stylistic sets will [vary between applications](https://github.com/tons
 
 #### To enable the Cursive form of the italic, here's the code you should use:
 ```
-"editor.fontLigatures": true,
-"editor.fontLigatures": "'ss01'",
+"editor.fontLigatures": "'calt', ''ss01'",
 ```
 
 # Character Sets
