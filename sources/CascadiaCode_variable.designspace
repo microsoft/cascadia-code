@@ -9,7 +9,6 @@
       <map input="600" output="650"/>
       <map input="700" output="750"/>
     </axis>
-    <axis tag="ital" name="Italic" minimum="0" maximum="0" default="0"/>
   </axes>
   <rules>
     <rule name="BRACKET.500.750">
@@ -41,7 +40,6 @@
     <source filename="CascadiaCode-ExtraLight.ufo" name="Cascadia Code ExtraLight" familyname="Cascadia Code" stylename="ExtraLight">
       <location>
         <dimension name="Weight" xvalue="140"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
     <source filename="CascadiaCode-Regular.ufo" name="Cascadia Code Regular" familyname="Cascadia Code" stylename="Regular">
@@ -51,13 +49,11 @@
       <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="500"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
     <source filename="CascadiaCode-Bold.ufo" name="Cascadia Code Bold" familyname="Cascadia Code" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="750"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
   </sources>
@@ -65,7 +61,6 @@
     <instance name="Cascadia Code ExtraLight" familyname="Cascadia Code" stylename="ExtraLight" filename="instance_ufos/CascadiaCode-ExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="140"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -90,7 +85,6 @@
     <instance name="Cascadia Code Light" familyname="Cascadia Code" stylename="Light" filename="instance_ufos/CascadiaCode-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -117,7 +111,6 @@
     <instance name="Cascadia Code SemiLight" familyname="Cascadia Code" stylename="SemiLight" filename="instance_ufos/CascadiaCode-SemiLight.ufo">
       <location>
         <dimension name="Weight" xvalue="380"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -144,7 +137,6 @@
     <instance name="Cascadia Code Regular" familyname="Cascadia Code" stylename="Regular" filename="instance_ufos/CascadiaCode-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -169,7 +161,6 @@
     <instance name="Cascadia Code SemiBold" familyname="Cascadia Code" stylename="SemiBold" filename="instance_ufos/CascadiaCode-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="650"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -196,7 +187,6 @@
     <instance name="Cascadia Code Bold" familyname="Cascadia Code" stylename="Bold" filename="instance_ufos/CascadiaCode-Bold.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="750"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
