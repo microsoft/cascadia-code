@@ -25,7 +25,7 @@ Enabling stylistic sets will [vary between applications](https://github.com/tons
 
 #### To enable the Cursive form of the italic, here's the code you should use:
 ```
-"editor.fontLigatures": "'calt', ''ss01'",
+"editor.fontLigatures": "'calt', 'ss01'",
 ```
 If you're using an environment that does not support the `ss01` OT feature, one option to consider is [opentype-feature-freezer](https://github.com/twardoch/fonttools-opentype-feature-freezer/).
 
