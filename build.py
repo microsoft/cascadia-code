@@ -265,7 +265,6 @@ def compile_variable_and_save(
     varFont["head"].flags = 0x000b
 
     if "Regular" in styleName:
-        varFont["name"].setName(familyName.replace(" Regular",""), 4, 3, 1, 1033)
         varFont["name"].setName(familyName.replace(" ","")+"Roman", 25, 3, 1, 1033)
 
     print(f"[{familyName} {styleName}] Saving")
