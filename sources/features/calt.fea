@@ -1,12 +1,12 @@
 feature calt {
 ### Exclam (for equal see below)
 lookup exclam_equal {
+  sub exclam_equal.liga equal'  by LIG;
   ignore sub exclam exclam' equal;
   ignore sub exclam' equal equal equal;
   ignore sub parenleft question exclam' equal;
   ignore sub parenleft question less exclam' equal;
   ignore sub equal exclam' equal;
-  sub exclam_equal.liga equal'  by LIG;
   sub exclam'           equal   by exclam_equal.liga;
 } exclam_equal;
 
@@ -16,36 +16,37 @@ lookup exclam_equal_equal {
 } exclam_equal_equal;
 
 lookup exclam_exclam {
+  sub exclam_exclam.liga  exclam' by LIG;
   ignore sub exclam exclam' exclam;
   ignore sub exclam' exclam exclam;
   ignore sub parenleft question exclam' exclam;
   ignore sub parenleft question less exclam' exclam;
-  sub exclam_exclam.liga  exclam' by LIG;
   sub exclam'             exclam  by exclam_exclam.liga;
 } exclam_exclam;
 
 lookup exclam_exclam_period {
-  ignore sub exclam_exclam.liga' LIG period period;
   sub exclam_exclam_period.liga LIG  period' by LIG;
+  ignore sub exclam_exclam.liga' LIG period period;
   sub exclam_exclam.liga'       LIG  period  by exclam_exclam_period.liga;
 } exclam_exclam_period;
 
 lookup exclam_period {
+  sub exclam_period.liga  period'  by LIG;
   ignore sub exclam exclam' period;
   ignore sub exclam' period period;
-  sub exclam_period.liga  period'  by LIG;
   sub exclam'             period   by exclam_period.liga;
 } exclam_period;
 
 lookup exclam_colon {
+  sub exclam_colon.liga  	colon'  by LIG;
   ignore sub exclam exclam' colon;
   ignore sub exclam' colon colon;
-  sub exclam_colon.liga  	colon'  by LIG;
   sub exclam'               colon   by exclam_colon.liga;
 } exclam_colon;
 
 ## Equal - Made sense to shift this below the exclam to avoid issues
 lookup equal_equal {
+  sub equal_equal.liga  equal'  by LIG;
   ignore sub equal equal' equal;
   ignore sub equal' equal equal equal;
   ignore sub parenleft question equal' equal;
@@ -58,7 +59,6 @@ lookup equal_equal {
   ignore sub equal' equal [less greater bar slash] ;
   ignore sub equal' equal equal [less greater bar slash] ;
   ignore sub equal' equal [colon exclam] equal;
-  sub equal_equal.liga  equal'  by LIG;
   sub equal'  equal  by equal_equal.liga;
 } equal_equal;
 
@@ -67,27 +67,27 @@ lookup equal_equal_equal {
   sub equal_equal.liga'       LIG   equal  by equal_equal_equal.liga;
 } equal_equal_equal;
 
-# lookup equal_greater_greater {
-#   ignore sub equal' greater greater equal;
-#   ignore sub equal equal' greater greater;
-#   sub equal_greater_greater.liga LIG greater' by LIG;
-#   sub equal_greater_greater.liga greater' greater by LIG;
-#   sub equal' greater greater by equal_greater_greater.liga;
-# } equal_greater_greater;
+lookup equal_greater_greater {
+  sub equal_greater_greater.liga LIG greater' by LIG;
+  sub equal_greater_greater.liga greater' greater by LIG;
+  ignore sub equal' greater greater equal;
+  ignore sub equal equal' greater greater;
+  sub equal' greater greater by equal_greater_greater.liga;
+} equal_greater_greater;
 
-# lookup equal_less_less {
-#   ignore sub equal' less less equal;
-#   ignore sub equal equal' less less;
-#   sub equal_less_less.liga LIG less' by LIG;
-#   sub equal_less_less.liga less' less by LIG;
-#   sub equal' less less by equal_less_less.liga;
-# } equal_less_less;
+lookup equal_less_less {
+  sub equal_less_less.liga LIG less' by LIG;
+  sub equal_less_less.liga less' less by LIG;
+  ignore sub equal' less less equal;
+  ignore sub equal equal' less less;
+  sub equal' less less by equal_less_less.liga;
+} equal_less_less;
 
 ### Less - It is convenient to have this lookup set at the start. 
 lookup less_asciitilde {
+  sub less_asciitilde.liga   asciitilde'  by LIG;
   ignore sub less less' asciitilde;
   ignore sub less' asciitilde asciitilde asciitilde;
-  sub less_asciitilde.liga   asciitilde'  by LIG;
   sub less'                  asciitilde   by less_asciitilde.liga;
 } less_asciitilde;
 
@@ -97,55 +97,55 @@ lookup less_asciitilde_asciitilde {
 } less_asciitilde_asciitilde;
 
 lookup less_asterisk {
+  sub less_asterisk.liga   asterisk'  by LIG;
   ignore sub less less' asterisk;
   ignore sub less' asterisk asterisk;
-  sub less_asterisk.liga   asterisk'  by LIG;
   sub less'                asterisk   by less_asterisk.liga;
 } less_asterisk;
 
 lookup less_dollar {
+  sub less_dollar.liga dollar' by LIG;
   ignore sub less less' dollar;
   ignore sub less' dollar dollar;
-  sub less_dollar.liga dollar' by LIG;
   sub less'            dollar  by less_dollar.liga;
 } less_dollar;
 
 lookup less_equal {
+  sub less_equal.liga   equal'  by LIG;
   ignore sub less less' equal;
   ignore sub less' equal equal;
   ignore sub parenleft question less' equal;
   ignore sub equal less' equal;
   ignore sub less' equal [less greater bar colon exclam slash];
-  sub less_equal.liga   equal'  by LIG;
   sub less'             equal   by less_equal.liga;
 } less_equal;
 
 lookup less_greater {
+  sub less_greater.liga   greater'  by LIG;
   ignore sub less less' greater;
   ignore sub less' greater greater;
-  sub less_greater.liga   greater'  by LIG;
   sub less'               greater   by less_greater.liga;
 } less_greater;
 
 lookup less_plus {
+  sub less_plus.liga  plus'  by LIG;
   ignore sub less less' plus;
   ignore sub less' plus plus;
-  sub less_plus.liga  plus'  by LIG;
   sub less'           plus   by less_plus.liga;
 } less_plus;
 
 lookup less_slash {
+  sub less_slash.liga slash'  by LIG;
   ignore sub less less' slash;
   ignore sub less' slash slash;
-  sub less_slash.liga slash'  by LIG;
   sub less'           slash   by less_slash.liga;
 } less_slash;
 
 lookup less_bar {
+  sub less_bar.liga bar'  by LIG;
   ignore sub less less' bar;
   ignore sub less' bar bar bar bar;
   ignore sub less' bar bar greater;
-  sub less_bar.liga bar'  by LIG;
   sub less'         bar   by less_bar.liga;
 } less_bar;
 
@@ -162,6 +162,7 @@ lookup less_bar_bar_bar {
 # generally it is useful to have the duplicating sequences in a row. This avoids potential badness. 
 
 lookup less_less {
+  sub less_less.liga  less'  by LIG;
   ignore sub less less' less;
   ignore sub less' less less less;
   ignore sub less' less [asterisk plus dollar];
@@ -171,14 +172,13 @@ lookup less_less {
   ignore sub less' less hyphen;
   ignore sub less' less equal [equal less greater bar colon exclam slash];
   ignore sub less' less less [asterisk plus dollar];
-  sub less_less.liga  less'  by LIG;
   sub less'           less   by less_less.liga;
 } less_less;
 
-# lookup less_less_equal {
-#   sub less_less_equal.liga LIG equal' by equal;
-#   sub less_less.liga' LIG equal by less_less_equal.liga;
-# } less_less_equal;
+lookup less_less_equal {
+  sub less_less_equal.liga LIG equal' by equal;
+  sub less_less.liga' LIG equal by less_less_equal.liga;
+} less_less_equal;
 
 lookup less_less_less {
   sub less_less_less.liga   LIG  less'  by LIG;
@@ -186,8 +186,8 @@ lookup less_less_less {
 } less_less_less;
 
 lookup less_asciitilde_greater {
-  ignore sub less_asciitilde.liga' LIG greater greater;
   sub less_asciitilde_greater.liga  LIG  greater'  by LIG;
+  ignore sub less_asciitilde.liga' LIG greater greater;
   sub less_asciitilde.liga'         LIG  greater   by less_asciitilde_greater.liga;
 } less_asciitilde_greater;
 
@@ -207,147 +207,148 @@ lookup less_plus_greater {
 } less_plus_greater;
 
 lookup less_slash_greater {
-  ignore sub less_slash.liga' LIG greater greater;
   sub less_slash_greater.liga LIG   greater'  by LIG;
+  ignore sub less_slash.liga' LIG greater greater;
   sub less_slash.liga'        LIG   greater   by less_slash_greater.liga;
 } less_slash_greater;
 
 lookup less_bar_greater {
-  ignore sub less_bar.liga' LIG greater greater;
   sub less_bar_greater.liga LIG   greater'  by LIG;
+  ignore sub less_bar.liga' LIG greater greater;
   sub less_bar.liga'        LIG   greater   by less_bar_greater.liga;
 } less_bar_greater;
 
 lookup less_exclam_hyphen_hyphen {
-  ignore sub less less' exclam hyphen hyphen;
-  ignore sub less' exclam hyphen hyphen hyphen;
-  ignore sub parenleft question less' exclam hyphen hyphen;
   sub less_exclam_hyphen_hyphen.liga  LIG     LIG       hyphen' by LIG;
   sub less_exclam_hyphen_hyphen.liga  LIG     hyphen'   hyphen  by LIG;
   sub less_exclam_hyphen_hyphen.liga  exclam' hyphen    hyphen  by LIG;
+  ignore sub less less' exclam hyphen hyphen;
+  ignore sub less' exclam hyphen hyphen hyphen;
+  ignore sub parenleft question less' exclam hyphen hyphen;
   sub less'                           exclam  hyphen    hyphen  by less_exclam_hyphen_hyphen.liga;
 } less_exclam_hyphen_hyphen;
 
 
 ### Ampersand
 lookup ampersand_ampersand {
+  sub ampersand_ampersand.liga  ampersand'  by LIG;
   ignore sub ampersand ampersand' ampersand;
   ignore sub ampersand' ampersand ampersand;
-  sub ampersand_ampersand.liga  ampersand'  by LIG;
   sub ampersand'                ampersand   by ampersand_ampersand.liga;
 } ampersand_ampersand;
 
 
 ### Asciicircum
 lookup asciicircum_equal {
+  sub asciicircum_equal.liga    equal'    by LIG;
   ignore sub asciicircum asciicircum' equal;
   ignore sub asciicircum' equal equal;
-  sub asciicircum_equal.liga    equal'    by LIG;
   sub asciicircum'              equal     by asciicircum_equal.liga;
 } asciicircum_equal;
 
 
 ### Asciitilde
 lookup asciitilde_asciitilde {
+  sub asciitilde_asciitilde.liga  asciitilde'   by LIG;
   ignore sub asciitilde asciitilde' asciitilde;
   ignore sub asciitilde' asciitilde asciitilde;
-  sub asciitilde_asciitilde.liga  asciitilde'   by LIG;
   sub asciitilde'                 asciitilde    by asciitilde_asciitilde.liga;
 } asciitilde_asciitilde;
 
 lookup asciitilde_at {
+  sub asciitilde_at.liga  at'   by LIG;
   ignore sub asciitilde asciitilde' at;
   ignore sub asciitilde' at at;
-  sub asciitilde_at.liga  at'   by LIG;
   sub asciitilde'         at    by asciitilde_at.liga;
 } asciitilde_at;
 
 lookup asciitilde_greater {
+  sub asciitilde_greater.liga greater'  by LIG;
   ignore sub asciitilde asciitilde' greater;
   ignore sub asciitilde' greater greater;
-  sub asciitilde_greater.liga greater'  by LIG;
   sub asciitilde'             greater   by asciitilde_greater.liga;
 } asciitilde_greater;
 
 lookup asciitilde_hyphen {
+  sub asciitilde_hyphen.liga  hyphen'   by LIG;
   ignore sub asciitilde asciitilde' hyphen;
   ignore sub asciitilde' hyphen hyphen;
-  sub asciitilde_hyphen.liga  hyphen'   by LIG;
   sub asciitilde'             hyphen    by asciitilde_hyphen.liga;
 } asciitilde_hyphen;
 
 lookup asciitilde_asciitilde_greater {
-  ignore sub asciitilde_asciitilde.liga' LIG greater greater;
   sub asciitilde_asciitilde_greater.liga  LIG  greater'  by LIG;
+  ignore sub asciitilde_asciitilde.liga' LIG greater greater;
   sub asciitilde_asciitilde.liga'         LIG  greater   by asciitilde_asciitilde_greater.liga;
 } asciitilde_asciitilde_greater;
 
 lookup asciitilde_equal {
+  sub asciitilde_equal.liga  equal'   by LIG;
   ignore sub asciitilde asciitilde' equal;
   ignore sub asciitilde' equal equal;
-  sub asciitilde_equal.liga  equal'   by LIG;
   sub asciitilde'             equal    by asciitilde_equal.liga;
 } asciitilde_equal;
 
 
 ### Asterisk
 lookup asterisk_asterisk {
+  sub asterisk_asterisk.liga    asterisk'   by LIG;
   ignore sub asterisk asterisk' asterisk;
   ignore sub asterisk' asterisk asterisk asterisk;
   ignore sub slash asterisk' asterisk;
   ignore sub asterisk' asterisk slash;
-  sub asterisk_asterisk.liga    asterisk'   by LIG;
   sub asterisk'                 asterisk    by asterisk_asterisk.liga;
 } asterisk_asterisk;
 
 lookup asterisk_asterisk_asterisk {
-  ignore sub asterisk_asterisk.liga' LIG asterisk slash;
   sub asterisk_asterisk_asterisk.liga LIG  asterisk'  by LIG;
+  ignore sub asterisk_asterisk.liga' LIG asterisk slash;
   sub asterisk_asterisk.liga'         LIG  asterisk   by asterisk_asterisk_asterisk.liga;
 } asterisk_asterisk_asterisk;
 
 lookup asterisk_greater {
+  sub asterisk_greater.liga   greater'  by LIG;
   ignore sub asterisk asterisk' greater;
   ignore sub asterisk' greater greater;
-  sub asterisk_greater.liga   greater'  by LIG;
   sub asterisk'               greater   by asterisk_greater.liga;
 } asterisk_greater;
 
 lookup asterisk_slash {
+  sub asterisk_slash.liga    slash'   by LIG;
   ignore sub asterisk asterisk' slash;
   ignore sub asterisk' slash slash;
   ignore sub slash asterisk' slash;
   ignore sub asterisk' slash asterisk;
-  sub asterisk_slash.liga    slash'   by LIG;
   sub asterisk'              slash    by asterisk_slash.liga;
 } asterisk_slash;
 
 lookup asterisk_parenright {
+  sub asterisk_parenright.liga  parenright' by LIG;
   ignore sub parenleft asterisk' parenright;
   ignore sub asterisk asterisk' parenright;
   ignore sub asterisk' parenright parenright;
-  sub asterisk_parenright.liga  parenright' by LIG;
   sub asterisk'                 parenright  by asterisk_parenright.liga;
 } asterisk_parenright;
 
 ### Backslash
 lookup backslash_slash {
+  sub backslash_slash.liga  slash'  by LIG;
   ignore sub @NotSpace backslash' slash;
   ignore sub backslash' slash @NotSpace;
-  sub backslash_slash.liga  slash'  by LIG;
   sub backslash'  slash  by backslash_slash.liga;
 } backslash_slash;
 
 lookup backslash_backslash {
+  sub backslash_backslash.liga  backslash'  by LIG;
   ignore sub backslash backslash' backslash;
   ignore sub backslash' backslash backslash;
-  sub backslash_backslash.liga  backslash'  by LIG;
   sub backslash'  backslash  by backslash_backslash.liga;
 } backslash_backslash;
 
 
 ### Bar
 lookup bar_bar {
+  sub bar_bar.liga  bar' by LIG;
   ignore sub bar bar' bar;
   ignore sub bar' bar bar bar;
   ignore sub [hyphen equal] bar' bar;
@@ -358,7 +359,6 @@ lookup bar_bar {
   ignore sub [less greater] bar' bar [less greater];
   ignore sub less bar' bar;
   ignore sub less bar bar';
-  sub bar_bar.liga  bar' by LIG;
   sub bar'          bar  by bar_bar.liga;
 } bar_bar;
 
@@ -368,38 +368,38 @@ lookup bar_bar_bar {
 } bar_bar_bar;
 
 lookup bar_greater {
+  sub bar_greater.liga  greater' by LIG;
   ignore sub bar bar' greater;
   ignore sub bar' greater greater;
   ignore sub less bar bar' greater;
-  sub bar_greater.liga  greater' by LIG;
   sub bar'              greater  by bar_greater.liga;
 } bar_greater;
 
 lookup bar_braceright {
+  sub bar_braceright.liga braceright' by LIG;
   ignore sub bar bar' braceright;
   ignore sub bar' braceright braceright;
   ignore sub braceleft bar' braceright;
-  sub bar_braceright.liga braceright' by LIG;
   sub bar'                braceright  by bar_braceright.liga;
 } bar_braceright;
 
 lookup bar_bracketright {
+  sub bar_bracketright.liga bracketright' by LIG;
   ignore sub bar bar' bracketright;
   ignore sub bar' bracketright bracketright;
   ignore sub bracketleft bar' bracketright;
-  sub bar_bracketright.liga bracketright' by LIG;
   sub bar'                  bracketright  by bar_bracketright.liga;
 } bar_bracketright;
 
 lookup bar_bar_greater {
-  ignore sub bar_bar.liga' LIG greater greater;
   sub bar_bar_greater.liga  LIG   greater' by LIG;
+  ignore sub bar_bar.liga' LIG greater greater;
   sub bar_bar.liga'         LIG   greater  by bar_bar_greater.liga;
 } bar_bar_greater;
 
 lookup bar_bar_bar_greater {
-  ignore sub bar_bar_bar.liga' LIG LIG greater greater;
   sub bar_bar_bar_greater.liga LIG LIG greater'  by LIG;
+  ignore sub bar_bar_bar.liga' LIG LIG greater greater;
   sub bar_bar_bar.liga' LIG LIG greater  by bar_bar_bar_greater.liga;
 
 } bar_bar_bar_greater;
@@ -407,48 +407,48 @@ lookup bar_bar_bar_greater {
 
 ### Brace left
 lookup braceleft_bar {
+  sub braceleft_bar.liga  bar'  by LIG;
   ignore sub braceleft braceleft' bar;
   ignore sub braceleft' bar bar;
   ignore sub braceleft' bar braceright;
-  sub braceleft_bar.liga  bar'  by LIG;
   sub braceleft'          bar   by braceleft_bar.liga;
 } braceleft_bar;
 
 ### Brace right
 lookup braceright_numbersign {
+  sub braceright_numbersign.liga  numbersign'  by LIG;
   ignore sub braceright braceright' numbersign;
   ignore sub braceright' numbersign numbersign;
-  sub braceright_numbersign.liga  numbersign'  by LIG;
   sub braceright'                 numbersign   by braceright_numbersign.liga;
 } braceright_numbersign;
 
 ### Bracket left
 lookup bracketleft_bar {
+  sub bracketleft_bar.liga  bar' by LIG;
   ignore sub bracketleft bracketleft' bar;
   ignore sub bracketleft' bar bar;
   ignore sub bracketleft' bar bracketright;
-  sub bracketleft_bar.liga  bar' by LIG;
   sub bracketleft'          bar  by bracketleft_bar.liga;
 } bracketleft_bar;
 
 
 ### Bracket right
 lookup bracketright_numbersign {
+  sub bracketright_numbersign.liga  numbersign'  by LIG;
   ignore sub bracketright bracketright' numbersign;
   ignore sub bracketright' numbersign numbersign;
-  sub bracketright_numbersign.liga  numbersign'  by LIG;
   sub bracketright'                 numbersign   by bracketright_numbersign.liga;
 } bracketright_numbersign;
 
 
 ### Colon
 lookup colon_colon {
+  sub colon_colon.liga  colon'  by LIG;
   ignore sub colon colon' colon;
   ignore sub colon' colon colon colon;
   ignore sub parenleft question colon' colon;
   ignore sub colon' colon [less greater];
   ignore sub [less greater] colon' colon;
-  sub colon_colon.liga  colon'  by LIG;
   sub colon'            colon   by colon_colon.liga;
 } colon_colon;
 
@@ -458,63 +458,64 @@ lookup colon_colon_colon {
 } colon_colon_colon;
 
 lookup colon_equal {
+  sub colon_equal.liga  equal'  by LIG;
   ignore sub colon colon' equal;
   ignore sub colon' equal equal;
   ignore sub parenleft question colon' equal;
   ignore sub equal colon' equal;
-  sub colon_equal.liga  equal'  by LIG;
   sub colon'            equal   by colon_equal.liga;
 } colon_equal;
 
 lookup colon_colon_equal {
-  ignore sub colon_colon.liga' LIG equal equal;
   sub colon_colon_equal.liga  LIG   equal'  by LIG;
+  ignore sub colon_colon.liga' LIG equal equal;
   sub colon_colon.liga'       LIG   equal   by colon_colon_equal.liga;
 } colon_colon_equal;
 
 lookup colon_slash_slash {
-  ignore sub colon colon' slash slash;
-  ignore sub colon' slash slash slash;
   sub colon_slash_slash.liga  LIG     slash' by LIG;
   sub colon_slash_slash.liga  slash'  slash  by LIG;
+  ignore sub colon colon' slash slash;
+  ignore sub colon' slash slash slash;
   sub colon'                  slash   slash  by colon_slash_slash.liga;
 } colon_slash_slash;
 
 
 ## Dollar
 lookup dollar_greater {
+  sub dollar_greater.liga greater'  by LIG;
   ignore sub dollar dollar' greater;
   ignore sub dollar' greater greater;
-  sub dollar_greater.liga greater'  by LIG;
   sub dollar' greater  by dollar_greater.liga;
 } dollar_greater;
 
 ### Hyphen
 lookup hyphen_asciitilde {
+  sub hyphen_asciitilde.liga    asciitilde'  by LIG;
   ignore sub hyphen hyphen' asciitilde;
   ignore sub hyphen' asciitilde asciitilde;
-  sub hyphen_asciitilde.liga    asciitilde'  by LIG;
   sub hyphen'                   asciitilde   by hyphen_asciitilde.liga;
 } hyphen_asciitilde;
 
 lookup hyphen_hyphen {
+  sub hyphen_hyphen.liga   hyphen'  by LIG;
   ignore sub hyphen hyphen' hyphen;
   ignore sub hyphen' hyphen hyphen hyphen;
   ignore sub [less greater bar] hyphen' hyphen;
   ignore sub hyphen' hyphen [less greater bar];
-  sub hyphen_hyphen.liga   hyphen'  by LIG;
   sub hyphen'               hyphen   by hyphen_hyphen.liga;
 } hyphen_hyphen;
 
 lookup hyphen_hyphen_hyphen {
-  ignore sub hyphen_hyphen.liga' LIG hyphen [less greater bar];
   sub hyphen_hyphen_hyphen.liga   LIG    hyphen'   by LIG;
+  ignore sub hyphen_hyphen.liga' LIG hyphen [less greater bar];
   sub hyphen_hyphen.liga'         LIG    hyphen    by hyphen_hyphen_hyphen.liga;
 } hyphen_hyphen_hyphen;
 
 
 ### Greater
 lookup greater_greater {
+  sub greater_greater.liga  greater'  by LIG;
   ignore sub greater greater' greater;
   ignore sub greater' greater greater greater;
   ignore sub [asterisk plus dollar] greater' greater;
@@ -523,7 +524,6 @@ lookup greater_greater {
   ignore sub equal equal greater' greater; # for consistency with other similar operators
   ignore sub greater' greater hyphen;
   ignore sub greater' greater equal [equal less greater bar colon exclam slash];
-  sub greater_greater.liga  greater'  by LIG;
   sub greater'              greater   by greater_greater.liga;
 } greater_greater;
 
@@ -532,17 +532,17 @@ lookup greater_greater_greater {
   sub greater_greater.liga'         LIG   greater   by greater_greater_greater.liga;
 } greater_greater_greater;
 
-# lookup greater_greater_equal {
-#   sub greater_greater_equal.liga  LIG   equal'  by LIG;
-#   sub greater_greater.liga'       LIG   equal   by greater_greater_equal.liga;
-# } greater_greater_equal;
+lookup greater_greater_equal {
+  sub greater_greater_equal.liga  LIG   equal'  by LIG;
+  sub greater_greater.liga'       LIG   equal   by greater_greater_equal.liga;
+} greater_greater_equal;
 
 lookup greater_equal {
+  sub greater_equal.liga  equal'  by LIG;
   ignore sub greater greater' equal;
   ignore sub greater' equal equal;
   ignore sub equal greater' equal;
   ignore sub greater' equal [less greater bar colon exclam slash];
-  sub greater_equal.liga  equal'  by LIG;
   sub greater'            equal   by greater_equal.liga;
 } greater_equal;
 
@@ -550,99 +550,99 @@ lookup greater_equal {
 
 ### Numbersign
 lookup numbersign_braceleft {
+  sub numbersign_braceleft.liga braceleft'  by LIG;
   ignore sub numbersign numbersign' braceleft;
   ignore sub numbersign' braceleft braceleft;
-  sub numbersign_braceleft.liga braceleft'  by LIG;
   sub numbersign'               braceleft   by numbersign_braceleft.liga;
 } numbersign_braceleft;
 
 lookup numbersign_bracketleft {
+  sub numbersign_bracketleft.liga bracketleft'  by LIG;
   ignore sub numbersign numbersign' bracketleft;
   ignore sub numbersign' bracketleft bracketleft;
-  sub numbersign_bracketleft.liga bracketleft'  by LIG;
   sub numbersign'                 bracketleft   by numbersign_bracketleft.liga;
 } numbersign_bracketleft;
 
 lookup numbersign_colon {
+  sub numbersign_colon.liga colon'  by LIG;
   ignore sub numbersign numbersign' colon;
   ignore sub numbersign' colon colon;
-  sub numbersign_colon.liga colon'  by LIG;
   sub numbersign'           colon   by numbersign_colon.liga;
 } numbersign_colon;
 
 lookup numbersign_equal {
+  sub numbersign_equal.liga equal'  by LIG;
   ignore sub numbersign numbersign' equal;
   ignore sub numbersign' equal equal;
-  sub numbersign_equal.liga equal'  by LIG;
   sub numbersign'           equal   by numbersign_equal.liga;
 } numbersign_equal;
 
 lookup numbersign_exclam {
+  sub numbersign_exclam.liga  exclam'  by LIG;
   ignore sub numbersign numbersign' exclam;
   ignore sub numbersign' exclam exclam;
-  sub numbersign_exclam.liga  exclam'  by LIG;
   sub numbersign'             exclam   by numbersign_exclam.liga;
 } numbersign_exclam;
 
 lookup numbersign_parenleft {
+  sub numbersign_parenleft.liga parenleft'  by LIG;
   ignore sub numbersign numbersign' parenleft;
   ignore sub numbersign' parenleft parenleft;
-  sub numbersign_parenleft.liga parenleft'  by LIG;
   sub numbersign'               parenleft   by numbersign_parenleft.liga;
 } numbersign_parenleft;
 
 lookup numbersign_question {
+  sub numbersign_question.liga  question'  by LIG;
   ignore sub numbersign numbersign' question;
   ignore sub numbersign' question question;
-  sub numbersign_question.liga  question'  by LIG;
   sub numbersign'               question   by numbersign_question.liga;
 } numbersign_question;
 
 lookup numbersign_underscore {
+  sub numbersign_underscore.liga  underscore'  by LIG;
   ignore sub numbersign numbersign' underscore;
   ignore sub numbersign' underscore underscore;
-  sub numbersign_underscore.liga  underscore'  by LIG;
   sub numbersign'                 underscore   by numbersign_underscore.liga;
 } numbersign_underscore;
 
 lookup numbersign_underscore_parenleft {
-  ignore sub numbersign_underscore.liga' LIG parenleft parenleft;
   sub numbersign_underscore_parenleft.liga  LIG  parenleft'  by LIG;
+  ignore sub numbersign_underscore.liga' LIG parenleft parenleft;
   sub numbersign_underscore.liga'           LIG  parenleft   by numbersign_underscore_parenleft.liga;
 } numbersign_underscore_parenleft;
 
 
 ### Paren left
 lookup parenleft_asterisk {
+  sub parenleft_asterisk.liga asterisk'  by LIG;
   ignore sub parenleft  parenleft'  asterisk;
   ignore sub parenleft' asterisk    asterisk;
   ignore sub parenleft' asterisk    parenright;
-  sub parenleft_asterisk.liga asterisk'  by LIG;
   sub parenleft'              asterisk   by parenleft_asterisk.liga;
 } parenleft_asterisk;
 
 
 ### Percent
 lookup percent_percent {
+  sub percent_percent.liga  percent'  by LIG;
   ignore sub percent percent' percent;
   ignore sub percent' percent percent;
-  sub percent_percent.liga  percent'  by LIG;
   sub percent'              percent   by percent_percent.liga;
 } percent_percent;
 
 
 ### Period
 lookup period_equal {
+  sub period_equal.liga equal'  by LIG;
   ignore sub period period' equal;
   ignore sub period' equal equal;
-  sub period_equal.liga equal'  by LIG;
   sub period'           equal   by period_equal.liga;
 } period_equal;
 
 lookup period_period {
+  sub period_period.liga period'  by LIG;
   ignore sub period period' period;
   ignore sub period' period period period;
-  sub period_period.liga period'  by LIG;
   sub period'            period   by period_period.liga;
 } period_period;
 
@@ -652,74 +652,74 @@ lookup period_period_period {
 } period_period_period;
 
 lookup period_question {
+  sub period_question.liga  question'  by LIG;
   ignore sub period period' question;
   ignore sub period' question question;
-  sub period_question.liga  question'  by LIG;
   sub period'               question   by period_question.liga;
 } period_question;
 
 lookup period_hyphen {
+  sub period_hyphen.liga  hyphen'  by LIG;
   ignore sub period period' hyphen;
   ignore sub period' hyphen hyphen;
-  sub period_hyphen.liga  hyphen'  by LIG;
   sub period'               hyphen   by period_hyphen.liga;
 } period_hyphen;
 
 lookup period_period_equal {
-  ignore sub period_period.liga' LIG equal equal;
   sub period_period_equal.liga  LIG  equal'  by LIG;
+  ignore sub period_period.liga' LIG equal equal;
   sub period_period.liga'       LIG  equal   by period_period_equal.liga;
 } period_period_equal;
 
 lookup period_period_less {
-  ignore sub period_period.liga' LIG less less;
   sub period_period_less.liga  LIG  less'  by LIG;
+  ignore sub period_period.liga' LIG less less;
   sub period_period.liga'      LIG  less   by period_period_less.liga;
 } period_period_less;
 
 
 ### Plus
 lookup plus_greater {
+  sub plus_greater.liga   greater'  by LIG;
   ignore sub plus plus' greater;
   ignore sub plus' greater greater;
-  sub plus_greater.liga   greater'  by LIG;
   sub plus'               greater   by plus_greater.liga;
 } plus_greater;
 
 lookup plus_plus {
+  sub plus_plus.liga  plus'  by LIG;
   ignore sub plus plus' plus;
   ignore sub plus' plus plus plus;
-  sub plus_plus.liga  plus'  by LIG;
   sub plus'           plus   by plus_plus.liga;
 } plus_plus;
 
 lookup plus_plus_plus {
-  ignore sub plus_plus.liga' LIG plus plus;
   sub plus_plus_plus.liga LIG  plus'  by LIG;
+  ignore sub plus_plus.liga' LIG plus plus;
   sub plus_plus.liga' LIG  plus  by plus_plus_plus.liga;
 } plus_plus_plus;
 
 ### Question
 lookup question_equal {
+  sub question_equal.liga equal'  by LIG;
   ignore sub question question' equal;
   ignore sub question' equal equal;
   ignore sub parenleft question' equal;
   ignore sub less question' equal;
-  sub question_equal.liga equal'  by LIG;
   sub question'           equal   by question_equal.liga;
 } question_equal;
 
 lookup question_period {
+  sub question_period.liga  period'  by LIG;
   ignore sub question question' period;
   ignore sub question' period period;
-  sub question_period.liga  period'  by LIG;
   sub question'             period   by question_period.liga;
 } question_period;
 
 lookup question_question {
+  sub question_question.liga  question'  by LIG;
   ignore sub question question' question;
   ignore sub question' question question;
-  sub question_question.liga  question'  by LIG;
   sub question'               question   by question_question.liga;
 } question_question;
 
@@ -729,44 +729,44 @@ lookup question_question_equal {
 } question_question_equal;
 
 lookup question_colon {
+  sub question_colon.liga  colon'  by LIG;
   ignore sub question question' colon;
   ignore sub question' colon colon;
-  sub question_colon.liga  colon'  by LIG;
   sub question'               colon   by question_colon.liga;
 } question_colon;
 
 ### Semicolon
 lookup semicolon_semicolon {
+  sub semicolon_semicolon.liga  semicolon'  by LIG;
   ignore sub semicolon semicolon' semicolon;
   ignore sub semicolon' semicolon semicolon;
-  sub semicolon_semicolon.liga  semicolon'  by LIG;
   sub semicolon'                semicolon   by semicolon_semicolon.liga;
 } semicolon_semicolon;
 
 
 ### Slash
 lookup slash_asterisk {
+  sub slash_asterisk.liga asterisk'  by LIG;
   ignore sub slash slash' asterisk;
   ignore sub slash' asterisk asterisk;
   ignore sub slash' asterisk slash;
   ignore sub asterisk slash' asterisk;
-  sub slash_asterisk.liga asterisk'  by LIG;
   sub slash'              asterisk   by slash_asterisk.liga;
 } slash_asterisk;
 
 lookup slash_greater {
+  sub slash_greater.liga  greater'  by LIG;
   ignore sub slash slash' greater;
   ignore sub slash' greater greater;
-  sub slash_greater.liga  greater'  by LIG;
   sub slash'              greater   by slash_greater.liga;
 } slash_greater;
 
 lookup slash_slash {
+  sub slash_slash.liga  slash'  by LIG;
   ignore sub slash slash' slash;
   ignore sub slash' slash slash slash;
   ignore sub equal slash' slash;
   ignore sub slash' slash equal;
-  sub slash_slash.liga  slash'  by LIG;
   sub slash'            slash   by slash_slash.liga;
 } slash_slash;
 
@@ -776,28 +776,28 @@ lookup slash_slash_slash {
 } slash_slash_slash;
 
 lookup slash_backslash {
+  sub slash_backslash.liga  backslash'  by LIG;
   ignore sub @NotSpace slash' backslash;
   ignore sub slash' backslash @NotSpace;
-  sub slash_backslash.liga  backslash'  by LIG;
   sub slash'                backslash   by slash_backslash.liga;
 } slash_backslash;
 
 
 ### WWW
 lookup w_w_w {
-  ignore sub w w' w w;
-  ignore sub w' w w w;
   sub w_w_w.liga  LIG  w' by LIG;
   sub w_w_w.liga  w'   w  by LIG;
+  ignore sub w w' w w;
+  ignore sub w' w w w;
   sub w'          w    w  by w_w_w.liga;
 } w_w_w;
 
 #fix rvrn issues :/
 
 lookup less_dollar_rvrn {
+  sub less_dollar.liga.BRACKET.600 dollar.BRACKET.600' by LIG;
   ignore sub less less' dollar.BRACKET.600;
   ignore sub less' dollar.BRACKET.600 dollar.BRACKET.600;
-  sub less_dollar.liga.BRACKET.600 dollar.BRACKET.600' by LIG;
   sub less'            		         dollar.BRACKET.600  by less_dollar.liga.BRACKET.600;
 } less_dollar_rvrn;
 
@@ -807,9 +807,9 @@ lookup less_dollar_greater_rvrn {
 } less_dollar_greater_rvrn;
 
 lookup dollar_greater_rvrn {
+  sub dollar_greater.liga.BRACKET.600 greater'  by LIG;
   ignore sub dollar.BRACKET.600 dollar.BRACKET.600' greater;
   ignore sub dollar.BRACKET.600' greater greater;
-  sub dollar_greater.liga.BRACKET.600 greater'  by LIG;
   sub dollar.BRACKET.600'             greater  by dollar_greater.liga.BRACKET.600;
 } dollar_greater_rvrn;
 
