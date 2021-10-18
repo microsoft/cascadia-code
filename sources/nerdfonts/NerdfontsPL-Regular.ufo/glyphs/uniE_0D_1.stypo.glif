@@ -43,11 +43,17 @@ uniE0D1
       <point x="1151" y="1557" type="line"/>
       <point x="1151" y="1430" type="line"/>
     </contour>
+    <contour>
+      <point x="0" y="-480" type="line"/>
+      <point x="0" y="1900" type="line"/>
+      <point x="-100" y="1900" type="line"/>
+      <point x="-100" y="-480" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/07/23 18:20:43</string>
+      <string>2021/10/18 18:04:23</string>
       <key>public.markColor</key>
       <string>0.65,0.48,0.2,1</string>
     </dict>

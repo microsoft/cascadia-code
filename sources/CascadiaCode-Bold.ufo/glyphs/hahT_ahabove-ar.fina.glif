@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="hah-ar.fina"/>
-    <component base="uniFBC0" xOffset="-34" yOffset="301"/>
+    <component base="_tahabove" xOffset="1" yOffset="523"/>
   </outline>
   <lib>
     <dict>
@@ -11,11 +11,11 @@
       <array>
         <dict>
           <key>anchor</key>
-          <string>top.dot</string>
+          <string>top</string>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uniFBC0</string>
+          <string>_tahabove</string>
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>

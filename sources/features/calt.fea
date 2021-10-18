@@ -1013,12 +1013,6 @@ lookup arabiclong1 {
   sub @NRW' by @EXD;
 } arabiclong1;
 
-lookup dlig_RTL {
-lookupflag IgnoreMarks RightToLeft;
-	sub lam-ar.init lam-ar.medi heh-ar.fina by lam_lam_heh-ar;
-	sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
-} dlig_RTL;
-
 lookup arabiclong2 {
   script arab;  
   lookupflag IgnoreMarks RightToLeft;
@@ -1096,6 +1090,7 @@ lookup arabiclong2 {
   sub fehDotless-ar.alt' by fehDotless-ar.alt LIG;
   sub fehDotless-ar.fina.alt' by fehDotless-ar.fina.alt LIG;
   sub fehDotMovedbelow-ar.alt' by fehDotMovedbelow-ar.alt LIG;
+  sub fehDotMovedbelow-ar.fina.alt' by fehDotMovedbelow-ar.fina.alt LIG;
   sub fehDotbelow-ar.alt' by fehDotbelow-ar.alt LIG;
   sub fehDotbelow-ar.fina.alt' by fehDotbelow-ar.fina.alt LIG;
   sub fehThreedotsbelow-ar.alt' by fehThreedotsbelow-ar.alt LIG;
@@ -1128,54 +1123,19 @@ lookup arabiclong2 {
   sub tehTehabove-ar.fina.alt' by tehTehabove-ar.fina.alt LIG;  
   sub kafswash-ar.alt' by kafswash-ar.alt LIG;
   sub kafswash-ar.fina.alt' by kafswash-ar.fina.alt LIG;
+
+  sub alef-ar' lam-ar.init lam-ar.medi heh-ar.fina by LIG alef-ar;
+  ignore sub alef-ar lam-ar.init' lam-ar.medi heh-ar.fina;
+  sub lam-ar.init' lam-ar.medi heh-ar.fina by LIG lam-ar.init;
 } arabiclong2;
 
-lookup arabiclong3{
-  script arab;  
-  lookupflag RightToLeft;
+lookup dlig_RTL {
+lookupflag IgnoreMarks RightToLeft;
 
-  #Gotta make those ligatures work proper
+  sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
+  sub lam-ar.init lam-ar.medi heh-ar.fina by lam_lam_heh-ar;
 
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal @vocal wasla-ar'      by wasla-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal @vocal alefabove-ar'  by alefabove-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal @vocal fatha-ar'      by fatha-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal @vocal damma-ar'      by damma-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal @vocal kasra-ar'      by kasra-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal @vocal shadda-ar'     by shadda-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal @vocal sukun-ar'      by sukun-ar LIG;
-
-  ignore sub [lam_lam_heh-ar allah-ar] @vocal @vocal @vocal' @vocal;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal wasla-ar'     by wasla-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal alefabove-ar' by alefabove-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal fatha-ar'     by fatha-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal damma-ar'     by damma-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal kasra-ar'     by kasra-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal shadda-ar'    by shadda-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal @vocal sukun-ar'     by sukun-ar LIG;
-
-  ignore sub [lam_lam_heh-ar allah-ar] @vocal @vocal' @vocal;
-  sub [lam_lam_heh-ar allah-ar] @vocal wasla-ar'      by wasla-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal alefabove-ar'  by alefabove-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal fatha-ar'      by fatha-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal damma-ar'      by damma-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal kasra-ar'      by kasra-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal shadda-ar'     by shadda-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] @vocal sukun-ar'      by sukun-ar LIG;
-
-  ignore sub [lam_lam_heh-ar allah-ar] @vocal' @vocal;
-  sub [lam_lam_heh-ar allah-ar] wasla-ar'     by wasla-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] alefabove-ar' by alefabove-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] fatha-ar'     by fatha-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] damma-ar'     by damma-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] kasra-ar'     by kasra-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] shadda-ar'    by shadda-ar LIG;
-  sub [lam_lam_heh-ar allah-ar] sukun-ar'     by sukun-ar LIG;
-
-  ignore sub [lam_lam_heh-ar allah-ar]' @vocal;
-  sub lam_lam_heh-ar' by lam_lam_heh-ar LIG;
-  sub allah-ar' by allah-ar LIG;
-  
-} arabiclong3;
+} dlig_RTL;
 
 lookup condensedar {
   script arab;  

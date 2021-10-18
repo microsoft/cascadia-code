@@ -4,7 +4,7 @@
   <unicode hex="0679"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="uniFBC0" xOffset="-10" yOffset="2"/>
+    <component base="_tahabove" xOffset="22" yOffset="314"/>
   </outline>
   <lib>
     <dict>
@@ -12,11 +12,11 @@
       <array>
         <dict>
           <key>anchor</key>
-          <string>top.dot</string>
+          <string>top</string>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uniFBC0</string>
+          <string>_tahabove</string>
         </dict>
       </array>
       <key>public.markColor</key>

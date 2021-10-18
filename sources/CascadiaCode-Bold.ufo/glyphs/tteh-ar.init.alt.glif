@@ -4,7 +4,7 @@
   <anchor x="0" y="0" name="overlap"/>
   <outline>
     <component base="behDotless-ar.init.alt"/>
-    <component base="uniFBC0" xOffset="275" yOffset="254"/>
+    <component base="_tahabove" xOffset="304" yOffset="496"/>
   </outline>
   <lib>
     <dict>
@@ -12,11 +12,11 @@
       <array>
         <dict>
           <key>anchor</key>
-          <string>top.dot</string>
+          <string>top</string>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uniFBC0</string>
+          <string>_tahabove</string>
         </dict>
       </array>
       <key>public.markColor</key>

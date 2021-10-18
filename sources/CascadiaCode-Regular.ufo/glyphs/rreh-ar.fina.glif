@@ -1,10 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rreh-ar.fina" format="2">
   <advance width="1200"/>
-  <unicode hex="FB8D"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="uniFBC0" xOffset="30" yOffset="12"/>
+    <component base="_tahabove" xOffset="63" yOffset="223"/>
   </outline>
   <lib>
     <dict>
@@ -12,11 +11,11 @@
       <array>
         <dict>
           <key>anchor</key>
-          <string>top.dot</string>
+          <string>top</string>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uniFBC0</string>
+          <string>_tahabove</string>
         </dict>
       </array>
       <key>public.markColor</key>

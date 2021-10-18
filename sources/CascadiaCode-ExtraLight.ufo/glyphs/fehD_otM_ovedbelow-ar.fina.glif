@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni08BB.medi" format="2">
+<glyph name="fehDotMovedbelow-ar.fina" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="fehDotless-ar.medi"/>
-    <component base="dotbelow-ar" xOffset="-17" yOffset="-24"/>
+    <component base="fehDotless-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="249" yOffset="-24"/>
   </outline>
   <lib>
     <dict>
@@ -18,14 +18,8 @@
           <string>dotbelow-ar</string>
         </dict>
       </array>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>arabic</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

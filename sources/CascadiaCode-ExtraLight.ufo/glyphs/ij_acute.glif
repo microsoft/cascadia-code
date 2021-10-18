@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ij_acute" format="2">
   <advance width="1200"/>
-  <anchor x="600" y="0" name="bottom"/>
+  <anchor x="600" y="-480" name="bottom"/>
   <anchor x="600" y="1480" name="top"/>
   <outline>
     <contour>
@@ -31,7 +31,7 @@
       <point x="842" y="1060" type="line"/>
     </contour>
     <component base="acutecomb" xOffset="379"/>
-    <component base="acutecomb" xOffset="-180"/>
+    <component base="acutecomb" xOffset="-150"/>
   </outline>
   <lib>
     <dict>
