@@ -4,7 +4,7 @@
   <outline>
     <component base="dal-ar.fina"/>
     <component base="dotbelow-ar" xOffset="-40" yOffset="-24"/>
-    <component base="uniFBC0" xOffset="36" yOffset="401"/>
+    <component base="_tahabove" xOffset="72" yOffset="612"/>
   </outline>
   <lib>
     <dict>
@@ -20,11 +20,11 @@
         </dict>
         <dict>
           <key>anchor</key>
-          <string>top.dot</string>
+          <string>top</string>
           <key>index</key>
           <integer>2</integer>
           <key>name</key>
-          <string>uniFBC0</string>
+          <string>_tahabove</string>
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>

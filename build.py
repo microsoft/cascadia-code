@@ -22,8 +22,8 @@ import vttLib
 import vttLib.transfer
 from vttmisc import tsi1, tsic
 
-VERSION_YEAR_MONTH = 2106
-VERSION_DAY = 17
+VERSION_YEAR_MONTH = 2110
+VERSION_DAY = 15
 OUTPUT_DIR = Path("build")
 OUTPUT_OTF_DIR = OUTPUT_DIR / "otf"
 OUTPUT_TTF_DIR = OUTPUT_DIR / "ttf"
@@ -241,6 +241,7 @@ def compile_variable_and_save(
         font_vtt = fontTools.ttLib.TTFont(ITALIC_VTT_DATA_FILE)
     else:
         font_vtt = fontTools.ttLib.TTFont(VTT_DATA_FILE)
+    
 
     for table in ["TSI0", "TSI1", "TSI2", "TSI3", "TSI5", "TSIC", "maxp"]:
         varFont[table] = fontTools.ttLib.newTable(table)
@@ -260,7 +261,6 @@ def compile_variable_and_save(
     # last minute manual corrections to set things correctly
     # set two flags to enable proper rendering (one for overlaps in Mac, the other for windows hinting)
     # Helping mac office generage the postscript name correctly for variable fonts when an italic is present
-
     set_overlap_flag(varFont)
     varFont["head"].flags = 0x000b
 

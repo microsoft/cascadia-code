@@ -7,8 +7,8 @@ uniE0C8
 </note>
   <outline>
     <contour>
-      <point x="4" y="-479" type="line"/>
-      <point x="49" y="-479"/>
+      <point x="0" y="-480" type="line"/>
+      <point x="45" y="-480"/>
       <point x="63" y="-480"/>
       <point x="102" y="-457" type="curve" smooth="yes"/>
       <point x="111" y="-452"/>
@@ -517,21 +517,23 @@ uniE0C8
       <point x="41" y="2217"/>
       <point x="36" y="2218" type="curve"/>
       <point x="29" y="2223"/>
-      <point x="21" y="2226"/>
-      <point x="13" y="2226" type="curve" smooth="yes"/>
-      <point x="10" y="2226"/>
-      <point x="6" y="2226"/>
-      <point x="3" y="2225" type="curve"/>
-      <point x="0" y="2219" type="line"/>
-      <point x="1" y="-473" type="line"/>
+      <point x="18" y="2226"/>
+      <point x="10" y="2226" type="curve"/>
+      <point x="0" y="2226" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-480" type="line"/>
+      <point x="0" y="2226" type="line"/>
+      <point x="-100" y="2226" type="line"/>
+      <point x="-100" y="-480" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/07/23 18:20:43</string>
+      <string>2021/10/18 18:04:57</string>
       <key>public.markColor</key>
-      <string>0.65,0.48,0.2,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -5,8 +5,8 @@
   <anchor x="760" y="885" name="top"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="dotabove-ar" xOffset="-5" yOffset="-573"/>
-    <component base="dotbelow-ar" xScale="1.001" xOffset="-216" yOffset="-398"/>
+    <component base="dotabove-ar" xOffset="-155" yOffset="-573"/>
+    <component base="dotbelow-ar" xScale="1.001" xOffset="-216" yOffset="-428"/>
   </outline>
   <lib>
     <dict>
@@ -20,9 +20,17 @@
           <key>name</key>
           <string>dotabove-ar</string>
         </dict>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
       </array>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>
