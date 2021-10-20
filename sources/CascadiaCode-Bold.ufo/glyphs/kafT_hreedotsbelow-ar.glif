@@ -2,13 +2,24 @@
 <glyph name="kafThreedotsbelow-ar" format="2">
   <advance width="1200"/>
   <unicode hex="06AE"/>
-  <anchor x="563" y="-618" name="bottom"/>
+  <anchor x="552" y="-648" name="bottom"/>
   <outline>
     <component base="kaf-ar"/>
-    <component base="threedotsupbelow-ar" xScale="0.9" yScale="0.9" xOffset="13" yOffset="-36"/>
+    <component base="threedotsdownbelow-ar" xOffset="-45" yOffset="-18"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsdownbelow-ar</string>
+        </dict>
+      </array>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

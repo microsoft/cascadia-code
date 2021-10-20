@@ -3,21 +3,10 @@
   <advance width="1200"/>
   <outline>
     <component base="behDotless-ar.fina"/>
-    <component base="threedotsdownbelow-ar" xOffset="-18" yOffset="-18"/>
+    <component base="threedotsupbelow-ar" xOffset="-20" yOffset="-24"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>anchor</key>
-          <string>bottom.dot</string>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>threedotsdownbelow-ar</string>
-        </dict>
-      </array>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>
