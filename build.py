@@ -572,7 +572,8 @@ if __name__ == "__main__":
     # Step 1.5: Adding STAT tables in one go
     print ("[Cascadia Variable fonts] Fixing STAT tables")
     fontSTAT = [fontTools.ttLib.TTFont(f) for f in list(OUTPUT_TTF_DIR.glob("*.ttf"))]
-    config = yaml.load(open(INPUT_DIR/"stat.yaml"), Loader=yaml.SafeLoader)
+    with open(INPUT_DIR/"stat.yaml") as f:
+        config = yaml.load(f, Loader=yaml.SafeLoader)
     gen_stat_tables_from_config(config, fontSTAT)
 
     for font in fontSTAT:
