@@ -2,10 +2,10 @@
 <glyph name="_alefFathatan-ar.fina.rlig" format="2">
   <anchor x="0" y="0" name="_overlap"/>
   <anchor x="343" y="-141" name="bottom"/>
-  <anchor x="273" y="1731" name="top"/>
+  <anchor x="273" y="1661" name="top"/>
   <outline>
-    <component base="_alef-ar.fina.rlig"/>
-    <component base="fathatan-ar" xOffset="-302" yOffset="53"/>
+    <component base="_alef-ar.fina.short.rlig"/>
+    <component base="fathatan-ar" xOffset="-305" yOffset="-55"/>
   </outline>
   <lib>
     <dict>
@@ -17,11 +17,11 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>_alef-ar.fina.rlig</string>
+          <string>_alef-ar.fina.short.rlig</string>
         </dict>
       </array>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

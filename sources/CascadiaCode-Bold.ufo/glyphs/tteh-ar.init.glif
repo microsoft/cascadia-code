@@ -1,10 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tteh-ar.init" format="2">
   <advance width="1200"/>
-  <unicode hex="FB68"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="uniFBC0" xOffset="235" yOffset="244"/>
+    <component base="_tahabove" xOffset="264" yOffset="456"/>
   </outline>
   <lib>
     <dict>
@@ -12,11 +11,11 @@
       <array>
         <dict>
           <key>anchor</key>
-          <string>top.dot</string>
+          <string>top</string>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uniFBC0</string>
+          <string>_tahabove</string>
         </dict>
       </array>
       <key>public.markColor</key>

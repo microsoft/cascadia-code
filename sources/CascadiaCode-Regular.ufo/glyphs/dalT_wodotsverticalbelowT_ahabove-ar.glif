@@ -4,8 +4,8 @@
   <unicode hex="0759"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="uniFBC0" xOffset="16" yOffset="411"/>
     <component base="twodotsverticalbelow-ar" xOffset="-30" yOffset="-24"/>
+    <component base="_tahabove" xOffset="52" yOffset="622"/>
   </outline>
   <lib>
     <dict>
@@ -13,19 +13,19 @@
       <array>
         <dict>
           <key>anchor</key>
-          <string>top.dot</string>
+          <string>bottom.dot</string>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uniFBC0</string>
+          <string>twodotsverticalbelow-ar</string>
         </dict>
         <dict>
           <key>anchor</key>
-          <string>bottom.dot</string>
+          <string>top</string>
           <key>index</key>
           <integer>2</integer>
           <key>name</key>
-          <string>twodotsverticalbelow-ar</string>
+          <string>_tahabove</string>
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>

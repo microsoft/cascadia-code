@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehDotMovedbelow-ar.fina" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="fehDotless-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="209" yOffset="-24"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

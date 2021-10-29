@@ -23,6 +23,7 @@
       <dict>
         <key>exclude</key>
         <array>
+          <string>ij_acute</string>
           <string>baht</string>
           <string>bitcoin</string>
           <string>cedi</string>
@@ -62,6 +63,7 @@
           <string>lam_alef-ar.short</string>
           <string>lam_lam_heh-ar</string>
           <string>allah-ar</string>
+          <string>_tahabove</string>
         </array>
         <key>name</key>
         <string>propagateAnchors</string>
@@ -70,7 +72,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1342</string>
+    <string>1352</string>
     <key>com.schriftgestaltung.customName</key>
     <string>Italic</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
@@ -1149,6 +1151,7 @@ Half
       <string>orthogonal</string>
       <string>percent</string>
       <string>perthousand</string>
+      <string>ratio</string>
       <string>strictlyequivalentto</string>
       <string>vectorOrCrossProduct</string>
       <string>greater.alt</string>
@@ -4247,6 +4250,8 @@ Half
       <string>uni2008</string>
       <key>questiongreek</key>
       <string>uni037E</string>
+      <key>ratio</key>
+      <string>uni2236</string>
       <key>rcommaaccent</key>
       <string>uni0157</string>
       <key>rcommaaccent.salt</key>

@@ -3,25 +3,35 @@
   <advance width="1200"/>
   <unicode hex="0609"/>
   <outline>
-    <component base="percent-ar"/>
+    <contour>
+      <point x="243" y="-20" type="line"/>
+      <point x="990" y="1370" type="line"/>
+      <point x="770" y="1440" type="line"/>
+      <point x="23" y="50" type="line"/>
+    </contour>
+    <contour>
+      <point x="635" y="-10" type="line"/>
+      <point x="811" y="168" type="line"/>
+      <point x="615" y="360" type="line"/>
+      <point x="443" y="177" type="line"/>
+    </contour>
+    <contour>
+      <point x="285" y="1039" type="line"/>
+      <point x="475" y="1232" type="line"/>
+      <point x="263" y="1440" type="line"/>
+      <point x="77" y="1242" type="line"/>
+    </contour>
+    <contour>
+      <point x="1009" y="-10" type="line"/>
+      <point x="1186" y="168" type="line"/>
+      <point x="989" y="360" type="line"/>
+      <point x="818" y="177" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>percent-ar</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>=percent-ar</string>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

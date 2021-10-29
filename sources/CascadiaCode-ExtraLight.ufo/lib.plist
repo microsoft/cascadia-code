@@ -13,6 +13,7 @@
       <dict>
         <key>exclude</key>
         <array>
+          <string>ij_acute</string>
           <string>baht</string>
           <string>bitcoin</string>
           <string>cedi</string>
@@ -52,6 +53,7 @@
           <string>lam_alef-ar.short</string>
           <string>lam_lam_heh-ar</string>
           <string>allah-ar</string>
+          <string>_tahabove</string>
         </array>
         <key>name</key>
         <string>propagateAnchors</string>
@@ -60,7 +62,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1342</string>
+    <string>1352</string>
     <key>com.schriftgestaltung.customName</key>
     <string>Extra</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
@@ -71,6 +73,10 @@
         <key>Tag</key>
         <string>wght</string>
       </dict>
+    </array>
+    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+    <array>
+      <string>{}/braceleft_bar.liga</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
@@ -922,6 +928,9 @@ Half
       <string>beheh-ar.medi</string>
       <string>beheh-ar.init</string>
       <string>beheh-ar.init.alt</string>
+      <string>alefMaksura-ar.medi</string>
+      <string>alefMaksura-ar.init</string>
+      <string>alefMaksura-ar.init.alt</string>
       <string>teh-ar</string>
       <string>teh-ar.alt</string>
       <string>teh-ar.fina</string>
@@ -1176,6 +1185,7 @@ Half
       <string>rehAlefabove-ar</string>
       <string>rehAlefabove-ar.fina</string>
       <string>rehLoop-ar</string>
+      <string>rehLoop-ar.fina</string>
       <string>seen-ar</string>
       <string>seen-ar.alt</string>
       <string>seen-ar.fina</string>
@@ -1321,10 +1331,11 @@ Half
       <string>peheh-ar.medi</string>
       <string>peheh-ar.init</string>
       <string>peheh-ar.init.alt</string>
-      <string>uni08BB.medi</string>
-      <string>uni08BB.init</string>
       <string>peheh-ar.alt</string>
       <string>qafDotless-ar</string>
+      <string>qafDotless-ar.medi</string>
+      <string>qafDotless-ar.init</string>
+      <string>qafDotless-ar.init.alt</string>
       <string>qafDotless-ar.fina</string>
       <string>qaf-ar</string>
       <string>qaf-ar.fina</string>
@@ -1800,6 +1811,8 @@ Half
       <string>behMeemabove-ar.init</string>
       <string>behMeemabove-ar.init.alt</string>
       <string>behMeemabove-ar.alt</string>
+      <string>fehDotMovedbelow-ar.init</string>
+      <string>fehDotMovedbelow-ar.medi</string>
       <string>pehMeemabove-ar</string>
       <string>pehMeemabove-ar.fina</string>
       <string>pehMeemabove-ar.fina.alt</string>
@@ -2157,6 +2170,7 @@ Half
       <string>maqaf-hb</string>
       <string>threedots-ar</string>
       <string>doubleverticalbarbelowSymbol-ar</string>
+      <string>doubleverticalbarbelowSymbol-ar.comb</string>
       <string>asteriskArt-ar</string>
       <string>fullstop-ar</string>
       <string>comma-ar</string>
@@ -2251,6 +2265,7 @@ Half
       <string>orthogonal</string>
       <string>percent</string>
       <string>perthousand</string>
+      <string>ratio</string>
       <string>strictlyequivalentto</string>
       <string>vectorOrCrossProduct</string>
       <string>greater.alt</string>
@@ -3238,7 +3253,6 @@ Half
       <string>dagesh-hb</string>
       <string>sindot-hb</string>
       <string>qamatsqatan-hb</string>
-      <string>tahabove-ar</string>
       <string>tahcenter-ar</string>
       <string>tahbelow-ar</string>
       <string>dotabove-ar</string>
@@ -3347,6 +3361,9 @@ Half
       <string>_fourthroot-ar</string>
       <string>_hamzawavy</string>
       <string>_alefFathatan-ar.fina.rlig</string>
+      <string>zainVInvertedabove-ar.fina</string>
+      <string>fehDotMovedbelow-ar.fina</string>
+      <string>fehDotMovedbelow-ar.fina.alt</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
@@ -3868,6 +3885,12 @@ Half
       <string>uniFEF0</string>
       <key>alefMaksura-ar.fina.alt</key>
       <string>uni0649.fina.alt</string>
+      <key>alefMaksura-ar.init</key>
+      <string>uniFBE8</string>
+      <key>alefMaksura-ar.init.alt</key>
+      <string>uni0649.init.alt</string>
+      <key>alefMaksura-ar.medi</key>
+      <string>uniFBE9</string>
       <key>alefMaksuraAlefabove-ar</key>
       <string>uniFC5D</string>
       <key>alefMaksuraAlefabove-ar.fina</key>
@@ -5420,6 +5443,8 @@ Half
       <string>uni2B1A</string>
       <key>doubleverticalbarbelowSymbol-ar</key>
       <string>uniFBBC</string>
+      <key>doubleverticalbarbelowSymbol-ar.comb</key>
+      <string>uniFBBC.comb</string>
       <key>downArrow</key>
       <string>arrowdown</string>
       <key>downBlackSmallTriangle</key>
@@ -5578,6 +5603,14 @@ Half
       <string>fehDotMovedbelowar</string>
       <key>fehDotMovedbelow-ar.alt</key>
       <string>fehDotMovedbelowar.alt</string>
+      <key>fehDotMovedbelow-ar.fina</key>
+      <string>fehDotMovedbelowar.fina</string>
+      <key>fehDotMovedbelow-ar.fina.alt</key>
+      <string>fehDotMovedbelowar.fina.alt</string>
+      <key>fehDotMovedbelow-ar.init</key>
+      <string>fehDotMovedbelowar.init</string>
+      <key>fehDotMovedbelow-ar.medi</key>
+      <string>fehDotMovedbelowar.medi</string>
       <key>fehDotbelow-ar</key>
       <string>uni06A3</string>
       <key>fehDotbelow-ar.alt</key>
@@ -6970,6 +7003,12 @@ Half
       <string>uni066F</string>
       <key>qafDotless-ar.fina</key>
       <string>uni066F.fina</string>
+      <key>qafDotless-ar.init</key>
+      <string>uni066F.init</string>
+      <key>qafDotless-ar.init.alt</key>
+      <string>uni066F.init.alt</string>
+      <key>qafDotless-ar.medi</key>
+      <string>uni066F.medi</string>
       <key>qafThreedotsabove-ar</key>
       <string>uni06A8</string>
       <key>qafThreedotsabove-ar.fina</key>
@@ -6990,6 +7029,8 @@ Half
       <string>uni061F</string>
       <key>questiongreek</key>
       <string>uni037E</string>
+      <key>ratio</key>
+      <string>uni2236</string>
       <key>ray-ar</key>
       <string>uni0608</string>
       <key>rcommaaccent</key>
@@ -7024,6 +7065,8 @@ Half
       <string>uni076C.fina</string>
       <key>rehLoop-ar</key>
       <string>uni08AA</string>
+      <key>rehLoop-ar.fina</key>
+      <string>uni08AA.fina</string>
       <key>rehRing-ar</key>
       <string>uni0693</string>
       <key>rehRing-ar.fina</key>
@@ -7472,8 +7515,6 @@ Half
       <string>uni08A3.init</string>
       <key>tahTwodotsabove-ar.medi</key>
       <string>uni08A3.medi</string>
-      <key>tahabove-ar</key>
-      <string>uni0615</string>
       <key>tahbelow-ar</key>
       <string>tahbelowar</string>
       <key>tahcenter-ar</key>
@@ -8288,6 +8329,8 @@ Half
       <string>uniFEB0</string>
       <key>zainVInvertedabove-ar</key>
       <string>zainVInvertedabovear</string>
+      <key>zainVInvertedabove-ar.fina</key>
+      <string>zainVInvertedabovear.fina</string>
       <key>zayin-hb</key>
       <string>uni05D6</string>
       <key>zayindagesh-hb</key>

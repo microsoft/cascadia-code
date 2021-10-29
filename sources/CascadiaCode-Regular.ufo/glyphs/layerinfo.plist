@@ -954,6 +954,12 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksura-ar.fina.alt</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksura-ar.init</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksura-ar.init.alt</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksura-ar.medi</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksuraAlefabove-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.alefMaksuraAlefabove-ar.fina</key>
@@ -2708,6 +2714,8 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.doubleverticalbarbelowSymbol-ar</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.doubleverticalbarbelowSymbol-ar.comb</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.downArrow</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.downBlackSmallTriangle</key>
@@ -2949,6 +2957,14 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.fehDotMovedbelow-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.fehDotMovedbelow-ar.alt</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.fehDotMovedbelow-ar.fina</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.fehDotMovedbelow-ar.fina.alt</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.fehDotMovedbelow-ar.init</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.fehDotMovedbelow-ar.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.fehDotbelow-ar</key>
       <integer>2</integer>
@@ -4780,6 +4796,12 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qafDotless-ar.fina</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.qafDotless-ar.init</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.qafDotless-ar.init.alt</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.qafDotless-ar.medi</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qafThreedotsabove-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.qafThreedotsabove-ar.fina</key>
@@ -4838,6 +4860,8 @@
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.radical</key>
       <integer>1</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ratio</key>
+      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ray-ar</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.rcaron</key>
@@ -4875,6 +4899,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.rehHamzaabove-ar.fina</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.rehLoop-ar</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.rehLoop-ar.fina</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.rehRing-ar</key>
       <integer>2</integer>
@@ -5398,8 +5424,6 @@
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tahTwodotsabove-ar.medi</key>
       <integer>2</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.tahabove-ar</key>
-      <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tahbelow-ar</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tahcenter-ar</key>
@@ -5801,10 +5825,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.uni08B4.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uni08B9.fina</key>
-      <integer>2</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni08BB.init</key>
-      <integer>2</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni08BB.medi</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uniFBC0</key>
       <integer>1</integer>
@@ -6361,6 +6381,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.zain-ar.fina</key>
       <integer>1</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zainVInvertedabove-ar</key>
+      <integer>2</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.zainVInvertedabove-ar.fina</key>
       <integer>2</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.zayin-hb</key>
       <integer>2</integer>

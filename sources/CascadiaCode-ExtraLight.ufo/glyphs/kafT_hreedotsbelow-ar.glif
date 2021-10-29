@@ -2,10 +2,10 @@
 <glyph name="kafThreedotsbelow-ar" format="2">
   <advance width="1200"/>
   <unicode hex="06AE"/>
-  <anchor x="563" y="-578" name="bottom"/>
+  <anchor x="563" y="-598" name="bottom"/>
   <outline>
     <component base="kaf-ar"/>
-    <component base="threedotsupbelow-ar" xScale="0.96" yScale="0.96" xOffset="-21" yOffset="-18"/>
+    <component base="threedotsdownbelow-ar" xOffset="-45" yOffset="-18"/>
   </outline>
   <lib>
     <dict>
@@ -17,7 +17,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>threedotsupbelow-ar</string>
+          <string>threedotsdownbelow-ar</string>
         </dict>
       </array>
       <key>public.markColor</key>

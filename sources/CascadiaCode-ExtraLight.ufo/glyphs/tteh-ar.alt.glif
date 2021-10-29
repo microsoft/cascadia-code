@@ -3,7 +3,7 @@
   <advance width="1200"/>
   <outline>
     <component base="behDotless-ar.alt"/>
-    <component base="uniFBC0" xOffset="-610" yOffset="2"/>
+    <component base="_tahabove" xOffset="-577" yOffset="314"/>
   </outline>
   <lib>
     <dict>
@@ -11,11 +11,11 @@
       <array>
         <dict>
           <key>anchor</key>
-          <string>top.dot</string>
+          <string>top</string>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uniFBC0</string>
+          <string>_tahabove</string>
         </dict>
       </array>
       <key>public.markColor</key>
