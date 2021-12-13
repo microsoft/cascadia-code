@@ -22,8 +22,8 @@ import vttLib
 import vttLib.transfer
 from vttmisc import tsi1, tsic
 
-VERSION_YEAR_MONTH = 2110
-VERSION_DAY = 31
+VERSION_YEAR_MONTH = 2111
+VERSION_DAY = 01
 OUTPUT_DIR = Path("build")
 OUTPUT_OTF_DIR = OUTPUT_DIR / "otf"
 OUTPUT_TTF_DIR = OUTPUT_DIR / "ttf"
