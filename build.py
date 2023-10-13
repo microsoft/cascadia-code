@@ -22,8 +22,8 @@ import vttLib
 import vttLib.transfer
 from vttmisc import tsi1, tsic
 
-VERSION_YEAR_MONTH = 2110
-VERSION_DAY = 15
+VERSION_YEAR_MONTH = 2111
+VERSION_DAY = 1
 OUTPUT_DIR = Path("build")
 OUTPUT_OTF_DIR = OUTPUT_DIR / "otf"
 OUTPUT_TTF_DIR = OUTPUT_DIR / "ttf"
@@ -572,7 +572,8 @@ if __name__ == "__main__":
     # Step 1.5: Adding STAT tables in one go
     print ("[Cascadia Variable fonts] Fixing STAT tables")
     fontSTAT = [fontTools.ttLib.TTFont(f) for f in list(OUTPUT_TTF_DIR.glob("*.ttf"))]
-    config = yaml.load(open(INPUT_DIR/"stat.yaml"), Loader=yaml.SafeLoader)
+    with open(INPUT_DIR/"stat.yaml") as f:
+        config = yaml.load(f, Loader=yaml.SafeLoader)
     gen_stat_tables_from_config(config, fontSTAT)
 
     for font in fontSTAT:
