@@ -32,6 +32,7 @@ If you're using an environment that does not support the `ss01` OT feature, one 
 # Character Sets
 ![Cascadia Code](images/cascadia-code-characters.png)
 ![Cascadia Code Italic](images/cascadia-code-italic-characters.png)
+![Symbols for Legacy Computing and other block elements](images/cascadia-legacycomputing-characters.png)
 
 # Installation
 
