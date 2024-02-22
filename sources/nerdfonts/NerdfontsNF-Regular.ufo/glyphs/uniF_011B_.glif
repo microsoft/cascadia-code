@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF011B" format="2">
+  <advance width="1200"/>
+  <unicode hex="F011B"/>
+  <note>
+uniF61B
+</note>
+  <outline>
+    <contour>
+      <point x="851" y="361" type="line"/>
+      <point x="851" y="1059" type="line"/>
+      <point x="349" y="1059" type="line"/>
+      <point x="349" y="361" type="line"/>
+      <point x="851" y="361" type="line"/>
+    </contour>
+    <contour>
+      <point x="851" y="1261" type="line"/>
+      <point x="893" y="1258"/>
+      <point x="949" y="1202"/>
+      <point x="949" y="1160" type="qcurve" smooth="yes"/>
+      <point x="949" y="260" type="line" smooth="yes"/>
+      <point x="949" y="218"/>
+      <point x="893" y="161"/>
+      <point x="851" y="159" type="qcurve"/>
+      <point x="349" y="159" type="line"/>
+      <point x="307" y="161"/>
+      <point x="251" y="218"/>
+      <point x="251" y="260" type="qcurve" smooth="yes"/>
+      <point x="251" y="1160" type="line" smooth="yes"/>
+      <point x="251" y="1202"/>
+      <point x="307" y="1258"/>
+      <point x="349" y="1261" type="qcurve"/>
+      <point x="851" y="1261" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
