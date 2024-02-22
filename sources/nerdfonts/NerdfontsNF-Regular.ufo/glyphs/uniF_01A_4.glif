@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF01A4" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01A4"/>
+  <note>
+uniF6A4
+</note>
+  <outline>
+    <contour>
+      <point x="251" y="536" type="line"/>
+      <point x="949" y="536" type="line"/>
+      <point x="1050" y="1085" type="line"/>
+      <point x="776" y="736" type="line"/>
+      <point x="600" y="1085" type="line"/>
+      <point x="424" y="736" type="line"/>
+      <point x="150" y="1085" type="line"/>
+      <point x="251" y="536" type="line"/>
+    </contour>
+    <contour>
+      <point x="949" y="386" type="line"/>
+      <point x="949" y="436" type="line"/>
+      <point x="251" y="436" type="line"/>
+      <point x="251" y="386" type="line" smooth="yes"/>
+      <point x="251" y="365"/>
+      <point x="279" y="337"/>
+      <point x="300" y="335" type="qcurve"/>
+      <point x="900" y="335" type="line"/>
+      <point x="921" y="337"/>
+      <point x="949" y="365"/>
+      <point x="949" y="386" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
