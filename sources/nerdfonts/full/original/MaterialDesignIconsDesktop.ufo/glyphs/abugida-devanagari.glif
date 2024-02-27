@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abugida-devanagari" format="2">
+  <advance width="512"/>
+  <unicode hex="F132A"/>
+  <note>
+abugida-devanagari
+</note>
+  <outline>
+    <contour>
+      <point x="235" y="384" type="line" smooth="yes"/>
+      <point x="273" y="384"/>
+      <point x="332" y="335"/>
+      <point x="339" y="299" type="qcurve"/>
+      <point x="384" y="299" type="line"/>
+      <point x="384" y="256" type="line"/>
+      <point x="341" y="256" type="line"/>
+      <point x="341" y="192" type="line"/>
+      <point x="256" y="192" type="line" smooth="yes"/>
+      <point x="229" y="192"/>
+      <point x="192" y="155"/>
+      <point x="192" y="101"/>
+      <point x="229" y="64"/>
+      <point x="283" y="64"/>
+      <point x="299" y="85" type="qcurve"/>
+      <point x="341" y="85" type="line"/>
+      <point x="341" y="0" type="line"/>
+      <point x="299" y="0" type="line"/>
+      <point x="299" y="36" type="line"/>
+      <point x="280" y="21"/>
+      <point x="256" y="21" type="qcurve" smooth="yes"/>
+      <point x="227" y="21"/>
+      <point x="178" y="50"/>
+      <point x="149" y="99"/>
+      <point x="149" y="157"/>
+      <point x="178" y="206"/>
+      <point x="227" y="235"/>
+      <point x="256" y="235" type="qcurve" smooth="yes"/>
+      <point x="299" y="235" type="line"/>
+      <point x="299" y="256" type="line"/>
+      <point x="128" y="256" type="line"/>
+      <point x="128" y="299" type="line"/>
+      <point x="295" y="299" type="line"/>
+      <point x="288" y="318"/>
+      <point x="255" y="341"/>
+      <point x="235" y="341" type="qcurve" smooth="yes"/>
+      <point x="171" y="341" type="line"/>
+      <point x="171" y="384" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="maximize" format="2">
+  <advance width="512"/>
+  <unicode hex="E25D"/>
+  <note>
+maximize
+</note>
+  <outline>
+    <contour>
+      <point x="500" y="497"/>
+      <point x="500" y="485" type="qcurve" smooth="yes"/>
+      <point x="500" y="27" type="line" smooth="yes"/>
+      <point x="500" y="15"/>
+      <point x="489" y="15" type="qcurve" smooth="yes"/>
+      <point x="23" y="15" type="line" smooth="yes"/>
+      <point x="12" y="15"/>
+      <point x="12" y="27" type="qcurve" smooth="yes"/>
+      <point x="12" y="485" type="line" smooth="yes"/>
+      <point x="12" y="497"/>
+      <point x="23" y="497" type="qcurve" smooth="yes"/>
+      <point x="489" y="497" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="472" y="411" type="line" smooth="yes"/>
+      <point x="472" y="423"/>
+      <point x="460" y="423" type="qcurve" smooth="yes"/>
+      <point x="52" y="423" type="line" smooth="yes"/>
+      <point x="40" y="423"/>
+      <point x="40" y="411" type="qcurve" smooth="yes"/>
+      <point x="40" y="59" type="line" smooth="yes"/>
+      <point x="40" y="48"/>
+      <point x="52" y="48" type="qcurve" smooth="yes"/>
+      <point x="460" y="48" type="line" smooth="yes"/>
+      <point x="472" y="48"/>
+      <point x="472" y="59" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:45:38 +0000</string>
+    </dict>
+  </lib>
+</glyph>

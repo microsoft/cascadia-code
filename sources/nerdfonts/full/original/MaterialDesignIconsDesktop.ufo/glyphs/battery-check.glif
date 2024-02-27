@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="battery-check" format="2">
+  <advance width="512"/>
+  <unicode hex="F17E2"/>
+  <note>
+battery-check
+</note>
+  <outline>
+    <contour>
+      <point x="459" y="98" type="line"/>
+      <point x="434" y="128" type="line"/>
+      <point x="357" y="51" type="line"/>
+      <point x="323" y="85" type="line"/>
+      <point x="299" y="61" type="line"/>
+      <point x="357" y="-3" type="line"/>
+    </contour>
+    <contour>
+      <point x="256" y="15"/>
+      <point x="289" y="-21" type="qcurve"/>
+      <point x="156" y="-21" type="line" smooth="yes"/>
+      <point x="145" y="-21"/>
+      <point x="128" y="-5"/>
+      <point x="128" y="7" type="qcurve" smooth="yes"/>
+      <point x="128" y="334" type="line" smooth="yes"/>
+      <point x="128" y="346"/>
+      <point x="145" y="363"/>
+      <point x="156" y="363" type="qcurve" smooth="yes"/>
+      <point x="192" y="363" type="line"/>
+      <point x="192" y="405" type="line"/>
+      <point x="320" y="405" type="line"/>
+      <point x="320" y="363" type="line"/>
+      <point x="356" y="363" type="line" smooth="yes"/>
+      <point x="367" y="363"/>
+      <point x="384" y="346"/>
+      <point x="384" y="334" type="qcurve" smooth="yes"/>
+      <point x="384" y="192" type="line"/>
+      <point x="349" y="192"/>
+      <point x="290" y="158"/>
+      <point x="256" y="99"/>
+      <point x="256" y="64" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

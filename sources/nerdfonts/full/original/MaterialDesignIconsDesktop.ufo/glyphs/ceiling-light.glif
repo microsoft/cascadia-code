@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ceiling-light" format="2">
+  <advance width="512"/>
+  <unicode hex="F0769"/>
+  <note>
+ceiling-light
+</note>
+  <outline>
+    <contour>
+      <point x="85" y="85" type="line"/>
+      <point x="427" y="85" type="line"/>
+      <point x="341" y="256" type="line"/>
+      <point x="277" y="256" type="line"/>
+      <point x="277" y="363" type="line"/>
+      <point x="235" y="363" type="line"/>
+      <point x="235" y="256" type="line"/>
+      <point x="171" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="64" type="line"/>
+      <point x="213" y="46"/>
+      <point x="238" y="21"/>
+      <point x="274" y="21"/>
+      <point x="299" y="46"/>
+      <point x="299" y="64" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

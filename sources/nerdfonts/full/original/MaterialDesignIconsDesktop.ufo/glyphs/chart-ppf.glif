@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chart-ppf" format="2">
+  <advance width="512"/>
+  <unicode hex="F1380"/>
+  <note>
+chart-ppf
+</note>
+  <outline>
+    <contour>
+      <point x="186" y="320"/>
+      <point x="320" y="252"/>
+      <point x="402" y="134"/>
+      <point x="405" y="64" type="qcurve"/>
+      <point x="363" y="64" type="line"/>
+      <point x="360" y="105"/>
+      <point x="322" y="181"/>
+      <point x="289" y="210" type="qcurve" smooth="yes"/>
+      <point x="254" y="242"/>
+      <point x="158" y="277"/>
+      <point x="107" y="277" type="qcurve"/>
+      <point x="107" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="469" y="43" type="line"/>
+      <point x="85" y="43" type="line"/>
+      <point x="85" y="384" type="line"/>
+      <point x="43" y="384" type="line"/>
+      <point x="43" y="0" type="line"/>
+      <point x="469" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

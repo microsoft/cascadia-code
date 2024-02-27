@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="road" format="2">
+  <advance width="512"/>
+  <unicode hex="F0461"/>
+  <note>
+road
+</note>
+  <outline>
+    <contour>
+      <point x="235" y="21" type="line"/>
+      <point x="277" y="21" type="line"/>
+      <point x="277" y="107" type="line"/>
+      <point x="235" y="107" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="149" type="line"/>
+      <point x="277" y="149" type="line"/>
+      <point x="277" y="235" type="line"/>
+      <point x="235" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="277" type="line"/>
+      <point x="277" y="277" type="line"/>
+      <point x="277" y="363" type="line"/>
+      <point x="235" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="85" y="405" type="line"/>
+      <point x="427" y="405" type="line"/>
+      <point x="427" y="-21" type="line"/>
+      <point x="85" y="-21" type="line"/>
+    </contour>
+  </outline>
+</glyph>

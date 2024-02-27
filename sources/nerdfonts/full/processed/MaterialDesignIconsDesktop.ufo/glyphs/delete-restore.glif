@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="delete-restore" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0819"/>
+  <note>
+delete-restore
+</note>
+  <outline>
+    <contour>
+      <point x="759" y="237" type="line"/>
+      <point x="441" y="237" type="line"/>
+      <point x="441" y="551" type="line"/>
+      <point x="286" y="551" type="line"/>
+      <point x="600" y="869" type="line"/>
+      <point x="914" y="551" type="line"/>
+      <point x="759" y="551" type="line"/>
+    </contour>
+    <contour>
+      <point x="127" y="159" type="line" smooth="yes"/>
+      <point x="127" y="92"/>
+      <point x="219" y="0"/>
+      <point x="286" y="0" type="qcurve" smooth="yes"/>
+      <point x="914" y="0" type="line" smooth="yes"/>
+      <point x="981" y="0"/>
+      <point x="1073" y="92"/>
+      <point x="1073" y="159" type="qcurve" smooth="yes"/>
+      <point x="1073" y="1106" type="line"/>
+      <point x="127" y="1106" type="line"/>
+    </contour>
+    <contour>
+      <point x="877" y="1342" type="line"/>
+      <point x="796" y="1420" type="line"/>
+      <point x="404" y="1420" type="line"/>
+      <point x="323" y="1342" type="line"/>
+      <point x="49" y="1342" type="line"/>
+      <point x="49" y="1183" type="line"/>
+      <point x="1151" y="1183" type="line"/>
+      <point x="1151" y="1342" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-note-plus" format="2">
+  <advance width="512"/>
+  <unicode hex="F0DDE"/>
+  <note>
+music-note-plus
+</note>
+  <outline>
+    <contour>
+      <point x="405" y="256" type="line"/>
+      <point x="405" y="192" type="line"/>
+      <point x="469" y="192" type="line"/>
+      <point x="469" y="149" type="line"/>
+      <point x="405" y="149" type="line"/>
+      <point x="405" y="85" type="line"/>
+      <point x="363" y="85" type="line"/>
+      <point x="363" y="149" type="line"/>
+      <point x="299" y="149" type="line"/>
+      <point x="299" y="192" type="line"/>
+      <point x="363" y="192" type="line"/>
+      <point x="363" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="384" type="line"/>
+      <point x="320" y="299" type="line"/>
+      <point x="235" y="299" type="line"/>
+      <point x="235" y="85" type="line" smooth="yes"/>
+      <point x="235" y="50"/>
+      <point x="185" y="0"/>
+      <point x="114" y="0"/>
+      <point x="64" y="50"/>
+      <point x="64" y="121"/>
+      <point x="114" y="171"/>
+      <point x="149" y="171" type="qcurve" smooth="yes"/>
+      <point x="172" y="171"/>
+      <point x="192" y="159" type="qcurve"/>
+      <point x="192" y="384" type="line"/>
+    </contour>
+  </outline>
+</glyph>

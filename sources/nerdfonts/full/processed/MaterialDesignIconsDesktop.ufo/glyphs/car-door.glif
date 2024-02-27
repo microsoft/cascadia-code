@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="car-door" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0B6B"/>
+  <note>
+car-door
+</note>
+  <outline>
+    <contour>
+      <point x="997" y="467" type="line"/>
+      <point x="813" y="467" type="line"/>
+      <point x="813" y="587" type="line"/>
+      <point x="997" y="587" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="1200" type="line" smooth="yes"/>
+      <point x="1180" y="1226"/>
+      <point x="1146" y="1260"/>
+      <point x="1120" y="1260" type="qcurve" smooth="yes"/>
+      <point x="510" y="1260" type="line"/>
+      <point x="20" y="770" type="line"/>
+      <point x="20" y="160" type="line"/>
+      <point x="1180" y="160" type="line"/>
+    </contour>
+    <contour>
+      <point x="1060" y="1137" type="line"/>
+      <point x="1060" y="770" type="line"/>
+      <point x="192" y="770" type="line"/>
+      <point x="558" y="1137" type="line"/>
+    </contour>
+  </outline>
+</glyph>

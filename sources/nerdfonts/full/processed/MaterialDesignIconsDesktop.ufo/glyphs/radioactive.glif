@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radioactive" format="2">
+  <advance width="1200"/>
+  <unicode hex="F043C"/>
+  <note>
+radioactive
+</note>
+  <outline>
+    <contour>
+      <point x="551" y="849"/>
+      <point x="483" y="781"/>
+      <point x="483" y="683"/>
+      <point x="551" y="615"/>
+      <point x="649" y="615"/>
+      <point x="717" y="683"/>
+      <point x="717" y="781"/>
+      <point x="649" y="849"/>
+      <point x="600" y="849" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="769" y="152"/>
+      <point x="908" y="239" type="qcurve"/>
+      <point x="717" y="530" type="line"/>
+      <point x="663" y="500"/>
+      <point x="537" y="500"/>
+      <point x="483" y="530" type="qcurve"/>
+      <point x="292" y="239" type="line"/>
+      <point x="431" y="152"/>
+      <point x="600" y="152" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="369" y="732" type="line"/>
+      <point x="369" y="800"/>
+      <point x="442" y="914"/>
+      <point x="505" y="944" type="qcurve"/>
+      <point x="374" y="1268" type="line"/>
+      <point x="213" y="1200"/>
+      <point x="20" y="909"/>
+      <point x="20" y="732" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="1180" y="732" type="line"/>
+      <point x="1180" y="909"/>
+      <point x="987" y="1200"/>
+      <point x="826" y="1268" type="qcurve"/>
+      <point x="695" y="944" type="line"/>
+      <point x="758" y="914"/>
+      <point x="831" y="800"/>
+      <point x="831" y="732" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

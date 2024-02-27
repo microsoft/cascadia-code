@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beer-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F130C"/>
+  <note>
+beer-outline
+</note>
+  <outline>
+    <contour>
+      <point x="405" y="405" type="line"/>
+      <point x="363" y="-21" type="line"/>
+      <point x="128" y="-21" type="line"/>
+      <point x="85" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="139" y="303" type="line"/>
+      <point x="149" y="310"/>
+      <point x="160" y="313" type="qcurve" smooth="yes"/>
+      <point x="192" y="323"/>
+      <point x="216" y="312" type="qcurve" smooth="yes"/>
+      <point x="226" y="307"/>
+      <point x="238" y="296" type="qcurve" smooth="yes"/>
+      <point x="243" y="292" type="line" smooth="yes"/>
+      <point x="278" y="265"/>
+      <point x="352" y="294" type="qcurve"/>
+      <point x="358" y="363" type="line"/>
+      <point x="132" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="183" y="275"/>
+      <point x="171" y="272" type="qcurve"/>
+      <point x="171" y="272" type="line"/>
+      <point x="166" y="270"/>
+      <point x="153" y="262" type="qcurve" smooth="yes"/>
+      <point x="144" y="256"/>
+      <point x="143" y="255" type="qcurve"/>
+      <point x="166" y="21" type="line"/>
+      <point x="324" y="21" type="line"/>
+      <point x="347" y="247" type="line"/>
+      <point x="301" y="234"/>
+      <point x="263" y="240" type="qcurve" smooth="yes"/>
+      <point x="235" y="244"/>
+      <point x="217" y="258" type="qcurve" smooth="yes"/>
+      <point x="207" y="266" type="line" smooth="yes"/>
+      <point x="201" y="272"/>
+      <point x="194" y="275"/>
+      <point x="189" y="275" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

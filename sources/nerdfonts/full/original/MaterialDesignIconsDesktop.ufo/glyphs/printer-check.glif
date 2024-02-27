@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="printer-check" format="2">
+  <advance width="512"/>
+  <unicode hex="F1146"/>
+  <note>
+printer-check
+</note>
+  <outline>
+    <contour>
+      <point x="384" y="384" type="line"/>
+      <point x="128" y="384" type="line"/>
+      <point x="128" y="299" type="line"/>
+      <point x="384" y="299" type="line"/>
+    </contour>
+    <contour>
+      <point x="285" y="0" type="line"/>
+      <point x="277" y="21"/>
+      <point x="277" y="43" type="qcurve"/>
+      <point x="171" y="43" type="line"/>
+      <point x="171" y="149" type="line"/>
+      <point x="335" y="149" type="line"/>
+      <point x="367" y="171"/>
+      <point x="405" y="171" type="qcurve" smooth="yes"/>
+      <point x="440" y="171"/>
+      <point x="469" y="153" type="qcurve"/>
+      <point x="469" y="213" type="line" smooth="yes"/>
+      <point x="469" y="240"/>
+      <point x="432" y="277"/>
+      <point x="405" y="277" type="qcurve" smooth="yes"/>
+      <point x="107" y="277" type="line" smooth="yes"/>
+      <point x="80" y="277"/>
+      <point x="43" y="240"/>
+      <point x="43" y="213" type="qcurve" smooth="yes"/>
+      <point x="43" y="85" type="line"/>
+      <point x="128" y="85" type="line"/>
+      <point x="128" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="384" y="222"/>
+      <point x="397" y="235"/>
+      <point x="414" y="235"/>
+      <point x="427" y="222"/>
+      <point x="427" y="205"/>
+      <point x="414" y="192"/>
+      <point x="397" y="192"/>
+      <point x="384" y="205"/>
+      <point x="384" y="213" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="395" y="-21" type="line"/>
+      <point x="320" y="53" type="line"/>
+      <point x="352" y="85" type="line"/>
+      <point x="395" y="43" type="line"/>
+      <point x="469" y="117" type="line"/>
+      <point x="501" y="85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

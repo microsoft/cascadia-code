@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qrcode" format="2">
+  <advance width="1408"/>
+  <unicode hex="F029"/>
+  <note>
+qrcode
+</note>
+  <outline>
+    <contour>
+      <point x="384" y="256" type="line"/>
+      <point x="384" y="384" type="line"/>
+      <point x="256" y="384" type="line"/>
+      <point x="256" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="384" y="1024" type="line"/>
+      <point x="384" y="1152" type="line"/>
+      <point x="256" y="1152" type="line"/>
+      <point x="256" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="1152" y="1024" type="line"/>
+      <point x="1152" y="1152" type="line"/>
+      <point x="1024" y="1152" type="line"/>
+      <point x="1024" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="512" y="129" type="line"/>
+      <point x="128" y="129" type="line"/>
+      <point x="128" y="512" type="line"/>
+      <point x="512" y="512" type="line"/>
+    </contour>
+    <contour>
+      <point x="512" y="896" type="line"/>
+      <point x="128" y="896" type="line"/>
+      <point x="128" y="1280" type="line"/>
+      <point x="512" y="1280" type="line"/>
+    </contour>
+    <contour>
+      <point x="1280" y="896" type="line"/>
+      <point x="896" y="896" type="line"/>
+      <point x="896" y="1280" type="line"/>
+      <point x="1280" y="1280" type="line"/>
+    </contour>
+    <contour>
+      <point x="640" y="0" type="line"/>
+      <point x="640" y="640" type="line"/>
+      <point x="0" y="640" type="line"/>
+      <point x="0" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1152" y="0" type="line"/>
+      <point x="1152" y="128" type="line"/>
+      <point x="1024" y="128" type="line"/>
+      <point x="1024" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1408" y="0" type="line"/>
+      <point x="1408" y="128" type="line"/>
+      <point x="1280" y="128" type="line"/>
+      <point x="1280" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1408" y="256" type="line"/>
+      <point x="1408" y="640" type="line"/>
+      <point x="1280" y="640" type="line"/>
+      <point x="1280" y="512" type="line"/>
+      <point x="1152" y="512" type="line"/>
+      <point x="1152" y="640" type="line"/>
+      <point x="768" y="640" type="line"/>
+      <point x="768" y="0" type="line"/>
+      <point x="896" y="0" type="line"/>
+      <point x="896" y="384" type="line"/>
+      <point x="1024" y="384" type="line"/>
+      <point x="1024" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="640" y="768" type="line"/>
+      <point x="640" y="1408" type="line"/>
+      <point x="0" y="1408" type="line"/>
+      <point x="0" y="768" type="line"/>
+    </contour>
+    <contour>
+      <point x="1408" y="768" type="line"/>
+      <point x="1408" y="1408" type="line"/>
+      <point x="768" y="1408" type="line"/>
+      <point x="768" y="768" type="line"/>
+    </contour>
+  </outline>
+</glyph>

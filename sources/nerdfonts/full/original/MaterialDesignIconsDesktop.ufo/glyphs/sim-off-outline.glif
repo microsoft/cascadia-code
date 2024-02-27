@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sim-off-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F15D4"/>
+  <note>
+sim-off-outline
+</note>
+  <outline>
+    <contour>
+      <point x="445" y="-37" type="line"/>
+      <point x="415" y="-7" type="line"/>
+      <point x="403" y="-21"/>
+      <point x="384" y="-21" type="qcurve" smooth="yes"/>
+      <point x="128" y="-21" type="line" smooth="yes"/>
+      <point x="110" y="-21"/>
+      <point x="85" y="4"/>
+      <point x="85" y="21" type="qcurve" smooth="yes"/>
+      <point x="85" y="277" type="line"/>
+      <point x="108" y="300" type="line"/>
+      <point x="24" y="384" type="line"/>
+      <point x="51" y="411" type="line"/>
+      <point x="472" y="-10" type="line"/>
+    </contour>
+    <contour>
+      <point x="384" y="24" type="line"/>
+      <point x="138" y="270" type="line"/>
+      <point x="128" y="260" type="line"/>
+      <point x="128" y="21" type="line"/>
+      <point x="384" y="21" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="324" type="line"/>
+      <point x="162" y="354" type="line"/>
+      <point x="213" y="405" type="line"/>
+      <point x="384" y="405" type="line" smooth="yes"/>
+      <point x="402" y="405"/>
+      <point x="427" y="380"/>
+      <point x="427" y="363" type="qcurve" smooth="yes"/>
+      <point x="427" y="90" type="line"/>
+      <point x="384" y="132" type="line"/>
+      <point x="384" y="363" type="line"/>
+      <point x="231" y="363" type="line"/>
+    </contour>
+  </outline>
+</glyph>

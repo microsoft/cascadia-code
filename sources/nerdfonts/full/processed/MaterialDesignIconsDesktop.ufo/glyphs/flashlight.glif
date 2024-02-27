@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="flashlight" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0244"/>
+  <note>
+flashlight
+</note>
+  <outline>
+    <contour>
+      <point x="813" y="853" type="line"/>
+      <point x="1027" y="1207" type="line"/>
+      <point x="173" y="1207" type="line"/>
+      <point x="387" y="853" type="line"/>
+    </contour>
+    <contour>
+      <point x="1027" y="1420" type="line"/>
+      <point x="173" y="1420" type="line"/>
+      <point x="173" y="1280" type="line"/>
+      <point x="1027" y="1280" type="line"/>
+    </contour>
+    <contour>
+      <point x="813" y="0" type="line"/>
+      <point x="813" y="780" type="line"/>
+      <point x="387" y="780" type="line"/>
+      <point x="387" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="630" y="640"/>
+      <point x="670" y="597"/>
+      <point x="670" y="537"/>
+      <point x="630" y="497"/>
+      <point x="570" y="497"/>
+      <point x="530" y="537"/>
+      <point x="530" y="597"/>
+      <point x="570" y="640"/>
+      <point x="600" y="640" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

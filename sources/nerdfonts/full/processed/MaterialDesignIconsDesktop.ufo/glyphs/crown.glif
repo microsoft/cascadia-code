@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="crown" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01A5"/>
+  <note>
+crown
+</note>
+  <outline>
+    <contour>
+      <point x="1050" y="453" type="line"/>
+      <point x="1180" y="1160" type="line"/>
+      <point x="827" y="840" type="line"/>
+      <point x="600" y="1227" type="line"/>
+      <point x="373" y="840" type="line"/>
+      <point x="20" y="1160" type="line"/>
+      <point x="150" y="453" type="line"/>
+    </contour>
+    <contour>
+      <point x="1050" y="323" type="line"/>
+      <point x="150" y="323" type="line"/>
+      <point x="150" y="260" type="line" smooth="yes"/>
+      <point x="150" y="230"/>
+      <point x="183" y="193"/>
+      <point x="213" y="193" type="qcurve" smooth="yes"/>
+      <point x="987" y="193" type="line" smooth="yes"/>
+      <point x="1017" y="193"/>
+      <point x="1050" y="230"/>
+      <point x="1050" y="260" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

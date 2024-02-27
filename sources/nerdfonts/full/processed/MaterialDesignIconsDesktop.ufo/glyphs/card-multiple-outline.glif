@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="card-multiple-outline" format="2">
+  <advance width="1200"/>
+  <unicode hex="F17F2"/>
+  <note>
+card-multiple-outline
+</note>
+  <outline>
+    <contour>
+      <point x="336" y="552" type="line"/>
+      <point x="336" y="1078" type="line"/>
+      <point x="1074" y="1078" type="line"/>
+      <point x="1074" y="552" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="1184" type="line" smooth="yes"/>
+      <point x="294" y="1184"/>
+      <point x="232" y="1122"/>
+      <point x="232" y="1078" type="qcurve" smooth="yes"/>
+      <point x="232" y="552" type="line" smooth="yes"/>
+      <point x="232" y="508"/>
+      <point x="294" y="446"/>
+      <point x="336" y="446" type="qcurve" smooth="yes"/>
+      <point x="1074" y="446" type="line" smooth="yes"/>
+      <point x="1118" y="446"/>
+      <point x="1180" y="508"/>
+      <point x="1180" y="552" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1078" type="line" smooth="yes"/>
+      <point x="1180" y="1122"/>
+      <point x="1118" y="1184"/>
+      <point x="1074" y="1184" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="126" y="920" type="line"/>
+      <point x="20" y="920" type="line"/>
+      <point x="20" y="340" type="line" smooth="yes"/>
+      <point x="20" y="298"/>
+      <point x="82" y="236"/>
+      <point x="126" y="236" type="qcurve" smooth="yes"/>
+      <point x="916" y="236" type="line"/>
+      <point x="916" y="340" type="line"/>
+      <point x="126" y="340" type="line"/>
+    </contour>
+  </outline>
+</glyph>

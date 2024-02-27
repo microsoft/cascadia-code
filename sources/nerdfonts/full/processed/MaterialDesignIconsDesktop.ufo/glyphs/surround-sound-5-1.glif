@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="surround-sound-5-1" format="2">
+  <advance width="1200"/>
+  <unicode hex="F07F2"/>
+  <note>
+surround-sound-5-1
+</note>
+  <outline>
+    <contour>
+      <point x="746" y="493" type="line"/>
+      <point x="600" y="493" type="line"/>
+      <point x="600" y="347" type="line"/>
+      <point x="746" y="347" type="line"/>
+    </contour>
+    <contour>
+      <point x="888" y="1073" type="line"/>
+      <point x="888" y="927" type="line"/>
+      <point x="1034" y="927" type="line"/>
+      <point x="1034" y="347" type="line"/>
+      <point x="1180" y="347" type="line"/>
+      <point x="1180" y="1073" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="1073" type="line"/>
+      <point x="20" y="639" type="line"/>
+      <point x="312" y="639" type="line"/>
+      <point x="312" y="493" type="line"/>
+      <point x="20" y="493" type="line"/>
+      <point x="20" y="347" type="line"/>
+      <point x="312" y="347" type="line" smooth="yes"/>
+      <point x="369" y="347"/>
+      <point x="454" y="432"/>
+      <point x="454" y="493" type="qcurve" smooth="yes"/>
+      <point x="454" y="639" type="line" smooth="yes"/>
+      <point x="454" y="696"/>
+      <point x="369" y="781"/>
+      <point x="312" y="781" type="qcurve" smooth="yes"/>
+      <point x="166" y="781" type="line"/>
+      <point x="166" y="927" type="line"/>
+      <point x="454" y="927" type="line"/>
+      <point x="454" y="1073" type="line"/>
+    </contour>
+  </outline>
+</glyph>

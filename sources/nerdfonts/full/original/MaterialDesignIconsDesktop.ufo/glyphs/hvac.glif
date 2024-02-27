@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hvac" format="2">
+  <advance width="512"/>
+  <unicode hex="F1352"/>
+  <note>
+hvac
+</note>
+  <outline>
+    <contour>
+      <point x="330" y="149" type="line"/>
+      <point x="339" y="166"/>
+      <point x="340" y="181" type="qcurve"/>
+      <point x="172" y="181" type="line"/>
+      <point x="174" y="165"/>
+      <point x="183" y="149" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="287" y="107"/>
+      <point x="312" y="128" type="qcurve"/>
+      <point x="200" y="128" type="line"/>
+      <point x="225" y="107"/>
+      <point x="256" y="107" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="225" y="277"/>
+      <point x="200" y="256" type="qcurve"/>
+      <point x="312" y="256" type="line"/>
+      <point x="287" y="277"/>
+      <point x="256" y="277" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="174" y="219"/>
+      <point x="172" y="203" type="qcurve"/>
+      <point x="340" y="203" type="line"/>
+      <point x="338" y="219"/>
+      <point x="329" y="235" type="qcurve"/>
+      <point x="183" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="448" y="384" type="line"/>
+      <point x="448" y="0" type="line"/>
+      <point x="64" y="0" type="line"/>
+      <point x="64" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="291" y="64"/>
+      <point x="350" y="98"/>
+      <point x="384" y="157"/>
+      <point x="384" y="227"/>
+      <point x="350" y="286"/>
+      <point x="291" y="320"/>
+      <point x="221" y="320"/>
+      <point x="162" y="286"/>
+      <point x="128" y="227"/>
+      <point x="128" y="157"/>
+      <point x="162" y="98"/>
+      <point x="221" y="64"/>
+      <point x="256" y="64" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

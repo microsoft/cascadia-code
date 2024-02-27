@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circle-slice-4" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0AA1"/>
+  <note>
+circle-slice-4
+</note>
+  <outline>
+    <contour>
+      <point x="442" y="1290"/>
+      <point x="175" y="1135"/>
+      <point x="20" y="868"/>
+      <point x="20" y="552"/>
+      <point x="175" y="285"/>
+      <point x="442" y="130"/>
+      <point x="758" y="130"/>
+      <point x="1025" y="285"/>
+      <point x="1180" y="552"/>
+      <point x="1180" y="868"/>
+      <point x="1025" y="1135"/>
+      <point x="758" y="1290"/>
+      <point x="600" y="1290" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="725" y="1176"/>
+      <point x="940" y="1050"/>
+      <point x="1066" y="835"/>
+      <point x="1066" y="585"/>
+      <point x="940" y="370"/>
+      <point x="725" y="244"/>
+      <point x="475" y="244"/>
+      <point x="260" y="370"/>
+      <point x="134" y="585"/>
+      <point x="134" y="835"/>
+      <point x="260" y="1050"/>
+      <point x="475" y="1176"/>
+      <point x="600" y="1176" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="600" y="304" type="line"/>
+      <point x="712" y="304"/>
+      <point x="897" y="413"/>
+      <point x="1006" y="598"/>
+      <point x="1006" y="822"/>
+      <point x="897" y="1007"/>
+      <point x="712" y="1116"/>
+      <point x="600" y="1116" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

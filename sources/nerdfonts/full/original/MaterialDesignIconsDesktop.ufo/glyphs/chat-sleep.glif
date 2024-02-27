@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chat-sleep" format="2">
+  <advance width="512"/>
+  <unicode hex="F12D1"/>
+  <note>
+chat-sleep
+</note>
+  <outline>
+    <contour>
+      <point x="314" y="384"/>
+      <point x="412" y="338"/>
+      <point x="469" y="260"/>
+      <point x="469" y="167"/>
+      <point x="412" y="89"/>
+      <point x="314" y="43"/>
+      <point x="256" y="43" type="qcurve" smooth="yes"/>
+      <point x="217" y="43"/>
+      <point x="181" y="53" type="qcurve"/>
+      <point x="159" y="35"/>
+      <point x="133" y="23" type="qcurve" smooth="yes"/>
+      <point x="112" y="13"/>
+      <point x="88" y="7" type="qcurve" smooth="yes"/>
+      <point x="72" y="3"/>
+      <point x="55" y="1" type="qcurve" smooth="yes"/>
+      <point x="43" y="0" type="line"/>
+      <point x="75" y="32"/>
+      <point x="90" y="62" type="qcurve" smooth="yes"/>
+      <point x="100" y="81"/>
+      <point x="101" y="96" type="qcurve"/>
+      <point x="74" y="119"/>
+      <point x="43" y="180"/>
+      <point x="43" y="213" type="qcurve" smooth="yes"/>
+      <point x="43" y="260"/>
+      <point x="100" y="338"/>
+      <point x="198" y="384"/>
+      <point x="256" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="320" y="299" type="line"/>
+      <point x="192" y="299" type="line"/>
+      <point x="192" y="256" type="line"/>
+      <point x="261" y="256" type="line"/>
+      <point x="192" y="177" type="line"/>
+      <point x="192" y="128" type="line"/>
+      <point x="320" y="128" type="line"/>
+      <point x="320" y="171" type="line"/>
+      <point x="251" y="171" type="line"/>
+      <point x="320" y="250" type="line"/>
+    </contour>
+  </outline>
+</glyph>

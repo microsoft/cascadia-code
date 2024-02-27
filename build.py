@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import cast
 import xml.etree.cElementTree as ET
 import tempfile
+import glob
 
 import cffsubr.__main__
 import fontmake.instantiator
@@ -168,8 +169,12 @@ def prepare_fonts(
         elif "NF" in name:
             print(f"[{name} {source.styleName}] Merging NF glyphs")
             step_merge_glyphs_from_ufo(
-                NERDFONTS_DIR / "NerdfontsNF-Regular.ufo", source.font
+                NERDFONTS_DIR / "NerdfontsPL-Regular.ufo", source.font
             )
+            for ufo in Path(NERDFONTS_DIR/"full"/"processed").glob("*.ufo"):
+                step_merge_glyphs_from_ufo(
+                    ufo, source.font
+                )
             step_set_font_name(name, source.font)
         elif "Cascadia Code" in name:
             pass

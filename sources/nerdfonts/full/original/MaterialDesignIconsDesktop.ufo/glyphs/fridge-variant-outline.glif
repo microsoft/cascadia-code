@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fridge-variant-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F15F9"/>
+  <note>
+fridge-variant-outline
+</note>
+  <outline>
+    <contour>
+      <point x="380" y="405"/>
+      <point x="405" y="380"/>
+      <point x="405" y="363" type="qcurve" smooth="yes"/>
+      <point x="405" y="43" type="line" smooth="yes"/>
+      <point x="405" y="25"/>
+      <point x="380" y="0"/>
+      <point x="363" y="0" type="qcurve"/>
+      <point x="363" y="-21" type="line"/>
+      <point x="320" y="-21" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="192" y="-21" type="line"/>
+      <point x="149" y="-21" type="line"/>
+      <point x="149" y="0" type="line"/>
+      <point x="132" y="0"/>
+      <point x="107" y="25"/>
+      <point x="107" y="43" type="qcurve" smooth="yes"/>
+      <point x="107" y="363" type="line" smooth="yes"/>
+      <point x="107" y="380"/>
+      <point x="132" y="405"/>
+      <point x="149" y="405" type="qcurve" smooth="yes"/>
+      <point x="363" y="405" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="235" y="43" type="line"/>
+      <point x="235" y="363" type="line"/>
+      <point x="149" y="363" type="line"/>
+      <point x="149" y="235" type="line"/>
+      <point x="213" y="235" type="line"/>
+      <point x="213" y="149" type="line"/>
+      <point x="149" y="149" type="line"/>
+      <point x="149" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="363" y="363" type="line"/>
+      <point x="277" y="363" type="line"/>
+      <point x="277" y="43" type="line"/>
+      <point x="363" y="43" type="line"/>
+    </contour>
+  </outline>
+</glyph>

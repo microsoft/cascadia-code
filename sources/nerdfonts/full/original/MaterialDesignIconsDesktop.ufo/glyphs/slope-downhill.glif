@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slope-downhill" format="2">
+  <advance width="512"/>
+  <unicode hex="F0DFF"/>
+  <note>
+slope-downhill
+</note>
+  <outline>
+    <contour>
+      <point x="43" y="171" type="line"/>
+      <point x="43" y="-21" type="line"/>
+      <point x="469" y="-21" type="line"/>
+      <point x="469" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="462" y="186" type="line"/>
+      <point x="359" y="130" type="line"/>
+      <point x="377" y="190" type="line"/>
+      <point x="161" y="254" type="line"/>
+      <point x="153" y="242"/>
+      <point x="129" y="229"/>
+      <point x="115" y="228" type="qcurve" smooth="yes"/>
+      <point x="89" y="227"/>
+      <point x="51" y="262"/>
+      <point x="49" y="313"/>
+      <point x="83" y="351"/>
+      <point x="134" y="353"/>
+      <point x="172" y="319"/>
+      <point x="173" y="293" type="qcurve"/>
+      <point x="389" y="229" type="line"/>
+      <point x="407" y="288" type="line"/>
+    </contour>
+  </outline>
+</glyph>

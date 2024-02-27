@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="book" format="2">
+  <advance width="512"/>
+  <unicode hex="F00BA"/>
+  <note>
+book
+</note>
+  <outline>
+    <contour>
+      <point x="128" y="-21" type="line" smooth="yes"/>
+      <point x="110" y="-21"/>
+      <point x="85" y="4"/>
+      <point x="85" y="21" type="qcurve" smooth="yes"/>
+      <point x="85" y="363" type="line" smooth="yes"/>
+      <point x="85" y="380"/>
+      <point x="110" y="405"/>
+      <point x="128" y="405" type="qcurve" smooth="yes"/>
+      <point x="149" y="405" type="line"/>
+      <point x="149" y="256" type="line"/>
+      <point x="203" y="288" type="line"/>
+      <point x="256" y="256" type="line"/>
+      <point x="256" y="405" type="line"/>
+      <point x="384" y="405" type="line" smooth="yes"/>
+      <point x="402" y="405"/>
+      <point x="427" y="380"/>
+      <point x="427" y="363" type="qcurve" smooth="yes"/>
+      <point x="427" y="21" type="line" smooth="yes"/>
+      <point x="427" y="4"/>
+      <point x="402" y="-21"/>
+      <point x="384" y="-21" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

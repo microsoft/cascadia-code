@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="checkbox-marked-circle" format="2">
+  <advance width="512"/>
+  <unicode hex="F0133"/>
+  <note>
+checkbox-marked-circle
+</note>
+  <outline>
+    <contour>
+      <point x="405" y="277" type="line"/>
+      <point x="375" y="308" type="line"/>
+      <point x="213" y="146" type="line"/>
+      <point x="137" y="222" type="line"/>
+      <point x="107" y="192" type="line"/>
+      <point x="213" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="298" y="405"/>
+      <point x="377" y="373"/>
+      <point x="437" y="313"/>
+      <point x="469" y="234"/>
+      <point x="469" y="150"/>
+      <point x="437" y="71"/>
+      <point x="377" y="11"/>
+      <point x="298" y="-21"/>
+      <point x="214" y="-21"/>
+      <point x="135" y="11"/>
+      <point x="75" y="71"/>
+      <point x="43" y="150"/>
+      <point x="43" y="234"/>
+      <point x="75" y="313"/>
+      <point x="135" y="373"/>
+      <point x="214" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

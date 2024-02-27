@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="toggle-switch-off" format="2">
+  <advance width="512"/>
+  <unicode hex="F0522"/>
+  <note>
+toggle-switch-off
+</note>
+  <outline>
+    <contour>
+      <point x="392" y="299"/>
+      <point x="441" y="270"/>
+      <point x="469" y="221"/>
+      <point x="469" y="163"/>
+      <point x="441" y="114"/>
+      <point x="392" y="85"/>
+      <point x="363" y="85" type="qcurve" smooth="yes"/>
+      <point x="149" y="85" type="line" smooth="yes"/>
+      <point x="120" y="85"/>
+      <point x="71" y="114"/>
+      <point x="43" y="163"/>
+      <point x="43" y="221"/>
+      <point x="71" y="270"/>
+      <point x="120" y="299"/>
+      <point x="149" y="299" type="qcurve" smooth="yes"/>
+      <point x="363" y="299" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="176" y="128"/>
+      <point x="213" y="165"/>
+      <point x="213" y="219"/>
+      <point x="176" y="256"/>
+      <point x="123" y="256"/>
+      <point x="85" y="219"/>
+      <point x="85" y="165"/>
+      <point x="123" y="128"/>
+      <point x="149" y="128" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

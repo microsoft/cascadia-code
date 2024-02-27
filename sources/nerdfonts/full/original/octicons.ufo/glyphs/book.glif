@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="book" format="2">
+  <advance width="2048"/>
+  <unicode hex="F405"/>
+  <note>
+book
+</note>
+  <outline>
+    <contour>
+      <point x="0" y="70" type="line" smooth="yes"/>
+      <point x="0" y="30"/>
+      <point x="56" y="-26"/>
+      <point x="96" y="-26" type="qcurve" smooth="yes"/>
+      <point x="240" y="-26" type="line" smooth="yes"/>
+      <point x="385" y="-26"/>
+      <point x="673" y="-26"/>
+      <point x="673" y="-26" type="qcurve"/>
+      <point x="792" y="-26"/>
+      <point x="877" y="-110" type="qcurve" smooth="yes"/>
+      <point x="897" y="-130" type="line" smooth="yes"/>
+      <point x="916" y="-150"/>
+      <point x="956" y="-190"/>
+      <point x="956" y="-190" type="qcurve"/>
+      <point x="984" y="-218"/>
+      <point x="1064" y="-218"/>
+      <point x="1092" y="-190" type="qcurve" smooth="yes"/>
+      <point x="1112" y="-170" type="line" smooth="yes"/>
+      <point x="1132" y="-150"/>
+      <point x="1172" y="-110"/>
+      <point x="1172" y="-110" type="qcurve"/>
+      <point x="1256" y="-26"/>
+      <point x="1375" y="-26" type="qcurve" smooth="yes"/>
+      <point x="1952" y="-26" type="line" smooth="yes"/>
+      <point x="1992" y="-26"/>
+      <point x="2048" y="30"/>
+      <point x="2048" y="70" type="qcurve" smooth="yes"/>
+      <point x="2048" y="1414" type="line" smooth="yes"/>
+      <point x="2048" y="1454"/>
+      <point x="1992" y="1510"/>
+      <point x="1952" y="1510" type="qcurve" smooth="yes"/>
+      <point x="1409" y="1510" type="line" smooth="yes"/>
+      <point x="1408" y="1510"/>
+      <point x="1408" y="1510" type="qcurve"/>
+      <point x="1293" y="1510"/>
+      <point x="1091" y="1407"/>
+      <point x="1024" y="1318" type="qcurve"/>
+      <point x="958" y="1407"/>
+      <point x="756" y="1510"/>
+      <point x="640" y="1510" type="qcurve" smooth="yes"/>
+      <point x="96" y="1510" type="line" smooth="yes"/>
+      <point x="56" y="1510"/>
+      <point x="0" y="1454"/>
+      <point x="0" y="1414" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="811" y="166"/>
+      <point x="673" y="166" type="qcurve" smooth="yes"/>
+      <point x="192" y="166" type="line"/>
+      <point x="192" y="1318" type="line"/>
+      <point x="640" y="1318" type="line" smooth="yes"/>
+      <point x="760" y="1318"/>
+      <point x="928" y="1149"/>
+      <point x="928" y="1030" type="qcurve" smooth="yes"/>
+      <point x="929" y="742" type="line"/>
+      <point x="928" y="93" type="line"/>
+    </contour>
+    <contour>
+      <point x="1121" y="1149"/>
+      <point x="1289" y="1318"/>
+      <point x="1409" y="1318" type="qcurve" smooth="yes"/>
+      <point x="1856" y="1318" type="line"/>
+      <point x="1856" y="166" type="line"/>
+      <point x="1736" y="166" type="line" smooth="yes"/>
+      <point x="1615" y="166"/>
+      <point x="1375" y="166"/>
+      <point x="1375" y="166" type="qcurve"/>
+      <point x="1237" y="166"/>
+      <point x="1120" y="93" type="qcurve"/>
+      <point x="1121" y="1030" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:49:51 +0000</string>
+    </dict>
+  </lib>
+</glyph>

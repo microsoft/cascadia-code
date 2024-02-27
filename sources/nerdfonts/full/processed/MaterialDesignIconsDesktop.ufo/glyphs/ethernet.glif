@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ethernet" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0200"/>
+  <note>
+ethernet
+</note>
+  <outline>
+    <contour>
+      <point x="309" y="390" type="line"/>
+      <point x="194" y="390" type="line"/>
+      <point x="194" y="913" type="line"/>
+      <point x="426" y="913" type="line"/>
+      <point x="426" y="1087" type="line"/>
+      <point x="774" y="1087" type="line"/>
+      <point x="774" y="913" type="line"/>
+      <point x="1006" y="913" type="line"/>
+      <point x="1006" y="390" type="line"/>
+      <point x="891" y="390" type="line"/>
+      <point x="891" y="564" type="line"/>
+      <point x="774" y="564" type="line"/>
+      <point x="774" y="390" type="line"/>
+      <point x="657" y="390" type="line"/>
+      <point x="657" y="564" type="line"/>
+      <point x="543" y="564" type="line"/>
+      <point x="543" y="390" type="line"/>
+      <point x="426" y="390" type="line"/>
+      <point x="426" y="564" type="line"/>
+      <point x="309" y="564" type="line"/>
+    </contour>
+    <contour>
+      <point x="99" y="1261"/>
+      <point x="20" y="1180"/>
+      <point x="20" y="1123" type="qcurve" smooth="yes"/>
+      <point x="20" y="295" type="line" smooth="yes"/>
+      <point x="20" y="238"/>
+      <point x="99" y="159"/>
+      <point x="156" y="159" type="qcurve" smooth="yes"/>
+      <point x="1044" y="159" type="line" smooth="yes"/>
+      <point x="1101" y="159"/>
+      <point x="1180" y="238"/>
+      <point x="1180" y="295" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1123" type="line" smooth="yes"/>
+      <point x="1180" y="1180"/>
+      <point x="1101" y="1261"/>
+      <point x="1044" y="1261" type="qcurve" smooth="yes"/>
+      <point x="156" y="1261" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

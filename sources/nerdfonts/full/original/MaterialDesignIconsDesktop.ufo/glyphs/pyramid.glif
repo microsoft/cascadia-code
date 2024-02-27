@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pyramid" format="2">
+  <advance width="512"/>
+  <unicode hex="F1952"/>
+  <note>
+pyramid
+</note>
+  <outline>
+    <contour>
+      <point x="471" y="78"/>
+      <point x="466" y="59"/>
+      <point x="456" y="55" type="qcurve" smooth="yes"/>
+      <point x="264" y="-20" type="line" smooth="yes"/>
+      <point x="261" y="-21"/>
+      <point x="251" y="-21"/>
+      <point x="248" y="-20" type="qcurve" smooth="yes"/>
+      <point x="56" y="55" type="line" smooth="yes"/>
+      <point x="46" y="59"/>
+      <point x="41" y="78"/>
+      <point x="46" y="86" type="qcurve" smooth="yes"/>
+      <point x="238" y="395" type="line" smooth="yes"/>
+      <point x="244" y="405"/>
+      <point x="268" y="405"/>
+      <point x="274" y="395" type="qcurve" smooth="yes"/>
+      <point x="466" y="86" type="line"/>
+      <point x="466" y="86" type="line"/>
+    </contour>
+    <contour>
+      <point x="116" y="117" type="line"/>
+      <point x="235" y="164" type="line"/>
+      <point x="235" y="309" type="line"/>
+    </contour>
+    <contour>
+      <point x="389" y="75" type="line"/>
+      <point x="256" y="127" type="line"/>
+      <point x="123" y="75" type="line"/>
+      <point x="256" y="23" type="line"/>
+    </contour>
+    <contour>
+      <point x="396" y="117" type="line"/>
+      <point x="277" y="309" type="line"/>
+      <point x="277" y="164" type="line"/>
+    </contour>
+  </outline>
+</glyph>

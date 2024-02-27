@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="silverware-fork-knife" format="2">
+  <advance width="512"/>
+  <unicode hex="F0A70"/>
+  <note>
+silverware-fork-knife
+</note>
+  <outline>
+    <contour>
+      <point x="235" y="405" type="line"/>
+      <point x="277" y="405" type="line"/>
+      <point x="277" y="256" type="line" smooth="yes"/>
+      <point x="277" y="222"/>
+      <point x="231" y="173"/>
+      <point x="197" y="171" type="qcurve"/>
+      <point x="197" y="-21" type="line"/>
+      <point x="144" y="-21" type="line"/>
+      <point x="144" y="171" type="line"/>
+      <point x="110" y="173"/>
+      <point x="64" y="222"/>
+      <point x="64" y="256" type="qcurve" smooth="yes"/>
+      <point x="64" y="405" type="line"/>
+      <point x="107" y="405" type="line"/>
+      <point x="107" y="256" type="line"/>
+      <point x="149" y="256" type="line"/>
+      <point x="149" y="405" type="line"/>
+      <point x="192" y="405" type="line"/>
+      <point x="192" y="256" type="line"/>
+      <point x="235" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="341" y="339"/>
+      <point x="371" y="379"/>
+      <point x="394" y="392" type="qcurve" smooth="yes"/>
+      <point x="420" y="405"/>
+      <point x="448" y="405" type="qcurve"/>
+      <point x="448" y="-21" type="line"/>
+      <point x="395" y="-21" type="line"/>
+      <point x="395" y="149" type="line"/>
+      <point x="341" y="149" type="line"/>
+      <point x="341" y="320" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

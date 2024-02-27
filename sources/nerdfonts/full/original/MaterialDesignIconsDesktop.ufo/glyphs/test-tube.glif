@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="test-tube" format="2">
+  <advance width="512"/>
+  <unicode hex="F0668"/>
+  <note>
+test-tube
+</note>
+  <outline>
+    <contour>
+      <point x="363" y="405" type="line"/>
+      <point x="363" y="363" type="line"/>
+      <point x="341" y="363" type="line"/>
+      <point x="341" y="64" type="line" smooth="yes"/>
+      <point x="341" y="29"/>
+      <point x="291" y="-21"/>
+      <point x="221" y="-21"/>
+      <point x="171" y="29"/>
+      <point x="171" y="64" type="qcurve" smooth="yes"/>
+      <point x="171" y="363" type="line"/>
+      <point x="149" y="363" type="line"/>
+      <point x="149" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="244" y="107"/>
+      <point x="256" y="118"/>
+      <point x="256" y="138"/>
+      <point x="244" y="149"/>
+      <point x="225" y="149"/>
+      <point x="213" y="138"/>
+      <point x="213" y="118"/>
+      <point x="225" y="107"/>
+      <point x="235" y="107" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="287" y="192"/>
+      <point x="299" y="204"/>
+      <point x="299" y="223"/>
+      <point x="287" y="235"/>
+      <point x="268" y="235"/>
+      <point x="256" y="223"/>
+      <point x="256" y="204"/>
+      <point x="268" y="192"/>
+      <point x="277" y="192" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="299" y="363" type="line"/>
+      <point x="213" y="363" type="line"/>
+      <point x="213" y="299" type="line"/>
+      <point x="299" y="299" type="line"/>
+    </contour>
+  </outline>
+</glyph>

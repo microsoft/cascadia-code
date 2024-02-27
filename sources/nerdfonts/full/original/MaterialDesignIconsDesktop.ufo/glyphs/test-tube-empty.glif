@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="test-tube-empty" format="2">
+  <advance width="512"/>
+  <unicode hex="F0911"/>
+  <note>
+test-tube-empty
+</note>
+  <outline>
+    <contour>
+      <point x="149" y="363" type="line"/>
+      <point x="171" y="363" type="line"/>
+      <point x="171" y="64" type="line" smooth="yes"/>
+      <point x="171" y="29"/>
+      <point x="221" y="-21"/>
+      <point x="291" y="-21"/>
+      <point x="341" y="29"/>
+      <point x="341" y="64" type="qcurve" smooth="yes"/>
+      <point x="341" y="363" type="line"/>
+      <point x="363" y="363" type="line"/>
+      <point x="363" y="405" type="line"/>
+      <point x="149" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="64" type="line" smooth="yes"/>
+      <point x="299" y="46"/>
+      <point x="274" y="21"/>
+      <point x="238" y="21"/>
+      <point x="213" y="46"/>
+      <point x="213" y="64" type="qcurve" smooth="yes"/>
+      <point x="213" y="363" type="line"/>
+      <point x="299" y="363" type="line"/>
+    </contour>
+  </outline>
+</glyph>

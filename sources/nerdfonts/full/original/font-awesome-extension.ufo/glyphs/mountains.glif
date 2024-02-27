@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mountains" format="2">
+  <advance width="512"/>
+  <unicode hex="E2A6"/>
+  <note>
+mountains
+</note>
+  <outline>
+    <contour>
+      <point x="14" y="124" type="line"/>
+      <point x="498" y="124" type="line"/>
+      <point x="474" y="166" type="line"/>
+      <point x="399" y="295" type="line" smooth="yes"/>
+      <point x="389" y="312"/>
+      <point x="361" y="312"/>
+      <point x="351" y="295" type="qcurve" smooth="yes"/>
+      <point x="332" y="262" type="line"/>
+      <point x="322" y="279"/>
+      <point x="269" y="371" type="qcurve" smooth="yes"/>
+      <point x="259" y="388"/>
+      <point x="231" y="388"/>
+      <point x="221" y="371" type="qcurve" smooth="yes"/>
+      <point x="116" y="189" type="line"/>
+      <point x="111" y="196"/>
+      <point x="101" y="214" type="qcurve" smooth="yes"/>
+      <point x="94" y="227"/>
+      <point x="74" y="227"/>
+      <point x="66" y="214" type="qcurve" smooth="yes"/>
+      <point x="65" y="212"/>
+      <point x="37" y="164"/>
+      <point x="32" y="154" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:45:39 +0000</string>
+    </dict>
+  </lib>
+</glyph>

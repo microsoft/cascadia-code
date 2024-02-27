@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shield-account" format="2">
+  <advance width="512"/>
+  <unicode hex="F088F"/>
+  <note>
+shield-account
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="341" type="line"/>
+      <point x="448" y="213" type="line" smooth="yes"/>
+      <point x="448" y="155"/>
+      <point x="398" y="47"/>
+      <point x="310" y="-29"/>
+      <point x="256" y="-43" type="qcurve"/>
+      <point x="202" y="-29"/>
+      <point x="114" y="47"/>
+      <point x="64" y="155"/>
+      <point x="64" y="213" type="qcurve" smooth="yes"/>
+      <point x="64" y="341" type="line"/>
+      <point x="256" y="427" type="line"/>
+    </contour>
+    <contour>
+      <point x="229" y="341"/>
+      <point x="192" y="304"/>
+      <point x="192" y="251"/>
+      <point x="229" y="213"/>
+      <point x="283" y="213"/>
+      <point x="320" y="251"/>
+      <point x="320" y="304"/>
+      <point x="283" y="341"/>
+      <point x="256" y="341" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="377" y="102"/>
+      <point x="384" y="118" type="qcurve"/>
+      <point x="384" y="136"/>
+      <point x="349" y="165"/>
+      <point x="291" y="182"/>
+      <point x="221" y="182"/>
+      <point x="163" y="165"/>
+      <point x="128" y="135"/>
+      <point x="128" y="118" type="qcurve"/>
+      <point x="135" y="102"/>
+      <point x="147" y="85" type="qcurve" smooth="yes"/>
+      <point x="166" y="56"/>
+      <point x="222" y="13"/>
+      <point x="256" y="2" type="qcurve"/>
+      <point x="290" y="13"/>
+      <point x="346" y="56"/>
+      <point x="365" y="85" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

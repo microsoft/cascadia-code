@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ethernet-cable-off" format="2">
+  <advance width="512"/>
+  <unicode hex="F0202"/>
+  <note>
+ethernet-cable-off
+</note>
+  <outline>
+    <contour>
+      <point x="235" y="299" type="line"/>
+      <point x="277" y="299" type="line"/>
+      <point x="277" y="384" type="line"/>
+      <point x="235" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="316" type="line"/>
+      <point x="273" y="213" type="line"/>
+      <point x="341" y="213" type="line"/>
+      <point x="341" y="363" type="line"/>
+      <point x="299" y="363" type="line"/>
+      <point x="299" y="277" type="line"/>
+      <point x="213" y="277" type="line"/>
+      <point x="213" y="363" type="line"/>
+      <point x="171" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="70" y="363" type="line"/>
+      <point x="43" y="336" type="line"/>
+      <point x="213" y="165" type="line"/>
+      <point x="213" y="-21" type="line"/>
+      <point x="299" y="-21" type="line"/>
+      <point x="299" y="80" type="line"/>
+      <point x="400" y="-21" type="line"/>
+      <point x="427" y="6" type="line"/>
+    </contour>
+  </outline>
+</glyph>

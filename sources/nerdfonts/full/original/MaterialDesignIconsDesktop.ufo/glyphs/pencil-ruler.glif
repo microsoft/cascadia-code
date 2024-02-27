@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pencil-ruler" format="2">
+  <advance width="512"/>
+  <unicode hex="F1353"/>
+  <note>
+pencil-ruler
+</note>
+  <outline>
+    <contour>
+      <point x="300" y="316" type="line"/>
+      <point x="380" y="236" type="line"/>
+      <point x="144" y="0" type="line"/>
+      <point x="64" y="0" type="line"/>
+      <point x="64" y="80" type="line"/>
+    </contour>
+    <contour>
+      <point x="445" y="94" type="line"/>
+      <point x="414" y="64" type="line"/>
+      <point x="392" y="85" type="line"/>
+      <point x="423" y="116" type="line"/>
+      <point x="393" y="146" type="line"/>
+      <point x="340" y="93" type="line"/>
+      <point x="319" y="114" type="line"/>
+      <point x="281" y="77" type="line"/>
+      <point x="392" y="-34" type="line"/>
+      <point x="482" y="56" type="line"/>
+    </contour>
+    <contour>
+      <point x="202" y="276" type="line"/>
+      <point x="180" y="298" type="line"/>
+      <point x="211" y="328" type="line"/>
+      <point x="180" y="358" type="line"/>
+      <point x="128" y="305" type="line"/>
+      <point x="105" y="328" type="line"/>
+      <point x="158" y="381" type="line"/>
+      <point x="120" y="418" type="line"/>
+      <point x="30" y="328" type="line"/>
+      <point x="141" y="217" type="line"/>
+    </contour>
+    <contour>
+      <point x="403" y="259" type="line"/>
+      <point x="323" y="339" type="line"/>
+      <point x="362" y="378" type="line" smooth="yes"/>
+      <point x="368" y="384"/>
+      <point x="386" y="384"/>
+      <point x="392" y="378" type="qcurve" smooth="yes"/>
+      <point x="442" y="329" type="line" smooth="yes"/>
+      <point x="448" y="322"/>
+      <point x="448" y="305"/>
+      <point x="442" y="299" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

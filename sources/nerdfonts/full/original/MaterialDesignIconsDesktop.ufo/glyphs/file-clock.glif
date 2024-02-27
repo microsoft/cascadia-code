@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="file-clock" format="2">
+  <advance width="512"/>
+  <unicode hex="F12E1"/>
+  <note>
+file-clock
+</note>
+  <outline>
+    <contour>
+      <point x="256" y="405" type="line"/>
+      <point x="384" y="277" type="line"/>
+      <point x="384" y="250" type="line"/>
+      <point x="431" y="235"/>
+      <point x="491" y="156"/>
+      <point x="491" y="107" type="qcurve" smooth="yes"/>
+      <point x="491" y="66"/>
+      <point x="450" y="-2"/>
+      <point x="382" y="-43"/>
+      <point x="300" y="-43"/>
+      <point x="265" y="-21" type="qcurve"/>
+      <point x="85" y="-21" type="line" smooth="yes"/>
+      <point x="68" y="-21"/>
+      <point x="43" y="4"/>
+      <point x="43" y="21" type="qcurve" smooth="yes"/>
+      <point x="43" y="363" type="line" smooth="yes"/>
+      <point x="43" y="380"/>
+      <point x="68" y="405"/>
+      <point x="85" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="235" y="256" type="line"/>
+      <point x="352" y="256" type="line"/>
+      <point x="235" y="373" type="line"/>
+    </contour>
+    <contour>
+      <point x="312" y="213"/>
+      <point x="263" y="185"/>
+      <point x="235" y="136"/>
+      <point x="235" y="78"/>
+      <point x="263" y="29"/>
+      <point x="312" y="0"/>
+      <point x="370" y="0"/>
+      <point x="419" y="29"/>
+      <point x="448" y="78"/>
+      <point x="448" y="136"/>
+      <point x="419" y="185"/>
+      <point x="370" y="213"/>
+      <point x="341" y="213" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="352" y="192" type="line"/>
+      <point x="352" y="101" type="line"/>
+      <point x="413" y="65" type="line"/>
+      <point x="397" y="39" type="line"/>
+      <point x="320" y="85" type="line"/>
+      <point x="320" y="192" type="line"/>
+    </contour>
+  </outline>
+</glyph>

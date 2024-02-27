@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="treasure-chest" format="2">
+  <advance width="512"/>
+  <unicode hex="F0726"/>
+  <note>
+treasure-chest
+</note>
+  <outline>
+    <contour>
+      <point x="80" y="363"/>
+      <point x="43" y="325"/>
+      <point x="43" y="299" type="qcurve" smooth="yes"/>
+      <point x="43" y="213" type="line"/>
+      <point x="192" y="213" type="line"/>
+      <point x="192" y="235" type="line"/>
+      <point x="320" y="235" type="line"/>
+      <point x="320" y="213" type="line"/>
+      <point x="469" y="213" type="line"/>
+      <point x="469" y="299" type="line" smooth="yes"/>
+      <point x="469" y="325"/>
+      <point x="432" y="363"/>
+      <point x="405" y="363" type="qcurve" smooth="yes"/>
+      <point x="107" y="363" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="235" y="171" type="line"/>
+      <point x="277" y="171" type="line"/>
+      <point x="277" y="213" type="line"/>
+      <point x="235" y="213" type="line"/>
+    </contour>
+    <contour>
+      <point x="43" y="21" type="line"/>
+      <point x="469" y="21" type="line"/>
+      <point x="469" y="192" type="line"/>
+      <point x="320" y="192" type="line"/>
+      <point x="320" y="171" type="line"/>
+      <point x="277" y="128" type="line"/>
+      <point x="235" y="128" type="line"/>
+      <point x="192" y="171" type="line"/>
+      <point x="192" y="192" type="line"/>
+      <point x="43" y="192" type="line"/>
+    </contour>
+  </outline>
+</glyph>

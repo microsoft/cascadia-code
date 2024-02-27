@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="card-off" format="2">
+  <advance width="512"/>
+  <unicode hex="F1602"/>
+  <note>
+card-off
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="56"/>
+      <point x="469" y="64" type="qcurve" smooth="yes"/>
+      <point x="469" y="320" type="line" smooth="yes"/>
+      <point x="469" y="338"/>
+      <point x="444" y="363"/>
+      <point x="427" y="363" type="qcurve" smooth="yes"/>
+      <point x="154" y="363" type="line"/>
+      <point x="467" y="49" type="line"/>
+    </contour>
+    <contour>
+      <point x="472" y="-10" type="line"/>
+      <point x="445" y="-37" type="line"/>
+      <point x="386" y="21" type="line"/>
+      <point x="85" y="21" type="line" smooth="yes"/>
+      <point x="68" y="21"/>
+      <point x="43" y="46"/>
+      <point x="43" y="64" type="qcurve" smooth="yes"/>
+      <point x="43" y="320" type="line" smooth="yes"/>
+      <point x="43" y="339"/>
+      <point x="57" y="351" type="qcurve"/>
+      <point x="24" y="384" type="line"/>
+      <point x="51" y="411" type="line"/>
+      <point x="439" y="23" type="line"/>
+      <point x="439" y="23" type="line"/>
+    </contour>
+  </outline>
+</glyph>

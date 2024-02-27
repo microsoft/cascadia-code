@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cricket" format="2">
+  <advance width="512"/>
+  <unicode hex="F0D6D"/>
+  <note>
+cricket
+</note>
+  <outline>
+    <contour>
+      <point x="396" y="-21" type="line"/>
+      <point x="427" y="9" type="line"/>
+      <point x="336" y="99" type="line"/>
+      <point x="306" y="69" type="line"/>
+    </contour>
+    <contour>
+      <point x="364" y="405"/>
+      <point x="320" y="362"/>
+      <point x="320" y="300"/>
+      <point x="364" y="256"/>
+      <point x="426" y="256"/>
+      <point x="469" y="300"/>
+      <point x="469" y="362"/>
+      <point x="426" y="405"/>
+      <point x="395" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="42" y="290"/>
+      <point x="42" y="272"/>
+      <point x="48" y="266" type="qcurve" smooth="yes"/>
+      <point x="229" y="85" type="line" smooth="yes"/>
+      <point x="235" y="79"/>
+      <point x="253" y="79"/>
+      <point x="259" y="85" type="qcurve" smooth="yes"/>
+      <point x="319" y="145" type="line" smooth="yes"/>
+      <point x="326" y="152"/>
+      <point x="326" y="169"/>
+      <point x="319" y="176" type="qcurve" smooth="yes"/>
+      <point x="139" y="357" type="line" smooth="yes"/>
+      <point x="132" y="363"/>
+      <point x="114" y="363"/>
+      <point x="108" y="357" type="qcurve" smooth="yes"/>
+      <point x="48" y="296" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

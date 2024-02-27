@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="youtube-tv" format="2">
+  <advance width="512"/>
+  <unicode hex="F0448"/>
+  <note>
+youtube-tv
+</note>
+  <outline>
+    <contour>
+      <point x="40" y="352"/>
+      <point x="21" y="334"/>
+      <point x="21" y="320" type="qcurve" smooth="yes"/>
+      <point x="21" y="75" type="line" smooth="yes"/>
+      <point x="21" y="61"/>
+      <point x="40" y="43"/>
+      <point x="53" y="43" type="qcurve" smooth="yes"/>
+      <point x="459" y="43" type="line" smooth="yes"/>
+      <point x="472" y="43"/>
+      <point x="491" y="61"/>
+      <point x="491" y="75" type="qcurve" smooth="yes"/>
+      <point x="491" y="320" type="line" smooth="yes"/>
+      <point x="491" y="334"/>
+      <point x="472" y="352"/>
+      <point x="459" y="352" type="qcurve" smooth="yes"/>
+      <point x="53" y="352" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="329" y="198" type="line"/>
+      <point x="207" y="128" type="line"/>
+      <point x="207" y="267" type="line"/>
+    </contour>
+    <contour>
+      <point x="373" y="0"/>
+      <point x="381" y="6"/>
+      <point x="381" y="15"/>
+      <point x="375" y="21"/>
+      <point x="370" y="21" type="qcurve" smooth="yes"/>
+      <point x="142" y="21" type="line" smooth="yes"/>
+      <point x="137" y="21"/>
+      <point x="131" y="15"/>
+      <point x="131" y="6"/>
+      <point x="137" y="0"/>
+      <point x="142" y="0" type="qcurve" smooth="yes"/>
+      <point x="368" y="0" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gamepad" format="2">
+  <advance width="512"/>
+  <unicode hex="F0296"/>
+  <note>
+gamepad
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="256" type="line"/>
+      <point x="469" y="128" type="line"/>
+      <point x="352" y="128" type="line"/>
+      <point x="288" y="192" type="line"/>
+      <point x="352" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="256" y="160" type="line"/>
+      <point x="320" y="96" type="line"/>
+      <point x="320" y="-21" type="line"/>
+      <point x="192" y="-21" type="line"/>
+      <point x="192" y="96" type="line"/>
+    </contour>
+    <contour>
+      <point x="224" y="192" type="line"/>
+      <point x="160" y="128" type="line"/>
+      <point x="43" y="128" type="line"/>
+      <point x="43" y="256" type="line"/>
+      <point x="160" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="256" y="224" type="line"/>
+      <point x="192" y="288" type="line"/>
+      <point x="192" y="405" type="line"/>
+      <point x="320" y="405" type="line"/>
+      <point x="320" y="288" type="line"/>
+    </contour>
+  </outline>
+</glyph>

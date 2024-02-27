@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emoticon-neutral" format="2">
+  <advance width="512"/>
+  <unicode hex="F0C74"/>
+  <note>
+emoticon-neutral
+</note>
+  <outline>
+    <contour>
+      <point x="298" y="405"/>
+      <point x="377" y="373"/>
+      <point x="437" y="313"/>
+      <point x="469" y="234"/>
+      <point x="469" y="150"/>
+      <point x="437" y="71"/>
+      <point x="377" y="11"/>
+      <point x="298" y="-21"/>
+      <point x="214" y="-21"/>
+      <point x="135" y="11"/>
+      <point x="75" y="71"/>
+      <point x="43" y="150"/>
+      <point x="43" y="234"/>
+      <point x="75" y="313"/>
+      <point x="135" y="373"/>
+      <point x="214" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="149" y="232"/>
+      <point x="168" y="213"/>
+      <point x="195" y="213"/>
+      <point x="213" y="232"/>
+      <point x="213" y="259"/>
+      <point x="195" y="277"/>
+      <point x="168" y="277"/>
+      <point x="149" y="259"/>
+      <point x="149" y="245" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="341" y="149" type="line"/>
+      <point x="171" y="149" type="line"/>
+      <point x="171" y="107" type="line"/>
+      <point x="341" y="107" type="line"/>
+    </contour>
+    <contour>
+      <point x="344" y="213"/>
+      <point x="363" y="232"/>
+      <point x="363" y="259"/>
+      <point x="344" y="277"/>
+      <point x="317" y="277"/>
+      <point x="299" y="259"/>
+      <point x="299" y="232"/>
+      <point x="317" y="213"/>
+      <point x="331" y="213" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

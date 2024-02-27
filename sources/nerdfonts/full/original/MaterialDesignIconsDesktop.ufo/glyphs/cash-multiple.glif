@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cash-multiple" format="2">
+  <advance width="512"/>
+  <unicode hex="F0116"/>
+  <note>
+cash-multiple
+</note>
+  <outline>
+    <contour>
+      <point x="107" y="64" type="line"/>
+      <point x="491" y="64" type="line"/>
+      <point x="491" y="320" type="line"/>
+      <point x="107" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="272" y="256"/>
+      <point x="235" y="219"/>
+      <point x="235" y="165"/>
+      <point x="272" y="128"/>
+      <point x="325" y="128"/>
+      <point x="363" y="165"/>
+      <point x="363" y="219"/>
+      <point x="325" y="256"/>
+      <point x="299" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="405" y="277" type="line"/>
+      <point x="405" y="260"/>
+      <point x="430" y="235"/>
+      <point x="448" y="235" type="qcurve"/>
+      <point x="448" y="149" type="line"/>
+      <point x="430" y="149"/>
+      <point x="405" y="124"/>
+      <point x="405" y="107" type="qcurve"/>
+      <point x="192" y="107" type="line"/>
+      <point x="192" y="124"/>
+      <point x="167" y="149"/>
+      <point x="149" y="149" type="qcurve"/>
+      <point x="149" y="235" type="line"/>
+      <point x="167" y="235"/>
+      <point x="192" y="260"/>
+      <point x="192" y="277" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="21" y="-21" type="line"/>
+      <point x="405" y="-21" type="line"/>
+      <point x="405" y="21" type="line"/>
+      <point x="64" y="21" type="line"/>
+      <point x="64" y="235" type="line"/>
+      <point x="21" y="235" type="line"/>
+    </contour>
+  </outline>
+</glyph>

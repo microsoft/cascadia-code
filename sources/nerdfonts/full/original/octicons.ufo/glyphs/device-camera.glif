@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="device-camera" format="2">
+  <advance width="2048"/>
+  <unicode hex="F446"/>
+  <note>
+device-camera
+</note>
+  <outline>
+    <contour>
+      <point x="896" y="1254" type="line"/>
+      <point x="896" y="1307"/>
+      <point x="821" y="1382"/>
+      <point x="768" y="1382" type="qcurve" smooth="yes"/>
+      <point x="256" y="1382" type="line" smooth="yes"/>
+      <point x="203" y="1382"/>
+      <point x="128" y="1307"/>
+      <point x="128" y="1254" type="qcurve"/>
+      <point x="75" y="1254"/>
+      <point x="0" y="1179"/>
+      <point x="0" y="1126" type="qcurve" smooth="yes"/>
+      <point x="0" y="-26" type="line" smooth="yes"/>
+      <point x="0" y="-79"/>
+      <point x="75" y="-154"/>
+      <point x="128" y="-154" type="qcurve" smooth="yes"/>
+      <point x="1920" y="-154" type="line" smooth="yes"/>
+      <point x="1973" y="-154"/>
+      <point x="2048" y="-79"/>
+      <point x="2048" y="-26" type="qcurve" smooth="yes"/>
+      <point x="2048" y="1126" type="line" smooth="yes"/>
+      <point x="2048" y="1179"/>
+      <point x="1973" y="1254"/>
+      <point x="1920" y="1254" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="896" y="364"/>
+      <point x="896" y="736"/>
+      <point x="1158" y="998"/>
+      <point x="1530" y="998"/>
+      <point x="1792" y="736"/>
+      <point x="1792" y="364"/>
+      <point x="1530" y="102"/>
+      <point x="1158" y="102"/>
+    </contour>
+    <contour>
+      <point x="1476" y="870"/>
+      <point x="1212" y="870"/>
+      <point x="1024" y="682"/>
+      <point x="1024" y="418"/>
+      <point x="1212" y="230"/>
+      <point x="1476" y="230"/>
+      <point x="1664" y="418"/>
+      <point x="1664" y="682"/>
+    </contour>
+    <contour>
+      <point x="256" y="998" type="line"/>
+      <point x="256" y="1126" type="line"/>
+      <point x="768" y="1126" type="line"/>
+      <point x="768" y="998" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:49:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

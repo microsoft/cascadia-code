@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="toothbrush" format="2">
+  <advance width="512"/>
+  <unicode hex="F1129"/>
+  <note>
+toothbrush
+</note>
+  <outline>
+    <contour>
+      <point x="381" y="416" type="line"/>
+      <point x="427" y="371" type="line"/>
+      <point x="404" y="349" type="line"/>
+      <point x="381" y="371" type="line"/>
+      <point x="321" y="311" type="line"/>
+      <point x="343" y="288" type="line"/>
+      <point x="321" y="266" type="line"/>
+      <point x="275" y="311" type="line"/>
+    </contour>
+    <contour>
+      <point x="287" y="231" type="line"/>
+      <point x="332" y="247" type="line"/>
+      <point x="457" y="371" type="line"/>
+      <point x="469" y="359"/>
+      <point x="469" y="323"/>
+      <point x="457" y="311" type="qcurve" smooth="yes"/>
+      <point x="355" y="209" type="line"/>
+      <point x="309" y="194" type="line"/>
+      <point x="95" y="-21" type="line"/>
+      <point x="64" y="9" type="line"/>
+    </contour>
+  </outline>
+</glyph>

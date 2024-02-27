@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="patio-heater" format="2">
+  <advance width="512"/>
+  <unicode hex="F0F80"/>
+  <note>
+patio-heater
+</note>
+  <outline>
+    <contour>
+      <point x="320" y="0" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="192" y="-21" type="line"/>
+      <point x="320" y="-21" type="line"/>
+    </contour>
+    <contour>
+      <point x="107" y="363" type="line"/>
+      <point x="192" y="405" type="line"/>
+      <point x="320" y="405" type="line"/>
+      <point x="405" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="341" y="341" type="line"/>
+      <point x="333" y="320" type="line"/>
+      <point x="179" y="320" type="line"/>
+      <point x="171" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="205" y="256" type="line"/>
+      <point x="307" y="256" type="line"/>
+      <point x="299" y="235" type="line"/>
+      <point x="277" y="235" type="line"/>
+      <point x="277" y="128" type="line"/>
+      <point x="287" y="128"/>
+      <point x="299" y="116"/>
+      <point x="299" y="107" type="qcurve" smooth="yes"/>
+      <point x="299" y="21" type="line"/>
+      <point x="213" y="21" type="line"/>
+      <point x="213" y="107" type="line" smooth="yes"/>
+      <point x="213" y="116"/>
+      <point x="225" y="128"/>
+      <point x="235" y="128" type="qcurve"/>
+      <point x="235" y="235" type="line"/>
+      <point x="213" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="188" y="299" type="line"/>
+      <point x="324" y="299" type="line"/>
+      <point x="316" y="277" type="line"/>
+      <point x="196" y="277" type="line"/>
+    </contour>
+  </outline>
+</glyph>

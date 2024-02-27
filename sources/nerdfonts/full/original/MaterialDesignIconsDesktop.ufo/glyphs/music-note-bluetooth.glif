@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-note-bluetooth" format="2">
+  <advance width="512"/>
+  <unicode hex="F05FE"/>
+  <note>
+music-note-bluetooth
+</note>
+  <outline>
+    <contour>
+      <point x="423" y="192" type="line"/>
+      <point x="469" y="146" type="line"/>
+      <point x="408" y="85" type="line"/>
+      <point x="398" y="85" type="line"/>
+      <point x="398" y="166" type="line"/>
+      <point x="349" y="117" type="line"/>
+      <point x="334" y="132" type="line"/>
+      <point x="393" y="192" type="line"/>
+      <point x="334" y="252" type="line"/>
+      <point x="349" y="267" type="line"/>
+      <point x="398" y="218" type="line"/>
+      <point x="398" y="299" type="line"/>
+      <point x="408" y="299" type="line"/>
+      <point x="469" y="238" type="line"/>
+    </contour>
+    <contour>
+      <point x="419" y="218" type="line"/>
+      <point x="439" y="238" type="line"/>
+      <point x="419" y="258" type="line"/>
+    </contour>
+    <contour>
+      <point x="419" y="166" type="line"/>
+      <point x="419" y="126" type="line"/>
+      <point x="439" y="146" type="line"/>
+    </contour>
+    <contour>
+      <point x="334" y="384" type="line"/>
+      <point x="334" y="299" type="line"/>
+      <point x="248" y="299" type="line"/>
+      <point x="248" y="85" type="line" smooth="yes"/>
+      <point x="248" y="50"/>
+      <point x="198" y="0"/>
+      <point x="128" y="0"/>
+      <point x="78" y="50"/>
+      <point x="78" y="121"/>
+      <point x="128" y="171"/>
+      <point x="163" y="171" type="qcurve" smooth="yes"/>
+      <point x="185" y="171"/>
+      <point x="206" y="159" type="qcurve"/>
+      <point x="206" y="384" type="line"/>
+    </contour>
+  </outline>
+</glyph>

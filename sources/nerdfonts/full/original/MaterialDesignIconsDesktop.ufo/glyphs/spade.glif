@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="spade" format="2">
+  <advance width="512"/>
+  <unicode hex="F0E65"/>
+  <note>
+spade
+</note>
+  <outline>
+    <contour>
+      <point x="486" y="271" type="line"/>
+      <point x="426" y="211" type="line" smooth="yes"/>
+      <point x="413" y="198"/>
+      <point x="378" y="198"/>
+      <point x="365" y="211" type="qcurve" smooth="yes"/>
+      <point x="335" y="241" type="line"/>
+      <point x="245" y="151" type="line"/>
+      <point x="297" y="98" type="line"/>
+      <point x="162" y="-38" type="line"/>
+      <point x="26" y="98" type="line"/>
+      <point x="162" y="233" type="line"/>
+      <point x="215" y="181" type="line"/>
+      <point x="305" y="271" type="line"/>
+      <point x="275" y="301" type="line" smooth="yes"/>
+      <point x="262" y="314"/>
+      <point x="262" y="349"/>
+      <point x="275" y="362" type="qcurve" smooth="yes"/>
+      <point x="335" y="422" type="line"/>
+    </contour>
+    <contour>
+      <point x="305" y="332" type="line"/>
+      <point x="396" y="241" type="line"/>
+      <point x="426" y="271" type="line"/>
+      <point x="335" y="362" type="line"/>
+    </contour>
+  </outline>
+</glyph>

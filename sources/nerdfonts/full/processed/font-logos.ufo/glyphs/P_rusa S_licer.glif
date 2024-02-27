@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Prusa Slicer" format="2">
+  <advance width="1200"/>
+  <unicode hex="F351"/>
+  <note>
+Prusa Slicer
+</note>
+  <outline>
+    <contour>
+      <point x="424" y="1420"/>
+      <point x="246" y="1243" type="qcurve" smooth="yes"/>
+      <point x="69" y="1068"/>
+      <point x="69" y="566"/>
+      <point x="246" y="391" type="qcurve"/>
+      <point x="1098" y="1243" type="line"/>
+      <point x="920" y="1420"/>
+      <point x="671" y="1420" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="105" y="178" type="line"/>
+      <point x="280" y="0"/>
+      <point x="782" y="0"/>
+      <point x="956" y="178" type="qcurve" smooth="yes"/>
+      <point x="1131" y="355"/>
+      <point x="1131" y="854"/>
+      <point x="956" y="1029" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

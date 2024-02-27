@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="RISC-V" format="2">
+  <advance width="1200"/>
+  <unicode hex="F353"/>
+  <note>
+RISC-V
+</note>
+  <outline>
+    <contour>
+      <point x="356" y="1287" type="line"/>
+      <point x="504" y="1273"/>
+      <point x="665" y="1062"/>
+      <point x="665" y="926" type="qcurve" smooth="yes"/>
+      <point x="665" y="794"/>
+      <point x="508" y="596"/>
+      <point x="365" y="569" type="qcurve"/>
+      <point x="647" y="238" type="line"/>
+      <point x="672" y="274" type="line"/>
+      <point x="1175" y="989" type="line"/>
+      <point x="1175" y="1289" type="line"/>
+      <point x="354" y="1289" type="line"/>
+    </contour>
+    <contour>
+      <point x="90" y="724" type="line"/>
+      <point x="283" y="724" type="line" smooth="yes"/>
+      <point x="385" y="724"/>
+      <point x="499" y="844"/>
+      <point x="499" y="928" type="qcurve" smooth="yes"/>
+      <point x="499" y="1010"/>
+      <point x="385" y="1125"/>
+      <point x="283" y="1125" type="qcurve" smooth="yes"/>
+      <point x="20" y="1125" type="line"/>
+      <point x="20" y="131" type="line"/>
+      <point x="515" y="131" type="line"/>
+      <point x="90" y="642" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="131" type="line"/>
+      <point x="1180" y="703" type="line"/>
+      <point x="808" y="181" type="line"/>
+      <point x="769" y="131" type="line"/>
+      <point x="771" y="131" type="line"/>
+    </contour>
+  </outline>
+</glyph>

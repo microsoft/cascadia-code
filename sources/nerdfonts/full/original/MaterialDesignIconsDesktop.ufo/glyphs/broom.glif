@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="broom" format="2">
+  <advance width="512"/>
+  <unicode hex="F00E2"/>
+  <note>
+broom
+</note>
+  <outline>
+    <contour>
+      <point x="291" y="268" type="line"/>
+      <point x="266" y="285"/>
+      <point x="212" y="289"/>
+      <point x="193" y="275" type="qcurve"/>
+      <point x="328" y="140" type="line"/>
+      <point x="342" y="159"/>
+      <point x="338" y="213"/>
+      <point x="321" y="238" type="qcurve"/>
+      <point x="443" y="360" type="line"/>
+      <point x="413" y="390" type="line"/>
+    </contour>
+    <contour>
+      <point x="158" y="42"/>
+      <point x="232" y="2"/>
+      <point x="268" y="-3" type="qcurve"/>
+      <point x="313" y="101" type="line"/>
+      <point x="154" y="260" type="line"/>
+      <point x="50" y="215" type="line"/>
+      <point x="56" y="179"/>
+      <point x="95" y="105"/>
+      <point x="127" y="73" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

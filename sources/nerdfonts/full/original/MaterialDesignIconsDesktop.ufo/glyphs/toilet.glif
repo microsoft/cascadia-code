@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="toilet" format="2">
+  <advance width="512"/>
+  <unicode hex="F09AB"/>
+  <note>
+toilet
+</note>
+  <outline>
+    <contour>
+      <point x="192" y="32" type="line"/>
+      <point x="130" y="55"/>
+      <point x="96" y="99" type="qcurve" smooth="yes"/>
+      <point x="64" y="141"/>
+      <point x="64" y="192" type="qcurve"/>
+      <point x="277" y="192" type="line"/>
+      <point x="277" y="363" type="line" smooth="yes"/>
+      <point x="277" y="380"/>
+      <point x="302" y="405"/>
+      <point x="320" y="405" type="qcurve" smooth="yes"/>
+      <point x="405" y="405" type="line" smooth="yes"/>
+      <point x="423" y="405"/>
+      <point x="448" y="380"/>
+      <point x="448" y="363" type="qcurve" smooth="yes"/>
+      <point x="448" y="192" type="line" smooth="yes"/>
+      <point x="448" y="143"/>
+      <point x="402" y="59"/>
+      <point x="363" y="32" type="qcurve"/>
+      <point x="363" y="-21" type="line"/>
+      <point x="192" y="-21" type="line"/>
+    </contour>
+    <contour>
+      <point x="119" y="130"/>
+      <point x="140" y="109" type="qcurve" smooth="yes"/>
+      <point x="160" y="90"/>
+      <point x="213" y="60"/>
+      <point x="235" y="57" type="qcurve"/>
+      <point x="235" y="21" type="line"/>
+      <point x="320" y="21" type="line"/>
+      <point x="320" y="57" type="line"/>
+      <point x="348" y="70"/>
+      <point x="390" y="119"/>
+      <point x="399" y="149" type="qcurve"/>
+      <point x="113" y="149" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="192" type="line"/>
+      <point x="405" y="192" type="line"/>
+      <point x="405" y="363" type="line"/>
+      <point x="320" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="384" y="341" type="line"/>
+      <point x="384" y="277" type="line"/>
+      <point x="341" y="277" type="line"/>
+      <point x="341" y="341" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bowl" format="2">
+  <advance width="512"/>
+  <unicode hex="F028E"/>
+  <note>
+bowl
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="192" type="line"/>
+      <point x="43" y="192" type="line"/>
+      <point x="43" y="128" type="line" smooth="yes"/>
+      <point x="43" y="87"/>
+      <point x="83" y="19"/>
+      <point x="151" y="-21"/>
+      <point x="192" y="-21" type="qcurve" smooth="yes"/>
+      <point x="320" y="-21" type="line" smooth="yes"/>
+      <point x="361" y="-21"/>
+      <point x="429" y="19"/>
+      <point x="469" y="87"/>
+      <point x="469" y="128" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

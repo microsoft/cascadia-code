@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bookmark-check-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F137B"/>
+  <note>
+bookmark-check-outline
+</note>
+  <outline>
+    <contour>
+      <point x="235" y="209" type="line"/>
+      <point x="315" y="290" type="line"/>
+      <point x="345" y="260" type="line"/>
+      <point x="235" y="149" type="line"/>
+      <point x="172" y="212" type="line"/>
+      <point x="202" y="242" type="line"/>
+    </contour>
+    <contour>
+      <point x="380" y="384"/>
+      <point x="405" y="359"/>
+      <point x="405" y="341" type="qcurve" smooth="yes"/>
+      <point x="405" y="0" type="line"/>
+      <point x="256" y="64" type="line"/>
+      <point x="107" y="0" type="line"/>
+      <point x="107" y="341" type="line" smooth="yes"/>
+      <point x="107" y="359"/>
+      <point x="132" y="384"/>
+      <point x="149" y="384" type="qcurve" smooth="yes"/>
+      <point x="363" y="384" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="363" y="341" type="line"/>
+      <point x="149" y="341" type="line"/>
+      <point x="149" y="64" type="line"/>
+      <point x="256" y="111" type="line"/>
+      <point x="363" y="64" type="line"/>
+    </contour>
+  </outline>
+</glyph>

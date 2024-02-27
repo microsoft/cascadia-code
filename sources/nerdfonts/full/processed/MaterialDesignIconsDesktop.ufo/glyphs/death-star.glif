@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="death-star" format="2">
+  <advance width="1200"/>
+  <unicode hex="F08D8"/>
+  <note>
+death-star
+</note>
+  <outline>
+    <contour>
+      <point x="34" y="505"/>
+      <point x="195" y="267"/>
+      <point x="452" y="127"/>
+      <point x="748" y="127"/>
+      <point x="1005" y="267"/>
+      <point x="1166" y="505"/>
+      <point x="1180" y="653" type="qcurve"/>
+      <point x="20" y="653" type="line"/>
+    </contour>
+    <contour>
+      <point x="1166" y="915"/>
+      <point x="1005" y="1153"/>
+      <point x="748" y="1293"/>
+      <point x="452" y="1293"/>
+      <point x="195" y="1153"/>
+      <point x="34" y="915"/>
+      <point x="20" y="767" type="qcurve"/>
+      <point x="1180" y="767" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="956"/>
+      <point x="515" y="871"/>
+      <point x="395" y="871"/>
+      <point x="307" y="956"/>
+      <point x="307" y="1077"/>
+      <point x="395" y="1161"/>
+      <point x="515" y="1161"/>
+      <point x="600" y="1077"/>
+      <point x="600" y="1016" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

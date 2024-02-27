@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="battery-alert-variant" format="2">
+  <advance width="512"/>
+  <unicode hex="F10CC"/>
+  <note>
+battery-alert-variant
+</note>
+  <outline>
+    <contour>
+      <point x="325" y="363"/>
+      <point x="341" y="346"/>
+      <point x="341" y="334" type="qcurve" smooth="yes"/>
+      <point x="341" y="7" type="line" smooth="yes"/>
+      <point x="341" y="-5"/>
+      <point x="325" y="-21"/>
+      <point x="313" y="-21" type="qcurve" smooth="yes"/>
+      <point x="114" y="-21" type="line" smooth="yes"/>
+      <point x="102" y="-21"/>
+      <point x="85" y="-5"/>
+      <point x="85" y="7" type="qcurve" smooth="yes"/>
+      <point x="85" y="334" type="line" smooth="yes"/>
+      <point x="85" y="346"/>
+      <point x="102" y="363"/>
+      <point x="114" y="363" type="qcurve" smooth="yes"/>
+      <point x="149" y="363" type="line"/>
+      <point x="149" y="405" type="line"/>
+      <point x="277" y="405" type="line"/>
+      <point x="277" y="363" type="line"/>
+      <point x="313" y="363" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="448" y="299" type="line"/>
+      <point x="405" y="299" type="line"/>
+      <point x="405" y="171" type="line"/>
+      <point x="448" y="171" type="line"/>
+    </contour>
+    <contour>
+      <point x="448" y="128" type="line"/>
+      <point x="405" y="128" type="line"/>
+      <point x="405" y="85" type="line"/>
+      <point x="448" y="85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

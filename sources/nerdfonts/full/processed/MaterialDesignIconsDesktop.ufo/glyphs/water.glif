@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="water" format="2">
+  <advance width="1200"/>
+  <unicode hex="F058C"/>
+  <note>
+water
+</note>
+  <outline>
+    <contour>
+      <point x="739" y="0"/>
+      <point x="973" y="139"/>
+      <point x="1108" y="373"/>
+      <point x="1108" y="508" type="qcurve" smooth="yes"/>
+      <point x="1108" y="627"/>
+      <point x="1028" y="793" type="qcurve" smooth="yes"/>
+      <point x="965" y="928"/>
+      <point x="854" y="1091" type="qcurve" smooth="yes"/>
+      <point x="775" y="1206"/>
+      <point x="679" y="1325" type="qcurve" smooth="yes"/>
+      <point x="600" y="1420" type="line"/>
+      <point x="521" y="1325" type="line" smooth="yes"/>
+      <point x="425" y="1206"/>
+      <point x="346" y="1091" type="qcurve" smooth="yes"/>
+      <point x="235" y="928"/>
+      <point x="172" y="793" type="qcurve" smooth="yes"/>
+      <point x="92" y="627"/>
+      <point x="92" y="508" type="qcurve" smooth="yes"/>
+      <point x="92" y="373"/>
+      <point x="227" y="139"/>
+      <point x="461" y="0"/>
+      <point x="600" y="0" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

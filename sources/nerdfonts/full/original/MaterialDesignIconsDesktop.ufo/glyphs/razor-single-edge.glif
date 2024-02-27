@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="razor-single-edge" format="2">
+  <advance width="512"/>
+  <unicode hex="F1998"/>
+  <note>
+razor-single-edge
+</note>
+  <outline>
+    <contour>
+      <point x="43" y="341" type="line"/>
+      <point x="43" y="277" type="line"/>
+      <point x="469" y="277" type="line"/>
+      <point x="469" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="437" y="171" type="line" smooth="yes"/>
+      <point x="424" y="171"/>
+      <point x="405" y="189"/>
+      <point x="405" y="216"/>
+      <point x="424" y="235"/>
+      <point x="437" y="235" type="qcurve" smooth="yes"/>
+      <point x="469" y="235" type="line"/>
+      <point x="469" y="256" type="line"/>
+      <point x="43" y="256" type="line"/>
+      <point x="43" y="235" type="line"/>
+      <point x="75" y="235" type="line" smooth="yes"/>
+      <point x="88" y="235"/>
+      <point x="107" y="216"/>
+      <point x="107" y="189"/>
+      <point x="88" y="171"/>
+      <point x="75" y="171" type="qcurve" smooth="yes"/>
+      <point x="43" y="171" type="line"/>
+      <point x="43" y="64" type="line"/>
+      <point x="469" y="64" type="line"/>
+      <point x="469" y="171" type="line"/>
+    </contour>
+    <contour>
+      <point x="277" y="171" type="line" smooth="yes"/>
+      <point x="277" y="162"/>
+      <point x="265" y="149"/>
+      <point x="247" y="149"/>
+      <point x="235" y="162"/>
+      <point x="235" y="171" type="qcurve" smooth="yes"/>
+      <point x="235" y="213" type="line" smooth="yes"/>
+      <point x="235" y="222"/>
+      <point x="247" y="235"/>
+      <point x="265" y="235"/>
+      <point x="277" y="222"/>
+      <point x="277" y="213" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

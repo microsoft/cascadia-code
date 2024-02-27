@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="medical-bag" format="2">
+  <advance width="512"/>
+  <unicode hex="F06EF"/>
+  <note>
+medical-bag
+</note>
+  <outline>
+    <contour>
+      <point x="299" y="384" type="line"/>
+      <point x="341" y="341" type="line"/>
+      <point x="341" y="299" type="line"/>
+      <point x="405" y="299" type="line" smooth="yes"/>
+      <point x="422" y="299"/>
+      <point x="446" y="273"/>
+      <point x="448" y="256" type="qcurve" smooth="yes"/>
+      <point x="469" y="43" type="line" smooth="yes"/>
+      <point x="471" y="25"/>
+      <point x="449" y="0"/>
+      <point x="427" y="0" type="qcurve" smooth="yes"/>
+      <point x="85" y="0" type="line" smooth="yes"/>
+      <point x="63" y="0"/>
+      <point x="41" y="25"/>
+      <point x="43" y="43" type="qcurve" smooth="yes"/>
+      <point x="64" y="256" type="line" smooth="yes"/>
+      <point x="66" y="273"/>
+      <point x="89" y="299"/>
+      <point x="107" y="299" type="qcurve" smooth="yes"/>
+      <point x="171" y="299" type="line"/>
+      <point x="171" y="341" type="line"/>
+      <point x="213" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="299" type="line"/>
+      <point x="299" y="299" type="line"/>
+      <point x="299" y="341" type="line"/>
+      <point x="213" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="171" type="line"/>
+      <point x="171" y="171" type="line"/>
+      <point x="171" y="128" type="line"/>
+      <point x="235" y="128" type="line"/>
+      <point x="235" y="64" type="line"/>
+      <point x="277" y="64" type="line"/>
+      <point x="277" y="128" type="line"/>
+      <point x="341" y="128" type="line"/>
+      <point x="341" y="171" type="line"/>
+      <point x="277" y="171" type="line"/>
+      <point x="277" y="235" type="line"/>
+      <point x="235" y="235" type="line"/>
+    </contour>
+  </outline>
+</glyph>

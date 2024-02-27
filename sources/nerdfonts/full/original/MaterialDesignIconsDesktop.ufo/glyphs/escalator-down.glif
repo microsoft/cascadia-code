@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="escalator-down" format="2">
+  <advance width="512"/>
+  <unicode hex="F12C0"/>
+  <note>
+escalator-down
+</note>
+  <outline>
+    <contour>
+      <point x="444" y="277"/>
+      <point x="469" y="302"/>
+      <point x="469" y="338"/>
+      <point x="444" y="363"/>
+      <point x="427" y="363" type="qcurve" smooth="yes"/>
+      <point x="369" y="363" type="line"/>
+      <point x="213" y="207" type="line"/>
+      <point x="213" y="235" type="line" smooth="yes"/>
+      <point x="213" y="243"/>
+      <point x="201" y="256"/>
+      <point x="192" y="256" type="qcurve" smooth="yes"/>
+      <point x="171" y="256" type="line" smooth="yes"/>
+      <point x="162" y="256"/>
+      <point x="149" y="243"/>
+      <point x="149" y="235" type="qcurve" smooth="yes"/>
+      <point x="149" y="143" type="line"/>
+      <point x="113" y="107" type="line"/>
+      <point x="85" y="107" type="line" smooth="yes"/>
+      <point x="68" y="107"/>
+      <point x="43" y="82"/>
+      <point x="43" y="46"/>
+      <point x="68" y="21"/>
+      <point x="85" y="21" type="qcurve" smooth="yes"/>
+      <point x="148" y="21" type="line"/>
+      <point x="404" y="277" type="line"/>
+      <point x="427" y="277" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="168" y="341"/>
+      <point x="149" y="323"/>
+      <point x="149" y="296"/>
+      <point x="168" y="277"/>
+      <point x="195" y="277"/>
+      <point x="213" y="296"/>
+      <point x="213" y="323"/>
+      <point x="195" y="341"/>
+      <point x="181" y="341" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="277" y="117" type="line"/>
+      <point x="277" y="0" type="line"/>
+      <point x="395" y="0" type="line"/>
+      <point x="355" y="39" type="line"/>
+      <point x="473" y="157" type="line"/>
+      <point x="434" y="196" type="line"/>
+      <point x="316" y="78" type="line"/>
+    </contour>
+  </outline>
+</glyph>

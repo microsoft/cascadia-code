@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="floppy-variant" format="2">
+  <advance width="512"/>
+  <unicode hex="F09EF"/>
+  <note>
+floppy-variant
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="384" type="line"/>
+      <point x="448" y="0" type="line"/>
+      <point x="64" y="0" type="line"/>
+      <point x="64" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="238" y="235"/>
+      <point x="213" y="210"/>
+      <point x="213" y="174"/>
+      <point x="238" y="149"/>
+      <point x="274" y="149"/>
+      <point x="299" y="174"/>
+      <point x="299" y="210"/>
+      <point x="274" y="235"/>
+      <point x="256" y="235" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="247" y="128"/>
+      <point x="235" y="116"/>
+      <point x="235" y="107" type="qcurve" smooth="yes"/>
+      <point x="235" y="43" type="line" smooth="yes"/>
+      <point x="235" y="34"/>
+      <point x="247" y="21"/>
+      <point x="265" y="21"/>
+      <point x="277" y="34"/>
+      <point x="277" y="43" type="qcurve" smooth="yes"/>
+      <point x="277" y="107" type="line" smooth="yes"/>
+      <point x="277" y="116"/>
+      <point x="265" y="128"/>
+      <point x="256" y="128" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

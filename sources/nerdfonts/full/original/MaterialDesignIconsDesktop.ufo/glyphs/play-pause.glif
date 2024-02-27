@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="play-pause" format="2">
+  <advance width="512"/>
+  <unicode hex="F040E"/>
+  <note>
+play-pause
+</note>
+  <outline>
+    <contour>
+      <point x="235" y="192" type="line"/>
+      <point x="64" y="43" type="line"/>
+      <point x="64" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="277" y="341" type="line"/>
+      <point x="341" y="341" type="line"/>
+      <point x="341" y="43" type="line"/>
+      <point x="277" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="448" y="341" type="line"/>
+      <point x="448" y="43" type="line"/>
+      <point x="384" y="43" type="line"/>
+      <point x="384" y="341" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exponent" format="2">
+  <advance width="512"/>
+  <unicode hex="F0963"/>
+  <note>
+exponent
+</note>
+  <outline>
+    <contour>
+      <point x="363" y="384" type="line"/>
+      <point x="399" y="298" type="line"/>
+      <point x="435" y="384" type="line"/>
+      <point x="469" y="384" type="line"/>
+      <point x="469" y="384" type="line"/>
+      <point x="458" y="352"/>
+      <point x="442" y="314" type="qcurve" smooth="yes"/>
+      <point x="411" y="236"/>
+      <point x="389" y="201" type="qcurve" smooth="yes"/>
+      <point x="381" y="189"/>
+      <point x="358" y="176"/>
+      <point x="345" y="176" type="qcurve"/>
+      <point x="345" y="208" type="line"/>
+      <point x="355" y="208"/>
+      <point x="363" y="220" type="qcurve" smooth="yes"/>
+      <point x="373" y="234"/>
+      <point x="379" y="261" type="qcurve"/>
+      <point x="328" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="73" y="265" type="line"/>
+      <point x="175" y="163" type="line"/>
+      <point x="277" y="265" type="line"/>
+      <point x="307" y="235" type="line"/>
+      <point x="205" y="132" type="line"/>
+      <point x="307" y="30" type="line"/>
+      <point x="277" y="0" type="line"/>
+      <point x="175" y="102" type="line"/>
+      <point x="73" y="0" type="line"/>
+      <point x="43" y="30" type="line"/>
+      <point x="145" y="132" type="line"/>
+      <point x="43" y="235" type="line"/>
+      <point x="73" y="265" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hand-saw" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0E48"/>
+  <note>
+hand-saw
+</note>
+  <outline>
+    <contour>
+      <point x="684" y="463" type="line"/>
+      <point x="684" y="628" type="line"/>
+      <point x="849" y="628" type="line"/>
+      <point x="849" y="794" type="line"/>
+      <point x="1015" y="794" type="line"/>
+      <point x="1015" y="959" type="line"/>
+      <point x="1180" y="959" type="line"/>
+      <point x="1180" y="1125" type="line"/>
+      <point x="1071" y="1290" type="line"/>
+      <point x="293" y="763" type="line"/>
+      <point x="508" y="463" type="line"/>
+    </contour>
+    <contour>
+      <point x="249" y="729" type="line"/>
+      <point x="66" y="602" type="line" smooth="yes"/>
+      <point x="30" y="574"/>
+      <point x="14" y="483"/>
+      <point x="40" y="447" type="qcurve" smooth="yes"/>
+      <point x="231" y="176" type="line"/>
+      <point x="262" y="140"/>
+      <point x="350" y="124"/>
+      <point x="386" y="150" type="qcurve" smooth="yes"/>
+      <point x="474" y="215" type="line"/>
+      <point x="503" y="370" type="line"/>
+    </contour>
+    <contour>
+      <point x="415" y="310" type="line"/>
+      <point x="327" y="243" type="line"/>
+      <point x="133" y="514" type="line"/>
+      <point x="221" y="574" type="line"/>
+    </contour>
+  </outline>
+</glyph>

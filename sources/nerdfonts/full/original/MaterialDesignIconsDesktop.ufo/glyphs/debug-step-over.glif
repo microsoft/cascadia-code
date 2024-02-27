@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="debug-step-over" format="2">
+  <advance width="512"/>
+  <unicode hex="F01B7"/>
+  <note>
+debug-step-over
+</note>
+  <outline>
+    <contour>
+      <point x="238" y="149"/>
+      <point x="213" y="124"/>
+      <point x="213" y="89"/>
+      <point x="238" y="64"/>
+      <point x="274" y="64"/>
+      <point x="299" y="89"/>
+      <point x="299" y="124"/>
+      <point x="274" y="149"/>
+      <point x="256" y="149" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="437" y="219" type="line"/>
+      <point x="408" y="265"/>
+      <point x="312" y="320"/>
+      <point x="256" y="320" type="qcurve" smooth="yes"/>
+      <point x="204" y="320"/>
+      <point x="114" y="274"/>
+      <point x="54" y="193"/>
+      <point x="46" y="143" type="qcurve"/>
+      <point x="88" y="136" type="line"/>
+      <point x="95" y="176"/>
+      <point x="143" y="240"/>
+      <point x="215" y="277"/>
+      <point x="256" y="277" type="qcurve" smooth="yes"/>
+      <point x="301" y="277"/>
+      <point x="378" y="234"/>
+      <point x="401" y="197" type="qcurve"/>
+      <point x="320" y="146" type="line"/>
+      <point x="467" y="112" type="line"/>
+      <point x="500" y="259" type="line"/>
+    </contour>
+  </outline>
+</glyph>

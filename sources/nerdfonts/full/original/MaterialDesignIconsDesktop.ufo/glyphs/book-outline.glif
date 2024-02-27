@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="book-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F0B64"/>
+  <note>
+book-outline
+</note>
+  <outline>
+    <contour>
+      <point x="128" y="405" type="line" smooth="yes"/>
+      <point x="110" y="405"/>
+      <point x="85" y="380"/>
+      <point x="85" y="363" type="qcurve" smooth="yes"/>
+      <point x="85" y="21" type="line" smooth="yes"/>
+      <point x="85" y="4"/>
+      <point x="110" y="-21"/>
+      <point x="128" y="-21" type="qcurve" smooth="yes"/>
+      <point x="384" y="-21" type="line" smooth="yes"/>
+      <point x="402" y="-21"/>
+      <point x="427" y="4"/>
+      <point x="427" y="21" type="qcurve" smooth="yes"/>
+      <point x="427" y="363" type="line" smooth="yes"/>
+      <point x="427" y="380"/>
+      <point x="402" y="405"/>
+      <point x="384" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="384" y="21" type="line"/>
+      <point x="128" y="21" type="line"/>
+      <point x="128" y="363" type="line"/>
+      <point x="171" y="363" type="line"/>
+      <point x="171" y="192" type="line"/>
+      <point x="224" y="240" type="line"/>
+      <point x="277" y="192" type="line"/>
+      <point x="277" y="363" type="line"/>
+      <point x="384" y="363" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pass-filled" format="2">
+  <advance width="300"/>
+  <unicode hex="EBB3"/>
+  <note>
+pass-filled
+</note>
+  <outline>
+    <contour>
+      <point x="114" y="19"/>
+      <point x="54" y="54"/>
+      <point x="19" y="114"/>
+      <point x="19" y="186"/>
+      <point x="54" y="246"/>
+      <point x="114" y="281"/>
+      <point x="186" y="281"/>
+      <point x="246" y="246"/>
+      <point x="281" y="186"/>
+      <point x="281" y="114"/>
+      <point x="246" y="54"/>
+      <point x="186" y="19"/>
+      <point x="150" y="19" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="216" y="182" type="line"/>
+      <point x="203" y="195" type="line"/>
+      <point x="124" y="116" type="line"/>
+      <point x="88" y="152" type="line"/>
+      <point x="75" y="139" type="line"/>
+      <point x="118" y="96" type="line"/>
+      <point x="131" y="96" type="line"/>
+    </contour>
+  </outline>
+</glyph>

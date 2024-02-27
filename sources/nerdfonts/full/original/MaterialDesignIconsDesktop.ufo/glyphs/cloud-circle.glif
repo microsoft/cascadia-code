@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cloud-circle" format="2">
+  <advance width="512"/>
+  <unicode hex="F0161"/>
+  <note>
+cloud-circle
+</note>
+  <outline>
+    <contour>
+      <point x="374" y="107"/>
+      <point x="405" y="138"/>
+      <point x="405" y="182"/>
+      <point x="374" y="213"/>
+      <point x="352" y="213" type="qcurve" smooth="yes"/>
+      <point x="341" y="213" type="line"/>
+      <point x="341" y="249"/>
+      <point x="291" y="299"/>
+      <point x="256" y="299" type="qcurve" smooth="yes"/>
+      <point x="226" y="299"/>
+      <point x="181" y="263"/>
+      <point x="174" y="235" type="qcurve"/>
+      <point x="171" y="235" type="line" smooth="yes"/>
+      <point x="144" y="235"/>
+      <point x="107" y="197"/>
+      <point x="107" y="144"/>
+      <point x="144" y="107"/>
+      <point x="171" y="107" type="qcurve" smooth="yes"/>
+      <point x="352" y="107" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="298" y="405"/>
+      <point x="377" y="373"/>
+      <point x="437" y="313"/>
+      <point x="469" y="234"/>
+      <point x="469" y="150"/>
+      <point x="437" y="71"/>
+      <point x="377" y="11"/>
+      <point x="298" y="-21"/>
+      <point x="214" y="-21"/>
+      <point x="135" y="11"/>
+      <point x="75" y="71"/>
+      <point x="43" y="150"/>
+      <point x="43" y="234"/>
+      <point x="75" y="313"/>
+      <point x="135" y="373"/>
+      <point x="214" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

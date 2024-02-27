@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="turnstile" format="2">
+  <advance width="512"/>
+  <unicode hex="F0CD5"/>
+  <note>
+turnstile
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="405" type="line"/>
+      <point x="213" y="405" type="line"/>
+      <point x="213" y="341" type="line"/>
+      <point x="341" y="213" type="line"/>
+      <point x="341" y="-21" type="line"/>
+      <point x="469" y="-21" type="line"/>
+    </contour>
+    <contour>
+      <point x="316" y="196" type="line"/>
+      <point x="291" y="171"/>
+      <point x="256" y="171" type="qcurve"/>
+      <point x="256" y="43" type="line"/>
+      <point x="213" y="43" type="line"/>
+      <point x="213" y="182" type="line"/>
+      <point x="194" y="194"/>
+      <point x="182" y="213" type="qcurve"/>
+      <point x="43" y="213" type="line"/>
+      <point x="43" y="256" type="line"/>
+      <point x="171" y="256" type="line"/>
+      <point x="171" y="291"/>
+      <point x="196" y="316" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

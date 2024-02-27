@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="color-mode" format="2">
+  <advance width="300"/>
+  <unicode hex="EAC6"/>
+  <note>
+color-mode
+</note>
+  <outline>
+    <contour>
+      <point x="186" y="281"/>
+      <point x="246" y="246"/>
+      <point x="281" y="186"/>
+      <point x="281" y="114"/>
+      <point x="246" y="54"/>
+      <point x="186" y="19"/>
+      <point x="114" y="19"/>
+      <point x="54" y="54"/>
+      <point x="19" y="114"/>
+      <point x="19" y="186"/>
+      <point x="54" y="246"/>
+      <point x="114" y="281"/>
+      <point x="150" y="281" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="181" y="38"/>
+      <point x="232" y="68"/>
+      <point x="263" y="119"/>
+      <point x="263" y="181"/>
+      <point x="232" y="232"/>
+      <point x="181" y="263"/>
+      <point x="150" y="263" type="qcurve"/>
+      <point x="150" y="38" type="line"/>
+    </contour>
+  </outline>
+</glyph>
