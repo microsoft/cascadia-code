@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="account-remove" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0015"/>
+  <note>
+account-remove
+</note>
+  <outline>
+    <contour>
+      <point x="668" y="602"/>
+      <point x="572" y="579" type="qcurve" smooth="yes"/>
+      <point x="464" y="551"/>
+      <point x="398" y="506" type="qcurve" smooth="yes"/>
+      <point x="318" y="453"/>
+      <point x="318" y="387" type="qcurve" smooth="yes"/>
+      <point x="318" y="279" type="line"/>
+      <point x="1180" y="279" type="line"/>
+      <point x="1180" y="387" type="line" smooth="yes"/>
+      <point x="1180" y="453"/>
+      <point x="1099" y="506" type="qcurve" smooth="yes"/>
+      <point x="1034" y="551"/>
+      <point x="925" y="579" type="qcurve" smooth="yes"/>
+      <point x="829" y="602"/>
+      <point x="749" y="602" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="837" y="710"/>
+      <point x="963" y="836"/>
+      <point x="963" y="1015"/>
+      <point x="837" y="1141"/>
+      <point x="661" y="1141"/>
+      <point x="534" y="1015"/>
+      <point x="534" y="836"/>
+      <point x="661" y="710"/>
+      <point x="749" y="710" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="96" y="955" type="line"/>
+      <point x="20" y="879" type="line"/>
+      <point x="136" y="763" type="line"/>
+      <point x="20" y="649" type="line"/>
+      <point x="96" y="574" type="line"/>
+      <point x="212" y="687" type="line"/>
+      <point x="325" y="574" type="line"/>
+      <point x="401" y="649" type="line"/>
+      <point x="287" y="763" type="line"/>
+      <point x="401" y="879" type="line"/>
+      <point x="325" y="955" type="line"/>
+      <point x="212" y="839" type="line"/>
+    </contour>
+  </outline>
+</glyph>

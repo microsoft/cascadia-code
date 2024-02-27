@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="microphone-minus" format="2">
+  <advance width="1200"/>
+  <unicode hex="F08B3"/>
+  <note>
+microphone-minus
+</note>
+  <outline>
+    <contour>
+      <point x="336" y="1234"/>
+      <point x="240" y="1139"/>
+      <point x="240" y="1069" type="qcurve" smooth="yes"/>
+      <point x="240" y="737" type="line" smooth="yes"/>
+      <point x="240" y="670"/>
+      <point x="336" y="571"/>
+      <point x="476" y="571"/>
+      <point x="572" y="670"/>
+      <point x="572" y="737" type="qcurve" smooth="yes"/>
+      <point x="572" y="1069" type="line" smooth="yes"/>
+      <point x="572" y="1139"/>
+      <point x="476" y="1234"/>
+      <point x="406" y="1234" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="683" y="737" type="line"/>
+      <point x="683" y="662"/>
+      <point x="608" y="535"/>
+      <point x="481" y="463"/>
+      <point x="331" y="463"/>
+      <point x="204" y="535"/>
+      <point x="129" y="662"/>
+      <point x="129" y="737" type="qcurve"/>
+      <point x="20" y="737" type="line"/>
+      <point x="20" y="644"/>
+      <point x="105" y="478"/>
+      <point x="256" y="370"/>
+      <point x="351" y="354" type="qcurve"/>
+      <point x="351" y="186" type="line"/>
+      <point x="460" y="186" type="line"/>
+      <point x="460" y="354" type="line"/>
+      <point x="556" y="370"/>
+      <point x="706" y="478"/>
+      <point x="792" y="644"/>
+      <point x="792" y="737" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="737" y="960" type="line"/>
+      <point x="1180" y="960" type="line"/>
+      <point x="1180" y="1069" type="line"/>
+      <point x="737" y="1069" type="line"/>
+    </contour>
+  </outline>
+</glyph>

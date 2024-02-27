@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pot-mix" format="2">
+  <advance width="512"/>
+  <unicode hex="F065B"/>
+  <note>
+pot-mix
+</note>
+  <outline>
+    <contour>
+      <point x="361" y="256" type="line"/>
+      <point x="420" y="361" type="line"/>
+      <point x="384" y="382" type="line"/>
+      <point x="311" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="448" y="235" type="line"/>
+      <point x="448" y="192" type="line"/>
+      <point x="405" y="192" type="line"/>
+      <point x="405" y="43" type="line" smooth="yes"/>
+      <point x="405" y="25"/>
+      <point x="380" y="0"/>
+      <point x="363" y="0" type="qcurve" smooth="yes"/>
+      <point x="149" y="0" type="line" smooth="yes"/>
+      <point x="132" y="0"/>
+      <point x="107" y="25"/>
+      <point x="107" y="43" type="qcurve" smooth="yes"/>
+      <point x="107" y="192" type="line"/>
+      <point x="64" y="192" type="line"/>
+      <point x="64" y="235" type="line"/>
+      <point x="299" y="235" type="line"/>
+    </contour>
+  </outline>
+</glyph>

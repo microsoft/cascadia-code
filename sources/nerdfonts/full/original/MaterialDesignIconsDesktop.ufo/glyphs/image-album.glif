@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="image-album" format="2">
+  <advance width="512"/>
+  <unicode hex="F02EA"/>
+  <note>
+image-album
+</note>
+  <outline>
+    <contour>
+      <point x="384" y="43" type="line"/>
+      <point x="302" y="152" type="line"/>
+      <point x="238" y="70" type="line"/>
+      <point x="192" y="125" type="line"/>
+      <point x="128" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="192" type="line"/>
+      <point x="181" y="224" type="line"/>
+      <point x="235" y="192" type="line"/>
+      <point x="235" y="363" type="line"/>
+      <point x="128" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="402" y="405"/>
+      <point x="427" y="380"/>
+      <point x="427" y="363" type="qcurve" smooth="yes"/>
+      <point x="427" y="21" type="line" smooth="yes"/>
+      <point x="427" y="4"/>
+      <point x="402" y="-21"/>
+      <point x="384" y="-21" type="qcurve" smooth="yes"/>
+      <point x="128" y="-21" type="line" smooth="yes"/>
+      <point x="110" y="-21"/>
+      <point x="85" y="4"/>
+      <point x="85" y="21" type="qcurve" smooth="yes"/>
+      <point x="85" y="363" type="line" smooth="yes"/>
+      <point x="85" y="380"/>
+      <point x="110" y="405"/>
+      <point x="128" y="405" type="qcurve" smooth="yes"/>
+      <point x="384" y="405" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

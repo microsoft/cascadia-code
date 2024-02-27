@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="spotlight-beam" format="2">
+  <advance width="512"/>
+  <unicode hex="F04C9"/>
+  <note>
+spotlight-beam
+</note>
+  <outline>
+    <contour>
+      <point x="303" y="-15" type="line"/>
+      <point x="323" y="4" type="line"/>
+      <point x="211" y="115" type="line"/>
+      <point x="192" y="96" type="line"/>
+    </contour>
+    <contour>
+      <point x="442" y="124" type="line"/>
+      <point x="461" y="143" type="line"/>
+      <point x="350" y="254" type="line"/>
+      <point x="331" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="131" y="402"/>
+      <point x="95" y="402"/>
+      <point x="83" y="390" type="qcurve" smooth="yes"/>
+      <point x="58" y="365" type="line" smooth="yes"/>
+      <point x="46" y="353"/>
+      <point x="46" y="317"/>
+      <point x="58" y="305" type="qcurve" smooth="yes"/>
+      <point x="131" y="231" type="line"/>
+      <point x="217" y="317" type="line"/>
+      <point x="143" y="390" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="236" y="306" type="line"/>
+      <point x="142" y="212" type="line"/>
+      <point x="160" y="137" type="line"/>
+      <point x="175" y="122" type="line"/>
+      <point x="326" y="273" type="line"/>
+      <point x="311" y="288" type="line"/>
+    </contour>
+  </outline>
+</glyph>

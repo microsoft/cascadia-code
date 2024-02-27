@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="console-line" format="2">
+  <advance width="512"/>
+  <unicode hex="F07B7"/>
+  <note>
+console-line
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="43" type="line"/>
+      <point x="448" y="107" type="line"/>
+      <point x="277" y="107" type="line"/>
+      <point x="277" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="53" y="43" type="line"/>
+      <point x="144" y="43" type="line"/>
+      <point x="249" y="148" type="line" smooth="yes"/>
+      <point x="258" y="157"/>
+      <point x="258" y="184"/>
+      <point x="249" y="193" type="qcurve" smooth="yes"/>
+      <point x="143" y="299" type="line"/>
+      <point x="53" y="299" type="line"/>
+      <point x="181" y="171" type="line"/>
+    </contour>
+  </outline>
+</glyph>

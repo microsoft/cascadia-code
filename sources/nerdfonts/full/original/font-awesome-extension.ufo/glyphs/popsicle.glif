@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="popsicle" format="2">
+  <advance width="512"/>
+  <unicode hex="E233"/>
+  <note>
+popsicle
+</note>
+  <outline>
+    <contour>
+      <point x="355" y="444"/>
+      <point x="355" y="403" type="qcurve" smooth="yes"/>
+      <point x="355" y="213" type="line" smooth="yes"/>
+      <point x="355" y="197"/>
+      <point x="339" y="197" type="qcurve" smooth="yes"/>
+      <point x="173" y="197" type="line" smooth="yes"/>
+      <point x="157" y="197"/>
+      <point x="157" y="213" type="qcurve" smooth="yes"/>
+      <point x="157" y="403" type="line" smooth="yes"/>
+      <point x="157" y="444"/>
+      <point x="215" y="502"/>
+      <point x="297" y="502"/>
+    </contour>
+    <contour>
+      <point x="231" y="162" type="line"/>
+      <point x="281" y="162" type="line"/>
+      <point x="281" y="25" type="line" smooth="yes"/>
+      <point x="281" y="19"/>
+      <point x="272" y="10"/>
+      <point x="266" y="10" type="qcurve" smooth="yes"/>
+      <point x="246" y="10" type="line" smooth="yes"/>
+      <point x="240" y="10"/>
+      <point x="231" y="19"/>
+      <point x="231" y="25" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:45:38 +0000</string>
+    </dict>
+  </lib>
+</glyph>

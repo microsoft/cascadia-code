@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lightning-bolt-circle" format="2">
+  <advance width="512"/>
+  <unicode hex="F0820"/>
+  <note>
+lightning-bolt-circle
+</note>
+  <outline>
+    <contour>
+      <point x="245" y="155" type="line"/>
+      <point x="171" y="155" type="line"/>
+      <point x="277" y="363" type="line"/>
+      <point x="277" y="229" type="line"/>
+      <point x="349" y="229" type="line"/>
+      <point x="245" y="21" type="line"/>
+    </contour>
+    <contour>
+      <point x="169" y="405"/>
+      <point x="43" y="279"/>
+      <point x="43" y="105"/>
+      <point x="169" y="-21"/>
+      <point x="343" y="-21"/>
+      <point x="469" y="105"/>
+      <point x="469" y="279"/>
+      <point x="343" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="temperature-fahrenheit" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0505"/>
+  <note>
+temperature-fahrenheit
+</note>
+  <outline>
+    <contour>
+      <point x="771" y="130" type="line"/>
+      <point x="771" y="539" type="line"/>
+      <point x="1110" y="539" type="line"/>
+      <point x="1110" y="744" type="line"/>
+      <point x="771" y="744" type="line"/>
+      <point x="771" y="948" type="line"/>
+      <point x="1180" y="948" type="line"/>
+      <point x="1180" y="1153" type="line"/>
+      <point x="566" y="1153" type="line"/>
+      <point x="566" y="130" type="line"/>
+    </contour>
+    <contour>
+      <point x="138" y="1290"/>
+      <point x="20" y="1172"/>
+      <point x="20" y="999"/>
+      <point x="138" y="881"/>
+      <point x="311" y="881"/>
+      <point x="429" y="999"/>
+      <point x="429" y="1172"/>
+      <point x="311" y="1290"/>
+      <point x="225" y="1290" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="253" y="1153"/>
+      <point x="292" y="1114"/>
+      <point x="292" y="1057"/>
+      <point x="253" y="1018"/>
+      <point x="196" y="1018"/>
+      <point x="157" y="1057"/>
+      <point x="157" y="1114"/>
+      <point x="196" y="1153"/>
+      <point x="225" y="1153" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

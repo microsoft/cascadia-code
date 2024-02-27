@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="roller-shade" format="2">
+  <advance width="512"/>
+  <unicode hex="F1A6B"/>
+  <note>
+roller-shade
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="43" type="line"/>
+      <point x="469" y="0" type="line"/>
+      <point x="43" y="0" type="line"/>
+      <point x="43" y="43" type="line"/>
+      <point x="85" y="43" type="line"/>
+      <point x="85" y="384" type="line"/>
+      <point x="427" y="384" type="line"/>
+      <point x="427" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="384" y="43" type="line"/>
+      <point x="384" y="171" type="line"/>
+      <point x="277" y="171" type="line"/>
+      <point x="277" y="132" type="line"/>
+      <point x="294" y="122"/>
+      <point x="294" y="102" type="qcurve" smooth="yes"/>
+      <point x="294" y="86"/>
+      <point x="272" y="64"/>
+      <point x="240" y="64"/>
+      <point x="218" y="86"/>
+      <point x="218" y="119"/>
+      <point x="235" y="132" type="qcurve"/>
+      <point x="235" y="171" type="line"/>
+      <point x="128" y="171" type="line"/>
+      <point x="128" y="43" type="line"/>
+    </contour>
+  </outline>
+</glyph>

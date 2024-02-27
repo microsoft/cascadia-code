@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wifi-off" format="2">
+  <advance width="512"/>
+  <unicode hex="F05AA"/>
+  <note>
+wifi-off
+</note>
+  <outline>
+    <contour>
+      <point x="405" y="27" type="line"/>
+      <point x="378" y="0" type="line"/>
+      <point x="308" y="70" type="line"/>
+      <point x="256" y="0" type="line"/>
+      <point x="179" y="102" type="line"/>
+      <point x="211" y="126"/>
+      <point x="251" y="128" type="qcurve"/>
+      <point x="196" y="182" type="line"/>
+      <point x="166" y="172"/>
+      <point x="141" y="154" type="qcurve"/>
+      <point x="102" y="205" type="line"/>
+      <point x="122" y="220"/>
+      <point x="147" y="231" type="qcurve"/>
+      <point x="99" y="279" type="line"/>
+      <point x="80" y="268"/>
+      <point x="64" y="256" type="qcurve"/>
+      <point x="26" y="307" type="line"/>
+      <point x="39" y="317"/>
+      <point x="53" y="326" type="qcurve"/>
+      <point x="21" y="357" type="line"/>
+      <point x="49" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="384"/>
+      <point x="437" y="344"/>
+      <point x="486" y="307" type="qcurve"/>
+      <point x="448" y="256" type="line"/>
+      <point x="407" y="287"/>
+      <point x="309" y="320"/>
+      <point x="256" y="320" type="qcurve" smooth="yes"/>
+      <point x="216" y="320"/>
+      <point x="177" y="310" type="qcurve"/>
+      <point x="126" y="361" type="line"/>
+      <point x="189" y="384"/>
+      <point x="256" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="299" y="256"/>
+      <point x="377" y="229"/>
+      <point x="410" y="205" type="qcurve"/>
+      <point x="371" y="154" type="line"/>
+      <point x="339" y="178"/>
+      <point x="300" y="187" type="qcurve"/>
+      <point x="232" y="255" type="line"/>
+      <point x="240" y="256"/>
+      <point x="256" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

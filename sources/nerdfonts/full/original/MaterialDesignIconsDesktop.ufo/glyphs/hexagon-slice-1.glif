@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hexagon-slice-1" format="2">
+  <advance width="512"/>
+  <unicode hex="F0AC3"/>
+  <note>
+hexagon-slice-1
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="288" type="line" smooth="yes"/>
+      <point x="448" y="301"/>
+      <point x="437" y="307" type="qcurve" smooth="yes"/>
+      <point x="268" y="401" type="line"/>
+      <point x="263" y="405"/>
+      <point x="249" y="405"/>
+      <point x="244" y="401" type="qcurve"/>
+      <point x="75" y="307" type="line" smooth="yes"/>
+      <point x="64" y="301"/>
+      <point x="64" y="288" type="qcurve" smooth="yes"/>
+      <point x="64" y="96" type="line" smooth="yes"/>
+      <point x="64" y="83"/>
+      <point x="75" y="77" type="qcurve" smooth="yes"/>
+      <point x="244" y="-17" type="line"/>
+      <point x="249" y="-21"/>
+      <point x="263" y="-21"/>
+      <point x="268" y="-17" type="qcurve"/>
+      <point x="437" y="77" type="line" smooth="yes"/>
+      <point x="448" y="83"/>
+      <point x="448" y="96" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="405" y="275" type="line"/>
+      <point x="405" y="109" type="line"/>
+      <point x="256" y="25" type="line"/>
+      <point x="107" y="109" type="line"/>
+      <point x="107" y="275" type="line"/>
+      <point x="256" y="359" type="line"/>
+    </contour>
+    <contour>
+      <point x="383" y="263" type="line"/>
+      <point x="256" y="335" type="line"/>
+      <point x="256" y="192" type="line"/>
+    </contour>
+  </outline>
+</glyph>

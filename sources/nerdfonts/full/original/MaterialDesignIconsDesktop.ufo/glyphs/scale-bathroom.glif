@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scale-bathroom" format="2">
+  <advance width="512"/>
+  <unicode hex="F0473"/>
+  <note>
+scale-bathroom
+</note>
+  <outline>
+    <contour>
+      <point x="89" y="405"/>
+      <point x="64" y="380"/>
+      <point x="64" y="363" type="qcurve" smooth="yes"/>
+      <point x="64" y="21" type="line" smooth="yes"/>
+      <point x="64" y="4"/>
+      <point x="89" y="-21"/>
+      <point x="107" y="-21" type="qcurve" smooth="yes"/>
+      <point x="405" y="-21" type="line" smooth="yes"/>
+      <point x="423" y="-21"/>
+      <point x="448" y="4"/>
+      <point x="448" y="21" type="qcurve" smooth="yes"/>
+      <point x="448" y="363" type="line" smooth="yes"/>
+      <point x="448" y="380"/>
+      <point x="423" y="405"/>
+      <point x="405" y="405" type="qcurve" smooth="yes"/>
+      <point x="107" y="405" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="291" y="363"/>
+      <point x="341" y="313"/>
+      <point x="341" y="277" type="qcurve"/>
+      <point x="275" y="277" type="line"/>
+      <point x="231" y="336" type="line"/>
+      <point x="240" y="277" type="line"/>
+      <point x="171" y="277" type="line"/>
+      <point x="171" y="313"/>
+      <point x="221" y="363"/>
+      <point x="256" y="363" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="405" y="235" type="line"/>
+      <point x="405" y="21" type="line"/>
+      <point x="107" y="21" type="line"/>
+      <point x="107" y="235" type="line"/>
+    </contour>
+  </outline>
+</glyph>

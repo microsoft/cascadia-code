@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="horizontal-rule" format="2">
+  <advance width="2048"/>
+  <unicode hex="F45B"/>
+  <note>
+horizontal-rule
+</note>
+  <outline>
+    <contour>
+      <point x="56" y="550"/>
+      <point x="96" y="550" type="qcurve" smooth="yes"/>
+      <point x="1952" y="550" type="line" smooth="yes"/>
+      <point x="1992" y="550"/>
+      <point x="2048" y="606"/>
+      <point x="2048" y="686"/>
+      <point x="1992" y="742"/>
+      <point x="1952" y="742" type="qcurve" smooth="yes"/>
+      <point x="96" y="742" type="line" smooth="yes"/>
+      <point x="56" y="742"/>
+      <point x="0" y="686"/>
+      <point x="0" y="606"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:49:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

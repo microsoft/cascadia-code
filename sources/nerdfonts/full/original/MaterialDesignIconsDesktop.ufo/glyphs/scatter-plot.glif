@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scatter-plot" format="2">
+  <advance width="512"/>
+  <unicode hex="F0EC9"/>
+  <note>
+scatter-plot
+</note>
+  <outline>
+    <contour>
+      <point x="123" y="213"/>
+      <point x="85" y="176"/>
+      <point x="85" y="123"/>
+      <point x="123" y="85"/>
+      <point x="176" y="85"/>
+      <point x="213" y="123"/>
+      <point x="213" y="176"/>
+      <point x="176" y="213"/>
+      <point x="149" y="213" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="208" y="384"/>
+      <point x="171" y="347"/>
+      <point x="171" y="293"/>
+      <point x="208" y="256"/>
+      <point x="261" y="256"/>
+      <point x="299" y="293"/>
+      <point x="299" y="347"/>
+      <point x="261" y="384"/>
+      <point x="235" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="328" y="137"/>
+      <point x="290" y="99"/>
+      <point x="290" y="46"/>
+      <point x="328" y="9"/>
+      <point x="381" y="9"/>
+      <point x="418" y="46"/>
+      <point x="418" y="99"/>
+      <point x="381" y="137"/>
+      <point x="354" y="137" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

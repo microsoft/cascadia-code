@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pause-circle" format="2">
+  <advance width="512"/>
+  <unicode hex="F03E5"/>
+  <note>
+pause-circle
+</note>
+  <outline>
+    <contour>
+      <point x="320" y="277" type="line"/>
+      <point x="277" y="277" type="line"/>
+      <point x="277" y="107" type="line"/>
+      <point x="320" y="107" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="277" type="line"/>
+      <point x="192" y="277" type="line"/>
+      <point x="192" y="107" type="line"/>
+      <point x="235" y="107" type="line"/>
+    </contour>
+    <contour>
+      <point x="298" y="405"/>
+      <point x="377" y="373"/>
+      <point x="437" y="313"/>
+      <point x="469" y="234"/>
+      <point x="469" y="150"/>
+      <point x="437" y="71"/>
+      <point x="377" y="11"/>
+      <point x="298" y="-21"/>
+      <point x="214" y="-21"/>
+      <point x="135" y="11"/>
+      <point x="75" y="71"/>
+      <point x="43" y="150"/>
+      <point x="43" y="234"/>
+      <point x="75" y="313"/>
+      <point x="135" y="373"/>
+      <point x="214" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

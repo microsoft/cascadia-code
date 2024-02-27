@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="delete-variant" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01B3"/>
+  <note>
+delete-variant
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="1319" type="line"/>
+      <point x="215" y="210" type="line" smooth="yes"/>
+      <point x="224" y="162"/>
+      <point x="296" y="101"/>
+      <point x="345" y="101" type="qcurve" smooth="yes"/>
+      <point x="855" y="101" type="line" smooth="yes"/>
+      <point x="904" y="101"/>
+      <point x="976" y="162"/>
+      <point x="985" y="210" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1319" type="line"/>
+    </contour>
+    <contour>
+      <point x="1027" y="1189" type="line"/>
+      <point x="855" y="228" type="line"/>
+      <point x="345" y="228" type="line"/>
+      <point x="173" y="1189" type="line"/>
+    </contour>
+    <contour>
+      <point x="663" y="357" type="line"/>
+      <point x="663" y="612" type="line"/>
+      <point x="408" y="612" type="line"/>
+      <point x="408" y="357" type="line"/>
+    </contour>
+    <contour>
+      <point x="867" y="871" type="line"/>
+      <point x="663" y="1075" type="line"/>
+      <point x="459" y="871" type="line"/>
+      <point x="663" y="666" type="line"/>
+    </contour>
+  </outline>
+</glyph>

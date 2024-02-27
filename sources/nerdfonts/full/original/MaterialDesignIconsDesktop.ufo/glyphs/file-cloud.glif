@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="file-cloud" format="2">
+  <advance width="512"/>
+  <unicode hex="F0217"/>
+  <note>
+file-cloud
+</note>
+  <outline>
+    <contour>
+      <point x="277" y="373" type="line"/>
+      <point x="395" y="256" type="line"/>
+      <point x="277" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="110" y="405"/>
+      <point x="85" y="380"/>
+      <point x="85" y="363" type="qcurve" smooth="yes"/>
+      <point x="85" y="21" type="line" smooth="yes"/>
+      <point x="85" y="4"/>
+      <point x="110" y="-21"/>
+      <point x="128" y="-21" type="qcurve" smooth="yes"/>
+      <point x="384" y="-21" type="line" smooth="yes"/>
+      <point x="402" y="-21"/>
+      <point x="427" y="4"/>
+      <point x="427" y="21" type="qcurve" smooth="yes"/>
+      <point x="427" y="277" type="line"/>
+      <point x="299" y="405" type="line"/>
+      <point x="128" y="405" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="355" y="126"/>
+      <point x="384" y="96"/>
+      <point x="384" y="53"/>
+      <point x="353" y="21"/>
+      <point x="331" y="21" type="qcurve" smooth="yes"/>
+      <point x="192" y="21" type="line" smooth="yes"/>
+      <point x="165" y="21"/>
+      <point x="128" y="59"/>
+      <point x="128" y="110"/>
+      <point x="161" y="146"/>
+      <point x="185" y="149" type="qcurve"/>
+      <point x="195" y="169"/>
+      <point x="233" y="192"/>
+      <point x="256" y="192" type="qcurve" smooth="yes"/>
+      <point x="285" y="192"/>
+      <point x="329" y="155"/>
+      <point x="335" y="128" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

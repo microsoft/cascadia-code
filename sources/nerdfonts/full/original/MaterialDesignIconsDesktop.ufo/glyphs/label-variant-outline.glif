@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="label-variant-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F0ACE"/>
+  <note>
+label-variant-outline
+</note>
+  <outline>
+    <contour>
+      <point x="213" y="192" type="line"/>
+      <point x="139" y="299" type="line"/>
+      <point x="320" y="299" type="line"/>
+      <point x="395" y="192" type="line"/>
+      <point x="320" y="85" type="line"/>
+      <point x="139" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="342" y="43"/>
+      <point x="355" y="61" type="qcurve" smooth="yes"/>
+      <point x="448" y="192" type="line"/>
+      <point x="355" y="323" type="line" smooth="yes"/>
+      <point x="342" y="341"/>
+      <point x="320" y="341" type="qcurve" smooth="yes"/>
+      <point x="64" y="341" type="line"/>
+      <point x="160" y="192" type="line"/>
+      <point x="64" y="43" type="line"/>
+      <point x="320" y="43" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

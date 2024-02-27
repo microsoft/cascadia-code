@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="anvil" format="2">
+  <advance width="512"/>
+  <unicode hex="F089B"/>
+  <note>
+anvil
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="341" type="line"/>
+      <point x="469" y="277" type="line"/>
+      <point x="433" y="269"/>
+      <point x="379" y="230"/>
+      <point x="363" y="179"/>
+      <point x="380" y="155" type="qcurve" smooth="yes"/>
+      <point x="399" y="127"/>
+      <point x="448" y="107" type="qcurve"/>
+      <point x="448" y="43" type="line"/>
+      <point x="128" y="43" type="line"/>
+      <point x="128" y="107" type="line"/>
+      <point x="163" y="121"/>
+      <point x="187" y="138" type="qcurve" smooth="yes"/>
+      <point x="220" y="161"/>
+      <point x="225" y="183" type="qcurve" smooth="yes"/>
+      <point x="231" y="211"/>
+      <point x="192" y="235" type="qcurve"/>
+      <point x="192" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="149" y="320" type="line"/>
+      <point x="149" y="235" type="line"/>
+      <point x="69" y="250"/>
+      <point x="43" y="320" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+feature liga {
+script DFLT;
+language dflt;
+lookup SUB_0 {
+} SUB_0;
+script latn;
+language dflt;
+lookup SUB_0;
+} liga;
+

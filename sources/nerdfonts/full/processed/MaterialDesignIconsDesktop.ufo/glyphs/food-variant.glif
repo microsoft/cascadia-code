@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="food-variant" format="2">
+  <advance width="1200"/>
+  <unicode hex="F025C"/>
+  <note>
+food-variant
+</note>
+  <outline>
+    <contour>
+      <point x="1172" y="509" type="line"/>
+      <point x="1050" y="509" type="line"/>
+      <point x="1180" y="730" type="line"/>
+      <point x="1088" y="782" type="line"/>
+      <point x="931" y="509" type="line"/>
+      <point x="539" y="509" type="line"/>
+      <point x="539" y="392" type="line" smooth="yes"/>
+      <point x="539" y="298"/>
+      <point x="674" y="162"/>
+      <point x="769" y="162" type="qcurve" smooth="yes"/>
+      <point x="942" y="162" type="line" smooth="yes"/>
+      <point x="1037" y="162"/>
+      <point x="1172" y="298"/>
+      <point x="1172" y="392" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="423" y="336"/>
+      <point x="420" y="422" type="qcurve" smooth="yes"/>
+      <point x="417" y="568"/>
+      <point x="404" y="690" type="qcurve" smooth="yes"/>
+      <point x="385" y="860"/>
+      <point x="331" y="1141" type="qcurve"/>
+      <point x="366" y="1141" type="line"/>
+      <point x="366" y="1258" type="line"/>
+      <point x="77" y="1258" type="line"/>
+      <point x="77" y="1141" type="line"/>
+      <point x="112" y="1141" type="line"/>
+      <point x="55" y="860"/>
+      <point x="39" y="690" type="qcurve" smooth="yes"/>
+      <point x="25" y="568"/>
+      <point x="23" y="422" type="qcurve" smooth="yes"/>
+      <point x="20" y="336"/>
+      <point x="20" y="162" type="qcurve"/>
+      <point x="423" y="162" type="line"/>
+    </contour>
+  </outline>
+</glyph>

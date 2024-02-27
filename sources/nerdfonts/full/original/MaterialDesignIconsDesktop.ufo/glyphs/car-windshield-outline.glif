@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="car-windshield-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F101C"/>
+  <note>
+car-windshield-outline
+</note>
+  <outline>
+    <contour>
+      <point x="486" y="104"/>
+      <point x="471" y="80"/>
+      <point x="458" y="78" type="qcurve" smooth="yes"/>
+      <point x="357" y="63"/>
+      <point x="155" y="63"/>
+      <point x="54" y="78" type="qcurve" smooth="yes"/>
+      <point x="41" y="80"/>
+      <point x="26" y="104"/>
+      <point x="29" y="117" type="qcurve" smooth="yes"/>
+      <point x="81" y="323" type="line" smooth="yes"/>
+      <point x="83" y="331"/>
+      <point x="96" y="340"/>
+      <point x="104" y="339" type="qcurve" smooth="yes"/>
+      <point x="130" y="336"/>
+      <point x="173" y="334" type="qcurve" smooth="yes"/>
+      <point x="225" y="331"/>
+      <point x="287" y="331"/>
+      <point x="339" y="334" type="qcurve" smooth="yes"/>
+      <point x="382" y="336"/>
+      <point x="408" y="339" type="qcurve" smooth="yes"/>
+      <point x="416" y="340"/>
+      <point x="429" y="331"/>
+      <point x="431" y="323" type="qcurve" smooth="yes"/>
+      <point x="483" y="117" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="348" y="106"/>
+      <point x="439" y="117" type="qcurve"/>
+      <point x="395" y="295" type="line"/>
+      <point x="369" y="292"/>
+      <point x="328" y="290" type="qcurve" smooth="yes"/>
+      <point x="284" y="288"/>
+      <point x="228" y="288"/>
+      <point x="184" y="290" type="qcurve" smooth="yes"/>
+      <point x="143" y="292"/>
+      <point x="117" y="295" type="qcurve"/>
+      <point x="73" y="117" type="line"/>
+      <point x="164" y="106"/>
+      <point x="256" y="107" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

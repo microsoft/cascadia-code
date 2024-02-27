@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ladder" format="2">
+  <advance width="512"/>
+  <unicode hex="F15A2"/>
+  <note>
+ladder
+</note>
+  <outline>
+    <contour>
+      <point x="341" y="427" type="line"/>
+      <point x="341" y="-21" type="line"/>
+      <point x="299" y="-21" type="line"/>
+      <point x="299" y="21" type="line"/>
+      <point x="213" y="21" type="line"/>
+      <point x="213" y="-21" type="line"/>
+      <point x="171" y="-21" type="line"/>
+      <point x="171" y="427" type="line"/>
+      <point x="213" y="427" type="line"/>
+      <point x="213" y="384" type="line"/>
+      <point x="299" y="384" type="line"/>
+      <point x="299" y="427" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="341" type="line"/>
+      <point x="213" y="277" type="line"/>
+      <point x="299" y="277" type="line"/>
+      <point x="299" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="235" type="line"/>
+      <point x="213" y="171" type="line"/>
+      <point x="299" y="171" type="line"/>
+      <point x="299" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="64" type="line"/>
+      <point x="299" y="128" type="line"/>
+      <point x="213" y="128" type="line"/>
+      <point x="213" y="64" type="line"/>
+    </contour>
+  </outline>
+</glyph>

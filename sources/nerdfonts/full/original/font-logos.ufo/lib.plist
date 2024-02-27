@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>com.schriftgestaltung.appVersion</key>
+    <string>3241</string>
+    <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+    <true/>
+    <key>com.schriftgestaltung.fontMaster.customParameters</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>CVT Table</string>
+        <key>value</key>
+        <string>(
+    17,
+    324
+)</string>
+      </dict>
+    </array>
+    <key>com.schriftgestaltung.fontMasterID</key>
+    <string>m01</string>
+    <key>com.schriftgestaltung.formatVersion</key>
+    <integer>3</integer>
+    <key>com.schriftgestaltung.master.name</key>
+    <string>logos</string>
+    <key>com.schriftgestaltung.useGlyphOrder</key>
+    <true/>
+    <key>com.schriftgestaltung.useNiceNames</key>
+    <false/>
+    <key>public.glyphOrder</key>
+    <array>
+      <string>Alpine</string>
+      <string>AOSC OS</string>
+      <string>Apple</string>
+      <string>Arch Linux</string>
+      <string>CentOS</string>
+      <string>CoreOS</string>
+      <string>Debian</string>
+      <string>Devuan</string>
+      <string>Docker</string>
+      <string>elementary OS</string>
+      <string>Fedora</string>
+      <string>Fedora (inverse)</string>
+      <string>FreeBSD</string>
+      <string>Gentoo</string>
+      <string>Linux Mint</string>
+      <string>Linux Mint (inverse)</string>
+      <string>Mageia</string>
+      <string>Mandriva</string>
+      <string>Manjaro</string>
+      <string>NixOS</string>
+      <string>OpenSUSE</string>
+      <string>Raspberry pi</string>
+      <string>Red Hat</string>
+      <string>Sabayon</string>
+      <string>Slackware</string>
+      <string>Slackware (inverse)</string>
+      <string>Tux</string>
+      <string>Ubuntu</string>
+      <string>Ubuntu (inverse)</string>
+      <string>Alma Linux</string>
+      <string>ArchLabs</string>
+      <string>Artix Linux</string>
+      <string>Budgie</string>
+      <string>Deepin</string>
+      <string>Endeavour OS</string>
+      <string>Ferris</string>
+      <string>Flathub</string>
+      <string>GNU Guix</string>
+      <string>illumos</string>
+      <string>Kali Linux</string>
+      <string>OpenBSD</string>
+      <string>Parrot OS</string>
+      <string>Pop!_OS</string>
+      <string>Rocky Linux</string>
+      <string>Snappy</string>
+      <string>Solus</string>
+      <string>Void</string>
+      <string>Zorin OS</string>
+      <string>Codeberg</string>
+      <string>KDE Neon</string>
+      <string>KDE Plasma</string>
+      <string>Kubuntu</string>
+      <string>Kubuntu (inverse)</string>
+      <string>Forgejo</string>
+      <string>FreeCAD</string>
+      <string>Garuda Linux</string>
+      <string>GIMP</string>
+      <string>Gitea</string>
+      <string>Hyperbola GNU/Linux-libre</string>
+      <string>Inkscape</string>
+      <string>Kdenlive</string>
+      <string>Krita</string>
+      <string>LXLE Linux</string>
+      <string>MX Linux</string>
+      <string>Parabola GNU/Linux-libre</string>
+      <string>Puppy Linux</string>
+      <string>QubesOS</string>
+      <string>Tails</string>
+      <string>Trisquel GNU/Linux</string>
+      <string>Archcraft</string>
+      <string>ArcoLinux</string>
+      <string>BigLinux</string>
+      <string>Crystal Linux</string>
+      <string>Loc-OS</string>
+      <string>XeroLinux</string>
+      <string>Arduino</string>
+      <string>KiCad</string>
+      <string>Octoprint</string>
+      <string>OpenSCAD</string>
+      <string>OSH</string>
+      <string>OSHWA</string>
+      <string>Prusa Slicer</string>
+      <string>RepRap</string>
+      <string>RISC-V</string>
+      <string>Awesome WM</string>
+      <string>bspwm</string>
+      <string>dwm</string>
+      <string>Enlightenment</string>
+      <string>Fluxbox</string>
+      <string>Hyprland</string>
+      <string>i3</string>
+      <string>JWM</string>
+      <string>Qtile</string>
+      <string>Sway</string>
+      <string>Xmonad</string>
+      <string>Cinnamon</string>
+      <string>freedesktop.org</string>
+      <string>GNOME</string>
+      <string>GTK</string>
+      <string>LXDE</string>
+      <string>LXQt</string>
+      <string>MATE</string>
+      <string>Vanilla OS</string>
+      <string>Wayland</string>
+      <string>XFCE</string>
+      <string>Xorg</string>
+      <string>F-droid</string>
+      <string>FOSDEM</string>
+      <string>OSI</string>
+      <string>Wikimedia</string>
+      <string>mpv</string>
+      <string>Neovim</string>
+      <string>Thunderbird</string>
+      <string>Tor Browser</string>
+      <string>VS Codium</string>
+    </array>
+    <key>public.postscriptNames</key>
+    <dict>
+      <key>AOSC OS</key>
+      <string>uniF301</string>
+      <key>Alma Linux</key>
+      <string>uniF31D</string>
+      <key>Alpine</key>
+      <string>uniF300</string>
+      <key>Apple</key>
+      <string>uniF302</string>
+      <key>Arch Linux</key>
+      <string>uniF303</string>
+      <key>ArchLabs</key>
+      <string>uniF31E</string>
+      <key>Archcraft</key>
+      <string>uniF345</string>
+      <key>ArcoLinux</key>
+      <string>uniF346</string>
+      <key>Arduino</key>
+      <string>uniF34B</string>
+      <key>Artix Linux</key>
+      <string>uniF31F</string>
+      <key>Awesome WM</key>
+      <string>uniF354</string>
+      <key>BigLinux</key>
+      <string>uniF347</string>
+      <key>Budgie</key>
+      <string>uniF320</string>
+      <key>CentOS</key>
+      <string>uniF304</string>
+      <key>Cinnamon</key>
+      <string>uniF35F</string>
+      <key>Codeberg</key>
+      <string>uniF330</string>
+      <key>CoreOS</key>
+      <string>uniF305</string>
+      <key>Crystal Linux</key>
+      <string>uniF348</string>
+      <key>Debian</key>
+      <string>uniF306</string>
+      <key>Deepin</key>
+      <string>uniF321</string>
+      <key>Devuan</key>
+      <string>uniF307</string>
+      <key>Docker</key>
+      <string>uniF308</string>
+      <key>Endeavour OS</key>
+      <string>uniF322</string>
+      <key>Enlightenment</key>
+      <string>uniF357</string>
+      <key>F-droid</key>
+      <string>uniF36A</string>
+      <key>FOSDEM</key>
+      <string>uniF36B</string>
+      <key>Fedora</key>
+      <string>uniF30A</string>
+      <key>Fedora (inverse)</key>
+      <string>uniF30B</string>
+      <key>Ferris</key>
+      <string>uniF323</string>
+      <key>Flathub</key>
+      <string>uniF324</string>
+      <key>Fluxbox</key>
+      <string>uniF358</string>
+      <key>Forgejo</key>
+      <string>uniF335</string>
+      <key>FreeBSD</key>
+      <string>uniF30C</string>
+      <key>FreeCAD</key>
+      <string>uniF336</string>
+      <key>GIMP</key>
+      <string>uniF338</string>
+      <key>GNOME</key>
+      <string>uniF361</string>
+      <key>GNU Guix</key>
+      <string>uniF325</string>
+      <key>GTK</key>
+      <string>uniF362</string>
+      <key>Garuda Linux</key>
+      <string>uniF337</string>
+      <key>Gentoo</key>
+      <string>uniF30D</string>
+      <key>Gitea</key>
+      <string>uniF339</string>
+      <key>Hyperbola GNU/Linux-libre</key>
+      <string>uniF33A</string>
+      <key>Hyprland</key>
+      <string>uniF359</string>
+      <key>Inkscape</key>
+      <string>uniF33B</string>
+      <key>JWM</key>
+      <string>uniF35B</string>
+      <key>KDE Neon</key>
+      <string>uniF331</string>
+      <key>KDE Plasma</key>
+      <string>uniF332</string>
+      <key>Kali Linux</key>
+      <string>uniF327</string>
+      <key>Kdenlive</key>
+      <string>uniF33C</string>
+      <key>KiCad</key>
+      <string>uniF34C</string>
+      <key>Krita</key>
+      <string>uniF33D</string>
+      <key>Kubuntu</key>
+      <string>uniF333</string>
+      <key>Kubuntu (inverse)</key>
+      <string>uniF334</string>
+      <key>LXDE</key>
+      <string>uniF363</string>
+      <key>LXLE Linux</key>
+      <string>uniF33E</string>
+      <key>LXQt</key>
+      <string>uniF364</string>
+      <key>Linux Mint</key>
+      <string>uniF30E</string>
+      <key>Linux Mint (inverse)</key>
+      <string>uniF30F</string>
+      <key>Loc-OS</key>
+      <string>uniF349</string>
+      <key>MATE</key>
+      <string>uniF365</string>
+      <key>MX Linux</key>
+      <string>uniF33F</string>
+      <key>Mageia</key>
+      <string>uniF310</string>
+      <key>Mandriva</key>
+      <string>uniF311</string>
+      <key>Manjaro</key>
+      <string>uniF312</string>
+      <key>Neovim</key>
+      <string>uniF36F</string>
+      <key>NixOS</key>
+      <string>uniF313</string>
+      <key>OSH</key>
+      <string>uniF34F</string>
+      <key>OSHWA</key>
+      <string>uniF350</string>
+      <key>OSI</key>
+      <string>uniF36C</string>
+      <key>Octoprint</key>
+      <string>uniF34D</string>
+      <key>OpenBSD</key>
+      <string>uniF328</string>
+      <key>OpenSCAD</key>
+      <string>uniF34E</string>
+      <key>OpenSUSE</key>
+      <string>uniF314</string>
+      <key>Parabola GNU/Linux-libre</key>
+      <string>uniF340</string>
+      <key>Parrot OS</key>
+      <string>uniF329</string>
+      <key>Pop!_OS</key>
+      <string>uniF32A</string>
+      <key>Prusa Slicer</key>
+      <string>uniF351</string>
+      <key>Puppy Linux</key>
+      <string>uniF341</string>
+      <key>Qtile</key>
+      <string>uniF35C</string>
+      <key>QubesOS</key>
+      <string>uniF342</string>
+      <key>RISC-V</key>
+      <string>uniF353</string>
+      <key>Raspberry pi</key>
+      <string>uniF315</string>
+      <key>Red Hat</key>
+      <string>uniF316</string>
+      <key>RepRap</key>
+      <string>uniF352</string>
+      <key>Rocky Linux</key>
+      <string>uniF32B</string>
+      <key>Sabayon</key>
+      <string>uniF317</string>
+      <key>Slackware</key>
+      <string>uniF318</string>
+      <key>Slackware (inverse)</key>
+      <string>uniF319</string>
+      <key>Snappy</key>
+      <string>uniF32C</string>
+      <key>Solus</key>
+      <string>uniF32D</string>
+      <key>Sway</key>
+      <string>uniF35D</string>
+      <key>Tails</key>
+      <string>uniF343</string>
+      <key>Thunderbird</key>
+      <string>uniF370</string>
+      <key>Tor Browser</key>
+      <string>uniF371</string>
+      <key>Trisquel GNU/Linux</key>
+      <string>uniF344</string>
+      <key>Tux</key>
+      <string>uniF31A</string>
+      <key>Ubuntu</key>
+      <string>uniF31B</string>
+      <key>Ubuntu (inverse)</key>
+      <string>uniF31C</string>
+      <key>VS Codium</key>
+      <string>uniF372</string>
+      <key>Vanilla OS</key>
+      <string>uniF366</string>
+      <key>Void</key>
+      <string>uniF32E</string>
+      <key>Wayland</key>
+      <string>uniF367</string>
+      <key>Wikimedia</key>
+      <string>uniF36D</string>
+      <key>XFCE</key>
+      <string>uniF368</string>
+      <key>XeroLinux</key>
+      <string>uniF34A</string>
+      <key>Xmonad</key>
+      <string>uniF35E</string>
+      <key>Xorg</key>
+      <string>uniF369</string>
+      <key>Zorin OS</key>
+      <string>uniF32F</string>
+      <key>bspwm</key>
+      <string>uniF355</string>
+      <key>dwm</key>
+      <string>uniF356</string>
+      <key>elementary OS</key>
+      <string>uniF309</string>
+      <key>freedesktop.org</key>
+      <string>uniF360</string>
+      <key>i3</key>
+      <string>uniF35A</string>
+      <key>illumos</key>
+      <string>uniF326</string>
+      <key>mpv</key>
+      <string>uniF36E</string>
+    </dict>
+  </dict>
+</plist>

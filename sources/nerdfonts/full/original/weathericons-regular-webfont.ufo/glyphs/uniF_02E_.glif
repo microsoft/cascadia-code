@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF02E" format="2">
+  <advance width="1512"/>
+  <unicode hex="E32B"/>
+  <note>
+uniF02E
+</note>
+  <outline>
+    <contour>
+      <point x="0" y="632"/>
+      <point x="119" y="352"/>
+      <point x="320" y="149"/>
+      <point x="601" y="29"/>
+      <point x="757" y="29" type="qcurve" smooth="yes"/>
+      <point x="962" y="29"/>
+      <point x="1309" y="232"/>
+      <point x="1510" y="581"/>
+      <point x="1509" y="786" type="qcurve" smooth="yes"/>
+      <point x="1509" y="890" type="line" smooth="yes"/>
+      <point x="1509" y="915"/>
+      <point x="1483" y="915" type="qcurve"/>
+      <point x="1395" y="922" type="line"/>
+      <point x="1195" y="930"/>
+      <point x="915" y="1216"/>
+      <point x="909" y="1419" type="qcurve" smooth="yes"/>
+      <point x="904" y="1513" type="line" smooth="yes"/>
+      <point x="904" y="1536"/>
+      <point x="879" y="1543" type="qcurve"/>
+      <point x="757" y="1543" type="line" smooth="yes"/>
+      <point x="604" y="1543"/>
+      <point x="323" y="1422"/>
+      <point x="120" y="1219"/>
+      <point x="0" y="939"/>
+      <point x="0" y="786" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="195" y="929"/>
+      <point x="333" y="1190"/>
+      <point x="584" y="1360"/>
+      <point x="735" y="1368" type="qcurve"/>
+      <point x="759" y="1139"/>
+      <point x="1074" y="800"/>
+      <point x="1335" y="746" type="qcurve"/>
+      <point x="1318" y="625"/>
+      <point x="1201" y="421"/>
+      <point x="1039" y="290"/>
+      <point x="850" y="217"/>
+      <point x="757" y="217" type="qcurve" smooth="yes"/>
+      <point x="652" y="217"/>
+      <point x="449" y="302"/>
+      <point x="292" y="448"/>
+      <point x="195" y="664"/>
+      <point x="195" y="786" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+20
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+30
+MDRP[01101]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+42
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+0
+MDRP[10110]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+25
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+43 1
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:51 +0000</string>
+    </dict>
+  </lib>
+</glyph>

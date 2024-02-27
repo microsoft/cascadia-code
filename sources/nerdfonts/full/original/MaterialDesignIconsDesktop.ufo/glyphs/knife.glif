@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="knife" format="2">
+  <advance width="512"/>
+  <unicode hex="F09FB"/>
+  <note>
+knife
+</note>
+  <outline>
+    <contour>
+      <point x="59" y="24" type="line"/>
+      <point x="105" y="-21" type="line"/>
+      <point x="205" y="79" type="line"/>
+      <point x="266" y="18" type="line"/>
+      <point x="291" y="47" type="line" smooth="yes"/>
+      <point x="321" y="83"/>
+      <point x="348" y="120" type="qcurve" smooth="yes"/>
+      <point x="385" y="172"/>
+      <point x="410" y="217" type="qcurve" smooth="yes"/>
+      <point x="440" y="275"/>
+      <point x="449" y="319" type="qcurve" smooth="yes"/>
+      <point x="460" y="372"/>
+      <point x="440" y="405" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

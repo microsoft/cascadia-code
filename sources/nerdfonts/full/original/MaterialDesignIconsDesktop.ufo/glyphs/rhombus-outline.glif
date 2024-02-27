@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rhombus-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F070C"/>
+  <note>
+rhombus-outline
+</note>
+  <outline>
+    <contour>
+      <point x="273" y="405"/>
+      <point x="286" y="393" type="qcurve" smooth="yes"/>
+      <point x="457" y="222" type="line" smooth="yes"/>
+      <point x="469" y="210"/>
+      <point x="469" y="174"/>
+      <point x="457" y="162" type="qcurve" smooth="yes"/>
+      <point x="286" y="-9" type="line" smooth="yes"/>
+      <point x="274" y="-21"/>
+      <point x="238" y="-21"/>
+      <point x="226" y="-9" type="qcurve" smooth="yes"/>
+      <point x="55" y="162" type="line" smooth="yes"/>
+      <point x="43" y="174"/>
+      <point x="43" y="210"/>
+      <point x="55" y="222" type="qcurve" smooth="yes"/>
+      <point x="226" y="393" type="line" smooth="yes"/>
+      <point x="239" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="85" y="192" type="line"/>
+      <point x="256" y="21" type="line"/>
+      <point x="427" y="192" type="line"/>
+      <point x="256" y="363" type="line"/>
+    </contour>
+  </outline>
+</glyph>

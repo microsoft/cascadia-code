@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="traffic-cone" format="2">
+  <advance width="512"/>
+  <unicode hex="F137C"/>
+  <note>
+traffic-cone
+</note>
+  <outline>
+    <contour>
+      <point x="149" y="128" type="line"/>
+      <point x="128" y="43" type="line"/>
+      <point x="64" y="43" type="line"/>
+      <point x="64" y="-21" type="line"/>
+      <point x="448" y="-21" type="line"/>
+      <point x="448" y="43" type="line"/>
+      <point x="384" y="43" type="line"/>
+      <point x="363" y="128" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="277" type="line"/>
+      <point x="171" y="192" type="line"/>
+      <point x="341" y="192" type="line"/>
+      <point x="320" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="427" type="line"/>
+      <point x="213" y="341" type="line"/>
+      <point x="299" y="341" type="line"/>
+      <point x="277" y="427" type="line"/>
+    </contour>
+  </outline>
+</glyph>

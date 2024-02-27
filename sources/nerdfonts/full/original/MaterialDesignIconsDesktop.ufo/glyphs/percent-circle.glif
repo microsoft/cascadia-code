@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="percent-circle" format="2">
+  <advance width="512"/>
+  <unicode hex="F1A04"/>
+  <note>
+percent-circle
+</note>
+  <outline>
+    <contour>
+      <point x="314" y="405"/>
+      <point x="412" y="348"/>
+      <point x="469" y="250"/>
+      <point x="469" y="134"/>
+      <point x="412" y="36"/>
+      <point x="314" y="-21"/>
+      <point x="198" y="-21"/>
+      <point x="100" y="36"/>
+      <point x="43" y="134"/>
+      <point x="43" y="250"/>
+      <point x="100" y="348"/>
+      <point x="198" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="173" y="298"/>
+      <point x="150" y="275"/>
+      <point x="150" y="244"/>
+      <point x="173" y="222"/>
+      <point x="204" y="222"/>
+      <point x="226" y="244"/>
+      <point x="226" y="275"/>
+      <point x="204" y="298"/>
+      <point x="188" y="298" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="340" y="85"/>
+      <point x="363" y="108"/>
+      <point x="363" y="139"/>
+      <point x="340" y="161"/>
+      <point x="309" y="161"/>
+      <point x="287" y="139"/>
+      <point x="287" y="108"/>
+      <point x="309" y="85"/>
+      <point x="325" y="85" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="363" y="267" type="line"/>
+      <point x="331" y="299" type="line"/>
+      <point x="149" y="117" type="line"/>
+      <point x="181" y="85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

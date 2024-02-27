@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eraser-variant" format="2">
+  <advance width="512"/>
+  <unicode hex="F0642"/>
+  <note>
+eraser-variant
+</note>
+  <outline>
+    <contour>
+      <point x="341" y="384"/>
+      <point x="353" y="371" type="qcurve" smooth="yes"/>
+      <point x="457" y="268" type="line" smooth="yes"/>
+      <point x="469" y="255"/>
+      <point x="469" y="220"/>
+      <point x="457" y="208" type="qcurve" smooth="yes"/>
+      <point x="271" y="21" type="line"/>
+      <point x="107" y="21" type="line"/>
+      <point x="55" y="73" type="line" smooth="yes"/>
+      <point x="43" y="86"/>
+      <point x="43" y="121"/>
+      <point x="55" y="134" type="qcurve" smooth="yes"/>
+      <point x="293" y="371" type="line" smooth="yes"/>
+      <point x="305" y="384"/>
+      <point x="323" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="469" y="64" type="line"/>
+      <point x="469" y="21" type="line"/>
+      <point x="320" y="21" type="line"/>
+      <point x="363" y="64" type="line"/>
+    </contour>
+  </outline>
+</glyph>

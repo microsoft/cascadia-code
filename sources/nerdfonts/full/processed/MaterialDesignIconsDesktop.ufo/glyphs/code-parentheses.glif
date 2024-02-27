@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="code-parentheses" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0172"/>
+  <note>
+code-parentheses
+</note>
+  <outline>
+    <contour>
+      <point x="888" y="1287" type="line"/>
+      <point x="956" y="1185"/>
+      <point x="1034" y="880"/>
+      <point x="1034" y="540"/>
+      <point x="960" y="235"/>
+      <point x="888" y="133" type="qcurve"/>
+      <point x="1007" y="59" type="line"/>
+      <point x="1088" y="184"/>
+      <point x="1180" y="523"/>
+      <point x="1180" y="897"/>
+      <point x="1088" y="1239"/>
+      <point x="1007" y="1361" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="112" y="1239"/>
+      <point x="20" y="897"/>
+      <point x="20" y="523"/>
+      <point x="112" y="181"/>
+      <point x="193" y="59" type="qcurve"/>
+      <point x="312" y="133" type="line"/>
+      <point x="244" y="235"/>
+      <point x="166" y="540"/>
+      <point x="166" y="880"/>
+      <point x="244" y="1185"/>
+      <point x="312" y="1287" type="qcurve"/>
+      <point x="193" y="1361" type="line"/>
+    </contour>
+  </outline>
+</glyph>

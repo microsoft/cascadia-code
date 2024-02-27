@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hexagon" format="2">
+  <advance width="512"/>
+  <unicode hex="E24F"/>
+  <note>
+hexagon
+</note>
+  <outline>
+    <contour>
+      <point x="35" y="356" type="line" smooth="yes"/>
+      <point x="35" y="384"/>
+      <point x="59" y="398" type="qcurve" smooth="yes"/>
+      <point x="232" y="498" type="line" smooth="yes"/>
+      <point x="256" y="511"/>
+      <point x="280" y="498" type="qcurve" smooth="yes"/>
+      <point x="453" y="398" type="line" smooth="yes"/>
+      <point x="477" y="384"/>
+      <point x="477" y="356" type="qcurve" smooth="yes"/>
+      <point x="477" y="156" type="line" smooth="yes"/>
+      <point x="477" y="128"/>
+      <point x="453" y="114" type="qcurve" smooth="yes"/>
+      <point x="280" y="14" type="line" smooth="yes"/>
+      <point x="256" y="1"/>
+      <point x="232" y="14" type="qcurve" smooth="yes"/>
+      <point x="59" y="114" type="line" smooth="yes"/>
+      <point x="35" y="128"/>
+      <point x="35" y="156" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:45:38 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="camera-burst" format="2">
+  <advance width="512"/>
+  <unicode hex="F0693"/>
+  <note>
+camera-burst
+</note>
+  <outline>
+    <contour>
+      <point x="21" y="43" type="line"/>
+      <point x="64" y="43" type="line"/>
+      <point x="64" y="341" type="line"/>
+      <point x="21" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="107" y="43" type="line"/>
+      <point x="149" y="43" type="line"/>
+      <point x="149" y="341" type="line"/>
+      <point x="107" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="478" y="341"/>
+      <point x="491" y="329"/>
+      <point x="491" y="320" type="qcurve" smooth="yes"/>
+      <point x="491" y="64" type="line" smooth="yes"/>
+      <point x="491" y="55"/>
+      <point x="478" y="43"/>
+      <point x="469" y="43" type="qcurve" smooth="yes"/>
+      <point x="213" y="43" type="line" smooth="yes"/>
+      <point x="204" y="43"/>
+      <point x="192" y="55"/>
+      <point x="192" y="64" type="qcurve" smooth="yes"/>
+      <point x="192" y="320" type="line" smooth="yes"/>
+      <point x="192" y="329"/>
+      <point x="204" y="341"/>
+      <point x="213" y="341" type="qcurve" smooth="yes"/>
+      <point x="469" y="341" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="448" y="85" type="line"/>
+      <point x="380" y="175" type="line"/>
+      <point x="326" y="107" type="line"/>
+      <point x="288" y="153" type="line"/>
+      <point x="235" y="85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

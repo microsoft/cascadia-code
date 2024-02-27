@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="square-circle" format="2">
+  <advance width="512"/>
+  <unicode hex="F1500"/>
+  <note>
+square-circle
+</note>
+  <outline>
+    <contour>
+      <point x="85" y="363" type="line"/>
+      <point x="85" y="21" type="line"/>
+      <point x="427" y="21" type="line"/>
+      <point x="427" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="469" y="-21" type="line"/>
+      <point x="43" y="-21" type="line"/>
+      <point x="43" y="405" type="line"/>
+      <point x="469" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="291" y="320"/>
+      <point x="350" y="286"/>
+      <point x="384" y="227"/>
+      <point x="384" y="157"/>
+      <point x="350" y="98"/>
+      <point x="291" y="64"/>
+      <point x="221" y="64"/>
+      <point x="162" y="98"/>
+      <point x="128" y="157"/>
+      <point x="128" y="227"/>
+      <point x="162" y="286"/>
+      <point x="221" y="320"/>
+      <point x="256" y="320" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

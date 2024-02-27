@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cloud-alert" format="2">
+  <advance width="1200"/>
+  <unicode hex="F09E0"/>
+  <note>
+cloud-alert
+</note>
+  <outline>
+    <contour>
+      <point x="1003" y="323"/>
+      <point x="1114" y="391"/>
+      <point x="1180" y="502"/>
+      <point x="1180" y="565" type="qcurve" smooth="yes"/>
+      <point x="1180" y="662"/>
+      <point x="1053" y="798"/>
+      <point x="958" y="807" type="qcurve"/>
+      <point x="940" y="889"/>
+      <point x="838" y="1020"/>
+      <point x="686" y="1097"/>
+      <point x="600" y="1097" type="qcurve" smooth="yes"/>
+      <point x="496" y="1097"/>
+      <point x="324" y="991"/>
+      <point x="276" y="903" type="qcurve"/>
+      <point x="167" y="889"/>
+      <point x="20" y="726"/>
+      <point x="20" y="613" type="qcurve" smooth="yes"/>
+      <point x="20" y="536"/>
+      <point x="99" y="402"/>
+      <point x="231" y="323"/>
+      <point x="310" y="323" type="qcurve" smooth="yes"/>
+      <point x="938" y="323" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="648" y="565" type="line"/>
+      <point x="648" y="468" type="line"/>
+      <point x="552" y="468" type="line"/>
+      <point x="552" y="565" type="line"/>
+    </contour>
+    <contour>
+      <point x="552" y="952" type="line"/>
+      <point x="648" y="952" type="line"/>
+      <point x="648" y="662" type="line"/>
+      <point x="552" y="662" type="line"/>
+    </contour>
+  </outline>
+</glyph>

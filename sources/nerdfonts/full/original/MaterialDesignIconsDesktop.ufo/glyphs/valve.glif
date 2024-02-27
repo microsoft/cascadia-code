@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="valve" format="2">
+  <advance width="512"/>
+  <unicode hex="F1066"/>
+  <note>
+valve
+</note>
+  <outline>
+    <contour>
+      <point x="85" y="405" type="line"/>
+      <point x="43" y="405" type="line"/>
+      <point x="43" y="-21" type="line"/>
+      <point x="85" y="-21" type="line"/>
+    </contour>
+    <contour>
+      <point x="469" y="-21" type="line"/>
+      <point x="427" y="-21" type="line"/>
+      <point x="427" y="405" type="line"/>
+      <point x="469" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="398" y="304" type="line"/>
+      <point x="313" y="218" type="line"/>
+      <point x="322" y="200"/>
+      <point x="315" y="160"/>
+      <point x="286" y="131"/>
+      <point x="246" y="124"/>
+      <point x="227" y="133" type="qcurve"/>
+      <point x="142" y="48" type="line"/>
+      <point x="112" y="78" type="line"/>
+      <point x="197" y="163" type="line"/>
+      <point x="188" y="182"/>
+      <point x="195" y="222"/>
+      <point x="224" y="251"/>
+      <point x="264" y="258"/>
+      <point x="282" y="249" type="qcurve"/>
+      <point x="368" y="334" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bus-articulated-end" format="2">
+  <advance width="512"/>
+  <unicode hex="F079C"/>
+  <note>
+bus-articulated-end
+</note>
+  <outline>
+    <contour>
+      <point x="96" y="320" type="line" smooth="yes"/>
+      <point x="78" y="320"/>
+      <point x="53" y="295"/>
+      <point x="53" y="277" type="qcurve" smooth="yes"/>
+      <point x="53" y="128" type="line"/>
+      <point x="139" y="128" type="line"/>
+      <point x="139" y="101"/>
+      <point x="176" y="64"/>
+      <point x="229" y="64"/>
+      <point x="267" y="101"/>
+      <point x="267" y="128" type="qcurve"/>
+      <point x="459" y="128" type="line"/>
+      <point x="427" y="160" type="line"/>
+      <point x="459" y="192" type="line"/>
+      <point x="427" y="224" type="line"/>
+      <point x="459" y="256" type="line"/>
+      <point x="427" y="288" type="line"/>
+      <point x="459" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="395" y="235" type="line"/>
+      <point x="320" y="235" type="line"/>
+      <point x="320" y="288" type="line"/>
+      <point x="395" y="288" type="line"/>
+    </contour>
+    <contour>
+      <point x="288" y="235" type="line"/>
+      <point x="203" y="235" type="line"/>
+      <point x="203" y="288" type="line"/>
+      <point x="288" y="288" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="235" type="line"/>
+      <point x="85" y="235" type="line"/>
+      <point x="85" y="288" type="line"/>
+      <point x="171" y="288" type="line"/>
+    </contour>
+    <contour>
+      <point x="216" y="160"/>
+      <point x="235" y="141"/>
+      <point x="235" y="115"/>
+      <point x="216" y="96"/>
+      <point x="189" y="96"/>
+      <point x="171" y="115"/>
+      <point x="171" y="141"/>
+      <point x="189" y="160"/>
+      <point x="203" y="160" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

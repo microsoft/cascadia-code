@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF080" format="2">
+  <advance width="1200"/>
+  <unicode hex="E378"/>
+  <note>
+uniF080
+</note>
+  <outline>
+    <contour>
+      <point x="149" y="381"/>
+      <point x="259" y="267"/>
+      <point x="338" y="264" type="qcurve"/>
+      <point x="610" y="264" type="line"/>
+      <point x="610" y="219"/>
+      <point x="645" y="138"/>
+      <point x="704" y="79"/>
+      <point x="786" y="44"/>
+      <point x="830" y="44" type="qcurve" smooth="yes"/>
+      <point x="875" y="44"/>
+      <point x="957" y="78"/>
+      <point x="1016" y="137"/>
+      <point x="1051" y="219"/>
+      <point x="1051" y="264" type="qcurve" smooth="yes"/>
+      <point x="1051" y="315"/>
+      <point x="1007" y="405"/>
+      <point x="968" y="436" type="qcurve"/>
+      <point x="969" y="448"/>
+      <point x="969" y="460" type="qcurve" smooth="yes"/>
+      <point x="969" y="513"/>
+      <point x="917" y="603"/>
+      <point x="826" y="654"/>
+      <point x="773" y="654" type="qcurve" smooth="yes"/>
+      <point x="760" y="654" type="line"/>
+      <point x="741" y="733"/>
+      <point x="613" y="835"/>
+      <point x="531" y="835" type="qcurve" smooth="yes"/>
+      <point x="448" y="835"/>
+      <point x="318" y="731"/>
+      <point x="300" y="650" type="qcurve"/>
+      <point x="234" y="635"/>
+      <point x="149" y="528"/>
+      <point x="149" y="460" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="216" y="509"/>
+      <point x="283" y="582"/>
+      <point x="333" y="587" type="qcurve"/>
+      <point x="354" y="587" type="line" smooth="yes"/>
+      <point x="361" y="587"/>
+      <point x="361" y="594" type="qcurve"/>
+      <point x="364" y="617" type="line" smooth="yes"/>
+      <point x="371" y="681"/>
+      <point x="467" y="768"/>
+      <point x="531" y="768" type="qcurve" smooth="yes"/>
+      <point x="596" y="768"/>
+      <point x="693" y="681"/>
+      <point x="699" y="617" type="qcurve" smooth="yes"/>
+      <point x="702" y="594" type="line"/>
+      <point x="702" y="587"/>
+      <point x="709" y="587" type="qcurve" smooth="yes"/>
+      <point x="773" y="587" type="line" smooth="yes"/>
+      <point x="826" y="587"/>
+      <point x="903" y="512"/>
+      <point x="903" y="460" type="qcurve" smooth="yes"/>
+      <point x="903" y="408"/>
+      <point x="831" y="332"/>
+      <point x="780" y="330" type="qcurve"/>
+      <point x="338" y="330" type="line"/>
+      <point x="288" y="332"/>
+      <point x="216" y="408"/>
+      <point x="216" y="460" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="663" y="258"/>
+      <point x="667" y="259" type="qcurve"/>
+      <point x="666" y="262"/>
+      <point x="666" y="264" type="qcurve"/>
+      <point x="780" y="264" type="line"/>
+      <point x="836" y="265"/>
+      <point x="928" y="327"/>
+      <point x="951" y="376" type="qcurve"/>
+      <point x="973" y="352"/>
+      <point x="996" y="293"/>
+      <point x="996" y="264" type="qcurve" smooth="yes"/>
+      <point x="996" y="234"/>
+      <point x="972" y="175"/>
+      <point x="929" y="129"/>
+      <point x="866" y="101"/>
+      <point x="830" y="101" type="qcurve" smooth="yes"/>
+      <point x="766" y="101"/>
+      <point x="665" y="191"/>
+      <point x="661" y="258" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+24
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+63
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+30
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+74
+SHP[1]	/* ShiftPointByLastPoint */
+PUSHB[ ]	/* 1 value pushed */
+36
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+43
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+56
+SHP[1]	/* ShiftPointByLastPoint */
+PUSHB[ ]	/* 1 value pushed */
+9
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+50
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+6
+MDRP[01101]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+79
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+0
+MDRP[10110]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+33
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+33
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 2 values pushed */
+29 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+60
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+60
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 2 values pushed */
+40 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+14
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+14
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 2 values pushed */
+68 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+19
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+80 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+29 33
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 3 values pushed */
+6 3 50
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+PUSHB[ ]	/* 2 values pushed */
+40 60
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 5 values pushed */
+24 9 48 63 74
+DEPTH[ ]	/* GetDepthStack */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+PUSHB[ ]	/* 1 value pushed */
+14
+SRP1[ ]	/* SetRefPoint1 */
+PUSHB[ ]	/* 1 value pushed */
+71
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 2 values pushed */
+36 30
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 3 values pushed */
+19 31 68
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+PUSHB[ ]	/* 1 value pushed */
+43
+SRP1[ ]	/* SetRefPoint1 */
+PUSHB[ ]	/* 4 values pushed */
+14 16 0 71
+DEPTH[ ]	/* GetDepthStack */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+PUSHB[ ]	/* 1 value pushed */
+9
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 3 values pushed */
+3 47 53
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+PUSHB[ ]	/* 1 value pushed */
+50
+SRP1[ ]	/* SetRefPoint1 */
+PUSHB[ ]	/* 1 value pushed */
+48
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:51 +0000</string>
+    </dict>
+  </lib>
+</glyph>

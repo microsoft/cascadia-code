@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="axe" format="2">
+  <advance width="512"/>
+  <unicode hex="F08C8"/>
+  <note>
+axe
+</note>
+  <outline>
+    <contour>
+      <point x="192" y="320" type="line"/>
+      <point x="277" y="235" type="line"/>
+      <point x="341" y="128" type="line"/>
+      <point x="407" y="144"/>
+      <point x="437" y="179" type="qcurve" smooth="yes"/>
+      <point x="469" y="215"/>
+      <point x="469" y="277" type="qcurve"/>
+      <point x="256" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="217" type="line"/>
+      <point x="196" y="256" type="line"/>
+      <point x="45" y="57" type="line"/>
+      <point x="88" y="25" type="line"/>
+    </contour>
+  </outline>
+</glyph>

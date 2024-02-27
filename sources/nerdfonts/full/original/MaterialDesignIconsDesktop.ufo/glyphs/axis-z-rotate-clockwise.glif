@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="axis-z-rotate-clockwise" format="2">
+  <advance width="512"/>
+  <unicode hex="F0D57"/>
+  <note>
+axis-z-rotate-clockwise
+</note>
+  <outline>
+    <contour>
+      <point x="299" y="130" type="line"/>
+      <point x="355" y="135"/>
+      <point x="427" y="170"/>
+      <point x="427" y="214"/>
+      <point x="355" y="249"/>
+      <point x="299" y="254" type="qcurve"/>
+      <point x="299" y="297" type="line"/>
+      <point x="347" y="292"/>
+      <point x="425" y="262"/>
+      <point x="469" y="217"/>
+      <point x="469" y="167"/>
+      <point x="425" y="122"/>
+      <point x="347" y="92"/>
+      <point x="299" y="87" type="qcurve"/>
+      <point x="299" y="21" type="line"/>
+      <point x="213" y="107" type="line"/>
+      <point x="299" y="192" type="line"/>
+    </contour>
+    <contour>
+      <point x="85" y="172"/>
+      <point x="146" y="139"/>
+      <point x="194" y="132" type="qcurve"/>
+      <point x="168" y="107" type="line"/>
+      <point x="183" y="92" type="line"/>
+      <point x="121" y="103"/>
+      <point x="43" y="158"/>
+      <point x="43" y="192" type="qcurve" smooth="yes"/>
+      <point x="43" y="217"/>
+      <point x="87" y="262"/>
+      <point x="165" y="292"/>
+      <point x="213" y="297" type="qcurve"/>
+      <point x="213" y="254" type="line"/>
+      <point x="157" y="249"/>
+      <point x="85" y="214"/>
+      <point x="85" y="192" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="277" y="213" type="line"/>
+      <point x="235" y="171" type="line"/>
+      <point x="235" y="405" type="line"/>
+      <point x="277" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="-21" type="line"/>
+      <point x="235" y="43" type="line"/>
+      <point x="277" y="0" type="line"/>
+      <point x="277" y="-21" type="line"/>
+    </contour>
+  </outline>
+</glyph>

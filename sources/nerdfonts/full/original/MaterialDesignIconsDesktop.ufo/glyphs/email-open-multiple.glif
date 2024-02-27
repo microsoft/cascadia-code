@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="email-open-multiple" format="2">
+  <advance width="512"/>
+  <unicode hex="F0EE9"/>
+  <note>
+email-open-multiple
+</note>
+  <outline>
+    <contour>
+      <point x="299" y="384" type="line"/>
+      <point x="469" y="277" type="line"/>
+      <point x="299" y="171" type="line"/>
+      <point x="128" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="512" y="289"/>
+      <point x="501" y="308"/>
+      <point x="491" y="314" type="qcurve" smooth="yes"/>
+      <point x="299" y="434" type="line"/>
+      <point x="106" y="314" type="line" smooth="yes"/>
+      <point x="97" y="308"/>
+      <point x="85" y="289"/>
+      <point x="85" y="277" type="qcurve" smooth="yes"/>
+      <point x="85" y="64" type="line" smooth="yes"/>
+      <point x="85" y="46"/>
+      <point x="110" y="21"/>
+      <point x="128" y="21" type="qcurve" smooth="yes"/>
+      <point x="469" y="21" type="line" smooth="yes"/>
+      <point x="487" y="21"/>
+      <point x="512" y="46"/>
+      <point x="512" y="64" type="qcurve" smooth="yes"/>
+      <point x="512" y="277" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="0" y="277" type="line"/>
+      <point x="0" y="-21" type="line" smooth="yes"/>
+      <point x="0" y="-39"/>
+      <point x="25" y="-64"/>
+      <point x="43" y="-64" type="qcurve" smooth="yes"/>
+      <point x="427" y="-64" type="line"/>
+      <point x="427" y="-21" type="line"/>
+      <point x="43" y="-21" type="line"/>
+      <point x="43" y="277" type="line"/>
+    </contour>
+  </outline>
+</glyph>

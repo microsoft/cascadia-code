@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ethernet-cable" format="2">
+  <advance width="512"/>
+  <unicode hex="F0201"/>
+  <note>
+ethernet-cable
+</note>
+  <outline>
+    <contour>
+      <point x="277" y="384" type="line"/>
+      <point x="277" y="299" type="line"/>
+      <point x="235" y="299" type="line"/>
+      <point x="235" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="363" type="line"/>
+      <point x="213" y="277" type="line"/>
+      <point x="299" y="277" type="line"/>
+      <point x="299" y="363" type="line"/>
+      <point x="341" y="363" type="line"/>
+      <point x="341" y="213" type="line"/>
+      <point x="171" y="213" type="line"/>
+      <point x="171" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="192" type="line"/>
+      <point x="299" y="-21" type="line"/>
+      <point x="213" y="-21" type="line"/>
+      <point x="213" y="192" type="line"/>
+    </contour>
+  </outline>
+</glyph>

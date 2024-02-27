@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shuriken" format="2">
+  <advance width="512"/>
+  <unicode hex="F137F"/>
+  <note>
+shuriken
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="192" type="line"/>
+      <point x="309" y="139" type="line"/>
+      <point x="256" y="-21" type="line"/>
+      <point x="203" y="139" type="line"/>
+      <point x="43" y="192" type="line"/>
+      <point x="203" y="245" type="line"/>
+      <point x="256" y="405" type="line"/>
+      <point x="309" y="245" type="line"/>
+    </contour>
+    <contour>
+      <point x="270" y="156"/>
+      <point x="292" y="178"/>
+      <point x="292" y="208"/>
+      <point x="271" y="228"/>
+      <point x="240" y="228"/>
+      <point x="220" y="207"/>
+      <point x="220" y="176"/>
+      <point x="241" y="156"/>
+      <point x="256" y="156" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF071" format="2">
+  <advance width="1200"/>
+  <unicode hex="E36A"/>
+  <note>
+uniF071
+</note>
+  <outline>
+    <contour>
+      <point x="294" y="162"/>
+      <point x="348" y="70"/>
+      <point x="440" y="15"/>
+      <point x="495" y="15" type="qcurve" smooth="yes"/>
+      <point x="553" y="15"/>
+      <point x="648" y="75"/>
+      <point x="674" y="125" type="qcurve"/>
+      <point x="674" y="125"/>
+      <point x="675" y="128"/>
+      <point x="676" y="129" type="qcurve" smooth="yes"/>
+      <point x="676" y="129"/>
+      <point x="677" y="132"/>
+      <point x="677" y="132" type="qcurve" smooth="yes"/>
+      <point x="677" y="133"/>
+      <point x="679" y="135"/>
+      <point x="679" y="136" type="qcurve"/>
+      <point x="864" y="465" type="line"/>
+      <point x="757" y="391" type="line"/>
+      <point x="906" y="692" type="line"/>
+      <point x="741" y="567" type="line"/>
+      <point x="906" y="888" type="line"/>
+      <point x="637" y="600" type="line"/>
+      <point x="652" y="687" type="line"/>
+      <point x="352" y="358" type="line"/>
+      <point x="349" y="355" type="line" smooth="yes"/>
+      <point x="347" y="353"/>
+      <point x="347" y="353" type="qcurve"/>
+      <point x="346" y="351"/>
+      <point x="344" y="350" type="qcurve"/>
+      <point x="344" y="349"/>
+      <point x="342" y="346"/>
+      <point x="341" y="345" type="qcurve"/>
+      <point x="339" y="344"/>
+      <point x="339" y="343" type="qcurve" smooth="yes"/>
+      <point x="338" y="343"/>
+      <point x="337" y="341"/>
+      <point x="336" y="340" type="qcurve" smooth="yes"/>
+      <point x="334" y="337" type="line" smooth="yes"/>
+      <point x="319" y="317"/>
+      <point x="309" y="295" type="qcurve"/>
+      <point x="308" y="289"/>
+      <point x="308" y="289" type="qcurve"/>
+      <point x="307" y="288"/>
+      <point x="307" y="288" type="qcurve"/>
+      <point x="305" y="284"/>
+      <point x="303" y="276" type="qcurve"/>
+      <point x="303" y="275" type="line" smooth="yes"/>
+      <point x="303" y="275"/>
+      <point x="302" y="274" type="qcurve"/>
+      <point x="302" y="274"/>
+      <point x="302" y="274" type="qcurve"/>
+      <point x="300" y="268" type="line"/>
+      <point x="300" y="267" type="line"/>
+      <point x="300" y="267"/>
+      <point x="300" y="266" type="qcurve" smooth="yes"/>
+      <point x="297" y="252" type="line" smooth="yes"/>
+      <point x="297" y="252"/>
+      <point x="296" y="249"/>
+      <point x="296" y="249" type="qcurve" smooth="yes"/>
+      <point x="296" y="248" type="line" smooth="yes"/>
+      <point x="296" y="247"/>
+      <point x="295" y="241"/>
+      <point x="295" y="239" type="qcurve" smooth="yes"/>
+      <point x="295" y="239" type="line" smooth="yes"/>
+      <point x="295" y="238"/>
+      <point x="295" y="236"/>
+      <point x="295" y="235"/>
+      <point x="294" y="232"/>
+      <point x="294" y="231" type="qcurve" smooth="yes"/>
+      <point x="294" y="228" type="line" smooth="yes"/>
+      <point x="294" y="224"/>
+      <point x="294" y="216" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="341" y="250"/>
+      <point x="368" y="309"/>
+      <point x="392" y="330" type="qcurve" smooth="yes"/>
+      <point x="436" y="370"/>
+      <point x="495" y="370" type="qcurve" smooth="yes"/>
+      <point x="559" y="370"/>
+      <point x="648" y="280"/>
+      <point x="648" y="216" type="qcurve" smooth="yes"/>
+      <point x="648" y="189"/>
+      <point x="638" y="164" type="qcurve" smooth="yes"/>
+      <point x="622" y="119"/>
+      <point x="543" y="63"/>
+      <point x="495" y="63" type="qcurve" smooth="yes"/>
+      <point x="431" y="63"/>
+      <point x="341" y="153"/>
+      <point x="341" y="216" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+68
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+75
+MDRP[01101]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+88
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+2
+MDRP[10110]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+16
+SHP[0]	/* ShiftPointByLastPoint */
+PUSHB[ ]	/* 1 value pushed */
+72
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+89 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+72 2
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 1 value pushed */
+40
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:51 +0000</string>
+    </dict>
+  </lib>
+</glyph>

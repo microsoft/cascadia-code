@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shield-moon" format="2">
+  <advance width="512"/>
+  <unicode hex="F1828"/>
+  <note>
+shield-moon
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="341" type="line"/>
+      <point x="448" y="213" type="line" smooth="yes"/>
+      <point x="448" y="155"/>
+      <point x="398" y="47"/>
+      <point x="310" y="-29"/>
+      <point x="256" y="-43" type="qcurve"/>
+      <point x="202" y="-29"/>
+      <point x="114" y="47"/>
+      <point x="64" y="155"/>
+      <point x="64" y="213" type="qcurve" smooth="yes"/>
+      <point x="64" y="341" type="line"/>
+      <point x="256" y="427" type="line"/>
+    </contour>
+    <contour>
+      <point x="344" y="145"/>
+      <point x="341" y="156"/>
+      <point x="335" y="156" type="qcurve"/>
+      <point x="314" y="160"/>
+      <point x="278" y="184"/>
+      <point x="256" y="222"/>
+      <point x="253" y="266"/>
+      <point x="260" y="286" type="qcurve" smooth="yes"/>
+      <point x="262" y="291"/>
+      <point x="255" y="299"/>
+      <point x="250" y="299" type="qcurve"/>
+      <point x="215" y="292"/>
+      <point x="171" y="239"/>
+      <point x="169" y="170"/>
+      <point x="192" y="142" type="qcurve" smooth="yes"/>
+      <point x="210" y="119"/>
+      <point x="266" y="103"/>
+      <point x="322" y="118"/>
+      <point x="341" y="141" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

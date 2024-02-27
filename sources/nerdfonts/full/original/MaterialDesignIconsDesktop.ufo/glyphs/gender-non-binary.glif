@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gender-non-binary" format="2">
+  <advance width="512"/>
+  <unicode hex="F1140"/>
+  <note>
+gender-non-binary
+</note>
+  <outline>
+    <contour>
+      <point x="277" y="336" type="line"/>
+      <point x="319" y="360" type="line"/>
+      <point x="340" y="323" type="line"/>
+      <point x="299" y="299" type="line"/>
+      <point x="340" y="275" type="line"/>
+      <point x="319" y="237" type="line"/>
+      <point x="277" y="262" type="line"/>
+      <point x="277" y="190" type="line"/>
+      <point x="314" y="182"/>
+      <point x="363" y="124"/>
+      <point x="363" y="85" type="qcurve" smooth="yes"/>
+      <point x="363" y="56"/>
+      <point x="334" y="7"/>
+      <point x="285" y="-21"/>
+      <point x="227" y="-21"/>
+      <point x="178" y="7"/>
+      <point x="149" y="56"/>
+      <point x="149" y="85" type="qcurve" smooth="yes"/>
+      <point x="149" y="124"/>
+      <point x="198" y="182"/>
+      <point x="235" y="190" type="qcurve"/>
+      <point x="235" y="262" type="line"/>
+      <point x="193" y="237" type="line"/>
+      <point x="172" y="275" type="line"/>
+      <point x="213" y="299" type="line"/>
+      <point x="172" y="323" type="line"/>
+      <point x="193" y="360" type="line"/>
+      <point x="235" y="336" type="line"/>
+      <point x="235" y="384" type="line"/>
+      <point x="277" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="282" y="21"/>
+      <point x="320" y="59"/>
+      <point x="320" y="112"/>
+      <point x="282" y="149"/>
+      <point x="230" y="149"/>
+      <point x="192" y="112"/>
+      <point x="192" y="59"/>
+      <point x="230" y="21"/>
+      <point x="256" y="21" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

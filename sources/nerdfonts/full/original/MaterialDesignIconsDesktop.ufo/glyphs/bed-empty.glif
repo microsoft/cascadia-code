@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bed-empty" format="2">
+  <advance width="512"/>
+  <unicode hex="F08A0"/>
+  <note>
+bed-empty
+</note>
+  <outline>
+    <contour>
+      <point x="441" y="299"/>
+      <point x="491" y="249"/>
+      <point x="491" y="213" type="qcurve" smooth="yes"/>
+      <point x="491" y="21" type="line"/>
+      <point x="448" y="21" type="line"/>
+      <point x="448" y="85" type="line"/>
+      <point x="64" y="85" type="line"/>
+      <point x="64" y="21" type="line"/>
+      <point x="21" y="21" type="line"/>
+      <point x="21" y="341" type="line"/>
+      <point x="64" y="341" type="line"/>
+      <point x="64" y="149" type="line"/>
+      <point x="107" y="149" type="line"/>
+      <point x="107" y="299" type="line"/>
+      <point x="405" y="299" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

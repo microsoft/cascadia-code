@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="clock-time-three-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F144D"/>
+  <note>
+clock-time-three-outline
+</note>
+  <outline>
+    <contour>
+      <point x="210" y="21"/>
+      <point x="131" y="67"/>
+      <point x="85" y="146"/>
+      <point x="85" y="238"/>
+      <point x="131" y="317"/>
+      <point x="210" y="363"/>
+      <point x="302" y="363"/>
+      <point x="381" y="317"/>
+      <point x="427" y="238"/>
+      <point x="427" y="146"/>
+      <point x="381" y="67"/>
+      <point x="302" y="21"/>
+      <point x="256" y="21" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="198" y="405"/>
+      <point x="100" y="348"/>
+      <point x="43" y="250"/>
+      <point x="43" y="134"/>
+      <point x="100" y="36"/>
+      <point x="198" y="-21"/>
+      <point x="314" y="-21"/>
+      <point x="412" y="36"/>
+      <point x="469" y="134"/>
+      <point x="469" y="250"/>
+      <point x="412" y="348"/>
+      <point x="314" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="267" y="203" type="line"/>
+      <point x="267" y="299" type="line"/>
+      <point x="235" y="299" type="line"/>
+      <point x="235" y="171" type="line"/>
+      <point x="363" y="171" type="line"/>
+      <point x="363" y="203" type="line"/>
+    </contour>
+  </outline>
+</glyph>

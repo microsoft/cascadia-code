@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="television-pause" format="2">
+  <advance width="512"/>
+  <unicode hex="F0F89"/>
+  <note>
+television-pause
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="384" type="line" smooth="yes"/>
+      <point x="466" y="384"/>
+      <point x="491" y="359"/>
+      <point x="491" y="341" type="qcurve" smooth="yes"/>
+      <point x="491" y="85" type="line" smooth="yes"/>
+      <point x="491" y="68"/>
+      <point x="466" y="43"/>
+      <point x="448" y="43" type="qcurve" smooth="yes"/>
+      <point x="341" y="43" type="line"/>
+      <point x="341" y="0" type="line"/>
+      <point x="171" y="0" type="line"/>
+      <point x="171" y="43" type="line"/>
+      <point x="64" y="43" type="line" smooth="yes"/>
+      <point x="46" y="43"/>
+      <point x="21" y="68"/>
+      <point x="21" y="85" type="qcurve" smooth="yes"/>
+      <point x="21" y="341" type="line" smooth="yes"/>
+      <point x="21" y="359"/>
+      <point x="46" y="384"/>
+      <point x="64" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="64" y="85" type="line"/>
+      <point x="448" y="85" type="line"/>
+      <point x="448" y="341" type="line"/>
+      <point x="64" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="277" type="line"/>
+      <point x="235" y="149" type="line"/>
+      <point x="192" y="149" type="line"/>
+      <point x="192" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="277" type="line"/>
+      <point x="320" y="149" type="line"/>
+      <point x="277" y="149" type="line"/>
+      <point x="277" y="277" type="line"/>
+    </contour>
+  </outline>
+</glyph>

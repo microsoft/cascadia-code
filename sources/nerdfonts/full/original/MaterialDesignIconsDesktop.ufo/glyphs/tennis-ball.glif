@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tennis-ball" format="2">
+  <advance width="512"/>
+  <unicode hex="F0507"/>
+  <note>
+tennis-ball
+</note>
+  <outline>
+    <contour>
+      <point x="217" y="405"/>
+      <point x="146" y="379"/>
+      <point x="117" y="354" type="qcurve"/>
+      <point x="152" y="324"/>
+      <point x="192" y="240"/>
+      <point x="192" y="144"/>
+      <point x="152" y="60"/>
+      <point x="117" y="30" type="qcurve"/>
+      <point x="146" y="5"/>
+      <point x="217" y="-21"/>
+      <point x="295" y="-21"/>
+      <point x="366" y="5"/>
+      <point x="395" y="30" type="qcurve"/>
+      <point x="360" y="60"/>
+      <point x="320" y="144"/>
+      <point x="320" y="240"/>
+      <point x="360" y="324"/>
+      <point x="395" y="354" type="qcurve"/>
+      <point x="366" y="379"/>
+      <point x="295" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="469" y="228"/>
+      <point x="446" y="295"/>
+      <point x="424" y="323" type="qcurve"/>
+      <point x="395" y="299"/>
+      <point x="363" y="231"/>
+      <point x="363" y="153"/>
+      <point x="395" y="85"/>
+      <point x="424" y="61" type="qcurve"/>
+      <point x="446" y="89"/>
+      <point x="469" y="156"/>
+      <point x="469" y="192" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="43" y="156"/>
+      <point x="66" y="89"/>
+      <point x="88" y="61" type="qcurve"/>
+      <point x="117" y="85"/>
+      <point x="149" y="153"/>
+      <point x="149" y="231"/>
+      <point x="117" y="299"/>
+      <point x="88" y="323" type="qcurve"/>
+      <point x="66" y="295"/>
+      <point x="43" y="228"/>
+      <point x="43" y="192" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

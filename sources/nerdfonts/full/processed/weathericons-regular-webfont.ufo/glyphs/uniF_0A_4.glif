@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF0A4" format="2">
+  <advance width="1200"/>
+  <unicode hex="E39C"/>
+  <note>
+uniF0A4
+</note>
+  <outline>
+    <contour>
+      <point x="117" y="822"/>
+      <point x="208" y="1035"/>
+      <point x="363" y="1190"/>
+      <point x="577" y="1281"/>
+      <point x="695" y="1281" type="qcurve"/>
+      <point x="755" y="1261"/>
+      <point x="866" y="1192"/>
+      <point x="967" y="1088"/>
+      <point x="1040" y="961"/>
+      <point x="1083" y="797"/>
+      <point x="1083" y="705" type="qcurve" smooth="yes"/>
+      <point x="1083" y="236"/>
+      <point x="695" y="128" type="qcurve"/>
+      <point x="600" y="128"/>
+      <point x="424" y="186"/>
+      <point x="282" y="293"/>
+      <point x="175" y="435"/>
+      <point x="117" y="611"/>
+      <point x="117" y="705" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+19
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 2 values pushed */
+0 11
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+8
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+20 1
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

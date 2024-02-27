@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="power-socket-au" format="2">
+  <advance width="512"/>
+  <unicode hex="F0905"/>
+  <note>
+power-socket-au
+</note>
+  <outline>
+    <contour>
+      <point x="422" y="405" type="line" smooth="yes"/>
+      <point x="441" y="405"/>
+      <point x="469" y="377"/>
+      <point x="469" y="358" type="qcurve" smooth="yes"/>
+      <point x="469" y="26" type="line" smooth="yes"/>
+      <point x="469" y="6"/>
+      <point x="442" y="-21"/>
+      <point x="422" y="-21" type="qcurve" smooth="yes"/>
+      <point x="90" y="-21" type="line" smooth="yes"/>
+      <point x="71" y="-21"/>
+      <point x="43" y="7"/>
+      <point x="43" y="26" type="qcurve" smooth="yes"/>
+      <point x="43" y="358" type="line" smooth="yes"/>
+      <point x="43" y="378"/>
+      <point x="70" y="405"/>
+      <point x="90" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="210" y="363"/>
+      <point x="131" y="317"/>
+      <point x="85" y="238"/>
+      <point x="85" y="146"/>
+      <point x="131" y="67"/>
+      <point x="210" y="21"/>
+      <point x="302" y="21"/>
+      <point x="381" y="67"/>
+      <point x="427" y="146"/>
+      <point x="427" y="238"/>
+      <point x="381" y="317"/>
+      <point x="302" y="363"/>
+      <point x="256" y="363" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="213" y="266" type="line"/>
+      <point x="171" y="192" type="line"/>
+      <point x="134" y="213" type="line"/>
+      <point x="176" y="287" type="line"/>
+    </contour>
+    <contour>
+      <point x="378" y="213" type="line"/>
+      <point x="341" y="192" type="line"/>
+      <point x="299" y="266" type="line"/>
+      <point x="336" y="287" type="line"/>
+    </contour>
+    <contour>
+      <point x="277" y="149" type="line"/>
+      <point x="277" y="64" type="line"/>
+      <point x="235" y="64" type="line"/>
+      <point x="235" y="149" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="camera-metering-spot" format="2">
+  <advance width="512"/>
+  <unicode hex="F07A5"/>
+  <note>
+camera-metering-spot
+</note>
+  <outline>
+    <contour>
+      <point x="68" y="363"/>
+      <point x="43" y="338"/>
+      <point x="43" y="320" type="qcurve" smooth="yes"/>
+      <point x="43" y="64" type="line" smooth="yes"/>
+      <point x="43" y="46"/>
+      <point x="68" y="21"/>
+      <point x="85" y="21" type="qcurve" smooth="yes"/>
+      <point x="427" y="21" type="line" smooth="yes"/>
+      <point x="444" y="21"/>
+      <point x="469" y="46"/>
+      <point x="469" y="64" type="qcurve" smooth="yes"/>
+      <point x="469" y="320" type="line" smooth="yes"/>
+      <point x="469" y="338"/>
+      <point x="444" y="363"/>
+      <point x="427" y="363" type="qcurve" smooth="yes"/>
+      <point x="85" y="363" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="427" y="320" type="line"/>
+      <point x="427" y="64" type="line"/>
+      <point x="85" y="64" type="line"/>
+      <point x="85" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="243" y="224"/>
+      <point x="224" y="205"/>
+      <point x="224" y="179"/>
+      <point x="243" y="160"/>
+      <point x="269" y="160"/>
+      <point x="288" y="179"/>
+      <point x="288" y="205"/>
+      <point x="269" y="224"/>
+      <point x="256" y="224" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

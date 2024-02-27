@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="video-check" format="2">
+  <advance width="512"/>
+  <unicode hex="F1069"/>
+  <note>
+video-check
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="309" type="line"/>
+      <point x="448" y="75" type="line"/>
+      <point x="363" y="160" type="line"/>
+      <point x="363" y="85" type="line" smooth="yes"/>
+      <point x="363" y="77"/>
+      <point x="350" y="64"/>
+      <point x="341" y="64" type="qcurve" smooth="yes"/>
+      <point x="85" y="64" type="line" smooth="yes"/>
+      <point x="77" y="64"/>
+      <point x="64" y="77"/>
+      <point x="64" y="85" type="qcurve" smooth="yes"/>
+      <point x="64" y="299" type="line" smooth="yes"/>
+      <point x="64" y="307"/>
+      <point x="77" y="320"/>
+      <point x="85" y="320" type="qcurve" smooth="yes"/>
+      <point x="341" y="320" type="line" smooth="yes"/>
+      <point x="350" y="320"/>
+      <point x="363" y="307"/>
+      <point x="363" y="299" type="qcurve" smooth="yes"/>
+      <point x="363" y="224" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="236" type="line"/>
+      <point x="272" y="268" type="line"/>
+      <point x="191" y="186" type="line"/>
+      <point x="154" y="223" type="line"/>
+      <point x="128" y="196" type="line"/>
+      <point x="191" y="128" type="line"/>
+    </contour>
+  </outline>
+</glyph>

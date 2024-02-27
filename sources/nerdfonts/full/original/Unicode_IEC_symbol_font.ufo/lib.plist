@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+    <false/>
+    <key>com.schriftgestaltung.fontMasterID</key>
+    <string>m01</string>
+    <key>com.schriftgestaltung.formatVersion</key>
+    <integer>3</integer>
+    <key>com.schriftgestaltung.useGlyphOrder</key>
+    <true/>
+    <key>com.schriftgestaltung.useNiceNames</key>
+    <false/>
+    <key>public.glyphOrder</key>
+    <array>
+      <string>.notdef</string>
+      <string>POWER SYMBOL</string>
+      <string>POWER ON-OFF SYMBOL</string>
+      <string>HEAVY CIRCLE</string>
+      <string>POWER ON SYMBOL</string>
+      <string>POWER SLEEP SYMBOL</string>
+    </array>
+    <key>public.postscriptNames</key>
+    <dict>
+      <key>HEAVY CIRCLE</key>
+      <string>uni2B58</string>
+      <key>POWER ON SYMBOL</key>
+      <string>uni23FD</string>
+      <key>POWER ON-OFF SYMBOL</key>
+      <string>uni23FC</string>
+      <key>POWER SLEEP SYMBOL</key>
+      <string>uni23FE</string>
+      <key>POWER SYMBOL</key>
+      <string>uni23FB</string>
+    </dict>
+  </dict>
+</plist>

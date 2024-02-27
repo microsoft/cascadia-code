@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="human-female" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0649"/>
+  <note>
+human-female
+</note>
+  <outline>
+    <contour>
+      <point x="540" y="1420"/>
+      <point x="457" y="1337"/>
+      <point x="457" y="1220"/>
+      <point x="540" y="1137"/>
+      <point x="660" y="1137"/>
+      <point x="743" y="1220"/>
+      <point x="743" y="1337"/>
+      <point x="660" y="1420"/>
+      <point x="600" y="1420" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="707" y="0" type="line"/>
+      <point x="707" y="427" type="line"/>
+      <point x="920" y="427" type="line"/>
+      <point x="737" y="967" type="line" smooth="yes"/>
+      <point x="723" y="1010"/>
+      <point x="647" y="1067"/>
+      <point x="553" y="1067"/>
+      <point x="477" y="1010"/>
+      <point x="463" y="967" type="qcurve" smooth="yes"/>
+      <point x="280" y="427" type="line"/>
+      <point x="493" y="427" type="line"/>
+      <point x="493" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

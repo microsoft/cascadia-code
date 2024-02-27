@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ellipsis" format="2">
+  <advance width="300"/>
+  <unicode hex="EA7C"/>
+  <note>
+ellipsis
+</note>
+  <outline>
+    <contour>
+      <point x="75" y="158"/>
+      <point x="64" y="169"/>
+      <point x="48" y="169"/>
+      <point x="38" y="158"/>
+      <point x="38" y="142"/>
+      <point x="48" y="131"/>
+      <point x="64" y="131"/>
+      <point x="75" y="142"/>
+      <point x="75" y="150" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="169" y="158"/>
+      <point x="158" y="169"/>
+      <point x="142" y="169"/>
+      <point x="131" y="158"/>
+      <point x="131" y="142"/>
+      <point x="142" y="131"/>
+      <point x="158" y="131"/>
+      <point x="169" y="142"/>
+      <point x="169" y="150" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="263" y="158"/>
+      <point x="252" y="169"/>
+      <point x="236" y="169"/>
+      <point x="225" y="158"/>
+      <point x="225" y="142"/>
+      <point x="236" y="131"/>
+      <point x="252" y="131"/>
+      <point x="263" y="142"/>
+      <point x="263" y="150" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

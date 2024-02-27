@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="debug-step-into" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01B9"/>
+  <note>
+debug-step-into
+</note>
+  <outline>
+    <contour>
+      <point x="660" y="0"/>
+      <point x="743" y="83"/>
+      <point x="743" y="200"/>
+      <point x="660" y="283"/>
+      <point x="540" y="283"/>
+      <point x="457" y="200"/>
+      <point x="457" y="83"/>
+      <point x="540" y="0"/>
+      <point x="600" y="0" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="530" y="1420" type="line"/>
+      <point x="530" y="640" type="line"/>
+      <point x="210" y="960" type="line"/>
+      <point x="107" y="857" type="line"/>
+      <point x="600" y="367" type="line"/>
+      <point x="1093" y="857" type="line"/>
+      <point x="990" y="960" type="line"/>
+      <point x="670" y="640" type="line"/>
+      <point x="670" y="1420" type="line"/>
+    </contour>
+  </outline>
+</glyph>

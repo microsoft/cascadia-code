@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="split-horizontal" format="2">
+  <advance width="300"/>
+  <unicode hex="EB56"/>
+  <note>
+split-horizontal
+</note>
+  <outline>
+    <contour>
+      <point x="281" y="263" type="line"/>
+      <point x="281" y="56" type="line"/>
+      <point x="263" y="38" type="line"/>
+      <point x="56" y="38" type="line"/>
+      <point x="38" y="56" type="line"/>
+      <point x="38" y="263" type="line"/>
+      <point x="56" y="281" type="line"/>
+      <point x="263" y="281" type="line"/>
+    </contour>
+    <contour>
+      <point x="150" y="263" type="line"/>
+      <point x="56" y="263" type="line"/>
+      <point x="56" y="56" type="line"/>
+      <point x="150" y="56" type="line"/>
+    </contour>
+    <contour>
+      <point x="263" y="263" type="line"/>
+      <point x="169" y="263" type="line"/>
+      <point x="169" y="56" type="line"/>
+      <point x="263" y="56" type="line"/>
+    </contour>
+  </outline>
+</glyph>

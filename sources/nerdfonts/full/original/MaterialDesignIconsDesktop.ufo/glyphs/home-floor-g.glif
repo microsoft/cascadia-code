@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="home-floor-g" format="2">
+  <advance width="512"/>
+  <unicode hex="F0D85"/>
+  <note>
+home-floor-g
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="192" type="line"/>
+      <point x="405" y="192" type="line"/>
+      <point x="405" y="21" type="line"/>
+      <point x="107" y="21" type="line"/>
+      <point x="107" y="192" type="line"/>
+      <point x="43" y="192" type="line"/>
+      <point x="256" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="217" y="277"/>
+      <point x="192" y="252"/>
+      <point x="192" y="235" type="qcurve" smooth="yes"/>
+      <point x="192" y="107" type="line" smooth="yes"/>
+      <point x="192" y="89"/>
+      <point x="217" y="64"/>
+      <point x="235" y="64" type="qcurve" smooth="yes"/>
+      <point x="277" y="64" type="line" smooth="yes"/>
+      <point x="295" y="64"/>
+      <point x="320" y="89"/>
+      <point x="320" y="107" type="qcurve" smooth="yes"/>
+      <point x="320" y="192" type="line"/>
+      <point x="277" y="192" type="line"/>
+      <point x="277" y="107" type="line"/>
+      <point x="235" y="107" type="line"/>
+      <point x="235" y="235" type="line"/>
+      <point x="320" y="235" type="line"/>
+      <point x="320" y="277" type="line"/>
+      <point x="235" y="277" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

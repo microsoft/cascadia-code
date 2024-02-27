@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bunk-bed" format="2">
+  <advance width="512"/>
+  <unicode hex="F1302"/>
+  <note>
+bunk-bed
+</note>
+  <outline>
+    <contour>
+      <point x="64" y="405" type="line"/>
+      <point x="64" y="277" type="line"/>
+      <point x="213" y="277" type="line"/>
+      <point x="213" y="384" type="line"/>
+      <point x="405" y="384" type="line" smooth="yes"/>
+      <point x="441" y="384"/>
+      <point x="491" y="334"/>
+      <point x="491" y="299" type="qcurve" smooth="yes"/>
+      <point x="491" y="-43" type="line"/>
+      <point x="448" y="-43" type="line"/>
+      <point x="448" y="0" type="line"/>
+      <point x="64" y="0" type="line"/>
+      <point x="64" y="-43" type="line"/>
+      <point x="21" y="-43" type="line"/>
+      <point x="21" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="161" y="405"/>
+      <point x="192" y="374"/>
+      <point x="192" y="330"/>
+      <point x="161" y="299"/>
+      <point x="117" y="299"/>
+      <point x="85" y="330"/>
+      <point x="85" y="374"/>
+      <point x="117" y="405"/>
+      <point x="139" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="64" y="64" type="line"/>
+      <point x="213" y="64" type="line"/>
+      <point x="213" y="171" type="line"/>
+      <point x="405" y="171" type="line" smooth="yes"/>
+      <point x="428" y="171"/>
+      <point x="448" y="159" type="qcurve"/>
+      <point x="448" y="213" type="line"/>
+      <point x="64" y="213" type="line"/>
+    </contour>
+    <contour>
+      <point x="161" y="192"/>
+      <point x="192" y="161"/>
+      <point x="192" y="117"/>
+      <point x="161" y="85"/>
+      <point x="117" y="85"/>
+      <point x="85" y="117"/>
+      <point x="85" y="161"/>
+      <point x="117" y="192"/>
+      <point x="139" y="192" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

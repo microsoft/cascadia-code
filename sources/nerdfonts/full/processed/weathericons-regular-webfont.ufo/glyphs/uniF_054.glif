@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF054" format="2">
+  <advance width="1200"/>
+  <unicode hex="E34F"/>
+  <note>
+uniF054
+</note>
+  <outline>
+    <contour>
+      <point x="438" y="336"/>
+      <point x="520" y="429"/>
+      <point x="580" y="438" type="qcurve"/>
+      <point x="580" y="909" type="line" smooth="yes"/>
+      <point x="580" y="917"/>
+      <point x="590" y="928"/>
+      <point x="598" y="928" type="qcurve" smooth="yes"/>
+      <point x="606" y="928"/>
+      <point x="619" y="915"/>
+      <point x="619" y="909" type="qcurve" smooth="yes"/>
+      <point x="619" y="438" type="line"/>
+      <point x="679" y="429"/>
+      <point x="762" y="336"/>
+      <point x="762" y="276" type="qcurve" smooth="yes"/>
+      <point x="762" y="208"/>
+      <point x="664" y="111"/>
+      <point x="532" y="111"/>
+      <point x="438" y="207"/>
+      <point x="438" y="276" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+19
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 2 values pushed */
+0 11
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+5
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 4 values pushed */
+16 5 0 8
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+8
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+20 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+16 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 1 value pushed */
+2
+IP[ ]	/* InterpolatePts */
+PUSHB[ ]	/* 2 values pushed */
+5 8
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 1 value pushed */
+3
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:51 +0000</string>
+    </dict>
+  </lib>
+</glyph>

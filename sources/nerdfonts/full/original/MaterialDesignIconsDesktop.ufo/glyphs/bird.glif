@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bird" format="2">
+  <advance width="512"/>
+  <unicode hex="F15C6"/>
+  <note>
+bird
+</note>
+  <outline>
+    <contour>
+      <point x="423" y="177" type="line"/>
+      <point x="416" y="152"/>
+      <point x="402" y="133" type="qcurve" smooth="yes"/>
+      <point x="383" y="107"/>
+      <point x="343" y="76" type="qcurve" smooth="yes"/>
+      <point x="305" y="46"/>
+      <point x="249" y="32" type="qcurve" smooth="yes"/>
+      <point x="205" y="22"/>
+      <point x="151" y="21" type="qcurve" smooth="yes"/>
+      <point x="113" y="21"/>
+      <point x="74" y="27" type="qcurve" smooth="yes"/>
+      <point x="43" y="32" type="line"/>
+      <point x="159" y="145" type="line"/>
+      <point x="119" y="197"/>
+      <point x="91" y="321"/>
+      <point x="107" y="384" type="qcurve"/>
+      <point x="248" y="234" type="line"/>
+      <point x="280" y="265" type="line" smooth="yes"/>
+      <point x="306" y="292"/>
+      <point x="380" y="292"/>
+      <point x="406" y="265" type="qcurve" smooth="yes"/>
+      <point x="414" y="255" type="line" smooth="yes"/>
+      <point x="422" y="242"/>
+      <point x="426" y="227" type="qcurve"/>
+      <point x="491" y="203" type="line"/>
+    </contour>
+    <contour>
+      <point x="384" y="204"/>
+      <point x="384" y="222"/>
+      <point x="372" y="234"/>
+      <point x="354" y="234"/>
+      <point x="341" y="222"/>
+      <point x="341" y="204"/>
+      <point x="354" y="192"/>
+      <point x="372" y="192"/>
+      <point x="378" y="198" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

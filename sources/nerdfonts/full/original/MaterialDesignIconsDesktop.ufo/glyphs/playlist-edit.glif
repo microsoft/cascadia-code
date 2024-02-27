@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="playlist-edit" format="2">
+  <advance width="512"/>
+  <unicode hex="F0900"/>
+  <note>
+playlist-edit
+</note>
+  <outline>
+    <contour>
+      <point x="299" y="320" type="line"/>
+      <point x="299" y="277" type="line"/>
+      <point x="43" y="277" type="line"/>
+      <point x="43" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="235" type="line"/>
+      <point x="299" y="192" type="line"/>
+      <point x="43" y="192" type="line"/>
+      <point x="43" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="432" y="232"/>
+      <point x="436" y="228" type="qcurve" smooth="yes"/>
+      <point x="463" y="201" type="line" smooth="yes"/>
+      <point x="466" y="198"/>
+      <point x="466" y="188"/>
+      <point x="463" y="185" type="qcurve" smooth="yes"/>
+      <point x="442" y="163" type="line"/>
+      <point x="398" y="207" type="line"/>
+      <point x="419" y="228" type="line" smooth="yes"/>
+      <point x="423" y="232"/>
+      <point x="428" y="232" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="429" y="151" type="line"/>
+      <point x="300" y="21" type="line"/>
+      <point x="256" y="21" type="line"/>
+      <point x="256" y="65" type="line"/>
+      <point x="385" y="195" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="149" type="line"/>
+      <point x="213" y="107" type="line"/>
+      <point x="43" y="107" type="line"/>
+      <point x="43" y="149" type="line"/>
+    </contour>
+  </outline>
+</glyph>

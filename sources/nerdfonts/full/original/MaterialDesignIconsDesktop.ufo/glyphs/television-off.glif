@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="television-off" format="2">
+  <advance width="512"/>
+  <unicode hex="F083B"/>
+  <note>
+television-off
+</note>
+  <outline>
+    <contour>
+      <point x="31" y="368" type="line"/>
+      <point x="21" y="357"/>
+      <point x="21" y="341" type="qcurve" smooth="yes"/>
+      <point x="21" y="85" type="line" smooth="yes"/>
+      <point x="21" y="68"/>
+      <point x="46" y="43"/>
+      <point x="64" y="43" type="qcurve" smooth="yes"/>
+      <point x="171" y="43" type="line"/>
+      <point x="171" y="0" type="line"/>
+      <point x="341" y="0" type="line"/>
+      <point x="341" y="43" type="line"/>
+      <point x="357" y="43" type="line"/>
+      <point x="421" y="-21" type="line"/>
+      <point x="448" y="6" type="line"/>
+      <point x="38" y="416" type="line"/>
+      <point x="11" y="389" type="line"/>
+    </contour>
+    <contour>
+      <point x="423" y="85" type="line"/>
+      <point x="463" y="45" type="line"/>
+      <point x="475" y="50"/>
+      <point x="491" y="72"/>
+      <point x="491" y="85" type="qcurve" smooth="yes"/>
+      <point x="491" y="341" type="line" smooth="yes"/>
+      <point x="491" y="359"/>
+      <point x="466" y="384"/>
+      <point x="448" y="384" type="qcurve" smooth="yes"/>
+      <point x="124" y="384" type="line"/>
+      <point x="167" y="341" type="line"/>
+      <point x="448" y="341" type="line"/>
+      <point x="448" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="64" y="336" type="line"/>
+      <point x="314" y="85" type="line"/>
+      <point x="64" y="85" type="line"/>
+    </contour>
+  </outline>
+</glyph>
