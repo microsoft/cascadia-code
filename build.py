@@ -53,8 +53,12 @@ def step_set_font_name(name: str, source: ufoLib2.Font) -> None:
 def step_merge_glyphs_from_ufo(path: Path, instance: ufoLib2.Font) -> None:
     ufo = ufoLib2.Font.open(path)
     for glyph in ufo:
-        if glyph.name not in instance:
-            instance.addGlyph(ufo[glyph.name])
+        if glyph.unicode not in instance or glyph.name not in instance:
+            if glyph.unicode:
+                newName = str(hex(glyph.unicode)).upper().replace("0X","uni")
+                instance.layers._defaultLayer.insertGlyph(ufo[glyph.name],newName, overwrite=False, copy=False)
+            else:
+                instance.layers._defaultLayer.insertGlyph(ufo[glyph.name],glyph.name, overwrite=False, copy=False)
 
 
 def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None:
