@@ -56,9 +56,9 @@ def step_merge_glyphs_from_ufo(path: Path, instance: ufoLib2.Font) -> None:
         if glyph.unicode not in instance or glyph.name not in instance:
             if glyph.unicode:
                 newName = str(hex(glyph.unicode)).upper().replace("0X","uni")
-                instance.layers._defaultLayer.insertGlyph(ufo[glyph.name],newName, overwrite=False, copy=False)
+                instance.layers.defaultLayer.insertGlyph(ufo[glyph.name],newName, overwrite=False, copy=False)
             else:
-                instance.layers._defaultLayer.insertGlyph(ufo[glyph.name],glyph.name, overwrite=False, copy=False)
+                instance.addGlyph(ufo[glyph.name])
 
 
 def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None:
@@ -394,6 +394,8 @@ if __name__ == "__main__":
         for s in designspaceItalic.instances
         if s.lib.get("com.schriftgestaltung.export", True)
     ]
+
+    #build_font_variable(designspace,"Cascadia Code NF",args.vtt_compile)
 
     # Stage 1: Make all the things.
     pool = multiprocessing.pool.Pool(processes=multiprocessing.cpu_count())
