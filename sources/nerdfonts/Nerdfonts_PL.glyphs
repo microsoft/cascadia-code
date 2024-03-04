@@ -1,5 +1,20 @@
 {
-.appVersion = "1342";
+.appVersion = "3243";
+customParameters = (
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
+);
+}
+);
 date = "2019-10-25 21:28:01 +0000";
 disablesAutomaticAlignment = 1;
 familyName = NerdfontsPL;
@@ -79,6 +94,46 @@ xHeight = 1060;
 }
 );
 glyphs = (
+{
+glyphname = uni2630;
+layers = (
+{
+layerId = "F8C3375C-B372-4BAE-A3FB-5A8DC7FA7AB9";
+paths = (
+{
+closed = 1;
+nodes = (
+"120 151 LINE",
+"1080 151 LINE",
+"1080 343 LINE",
+"120 343 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"120 535 LINE",
+"1080 535 LINE",
+"1080 727 LINE",
+"120 727 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"120 919 LINE",
+"1080 919 LINE",
+"1080 1111 LINE",
+"120 1111 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+note = uni2630;
+unicode = 2630;
+},
 {
 color = 2;
 glyphname = uniE0A0;
@@ -14136,7 +14191,6 @@ instanceInterpolations = {
 "F8C3375C-B372-4BAE-A3FB-5A8DC7FA7AB9" = 1;
 };
 name = Regular;
-weightClass = Normal;
 }
 );
 unitsPerEm = 2048;
