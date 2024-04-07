@@ -400,7 +400,7 @@ if __name__ == "__main__":
         if s.lib.get("com.schriftgestaltung.export", True)
     ]
 
-    Stage 1: Make all the things.
+#    Stage 1: Make all the things.
     pool = multiprocessing.pool.Pool(processes=multiprocessing.cpu_count())
     processes = []
     processes.append(
