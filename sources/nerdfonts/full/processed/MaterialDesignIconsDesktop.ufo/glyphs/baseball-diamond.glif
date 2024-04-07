@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="baseball-diamond" format="2">
+  <advance width="1200"/>
+  <unicode hex="F15EC"/>
+  <note>
+baseball-diamond
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="1023" type="line"/>
+      <point x="959" y="664" type="line"/>
+      <point x="1180" y="884" type="line"/>
+      <point x="1139" y="939" type="line" smooth="yes"/>
+      <point x="1085" y="1004"/>
+      <point x="1022" y="1059" type="qcurve" smooth="yes"/>
+      <point x="932" y="1135"/>
+      <point x="837" y="1178" type="qcurve" smooth="yes"/>
+      <point x="720" y="1233"/>
+      <point x="480" y="1233"/>
+      <point x="363" y="1178" type="qcurve" smooth="yes"/>
+      <point x="268" y="1135"/>
+      <point x="178" y="1059" type="qcurve" smooth="yes"/>
+      <point x="115" y="1004"/>
+      <point x="61" y="939" type="qcurve" smooth="yes"/>
+      <point x="20" y="884" type="line"/>
+      <point x="241" y="664" type="line"/>
+    </contour>
+    <contour>
+      <point x="687" y="244" type="line"/>
+      <point x="687" y="361" type="line"/>
+      <point x="513" y="361" type="line"/>
+      <point x="513" y="244" type="line"/>
+      <point x="600" y="187" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="860" type="line"/>
+      <point x="322" y="582" type="line"/>
+      <point x="472" y="432" type="line"/>
+      <point x="529" y="479"/>
+      <point x="671" y="479"/>
+      <point x="728" y="432" type="qcurve"/>
+      <point x="878" y="582" type="line"/>
+    </contour>
+    <contour>
+      <point x="657" y="571"/>
+      <point x="625" y="536"/>
+      <point x="575" y="536"/>
+      <point x="543" y="571"/>
+      <point x="543" y="617"/>
+      <point x="575" y="653"/>
+      <point x="625" y="653"/>
+      <point x="657" y="617"/>
+      <point x="657" y="593" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

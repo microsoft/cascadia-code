@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shield-airplane" format="2">
+  <advance width="1200"/>
+  <unicode hex="F06BB"/>
+  <note>
+shield-airplane
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="1160" type="line"/>
+      <point x="600" y="1420" type="line"/>
+      <point x="20" y="1160" type="line"/>
+      <point x="20" y="773" type="line" smooth="yes"/>
+      <point x="20" y="598"/>
+      <point x="171" y="272"/>
+      <point x="437" y="42"/>
+      <point x="600" y="0" type="qcurve"/>
+      <point x="763" y="42"/>
+      <point x="1029" y="272"/>
+      <point x="1180" y="598"/>
+      <point x="1180" y="773" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="576" y="1118"/>
+      <point x="600" y="1118" type="qcurve" smooth="yes"/>
+      <point x="624" y="1118"/>
+      <point x="660" y="1082"/>
+      <point x="660" y="1057" type="qcurve" smooth="yes"/>
+      <point x="660" y="831" type="line"/>
+      <point x="987" y="628" type="line"/>
+      <point x="987" y="547" type="line"/>
+      <point x="660" y="650" type="line"/>
+      <point x="660" y="426" type="line"/>
+      <point x="742" y="363" type="line"/>
+      <point x="742" y="302" type="line"/>
+      <point x="600" y="344" type="line"/>
+      <point x="458" y="302" type="line"/>
+      <point x="458" y="363" type="line"/>
+      <point x="540" y="426" type="line"/>
+      <point x="540" y="650" type="line"/>
+      <point x="213" y="547" type="line"/>
+      <point x="213" y="628" type="line"/>
+      <point x="540" y="831" type="line"/>
+      <point x="540" y="1057" type="line" smooth="yes"/>
+      <point x="540" y="1082"/>
+    </contour>
+  </outline>
+</glyph>

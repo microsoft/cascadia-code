@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mailbox-up" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0D8D"/>
+  <note>
+mailbox-up
+</note>
+  <outline>
+    <contour>
+      <point x="194" y="767" type="line"/>
+      <point x="426" y="767" type="line"/>
+      <point x="426" y="884" type="line"/>
+      <point x="194" y="884" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="963"/>
+      <point x="1104" y="1097"/>
+      <point x="970" y="1176"/>
+      <point x="891" y="1176" type="qcurve" smooth="yes"/>
+      <point x="309" y="1176" type="line" smooth="yes"/>
+      <point x="230" y="1176"/>
+      <point x="96" y="1097"/>
+      <point x="20" y="963"/>
+      <point x="20" y="884" type="qcurve" smooth="yes"/>
+      <point x="20" y="244" type="line"/>
+      <point x="1066" y="244" type="line" smooth="yes"/>
+      <point x="1112" y="244"/>
+      <point x="1180" y="312"/>
+      <point x="1180" y="361" type="qcurve" smooth="yes"/>
+      <point x="1180" y="884" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="483" y="361" type="line"/>
+      <point x="134" y="361" type="line"/>
+      <point x="134" y="884" type="line" smooth="yes"/>
+      <point x="134" y="958"/>
+      <point x="238" y="1059"/>
+      <point x="382" y="1059"/>
+      <point x="483" y="958"/>
+      <point x="483" y="884" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="831" y="884" type="line"/>
+      <point x="717" y="884" type="line"/>
+      <point x="717" y="653" type="line"/>
+      <point x="600" y="653" type="line"/>
+      <point x="600" y="1001" type="line"/>
+      <point x="831" y="1001" type="line"/>
+    </contour>
+  </outline>
+</glyph>

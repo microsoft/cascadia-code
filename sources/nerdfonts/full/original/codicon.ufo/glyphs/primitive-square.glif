@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="primitive-square" format="2">
+  <advance width="300"/>
+  <unicode hex="EA72"/>
+  <note>
+primitive-square
+</note>
+  <outline>
+    <contour>
+      <point x="66" y="75" type="line"/>
+      <point x="75" y="66" type="line"/>
+      <point x="225" y="66" type="line"/>
+      <point x="234" y="75" type="line"/>
+      <point x="234" y="225" type="line"/>
+      <point x="225" y="234" type="line"/>
+      <point x="75" y="234" type="line"/>
+      <point x="66" y="225" type="line"/>
+    </contour>
+    <contour>
+      <point x="216" y="216" type="line"/>
+      <point x="216" y="84" type="line"/>
+      <point x="84" y="84" type="line"/>
+      <point x="84" y="216" type="line"/>
+    </contour>
+  </outline>
+</glyph>

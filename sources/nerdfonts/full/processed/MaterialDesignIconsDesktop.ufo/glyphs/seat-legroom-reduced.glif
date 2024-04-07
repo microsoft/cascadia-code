@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seat-legroom-reduced" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0480"/>
+  <note>
+seat-legroom-reduced
+</note>
+  <outline>
+    <contour>
+      <point x="1171" y="256"/>
+      <point x="1111" y="301"/>
+      <point x="1072" y="301" type="qcurve" smooth="yes"/>
+      <point x="976" y="301" type="line"/>
+      <point x="1111" y="777" type="line"/>
+      <point x="1111" y="835"/>
+      <point x="1031" y="915"/>
+      <point x="976" y="915" type="qcurve" smooth="yes"/>
+      <point x="634" y="915" type="line"/>
+      <point x="634" y="1324" type="line"/>
+      <point x="225" y="1324" type="line"/>
+      <point x="225" y="777" type="line" smooth="yes"/>
+      <point x="225" y="694"/>
+      <point x="343" y="572"/>
+      <point x="429" y="572" type="qcurve" smooth="yes"/>
+      <point x="839" y="572" type="line"/>
+      <point x="772" y="301" type="line"/>
+      <point x="772" y="96" type="line"/>
+      <point x="1079" y="96" type="line" smooth="yes"/>
+      <point x="1127" y="96"/>
+      <point x="1187" y="170"/>
+      <point x="1178" y="217" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="158" y="624"/>
+      <point x="158" y="710" type="qcurve" smooth="yes"/>
+      <point x="158" y="1324" type="line"/>
+      <point x="20" y="1324" type="line"/>
+      <point x="20" y="710" type="line" smooth="yes"/>
+      <point x="20" y="617"/>
+      <point x="113" y="461"/>
+      <point x="269" y="368"/>
+      <point x="362" y="368" type="qcurve" smooth="yes"/>
+      <point x="634" y="368" type="line"/>
+      <point x="634" y="505" type="line"/>
+      <point x="362" y="505" type="line" smooth="yes"/>
+      <point x="276" y="505"/>
+    </contour>
+  </outline>
+</glyph>

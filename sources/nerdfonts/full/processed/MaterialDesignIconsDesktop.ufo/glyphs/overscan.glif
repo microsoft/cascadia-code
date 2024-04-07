@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overscan" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1005"/>
+  <note>
+overscan
+</note>
+  <outline>
+    <contour>
+      <point x="706" y="920" type="line"/>
+      <point x="600" y="1053" type="line"/>
+      <point x="494" y="920" type="line"/>
+    </contour>
+    <contour>
+      <point x="1047" y="710" type="line"/>
+      <point x="916" y="816" type="line"/>
+      <point x="916" y="604" type="line"/>
+    </contour>
+    <contour>
+      <point x="284" y="604" type="line"/>
+      <point x="284" y="816" type="line"/>
+      <point x="153" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="367" type="line"/>
+      <point x="706" y="500" type="line"/>
+      <point x="494" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="1118" y="1184"/>
+      <point x="1074" y="1184" type="qcurve" smooth="yes"/>
+      <point x="126" y="1184" type="line" smooth="yes"/>
+      <point x="82" y="1184"/>
+      <point x="20" y="1122"/>
+      <point x="20" y="1078" type="qcurve" smooth="yes"/>
+      <point x="20" y="342" type="line" smooth="yes"/>
+      <point x="20" y="298"/>
+      <point x="82" y="236"/>
+      <point x="126" y="236" type="qcurve" smooth="yes"/>
+      <point x="1074" y="236" type="line" smooth="yes"/>
+      <point x="1118" y="236"/>
+      <point x="1180" y="298"/>
+      <point x="1180" y="342" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1078" type="line" smooth="yes"/>
+      <point x="1180" y="1122"/>
+    </contour>
+    <contour>
+      <point x="1074" y="1078" type="line"/>
+      <point x="1074" y="342" type="line"/>
+      <point x="126" y="342" type="line"/>
+      <point x="126" y="1078" type="line"/>
+    </contour>
+  </outline>
+</glyph>

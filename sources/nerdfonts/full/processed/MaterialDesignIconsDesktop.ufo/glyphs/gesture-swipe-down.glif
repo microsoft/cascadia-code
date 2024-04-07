@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gesture-swipe-down" format="2">
+  <advance width="1200"/>
+  <unicode hex="F073D"/>
+  <note>
+gesture-swipe-down
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="325" type="line"/>
+      <point x="395" y="434" type="line"/>
+      <point x="379" y="434" type="line" smooth="yes"/>
+      <point x="352" y="434"/>
+      <point x="334" y="415" type="qcurve" smooth="yes"/>
+      <point x="286" y="364" type="line"/>
+      <point x="600" y="95" type="line"/>
+      <point x="627" y="65"/>
+      <point x="666" y="65" type="qcurve" smooth="yes"/>
+      <point x="1083" y="65" type="line"/>
+      <point x="1123" y="68"/>
+      <point x="1180" y="122"/>
+      <point x="1180" y="162" type="qcurve" smooth="yes"/>
+      <point x="1180" y="443" type="line" smooth="yes"/>
+      <point x="1180" y="473"/>
+      <point x="1153" y="518"/>
+      <point x="1126" y="530" type="qcurve" smooth="yes"/>
+      <point x="808" y="672" type="line"/>
+      <point x="730" y="681" type="line"/>
+      <point x="730" y="968" type="line" smooth="yes"/>
+      <point x="730" y="995"/>
+      <point x="694" y="1032"/>
+      <point x="639" y="1032"/>
+      <point x="600" y="995"/>
+      <point x="600" y="968" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="150" y="968" type="line"/>
+      <point x="20" y="968" type="line"/>
+      <point x="213" y="775" type="line"/>
+      <point x="407" y="968" type="line"/>
+      <point x="280" y="968" type="line"/>
+      <point x="280" y="1355" type="line"/>
+      <point x="150" y="1355" type="line"/>
+    </contour>
+  </outline>
+</glyph>

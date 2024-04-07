@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shield-half-full" format="2">
+  <advance width="512"/>
+  <unicode hex="F0780"/>
+  <note>
+shield-half-full
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="341" type="line"/>
+      <point x="256" y="427" type="line"/>
+      <point x="64" y="341" type="line"/>
+      <point x="64" y="213" type="line" smooth="yes"/>
+      <point x="64" y="155"/>
+      <point x="114" y="47"/>
+      <point x="202" y="-29"/>
+      <point x="256" y="-43" type="qcurve"/>
+      <point x="310" y="-29"/>
+      <point x="398" y="47"/>
+      <point x="448" y="155"/>
+      <point x="448" y="213" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="256" y="380" type="line"/>
+      <point x="405" y="314" type="line"/>
+      <point x="405" y="209" type="line" smooth="yes"/>
+      <point x="405" y="163"/>
+      <point x="364" y="75"/>
+      <point x="295" y="11"/>
+      <point x="256" y="0" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

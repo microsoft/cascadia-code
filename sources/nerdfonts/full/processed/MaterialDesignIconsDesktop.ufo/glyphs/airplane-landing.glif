@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="airplane-landing" format="2">
+  <advance width="1200"/>
+  <unicode hex="F05D4"/>
+  <note>
+airplane-landing
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="131" type="line"/>
+      <point x="1180" y="131" type="line"/>
+      <point x="1180" y="254" type="line"/>
+      <point x="20" y="254" type="line"/>
+    </contour>
+    <contour>
+      <point x="37" y="717" type="line"/>
+      <point x="460" y="603" type="line"/>
+      <point x="723" y="531" type="line"/>
+      <point x="1049" y="446" type="line" smooth="yes"/>
+      <point x="1083" y="437"/>
+      <point x="1149" y="474"/>
+      <point x="1169" y="546"/>
+      <point x="1131" y="611"/>
+      <point x="1094" y="623" type="qcurve" smooth="yes"/>
+      <point x="771" y="709" type="line"/>
+      <point x="603" y="1260" type="line"/>
+      <point x="486" y="1289" type="line"/>
+      <point x="486" y="786" type="line"/>
+      <point x="183" y="866" type="line"/>
+      <point x="126" y="1009" type="line"/>
+      <point x="37" y="1031" type="line"/>
+    </contour>
+  </outline>
+</glyph>

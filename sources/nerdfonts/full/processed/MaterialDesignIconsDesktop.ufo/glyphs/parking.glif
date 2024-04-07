@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parking" format="2">
+  <advance width="1200"/>
+  <unicode hex="F03E3"/>
+  <note>
+parking
+</note>
+  <outline>
+    <contour>
+      <point x="720" y="788"/>
+      <point x="657" y="788" type="qcurve" smooth="yes"/>
+      <point x="402" y="788" type="line"/>
+      <point x="402" y="1106" type="line"/>
+      <point x="657" y="1106" type="line" smooth="yes"/>
+      <point x="720" y="1106"/>
+      <point x="813" y="1013"/>
+      <point x="813" y="880"/>
+    </contour>
+    <contour>
+      <point x="768" y="1420"/>
+      <point x="639" y="1420" type="qcurve" smooth="yes"/>
+      <point x="88" y="1420" type="line"/>
+      <point x="88" y="0" type="line"/>
+      <point x="402" y="0" type="line"/>
+      <point x="402" y="473" type="line"/>
+      <point x="639" y="473" type="line" smooth="yes"/>
+      <point x="768" y="473"/>
+      <point x="986" y="599"/>
+      <point x="1112" y="817"/>
+      <point x="1112" y="1076"/>
+      <point x="986" y="1294"/>
+    </contour>
+  </outline>
+</glyph>

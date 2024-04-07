@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="metronome" format="2">
+  <advance width="1200"/>
+  <unicode hex="F07DA"/>
+  <note>
+metronome
+</note>
+  <outline>
+    <contour>
+      <point x="791" y="1330" type="line"/>
+      <point x="560" y="1393" type="line"/>
+      <point x="330" y="1330" type="line"/>
+      <point x="26" y="192" type="line" smooth="yes"/>
+      <point x="20" y="173"/>
+      <point x="20" y="160" type="qcurve" smooth="yes"/>
+      <point x="20" y="106"/>
+      <point x="99" y="27"/>
+      <point x="156" y="27" type="qcurve" smooth="yes"/>
+      <point x="965" y="27" type="line" smooth="yes"/>
+      <point x="1022" y="27"/>
+      <point x="1101" y="106"/>
+      <point x="1101" y="160" type="qcurve" smooth="yes"/>
+      <point x="1101" y="173"/>
+      <point x="1095" y="192" type="qcurve" smooth="yes"/>
+      <point x="1003" y="536" type="line"/>
+      <point x="899" y="432" type="line"/>
+      <point x="911" y="362" type="line"/>
+      <point x="655" y="362" type="line"/>
+      <point x="848" y="555" type="line"/>
+      <point x="753" y="650" type="line"/>
+      <point x="466" y="362" type="line"/>
+      <point x="210" y="362" type="line"/>
+      <point x="447" y="1241" type="line"/>
+      <point x="674" y="1241" type="line"/>
+      <point x="775" y="874" type="line"/>
+      <point x="883" y="985" type="line"/>
+    </contour>
+    <contour>
+      <point x="611" y="1171" type="line"/>
+      <point x="510" y="1171" type="line"/>
+      <point x="510" y="514" type="line"/>
+      <point x="611" y="615" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="890" type="line"/>
+      <point x="1085" y="985" type="line"/>
+      <point x="896" y="792" type="line"/>
+      <point x="848" y="840" type="line"/>
+      <point x="753" y="745" type="line"/>
+      <point x="943" y="555" type="line"/>
+      <point x="1038" y="650" type="line"/>
+      <point x="990" y="697" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-note-sixteenth" format="2">
+  <advance width="1200"/>
+  <unicode hex="F038C"/>
+  <note>
+music-note-sixteenth
+</note>
+  <outline>
+    <contour>
+      <point x="759" y="1106" type="line"/>
+      <point x="1073" y="1106" type="line"/>
+      <point x="1073" y="1420" type="line"/>
+      <point x="600" y="1420" type="line"/>
+      <point x="600" y="588" type="line"/>
+      <point x="526" y="632"/>
+      <point x="441" y="632" type="qcurve" smooth="yes"/>
+      <point x="312" y="632"/>
+      <point x="127" y="447"/>
+      <point x="127" y="185"/>
+      <point x="312" y="0"/>
+      <point x="574" y="0"/>
+      <point x="759" y="185"/>
+      <point x="759" y="314" type="qcurve" smooth="yes"/>
+      <point x="759" y="788" type="line"/>
+      <point x="1073" y="788" type="line"/>
+      <point x="1073" y="1024" type="line"/>
+      <point x="759" y="1024" type="line"/>
+    </contour>
+  </outline>
+</glyph>

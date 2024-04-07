@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abugida-thai" format="2">
+  <advance width="1200"/>
+  <unicode hex="F132B"/>
+  <note>
+abugida-thai
+</note>
+  <outline>
+    <contour>
+      <point x="237" y="130" type="line"/>
+      <point x="383" y="130" type="line"/>
+      <point x="383" y="272"/>
+      <point x="573" y="774"/>
+      <point x="736" y="1053" type="qcurve" smooth="yes"/>
+      <point x="759" y="1097"/>
+      <point x="841" y="1144"/>
+      <point x="888" y="1144" type="qcurve" smooth="yes"/>
+      <point x="949" y="1144"/>
+      <point x="1034" y="1059"/>
+      <point x="1034" y="998" type="qcurve" smooth="yes"/>
+      <point x="1034" y="130" type="line"/>
+      <point x="1180" y="130" type="line"/>
+      <point x="1180" y="998" type="line" smooth="yes"/>
+      <point x="1180" y="1120"/>
+      <point x="1010" y="1290"/>
+      <point x="888" y="1290" type="qcurve" smooth="yes"/>
+      <point x="800" y="1290"/>
+      <point x="651" y="1198"/>
+      <point x="610" y="1127" type="qcurve" smooth="yes"/>
+      <point x="458" y="863"/>
+      <point x="383" y="635" type="qcurve"/>
+      <point x="383" y="1107" type="line" smooth="yes"/>
+      <point x="383" y="1181"/>
+      <point x="278" y="1290"/>
+      <point x="129" y="1290"/>
+      <point x="20" y="1181"/>
+      <point x="20" y="1032"/>
+      <point x="129" y="927"/>
+      <point x="203" y="927" type="qcurve" smooth="yes"/>
+      <point x="227" y="927"/>
+      <point x="237" y="930" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="186" y="1144"/>
+      <point x="166" y="1124"/>
+      <point x="166" y="1093"/>
+      <point x="186" y="1073"/>
+      <point x="217" y="1073"/>
+      <point x="237" y="1093"/>
+      <point x="237" y="1124"/>
+      <point x="217" y="1144"/>
+      <point x="203" y="1144" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

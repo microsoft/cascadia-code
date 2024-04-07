@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrow-left-circle" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0CDD"/>
+  <note>
+arrow-left-circle
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="596"/>
+      <point x="107" y="381"/>
+      <point x="271" y="217"/>
+      <point x="486" y="130"/>
+      <point x="714" y="130"/>
+      <point x="929" y="217"/>
+      <point x="1093" y="381"/>
+      <point x="1180" y="596"/>
+      <point x="1180" y="824"/>
+      <point x="1093" y="1039"/>
+      <point x="929" y="1203"/>
+      <point x="714" y="1290"/>
+      <point x="486" y="1290"/>
+      <point x="271" y="1203"/>
+      <point x="107" y="1039"/>
+      <point x="20" y="824"/>
+      <point x="20" y="710" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="949" y="653" type="line"/>
+      <point x="483" y="653" type="line"/>
+      <point x="687" y="449" type="line"/>
+      <point x="605" y="367" type="line"/>
+      <point x="260" y="710" type="line"/>
+      <point x="605" y="1053" type="line"/>
+      <point x="687" y="971" type="line"/>
+      <point x="483" y="767" type="line"/>
+      <point x="949" y="767" type="line"/>
+    </contour>
+  </outline>
+</glyph>

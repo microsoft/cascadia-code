@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dice-d4" format="2">
+  <advance width="512"/>
+  <unicode hex="F1150"/>
+  <note>
+dice-d4
+</note>
+  <outline>
+    <contour>
+      <point x="254" y="125" type="line"/>
+      <point x="254" y="182" type="line"/>
+      <point x="219" y="125" type="line"/>
+    </contour>
+    <contour>
+      <point x="481" y="0"/>
+      <point x="494" y="23"/>
+      <point x="487" y="35" type="qcurve" smooth="yes"/>
+      <point x="276" y="381" type="line" smooth="yes"/>
+      <point x="269" y="392"/>
+      <point x="243" y="392"/>
+      <point x="236" y="381" type="qcurve" smooth="yes"/>
+      <point x="25" y="35" type="line" smooth="yes"/>
+      <point x="18" y="23"/>
+      <point x="31" y="0"/>
+      <point x="44" y="0" type="qcurve" smooth="yes"/>
+      <point x="468" y="0" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="305" y="99" type="line"/>
+      <point x="287" y="99" type="line"/>
+      <point x="287" y="64" type="line"/>
+      <point x="254" y="64" type="line"/>
+      <point x="254" y="99" type="line"/>
+      <point x="188" y="99" type="line"/>
+      <point x="187" y="119" type="line"/>
+      <point x="254" y="226" type="line"/>
+      <point x="287" y="226" type="line"/>
+      <point x="287" y="125" type="line"/>
+      <point x="305" y="125" type="line"/>
+    </contour>
+  </outline>
+</glyph>

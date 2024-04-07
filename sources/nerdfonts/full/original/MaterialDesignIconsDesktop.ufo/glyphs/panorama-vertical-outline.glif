@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="panorama-vertical-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F03DF"/>
+  <note>
+panorama-vertical-outline
+</note>
+  <outline>
+    <contour>
+      <point x="372" y="21" type="line"/>
+      <point x="348" y="105"/>
+      <point x="348" y="279"/>
+      <point x="372" y="363" type="qcurve"/>
+      <point x="140" y="363" type="line"/>
+      <point x="164" y="279"/>
+      <point x="164" y="105"/>
+      <point x="140" y="21" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="427" y="-5"/>
+      <point x="427" y="-15"/>
+      <point x="420" y="-21"/>
+      <point x="413" y="-21" type="qcurve" smooth="yes"/>
+      <point x="99" y="-21" type="line" smooth="yes"/>
+      <point x="93" y="-21"/>
+      <point x="85" y="-15"/>
+      <point x="85" y="-5"/>
+      <point x="87" y="-3" type="qcurve"/>
+      <point x="122" y="92"/>
+      <point x="122" y="292"/>
+      <point x="87" y="387" type="qcurve"/>
+      <point x="85" y="389"/>
+      <point x="85" y="399"/>
+      <point x="92" y="405"/>
+      <point x="99" y="405" type="qcurve" smooth="yes"/>
+      <point x="413" y="405" type="line" smooth="yes"/>
+      <point x="420" y="405"/>
+      <point x="427" y="399"/>
+      <point x="427" y="389"/>
+      <point x="425" y="387" type="qcurve"/>
+      <point x="390" y="292"/>
+      <point x="390" y="91"/>
+      <point x="425" y="-3" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

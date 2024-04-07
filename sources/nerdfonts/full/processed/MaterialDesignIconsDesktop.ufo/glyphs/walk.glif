@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="walk" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0583"/>
+  <note>
+walk
+</note>
+  <outline>
+    <contour>
+      <point x="635" y="898" type="line"/>
+      <point x="705" y="782" type="line"/>
+      <point x="1023" y="782" type="line"/>
+      <point x="1023" y="898" type="line"/>
+      <point x="788" y="898" type="line"/>
+      <point x="656" y="1115" type="line" smooth="yes"/>
+      <point x="644" y="1139"/>
+      <point x="592" y="1170"/>
+      <point x="562" y="1170" type="qcurve" smooth="yes"/>
+      <point x="547" y="1170"/>
+      <point x="531" y="1163" type="qcurve" smooth="yes"/>
+      <point x="177" y="1054" type="line"/>
+      <point x="177" y="715" type="line"/>
+      <point x="293" y="715" type="line"/>
+      <point x="293" y="956" type="line"/>
+      <point x="431" y="999" type="line"/>
+      <point x="177" y="0" type="line"/>
+      <point x="293" y="0" type="line"/>
+      <point x="482" y="528" type="line"/>
+      <point x="632" y="324" type="line"/>
+      <point x="632" y="0" type="line"/>
+      <point x="751" y="0" type="line"/>
+      <point x="751" y="415" type="line"/>
+      <point x="589" y="712" type="line"/>
+    </contour>
+    <contour>
+      <point x="650" y="1185"/>
+      <point x="699" y="1185" type="qcurve" smooth="yes"/>
+      <point x="748" y="1185"/>
+      <point x="815" y="1252"/>
+      <point x="815" y="1350"/>
+      <point x="748" y="1420"/>
+      <point x="650" y="1420"/>
+      <point x="580" y="1350"/>
+      <point x="580" y="1252"/>
+    </contour>
+  </outline>
+</glyph>

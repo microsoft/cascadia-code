@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="math-compass" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0358"/>
+  <note>
+math-compass
+</note>
+  <outline>
+    <contour>
+      <point x="827" y="793" type="line"/>
+      <point x="770" y="743"/>
+      <point x="700" y="723" type="qcurve"/>
+      <point x="1040" y="83" type="line"/>
+      <point x="1170" y="0" type="line"/>
+      <point x="1170" y="150" type="line"/>
+    </contour>
+    <contour>
+      <point x="813" y="1133"/>
+      <point x="737" y="1243"/>
+      <point x="670" y="1267" type="qcurve"/>
+      <point x="670" y="1350" type="line" smooth="yes"/>
+      <point x="670" y="1380"/>
+      <point x="630" y="1420"/>
+      <point x="600" y="1420" type="qcurve"/>
+      <point x="600" y="1280" type="line"/>
+      <point x="520" y="1280"/>
+      <point x="393" y="1167"/>
+      <point x="383" y="990"/>
+      <point x="443" y="923" type="qcurve"/>
+      <point x="30" y="150" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="160" y="83" type="line"/>
+      <point x="570" y="853" type="line"/>
+      <point x="600" y="853" type="line" smooth="yes"/>
+      <point x="690" y="853"/>
+      <point x="813" y="977"/>
+      <point x="813" y="1067" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="670" y="1037"/>
+      <point x="630" y="993"/>
+      <point x="570" y="993"/>
+      <point x="530" y="1037"/>
+      <point x="530" y="1097"/>
+      <point x="570" y="1137"/>
+      <point x="630" y="1137"/>
+      <point x="670" y="1097"/>
+      <point x="670" y="1067" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

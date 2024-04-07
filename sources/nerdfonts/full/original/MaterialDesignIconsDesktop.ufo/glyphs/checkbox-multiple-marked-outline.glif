@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="checkbox-multiple-marked-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F0139"/>
+  <note>
+checkbox-multiple-marked-outline
+</note>
+  <outline>
+    <contour>
+      <point x="171" y="107" type="line"/>
+      <point x="171" y="363" type="line"/>
+      <point x="341" y="363" type="line"/>
+      <point x="341" y="405" type="line"/>
+      <point x="171" y="405" type="line" smooth="yes"/>
+      <point x="153" y="405"/>
+      <point x="128" y="380"/>
+      <point x="128" y="363" type="qcurve" smooth="yes"/>
+      <point x="128" y="107" type="line" smooth="yes"/>
+      <point x="128" y="89"/>
+      <point x="153" y="64"/>
+      <point x="171" y="64" type="qcurve" smooth="yes"/>
+      <point x="427" y="64" type="line" smooth="yes"/>
+      <point x="444" y="64"/>
+      <point x="469" y="89"/>
+      <point x="469" y="107" type="qcurve" smooth="yes"/>
+      <point x="469" y="235" type="line"/>
+      <point x="427" y="235" type="line"/>
+      <point x="427" y="107" type="line"/>
+    </contour>
+    <contour>
+      <point x="203" y="267" type="line"/>
+      <point x="299" y="171" type="line"/>
+      <point x="469" y="341" type="line"/>
+      <point x="439" y="372" type="line"/>
+      <point x="299" y="231" type="line"/>
+      <point x="233" y="297" type="line"/>
+    </contour>
+    <contour>
+      <point x="85" y="21" type="line"/>
+      <point x="85" y="299" type="line"/>
+      <point x="43" y="299" type="line"/>
+      <point x="43" y="21" type="line" smooth="yes"/>
+      <point x="43" y="4"/>
+      <point x="68" y="-21"/>
+      <point x="85" y="-21" type="qcurve" smooth="yes"/>
+      <point x="341" y="-21" type="line"/>
+      <point x="341" y="21" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="delete" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01B4"/>
+  <note>
+delete
+</note>
+  <outline>
+    <contour>
+      <point x="1151" y="1183" type="line"/>
+      <point x="1151" y="1342" type="line"/>
+      <point x="877" y="1342" type="line"/>
+      <point x="796" y="1420" type="line"/>
+      <point x="404" y="1420" type="line"/>
+      <point x="323" y="1342" type="line"/>
+      <point x="49" y="1342" type="line"/>
+      <point x="49" y="1183" type="line"/>
+    </contour>
+    <contour>
+      <point x="127" y="1106" type="line"/>
+      <point x="127" y="159" type="line" smooth="yes"/>
+      <point x="127" y="92"/>
+      <point x="219" y="0"/>
+      <point x="286" y="0" type="qcurve" smooth="yes"/>
+      <point x="914" y="0" type="line" smooth="yes"/>
+      <point x="981" y="0"/>
+      <point x="1073" y="92"/>
+      <point x="1073" y="159" type="qcurve" smooth="yes"/>
+      <point x="1073" y="1106" type="line"/>
+    </contour>
+  </outline>
+</glyph>

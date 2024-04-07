@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="audio-input-stereo-minijack" format="2">
+  <advance width="512"/>
+  <unicode hex="F186C"/>
+  <note>
+audio-input-stereo-minijack
+</note>
+  <outline>
+    <contour>
+      <point x="277" y="363" type="line"/>
+      <point x="277" y="384" type="line" smooth="yes"/>
+      <point x="277" y="393"/>
+      <point x="265" y="405"/>
+      <point x="247" y="405"/>
+      <point x="235" y="393"/>
+      <point x="235" y="384" type="qcurve" smooth="yes"/>
+      <point x="235" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="256" type="line"/>
+      <point x="320" y="128" type="line" smooth="yes"/>
+      <point x="320" y="108"/>
+      <point x="296" y="75"/>
+      <point x="277" y="68" type="qcurve"/>
+      <point x="277" y="-21" type="line"/>
+      <point x="235" y="-21" type="line"/>
+      <point x="235" y="68" type="line"/>
+      <point x="216" y="75"/>
+      <point x="192" y="108"/>
+      <point x="192" y="128" type="qcurve" smooth="yes"/>
+      <point x="192" y="256" type="line"/>
+      <point x="235" y="256" type="line"/>
+      <point x="235" y="341" type="line"/>
+      <point x="277" y="341" type="line"/>
+      <point x="277" y="256" type="line"/>
+    </contour>
+  </outline>
+</glyph>

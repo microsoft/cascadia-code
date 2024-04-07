@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gender-male-female" format="2">
+  <advance width="512"/>
+  <unicode hex="F029E"/>
+  <note>
+gender-male-female
+</note>
+  <outline>
+    <contour>
+      <point x="293" y="281" type="line"/>
+      <point x="267" y="299"/>
+      <point x="235" y="299" type="qcurve" smooth="yes"/>
+      <point x="206" y="299"/>
+      <point x="157" y="270"/>
+      <point x="128" y="221"/>
+      <point x="128" y="192" type="qcurve" smooth="yes"/>
+      <point x="128" y="154"/>
+      <point x="177" y="95"/>
+      <point x="213" y="87" type="qcurve"/>
+      <point x="213" y="43" type="line"/>
+      <point x="171" y="43" type="line"/>
+      <point x="171" y="0" type="line"/>
+      <point x="213" y="0" type="line"/>
+      <point x="213" y="-43" type="line"/>
+      <point x="256" y="-43" type="line"/>
+      <point x="256" y="0" type="line"/>
+      <point x="299" y="0" type="line"/>
+      <point x="299" y="43" type="line"/>
+      <point x="256" y="43" type="line"/>
+      <point x="256" y="87" type="line"/>
+      <point x="293" y="95"/>
+      <point x="341" y="154"/>
+      <point x="341" y="192" type="qcurve" smooth="yes"/>
+      <point x="341" y="224"/>
+      <point x="324" y="251" type="qcurve"/>
+      <point x="405" y="333" type="line"/>
+      <point x="405" y="256" type="line"/>
+      <point x="448" y="256" type="line"/>
+      <point x="448" y="405" type="line"/>
+      <point x="299" y="405" type="line"/>
+      <point x="299" y="363" type="line"/>
+      <point x="375" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="261" y="256"/>
+      <point x="299" y="219"/>
+      <point x="299" y="165"/>
+      <point x="261" y="128"/>
+      <point x="208" y="128"/>
+      <point x="171" y="165"/>
+      <point x="171" y="219"/>
+      <point x="208" y="256"/>
+      <point x="235" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="map-marker-account" format="2">
+  <advance width="512"/>
+  <unicode hex="F18E3"/>
+  <note>
+map-marker-account
+</note>
+  <outline>
+    <contour>
+      <point x="296" y="405"/>
+      <point x="365" y="365"/>
+      <point x="405" y="296"/>
+      <point x="405" y="217"/>
+      <point x="382" y="165" type="qcurve" smooth="yes"/>
+      <point x="363" y="124"/>
+      <point x="331" y="75" type="qcurve" smooth="yes"/>
+      <point x="307" y="41"/>
+      <point x="279" y="6" type="qcurve" smooth="yes"/>
+      <point x="256" y="-21" type="line"/>
+      <point x="233" y="6" type="line" smooth="yes"/>
+      <point x="205" y="41"/>
+      <point x="181" y="75" type="qcurve" smooth="yes"/>
+      <point x="149" y="124"/>
+      <point x="130" y="165" type="qcurve" smooth="yes"/>
+      <point x="107" y="218"/>
+      <point x="107" y="296"/>
+      <point x="147" y="365"/>
+      <point x="216" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="238" y="363"/>
+      <point x="213" y="338"/>
+      <point x="213" y="302"/>
+      <point x="238" y="277"/>
+      <point x="274" y="277"/>
+      <point x="299" y="302"/>
+      <point x="299" y="338"/>
+      <point x="274" y="363"/>
+      <point x="256" y="363" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="282" y="149"/>
+      <point x="327" y="174"/>
+      <point x="341" y="195" type="qcurve"/>
+      <point x="341" y="214"/>
+      <point x="309" y="228" type="qcurve" smooth="yes"/>
+      <point x="282" y="239"/>
+      <point x="230" y="239"/>
+      <point x="203" y="228" type="qcurve" smooth="yes"/>
+      <point x="171" y="214"/>
+      <point x="171" y="195" type="qcurve"/>
+      <point x="185" y="174"/>
+      <point x="230" y="149"/>
+      <point x="256" y="149" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

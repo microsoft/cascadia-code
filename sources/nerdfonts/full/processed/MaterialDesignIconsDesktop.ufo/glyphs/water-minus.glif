@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="water-minus" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1506"/>
+  <note>
+water-minus
+</note>
+  <outline>
+    <contour>
+      <point x="602" y="319" type="line"/>
+      <point x="602" y="176" type="line"/>
+      <point x="1180" y="176" type="line"/>
+      <point x="1180" y="319" type="line"/>
+    </contour>
+    <contour>
+      <point x="751" y="676"/>
+      <point x="864" y="683" type="qcurve"/>
+      <point x="802" y="860"/>
+      <point x="622" y="1108" type="qcurve" smooth="yes"/>
+      <point x="534" y="1230"/>
+      <point x="455" y="1319" type="qcurve"/>
+      <point x="455" y="1319" type="line"/>
+      <point x="387" y="1237" type="line" smooth="yes"/>
+      <point x="306" y="1135"/>
+      <point x="238" y="1037" type="qcurve" smooth="yes"/>
+      <point x="142" y="897"/>
+      <point x="88" y="781" type="qcurve" smooth="yes"/>
+      <point x="20" y="639"/>
+      <point x="20" y="537" type="qcurve" smooth="yes"/>
+      <point x="20" y="421"/>
+      <point x="136" y="220"/>
+      <point x="336" y="101"/>
+      <point x="455" y="101" type="qcurve" smooth="yes"/>
+      <point x="479" y="101" type="line"/>
+      <point x="455" y="173"/>
+      <point x="455" y="247" type="qcurve" smooth="yes"/>
+      <point x="455" y="360"/>
+      <point x="564" y="554"/>
+    </contour>
+  </outline>
+</glyph>

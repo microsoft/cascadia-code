@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="account-alert" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0005"/>
+  <note>
+account-alert
+</note>
+  <outline>
+    <contour>
+      <point x="388" y="1176"/>
+      <point x="251" y="1039"/>
+      <point x="251" y="846"/>
+      <point x="388" y="710"/>
+      <point x="581" y="710"/>
+      <point x="717" y="846"/>
+      <point x="717" y="1039"/>
+      <point x="581" y="1176"/>
+      <point x="483" y="1176" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="358" y="593"/>
+      <point x="145" y="530"/>
+      <point x="20" y="424"/>
+      <point x="20" y="361" type="qcurve" smooth="yes"/>
+      <point x="20" y="244" type="line"/>
+      <point x="949" y="244" type="line"/>
+      <point x="949" y="361" type="line" smooth="yes"/>
+      <point x="949" y="424"/>
+      <point x="823" y="530"/>
+      <point x="611" y="593"/>
+      <point x="483" y="593" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1066" y="653" type="line"/>
+      <point x="1180" y="653" type="line"/>
+      <point x="1180" y="1001" type="line"/>
+      <point x="1066" y="1001" type="line"/>
+      <point x="1066" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="419" type="line"/>
+      <point x="1180" y="536" type="line"/>
+      <point x="1066" y="536" type="line"/>
+      <point x="1066" y="419" type="line"/>
+    </contour>
+  </outline>
+</glyph>

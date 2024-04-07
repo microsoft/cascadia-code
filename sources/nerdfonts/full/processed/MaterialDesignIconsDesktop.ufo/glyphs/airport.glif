@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="airport" format="2">
+  <advance width="1200"/>
+  <unicode hex="F084B"/>
+  <note>
+airport
+</note>
+  <outline>
+    <contour>
+      <point x="777" y="1042"/>
+      <point x="772" y="1064" type="qcurve" smooth="yes"/>
+      <point x="766" y="1086"/>
+      <point x="725" y="1108"/>
+      <point x="703" y="1102" type="qcurve" smooth="yes"/>
+      <point x="507" y="1050" type="line"/>
+      <point x="249" y="1290" type="line"/>
+      <point x="178" y="1271" type="line"/>
+      <point x="330" y="1004" type="line"/>
+      <point x="145" y="955" type="line"/>
+      <point x="74" y="1012" type="line"/>
+      <point x="20" y="996" type="line"/>
+      <point x="115" y="830" type="line"/>
+      <point x="733" y="993" type="line"/>
+      <point x="755" y="1001"/>
+    </contour>
+    <contour>
+      <point x="1066" y="884" type="line"/>
+      <point x="949" y="884" type="line"/>
+      <point x="949" y="1001" type="line"/>
+      <point x="891" y="1001" type="line"/>
+      <point x="891" y="884" type="line"/>
+      <point x="774" y="884" type="line"/>
+      <point x="717" y="827" type="line"/>
+      <point x="774" y="710" type="line"/>
+      <point x="1066" y="710" type="line"/>
+      <point x="1123" y="827" type="line"/>
+    </contour>
+    <contour>
+      <point x="1066" y="244" type="line"/>
+      <point x="1066" y="653" type="line"/>
+      <point x="774" y="653" type="line"/>
+      <point x="774" y="244" type="line"/>
+      <point x="20" y="244" type="line"/>
+      <point x="20" y="130" type="line"/>
+      <point x="1180" y="130" type="line"/>
+      <point x="1180" y="244" type="line"/>
+    </contour>
+  </outline>
+</glyph>

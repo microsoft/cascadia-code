@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="boomerang" format="2">
+  <advance width="512"/>
+  <unicode hex="F10CF"/>
+  <note>
+boomerang
+</note>
+  <outline>
+    <contour>
+      <point x="171" y="320" type="line"/>
+      <point x="85" y="320" type="line" smooth="yes"/>
+      <point x="68" y="320"/>
+      <point x="43" y="345"/>
+      <point x="43" y="380"/>
+      <point x="68" y="405"/>
+      <point x="85" y="405" type="qcurve" smooth="yes"/>
+      <point x="213" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="256" y="405" type="line"/>
+      <point x="213" y="320" type="line"/>
+      <point x="259" y="320"/>
+      <point x="338" y="274"/>
+      <point x="384" y="195"/>
+      <point x="384" y="149" type="qcurve"/>
+      <point x="469" y="192" type="line"/>
+      <point x="469" y="320" type="line" smooth="yes"/>
+      <point x="469" y="355"/>
+      <point x="419" y="405"/>
+      <point x="384" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="384" y="4"/>
+      <point x="409" y="-21"/>
+      <point x="444" y="-21"/>
+      <point x="469" y="4"/>
+      <point x="469" y="21" type="qcurve" smooth="yes"/>
+      <point x="469" y="149" type="line"/>
+      <point x="384" y="107" type="line"/>
+      <point x="384" y="21" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

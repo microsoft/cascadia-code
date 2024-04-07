@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="disc" format="2">
+  <advance width="512"/>
+  <unicode hex="F05EE"/>
+  <note>
+disc
+</note>
+  <outline>
+    <contour>
+      <point x="274" y="149"/>
+      <point x="299" y="174"/>
+      <point x="299" y="210"/>
+      <point x="274" y="235"/>
+      <point x="238" y="235"/>
+      <point x="213" y="210"/>
+      <point x="213" y="174"/>
+      <point x="238" y="149"/>
+      <point x="256" y="149" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="302" y="363"/>
+      <point x="381" y="317"/>
+      <point x="427" y="238"/>
+      <point x="427" y="146"/>
+      <point x="381" y="67"/>
+      <point x="302" y="21"/>
+      <point x="210" y="21"/>
+      <point x="131" y="67"/>
+      <point x="85" y="146"/>
+      <point x="85" y="238"/>
+      <point x="131" y="317"/>
+      <point x="210" y="363"/>
+      <point x="256" y="363" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

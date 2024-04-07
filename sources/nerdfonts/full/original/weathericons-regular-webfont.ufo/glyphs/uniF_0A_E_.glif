@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF0AE" format="2">
+  <advance width="1537"/>
+  <unicode hex="E3A6"/>
+  <note>
+uniF0AE
+</note>
+  <outline>
+    <contour>
+      <point x="206" y="1331"/>
+      <point x="560" y="1537"/>
+      <point x="769" y="1537" type="qcurve"/>
+      <point x="590" y="1432"/>
+      <point x="359" y="1028"/>
+      <point x="359" y="769" type="qcurve" smooth="yes"/>
+      <point x="359" y="488"/>
+      <point x="557" y="103"/>
+      <point x="769" y="0" type="qcurve"/>
+      <point x="560" y="0"/>
+      <point x="206" y="206"/>
+      <point x="0" y="560"/>
+      <point x="0" y="978"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+13
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+1
+MDRP[10110]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+7
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+14 1
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

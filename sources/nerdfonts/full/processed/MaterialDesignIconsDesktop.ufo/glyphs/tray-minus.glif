@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tray-minus" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1297"/>
+  <note>
+tray-minus
+</note>
+  <outline>
+    <contour>
+      <point x="831" y="1029" type="line"/>
+      <point x="369" y="1029" type="line"/>
+      <point x="369" y="914" type="line"/>
+      <point x="831" y="914" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="797" type="line"/>
+      <point x="20" y="506" type="line" smooth="yes"/>
+      <point x="20" y="459"/>
+      <point x="88" y="391"/>
+      <point x="134" y="391" type="qcurve" smooth="yes"/>
+      <point x="1066" y="391" type="line" smooth="yes"/>
+      <point x="1112" y="391"/>
+      <point x="1180" y="459"/>
+      <point x="1180" y="506" type="qcurve" smooth="yes"/>
+      <point x="1180" y="797" type="line"/>
+      <point x="1066" y="797" type="line"/>
+      <point x="1066" y="506" type="line"/>
+      <point x="134" y="506" type="line"/>
+      <point x="134" y="797" type="line"/>
+    </contour>
+  </outline>
+</glyph>

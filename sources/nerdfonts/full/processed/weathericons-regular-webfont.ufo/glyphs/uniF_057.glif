@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF057" format="2">
+  <advance width="1200"/>
+  <unicode hex="E352"/>
+  <note>
+uniF057
+</note>
+  <outline>
+    <contour>
+      <point x="267" y="484" type="line"/>
+      <point x="248" y="462"/>
+      <point x="248" y="397"/>
+      <point x="267" y="378" type="qcurve" smooth="yes"/>
+      <point x="287" y="358"/>
+      <point x="323" y="358" type="qcurve" smooth="yes"/>
+      <point x="355" y="358"/>
+      <point x="375" y="378" type="qcurve" smooth="yes"/>
+      <point x="803" y="807" type="line"/>
+      <point x="803" y="669" type="line" smooth="yes"/>
+      <point x="803" y="637"/>
+      <point x="846" y="594"/>
+      <point x="878" y="594" type="qcurve" smooth="yes"/>
+      <point x="910" y="594"/>
+      <point x="952" y="638"/>
+      <point x="952" y="669" type="qcurve" smooth="yes"/>
+      <point x="952" y="987" type="line" smooth="yes"/>
+      <point x="952" y="1020"/>
+      <point x="910" y="1062"/>
+      <point x="878" y="1062" type="qcurve" smooth="yes"/>
+      <point x="559" y="1062" type="line" smooth="yes"/>
+      <point x="528" y="1062"/>
+      <point x="486" y="1020"/>
+      <point x="486" y="987" type="qcurve" smooth="yes"/>
+      <point x="486" y="956"/>
+      <point x="528" y="914"/>
+      <point x="559" y="914" type="qcurve" smooth="yes"/>
+      <point x="697" y="914" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+25
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+19
+MDRP[01101]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+28
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+8
+MDRP[10110]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+14
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+29 1
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:51 +0000</string>
+    </dict>
+  </lib>
+</glyph>

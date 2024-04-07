@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cash-check" format="2">
+  <advance width="1200"/>
+  <unicode hex="F14EE"/>
+  <note>
+cash-check
+</note>
+  <outline>
+    <contour>
+      <point x="1063" y="1086" type="line"/>
+      <point x="20" y="1086" type="line"/>
+      <point x="20" y="391" type="line"/>
+      <point x="618" y="391" type="line"/>
+      <point x="599" y="448"/>
+      <point x="599" y="508" type="qcurve"/>
+      <point x="251" y="508" type="line"/>
+      <point x="251" y="554"/>
+      <point x="183" y="622"/>
+      <point x="137" y="622" type="qcurve"/>
+      <point x="137" y="855" type="line"/>
+      <point x="183" y="855"/>
+      <point x="251" y="923"/>
+      <point x="251" y="969" type="qcurve"/>
+      <point x="832" y="969" type="line"/>
+      <point x="832" y="923"/>
+      <point x="900" y="855"/>
+      <point x="946" y="855" type="qcurve"/>
+      <point x="946" y="850" type="line"/>
+      <point x="1003" y="850"/>
+      <point x="1063" y="831" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="610" y="912"/>
+      <point x="542" y="912" type="qcurve" smooth="yes"/>
+      <point x="468" y="912"/>
+      <point x="368" y="812"/>
+      <point x="368" y="665"/>
+      <point x="468" y="567"/>
+      <point x="542" y="565" type="qcurve" smooth="yes"/>
+      <point x="574" y="565"/>
+      <point x="607" y="578" type="qcurve"/>
+      <point x="620" y="633"/>
+      <point x="642" y="671" type="qcurve" smooth="yes"/>
+      <point x="669" y="720"/>
+      <point x="713" y="760" type="qcurve"/>
+      <point x="707" y="820"/>
+    </contour>
+    <contour>
+      <point x="1180" y="641" type="line"/>
+      <point x="1099" y="722" type="line"/>
+      <point x="876" y="497" type="line"/>
+      <point x="797" y="576" type="line"/>
+      <point x="715" y="494" type="line"/>
+      <point x="876" y="334" type="line"/>
+    </contour>
+  </outline>
+</glyph>

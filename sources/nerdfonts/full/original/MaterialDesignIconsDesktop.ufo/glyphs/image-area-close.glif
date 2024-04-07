@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="image-area-close" format="2">
+  <advance width="512"/>
+  <unicode hex="F02EC"/>
+  <note>
+image-area-close
+</note>
+  <outline>
+    <contour>
+      <point x="341" y="43" type="line"/>
+      <point x="171" y="43" type="line"/>
+      <point x="256" y="-43" type="line"/>
+    </contour>
+    <contour>
+      <point x="85" y="384" type="line" smooth="yes"/>
+      <point x="68" y="384"/>
+      <point x="43" y="359"/>
+      <point x="43" y="341" type="qcurve" smooth="yes"/>
+      <point x="43" y="128" type="line" smooth="yes"/>
+      <point x="43" y="110"/>
+      <point x="68" y="85"/>
+      <point x="85" y="85" type="qcurve" smooth="yes"/>
+      <point x="427" y="85" type="line" smooth="yes"/>
+      <point x="444" y="85"/>
+      <point x="469" y="110"/>
+      <point x="469" y="128" type="qcurve" smooth="yes"/>
+      <point x="469" y="341" type="line" smooth="yes"/>
+      <point x="469" y="359"/>
+      <point x="444" y="384"/>
+      <point x="427" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="181" y="245" type="line"/>
+      <point x="235" y="181" type="line"/>
+      <point x="309" y="277" type="line"/>
+      <point x="405" y="149" type="line"/>
+      <point x="107" y="149" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-note-quarter" format="2">
+  <advance width="512"/>
+  <unicode hex="F038B"/>
+  <note>
+music-note-quarter
+</note>
+  <outline>
+    <contour>
+      <point x="341" y="384" type="line"/>
+      <point x="341" y="85" type="line" smooth="yes"/>
+      <point x="341" y="50"/>
+      <point x="291" y="0"/>
+      <point x="221" y="0"/>
+      <point x="171" y="50"/>
+      <point x="171" y="121"/>
+      <point x="221" y="171"/>
+      <point x="256" y="171" type="qcurve" smooth="yes"/>
+      <point x="279" y="171"/>
+      <point x="299" y="159" type="qcurve"/>
+      <point x="299" y="384" type="line"/>
+    </contour>
+  </outline>
+</glyph>

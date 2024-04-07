@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gate-or" format="2">
+  <advance width="512"/>
+  <unicode hex="F08E5"/>
+  <note>
+gate-or
+</note>
+  <outline>
+    <contour>
+      <point x="171" y="363" type="line" smooth="yes"/>
+      <point x="222" y="363"/>
+      <point x="281" y="337" type="qcurve" smooth="yes"/>
+      <point x="336" y="314"/>
+      <point x="437" y="236"/>
+      <point x="469" y="192" type="qcurve"/>
+      <point x="437" y="148"/>
+      <point x="336" y="70"/>
+      <point x="281" y="47" type="qcurve" smooth="yes"/>
+      <point x="222" y="21"/>
+      <point x="171" y="21" type="qcurve" smooth="yes"/>
+      <point x="43" y="21" type="line"/>
+      <point x="75" y="86"/>
+      <point x="96" y="192"/>
+      <point x="75" y="298"/>
+      <point x="43" y="363" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="129" y="254"/>
+      <point x="129" y="130"/>
+      <point x="107" y="64" type="qcurve"/>
+      <point x="171" y="64" type="line" smooth="yes"/>
+      <point x="224" y="64"/>
+      <point x="295" y="104" type="qcurve" smooth="yes"/>
+      <point x="360" y="140"/>
+      <point x="412" y="192" type="qcurve"/>
+      <point x="360" y="244"/>
+      <point x="295" y="280" type="qcurve" smooth="yes"/>
+      <point x="224" y="320"/>
+      <point x="171" y="320" type="qcurve" smooth="yes"/>
+      <point x="107" y="320" type="line"/>
+    </contour>
+  </outline>
+</glyph>

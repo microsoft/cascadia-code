@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tray-remove" format="2">
+  <advance width="512"/>
+  <unicode hex="F1299"/>
+  <note>
+tray-remove
+</note>
+  <outline>
+    <contour>
+      <point x="43" y="192" type="line"/>
+      <point x="85" y="192" type="line"/>
+      <point x="85" y="85" type="line"/>
+      <point x="427" y="85" type="line"/>
+      <point x="427" y="192" type="line"/>
+      <point x="469" y="192" type="line"/>
+      <point x="469" y="85" type="line" smooth="yes"/>
+      <point x="469" y="68"/>
+      <point x="444" y="43"/>
+      <point x="427" y="43" type="qcurve" smooth="yes"/>
+      <point x="85" y="43" type="line" smooth="yes"/>
+      <point x="68" y="43"/>
+      <point x="43" y="68"/>
+      <point x="43" y="85" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="256" y="286" type="line"/>
+      <point x="211" y="332" type="line"/>
+      <point x="180" y="301" type="line"/>
+      <point x="226" y="256" type="line"/>
+      <point x="180" y="211" type="line"/>
+      <point x="211" y="180" type="line"/>
+      <point x="256" y="226" type="line"/>
+      <point x="301" y="180" type="line"/>
+      <point x="332" y="211" type="line"/>
+      <point x="286" y="256" type="line"/>
+      <point x="332" y="301" type="line"/>
+      <point x="301" y="332" type="line"/>
+    </contour>
+  </outline>
+</glyph>

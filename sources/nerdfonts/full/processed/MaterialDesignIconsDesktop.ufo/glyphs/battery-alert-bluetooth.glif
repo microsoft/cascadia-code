@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="battery-alert-bluetooth" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0947"/>
+  <note>
+battery-alert-bluetooth
+</note>
+  <outline>
+    <contour>
+      <point x="532" y="1278" type="line"/>
+      <point x="191" y="1278" type="line"/>
+      <point x="191" y="1166" type="line"/>
+      <point x="92" y="1166" type="line" smooth="yes"/>
+      <point x="63" y="1166"/>
+      <point x="20" y="1121"/>
+      <point x="20" y="1091" type="qcurve" smooth="yes"/>
+      <point x="20" y="222" type="line" smooth="yes"/>
+      <point x="20" y="187"/>
+      <point x="63" y="142"/>
+      <point x="92" y="142" type="qcurve" smooth="yes"/>
+      <point x="623" y="142" type="line" smooth="yes"/>
+      <point x="652" y="142"/>
+      <point x="697" y="185"/>
+      <point x="697" y="214" type="qcurve" smooth="yes"/>
+      <point x="697" y="1091" type="line"/>
+      <point x="700" y="1121"/>
+      <point x="657" y="1166"/>
+      <point x="628" y="1166" type="qcurve" smooth="yes"/>
+      <point x="532" y="1166" type="line"/>
+    </contour>
+    <contour>
+      <point x="1015" y="937" type="line"/>
+      <point x="985" y="937" type="line"/>
+      <point x="985" y="721" type="line"/>
+      <point x="855" y="851" type="line"/>
+      <point x="815" y="811" type="line"/>
+      <point x="975" y="654" type="line"/>
+      <point x="815" y="494" type="line"/>
+      <point x="855" y="454" type="line"/>
+      <point x="985" y="585" type="line"/>
+      <point x="985" y="369" type="line"/>
+      <point x="1015" y="369" type="line"/>
+      <point x="1180" y="534" type="line"/>
+      <point x="1055" y="654" type="line"/>
+      <point x="1175" y="771" type="line"/>
+    </contour>
+    <contour>
+      <point x="303" y="595" type="line"/>
+      <point x="303" y="937" type="line"/>
+      <point x="417" y="937" type="line"/>
+      <point x="417" y="595" type="line"/>
+    </contour>
+    <contour>
+      <point x="1044" y="721" type="line"/>
+      <point x="1044" y="830" type="line"/>
+      <point x="1095" y="779" type="line"/>
+    </contour>
+    <contour>
+      <point x="1044" y="478" type="line"/>
+      <point x="1044" y="585" type="line"/>
+      <point x="1095" y="534" type="line"/>
+    </contour>
+    <contour>
+      <point x="303" y="369" type="line"/>
+      <point x="303" y="483" type="line"/>
+      <point x="417" y="483" type="line"/>
+      <point x="417" y="369" type="line"/>
+    </contour>
+  </outline>
+</glyph>

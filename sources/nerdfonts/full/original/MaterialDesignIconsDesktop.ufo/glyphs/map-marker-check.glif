@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="map-marker-check" format="2">
+  <advance width="512"/>
+  <unicode hex="F0C95"/>
+  <note>
+map-marker-check
+</note>
+  <outline>
+    <contour>
+      <point x="216" y="405"/>
+      <point x="147" y="365"/>
+      <point x="107" y="296"/>
+      <point x="107" y="217"/>
+      <point x="130" y="165" type="qcurve" smooth="yes"/>
+      <point x="149" y="124"/>
+      <point x="181" y="75" type="qcurve" smooth="yes"/>
+      <point x="205" y="41"/>
+      <point x="233" y="6" type="qcurve" smooth="yes"/>
+      <point x="256" y="-21" type="line"/>
+      <point x="256" y="-21" type="line"/>
+      <point x="273" y="-3"/>
+      <point x="295" y="26" type="qcurve" smooth="yes"/>
+      <point x="339" y="83"/>
+      <point x="367" y="134" type="qcurve" smooth="yes"/>
+      <point x="405" y="206"/>
+      <point x="405" y="256" type="qcurve" smooth="yes"/>
+      <point x="405" y="296"/>
+      <point x="365" y="365"/>
+      <point x="296" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="149" y="224" type="line"/>
+      <point x="179" y="254" type="line"/>
+      <point x="223" y="209" type="line"/>
+      <point x="333" y="320" type="line"/>
+      <point x="363" y="290" type="line"/>
+      <point x="223" y="149" type="line"/>
+    </contour>
+  </outline>
+</glyph>

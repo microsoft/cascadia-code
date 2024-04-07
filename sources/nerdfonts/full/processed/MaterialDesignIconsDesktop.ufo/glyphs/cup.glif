@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cup" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01AA"/>
+  <note>
+cup
+</note>
+  <outline>
+    <contour>
+      <point x="1035" y="1227" type="line"/>
+      <point x="1008" y="967" type="line"/>
+      <point x="192" y="967" type="line"/>
+      <point x="165" y="1227" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="1353" type="line"/>
+      <point x="20" y="1353" type="line"/>
+      <point x="150" y="178" type="line" smooth="yes"/>
+      <point x="156" y="130"/>
+      <point x="228" y="67"/>
+      <point x="277" y="67" type="qcurve" smooth="yes"/>
+      <point x="923" y="67" type="line" smooth="yes"/>
+      <point x="972" y="67"/>
+      <point x="1044" y="130"/>
+      <point x="1050" y="178" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

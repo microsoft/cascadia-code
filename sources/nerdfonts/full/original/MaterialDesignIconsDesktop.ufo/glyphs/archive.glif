@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="archive" format="2">
+  <advance width="512"/>
+  <unicode hex="F003C"/>
+  <note>
+archive
+</note>
+  <outline>
+    <contour>
+      <point x="64" y="299" type="line"/>
+      <point x="448" y="299" type="line"/>
+      <point x="448" y="384" type="line"/>
+      <point x="64" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="85" y="0" type="line"/>
+      <point x="427" y="0" type="line"/>
+      <point x="427" y="277" type="line"/>
+      <point x="85" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="309" y="213" type="line" smooth="yes"/>
+      <point x="314" y="213"/>
+      <point x="320" y="207"/>
+      <point x="320" y="203" type="qcurve" smooth="yes"/>
+      <point x="320" y="171" type="line"/>
+      <point x="192" y="171" type="line"/>
+      <point x="192" y="203" type="line" smooth="yes"/>
+      <point x="192" y="207"/>
+      <point x="198" y="213"/>
+      <point x="203" y="213" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

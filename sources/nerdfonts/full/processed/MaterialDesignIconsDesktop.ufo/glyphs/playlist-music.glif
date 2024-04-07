@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="playlist-music" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0CB8"/>
+  <note>
+playlist-music
+</note>
+  <outline>
+    <contour>
+      <point x="753" y="1015" type="line"/>
+      <point x="753" y="1138" type="line"/>
+      <point x="20" y="1138" type="line"/>
+      <point x="20" y="1015" type="line"/>
+    </contour>
+    <contour>
+      <point x="753" y="772" type="line"/>
+      <point x="753" y="895" type="line"/>
+      <point x="20" y="895" type="line"/>
+      <point x="20" y="772" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="648" type="line"/>
+      <point x="20" y="528" type="line"/>
+      <point x="510" y="528" type="line"/>
+      <point x="510" y="648" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="1138" type="line"/>
+      <point x="876" y="1138" type="line"/>
+      <point x="876" y="637" type="line"/>
+      <point x="845" y="648"/>
+      <point x="813" y="648" type="qcurve" smooth="yes"/>
+      <point x="739" y="648"/>
+      <point x="630" y="542"/>
+      <point x="630" y="391"/>
+      <point x="739" y="282"/>
+      <point x="891" y="282"/>
+      <point x="997" y="391"/>
+      <point x="997" y="465" type="qcurve" smooth="yes"/>
+      <point x="997" y="1015" type="line"/>
+      <point x="1180" y="1015" type="line"/>
+    </contour>
+  </outline>
+</glyph>

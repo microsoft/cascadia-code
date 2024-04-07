@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="spirit-level" format="2">
+  <advance width="512"/>
+  <unicode hex="F14F1"/>
+  <note>
+spirit-level
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="107" type="line"/>
+      <point x="43" y="107" type="line"/>
+      <point x="43" y="277" type="line"/>
+      <point x="469" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="427" y="149" type="line"/>
+      <point x="427" y="235" type="line"/>
+      <point x="384" y="235" type="line"/>
+      <point x="384" y="149" type="line"/>
+    </contour>
+    <contour>
+      <point x="217" y="192"/>
+      <point x="192" y="217"/>
+      <point x="192" y="235" type="qcurve"/>
+      <point x="149" y="235" type="line"/>
+      <point x="149" y="149" type="line"/>
+      <point x="363" y="149" type="line"/>
+      <point x="363" y="235" type="line"/>
+      <point x="320" y="235" type="line"/>
+      <point x="320" y="217"/>
+      <point x="295" y="192"/>
+      <point x="277" y="192" type="qcurve" smooth="yes"/>
+      <point x="235" y="192" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="128" y="149" type="line"/>
+      <point x="128" y="235" type="line"/>
+      <point x="85" y="235" type="line"/>
+      <point x="85" y="149" type="line"/>
+    </contour>
+  </outline>
+</glyph>

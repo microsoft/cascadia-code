@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mirror" format="2">
+  <advance width="512"/>
+  <unicode hex="F11FD"/>
+  <note>
+mirror
+</note>
+  <outline>
+    <contour>
+      <point x="207" y="427"/>
+      <point x="123" y="363"/>
+      <point x="75" y="256"/>
+      <point x="75" y="128"/>
+      <point x="123" y="20"/>
+      <point x="207" y="-43"/>
+      <point x="305" y="-43"/>
+      <point x="389" y="20"/>
+      <point x="437" y="128"/>
+      <point x="437" y="256"/>
+      <point x="389" y="363"/>
+      <point x="305" y="427"/>
+      <point x="256" y="427" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="294" y="384"/>
+      <point x="357" y="332"/>
+      <point x="395" y="244"/>
+      <point x="395" y="140"/>
+      <point x="357" y="52"/>
+      <point x="294" y="0"/>
+      <point x="218" y="0"/>
+      <point x="155" y="52"/>
+      <point x="117" y="140"/>
+      <point x="117" y="244"/>
+      <point x="155" y="332"/>
+      <point x="218" y="384"/>
+      <point x="256" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="199" y="206" type="line"/>
+      <point x="269" y="275" type="line"/>
+      <point x="246" y="298" type="line"/>
+      <point x="177" y="229" type="line"/>
+    </contour>
+    <contour>
+      <point x="208" y="114" type="line"/>
+      <point x="329" y="235" type="line"/>
+      <point x="306" y="257" type="line"/>
+      <point x="186" y="136" type="line"/>
+    </contour>
+  </outline>
+</glyph>

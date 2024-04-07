@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="delete-sweep-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F0C62"/>
+  <note>
+delete-sweep-outline
+</note>
+  <outline>
+    <contour>
+      <point x="320" y="64" type="line"/>
+      <point x="405" y="64" type="line"/>
+      <point x="405" y="107" type="line"/>
+      <point x="320" y="107" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="235" type="line"/>
+      <point x="469" y="235" type="line"/>
+      <point x="469" y="277" type="line"/>
+      <point x="320" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="149" type="line"/>
+      <point x="448" y="149" type="line"/>
+      <point x="448" y="192" type="line"/>
+      <point x="320" y="192" type="line"/>
+    </contour>
+    <contour>
+      <point x="107" y="235" type="line"/>
+      <point x="107" y="64" type="line"/>
+      <point x="235" y="64" type="line"/>
+      <point x="235" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="277" y="64" type="line" smooth="yes"/>
+      <point x="277" y="46"/>
+      <point x="252" y="21"/>
+      <point x="235" y="21" type="qcurve" smooth="yes"/>
+      <point x="107" y="21" type="line" smooth="yes"/>
+      <point x="89" y="21"/>
+      <point x="64" y="46"/>
+      <point x="64" y="64" type="qcurve" smooth="yes"/>
+      <point x="64" y="277" type="line"/>
+      <point x="277" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="299" type="line"/>
+      <point x="43" y="299" type="line"/>
+      <point x="43" y="341" type="line"/>
+      <point x="107" y="341" type="line"/>
+      <point x="128" y="363" type="line"/>
+      <point x="213" y="363" type="line"/>
+      <point x="235" y="341" type="line"/>
+      <point x="299" y="341" type="line"/>
+    </contour>
+  </outline>
+</glyph>

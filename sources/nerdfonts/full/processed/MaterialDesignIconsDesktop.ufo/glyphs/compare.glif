@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="compare" format="2">
+  <advance width="1200"/>
+  <unicode hex="F018A"/>
+  <note>
+compare
+</note>
+  <outline>
+    <contour>
+      <point x="1105" y="1290"/>
+      <point x="1050" y="1290" type="qcurve" smooth="yes"/>
+      <point x="730" y="1290" type="line"/>
+      <point x="730" y="1160" type="line"/>
+      <point x="1050" y="1160" type="line"/>
+      <point x="1050" y="323" type="line"/>
+      <point x="730" y="710" type="line"/>
+      <point x="730" y="130" type="line"/>
+      <point x="1050" y="130" type="line" smooth="yes"/>
+      <point x="1105" y="130"/>
+      <point x="1180" y="205"/>
+      <point x="1180" y="260" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1160" type="line" smooth="yes"/>
+      <point x="1180" y="1215"/>
+    </contour>
+    <contour>
+      <point x="470" y="710" type="line"/>
+      <point x="470" y="323" type="line"/>
+      <point x="150" y="323" type="line"/>
+    </contour>
+    <contour>
+      <point x="470" y="1420" type="line"/>
+      <point x="470" y="1290" type="line"/>
+      <point x="150" y="1290" type="line" smooth="yes"/>
+      <point x="95" y="1290"/>
+      <point x="20" y="1215"/>
+      <point x="20" y="1160" type="qcurve" smooth="yes"/>
+      <point x="20" y="260" type="line" smooth="yes"/>
+      <point x="20" y="205"/>
+      <point x="95" y="130"/>
+      <point x="150" y="130" type="qcurve" smooth="yes"/>
+      <point x="470" y="130" type="line"/>
+      <point x="470" y="0" type="line"/>
+      <point x="600" y="0" type="line"/>
+      <point x="600" y="1420" type="line"/>
+    </contour>
+  </outline>
+</glyph>

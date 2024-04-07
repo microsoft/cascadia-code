@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reply-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F0F20"/>
+  <note>
+reply-outline
+</note>
+  <outline>
+    <contour>
+      <point x="124" y="192" type="line"/>
+      <point x="171" y="145" type="line"/>
+      <point x="171" y="173" type="line"/>
+      <point x="213" y="173" type="line" smooth="yes"/>
+      <point x="275" y="173"/>
+      <point x="333" y="156" type="qcurve"/>
+      <point x="283" y="202"/>
+      <point x="207" y="213" type="qcurve" smooth="yes"/>
+      <point x="171" y="220" type="line"/>
+      <point x="171" y="239" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="256" type="line"/>
+      <point x="317" y="241"/>
+      <point x="379" y="171" type="qcurve" smooth="yes"/>
+      <point x="430" y="112"/>
+      <point x="448" y="21" type="qcurve"/>
+      <point x="408" y="77"/>
+      <point x="294" y="130"/>
+      <point x="213" y="130" type="qcurve"/>
+      <point x="213" y="43" type="line"/>
+      <point x="64" y="192" type="line"/>
+      <point x="213" y="341" type="line"/>
+    </contour>
+  </outline>
+</glyph>

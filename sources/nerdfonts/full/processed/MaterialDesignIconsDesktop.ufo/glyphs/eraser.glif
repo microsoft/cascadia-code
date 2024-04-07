@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eraser" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01FE"/>
+  <note>
+eraser
+</note>
+  <outline>
+    <contour>
+      <point x="816" y="1265"/>
+      <point x="719" y="1265"/>
+      <point x="683" y="1229" type="qcurve" smooth="yes"/>
+      <point x="56" y="602" type="line" smooth="yes"/>
+      <point x="20" y="566"/>
+      <point x="20" y="469"/>
+      <point x="56" y="432" type="qcurve" smooth="yes"/>
+      <point x="264" y="224" type="line" smooth="yes"/>
+      <point x="334" y="155"/>
+      <point x="531" y="155"/>
+      <point x="600" y="224" type="qcurve" smooth="yes"/>
+      <point x="1144" y="768" type="line" smooth="yes"/>
+      <point x="1180" y="804"/>
+      <point x="1180" y="901"/>
+      <point x="1144" y="938" type="qcurve" smooth="yes"/>
+      <point x="850" y="1229" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="433" y="810" type="line"/>
+      <point x="725" y="519" type="line"/>
+      <point x="517" y="308" type="line" smooth="yes"/>
+      <point x="481" y="274"/>
+      <point x="384" y="274"/>
+      <point x="350" y="308" type="qcurve" smooth="yes"/>
+      <point x="139" y="519" type="line"/>
+    </contour>
+  </outline>
+</glyph>

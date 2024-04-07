@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="airplane-takeoff" format="2">
+  <advance width="1200"/>
+  <unicode hex="F05D5"/>
+  <note>
+airplane-takeoff
+</note>
+  <outline>
+    <contour>
+      <point x="58" y="212" type="line"/>
+      <point x="1145" y="212" type="line"/>
+      <point x="1145" y="327" type="line"/>
+      <point x="58" y="327" type="line"/>
+    </contour>
+    <contour>
+      <point x="1185" y="828"/>
+      <point x="1177" y="860" type="qcurve" smooth="yes"/>
+      <point x="1167" y="895"/>
+      <point x="1105" y="930"/>
+      <point x="1073" y="922" type="qcurve" smooth="yes"/>
+      <point x="768" y="841" type="line"/>
+      <point x="374" y="1208" type="line"/>
+      <point x="264" y="1179" type="line"/>
+      <point x="500" y="769" type="line"/>
+      <point x="216" y="694" type="line"/>
+      <point x="103" y="780" type="line"/>
+      <point x="20" y="758" type="line"/>
+      <point x="170" y="501" type="line"/>
+      <point x="1116" y="756" type="line" smooth="yes"/>
+      <point x="1151" y="766"/>
+    </contour>
+  </outline>
+</glyph>

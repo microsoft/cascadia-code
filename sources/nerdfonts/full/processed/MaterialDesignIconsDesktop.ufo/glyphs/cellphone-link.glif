@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cellphone-link" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0121"/>
+  <note>
+cellphone-link
+</note>
+  <outline>
+    <contour>
+      <point x="1083" y="807" type="line"/>
+      <point x="1083" y="468" type="line"/>
+      <point x="890" y="468" type="line"/>
+      <point x="890" y="807" type="line"/>
+    </contour>
+    <contour>
+      <point x="1153" y="903"/>
+      <point x="1132" y="903" type="qcurve" smooth="yes"/>
+      <point x="842" y="903" type="line" smooth="yes"/>
+      <point x="822" y="903"/>
+      <point x="793" y="875"/>
+      <point x="793" y="855" type="qcurve" smooth="yes"/>
+      <point x="793" y="372" type="line" smooth="yes"/>
+      <point x="793" y="352"/>
+      <point x="822" y="323"/>
+      <point x="842" y="323" type="qcurve" smooth="yes"/>
+      <point x="1132" y="323" type="line" smooth="yes"/>
+      <point x="1153" y="323"/>
+      <point x="1180" y="352"/>
+      <point x="1180" y="372" type="qcurve" smooth="yes"/>
+      <point x="1180" y="855" type="line" smooth="yes"/>
+      <point x="1180" y="875"/>
+    </contour>
+    <contour>
+      <point x="213" y="468" type="line"/>
+      <point x="213" y="1000" type="line"/>
+      <point x="1083" y="1000" type="line"/>
+      <point x="1083" y="1097" type="line"/>
+      <point x="213" y="1097" type="line" smooth="yes"/>
+      <point x="174" y="1097"/>
+      <point x="117" y="1041"/>
+      <point x="117" y="1000" type="qcurve" smooth="yes"/>
+      <point x="117" y="468" type="line"/>
+      <point x="20" y="468" type="line"/>
+      <point x="20" y="323" type="line"/>
+      <point x="697" y="323" type="line"/>
+      <point x="697" y="468" type="line"/>
+    </contour>
+  </outline>
+</glyph>

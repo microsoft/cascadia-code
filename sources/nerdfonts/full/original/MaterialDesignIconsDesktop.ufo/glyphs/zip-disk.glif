@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zip-disk" format="2">
+  <advance width="512"/>
+  <unicode hex="F0A23"/>
+  <note>
+zip-disk
+</note>
+  <outline>
+    <contour>
+      <point x="192" y="384" type="line"/>
+      <point x="192" y="341" type="line" smooth="yes"/>
+      <point x="192" y="332"/>
+      <point x="204" y="320"/>
+      <point x="213" y="320" type="qcurve" smooth="yes"/>
+      <point x="341" y="320" type="line" smooth="yes"/>
+      <point x="350" y="320"/>
+      <point x="363" y="332"/>
+      <point x="363" y="341" type="qcurve" smooth="yes"/>
+      <point x="363" y="384" type="line"/>
+      <point x="448" y="341" type="line"/>
+      <point x="448" y="43" type="line" smooth="yes"/>
+      <point x="448" y="25"/>
+      <point x="423" y="0"/>
+      <point x="405" y="0" type="qcurve" smooth="yes"/>
+      <point x="107" y="0" type="line" smooth="yes"/>
+      <point x="89" y="0"/>
+      <point x="64" y="25"/>
+      <point x="64" y="43" type="qcurve" smooth="yes"/>
+      <point x="64" y="341" type="line"/>
+      <point x="149" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="162" y="235"/>
+      <point x="149" y="222"/>
+      <point x="149" y="213" type="qcurve" smooth="yes"/>
+      <point x="149" y="43" type="line"/>
+      <point x="363" y="43" type="line"/>
+      <point x="363" y="213" type="line" smooth="yes"/>
+      <point x="363" y="222"/>
+      <point x="350" y="235"/>
+      <point x="341" y="235" type="qcurve" smooth="yes"/>
+      <point x="171" y="235" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

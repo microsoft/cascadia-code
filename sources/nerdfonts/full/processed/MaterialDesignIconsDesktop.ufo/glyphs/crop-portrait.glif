@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="crop-portrait" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01A1"/>
+  <note>
+crop-portrait
+</note>
+  <outline>
+    <contour>
+      <point x="996" y="1261" type="line"/>
+      <point x="996" y="159" type="line"/>
+      <point x="204" y="159" type="line"/>
+      <point x="204" y="1261" type="line"/>
+    </contour>
+    <contour>
+      <point x="1059" y="1420"/>
+      <point x="996" y="1420" type="qcurve" smooth="yes"/>
+      <point x="204" y="1420" type="line" smooth="yes"/>
+      <point x="141" y="1420"/>
+      <point x="49" y="1328"/>
+      <point x="49" y="1261" type="qcurve" smooth="yes"/>
+      <point x="49" y="159" type="line" smooth="yes"/>
+      <point x="49" y="92"/>
+      <point x="141" y="0"/>
+      <point x="204" y="0" type="qcurve" smooth="yes"/>
+      <point x="996" y="0" type="line" smooth="yes"/>
+      <point x="1059" y="0"/>
+      <point x="1151" y="92"/>
+      <point x="1151" y="159" type="qcurve" smooth="yes"/>
+      <point x="1151" y="1261" type="line" smooth="yes"/>
+      <point x="1151" y="1328"/>
+    </contour>
+  </outline>
+</glyph>

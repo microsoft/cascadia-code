@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chess-bishop" format="2">
+  <advance width="512"/>
+  <unicode hex="F085C"/>
+  <note>
+chess-bishop
+</note>
+  <outline>
+    <contour>
+      <point x="405" y="21" type="line"/>
+      <point x="107" y="21" type="line"/>
+      <point x="107" y="-21" type="line"/>
+      <point x="405" y="-21" type="line"/>
+    </contour>
+    <contour>
+      <point x="271" y="177" type="line"/>
+      <point x="241" y="207" type="line"/>
+      <point x="338" y="304" type="line"/>
+      <point x="317" y="325"/>
+      <point x="289" y="336" type="qcurve"/>
+      <point x="299" y="347"/>
+      <point x="299" y="363" type="qcurve" smooth="yes"/>
+      <point x="299" y="380"/>
+      <point x="274" y="405"/>
+      <point x="238" y="405"/>
+      <point x="213" y="380"/>
+      <point x="213" y="363" type="qcurve" smooth="yes"/>
+      <point x="213" y="347"/>
+      <point x="223" y="336" type="qcurve"/>
+      <point x="192" y="324"/>
+      <point x="163" y="293" type="qcurve" smooth="yes"/>
+      <point x="138" y="266"/>
+      <point x="107" y="197"/>
+      <point x="107" y="171" type="qcurve" smooth="yes"/>
+      <point x="107" y="142"/>
+      <point x="147" y="93"/>
+      <point x="215" y="64"/>
+      <point x="297" y="64"/>
+      <point x="365" y="93"/>
+      <point x="405" y="142"/>
+      <point x="405" y="171" type="qcurve"/>
+      <point x="401" y="227"/>
+      <point x="366" y="272" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rename-box" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0455"/>
+  <note>
+rename-box
+</note>
+  <outline>
+    <contour>
+      <point x="987" y="517" type="line"/>
+      <point x="987" y="387" type="line"/>
+      <point x="503" y="387" type="line"/>
+      <point x="633" y="517" type="line"/>
+    </contour>
+    <contour>
+      <point x="373" y="387" type="line"/>
+      <point x="213" y="387" type="line"/>
+      <point x="213" y="550" type="line"/>
+      <point x="721" y="1054" type="line" smooth="yes"/>
+      <point x="730" y="1063"/>
+      <point x="757" y="1063"/>
+      <point x="766" y="1054" type="qcurve" smooth="yes"/>
+      <point x="881" y="943" type="line"/>
+      <point x="890" y="931"/>
+      <point x="890" y="906"/>
+      <point x="881" y="894" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="1104" y="1290"/>
+      <point x="1050" y="1290" type="qcurve" smooth="yes"/>
+      <point x="150" y="1290" type="line" smooth="yes"/>
+      <point x="96" y="1290"/>
+      <point x="20" y="1214"/>
+      <point x="20" y="1160" type="qcurve" smooth="yes"/>
+      <point x="20" y="260" type="line" smooth="yes"/>
+      <point x="20" y="206"/>
+      <point x="96" y="130"/>
+      <point x="150" y="130" type="qcurve" smooth="yes"/>
+      <point x="1050" y="130" type="line" smooth="yes"/>
+      <point x="1104" y="130"/>
+      <point x="1180" y="206"/>
+      <point x="1180" y="260" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1160" type="line" smooth="yes"/>
+      <point x="1180" y="1214"/>
+    </contour>
+  </outline>
+</glyph>

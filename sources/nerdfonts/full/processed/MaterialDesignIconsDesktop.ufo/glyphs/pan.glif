@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pan" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0BB4"/>
+  <note>
+pan
+</note>
+  <outline>
+    <contour>
+      <point x="843" y="1016" type="line"/>
+      <point x="600" y="1290" type="line"/>
+      <point x="357" y="1016" type="line"/>
+    </contour>
+    <contour>
+      <point x="294" y="467" type="line"/>
+      <point x="294" y="953" type="line"/>
+      <point x="20" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="710" type="line"/>
+      <point x="906" y="953" type="line"/>
+      <point x="906" y="467" type="line"/>
+    </contour>
+    <contour>
+      <point x="651" y="833"/>
+      <point x="600" y="833" type="qcurve" smooth="yes"/>
+      <point x="549" y="833"/>
+      <point x="477" y="761"/>
+      <point x="477" y="659"/>
+      <point x="549" y="587"/>
+      <point x="651" y="587"/>
+      <point x="723" y="659"/>
+      <point x="723" y="761"/>
+    </contour>
+    <contour>
+      <point x="843" y="404" type="line"/>
+      <point x="357" y="404" type="line"/>
+      <point x="600" y="130" type="line"/>
+    </contour>
+  </outline>
+</glyph>

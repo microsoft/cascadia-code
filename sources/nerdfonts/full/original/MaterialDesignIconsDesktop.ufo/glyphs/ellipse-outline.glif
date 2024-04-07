@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ellipse-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F0EA1"/>
+  <note>
+ellipse-outline
+</note>
+  <outline>
+    <contour>
+      <point x="210" y="320"/>
+      <point x="131" y="286"/>
+      <point x="85" y="227"/>
+      <point x="85" y="157"/>
+      <point x="131" y="98"/>
+      <point x="210" y="64"/>
+      <point x="302" y="64"/>
+      <point x="381" y="98"/>
+      <point x="427" y="157"/>
+      <point x="427" y="227"/>
+      <point x="381" y="286"/>
+      <point x="302" y="320"/>
+      <point x="256" y="320" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="314" y="363"/>
+      <point x="412" y="317"/>
+      <point x="469" y="238"/>
+      <point x="469" y="146"/>
+      <point x="412" y="67"/>
+      <point x="314" y="21"/>
+      <point x="198" y="21"/>
+      <point x="100" y="67"/>
+      <point x="43" y="146"/>
+      <point x="43" y="238"/>
+      <point x="100" y="317"/>
+      <point x="198" y="363"/>
+      <point x="256" y="363" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sword" format="2">
+  <advance width="512"/>
+  <unicode hex="F04E5"/>
+  <note>
+sword
+</note>
+  <outline>
+    <contour>
+      <point x="320" y="169" type="line"/>
+      <point x="299" y="149" type="line"/>
+      <point x="107" y="341" type="line"/>
+      <point x="148" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="432" y="46"/>
+      <point x="432" y="64"/>
+      <point x="426" y="70" type="qcurve" smooth="yes"/>
+      <point x="359" y="137" type="line"/>
+      <point x="416" y="194" type="line"/>
+      <point x="386" y="224" type="line"/>
+      <point x="356" y="194" type="line"/>
+      <point x="165" y="384" type="line"/>
+      <point x="64" y="384" type="line"/>
+      <point x="64" y="283" type="line"/>
+      <point x="254" y="92" type="line"/>
+      <point x="224" y="62" type="line"/>
+      <point x="254" y="32" type="line"/>
+      <point x="311" y="89" type="line"/>
+      <point x="378" y="22" type="line" smooth="yes"/>
+      <point x="384" y="16"/>
+      <point x="402" y="16"/>
+      <point x="408" y="22" type="qcurve" smooth="yes"/>
+      <point x="426" y="40" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

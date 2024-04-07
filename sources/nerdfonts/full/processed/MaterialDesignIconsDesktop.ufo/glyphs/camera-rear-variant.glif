@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="camera-rear-variant" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0107"/>
+  <note>
+camera-rear-variant
+</note>
+  <outline>
+    <contour>
+      <point x="195" y="1420"/>
+      <point x="126" y="1351"/>
+      <point x="126" y="1301" type="qcurve" smooth="yes"/>
+      <point x="126" y="119" type="line" smooth="yes"/>
+      <point x="126" y="69"/>
+      <point x="195" y="0"/>
+      <point x="245" y="0" type="qcurve" smooth="yes"/>
+      <point x="955" y="0" type="line" smooth="yes"/>
+      <point x="1005" y="0"/>
+      <point x="1074" y="69"/>
+      <point x="1074" y="119" type="qcurve" smooth="yes"/>
+      <point x="1074" y="1301" type="line" smooth="yes"/>
+      <point x="1074" y="1351"/>
+      <point x="1005" y="1420"/>
+      <point x="955" y="1420" type="qcurve" smooth="yes"/>
+      <point x="245" y="1420" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="650" y="1301"/>
+      <point x="719" y="1231"/>
+      <point x="719" y="1134"/>
+      <point x="650" y="1065"/>
+      <point x="550" y="1065"/>
+      <point x="481" y="1134"/>
+      <point x="481" y="1231"/>
+      <point x="550" y="1301"/>
+      <point x="600" y="1301" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="658" y="474" type="line"/>
+      <point x="836" y="297" type="line"/>
+      <point x="658" y="119" type="line"/>
+      <point x="658" y="236" type="line"/>
+      <point x="423" y="236" type="line"/>
+      <point x="423" y="355" type="line"/>
+      <point x="658" y="355" type="line"/>
+    </contour>
+  </outline>
+</glyph>

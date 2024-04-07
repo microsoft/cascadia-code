@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circle-multiple" format="2">
+  <advance width="512"/>
+  <unicode hex="F0B38"/>
+  <note>
+circle-multiple
+</note>
+  <outline>
+    <contour>
+      <point x="274" y="363"/>
+      <point x="195" y="317"/>
+      <point x="149" y="238"/>
+      <point x="149" y="146"/>
+      <point x="195" y="67"/>
+      <point x="274" y="21"/>
+      <point x="366" y="21"/>
+      <point x="445" y="67"/>
+      <point x="491" y="146"/>
+      <point x="491" y="238"/>
+      <point x="445" y="317"/>
+      <point x="366" y="363"/>
+      <point x="320" y="363" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="64" y="233"/>
+      <point x="111" y="299"/>
+      <point x="149" y="313" type="qcurve"/>
+      <point x="149" y="357" type="line"/>
+      <point x="93" y="342"/>
+      <point x="22" y="250"/>
+      <point x="22" y="134"/>
+      <point x="93" y="42"/>
+      <point x="149" y="27" type="qcurve"/>
+      <point x="149" y="71" type="line"/>
+      <point x="111" y="85"/>
+      <point x="64" y="151"/>
+      <point x="64" y="192" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

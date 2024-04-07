@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="download-circle" format="2">
+  <advance width="512"/>
+  <unicode hex="F1464"/>
+  <note>
+download-circle
+</note>
+  <outline>
+    <contour>
+      <point x="198" y="405"/>
+      <point x="100" y="348"/>
+      <point x="43" y="250"/>
+      <point x="43" y="134"/>
+      <point x="100" y="36"/>
+      <point x="198" y="-21"/>
+      <point x="314" y="-21"/>
+      <point x="412" y="36"/>
+      <point x="469" y="134"/>
+      <point x="469" y="250"/>
+      <point x="412" y="348"/>
+      <point x="314" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="171" y="128" type="line"/>
+      <point x="341" y="128" type="line"/>
+      <point x="341" y="85" type="line"/>
+      <point x="171" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="256" y="149" type="line"/>
+      <point x="171" y="235" type="line"/>
+      <point x="224" y="235" type="line"/>
+      <point x="224" y="320" type="line"/>
+      <point x="288" y="320" type="line"/>
+      <point x="288" y="235" type="line"/>
+      <point x="341" y="235" type="line"/>
+    </contour>
+  </outline>
+</glyph>

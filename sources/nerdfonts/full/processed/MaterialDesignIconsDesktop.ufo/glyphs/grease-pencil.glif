@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="grease-pencil" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0648"/>
+  <note>
+grease-pencil
+</note>
+  <outline>
+    <contour>
+      <point x="1035" y="1290"/>
+      <point x="986" y="1290" type="qcurve" smooth="yes"/>
+      <point x="938" y="1290"/>
+      <point x="905" y="1255" type="qcurve" smooth="yes"/>
+      <point x="534" y="886" type="line"/>
+      <point x="776" y="644" type="line"/>
+      <point x="1148" y="1015" type="line" smooth="yes"/>
+      <point x="1180" y="1048"/>
+      <point x="1180" y="1145"/>
+      <point x="1148" y="1177" type="qcurve" smooth="yes"/>
+      <point x="1070" y="1255" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="722" y="590" type="line"/>
+      <point x="480" y="830" type="line"/>
+      <point x="103" y="453" type="line"/>
+      <point x="144" y="413" type="line"/>
+      <point x="120" y="394"/>
+      <point x="77" y="348" type="qcurve" smooth="yes"/>
+      <point x="55" y="326" type="line" smooth="yes"/>
+      <point x="20" y="291"/>
+      <point x="20" y="197"/>
+      <point x="87" y="130"/>
+      <point x="184" y="130"/>
+      <point x="249" y="192"/>
+      <point x="305" y="251" type="qcurve"/>
+      <point x="346" y="213" type="line"/>
+    </contour>
+  </outline>
+</glyph>

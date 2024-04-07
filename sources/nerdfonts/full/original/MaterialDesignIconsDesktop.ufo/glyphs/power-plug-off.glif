@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="power-plug-off" format="2">
+  <advance width="512"/>
+  <unicode hex="F06A6"/>
+  <note>
+power-plug-off
+</note>
+  <outline>
+    <contour>
+      <point x="472" y="-10" type="line"/>
+      <point x="51" y="411" type="line"/>
+      <point x="24" y="384" type="line"/>
+      <point x="133" y="274" type="line"/>
+      <point x="128" y="265"/>
+      <point x="128" y="256" type="qcurve" smooth="yes"/>
+      <point x="128" y="139" type="line"/>
+      <point x="203" y="64" type="line"/>
+      <point x="203" y="0" type="line"/>
+      <point x="309" y="0" type="line"/>
+      <point x="309" y="64" type="line"/>
+      <point x="327" y="81" type="line"/>
+      <point x="445" y="-37" type="line"/>
+    </contour>
+    <contour>
+      <point x="381" y="135" type="line"/>
+      <point x="218" y="299" type="line"/>
+      <point x="299" y="299" type="line"/>
+      <point x="299" y="384" type="line"/>
+      <point x="341" y="384" type="line"/>
+      <point x="341" y="299" type="line"/>
+      <point x="357" y="299"/>
+      <point x="384" y="272"/>
+      <point x="384" y="256" type="qcurve" smooth="yes"/>
+      <point x="384" y="139" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="303" type="line"/>
+      <point x="171" y="346" type="line"/>
+      <point x="171" y="384" type="line"/>
+      <point x="213" y="384" type="line"/>
+    </contour>
+  </outline>
+</glyph>

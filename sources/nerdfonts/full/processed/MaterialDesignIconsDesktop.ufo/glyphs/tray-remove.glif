@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tray-remove" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1299"/>
+  <note>
+tray-remove
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="722" type="line"/>
+      <point x="20" y="431" type="line" smooth="yes"/>
+      <point x="20" y="385"/>
+      <point x="88" y="317"/>
+      <point x="134" y="317" type="qcurve" smooth="yes"/>
+      <point x="1066" y="317" type="line" smooth="yes"/>
+      <point x="1112" y="317"/>
+      <point x="1180" y="385"/>
+      <point x="1180" y="431" type="qcurve" smooth="yes"/>
+      <point x="1180" y="722" type="line"/>
+      <point x="1066" y="722" type="line"/>
+      <point x="1066" y="431" type="line"/>
+      <point x="134" y="431" type="line"/>
+      <point x="134" y="722" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="978" type="line"/>
+      <point x="477" y="1103" type="line"/>
+      <point x="393" y="1019" type="line"/>
+      <point x="518" y="897" type="line"/>
+      <point x="393" y="774" type="line"/>
+      <point x="477" y="690" type="line"/>
+      <point x="600" y="815" type="line"/>
+      <point x="723" y="690" type="line"/>
+      <point x="807" y="774" type="line"/>
+      <point x="682" y="897" type="line"/>
+      <point x="807" y="1019" type="line"/>
+      <point x="723" y="1103" type="line"/>
+    </contour>
+  </outline>
+</glyph>

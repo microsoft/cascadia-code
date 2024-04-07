@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plex" format="2">
+  <advance width="512"/>
+  <unicode hex="F06BA"/>
+  <note>
+plex
+</note>
+  <outline>
+    <contour>
+      <point x="427" y="405" type="line" smooth="yes"/>
+      <point x="444" y="405"/>
+      <point x="469" y="380"/>
+      <point x="469" y="363" type="qcurve" smooth="yes"/>
+      <point x="469" y="21" type="line" smooth="yes"/>
+      <point x="469" y="4"/>
+      <point x="444" y="-21"/>
+      <point x="427" y="-21" type="qcurve" smooth="yes"/>
+      <point x="85" y="-21" type="line" smooth="yes"/>
+      <point x="68" y="-21"/>
+      <point x="43" y="4"/>
+      <point x="43" y="21" type="qcurve" smooth="yes"/>
+      <point x="43" y="363" type="line" smooth="yes"/>
+      <point x="43" y="380"/>
+      <point x="68" y="405"/>
+      <point x="85" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="256" y="192" type="line"/>
+      <point x="183" y="64" type="line"/>
+      <point x="257" y="64" type="line"/>
+      <point x="331" y="192" type="line"/>
+      <point x="257" y="320" type="line"/>
+      <point x="183" y="320" type="line"/>
+    </contour>
+  </outline>
+</glyph>

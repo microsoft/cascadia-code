@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="video-wireless" format="2">
+  <advance width="512"/>
+  <unicode hex="F0ED2"/>
+  <note>
+video-wireless
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="224" type="line"/>
+      <point x="448" y="-11" type="line"/>
+      <point x="363" y="75" type="line"/>
+      <point x="363" y="0" type="line" smooth="yes"/>
+      <point x="363" y="-9"/>
+      <point x="350" y="-21"/>
+      <point x="341" y="-21" type="qcurve" smooth="yes"/>
+      <point x="85" y="-21" type="line" smooth="yes"/>
+      <point x="76" y="-21"/>
+      <point x="64" y="-9"/>
+      <point x="64" y="0" type="qcurve" smooth="yes"/>
+      <point x="64" y="213" type="line" smooth="yes"/>
+      <point x="64" y="222"/>
+      <point x="76" y="235"/>
+      <point x="85" y="235" type="qcurve" smooth="yes"/>
+      <point x="341" y="235" type="line" smooth="yes"/>
+      <point x="350" y="235"/>
+      <point x="363" y="222"/>
+      <point x="363" y="213" type="qcurve" smooth="yes"/>
+      <point x="363" y="139" type="line"/>
+    </contour>
+    <contour>
+      <point x="105" y="406"/>
+      <point x="213" y="434"/>
+      <point x="322" y="406"/>
+      <point x="363" y="366" type="qcurve"/>
+      <point x="333" y="336" type="line"/>
+      <point x="300" y="368"/>
+      <point x="213" y="391"/>
+      <point x="126" y="368"/>
+      <point x="94" y="336" type="qcurve"/>
+      <point x="64" y="366" type="line"/>
+    </contour>
+    <contour>
+      <point x="148" y="331"/>
+      <point x="213" y="347"/>
+      <point x="279" y="331"/>
+      <point x="303" y="307" type="qcurve"/>
+      <point x="273" y="277" type="line"/>
+      <point x="248" y="301"/>
+      <point x="178" y="301"/>
+      <point x="154" y="277" type="qcurve"/>
+      <point x="124" y="307" type="line"/>
+    </contour>
+  </outline>
+</glyph>

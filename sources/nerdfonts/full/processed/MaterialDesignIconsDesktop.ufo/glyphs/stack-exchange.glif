@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="stack-exchange" format="2">
+  <advance width="1200"/>
+  <unicode hex="F060B"/>
+  <note>
+stack-exchange
+</note>
+  <outline>
+    <contour>
+      <point x="23" y="567" type="line"/>
+      <point x="1170" y="567" type="line"/>
+      <point x="1170" y="800" type="line"/>
+      <point x="23" y="800" type="line"/>
+    </contour>
+    <contour>
+      <point x="23" y="870" type="line"/>
+      <point x="1170" y="870" type="line"/>
+      <point x="1170" y="1107" type="line"/>
+      <point x="23" y="1107" type="line"/>
+    </contour>
+    <contour>
+      <point x="1063" y="1420"/>
+      <point x="990" y="1420" type="qcurve" smooth="yes"/>
+      <point x="210" y="1420" type="line" smooth="yes"/>
+      <point x="133" y="1420"/>
+      <point x="23" y="1310"/>
+      <point x="23" y="1233" type="qcurve" smooth="yes"/>
+      <point x="23" y="1173" type="line"/>
+      <point x="1170" y="1173" type="line"/>
+      <point x="1170" y="1233" type="line" smooth="yes"/>
+      <point x="1170" y="1310"/>
+    </contour>
+    <contour>
+      <point x="1177" y="497" type="line"/>
+      <point x="23" y="497" type="line"/>
+      <point x="23" y="437" type="line" smooth="yes"/>
+      <point x="23" y="360"/>
+      <point x="133" y="247"/>
+      <point x="210" y="247" type="qcurve" smooth="yes"/>
+      <point x="697" y="247" type="line"/>
+      <point x="697" y="0" type="line"/>
+      <point x="940" y="247" type="line"/>
+      <point x="990" y="247" type="line" smooth="yes"/>
+      <point x="1067" y="247"/>
+      <point x="1177" y="360"/>
+      <point x="1177" y="437" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bookmark-check" format="2">
+  <advance width="512"/>
+  <unicode hex="F00C1"/>
+  <note>
+bookmark-check
+</note>
+  <outline>
+    <contour>
+      <point x="149" y="384" type="line" smooth="yes"/>
+      <point x="132" y="384"/>
+      <point x="107" y="359"/>
+      <point x="107" y="341" type="qcurve" smooth="yes"/>
+      <point x="107" y="0" type="line"/>
+      <point x="256" y="64" type="line"/>
+      <point x="405" y="0" type="line"/>
+      <point x="405" y="341" type="line" smooth="yes"/>
+      <point x="405" y="359"/>
+      <point x="380" y="384"/>
+      <point x="363" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="149" y="235" type="line"/>
+      <point x="179" y="265" type="line"/>
+      <point x="235" y="209" type="line"/>
+      <point x="338" y="313" type="line"/>
+      <point x="368" y="282" type="line"/>
+      <point x="235" y="149" type="line"/>
+    </contour>
+  </outline>
+</glyph>

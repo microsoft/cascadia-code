@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pac-man" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0BAF"/>
+  <note>
+pac-man
+</note>
+  <outline>
+    <contour>
+      <point x="1063" y="1142" type="line"/>
+      <point x="946" y="1259"/>
+      <point x="631" y="1342"/>
+      <point x="317" y="1259"/>
+      <point x="82" y="1024"/>
+      <point x="-1" y="710"/>
+      <point x="82" y="396"/>
+      <point x="317" y="161"/>
+      <point x="631" y="78"/>
+      <point x="946" y="161"/>
+      <point x="1063" y="278" type="qcurve"/>
+      <point x="631" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="1109" y="833"/>
+      <point x="1057" y="833" type="qcurve" smooth="yes"/>
+      <point x="1008" y="833"/>
+      <point x="937" y="761"/>
+      <point x="937" y="659"/>
+      <point x="1008" y="587"/>
+      <point x="1109" y="587"/>
+      <point x="1180" y="659"/>
+      <point x="1180" y="761"/>
+    </contour>
+  </outline>
+</glyph>

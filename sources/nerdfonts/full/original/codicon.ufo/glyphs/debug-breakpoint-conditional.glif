@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="debug-breakpoint-conditional" format="2">
+  <advance width="300"/>
+  <unicode hex="EAA7"/>
+  <note>
+debug-breakpoint-conditional
+</note>
+  <outline>
+    <contour>
+      <point x="170" y="225"/>
+      <point x="205" y="205"/>
+      <point x="225" y="170"/>
+      <point x="225" y="130"/>
+      <point x="205" y="95"/>
+      <point x="170" y="75"/>
+      <point x="130" y="75"/>
+      <point x="95" y="95"/>
+      <point x="75" y="130"/>
+      <point x="75" y="170"/>
+      <point x="95" y="205"/>
+      <point x="130" y="225"/>
+      <point x="150" y="225" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="113" y="131" type="line"/>
+      <point x="113" y="113" type="line"/>
+      <point x="188" y="113" type="line"/>
+      <point x="188" y="131" type="line"/>
+    </contour>
+    <contour>
+      <point x="113" y="188" type="line"/>
+      <point x="113" y="169" type="line"/>
+      <point x="188" y="169" type="line"/>
+      <point x="188" y="188" type="line"/>
+    </contour>
+  </outline>
+</glyph>

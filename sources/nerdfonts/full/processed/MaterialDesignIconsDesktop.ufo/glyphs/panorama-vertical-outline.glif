@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="panorama-vertical-outline" format="2">
+  <advance width="1200"/>
+  <unicode hex="F03DF"/>
+  <note>
+panorama-vertical-outline
+</note>
+  <outline>
+    <contour>
+      <point x="987" y="140" type="qcurve"/>
+      <point x="213" y="140" type="line"/>
+      <point x="293" y="420"/>
+      <point x="293" y="1000"/>
+      <point x="213" y="1280" type="qcurve"/>
+      <point x="987" y="1280" type="line"/>
+      <point x="907" y="1000"/>
+      <point x="907" y="420"/>
+    </contour>
+    <contour>
+      <point x="1170" y="53"/>
+      <point x="1163" y="60" type="qcurve"/>
+      <point x="1047" y="373"/>
+      <point x="1047" y="1043"/>
+      <point x="1163" y="1360" type="qcurve"/>
+      <point x="1170" y="1367"/>
+      <point x="1170" y="1400"/>
+      <point x="1147" y="1420"/>
+      <point x="1123" y="1420" type="qcurve" smooth="yes"/>
+      <point x="77" y="1420" type="line" smooth="yes"/>
+      <point x="53" y="1420"/>
+      <point x="30" y="1400"/>
+      <point x="30" y="1367"/>
+      <point x="37" y="1360" type="qcurve"/>
+      <point x="153" y="1043"/>
+      <point x="153" y="377"/>
+      <point x="37" y="60" type="qcurve"/>
+      <point x="30" y="53"/>
+      <point x="30" y="20"/>
+      <point x="57" y="0"/>
+      <point x="77" y="0" type="qcurve" smooth="yes"/>
+      <point x="1123" y="0" type="line" smooth="yes"/>
+      <point x="1147" y="0"/>
+      <point x="1170" y="20"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="box-cutter" format="2">
+  <advance width="512"/>
+  <unicode hex="F00D5"/>
+  <note>
+box-cutter
+</note>
+  <outline>
+    <contour>
+      <point x="350" y="390" type="line" smooth="yes"/>
+      <point x="363" y="403"/>
+      <point x="398" y="403"/>
+      <point x="410" y="390" type="qcurve" smooth="yes"/>
+      <point x="441" y="360" type="line" smooth="yes"/>
+      <point x="453" y="347"/>
+      <point x="453" y="312"/>
+      <point x="441" y="300" type="qcurve" smooth="yes"/>
+      <point x="260" y="119" type="line"/>
+      <point x="142" y="169" type="line"/>
+      <point x="144" y="184"/>
+      <point x="154" y="194" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="124" y="138" type="line"/>
+      <point x="231" y="95" type="line"/>
+      <point x="107" y="-16" type="line"/>
+      <point x="107" y="107" type="line"/>
+    </contour>
+    <contour>
+      <point x="359" y="339"/>
+      <point x="359" y="321"/>
+      <point x="371" y="308"/>
+      <point x="389" y="308"/>
+      <point x="402" y="321"/>
+      <point x="402" y="339"/>
+      <point x="389" y="351"/>
+      <point x="371" y="351"/>
+      <point x="365" y="345" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

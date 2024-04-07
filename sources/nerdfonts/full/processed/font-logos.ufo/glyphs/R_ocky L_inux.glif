@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rocky Linux" format="2">
+  <advance width="1200"/>
+  <unicode hex="F32B"/>
+  <note>
+Rocky Linux
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="610"/>
+      <point x="1180" y="710" type="qcurve" smooth="yes"/>
+      <point x="1180" y="950"/>
+      <point x="840" y="1290"/>
+      <point x="360" y="1290"/>
+      <point x="20" y="950"/>
+      <point x="20" y="710" type="qcurve" smooth="yes"/>
+      <point x="20" y="472"/>
+      <point x="188" y="302" type="qcurve"/>
+      <point x="774" y="891" type="line"/>
+      <point x="1148" y="520" type="line"/>
+    </contour>
+    <contour>
+      <point x="774" y="601" type="line"/>
+      <point x="358" y="182" type="line"/>
+      <point x="473" y="130"/>
+      <point x="600" y="130" type="qcurve" smooth="yes"/>
+      <point x="731" y="130"/>
+      <point x="960" y="239"/>
+      <point x="1042" y="334" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

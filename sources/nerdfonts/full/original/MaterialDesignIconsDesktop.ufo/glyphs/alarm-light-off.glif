@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alarm-light-off" format="2">
+  <advance width="512"/>
+  <unicode hex="F171E"/>
+  <note>
+alarm-light-off
+</note>
+  <outline>
+    <contour>
+      <point x="384" y="213" type="line" smooth="yes"/>
+      <point x="384" y="248"/>
+      <point x="349" y="307"/>
+      <point x="291" y="341"/>
+      <point x="223" y="341"/>
+      <point x="192" y="324" type="qcurve"/>
+      <point x="384" y="132" type="line"/>
+    </contour>
+    <contour>
+      <point x="384" y="301" type="line"/>
+      <point x="354" y="331" type="line"/>
+      <point x="399" y="375" type="line"/>
+      <point x="429" y="346" type="line"/>
+    </contour>
+    <contour>
+      <point x="480" y="224" type="line"/>
+      <point x="480" y="181" type="line"/>
+      <point x="416" y="181" type="line"/>
+      <point x="416" y="224" type="line"/>
+    </contour>
+    <contour>
+      <point x="96" y="181" type="line"/>
+      <point x="32" y="181" type="line"/>
+      <point x="32" y="224" type="line"/>
+      <point x="96" y="224" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="412" type="line"/>
+      <point x="471" y="-9" type="line"/>
+      <point x="444" y="-36" type="line"/>
+      <point x="429" y="-21" type="line"/>
+      <point x="85" y="-21" type="line"/>
+      <point x="85" y="-4"/>
+      <point x="110" y="21"/>
+      <point x="128" y="21" type="qcurve" smooth="yes"/>
+      <point x="386" y="21" type="line"/>
+      <point x="365" y="43" type="line"/>
+      <point x="128" y="43" type="line"/>
+      <point x="128" y="213" type="line" smooth="yes"/>
+      <point x="128" y="244"/>
+      <point x="141" y="267" type="qcurve"/>
+      <point x="23" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="277" y="363" type="line"/>
+      <point x="235" y="363" type="line"/>
+      <point x="235" y="427" type="line"/>
+      <point x="277" y="427" type="line"/>
+    </contour>
+  </outline>
+</glyph>

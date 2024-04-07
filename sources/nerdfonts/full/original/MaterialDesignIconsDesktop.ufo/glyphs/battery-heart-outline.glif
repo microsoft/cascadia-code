@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="battery-heart-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F1210"/>
+  <note>
+battery-heart-outline
+</note>
+  <outline>
+    <contour>
+      <point x="428" y="124" type="line" smooth="yes"/>
+      <point x="462" y="157"/>
+      <point x="473" y="171" type="qcurve" smooth="yes"/>
+      <point x="491" y="193"/>
+      <point x="491" y="233"/>
+      <point x="463" y="260"/>
+      <point x="422" y="260"/>
+      <point x="405" y="243" type="qcurve"/>
+      <point x="388" y="260"/>
+      <point x="348" y="260"/>
+      <point x="320" y="233"/>
+      <point x="320" y="192"/>
+      <point x="340" y="167" type="qcurve" smooth="yes"/>
+      <point x="352" y="152"/>
+      <point x="390" y="115" type="qcurve"/>
+      <point x="393" y="113" type="line"/>
+      <point x="405" y="102" type="line"/>
+    </contour>
+    <contour>
+      <point x="282" y="363"/>
+      <point x="298" y="346"/>
+      <point x="297" y="335" type="qcurve"/>
+      <point x="297" y="6" type="line" smooth="yes"/>
+      <point x="297" y="-5"/>
+      <point x="280" y="-21"/>
+      <point x="269" y="-21" type="qcurve" smooth="yes"/>
+      <point x="70" y="-21" type="line" smooth="yes"/>
+      <point x="59" y="-21"/>
+      <point x="43" y="-4"/>
+      <point x="43" y="9" type="qcurve" smooth="yes"/>
+      <point x="43" y="335" type="line" smooth="yes"/>
+      <point x="43" y="346"/>
+      <point x="59" y="363"/>
+      <point x="70" y="363" type="qcurve" smooth="yes"/>
+      <point x="107" y="363" type="line"/>
+      <point x="107" y="405" type="line"/>
+      <point x="235" y="405" type="line"/>
+      <point x="235" y="363" type="line"/>
+      <point x="271" y="363" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="256" y="320" type="line"/>
+      <point x="85" y="320" type="line"/>
+      <point x="85" y="21" type="line"/>
+      <point x="256" y="21" type="line"/>
+    </contour>
+  </outline>
+</glyph>

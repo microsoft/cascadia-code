@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="calendar-star" format="2">
+  <advance width="1200"/>
+  <unicode hex="F09D3"/>
+  <note>
+calendar-star
+</note>
+  <outline>
+    <contour>
+      <point x="1050" y="903" type="line"/>
+      <point x="1050" y="193" type="line"/>
+      <point x="150" y="193" type="line"/>
+      <point x="150" y="903" type="line"/>
+    </contour>
+    <contour>
+      <point x="987" y="1353" type="line"/>
+      <point x="857" y="1353" type="line"/>
+      <point x="857" y="1227" type="line"/>
+      <point x="343" y="1227" type="line"/>
+      <point x="343" y="1353" type="line"/>
+      <point x="213" y="1353" type="line"/>
+      <point x="213" y="1227" type="line"/>
+      <point x="150" y="1227" type="line" smooth="yes"/>
+      <point x="96" y="1227"/>
+      <point x="20" y="1151"/>
+      <point x="20" y="1097" type="qcurve" smooth="yes"/>
+      <point x="20" y="193" type="line" smooth="yes"/>
+      <point x="20" y="142"/>
+      <point x="96" y="67"/>
+      <point x="150" y="67" type="qcurve" smooth="yes"/>
+      <point x="1050" y="67" type="line" smooth="yes"/>
+      <point x="1104" y="67"/>
+      <point x="1180" y="142"/>
+      <point x="1180" y="193" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1097" type="line" smooth="yes"/>
+      <point x="1180" y="1151"/>
+      <point x="1104" y="1227"/>
+      <point x="1050" y="1227" type="qcurve" smooth="yes"/>
+      <point x="987" y="1227" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="867" type="line"/>
+      <point x="527" y="647" type="line"/>
+      <point x="295" y="647" type="line"/>
+      <point x="482" y="511" type="line"/>
+      <point x="413" y="287" type="line"/>
+      <point x="600" y="423" type="line"/>
+      <point x="787" y="287" type="line"/>
+      <point x="715" y="508" type="line"/>
+      <point x="905" y="647" type="line"/>
+      <point x="672" y="647" type="line"/>
+    </contour>
+  </outline>
+</glyph>

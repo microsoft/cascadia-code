@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bus-articulated-end" format="2">
+  <advance width="1200"/>
+  <unicode hex="F079C"/>
+  <note>
+bus-articulated-end
+</note>
+  <outline>
+    <contour>
+      <point x="143" y="1076" type="line" smooth="yes"/>
+      <point x="91" y="1076"/>
+      <point x="20" y="1004"/>
+      <point x="20" y="953" type="qcurve" smooth="yes"/>
+      <point x="20" y="527" type="line"/>
+      <point x="266" y="527" type="line"/>
+      <point x="266" y="450"/>
+      <point x="371" y="344"/>
+      <point x="523" y="344"/>
+      <point x="631" y="450"/>
+      <point x="631" y="527" type="qcurve"/>
+      <point x="1180" y="527" type="line"/>
+      <point x="1089" y="619" type="line"/>
+      <point x="1180" y="710" type="line"/>
+      <point x="1089" y="801" type="line"/>
+      <point x="1180" y="893" type="line"/>
+      <point x="1089" y="984" type="line"/>
+      <point x="1180" y="1076" type="line"/>
+    </contour>
+    <contour>
+      <point x="997" y="833" type="line"/>
+      <point x="783" y="833" type="line"/>
+      <point x="783" y="984" type="line"/>
+      <point x="997" y="984" type="line"/>
+    </contour>
+    <contour>
+      <point x="691" y="833" type="line"/>
+      <point x="449" y="833" type="line"/>
+      <point x="449" y="984" type="line"/>
+      <point x="691" y="984" type="line"/>
+    </contour>
+    <contour>
+      <point x="357" y="833" type="line"/>
+      <point x="111" y="833" type="line"/>
+      <point x="111" y="984" type="line"/>
+      <point x="357" y="984" type="line"/>
+    </contour>
+    <contour>
+      <point x="486" y="619"/>
+      <point x="540" y="564"/>
+      <point x="540" y="490"/>
+      <point x="486" y="436"/>
+      <point x="409" y="436"/>
+      <point x="357" y="490"/>
+      <point x="357" y="564"/>
+      <point x="409" y="619"/>
+      <point x="449" y="619" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

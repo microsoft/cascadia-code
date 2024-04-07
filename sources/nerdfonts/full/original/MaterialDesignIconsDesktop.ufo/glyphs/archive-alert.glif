@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="archive-alert" format="2">
+  <advance width="512"/>
+  <unicode hex="F14FD"/>
+  <note>
+archive-alert
+</note>
+  <outline>
+    <contour>
+      <point x="43" y="299" type="line"/>
+      <point x="384" y="299" type="line"/>
+      <point x="384" y="363" type="line"/>
+      <point x="43" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="64" y="21" type="line"/>
+      <point x="363" y="21" type="line"/>
+      <point x="363" y="277" type="line"/>
+      <point x="64" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="267" y="213" type="line" smooth="yes"/>
+      <point x="271" y="213"/>
+      <point x="277" y="207"/>
+      <point x="277" y="203" type="qcurve" smooth="yes"/>
+      <point x="277" y="171" type="line"/>
+      <point x="149" y="171" type="line"/>
+      <point x="149" y="203" type="line" smooth="yes"/>
+      <point x="149" y="207"/>
+      <point x="156" y="213"/>
+      <point x="160" y="213" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="469" y="171" type="line"/>
+      <point x="469" y="299" type="line"/>
+      <point x="427" y="299" type="line"/>
+      <point x="427" y="171" type="line"/>
+    </contour>
+    <contour>
+      <point x="469" y="85" type="line"/>
+      <point x="469" y="128" type="line"/>
+      <point x="427" y="128" type="line"/>
+      <point x="427" y="85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

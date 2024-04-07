@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="human-non-binary" format="2">
+  <advance width="512"/>
+  <unicode hex="F1848"/>
+  <note>
+human-non-binary
+</note>
+  <outline>
+    <contour>
+      <point x="238" y="405"/>
+      <point x="213" y="380"/>
+      <point x="213" y="345"/>
+      <point x="238" y="320"/>
+      <point x="274" y="320"/>
+      <point x="299" y="345"/>
+      <point x="299" y="380"/>
+      <point x="274" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="352" y="107" type="line"/>
+      <point x="288" y="107" type="line"/>
+      <point x="288" y="-21" type="line"/>
+      <point x="213" y="-21" type="line"/>
+      <point x="213" y="139" type="line"/>
+      <point x="181" y="139" type="line"/>
+      <point x="181" y="256" type="line" smooth="yes"/>
+      <point x="181" y="274"/>
+      <point x="206" y="299"/>
+      <point x="224" y="299" type="qcurve" smooth="yes"/>
+      <point x="256" y="299" type="line" smooth="yes"/>
+      <point x="270" y="299"/>
+      <point x="293" y="282"/>
+      <point x="297" y="269" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF088" format="2">
+  <advance width="677"/>
+  <unicode hex="E380"/>
+  <note>
+uniF088
+</note>
+  <outline>
+    <contour>
+      <point x="18" y="1015" type="qcurve"/>
+      <point x="433" y="601" type="line"/>
+      <point x="301" y="601" type="line" smooth="yes"/>
+      <point x="271" y="601"/>
+      <point x="230" y="561"/>
+      <point x="230" y="531" type="qcurve" smooth="yes"/>
+      <point x="230" y="500"/>
+      <point x="271" y="459"/>
+      <point x="301" y="459" type="qcurve" smooth="yes"/>
+      <point x="607" y="459" type="line" smooth="yes"/>
+      <point x="637" y="459"/>
+      <point x="678" y="500"/>
+      <point x="678" y="531" type="qcurve" smooth="yes"/>
+      <point x="678" y="837" type="line" smooth="yes"/>
+      <point x="678" y="867"/>
+      <point x="637" y="909"/>
+      <point x="607" y="909" type="qcurve" smooth="yes"/>
+      <point x="576" y="909"/>
+      <point x="535" y="868"/>
+      <point x="535" y="837" type="qcurve" smooth="yes"/>
+      <point x="535" y="704" type="line"/>
+      <point x="122" y="1117" type="line" smooth="yes"/>
+      <point x="103" y="1136"/>
+      <point x="72" y="1136" type="qcurve" smooth="yes"/>
+      <point x="38" y="1136"/>
+      <point x="18" y="1117" type="qcurve" smooth="yes"/>
+      <point x="0" y="1098"/>
+      <point x="0" y="1036"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+19
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+25
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 3 values pushed */
+25 19 10
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 4 values pushed */
+64 25 11 9
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+28
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+7
+MDRP[10110]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+14
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 3 values pushed */
+7 14 10
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 4 values pushed */
+64 7 22 9
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+29 1
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:51 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="message-badge-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F1942"/>
+  <note>
+message-badge-outline
+</note>
+  <outline>
+    <contour>
+      <point x="444" y="282"/>
+      <point x="427" y="279" type="qcurve"/>
+      <point x="427" y="107" type="line"/>
+      <point x="85" y="107" type="line"/>
+      <point x="85" y="363" type="line"/>
+      <point x="301" y="363" type="line"/>
+      <point x="299" y="369"/>
+      <point x="299" y="399"/>
+      <point x="301" y="405" type="qcurve"/>
+      <point x="85" y="405" type="line" smooth="yes"/>
+      <point x="68" y="405"/>
+      <point x="43" y="380"/>
+      <point x="43" y="363" type="qcurve" smooth="yes"/>
+      <point x="43" y="-21" type="line"/>
+      <point x="128" y="64" type="line"/>
+      <point x="427" y="64" type="line" smooth="yes"/>
+      <point x="444" y="64"/>
+      <point x="469" y="89"/>
+      <point x="469" y="107" type="qcurve" smooth="yes"/>
+      <point x="469" y="299" type="line"/>
+    </contour>
+    <contour>
+      <point x="341" y="411"/>
+      <point x="378" y="448"/>
+      <point x="433" y="448"/>
+      <point x="469" y="411"/>
+      <point x="469" y="357"/>
+      <point x="433" y="320"/>
+      <point x="378" y="320"/>
+      <point x="341" y="357"/>
+      <point x="341" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

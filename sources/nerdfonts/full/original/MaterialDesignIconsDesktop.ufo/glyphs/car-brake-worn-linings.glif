@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="car-brake-worn-linings" format="2">
+  <advance width="512"/>
+  <unicode hex="F190C"/>
+  <note>
+car-brake-worn-linings
+</note>
+  <outline>
+    <contour>
+      <point x="216" y="341"/>
+      <point x="147" y="301"/>
+      <point x="107" y="232"/>
+      <point x="107" y="152"/>
+      <point x="147" y="83"/>
+      <point x="216" y="43"/>
+      <point x="296" y="43"/>
+      <point x="365" y="83"/>
+      <point x="405" y="152"/>
+      <point x="405" y="232"/>
+      <point x="365" y="301"/>
+      <point x="296" y="341"/>
+      <point x="256" y="341" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="308" y="384"/>
+      <point x="396" y="332"/>
+      <point x="448" y="244"/>
+      <point x="448" y="140"/>
+      <point x="396" y="52"/>
+      <point x="308" y="0"/>
+      <point x="204" y="0"/>
+      <point x="116" y="52"/>
+      <point x="64" y="140"/>
+      <point x="64" y="244"/>
+      <point x="116" y="332"/>
+      <point x="204" y="384"/>
+      <point x="256" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="66" y="319"/>
+      <point x="49" y="277" type="qcurve"/>
+      <point x="18" y="287" type="line"/>
+      <point x="38" y="336"/>
+      <point x="75" y="373" type="qcurve"/>
+      <point x="98" y="350" type="line"/>
+    </contour>
+    <contour>
+      <point x="6" y="138" type="line"/>
+      <point x="0" y="165"/>
+      <point x="0" y="219"/>
+      <point x="6" y="246" type="qcurve"/>
+      <point x="36" y="237" type="line"/>
+      <point x="32" y="215"/>
+      <point x="32" y="169"/>
+      <point x="36" y="147" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="463" y="277" type="line"/>
+      <point x="446" y="319"/>
+      <point x="414" y="350" type="qcurve"/>
+      <point x="437" y="373" type="line"/>
+      <point x="474" y="336"/>
+      <point x="494" y="287" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="49" y="107" type="line"/>
+      <point x="66" y="65"/>
+      <point x="98" y="34" type="qcurve"/>
+      <point x="75" y="11" type="line"/>
+      <point x="37" y="49"/>
+      <point x="18" y="97" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="446" y="65"/>
+      <point x="463" y="107" type="qcurve"/>
+      <point x="494" y="97" type="line"/>
+      <point x="475" y="49"/>
+      <point x="437" y="11" type="qcurve"/>
+      <point x="414" y="34" type="line"/>
+    </contour>
+    <contour>
+      <point x="506" y="246" type="line"/>
+      <point x="512" y="218"/>
+      <point x="512" y="166"/>
+      <point x="506" y="138" type="qcurve"/>
+      <point x="476" y="147" type="line"/>
+      <point x="480" y="169"/>
+      <point x="480" y="215"/>
+      <point x="476" y="237" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

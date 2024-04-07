@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gate-and" format="2">
+  <advance width="1200"/>
+  <unicode hex="F08E1"/>
+  <note>
+gate-and
+</note>
+  <outline>
+    <contour>
+      <point x="717" y="1176" type="qcurve" smooth="yes"/>
+      <point x="20" y="1176" type="line"/>
+      <point x="20" y="244" type="line"/>
+      <point x="717" y="244" type="line" smooth="yes"/>
+      <point x="842" y="244"/>
+      <point x="1055" y="370"/>
+      <point x="1180" y="585"/>
+      <point x="1180" y="835"/>
+      <point x="1055" y="1050"/>
+      <point x="842" y="1176"/>
+    </contour>
+    <contour>
+      <point x="134" y="361" type="line"/>
+      <point x="134" y="1059" type="line"/>
+      <point x="717" y="1059" type="line" smooth="yes"/>
+      <point x="810" y="1059"/>
+      <point x="970" y="966"/>
+      <point x="1066" y="805"/>
+      <point x="1066" y="615"/>
+      <point x="970" y="454"/>
+      <point x="810" y="361"/>
+      <point x="717" y="361" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

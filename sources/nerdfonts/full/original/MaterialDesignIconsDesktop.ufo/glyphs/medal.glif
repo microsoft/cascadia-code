@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="medal" format="2">
+  <advance width="512"/>
+  <unicode hex="F0987"/>
+  <note>
+medal
+</note>
+  <outline>
+    <contour>
+      <point x="427" y="363" type="line"/>
+      <point x="303" y="270" type="line"/>
+      <point x="336" y="259"/>
+      <point x="387" y="208"/>
+      <point x="398" y="175" type="qcurve" smooth="yes"/>
+      <point x="411" y="136"/>
+      <point x="394" y="58"/>
+      <point x="341" y="-1"/>
+      <point x="264" y="-27"/>
+      <point x="186" y="-10"/>
+      <point x="127" y="43"/>
+      <point x="101" y="120"/>
+      <point x="118" y="197"/>
+      <point x="171" y="257"/>
+      <point x="209" y="270" type="qcurve"/>
+      <point x="85" y="363" type="line"/>
+      <point x="85" y="405" type="line"/>
+      <point x="427" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="302" y="103" type="line"/>
+      <point x="357" y="151" type="line"/>
+      <point x="285" y="157" type="line"/>
+      <point x="256" y="224" type="line"/>
+      <point x="227" y="157" type="line"/>
+      <point x="155" y="151" type="line"/>
+      <point x="210" y="103" type="line"/>
+      <point x="193" y="32" type="line"/>
+      <point x="256" y="69" type="line"/>
+      <point x="319" y="32" type="line"/>
+    </contour>
+  </outline>
+</glyph>

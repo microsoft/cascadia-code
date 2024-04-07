@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="door-sliding-open" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1820"/>
+  <note>
+door-sliding-open
+</note>
+  <outline>
+    <contour>
+      <point x="213" y="758" type="line"/>
+      <point x="213" y="662" type="line"/>
+      <point x="310" y="662" type="line"/>
+      <point x="310" y="758" type="line"/>
+    </contour>
+    <contour>
+      <point x="1083" y="372" type="line"/>
+      <point x="842" y="372" type="line"/>
+      <point x="842" y="1048" type="line"/>
+      <point x="1083" y="1048" type="line"/>
+    </contour>
+    <contour>
+      <point x="358" y="372" type="line"/>
+      <point x="117" y="372" type="line"/>
+      <point x="117" y="1048" type="line"/>
+      <point x="358" y="1048" type="line"/>
+    </contour>
+    <contour>
+      <point x="745" y="1145" type="line"/>
+      <point x="745" y="372" type="line"/>
+      <point x="455" y="372" type="line"/>
+      <point x="455" y="1145" type="line"/>
+      <point x="117" y="1145" type="line" smooth="yes"/>
+      <point x="77" y="1145"/>
+      <point x="20" y="1088"/>
+      <point x="20" y="1048" type="qcurve" smooth="yes"/>
+      <point x="20" y="275" type="line"/>
+      <point x="1180" y="275" type="line"/>
+      <point x="1180" y="1048" type="line" smooth="yes"/>
+      <point x="1180" y="1088"/>
+      <point x="1123" y="1145"/>
+      <point x="1083" y="1145" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="987" y="662" type="line"/>
+      <point x="987" y="758" type="line"/>
+      <point x="890" y="758" type="line"/>
+      <point x="890" y="662" type="line"/>
+    </contour>
+  </outline>
+</glyph>

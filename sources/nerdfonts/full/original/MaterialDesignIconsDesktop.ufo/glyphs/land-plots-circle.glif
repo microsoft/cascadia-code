@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="land-plots-circle" format="2">
+  <advance width="512"/>
+  <unicode hex="F1AB4"/>
+  <note>
+land-plots-circle
+</note>
+  <outline>
+    <contour>
+      <point x="444" y="405"/>
+      <point x="469" y="380"/>
+      <point x="469" y="363" type="qcurve" smooth="yes"/>
+      <point x="469" y="21" type="line" smooth="yes"/>
+      <point x="469" y="4"/>
+      <point x="444" y="-21"/>
+      <point x="427" y="-21" type="qcurve" smooth="yes"/>
+      <point x="85" y="-21" type="line" smooth="yes"/>
+      <point x="68" y="-21"/>
+      <point x="43" y="4"/>
+      <point x="43" y="21" type="qcurve" smooth="yes"/>
+      <point x="43" y="363" type="line" smooth="yes"/>
+      <point x="43" y="380"/>
+      <point x="68" y="405"/>
+      <point x="85" y="405" type="qcurve" smooth="yes"/>
+      <point x="427" y="405" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="277" y="258"/>
+      <point x="322" y="213"/>
+      <point x="382" y="213"/>
+      <point x="427" y="258"/>
+      <point x="427" y="318"/>
+      <point x="382" y="363"/>
+      <point x="322" y="363"/>
+      <point x="277" y="318"/>
+      <point x="277" y="288" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="85" y="213" type="line"/>
+      <point x="235" y="213" type="line"/>
+      <point x="235" y="363" type="line"/>
+      <point x="85" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="21" type="line"/>
+      <point x="235" y="171" type="line"/>
+      <point x="85" y="171" type="line"/>
+      <point x="85" y="21" type="line"/>
+    </contour>
+    <contour>
+      <point x="427" y="171" type="line"/>
+      <point x="277" y="171" type="line"/>
+      <point x="277" y="21" type="line"/>
+      <point x="427" y="21" type="line"/>
+    </contour>
+  </outline>
+</glyph>

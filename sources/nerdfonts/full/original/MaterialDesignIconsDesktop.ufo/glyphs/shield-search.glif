@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shield-search" format="2">
+  <advance width="512"/>
+  <unicode hex="F0D9A"/>
+  <note>
+shield-search
+</note>
+  <outline>
+    <contour>
+      <point x="229" y="256"/>
+      <point x="192" y="219"/>
+      <point x="192" y="165"/>
+      <point x="229" y="128"/>
+      <point x="283" y="128"/>
+      <point x="320" y="165"/>
+      <point x="320" y="219"/>
+      <point x="283" y="256"/>
+      <point x="256" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="315" y="103" type="line"/>
+      <point x="288" y="85"/>
+      <point x="256" y="85" type="qcurve" smooth="yes"/>
+      <point x="227" y="85"/>
+      <point x="178" y="114"/>
+      <point x="149" y="163"/>
+      <point x="149" y="221"/>
+      <point x="178" y="270"/>
+      <point x="227" y="299"/>
+      <point x="285" y="299"/>
+      <point x="334" y="270"/>
+      <point x="363" y="221"/>
+      <point x="363" y="192" type="qcurve" smooth="yes"/>
+      <point x="363" y="160"/>
+      <point x="345" y="133" type="qcurve"/>
+      <point x="407" y="71" type="line"/>
+      <point x="448" y="137"/>
+      <point x="448" y="213" type="qcurve" smooth="yes"/>
+      <point x="448" y="341" type="line"/>
+      <point x="256" y="427" type="line"/>
+      <point x="64" y="341" type="line"/>
+      <point x="64" y="213" type="line" smooth="yes"/>
+      <point x="64" y="124"/>
+      <point x="174" y="-23"/>
+      <point x="256" y="-43" type="qcurve"/>
+      <point x="329" y="-25"/>
+      <point x="381" y="36" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

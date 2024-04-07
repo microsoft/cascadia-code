@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="elevator-up" format="2">
+  <advance width="1200"/>
+  <unicode hex="F12C1"/>
+  <note>
+elevator-up
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="1097" type="line"/>
+      <point x="213" y="1097" type="line"/>
+      <point x="213" y="840" type="line"/>
+      <point x="343" y="840" type="line"/>
+      <point x="343" y="1097" type="line"/>
+      <point x="537" y="1097" type="line"/>
+      <point x="277" y="1353" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="1097" type="line"/>
+      <point x="923" y="1353" type="line"/>
+      <point x="663" y="1097" type="line"/>
+      <point x="857" y="1097" type="line"/>
+      <point x="857" y="840" type="line"/>
+      <point x="987" y="840" type="line"/>
+      <point x="987" y="1097" type="line"/>
+    </contour>
+    <contour>
+      <point x="225" y="710"/>
+      <point x="150" y="634"/>
+      <point x="150" y="580" type="qcurve" smooth="yes"/>
+      <point x="150" y="193" type="line" smooth="yes"/>
+      <point x="150" y="142"/>
+      <point x="225" y="67"/>
+      <point x="277" y="67" type="qcurve" smooth="yes"/>
+      <point x="923" y="67" type="line" smooth="yes"/>
+      <point x="975" y="67"/>
+      <point x="1050" y="142"/>
+      <point x="1050" y="193" type="qcurve" smooth="yes"/>
+      <point x="1050" y="580" type="line" smooth="yes"/>
+      <point x="1050" y="634"/>
+      <point x="975" y="710"/>
+      <point x="923" y="710" type="qcurve" smooth="yes"/>
+      <point x="277" y="710" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="923" y="580" type="line"/>
+      <point x="923" y="193" type="line"/>
+      <point x="277" y="193" type="line"/>
+      <point x="277" y="580" type="line"/>
+    </contour>
+  </outline>
+</glyph>

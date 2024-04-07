@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dolby" format="2">
+  <advance width="1200"/>
+  <unicode hex="F06B3"/>
+  <note>
+dolby
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="1116" type="line"/>
+      <point x="20" y="1116" type="line"/>
+      <point x="20" y="304" type="line"/>
+      <point x="1180" y="304" type="line"/>
+    </contour>
+    <contour>
+      <point x="333" y="421"/>
+      <point x="251" y="419" type="qcurve" smooth="yes"/>
+      <point x="134" y="419" type="line"/>
+      <point x="134" y="1001" type="line"/>
+      <point x="251" y="1001" type="line" smooth="yes"/>
+      <point x="333" y="999"/>
+      <point x="469" y="917"/>
+      <point x="546" y="786"/>
+      <point x="546" y="634"/>
+      <point x="469" y="503"/>
+    </contour>
+    <contour>
+      <point x="1066" y="1001" type="line"/>
+      <point x="1066" y="419" type="line"/>
+      <point x="949" y="419" type="line" smooth="yes"/>
+      <point x="867" y="421"/>
+      <point x="731" y="503"/>
+      <point x="654" y="634"/>
+      <point x="654" y="786"/>
+      <point x="731" y="917"/>
+      <point x="867" y="999"/>
+      <point x="949" y="1001" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

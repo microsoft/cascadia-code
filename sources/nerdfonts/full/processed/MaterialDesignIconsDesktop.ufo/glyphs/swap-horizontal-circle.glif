@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="swap-horizontal-circle" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0FE1"/>
+  <note>
+swap-horizontal-circle
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="552"/>
+      <point x="1180" y="710" type="qcurve" smooth="yes"/>
+      <point x="1180" y="868"/>
+      <point x="1025" y="1135"/>
+      <point x="758" y="1290"/>
+      <point x="442" y="1290"/>
+      <point x="175" y="1135"/>
+      <point x="20" y="868"/>
+      <point x="20" y="552"/>
+      <point x="175" y="285"/>
+      <point x="442" y="130"/>
+      <point x="758" y="130"/>
+      <point x="1025" y="285"/>
+    </contour>
+    <contour>
+      <point x="774" y="884" type="line"/>
+      <point x="774" y="1029" type="line"/>
+      <point x="978" y="827" type="line"/>
+      <point x="774" y="623" type="line"/>
+      <point x="774" y="767" type="line"/>
+      <point x="543" y="767" type="line"/>
+      <point x="543" y="884" type="line"/>
+    </contour>
+    <contour>
+      <point x="426" y="536" type="line"/>
+      <point x="426" y="391" type="line"/>
+      <point x="222" y="593" type="line"/>
+      <point x="426" y="797" type="line"/>
+      <point x="426" y="653" type="line"/>
+      <point x="657" y="653" type="line"/>
+      <point x="657" y="536" type="line"/>
+    </contour>
+  </outline>
+</glyph>

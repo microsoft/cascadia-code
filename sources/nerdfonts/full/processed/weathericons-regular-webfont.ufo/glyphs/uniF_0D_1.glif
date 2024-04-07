@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF0D1" format="2">
+  <advance width="1200"/>
+  <unicode hex="E3C9"/>
+  <note>
+uniF0D1
+</note>
+  <outline>
+    <contour>
+      <point x="112" y="378"/>
+      <point x="268" y="222"/>
+      <point x="482" y="130"/>
+      <point x="717" y="130"/>
+      <point x="932" y="222"/>
+      <point x="1088" y="378"/>
+      <point x="1180" y="593"/>
+      <point x="1180" y="828"/>
+      <point x="1088" y="1042"/>
+      <point x="932" y="1198"/>
+      <point x="717" y="1290"/>
+      <point x="482" y="1290"/>
+      <point x="268" y="1198"/>
+      <point x="112" y="1042"/>
+      <point x="20" y="828"/>
+      <point x="20" y="593"/>
+    </contour>
+    <contour>
+      <point x="777" y="1215"/>
+      <point x="993" y="1073"/>
+      <point x="1118" y="843"/>
+      <point x="1118" y="710" type="qcurve" smooth="yes"/>
+      <point x="1118" y="580"/>
+      <point x="997" y="354"/>
+      <point x="788" y="211"/>
+      <point x="661" y="196" type="qcurve"/>
+      <point x="908" y="339"/>
+      <point x="908" y="710" type="qcurve" smooth="yes"/>
+      <point x="908" y="885"/>
+      <point x="761" y="1150"/>
+      <point x="646" y="1227" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 3 values pushed */
+13 0 0
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+5
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 3 values pushed */
+13 0 0
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+5
+MDRP[01101]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+29
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+1
+MDRP[10110]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+19
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+19
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 2 values pushed */
+25 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+9
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+30 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+19 1
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 4 values pushed */
+5 12 16 21
+DEPTH[ ]	/* GetDepthStack */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 2 values pushed */
+5 13
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 2 values pushed */
+16 21
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="furigana-vertical" format="2">
+  <advance width="512"/>
+  <unicode hex="F1082"/>
+  <note>
+furigana-vertical
+</note>
+  <outline>
+    <contour>
+      <point x="213" y="341" type="line"/>
+      <point x="213" y="299" type="line"/>
+      <point x="341" y="299" type="line"/>
+      <point x="341" y="256" type="line"/>
+      <point x="300" y="256" type="line"/>
+      <point x="290" y="206"/>
+      <point x="229" y="150" type="qcurve"/>
+      <point x="332" y="67" type="line"/>
+      <point x="306" y="34" type="line"/>
+      <point x="196" y="122" type="line"/>
+      <point x="85" y="34" type="line"/>
+      <point x="59" y="67" type="line"/>
+      <point x="163" y="150" type="line"/>
+      <point x="116" y="192"/>
+      <point x="96" y="235" type="qcurve"/>
+      <point x="145" y="235" type="line"/>
+      <point x="164" y="205"/>
+      <point x="195" y="178" type="qcurve"/>
+      <point x="217" y="196"/>
+      <point x="248" y="238"/>
+      <point x="255" y="256" type="qcurve"/>
+      <point x="43" y="256" type="line"/>
+      <point x="43" y="299" type="line"/>
+      <point x="171" y="299" type="line"/>
+      <point x="171" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="438" y="320"/>
+      <point x="469" y="289"/>
+      <point x="469" y="245"/>
+      <point x="438" y="213"/>
+      <point x="394" y="213"/>
+      <point x="363" y="245"/>
+      <point x="363" y="289"/>
+      <point x="394" y="320"/>
+      <point x="416" y="320" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="437" y="171"/>
+      <point x="469" y="139"/>
+      <point x="469" y="95"/>
+      <point x="437" y="64"/>
+      <point x="393" y="64"/>
+      <point x="362" y="95"/>
+      <point x="362" y="139"/>
+      <point x="393" y="171"/>
+      <point x="415" y="171" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

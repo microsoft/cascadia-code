@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tab-minus" format="2">
+  <advance width="512"/>
+  <unicode hex="F0B4B"/>
+  <note>
+tab-minus
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="384" type="line" smooth="yes"/>
+      <point x="466" y="384"/>
+      <point x="491" y="359"/>
+      <point x="491" y="341" type="qcurve" smooth="yes"/>
+      <point x="491" y="43" type="line" smooth="yes"/>
+      <point x="491" y="25"/>
+      <point x="466" y="0"/>
+      <point x="448" y="0" type="qcurve" smooth="yes"/>
+      <point x="64" y="0" type="line" smooth="yes"/>
+      <point x="46" y="0"/>
+      <point x="21" y="25"/>
+      <point x="21" y="43" type="qcurve" smooth="yes"/>
+      <point x="21" y="341" type="line" smooth="yes"/>
+      <point x="21" y="359"/>
+      <point x="46" y="384"/>
+      <point x="64" y="384" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="64" y="43" type="line"/>
+      <point x="448" y="43" type="line"/>
+      <point x="448" y="256" type="line"/>
+      <point x="277" y="256" type="line"/>
+      <point x="277" y="341" type="line"/>
+      <point x="64" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="171" type="line"/>
+      <point x="320" y="128" type="line"/>
+      <point x="149" y="128" type="line"/>
+      <point x="149" y="171" type="line"/>
+    </contour>
+  </outline>
+</glyph>

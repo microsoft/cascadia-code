@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bell-ring" format="2">
+  <advance width="1200"/>
+  <unicode hex="F009E"/>
+  <note>
+bell-ring
+</note>
+  <outline>
+    <contour>
+      <point x="968" y="473" type="line"/>
+      <point x="968" y="789" type="line" smooth="yes"/>
+      <point x="968" y="912"/>
+      <point x="822" y="1107"/>
+      <point x="706" y="1142" type="qcurve"/>
+      <point x="706" y="1159" type="line" smooth="yes"/>
+      <point x="706" y="1201"/>
+      <point x="644" y="1263"/>
+      <point x="556" y="1263"/>
+      <point x="494" y="1201"/>
+      <point x="494" y="1159" type="qcurve" smooth="yes"/>
+      <point x="494" y="1142" type="line"/>
+      <point x="378" y="1107"/>
+      <point x="232" y="912"/>
+      <point x="232" y="789" type="qcurve" smooth="yes"/>
+      <point x="232" y="473" type="line"/>
+      <point x="126" y="369" type="line"/>
+      <point x="126" y="315" type="line"/>
+      <point x="1074" y="315" type="line"/>
+      <point x="1074" y="369" type="line"/>
+    </contour>
+    <contour>
+      <point x="494" y="263" type="line"/>
+      <point x="494" y="219"/>
+      <point x="556" y="157"/>
+      <point x="644" y="157"/>
+      <point x="706" y="219"/>
+      <point x="706" y="263" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="1091" y="1120"/>
+      <point x="1007" y="1201" type="qcurve"/>
+      <point x="933" y="1127" type="line"/>
+      <point x="1000" y="1060"/>
+      <point x="1074" y="885"/>
+      <point x="1074" y="789" type="qcurve"/>
+      <point x="1180" y="789" type="line"/>
+      <point x="1180" y="905"/>
+    </contour>
+    <contour>
+      <point x="20" y="905"/>
+      <point x="20" y="789" type="qcurve"/>
+      <point x="126" y="789" type="line"/>
+      <point x="126" y="885"/>
+      <point x="200" y="1060"/>
+      <point x="267" y="1127" type="qcurve"/>
+      <point x="193" y="1201" type="line"/>
+      <point x="109" y="1120"/>
+    </contour>
+  </outline>
+</glyph>

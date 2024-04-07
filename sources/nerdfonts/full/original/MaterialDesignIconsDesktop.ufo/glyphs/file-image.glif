@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="file-image" format="2">
+  <advance width="512"/>
+  <unicode hex="F021F"/>
+  <note>
+file-image
+</note>
+  <outline>
+    <contour>
+      <point x="277" y="373" type="line"/>
+      <point x="395" y="256" type="line"/>
+      <point x="277" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="110" y="405"/>
+      <point x="85" y="380"/>
+      <point x="85" y="363" type="qcurve" smooth="yes"/>
+      <point x="85" y="21" type="line" smooth="yes"/>
+      <point x="85" y="4"/>
+      <point x="110" y="-21"/>
+      <point x="128" y="-21" type="qcurve" smooth="yes"/>
+      <point x="384" y="-21" type="line" smooth="yes"/>
+      <point x="402" y="-21"/>
+      <point x="427" y="4"/>
+      <point x="427" y="21" type="qcurve" smooth="yes"/>
+      <point x="427" y="277" type="line"/>
+      <point x="299" y="405" type="line"/>
+      <point x="128" y="405" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="256" y="149" type="line"/>
+      <point x="299" y="107" type="line"/>
+      <point x="384" y="192" type="line"/>
+      <point x="384" y="21" type="line"/>
+      <point x="320" y="21" type="line"/>
+      <point x="128" y="21" type="line"/>
+    </contour>
+    <contour>
+      <point x="188" y="256"/>
+      <point x="213" y="231"/>
+      <point x="213" y="196"/>
+      <point x="188" y="171"/>
+      <point x="153" y="171"/>
+      <point x="128" y="196"/>
+      <point x="128" y="231"/>
+      <point x="153" y="256"/>
+      <point x="171" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

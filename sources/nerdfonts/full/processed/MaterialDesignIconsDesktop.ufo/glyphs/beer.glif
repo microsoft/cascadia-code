@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beer" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0098"/>
+  <note>
+beer
+</note>
+  <outline>
+    <contour>
+      <point x="210" y="0" type="line"/>
+      <point x="993" y="0" type="line"/>
+      <point x="1133" y="1420" type="line"/>
+      <point x="67" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="977" y="1280" type="line"/>
+      <point x="957" y="1050" type="line"/>
+      <point x="857" y="1010"/>
+      <point x="770" y="1003" type="qcurve" smooth="yes"/>
+      <point x="637" y="993"/>
+      <point x="567" y="1067" type="qcurve" smooth="yes"/>
+      <point x="470" y="1163"/>
+      <point x="313" y="1113" type="qcurve"/>
+      <point x="410" y="140" type="line"/>
+      <point x="337" y="140" type="line"/>
+      <point x="223" y="1280" type="line"/>
+    </contour>
+  </outline>
+</glyph>

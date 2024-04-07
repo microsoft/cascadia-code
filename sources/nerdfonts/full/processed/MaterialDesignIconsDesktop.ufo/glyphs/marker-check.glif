@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="marker-check" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0355"/>
+  <note>
+marker-check
+</note>
+  <outline>
+    <contour>
+      <point x="1050" y="1033" type="line"/>
+      <point x="470" y="453" type="line"/>
+      <point x="150" y="773" type="line"/>
+      <point x="240" y="867" type="line"/>
+      <point x="470" y="634" type="line"/>
+      <point x="960" y="1124" type="line"/>
+    </contour>
+    <contour>
+      <point x="1105" y="1420"/>
+      <point x="1050" y="1420" type="qcurve" smooth="yes"/>
+      <point x="150" y="1420" type="line" smooth="yes"/>
+      <point x="95" y="1420"/>
+      <point x="20" y="1344"/>
+      <point x="20" y="1290" type="qcurve" smooth="yes"/>
+      <point x="20" y="456" type="line" smooth="yes"/>
+      <point x="20" y="423"/>
+      <point x="50" y="369"/>
+      <point x="77" y="350" type="qcurve" smooth="yes"/>
+      <point x="600" y="0" type="line"/>
+      <point x="1123" y="350" type="line" smooth="yes"/>
+      <point x="1150" y="369"/>
+      <point x="1180" y="423"/>
+      <point x="1180" y="456" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1290" type="line" smooth="yes"/>
+      <point x="1180" y="1344"/>
+    </contour>
+  </outline>
+</glyph>

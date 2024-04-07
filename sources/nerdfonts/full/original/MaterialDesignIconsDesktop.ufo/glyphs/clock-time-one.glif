@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="clock-time-one" format="2">
+  <advance width="512"/>
+  <unicode hex="F143F"/>
+  <note>
+clock-time-one
+</note>
+  <outline>
+    <contour>
+      <point x="314" y="405"/>
+      <point x="412" y="348"/>
+      <point x="469" y="250"/>
+      <point x="469" y="134"/>
+      <point x="412" y="36"/>
+      <point x="314" y="-21"/>
+      <point x="198" y="-21"/>
+      <point x="100" y="36"/>
+      <point x="43" y="134"/>
+      <point x="43" y="250"/>
+      <point x="100" y="348"/>
+      <point x="198" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="326" y="279" type="line"/>
+      <point x="299" y="297" type="line"/>
+      <point x="267" y="241" type="line"/>
+      <point x="267" y="299" type="line"/>
+      <point x="235" y="299" type="line"/>
+      <point x="235" y="171" type="line"/>
+      <point x="262" y="171" type="line"/>
+    </contour>
+  </outline>
+</glyph>

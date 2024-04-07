@@ -1,0 +1,929 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>com.schriftgestaltung.appVersion</key>
+    <string>3241</string>
+    <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+    <true/>
+    <key>com.schriftgestaltung.fontMaster.customParameters</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>prep Table Assembly</string>
+        <key>value</key>
+        <string>PUSHW[ ]	/* 1 value pushed */
+511
+SCANCTRL[ ]	/* ScanConversionControl */
+PUSHB[ ]	/* 1 value pushed */
+1
+SCANTYPE[ ]	/* ScanType */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+8
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 2 values pushed */
+1 1
+INSTCTRL[ ]	/* SetInstrExecControl */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 2 values pushed */
+70 6
+CALL[ ]	/* CallFunction */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+16
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+20
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+128
+EIF[ ]	/* EndIf */
+SCVTCI[ ]	/* SetCVTCutIn */
+PUSHB[ ]	/* 1 value pushed */
+6
+CALL[ ]	/* CallFunction */
+NOT[ ]	/* LogicalNot */
+IF[ ]	/* If */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+20
+CALL[ ]	/* CallFunction */</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>fpgm Table Assembly</string>
+        <key>value</key>
+        <string>PUSHB[ ]	/* 1 value pushed */
+0
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+0
+SZP0[ ]	/* SetZonePointer0 */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+76
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+74
+SROUND[ ]	/* SuperRound */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+0
+SWAP[ ]	/* SwapTopStack */
+MIAP[1]	/* MoveIndirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHB[ ]	/* 1 value pushed */
+6
+CALL[ ]	/* CallFunction */
+IF[ ]	/* If */
+RTDG[ ]	/* RoundToDoubleGrid */
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+76
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+RDTG[ ]	/* RoundDownToGrid */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+MDRP[10100]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+1
+SZP0[ ]	/* SetZonePointer0 */
+MDAP[0]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+1
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+MDRP[11010]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+12
+CALL[ ]	/* CallFunction */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+2
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+EIF[ ]	/* EndIf */
+POP[ ]	/* PopTopStack */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+3
+FDEF[ ]	/* FunctionDefinition */
+ROUND[01]	/* Round */
+RTG[ ]	/* RoundToGrid */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+64
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+64
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+4
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+6
+CALL[ ]	/* CallFunction */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+ROFF[ ]	/* RoundOff */
+IF[ ]	/* If */
+MDRP[11101]	/* MoveDirectRelPt */
+ELSE[ ]	/* Else */
+MDRP[01101]	/* MoveDirectRelPt */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+IF[ ]	/* If */
+MIRP[11101]	/* MoveIndirectRelPt */
+ELSE[ ]	/* Else */
+MIRP[01101]	/* MoveIndirectRelPt */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+5
+CALL[ ]	/* CallFunction */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+70
+SROUND[ ]	/* SuperRound */
+EIF[ ]	/* EndIf */
+IF[ ]	/* If */
+MDRP[11101]	/* MoveDirectRelPt */
+ELSE[ ]	/* Else */
+MDRP[01101]	/* MoveDirectRelPt */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+RTG[ ]	/* RoundToGrid */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+5
+FDEF[ ]	/* FunctionDefinition */
+GFV[ ]	/* GetFVector */
+NOT[ ]	/* LogicalNot */
+AND[ ]	/* LogicalAnd */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+6
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 2 values pushed */
+34 1
+GETINFO[ ]	/* GetInfo */
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+32
+GETINFO[ ]	/* GetInfo */
+NOT[ ]	/* LogicalNot */
+NOT[ ]	/* LogicalNot */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 1 value pushed */
+0
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+7
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 2 values pushed */
+36 1
+GETINFO[ ]	/* GetInfo */
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+64
+GETINFO[ ]	/* GetInfo */
+NOT[ ]	/* LogicalNot */
+NOT[ ]	/* LogicalNot */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 1 value pushed */
+0
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+8
+FDEF[ ]	/* FunctionDefinition */
+SRP2[ ]	/* SetRefPoint2 */
+SRP1[ ]	/* SetRefPoint1 */
+DUP[ ]	/* DuplicateTopStack */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+9
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+RDTG[ ]	/* RoundDownToGrid */
+PUSHB[ ]	/* 1 value pushed */
+6
+CALL[ ]	/* CallFunction */
+IF[ ]	/* If */
+MDRP[00100]	/* MoveDirectRelPt */
+ELSE[ ]	/* Else */
+MDRP[01101]	/* MoveDirectRelPt */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3
+CINDEX[ ]	/* CopyXToTopStack */
+MD[0]	/* MeasureDistance */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+4
+MINDEX[ ]	/* MoveXToTopStack */
+MD[1]	/* MeasureDistance */
+PUSHB[ ]	/* 1 value pushed */
+0
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+ROLL[ ]	/* RollTopThreeStack */
+NEG[ ]	/* Negate */
+ROLL[ ]	/* RollTopThreeStack */
+SUB[ ]	/* Subtract */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+ROLL[ ]	/* RollTopThreeStack */
+ROLL[ ]	/* RollTopThreeStack */
+SUB[ ]	/* Subtract */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+RTG[ ]	/* RoundToGrid */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+10
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+6
+CALL[ ]	/* CallFunction */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+ELSE[ ]	/* Else */
+SRP0[ ]	/* SetRefPoint0 */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+11
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+MDRP[10010]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+12
+CALL[ ]	/* CallFunction */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+12
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+7
+CALL[ ]	/* CallFunction */
+NOT[ ]	/* LogicalNot */
+IF[ ]	/* If */
+DUP[ ]	/* DuplicateTopStack */
+DUP[ ]	/* DuplicateTopStack */
+GC[1]	/* GetCoordOnPVector */
+SWAP[ ]	/* SwapTopStack */
+GC[0]	/* GetCoordOnPVector */
+SUB[ ]	/* Subtract */
+ROUND[10]	/* Round */
+DUP[ ]	/* DuplicateTopStack */
+IF[ ]	/* If */
+DUP[ ]	/* DuplicateTopStack */
+ABS[ ]	/* Absolute */
+DIV[ ]	/* Divide */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+13
+FDEF[ ]	/* FunctionDefinition */
+SRP2[ ]	/* SetRefPoint2 */
+SRP1[ ]	/* SetRefPoint1 */
+DUP[ ]	/* DuplicateTopStack */
+DUP[ ]	/* DuplicateTopStack */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+DUP[ ]	/* DuplicateTopStack */
+GC[1]	/* GetCoordOnPVector */
+ROLL[ ]	/* RollTopThreeStack */
+GC[0]	/* GetCoordOnPVector */
+SUB[ ]	/* Subtract */
+SWAP[ ]	/* SwapTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+SWAP[ ]	/* SwapTopStack */
+MD[1]	/* MeasureDistance */
+PUSHB[ ]	/* 1 value pushed */
+0
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+64
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+SWAP[ ]	/* SwapTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+64
+NEG[ ]	/* Negate */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+14
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+6
+CALL[ ]	/* CallFunction */
+IF[ ]	/* If */
+RTDG[ ]	/* RoundToDoubleGrid */
+MDRP[10110]	/* MoveDirectRelPt */
+RTG[ ]	/* RoundToGrid */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+ELSE[ ]	/* Else */
+DUP[ ]	/* DuplicateTopStack */
+MDRP[10110]	/* MoveDirectRelPt */
+ROLL[ ]	/* RollTopThreeStack */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+SWAP[ ]	/* SwapTopStack */
+MD[0]	/* MeasureDistance */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0
+NEQ[ ]	/* NotEqual */
+IF[ ]	/* If */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+15
+FDEF[ ]	/* FunctionDefinition */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+MDRP[10110]	/* MoveDirectRelPt */
+DUP[ ]	/* DuplicateTopStack */
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+7
+CALL[ ]	/* CallFunction */
+NOT[ ]	/* LogicalNot */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+IF[ ]	/* If */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GTEQ[ ]	/* GreaterThanOrEqual */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+1
+EIF[ ]	/* EndIf */
+IF[ ]	/* If */
+ROLL[ ]	/* RollTopThreeStack */
+PUSHB[ ]	/* 1 value pushed */
+4
+MINDEX[ ]	/* MoveXToTopStack */
+MD[0]	/* MeasureDistance */
+SWAP[ ]	/* SwapTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+MD[0]	/* MeasureDistance */
+ROLL[ ]	/* RollTopThreeStack */
+SWAP[ ]	/* SwapTopStack */
+SUB[ ]	/* Subtract */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+16
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+MDRP[11010]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+18
+CALL[ ]	/* CallFunction */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+17
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+MDRP[10010]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+18
+CALL[ ]	/* CallFunction */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+18
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+7
+CALL[ ]	/* CallFunction */
+NOT[ ]	/* LogicalNot */
+IF[ ]	/* If */
+DUP[ ]	/* DuplicateTopStack */
+DUP[ ]	/* DuplicateTopStack */
+GC[1]	/* GetCoordOnPVector */
+SWAP[ ]	/* SwapTopStack */
+GC[0]	/* GetCoordOnPVector */
+SUB[ ]	/* Subtract */
+ROUND[10]	/* Round */
+ROLL[ ]	/* RollTopThreeStack */
+DUP[ ]	/* DuplicateTopStack */
+GC[1]	/* GetCoordOnPVector */
+SWAP[ ]	/* SwapTopStack */
+GC[0]	/* GetCoordOnPVector */
+SWAP[ ]	/* SwapTopStack */
+SUB[ ]	/* Subtract */
+ROUND[10]	/* Round */
+ADD[ ]	/* Add */
+DUP[ ]	/* DuplicateTopStack */
+IF[ ]	/* If */
+DUP[ ]	/* DuplicateTopStack */
+ABS[ ]	/* Absolute */
+DIV[ ]	/* Divide */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+19
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+SDPVTL[1]	/* SetDualPVectorToLine */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3
+CINDEX[ ]	/* CopyXToTopStack */
+MD[1]	/* MeasureDistance */
+ABS[ ]	/* Absolute */
+SWAP[ ]	/* SwapTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+SPVTL[1]	/* SetPVectorToLine */
+PUSHB[ ]	/* 1 value pushed */
+32
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+ALIGNRP[ ]	/* AlignRelativePt */
+ELSE[ ]	/* Else */
+MDRP[00000]	/* MoveDirectRelPt */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+20
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 4 values pushed */
+0 64 1 64
+WS[ ]	/* WriteStore */
+WS[ ]	/* WriteStore */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHW[ ]	/* 1 value pushed */
+4096
+MUL[ ]	/* Multiply */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHW[ ]	/* 1 value pushed */
+4096
+MUL[ ]	/* Multiply */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+NEQ[ ]	/* NotEqual */
+IF[ ]	/* If */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+DIV[ ]	/* Divide */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0
+SWAP[ ]	/* SwapTopStack */
+WS[ ]	/* WriteStore */
+ELSE[ ]	/* Else */
+DIV[ ]	/* Divide */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+1
+SWAP[ ]	/* SwapTopStack */
+WS[ ]	/* WriteStore */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+64
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 3 values pushed */
+0 32 0
+RS[ ]	/* ReadStore */
+MUL[ ]	/* Multiply */
+WS[ ]	/* WriteStore */
+PUSHB[ ]	/* 3 values pushed */
+1 32 1
+RS[ ]	/* ReadStore */
+MUL[ ]	/* Multiply */
+WS[ ]	/* WriteStore */
+PUSHB[ ]	/* 1 value pushed */
+32
+MUL[ ]	/* Multiply */
+PUSHB[ ]	/* 1 value pushed */
+25
+NEG[ ]	/* Negate */
+JMPR[ ]	/* Jump */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+21
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+1
+RS[ ]	/* ReadStore */
+MUL[ ]	/* Multiply */
+SWAP[ ]	/* SwapTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0
+RS[ ]	/* ReadStore */
+MUL[ ]	/* Multiply */
+SWAP[ ]	/* SwapTopStack */
+ENDF[ ]	/* EndFunctionDefinition */</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>CVT Table</string>
+        <key>value</key>
+        <string>(
+    0,
+    180,
+    178,
+    182,
+    174,
+    196,
+    157,
+    171,
+    185,
+    257,
+    234,
+    120,
+    122,
+    68,
+    1297
+)</string>
+      </dict>
+    </array>
+    <key>com.schriftgestaltung.fontMasterID</key>
+    <string>m01</string>
+    <key>com.schriftgestaltung.formatVersion</key>
+    <integer>3</integer>
+    <key>com.schriftgestaltung.useGlyphOrder</key>
+    <true/>
+    <key>com.schriftgestaltung.useNiceNames</key>
+    <false/>
+    <key>public.glyphOrder</key>
+    <array>
+      <string>uniF000</string>
+      <string>uniF001</string>
+      <string>uniF002</string>
+      <string>uniF003</string>
+      <string>uniF004</string>
+      <string>uniF005</string>
+      <string>uniF006</string>
+      <string>uniF007</string>
+      <string>uniF008</string>
+      <string>uniF009</string>
+      <string>uniF00A</string>
+      <string>uniF00B</string>
+      <string>uniF00C</string>
+      <string>uniF00D</string>
+      <string>uniF00E</string>
+      <string>uniF010</string>
+      <string>uniF011</string>
+      <string>uniF012</string>
+      <string>uniF013</string>
+      <string>uniF014</string>
+      <string>uniF015</string>
+      <string>uniF016</string>
+      <string>uniF017</string>
+      <string>uniF018</string>
+      <string>uniF019</string>
+      <string>uniF01A</string>
+      <string>uniF01B</string>
+      <string>uniF01C</string>
+      <string>uniF01D</string>
+      <string>uniF01E</string>
+      <string>uniF021</string>
+      <string>uniF022</string>
+      <string>uniF023</string>
+      <string>uniF024</string>
+      <string>uniF025</string>
+      <string>uniF026</string>
+      <string>uniF027</string>
+      <string>uniF028</string>
+      <string>uniF029</string>
+      <string>uniF02A</string>
+      <string>uniF02B</string>
+      <string>uniF02C</string>
+      <string>uniF02D</string>
+      <string>uniF02E</string>
+      <string>uniF02F</string>
+      <string>uniF030</string>
+      <string>uniF031</string>
+      <string>uniF032</string>
+      <string>uniF033</string>
+      <string>uniF034</string>
+      <string>uniF035</string>
+      <string>uniF036</string>
+      <string>uniF037</string>
+      <string>uniF038</string>
+      <string>uniF039</string>
+      <string>uniF03A</string>
+      <string>uniF03B</string>
+      <string>uniF03C</string>
+      <string>uniF03D</string>
+      <string>uniF03E</string>
+      <string>uniF040</string>
+      <string>uniF041</string>
+      <string>uniF042</string>
+      <string>uniF043</string>
+      <string>uniF044</string>
+      <string>uniF045</string>
+      <string>uniF046</string>
+      <string>uniF047</string>
+      <string>uniF048</string>
+      <string>uniF049</string>
+      <string>uniF04A</string>
+      <string>uniF04B</string>
+      <string>uniF04C</string>
+      <string>uniF04D</string>
+      <string>uniF04E</string>
+      <string>uniF050</string>
+      <string>uniF051</string>
+      <string>uniF052</string>
+      <string>uniF053</string>
+      <string>uniF054</string>
+      <string>uniF055</string>
+      <string>uniF056</string>
+      <string>uniF057</string>
+      <string>uniF058</string>
+      <string>uniF059</string>
+      <string>uniF05A</string>
+      <string>uniF05B</string>
+      <string>uniF05C</string>
+      <string>uniF05D</string>
+      <string>uniF05E</string>
+      <string>uniF060</string>
+      <string>uniF061</string>
+      <string>uniF062</string>
+      <string>uniF063</string>
+      <string>uniF064</string>
+      <string>uniF065</string>
+      <string>uniF066</string>
+      <string>uniF067</string>
+      <string>uniF068</string>
+      <string>uniF069</string>
+      <string>uniF06A</string>
+      <string>uniF06B</string>
+      <string>uniF06C</string>
+      <string>uniF06D</string>
+      <string>uniF06E</string>
+      <string>uniF070</string>
+      <string>uniF071</string>
+      <string>uniF072</string>
+      <string>uniF073</string>
+      <string>uniF074</string>
+      <string>uniF075</string>
+      <string>uniF076</string>
+      <string>uniF077</string>
+      <string>uniF078</string>
+      <string>uniF079</string>
+      <string>uniF07A</string>
+      <string>uniF07B</string>
+      <string>uniF07C</string>
+      <string>uniF07D</string>
+      <string>uniF07E</string>
+      <string>uniF080</string>
+      <string>uniF081</string>
+      <string>uniF082</string>
+      <string>uniF083</string>
+      <string>uniF084</string>
+      <string>uniF085</string>
+      <string>uniF086</string>
+      <string>uniF087</string>
+      <string>uniF088</string>
+      <string>uniF089</string>
+      <string>uniF08A</string>
+      <string>uniF08B</string>
+      <string>uniF08C</string>
+      <string>uniF08D</string>
+      <string>uniF08E</string>
+      <string>uniF08F</string>
+      <string>uniF090</string>
+      <string>uniF091</string>
+      <string>uniF092</string>
+      <string>uniF093</string>
+      <string>uniF094</string>
+      <string>uniF095</string>
+      <string>uniF096</string>
+      <string>uniF097</string>
+      <string>uniF098</string>
+      <string>uniF099</string>
+      <string>uniF09A</string>
+      <string>uniF09B</string>
+      <string>uniF09C</string>
+      <string>uniF09D</string>
+      <string>uniF09E</string>
+      <string>uniF09F</string>
+      <string>uniF0A0</string>
+      <string>uniF0A1</string>
+      <string>uniF0A2</string>
+      <string>uniF0A3</string>
+      <string>uniF0A4</string>
+      <string>uniF0A5</string>
+      <string>uniF0A6</string>
+      <string>uniF0A7</string>
+      <string>uniF0A8</string>
+      <string>uniF0A9</string>
+      <string>uniF0AA</string>
+      <string>uniF0AB</string>
+      <string>uniF0AC</string>
+      <string>uniF0AD</string>
+      <string>uniF0AE</string>
+      <string>uniF0AF</string>
+      <string>uniF0B0</string>
+      <string>uniF0B1</string>
+      <string>uniF0B2</string>
+      <string>uniF0B3</string>
+      <string>uniF0B4</string>
+      <string>uniF0B5</string>
+      <string>uniF0B6</string>
+      <string>uniF0B7</string>
+      <string>uniF0B8</string>
+      <string>uniF0B9</string>
+      <string>uniF0BA</string>
+      <string>uniF0BB</string>
+      <string>uniF0BC</string>
+      <string>uniF0BD</string>
+      <string>uniF0BE</string>
+      <string>uniF0BF</string>
+      <string>uniF0C0</string>
+      <string>uniF0C1</string>
+      <string>uniF0C2</string>
+      <string>uniF0C3</string>
+      <string>uniF0C4</string>
+      <string>uniF0C5</string>
+      <string>uniF0C6</string>
+      <string>uniF0C7</string>
+      <string>uniF0C8</string>
+      <string>uniF0C9</string>
+      <string>uniF0CA</string>
+      <string>uniF0CB</string>
+      <string>uniF0CC</string>
+      <string>uniF0CD</string>
+      <string>uniF0CE</string>
+      <string>uniF0CF</string>
+      <string>uniF0D0</string>
+      <string>uniF0D1</string>
+      <string>uniF0D2</string>
+      <string>uniF0D3</string>
+      <string>uniF0D4</string>
+      <string>uniF0D5</string>
+      <string>uniF0D6</string>
+      <string>uniF0D7</string>
+      <string>uniF0D8</string>
+      <string>uniF0D9</string>
+      <string>uniF0DA</string>
+      <string>uniF0DB</string>
+      <string>uniF0DC</string>
+      <string>uniF0DD</string>
+      <string>uniF0DE</string>
+      <string>uniF0DF</string>
+      <string>uniF0E0</string>
+      <string>uniF0E1</string>
+      <string>uniF0E2</string>
+      <string>uniF0E3</string>
+      <string>uniF0E4</string>
+      <string>uniF0E5</string>
+      <string>uniF0E6</string>
+      <string>uniF0E7</string>
+      <string>uniF0E8</string>
+      <string>uniF0E9</string>
+      <string>uniF0EA</string>
+      <string>uniF0EB</string>
+    </array>
+  </dict>
+</plist>

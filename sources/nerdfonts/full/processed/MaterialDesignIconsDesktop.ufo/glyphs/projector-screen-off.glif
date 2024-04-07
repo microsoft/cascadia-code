@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="projector-screen-off" format="2">
+  <advance width="1200"/>
+  <unicode hex="F180D"/>
+  <note>
+projector-screen-off
+</note>
+  <outline>
+    <contour>
+      <point x="1110" y="130" type="line"/>
+      <point x="1180" y="200" type="line"/>
+      <point x="90" y="1290" type="line"/>
+      <point x="20" y="1220" type="line"/>
+      <point x="235" y="1005" type="line"/>
+      <point x="235" y="612" type="line"/>
+      <point x="566" y="612" type="line"/>
+      <point x="566" y="469" type="line"/>
+      <point x="333" y="236" type="line"/>
+      <point x="411" y="158" type="line"/>
+      <point x="566" y="314" type="line"/>
+      <point x="566" y="171" type="line"/>
+      <point x="675" y="171" type="line"/>
+      <point x="675" y="314" type="line"/>
+      <point x="830" y="158" type="line"/>
+      <point x="908" y="236" type="line"/>
+      <point x="675" y="469" type="line"/>
+      <point x="675" y="562" type="line"/>
+    </contour>
+    <contour>
+      <point x="908" y="612" type="line"/>
+      <point x="1007" y="612" type="line"/>
+      <point x="1007" y="1109" type="line"/>
+      <point x="1063" y="1109" type="line" smooth="yes"/>
+      <point x="1084" y="1109"/>
+      <point x="1118" y="1142"/>
+      <point x="1118" y="1166" type="qcurve" smooth="yes"/>
+      <point x="1118" y="1220" type="line" smooth="yes"/>
+      <point x="1118" y="1243"/>
+      <point x="1084" y="1274"/>
+      <point x="1063" y="1274" type="qcurve" smooth="yes"/>
+      <point x="245" y="1274" type="line"/>
+    </contour>
+  </outline>
+</glyph>

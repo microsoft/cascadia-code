@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="percent" format="2">
+  <advance width="1200"/>
+  <unicode hex="F03F0"/>
+  <note>
+percent
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="1155" type="line"/>
+      <point x="1045" y="1290" type="line"/>
+      <point x="20" y="265" type="line"/>
+      <point x="155" y="130" type="line"/>
+    </contour>
+    <contour>
+      <point x="344" y="1258"/>
+      <point x="257" y="1258" type="qcurve" smooth="yes"/>
+      <point x="174" y="1258"/>
+      <point x="52" y="1136"/>
+      <point x="52" y="966"/>
+      <point x="174" y="848"/>
+      <point x="344" y="848"/>
+      <point x="462" y="966"/>
+      <point x="462" y="1136"/>
+    </contour>
+    <contour>
+      <point x="1026" y="572"/>
+      <point x="943" y="572" type="qcurve" smooth="yes"/>
+      <point x="856" y="572"/>
+      <point x="738" y="454"/>
+      <point x="738" y="284"/>
+      <point x="856" y="162"/>
+      <point x="1026" y="162"/>
+      <point x="1148" y="284"/>
+      <point x="1148" y="454"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cash-refund" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0A9C"/>
+  <note>
+cash-refund
+</note>
+  <outline>
+    <contour>
+      <point x="552" y="857" type="line"/>
+      <point x="618" y="923" type="line"/>
+      <point x="464" y="1080" type="line"/>
+      <point x="827" y="1080" type="line"/>
+      <point x="827" y="857" type="line"/>
+      <point x="923" y="857" type="line"/>
+      <point x="923" y="1177" type="line"/>
+      <point x="464" y="1177" type="line"/>
+      <point x="618" y="1334" type="line"/>
+      <point x="552" y="1403" type="line"/>
+      <point x="277" y="1128" type="line"/>
+    </contour>
+    <contour>
+      <point x="682" y="597"/>
+      <point x="600" y="597" type="qcurve" smooth="yes"/>
+      <point x="518" y="597"/>
+      <point x="407" y="485"/>
+      <point x="407" y="325"/>
+      <point x="518" y="210"/>
+      <point x="682" y="210"/>
+      <point x="793" y="325"/>
+      <point x="793" y="485"/>
+    </contour>
+    <contour>
+      <point x="1180" y="790" type="line"/>
+      <point x="20" y="790" type="line"/>
+      <point x="20" y="17" type="line"/>
+      <point x="1180" y="17" type="line"/>
+    </contour>
+    <contour>
+      <point x="1050" y="533" type="qcurve"/>
+      <point x="1050" y="277" type="line"/>
+      <point x="999" y="277"/>
+      <point x="923" y="201"/>
+      <point x="923" y="147" type="qcurve"/>
+      <point x="277" y="147" type="line"/>
+      <point x="277" y="201"/>
+      <point x="201" y="277"/>
+      <point x="150" y="277" type="qcurve"/>
+      <point x="150" y="533" type="line"/>
+      <point x="201" y="533"/>
+      <point x="277" y="609"/>
+      <point x="277" y="663" type="qcurve"/>
+      <point x="923" y="663" type="line"/>
+      <point x="923" y="609"/>
+      <point x="999" y="533"/>
+    </contour>
+  </outline>
+</glyph>

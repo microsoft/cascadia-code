@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="human-pregnant" format="2">
+  <advance width="1200"/>
+  <unicode hex="F05CF"/>
+  <note>
+human-pregnant
+</note>
+  <outline>
+    <contour>
+      <point x="387" y="1220"/>
+      <point x="470" y="1137"/>
+      <point x="587" y="1137"/>
+      <point x="670" y="1220"/>
+      <point x="670" y="1337"/>
+      <point x="587" y="1420"/>
+      <point x="470" y="1420"/>
+      <point x="387" y="1337"/>
+      <point x="387" y="1280" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="883" y="353" type="line"/>
+      <point x="883" y="640" type="line" smooth="yes"/>
+      <point x="883" y="710"/>
+      <point x="807" y="827"/>
+      <point x="743" y="853" type="qcurve"/>
+      <point x="743" y="940"/>
+      <point x="617" y="1067"/>
+      <point x="440" y="1067"/>
+      <point x="317" y="940"/>
+      <point x="317" y="853" type="qcurve" smooth="yes"/>
+      <point x="317" y="353" type="line"/>
+      <point x="457" y="353" type="line"/>
+      <point x="457" y="0" type="line"/>
+      <point x="670" y="0" type="line"/>
+      <point x="670" y="353" type="line"/>
+    </contour>
+  </outline>
+</glyph>

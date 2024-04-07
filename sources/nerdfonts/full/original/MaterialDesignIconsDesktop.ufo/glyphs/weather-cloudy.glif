@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="weather-cloudy" format="2">
+  <advance width="512"/>
+  <unicode hex="F0590"/>
+  <note>
+weather-cloudy
+</note>
+  <outline>
+    <contour>
+      <point x="405" y="43" type="line" smooth="yes"/>
+      <point x="441" y="43"/>
+      <point x="491" y="93"/>
+      <point x="491" y="163"/>
+      <point x="441" y="213"/>
+      <point x="405" y="213" type="qcurve" smooth="yes"/>
+      <point x="395" y="213" type="line"/>
+      <point x="392" y="248"/>
+      <point x="354" y="307"/>
+      <point x="292" y="341"/>
+      <point x="256" y="341" type="qcurve" smooth="yes"/>
+      <point x="213" y="341"/>
+      <point x="144" y="294"/>
+      <point x="128" y="256" type="qcurve"/>
+      <point x="99" y="256"/>
+      <point x="50" y="227"/>
+      <point x="21" y="178"/>
+      <point x="21" y="120"/>
+      <point x="50" y="71"/>
+      <point x="99" y="43"/>
+      <point x="128" y="43" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="423" y="171"/>
+      <point x="448" y="146"/>
+      <point x="448" y="110"/>
+      <point x="423" y="85"/>
+      <point x="405" y="85" type="qcurve" smooth="yes"/>
+      <point x="128" y="85" type="line" smooth="yes"/>
+      <point x="101" y="85"/>
+      <point x="64" y="123"/>
+      <point x="64" y="176"/>
+      <point x="101" y="213"/>
+      <point x="128" y="213" type="qcurve" smooth="yes"/>
+      <point x="139" y="213"/>
+      <point x="151" y="209" type="qcurve"/>
+      <point x="157" y="248"/>
+      <point x="216" y="299"/>
+      <point x="256" y="299" type="qcurve" smooth="yes"/>
+      <point x="285" y="299"/>
+      <point x="334" y="270"/>
+      <point x="363" y="221"/>
+      <point x="363" y="192" type="qcurve" smooth="yes"/>
+      <point x="363" y="171" type="line"/>
+      <point x="405" y="171" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

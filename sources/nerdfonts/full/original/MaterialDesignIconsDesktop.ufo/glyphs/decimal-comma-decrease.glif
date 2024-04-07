@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="decimal-comma-decrease" format="2">
+  <advance width="512"/>
+  <unicode hex="F10A3"/>
+  <note>
+decimal-comma-decrease
+</note>
+  <outline>
+    <contour>
+      <point x="107" y="180"/>
+      <point x="94" y="192"/>
+      <point x="76" y="192"/>
+      <point x="64" y="180"/>
+      <point x="64" y="171" type="qcurve"/>
+      <point x="85" y="107" type="line"/>
+      <point x="107" y="107" type="line"/>
+      <point x="107" y="171" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="448" y="107" type="line"/>
+      <point x="448" y="64" type="line"/>
+      <point x="320" y="64" type="line"/>
+      <point x="320" y="21" type="line"/>
+      <point x="256" y="85" type="line"/>
+      <point x="320" y="149" type="line"/>
+      <point x="320" y="107" type="line"/>
+    </contour>
+    <contour>
+      <point x="256" y="277" type="line" smooth="yes"/>
+      <point x="256" y="304"/>
+      <point x="219" y="341"/>
+      <point x="165" y="341"/>
+      <point x="128" y="304"/>
+      <point x="128" y="277" type="qcurve" smooth="yes"/>
+      <point x="128" y="213" type="line" smooth="yes"/>
+      <point x="128" y="187"/>
+      <point x="165" y="149"/>
+      <point x="219" y="149"/>
+      <point x="256" y="187"/>
+      <point x="256" y="213" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="213" y="213" type="line" smooth="yes"/>
+      <point x="213" y="204"/>
+      <point x="201" y="192"/>
+      <point x="183" y="192"/>
+      <point x="171" y="204"/>
+      <point x="171" y="213" type="qcurve" smooth="yes"/>
+      <point x="171" y="277" type="line" smooth="yes"/>
+      <point x="171" y="286"/>
+      <point x="183" y="299"/>
+      <point x="201" y="299"/>
+      <point x="213" y="286"/>
+      <point x="213" y="277" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
