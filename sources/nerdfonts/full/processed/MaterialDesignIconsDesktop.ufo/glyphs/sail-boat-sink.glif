@@ -37,22 +37,22 @@ sail-boat-sink
     </contour>
     <contour>
       <point x="665" y="714" type="line"/>
-      <point x="317" y="1077" type="line"/>
       <point x="1180" y="1218" type="line"/>
+      <point x="317" y="1077" type="line"/>
     </contour>
     <contour>
       <point x="505" y="453"/>
-      <point x="469" y="445" type="qcurve"/>
-      <point x="134" y="788" type="line"/>
-      <point x="132" y="859"/>
-      <point x="167" y="998"/>
-      <point x="205" y="1055" type="qcurve"/>
-      <point x="799" y="442" type="line"/>
-      <point x="772" y="439" type="line" smooth="yes"/>
-      <point x="714" y="439"/>
-      <point x="665" y="472" type="qcurve" smooth="yes"/>
+      <point x="532" y="472" type="qcurve" smooth="yes"/>
       <point x="597" y="518" type="line"/>
-      <point x="532" y="472" type="line" smooth="yes"/>
+      <point x="665" y="472" type="line" smooth="yes"/>
+      <point x="714" y="439"/>
+      <point x="772" y="439" type="qcurve" smooth="yes"/>
+      <point x="799" y="442" type="line"/>
+      <point x="205" y="1055" type="line"/>
+      <point x="167" y="998"/>
+      <point x="132" y="859"/>
+      <point x="134" y="788" type="qcurve"/>
+      <point x="469" y="445" type="line"/>
     </contour>
   </outline>
 </glyph>

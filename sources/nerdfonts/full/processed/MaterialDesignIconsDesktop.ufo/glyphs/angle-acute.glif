@@ -20,13 +20,13 @@ angle-acute
       <point x="1180" y="181" type="line"/>
     </contour>
     <contour>
-      <point x="460" y="560" type="line"/>
-      <point x="522" y="536"/>
-      <point x="597" y="427"/>
-      <point x="597" y="359" type="qcurve" smooth="yes"/>
-      <point x="597" y="338"/>
-      <point x="593" y="324" type="qcurve"/>
+      <point x="460" y="560" type="qcurve"/>
       <point x="300" y="324" type="line"/>
+      <point x="593" y="324" type="line"/>
+      <point x="597" y="338"/>
+      <point x="597" y="359" type="qcurve" smooth="yes"/>
+      <point x="597" y="427"/>
+      <point x="522" y="536"/>
     </contour>
   </outline>
 </glyph>

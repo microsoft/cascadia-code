@@ -125,32 +125,32 @@ weather-partly-rainy
     </contour>
     <contour>
       <point x="571" y="264"/>
-      <point x="571" y="233" type="qcurve" smooth="yes"/>
-      <point x="571" y="209"/>
-      <point x="603" y="178"/>
-      <point x="649" y="178"/>
-      <point x="681" y="209"/>
-      <point x="681" y="233" type="qcurve" smooth="yes"/>
-      <point x="681" y="264"/>
       <point x="626" y="350" type="qcurve"/>
+      <point x="681" y="264"/>
+      <point x="681" y="233" type="qcurve" smooth="yes"/>
+      <point x="681" y="209"/>
+      <point x="649" y="178"/>
+      <point x="603" y="178"/>
+      <point x="571" y="209"/>
+      <point x="571" y="233" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="670" y="477" type="line" smooth="yes"/>
-      <point x="720" y="415"/>
-      <point x="748" y="360" type="qcurve" smooth="yes"/>
-      <point x="792" y="282"/>
-      <point x="792" y="233" type="qcurve" smooth="yes"/>
-      <point x="792" y="163"/>
-      <point x="696" y="66"/>
-      <point x="556" y="66"/>
-      <point x="460" y="163"/>
-      <point x="460" y="233" type="qcurve" smooth="yes"/>
-      <point x="460" y="282"/>
-      <point x="504" y="360" type="qcurve" smooth="yes"/>
-      <point x="532" y="415"/>
-      <point x="582" y="477" type="qcurve" smooth="yes"/>
+      <point x="670" y="477" type="qcurve" smooth="yes"/>
+      <point x="626" y="532" type="line"/>
       <point x="605" y="506"/>
-      <point x="626" y="532" type="qcurve"/>
+      <point x="582" y="477" type="qcurve" smooth="yes"/>
+      <point x="532" y="415"/>
+      <point x="504" y="360" type="qcurve" smooth="yes"/>
+      <point x="460" y="282"/>
+      <point x="460" y="233" type="qcurve" smooth="yes"/>
+      <point x="460" y="163"/>
+      <point x="556" y="66"/>
+      <point x="696" y="66"/>
+      <point x="792" y="163"/>
+      <point x="792" y="233" type="qcurve" smooth="yes"/>
+      <point x="792" y="282"/>
+      <point x="748" y="360" type="qcurve" smooth="yes"/>
+      <point x="720" y="415"/>
     </contour>
   </outline>
 </glyph>

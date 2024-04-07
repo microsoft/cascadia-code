@@ -8,19 +8,19 @@ pan-down
   <outline>
     <contour>
       <point x="704" y="1420"/>
-      <point x="848" y="1276"/>
-      <point x="848" y="1068"/>
-      <point x="704" y="924"/>
-      <point x="496" y="924"/>
-      <point x="352" y="1068"/>
-      <point x="352" y="1276"/>
-      <point x="496" y="1420"/>
       <point x="600" y="1420" type="qcurve" smooth="yes"/>
+      <point x="496" y="1420"/>
+      <point x="352" y="1276"/>
+      <point x="352" y="1068"/>
+      <point x="496" y="924"/>
+      <point x="704" y="924"/>
+      <point x="848" y="1068"/>
+      <point x="848" y="1276"/>
     </contour>
     <contour>
       <point x="1091" y="554" type="line"/>
-      <point x="600" y="0" type="line"/>
       <point x="109" y="554" type="line"/>
+      <point x="600" y="0" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -28,17 +28,17 @@ projector-screen-off
     </contour>
     <contour>
       <point x="908" y="612" type="line"/>
-      <point x="245" y="1274" type="line"/>
-      <point x="1063" y="1274" type="line" smooth="yes"/>
-      <point x="1084" y="1274"/>
-      <point x="1118" y="1243"/>
-      <point x="1118" y="1220" type="qcurve" smooth="yes"/>
-      <point x="1118" y="1166" type="line" smooth="yes"/>
-      <point x="1118" y="1142"/>
-      <point x="1084" y="1109"/>
-      <point x="1063" y="1109" type="qcurve" smooth="yes"/>
-      <point x="1007" y="1109" type="line"/>
       <point x="1007" y="612" type="line"/>
+      <point x="1007" y="1109" type="line"/>
+      <point x="1063" y="1109" type="line" smooth="yes"/>
+      <point x="1084" y="1109"/>
+      <point x="1118" y="1142"/>
+      <point x="1118" y="1166" type="qcurve" smooth="yes"/>
+      <point x="1118" y="1220" type="line" smooth="yes"/>
+      <point x="1118" y="1243"/>
+      <point x="1084" y="1274"/>
+      <point x="1063" y="1274" type="qcurve" smooth="yes"/>
+      <point x="245" y="1274" type="line"/>
     </contour>
   </outline>
 </glyph>

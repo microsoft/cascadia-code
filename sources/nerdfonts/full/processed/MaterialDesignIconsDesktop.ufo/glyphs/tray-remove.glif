@@ -8,19 +8,19 @@ tray-remove
   <outline>
     <contour>
       <point x="20" y="722" type="line"/>
-      <point x="134" y="722" type="line"/>
-      <point x="134" y="431" type="line"/>
-      <point x="1066" y="431" type="line"/>
-      <point x="1066" y="722" type="line"/>
-      <point x="1180" y="722" type="line"/>
-      <point x="1180" y="431" type="line" smooth="yes"/>
-      <point x="1180" y="385"/>
-      <point x="1112" y="317"/>
-      <point x="1066" y="317" type="qcurve" smooth="yes"/>
-      <point x="134" y="317" type="line" smooth="yes"/>
-      <point x="88" y="317"/>
+      <point x="20" y="431" type="line" smooth="yes"/>
       <point x="20" y="385"/>
-      <point x="20" y="431" type="qcurve" smooth="yes"/>
+      <point x="88" y="317"/>
+      <point x="134" y="317" type="qcurve" smooth="yes"/>
+      <point x="1066" y="317" type="line" smooth="yes"/>
+      <point x="1112" y="317"/>
+      <point x="1180" y="385"/>
+      <point x="1180" y="431" type="qcurve" smooth="yes"/>
+      <point x="1180" y="722" type="line"/>
+      <point x="1066" y="722" type="line"/>
+      <point x="1066" y="431" type="line"/>
+      <point x="134" y="431" type="line"/>
+      <point x="134" y="722" type="line"/>
     </contour>
     <contour>
       <point x="600" y="978" type="line"/>

@@ -32,18 +32,18 @@ seat-legroom-reduced
     </contour>
     <contour>
       <point x="158" y="624"/>
-      <point x="276" y="505"/>
-      <point x="362" y="505" type="qcurve" smooth="yes"/>
-      <point x="634" y="505" type="line"/>
-      <point x="634" y="368" type="line"/>
-      <point x="362" y="368" type="line" smooth="yes"/>
-      <point x="269" y="368"/>
-      <point x="113" y="461"/>
-      <point x="20" y="617"/>
-      <point x="20" y="710" type="qcurve" smooth="yes"/>
-      <point x="20" y="1324" type="line"/>
+      <point x="158" y="710" type="qcurve" smooth="yes"/>
       <point x="158" y="1324" type="line"/>
-      <point x="158" y="710" type="line" smooth="yes"/>
+      <point x="20" y="1324" type="line"/>
+      <point x="20" y="710" type="line" smooth="yes"/>
+      <point x="20" y="617"/>
+      <point x="113" y="461"/>
+      <point x="269" y="368"/>
+      <point x="362" y="368" type="qcurve" smooth="yes"/>
+      <point x="634" y="368" type="line"/>
+      <point x="634" y="505" type="line"/>
+      <point x="362" y="505" type="line" smooth="yes"/>
+      <point x="276" y="505"/>
     </contour>
   </outline>
 </glyph>

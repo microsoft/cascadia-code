@@ -8,14 +8,14 @@ map-marker-left-outline
   <outline>
     <contour>
       <point x="737" y="1013"/>
-      <point x="657" y="933"/>
-      <point x="657" y="819"/>
-      <point x="737" y="738"/>
-      <point x="851" y="738"/>
-      <point x="931" y="819"/>
-      <point x="931" y="933"/>
-      <point x="851" y="1013"/>
       <point x="794" y="1013" type="qcurve" smooth="yes"/>
+      <point x="851" y="1013"/>
+      <point x="931" y="933"/>
+      <point x="931" y="819"/>
+      <point x="851" y="738"/>
+      <point x="737" y="738"/>
+      <point x="657" y="819"/>
+      <point x="657" y="933"/>
     </contour>
     <contour>
       <point x="688" y="1262"/>
@@ -63,8 +63,8 @@ map-marker-left-outline
     </contour>
     <contour>
       <point x="297" y="433" type="line"/>
-      <point x="20" y="710" type="line"/>
       <point x="297" y="987" type="line"/>
+      <point x="20" y="710" type="line"/>
     </contour>
   </outline>
 </glyph>

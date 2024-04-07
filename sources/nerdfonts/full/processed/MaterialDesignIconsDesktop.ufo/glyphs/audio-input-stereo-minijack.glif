@@ -18,21 +18,21 @@ audio-input-stereo-minijack
     </contour>
     <contour>
       <point x="813" y="923" type="line"/>
-      <point x="813" y="497" type="line" smooth="yes"/>
-      <point x="813" y="430"/>
-      <point x="733" y="320"/>
-      <point x="670" y="297" type="qcurve"/>
-      <point x="670" y="0" type="line"/>
-      <point x="530" y="0" type="line"/>
-      <point x="530" y="297" type="line"/>
-      <point x="467" y="320"/>
-      <point x="387" y="430"/>
-      <point x="387" y="497" type="qcurve" smooth="yes"/>
-      <point x="387" y="923" type="line"/>
-      <point x="530" y="923" type="line"/>
-      <point x="530" y="1207" type="line"/>
-      <point x="670" y="1207" type="line"/>
       <point x="670" y="923" type="line"/>
+      <point x="670" y="1207" type="line"/>
+      <point x="530" y="1207" type="line"/>
+      <point x="530" y="923" type="line"/>
+      <point x="387" y="923" type="line"/>
+      <point x="387" y="497" type="line" smooth="yes"/>
+      <point x="387" y="430"/>
+      <point x="467" y="320"/>
+      <point x="530" y="297" type="qcurve"/>
+      <point x="530" y="0" type="line"/>
+      <point x="670" y="0" type="line"/>
+      <point x="670" y="297" type="line"/>
+      <point x="733" y="320"/>
+      <point x="813" y="430"/>
+      <point x="813" y="497" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

@@ -27,31 +27,31 @@ battery-heart-outline
     </contour>
     <contour>
       <point x="639" y="1153"/>
-      <point x="680" y="1109"/>
-      <point x="678" y="1080" type="qcurve"/>
-      <point x="678" y="228" type="line" smooth="yes"/>
-      <point x="678" y="200"/>
-      <point x="634" y="158"/>
-      <point x="605" y="158" type="qcurve" smooth="yes"/>
-      <point x="90" y="158" type="line" smooth="yes"/>
-      <point x="61" y="158"/>
-      <point x="20" y="202"/>
-      <point x="20" y="236" type="qcurve" smooth="yes"/>
-      <point x="20" y="1080" type="line" smooth="yes"/>
-      <point x="20" y="1109"/>
-      <point x="61" y="1153"/>
-      <point x="90" y="1153" type="qcurve" smooth="yes"/>
-      <point x="186" y="1153" type="line"/>
-      <point x="186" y="1262" type="line"/>
-      <point x="517" y="1262" type="line"/>
+      <point x="610" y="1153" type="qcurve" smooth="yes"/>
       <point x="517" y="1153" type="line"/>
-      <point x="610" y="1153" type="line" smooth="yes"/>
+      <point x="517" y="1262" type="line"/>
+      <point x="186" y="1262" type="line"/>
+      <point x="186" y="1153" type="line"/>
+      <point x="90" y="1153" type="line" smooth="yes"/>
+      <point x="61" y="1153"/>
+      <point x="20" y="1109"/>
+      <point x="20" y="1080" type="qcurve" smooth="yes"/>
+      <point x="20" y="236" type="line" smooth="yes"/>
+      <point x="20" y="202"/>
+      <point x="61" y="158"/>
+      <point x="90" y="158" type="qcurve" smooth="yes"/>
+      <point x="605" y="158" type="line" smooth="yes"/>
+      <point x="634" y="158"/>
+      <point x="678" y="200"/>
+      <point x="678" y="228" type="qcurve" smooth="yes"/>
+      <point x="678" y="1080" type="line"/>
+      <point x="680" y="1109"/>
     </contour>
     <contour>
       <point x="572" y="1041" type="line"/>
-      <point x="129" y="1041" type="line"/>
-      <point x="129" y="267" type="line"/>
       <point x="572" y="267" type="line"/>
+      <point x="129" y="267" type="line"/>
+      <point x="129" y="1041" type="line"/>
     </contour>
   </outline>
 </glyph>

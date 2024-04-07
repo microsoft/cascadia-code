@@ -41,27 +41,27 @@ smoke-detector-alert
     </contour>
     <contour>
       <point x="284" y="624"/>
-      <point x="407" y="500"/>
-      <point x="583" y="500"/>
-      <point x="706" y="624"/>
-      <point x="706" y="796"/>
-      <point x="583" y="920"/>
-      <point x="407" y="920"/>
-      <point x="284" y="796"/>
       <point x="284" y="710" type="qcurve" smooth="yes"/>
+      <point x="284" y="796"/>
+      <point x="407" y="920"/>
+      <point x="583" y="920"/>
+      <point x="706" y="796"/>
+      <point x="706" y="624"/>
+      <point x="583" y="500"/>
+      <point x="407" y="500"/>
     </contour>
     <contour>
       <point x="1180" y="920" type="line"/>
-      <point x="1180" y="658" type="line"/>
-      <point x="1074" y="658" type="line"/>
-      <point x="1074" y="974" type="line"/>
       <point x="1180" y="974" type="line"/>
+      <point x="1074" y="974" type="line"/>
+      <point x="1074" y="658" type="line"/>
+      <point x="1180" y="658" type="line"/>
     </contour>
     <contour>
       <point x="1180" y="446" type="line"/>
-      <point x="1074" y="446" type="line"/>
-      <point x="1074" y="552" type="line"/>
       <point x="1180" y="552" type="line"/>
+      <point x="1074" y="552" type="line"/>
+      <point x="1074" y="446" type="line"/>
     </contour>
   </outline>
 </glyph>

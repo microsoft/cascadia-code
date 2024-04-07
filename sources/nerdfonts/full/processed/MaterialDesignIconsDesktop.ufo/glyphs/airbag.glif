@@ -44,23 +44,23 @@ airbag
     </contour>
     <contour>
       <point x="1087" y="163" type="line"/>
-      <point x="985" y="61" type="line"/>
-      <point x="569" y="477" type="line"/>
       <point x="774" y="477" type="line"/>
+      <point x="569" y="477" type="line"/>
+      <point x="985" y="61" type="line"/>
     </contour>
     <contour>
       <point x="818" y="538" type="line"/>
-      <point x="818" y="875" type="line" smooth="yes"/>
-      <point x="818" y="950"/>
-      <point x="924" y="1059"/>
-      <point x="1073" y="1059"/>
-      <point x="1182" y="950"/>
-      <point x="1182" y="875" type="qcurve" smooth="yes"/>
-      <point x="1182" y="296" type="line" smooth="yes"/>
-      <point x="1182" y="245"/>
-      <point x="1155" y="201" type="qcurve"/>
-      <point x="1138" y="215" type="line"/>
       <point x="828" y="528" type="line"/>
+      <point x="1138" y="215" type="line"/>
+      <point x="1155" y="201" type="line"/>
+      <point x="1182" y="245"/>
+      <point x="1182" y="296" type="qcurve" smooth="yes"/>
+      <point x="1182" y="875" type="line" smooth="yes"/>
+      <point x="1182" y="950"/>
+      <point x="1073" y="1059"/>
+      <point x="924" y="1059"/>
+      <point x="818" y="950"/>
+      <point x="818" y="875" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

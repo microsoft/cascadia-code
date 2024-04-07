@@ -8,23 +8,23 @@ bell-off-outline
   <outline>
     <contour>
       <point x="1110" y="138" type="line"/>
-      <point x="957" y="288" type="line"/>
-      <point x="124" y="288" type="line"/>
-      <point x="124" y="345" type="line"/>
-      <point x="235" y="454" type="line"/>
-      <point x="235" y="785" type="line" smooth="yes"/>
-      <point x="235" y="881"/>
-      <point x="279" y="966" type="qcurve"/>
-      <point x="20" y="1228" type="line"/>
-      <point x="90" y="1298" type="line"/>
       <point x="1180" y="208" type="line"/>
+      <point x="90" y="1298" type="line"/>
+      <point x="20" y="1228" type="line"/>
+      <point x="279" y="966" type="line"/>
+      <point x="235" y="881"/>
+      <point x="235" y="785" type="qcurve" smooth="yes"/>
+      <point x="235" y="454" type="line"/>
+      <point x="124" y="345" type="line"/>
+      <point x="124" y="288" type="line"/>
+      <point x="957" y="288" type="line"/>
     </contour>
     <contour>
       <point x="849" y="399" type="line"/>
-      <point x="364" y="883" type="line"/>
-      <point x="344" y="837"/>
-      <point x="344" y="785" type="qcurve" smooth="yes"/>
       <point x="344" y="399" type="line"/>
+      <point x="344" y="785" type="line" smooth="yes"/>
+      <point x="344" y="837"/>
+      <point x="364" y="883" type="qcurve"/>
     </contour>
     <contour>
       <point x="509" y="187"/>

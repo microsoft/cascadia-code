@@ -35,18 +35,18 @@ razor-single-edge
       <point x="1180" y="624" type="line"/>
     </contour>
     <contour>
-      <point x="657" y="624" type="line" smooth="yes"/>
-      <point x="657" y="600"/>
-      <point x="625" y="564"/>
-      <point x="575" y="564"/>
-      <point x="543" y="600"/>
-      <point x="543" y="624" type="qcurve" smooth="yes"/>
-      <point x="543" y="739" type="line" smooth="yes"/>
-      <point x="543" y="763"/>
-      <point x="575" y="798"/>
-      <point x="625" y="798"/>
+      <point x="657" y="624" type="qcurve" smooth="yes"/>
+      <point x="657" y="739" type="line" smooth="yes"/>
       <point x="657" y="763"/>
-      <point x="657" y="739" type="qcurve" smooth="yes"/>
+      <point x="625" y="798"/>
+      <point x="575" y="798"/>
+      <point x="543" y="763"/>
+      <point x="543" y="739" type="qcurve" smooth="yes"/>
+      <point x="543" y="624" type="line" smooth="yes"/>
+      <point x="543" y="600"/>
+      <point x="575" y="564"/>
+      <point x="625" y="564"/>
+      <point x="657" y="600"/>
     </contour>
   </outline>
 </glyph>

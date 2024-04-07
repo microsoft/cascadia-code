@@ -8,20 +8,20 @@ checkbox-blank-off-outline
   <outline>
     <contour>
       <point x="1110" y="130" type="line"/>
-      <point x="1012" y="226" type="line"/>
-      <point x="235" y="226" type="line" smooth="yes"/>
-      <point x="188" y="226"/>
-      <point x="124" y="291"/>
-      <point x="124" y="337" type="qcurve" smooth="yes"/>
-      <point x="124" y="1114" type="line"/>
-      <point x="20" y="1220" type="line"/>
-      <point x="90" y="1290" type="line"/>
       <point x="1180" y="200" type="line"/>
+      <point x="90" y="1290" type="line"/>
+      <point x="20" y="1220" type="line"/>
+      <point x="124" y="1114" type="line"/>
+      <point x="124" y="337" type="line" smooth="yes"/>
+      <point x="124" y="291"/>
+      <point x="188" y="226"/>
+      <point x="235" y="226" type="qcurve" smooth="yes"/>
+      <point x="1012" y="226" type="line"/>
     </contour>
     <contour>
       <point x="903" y="337" type="line"/>
-      <point x="235" y="1005" type="line"/>
       <point x="235" y="337" type="line"/>
+      <point x="235" y="1005" type="line"/>
     </contour>
     <contour>
       <point x="1007" y="1109" type="line"/>

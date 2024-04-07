@@ -38,26 +38,26 @@ scale-off
     </contour>
     <contour>
       <point x="300" y="1220" type="line"/>
-      <point x="1172" y="1220" type="line"/>
-      <point x="1172" y="1109" type="line"/>
-      <point x="732" y="933" type="line"/>
-      <point x="732" y="821" type="line"/>
-      <point x="906" y="788"/>
+      <point x="1167" y="353" type="line"/>
       <point x="1146" y="529"/>
-      <point x="1167" y="353" type="qcurve"/>
+      <point x="906" y="788"/>
+      <point x="732" y="821" type="qcurve"/>
+      <point x="732" y="933" type="line"/>
+      <point x="1172" y="1109" type="line"/>
+      <point x="1172" y="1220" type="line"/>
     </contour>
     <contour>
       <point x="667" y="392"/>
-      <point x="732" y="327"/>
-      <point x="732" y="236"/>
-      <point x="667" y="171"/>
-      <point x="621" y="171" type="qcurve" smooth="yes"/>
-      <point x="595" y="171"/>
-      <point x="572" y="182" type="qcurve" smooth="yes"/>
-      <point x="359" y="280" type="line"/>
-      <point x="572" y="381" type="line" smooth="yes"/>
-      <point x="595" y="392"/>
       <point x="621" y="392" type="qcurve" smooth="yes"/>
+      <point x="595" y="392"/>
+      <point x="572" y="381" type="qcurve" smooth="yes"/>
+      <point x="359" y="280" type="line"/>
+      <point x="572" y="182" type="line" smooth="yes"/>
+      <point x="595" y="171"/>
+      <point x="621" y="171" type="qcurve" smooth="yes"/>
+      <point x="667" y="171"/>
+      <point x="732" y="236"/>
+      <point x="732" y="327"/>
     </contour>
   </outline>
 </glyph>

@@ -77,13 +77,13 @@ timer-lock
     </contour>
     <contour>
       <point x="1033" y="449" type="line"/>
-      <point x="859" y="449" type="line"/>
-      <point x="859" y="536" type="line" smooth="yes"/>
-      <point x="859" y="569"/>
-      <point x="911" y="609"/>
-      <point x="984" y="609"/>
+      <point x="1033" y="536" type="line" smooth="yes"/>
       <point x="1033" y="569"/>
-      <point x="1033" y="536" type="qcurve" smooth="yes"/>
+      <point x="984" y="609"/>
+      <point x="911" y="609"/>
+      <point x="859" y="569"/>
+      <point x="859" y="536" type="qcurve" smooth="yes"/>
+      <point x="859" y="449" type="line"/>
     </contour>
   </outline>
 </glyph>

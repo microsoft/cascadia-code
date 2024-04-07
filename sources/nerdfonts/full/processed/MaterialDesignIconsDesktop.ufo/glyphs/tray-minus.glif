@@ -14,19 +14,19 @@ tray-minus
     </contour>
     <contour>
       <point x="20" y="797" type="line"/>
-      <point x="134" y="797" type="line"/>
-      <point x="134" y="506" type="line"/>
-      <point x="1066" y="506" type="line"/>
-      <point x="1066" y="797" type="line"/>
-      <point x="1180" y="797" type="line"/>
-      <point x="1180" y="506" type="line" smooth="yes"/>
-      <point x="1180" y="459"/>
-      <point x="1112" y="391"/>
-      <point x="1066" y="391" type="qcurve" smooth="yes"/>
-      <point x="134" y="391" type="line" smooth="yes"/>
-      <point x="88" y="391"/>
+      <point x="20" y="506" type="line" smooth="yes"/>
       <point x="20" y="459"/>
-      <point x="20" y="506" type="qcurve" smooth="yes"/>
+      <point x="88" y="391"/>
+      <point x="134" y="391" type="qcurve" smooth="yes"/>
+      <point x="1066" y="391" type="line" smooth="yes"/>
+      <point x="1112" y="391"/>
+      <point x="1180" y="459"/>
+      <point x="1180" y="506" type="qcurve" smooth="yes"/>
+      <point x="1180" y="797" type="line"/>
+      <point x="1066" y="797" type="line"/>
+      <point x="1066" y="506" type="line"/>
+      <point x="134" y="506" type="line"/>
+      <point x="134" y="797" type="line"/>
     </contour>
   </outline>
 </glyph>

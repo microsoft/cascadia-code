@@ -60,13 +60,13 @@ folder-lock
     </contour>
     <contour>
       <point x="1040" y="544" type="line"/>
-      <point x="874" y="544" type="line"/>
-      <point x="874" y="627" type="line" smooth="yes"/>
-      <point x="874" y="658"/>
-      <point x="924" y="697"/>
-      <point x="994" y="697"/>
+      <point x="1040" y="627" type="line" smooth="yes"/>
       <point x="1040" y="658"/>
-      <point x="1040" y="627" type="qcurve" smooth="yes"/>
+      <point x="994" y="697"/>
+      <point x="924" y="697"/>
+      <point x="874" y="658"/>
+      <point x="874" y="627" type="qcurve" smooth="yes"/>
+      <point x="874" y="544" type="line"/>
     </contour>
   </outline>
 </glyph>

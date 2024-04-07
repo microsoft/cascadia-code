@@ -36,20 +36,20 @@ activate-breakpoints
       <point x="1180" y="918" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="392" y="874" type="line"/>
-      <point x="494" y="874"/>
-      <point x="666" y="776"/>
-      <point x="768" y="604"/>
-      <point x="768" y="400"/>
-      <point x="666" y="228"/>
-      <point x="494" y="130"/>
-      <point x="290" y="130"/>
-      <point x="117" y="228"/>
-      <point x="20" y="400"/>
-      <point x="20" y="604"/>
-      <point x="117" y="776"/>
+      <point x="392" y="874" type="qcurve"/>
+      <point x="392" y="878" type="line"/>
       <point x="290" y="878"/>
-      <point x="392" y="878" type="qcurve"/>
+      <point x="117" y="776"/>
+      <point x="20" y="604"/>
+      <point x="20" y="400"/>
+      <point x="117" y="228"/>
+      <point x="290" y="130"/>
+      <point x="494" y="130"/>
+      <point x="666" y="228"/>
+      <point x="768" y="400"/>
+      <point x="768" y="604"/>
+      <point x="666" y="776"/>
+      <point x="494" y="874"/>
     </contour>
   </outline>
 </glyph>

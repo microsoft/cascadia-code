@@ -54,14 +54,14 @@ key-alert-outline
     </contour>
     <contour>
       <point x="600" y="1072"/>
-      <point x="499" y="1176"/>
-      <point x="352" y="1176"/>
-      <point x="251" y="1072"/>
-      <point x="251" y="928"/>
-      <point x="352" y="827"/>
-      <point x="499" y="827"/>
-      <point x="600" y="928"/>
       <point x="600" y="1001" type="qcurve" smooth="yes"/>
+      <point x="600" y="928"/>
+      <point x="499" y="827"/>
+      <point x="352" y="827"/>
+      <point x="251" y="928"/>
+      <point x="251" y="1072"/>
+      <point x="352" y="1176"/>
+      <point x="499" y="1176"/>
     </contour>
     <contour>
       <point x="401" y="941"/>
@@ -82,9 +82,9 @@ key-alert-outline
     </contour>
     <contour>
       <point x="1066" y="536" type="line"/>
-      <point x="1180" y="536" type="line"/>
-      <point x="1180" y="419" type="line"/>
       <point x="1066" y="419" type="line"/>
+      <point x="1180" y="419" type="line"/>
+      <point x="1180" y="536" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -24,29 +24,29 @@ lightbulb-spot-off
     </contour>
     <contour>
       <point x="357" y="1166" type="line"/>
-      <point x="245" y="1274" type="line"/>
-      <point x="1172" y="1274" type="line"/>
       <point x="1172" y="1166" type="line"/>
+      <point x="1172" y="1274" type="line"/>
+      <point x="245" y="1274" type="line"/>
     </contour>
     <contour>
       <point x="1063" y="899"/>
-      <point x="1004" y="798" type="qcurve" smooth="yes"/>
-      <point x="957" y="720"/>
-      <point x="862" y="658" type="qcurve"/>
+      <point x="1063" y="1054" type="qcurve"/>
       <point x="465" y="1054" type="line"/>
-      <point x="1063" y="1054" type="line"/>
+      <point x="862" y="658" type="line"/>
+      <point x="957" y="720"/>
+      <point x="1004" y="798" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
       <point x="675" y="337" type="line"/>
-      <point x="786" y="337" type="line"/>
-      <point x="786" y="171" type="line"/>
       <point x="675" y="171" type="line"/>
+      <point x="786" y="171" type="line"/>
+      <point x="786" y="337" type="line"/>
     </contour>
     <contour>
       <point x="455" y="337" type="line"/>
-      <point x="566" y="337" type="line"/>
-      <point x="566" y="171" type="line"/>
       <point x="455" y="171" type="line"/>
+      <point x="566" y="171" type="line"/>
+      <point x="566" y="337" type="line"/>
     </contour>
   </outline>
 </glyph>

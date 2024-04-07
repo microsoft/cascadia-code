@@ -7,14 +7,14 @@ uniF09C
 </note>
   <outline>
     <contour>
-      <point x="601" y="1289" type="line"/>
-      <point x="759" y="1289"/>
-      <point x="1025" y="1134"/>
-      <point x="1180" y="868"/>
-      <point x="1180" y="553"/>
-      <point x="1025" y="286"/>
+      <point x="601" y="1289" type="qcurve"/>
+      <point x="601" y="131" type="line"/>
       <point x="759" y="131"/>
-      <point x="601" y="131" type="qcurve"/>
+      <point x="1025" y="286"/>
+      <point x="1180" y="553"/>
+      <point x="1180" y="868"/>
+      <point x="1025" y="1134"/>
+      <point x="759" y="1289"/>
     </contour>
   </outline>
   <lib>

@@ -8,27 +8,27 @@ seat-individual-suite
   <outline>
     <contour>
       <point x="272" y="658"/>
-      <point x="178" y="749"/>
-      <point x="178" y="880"/>
-      <point x="272" y="974"/>
-      <point x="403" y="974"/>
-      <point x="494" y="880"/>
-      <point x="494" y="749"/>
-      <point x="403" y="658"/>
       <point x="336" y="658" type="qcurve" smooth="yes"/>
+      <point x="403" y="658"/>
+      <point x="494" y="749"/>
+      <point x="494" y="880"/>
+      <point x="403" y="974"/>
+      <point x="272" y="974"/>
+      <point x="178" y="880"/>
+      <point x="178" y="749"/>
     </contour>
     <contour>
       <point x="1057" y="974"/>
-      <point x="1180" y="851"/>
-      <point x="1180" y="762" type="qcurve" smooth="yes"/>
-      <point x="1180" y="446" type="line"/>
-      <point x="20" y="446" type="line"/>
-      <point x="20" y="974" type="line"/>
-      <point x="126" y="974" type="line"/>
-      <point x="126" y="604" type="line"/>
-      <point x="548" y="604" type="line"/>
+      <point x="968" y="974" type="qcurve" smooth="yes"/>
       <point x="548" y="974" type="line"/>
-      <point x="968" y="974" type="line" smooth="yes"/>
+      <point x="548" y="604" type="line"/>
+      <point x="126" y="604" type="line"/>
+      <point x="126" y="974" type="line"/>
+      <point x="20" y="974" type="line"/>
+      <point x="20" y="446" type="line"/>
+      <point x="1180" y="446" type="line"/>
+      <point x="1180" y="762" type="line" smooth="yes"/>
+      <point x="1180" y="851"/>
     </contour>
   </outline>
 </glyph>

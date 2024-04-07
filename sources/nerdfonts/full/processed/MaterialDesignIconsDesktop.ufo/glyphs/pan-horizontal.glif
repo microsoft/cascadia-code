@@ -8,24 +8,24 @@ pan-horizontal
   <outline>
     <contour>
       <point x="294" y="467" type="line"/>
-      <point x="20" y="710" type="line"/>
       <point x="294" y="953" type="line"/>
+      <point x="20" y="710" type="line"/>
     </contour>
     <contour>
       <point x="1180" y="710" type="line"/>
-      <point x="906" y="467" type="line"/>
       <point x="906" y="953" type="line"/>
+      <point x="906" y="467" type="line"/>
     </contour>
     <contour>
       <point x="651" y="833"/>
-      <point x="723" y="761"/>
-      <point x="723" y="659"/>
-      <point x="651" y="587"/>
-      <point x="549" y="587"/>
-      <point x="477" y="659"/>
-      <point x="477" y="761"/>
-      <point x="549" y="833"/>
       <point x="600" y="833" type="qcurve" smooth="yes"/>
+      <point x="549" y="833"/>
+      <point x="477" y="761"/>
+      <point x="477" y="659"/>
+      <point x="549" y="587"/>
+      <point x="651" y="587"/>
+      <point x="723" y="659"/>
+      <point x="723" y="761"/>
     </contour>
   </outline>
 </glyph>

@@ -38,25 +38,25 @@ order-alphabetical-ascending
     </contour>
     <contour>
       <point x="315" y="1260"/>
-      <point x="387" y="1188"/>
-      <point x="387" y="1137" type="qcurve" smooth="yes"/>
-      <point x="387" y="770" type="line"/>
-      <point x="263" y="770" type="line"/>
-      <point x="263" y="893" type="line"/>
-      <point x="143" y="893" type="line"/>
-      <point x="143" y="770" type="line"/>
-      <point x="20" y="770" type="line"/>
-      <point x="20" y="1137" type="line" smooth="yes"/>
-      <point x="20" y="1188"/>
+      <point x="263" y="1260" type="qcurve" smooth="yes"/>
+      <point x="143" y="1260" type="line" smooth="yes"/>
       <point x="92" y="1260"/>
-      <point x="143" y="1260" type="qcurve" smooth="yes"/>
-      <point x="263" y="1260" type="line" smooth="yes"/>
+      <point x="20" y="1188"/>
+      <point x="20" y="1137" type="qcurve" smooth="yes"/>
+      <point x="20" y="770" type="line"/>
+      <point x="143" y="770" type="line"/>
+      <point x="143" y="893" type="line"/>
+      <point x="263" y="893" type="line"/>
+      <point x="263" y="770" type="line"/>
+      <point x="387" y="770" type="line"/>
+      <point x="387" y="1137" type="line" smooth="yes"/>
+      <point x="387" y="1188"/>
     </contour>
     <contour>
       <point x="263" y="1137" type="line"/>
-      <point x="143" y="1137" type="line"/>
-      <point x="143" y="1016" type="line"/>
       <point x="263" y="1016" type="line"/>
+      <point x="143" y="1016" type="line"/>
+      <point x="143" y="1137" type="line"/>
     </contour>
   </outline>
 </glyph>

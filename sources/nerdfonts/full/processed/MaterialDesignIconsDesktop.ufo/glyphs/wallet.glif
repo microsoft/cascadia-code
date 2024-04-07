@@ -36,20 +36,20 @@ wallet
     </contour>
     <contour>
       <point x="570" y="953" type="line"/>
-      <point x="1180" y="953" type="line"/>
-      <point x="1180" y="467" type="line"/>
       <point x="570" y="467" type="line"/>
+      <point x="1180" y="467" type="line"/>
+      <point x="1180" y="953" type="line"/>
     </contour>
     <contour>
       <point x="853" y="618"/>
-      <point x="905" y="673"/>
-      <point x="905" y="747"/>
-      <point x="853" y="802"/>
-      <point x="776" y="802"/>
-      <point x="722" y="747"/>
-      <point x="722" y="673"/>
-      <point x="776" y="618"/>
       <point x="813" y="618" type="qcurve" smooth="yes"/>
+      <point x="776" y="618"/>
+      <point x="722" y="673"/>
+      <point x="722" y="747"/>
+      <point x="776" y="802"/>
+      <point x="853" y="802"/>
+      <point x="905" y="747"/>
+      <point x="905" y="673"/>
     </contour>
   </outline>
 </glyph>

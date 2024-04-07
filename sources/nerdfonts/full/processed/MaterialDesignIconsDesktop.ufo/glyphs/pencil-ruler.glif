@@ -8,10 +8,10 @@ pencil-ruler
   <outline>
     <contour>
       <point x="713" y="1028" type="line"/>
-      <point x="918" y="823" type="line"/>
-      <point x="313" y="217" type="line"/>
-      <point x="107" y="217" type="line"/>
       <point x="107" y="423" type="line"/>
+      <point x="107" y="217" type="line"/>
+      <point x="313" y="217" type="line"/>
+      <point x="918" y="823" type="line"/>
     </contour>
     <contour>
       <point x="1085" y="458" type="line"/>
@@ -39,15 +39,15 @@ pencil-ruler
     </contour>
     <contour>
       <point x="977" y="882" type="line"/>
-      <point x="772" y="1087" type="line"/>
-      <point x="872" y="1187" type="line" smooth="yes"/>
-      <point x="887" y="1203"/>
-      <point x="934" y="1203"/>
-      <point x="949" y="1187" type="qcurve" smooth="yes"/>
-      <point x="1077" y="1062" type="line" smooth="yes"/>
-      <point x="1093" y="1044"/>
+      <point x="1077" y="985" type="line" smooth="yes"/>
       <point x="1093" y="1000"/>
-      <point x="1077" y="985" type="qcurve" smooth="yes"/>
+      <point x="1093" y="1044"/>
+      <point x="1077" y="1062" type="qcurve" smooth="yes"/>
+      <point x="949" y="1187" type="line" smooth="yes"/>
+      <point x="934" y="1203"/>
+      <point x="887" y="1203"/>
+      <point x="872" y="1187" type="qcurve" smooth="yes"/>
+      <point x="772" y="1087" type="line"/>
     </contour>
   </outline>
 </glyph>

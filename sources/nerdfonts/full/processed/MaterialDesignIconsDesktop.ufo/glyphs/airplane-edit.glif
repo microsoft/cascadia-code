@@ -31,22 +31,22 @@ airplane-edit
     </contour>
     <contour>
       <point x="965" y="609" type="line"/>
-      <point x="1079" y="495" type="line"/>
-      <point x="740" y="158" type="line"/>
-      <point x="626" y="158" type="line"/>
       <point x="626" y="270" type="line"/>
+      <point x="626" y="158" type="line"/>
+      <point x="740" y="158" type="line"/>
+      <point x="1079" y="495" type="line"/>
     </contour>
     <contour>
       <point x="1180" y="619"/>
-      <point x="1180" y="596"/>
-      <point x="1170" y="588" type="qcurve"/>
-      <point x="1118" y="534" type="line"/>
-      <point x="1004" y="648" type="line"/>
-      <point x="1058" y="702" type="line" smooth="yes"/>
-      <point x="1066" y="710"/>
+      <point x="1170" y="630" type="qcurve" smooth="yes"/>
+      <point x="1097" y="702" type="line" smooth="yes"/>
       <point x="1089" y="710"/>
-      <point x="1097" y="702" type="qcurve" smooth="yes"/>
-      <point x="1170" y="630" type="line" smooth="yes"/>
+      <point x="1066" y="710"/>
+      <point x="1058" y="702" type="qcurve" smooth="yes"/>
+      <point x="1004" y="648" type="line"/>
+      <point x="1118" y="534" type="line"/>
+      <point x="1170" y="588" type="line"/>
+      <point x="1180" y="596"/>
     </contour>
   </outline>
 </glyph>

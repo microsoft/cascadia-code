@@ -17,24 +17,24 @@ seat-flat
     </contour>
     <contour>
       <point x="1180" y="622" type="line"/>
-      <point x="1180" y="507" type="line"/>
-      <point x="832" y="507" type="line"/>
-      <point x="832" y="390" type="line"/>
-      <point x="370" y="390" type="line"/>
-      <point x="370" y="507" type="line"/>
-      <point x="21" y="507" type="line"/>
       <point x="21" y="622" type="line"/>
+      <point x="21" y="507" type="line"/>
+      <point x="370" y="507" type="line"/>
+      <point x="370" y="390" type="line"/>
+      <point x="832" y="390" type="line"/>
+      <point x="832" y="507" type="line"/>
+      <point x="1180" y="507" type="line"/>
     </contour>
     <contour>
       <point x="269" y="681"/>
-      <point x="125" y="679"/>
-      <point x="21" y="779"/>
-      <point x="19" y="923"/>
-      <point x="119" y="1027"/>
-      <point x="263" y="1030"/>
-      <point x="367" y="929"/>
-      <point x="370" y="785"/>
       <point x="318" y="733" type="qcurve" smooth="yes"/>
+      <point x="370" y="785"/>
+      <point x="367" y="929"/>
+      <point x="263" y="1030"/>
+      <point x="119" y="1027"/>
+      <point x="19" y="923"/>
+      <point x="21" y="779"/>
+      <point x="125" y="679"/>
     </contour>
   </outline>
 </glyph>
