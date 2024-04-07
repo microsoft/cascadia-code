@@ -400,285 +400,283 @@ if __name__ == "__main__":
         if s.lib.get("com.schriftgestaltung.export", True)
     ]
 
-    build_font_variable(designspace,"Cascadia Code NF",args.vtt_compile)
+    Stage 1: Make all the things.
+    pool = multiprocessing.pool.Pool(processes=multiprocessing.cpu_count())
+    processes = []
+    processes.append(
+        pool.apply_async(
+            build_font_variable,
+            (
+                designspace,
+                "Cascadia Code",
+                args.vtt_compile,
+            ),
+        )
+    )
+    if args.italic:
+        processes.append(
+            pool.apply_async(
+                build_font_variable,
+                (
+                    designspaceItalic,
+                    "Cascadia Code Italic",
+                    args.vtt_compile,
+                ),
+            )
+        )
+    if args.mono:
+        processes.append(
+            pool.apply_async(
+                build_font_variable,
+                (
+                    designspace,
+                    "Cascadia Mono",
+                    args.vtt_compile,
+                ),
+            )
+        )
+        if args.italic:
+            processes.append(
+                pool.apply_async(
+                    build_font_variable,
+                    (
+                        designspaceItalic,
+                        "Cascadia Mono Italic",
+                        args.vtt_compile,
+                    ),
+                )
+            )
+    if args.powerline:
+        processes.append(
+            pool.apply_async(
+                build_font_variable,
+                (
+                    designspace,
+                    "Cascadia Code PL",
+                    args.vtt_compile,
+                ),
+            )
+        )
+        if args.italic:
+            processes.append(
+                pool.apply_async(
+                    build_font_variable,
+                    (
+                        designspaceItalic,
+                        "Cascadia Code PL Italic",
+                        args.vtt_compile,
+                    ),
+                )
+            )
+        if args.mono:
+            processes.append(
+                pool.apply_async(
+                    build_font_variable,
+                    (
+                        designspace,
+                        "Cascadia Mono PL",
+                        args.vtt_compile,
+                    ),
+                )
+            )
+            if args.italic:
+                processes.append(
+                    pool.apply_async(
+                        build_font_variable,
+                        (
+                            designspaceItalic,
+                            "Cascadia Mono PL Italic",
+                            args.vtt_compile,
+                        ),
+                    )
+                )
+    if args.nerdfonts:
+        processes.append(
+            pool.apply_async(
+                build_font_variable,
+                (
+                    designspace,
+                    "Cascadia Code NF",
+                    args.vtt_compile,
+                ),
+            )
+        )
+        if args.italic:
+            processes.append(
+                pool.apply_async(
+                    build_font_variable,
+                    (
+                        designspaceItalic,
+                        "Cascadia Code NF Italic",
+                        args.vtt_compile,
+                    ),
+                )
+            )
+        if args.mono:
+            processes.append(
+                pool.apply_async(
+                    build_font_variable,
+                    (
+                        designspace,
+                        "Cascadia Mono NF",
+                        args.vtt_compile,
+                    ),
+                )
+            )
+            if args.italic:
+                processes.append(
+                    pool.apply_async(
+                        build_font_variable,
+                        (
+                            designspaceItalic,
+                            "Cascadia Mono NF Italic",
+                            args.vtt_compile,
+                        ),
+                    )
+                )
 
-    # Stage 1: Make all the things.
-    # pool = multiprocessing.pool.Pool(processes=multiprocessing.cpu_count())
-    # processes = []
-    # processes.append(
-    #     pool.apply_async(
-    #         build_font_variable,
-    #         (
-    #             designspace,
-    #             "Cascadia Code",
-    #             args.vtt_compile,
-    #         ),
-    #     )
-    # )
-    # if args.italic:
-    #     processes.append(
-    #         pool.apply_async(
-    #             build_font_variable,
-    #             (
-    #                 designspaceItalic,
-    #                 "Cascadia Code Italic",
-    #                 args.vtt_compile,
-    #             ),
-    #         )
-    #     )
-    # if args.mono:
-    #     processes.append(
-    #         pool.apply_async(
-    #             build_font_variable,
-    #             (
-    #                 designspace,
-    #                 "Cascadia Mono",
-    #                 args.vtt_compile,
-    #             ),
-    #         )
-    #     )
-    #     if args.italic:
-    #         processes.append(
-    #             pool.apply_async(
-    #                 build_font_variable,
-    #                 (
-    #                     designspaceItalic,
-    #                     "Cascadia Mono Italic",
-    #                     args.vtt_compile,
-    #                 ),
-    #             )
-    #         )
-    # if args.powerline:
-    #     processes.append(
-    #         pool.apply_async(
-    #             build_font_variable,
-    #             (
-    #                 designspace,
-    #                 "Cascadia Code PL",
-    #                 args.vtt_compile,
-    #             ),
-    #         )
-    #     )
-    #     if args.italic:
-    #         processes.append(
-    #             pool.apply_async(
-    #                 build_font_variable,
-    #                 (
-    #                     designspaceItalic,
-    #                     "Cascadia Code PL Italic",
-    #                     args.vtt_compile,
-    #                 ),
-    #             )
-    #         )
-    #     if args.mono:
-    #         processes.append(
-    #             pool.apply_async(
-    #                 build_font_variable,
-    #                 (
-    #                     designspace,
-    #                     "Cascadia Mono PL",
-    #                     args.vtt_compile,
-    #                 ),
-    #             )
-    #         )
-    #         if args.italic:
-    #             processes.append(
-    #                 pool.apply_async(
-    #                     build_font_variable,
-    #                     (
-    #                         designspaceItalic,
-    #                         "Cascadia Mono PL Italic",
-    #                         args.vtt_compile,
-    #                     ),
-    #                 )
-    #             )
-    # if args.nerdfonts:
-    #     processes.append(
-    #         pool.apply_async(
-    #             build_font_variable,
-    #             (
-    #                 designspace,
-    #                 "Cascadia Code NF",
-    #                 args.vtt_compile,
-    #             ),
-    #         )
-    #     )
-    #     if args.italic:
-    #         processes.append(
-    #             pool.apply_async(
-    #                 build_font_variable,
-    #                 (
-    #                     designspaceItalic,
-    #                     "Cascadia Code NF Italic",
-    #                     args.vtt_compile,
-    #                 ),
-    #             )
-    #         )
-    #     if args.mono:
-    #         processes.append(
-    #             pool.apply_async(
-    #                 build_font_variable,
-    #                 (
-    #                     designspace,
-    #                     "Cascadia Mono NF",
-    #                     args.vtt_compile,
-    #                 ),
-    #             )
-    #         )
-    #         if args.italic:
-    #             processes.append(
-    #                 pool.apply_async(
-    #                     build_font_variable,
-    #                     (
-    #                         designspaceItalic,
-    #                         "Cascadia Mono NF Italic",
-    #                         args.vtt_compile,
-    #                     ),
-    #                 )
-    #             )
+    if args.static_fonts:
+        # Build the Regulars
+        for instance_descriptor in designspace.instances:
+            processes.append(
+                pool.apply_async(
+                    build_font_static,
+                    (
+                        designspace,
+                        instance_descriptor,
+                        "Cascadia Code",
+                    ),
+                )
+            )
+            if args.mono:
+                processes.append(
+                    pool.apply_async(
+                        build_font_static,
+                        (
+                            designspace,
+                            instance_descriptor,
+                            "Cascadia Mono",
+                        ),
+                    )
+                )
+            if args.powerline:
+                processes.append(
+                    pool.apply_async(
+                        build_font_static,
+                        (
+                            designspace,
+                            instance_descriptor,
+                            "Cascadia Code PL",
+                        ),
+                    )
+                )
+                if args.mono:
+                    processes.append(
+                        pool.apply_async(
+                            build_font_static,
+                            (
+                                designspace,
+                                instance_descriptor,
+                                "Cascadia Mono PL",
+                            ),
+                        )
+                    )
+            if args.nerdfonts:
+                processes.append(
+                    pool.apply_async(
+                        build_font_static,
+                        (
+                            designspace,
+                            instance_descriptor,
+                            "Cascadia Code NF",
+                        ),
+                    )
+                )
+                if args.mono:
+                    processes.append(
+                        pool.apply_async(
+                            build_font_static,
+                            (
+                                designspace,
+                                instance_descriptor,
+                                "Cascadia Mono NF",
+                            ),
+                        )
+                    )
+        if args.italic:
+            # Build the Regulars
+            for instance_descriptor in designspaceItalic.instances:
+                processes.append(
+                    pool.apply_async(
+                        build_font_static,
+                        (
+                            designspaceItalic,
+                            instance_descriptor,
+                            "Cascadia Code Italic",
+                        ),
+                    )
+                )
+                if args.mono:
+                    processes.append(
+                        pool.apply_async(
+                            build_font_static,
+                            (
+                                designspaceItalic,
+                                instance_descriptor,
+                                "Cascadia Mono Italic",
+                            ),
+                        )
+                    )
+                if args.powerline:
+                    processes.append(
+                        pool.apply_async(
+                            build_font_static,
+                            (
+                                designspaceItalic,
+                                instance_descriptor,
+                                "Cascadia Code PL Italic",
+                            ),
+                        )
+                    )
+                    if args.mono:
+                        processes.append(
+                            pool.apply_async(
+                                build_font_static,
+                                (
+                                    designspaceItalic,
+                                    instance_descriptor,
+                                    "Cascadia Mono PL Italic",
+                                ),
+                            )
+                        )
+                if args.nerdfonts:
+                    processes.append(
+                        pool.apply_async(
+                            build_font_static,
+                            (
+                                designspaceItalic,
+                                instance_descriptor,
+                                "Cascadia Code NF Italic",
+                            ),
+                        )
+                    )
+                    if args.mono:
+                        processes.append(
+                            pool.apply_async(
+                                build_font_static,
+                                (
+                                    designspaceItalic,
+                                    instance_descriptor,
+                                    "Cascadia Mono NF Italic",
+                                ),
+                            )
+                        )
 
-    # if args.static_fonts:
-    #     # Build the Regulars
-    #     for instance_descriptor in designspace.instances:
-    #         processes.append(
-    #             pool.apply_async(
-    #                 build_font_static,
-    #                 (
-    #                     designspace,
-    #                     instance_descriptor,
-    #                     "Cascadia Code",
-    #                 ),
-    #             )
-    #         )
-    #         if args.mono:
-    #             processes.append(
-    #                 pool.apply_async(
-    #                     build_font_static,
-    #                     (
-    #                         designspace,
-    #                         instance_descriptor,
-    #                         "Cascadia Mono",
-    #                     ),
-    #                 )
-    #             )
-    #         if args.powerline:
-    #             processes.append(
-    #                 pool.apply_async(
-    #                     build_font_static,
-    #                     (
-    #                         designspace,
-    #                         instance_descriptor,
-    #                         "Cascadia Code PL",
-    #                     ),
-    #                 )
-    #             )
-    #             if args.mono:
-    #                 processes.append(
-    #                     pool.apply_async(
-    #                         build_font_static,
-    #                         (
-    #                             designspace,
-    #                             instance_descriptor,
-    #                             "Cascadia Mono PL",
-    #                         ),
-    #                     )
-    #                 )
-    #         if args.nerdfonts:
-    #             processes.append(
-    #                 pool.apply_async(
-    #                     build_font_static,
-    #                     (
-    #                         designspace,
-    #                         instance_descriptor,
-    #                         "Cascadia Code NF",
-    #                     ),
-    #                 )
-    #             )
-    #             if args.mono:
-    #                 processes.append(
-    #                     pool.apply_async(
-    #                         build_font_static,
-    #                         (
-    #                             designspace,
-    #                             instance_descriptor,
-    #                             "Cascadia Mono NF",
-    #                         ),
-    #                     )
-    #                 )
-    #     if args.italic:
-    #         # Build the Regulars
-    #         for instance_descriptor in designspaceItalic.instances:
-    #             processes.append(
-    #                 pool.apply_async(
-    #                     build_font_static,
-    #                     (
-    #                         designspaceItalic,
-    #                         instance_descriptor,
-    #                         "Cascadia Code Italic",
-    #                     ),
-    #                 )
-    #             )
-    #             if args.mono:
-    #                 processes.append(
-    #                     pool.apply_async(
-    #                         build_font_static,
-    #                         (
-    #                             designspaceItalic,
-    #                             instance_descriptor,
-    #                             "Cascadia Mono Italic",
-    #                         ),
-    #                     )
-    #                 )
-    #             if args.powerline:
-    #                 processes.append(
-    #                     pool.apply_async(
-    #                         build_font_static,
-    #                         (
-    #                             designspaceItalic,
-    #                             instance_descriptor,
-    #                             "Cascadia Code PL Italic",
-    #                         ),
-    #                     )
-    #                 )
-    #                 if args.mono:
-    #                     processes.append(
-    #                         pool.apply_async(
-    #                             build_font_static,
-    #                             (
-    #                                 designspaceItalic,
-    #                                 instance_descriptor,
-    #                                 "Cascadia Mono PL Italic",
-    #                             ),
-    #                         )
-    #                     )
-    #             if args.nerdfonts:
-    #                 processes.append(
-    #                     pool.apply_async(
-    #                         build_font_static,
-    #                         (
-    #                             designspaceItalic,
-    #                             instance_descriptor,
-    #                             "Cascadia Code NF Italic",
-    #                         ),
-    #                     )
-    #                 )
-    #                 if args.mono:
-    #                     processes.append(
-    #                         pool.apply_async(
-    #                             build_font_static,
-    #                             (
-    #                                 designspaceItalic,
-    #                                 instance_descriptor,
-    #                                 "Cascadia Mono NF Italic",
-    #                             ),
-    #                         )
-    #                     )
-
-    # pool.close()
-    # pool.join()
-    # for process in processes:
-    #     process.get()
-    # del processes, pool
+    pool.close()
+    pool.join()
+    for process in processes:
+        process.get()
+    del processes, pool
 
     # Step 1.5: Adding STAT tables in one go
     print ("[Cascadia Variable fonts] Fixing STAT tables")
