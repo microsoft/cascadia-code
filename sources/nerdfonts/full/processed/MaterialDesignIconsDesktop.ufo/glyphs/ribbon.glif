@@ -8,9 +8,9 @@ ribbon
   <outline>
     <contour>
       <point x="786" y="303" type="line"/>
-      <point x="996" y="96" type="line"/>
-      <point x="903" y="0" type="line"/>
       <point x="693" y="210" type="line"/>
+      <point x="903" y="0" type="line"/>
+      <point x="996" y="96" type="line"/>
     </contour>
     <contour>
       <point x="878" y="770"/>
@@ -32,23 +32,23 @@ ribbon
     </contour>
     <contour>
       <point x="297" y="0" type="line"/>
-      <point x="204" y="96" type="line"/>
-      <point x="507" y="396" type="line"/>
-      <point x="275" y="628" type="line"/>
-      <point x="275" y="628" type="line"/>
-      <point x="210" y="690"/>
-      <point x="139" y="863"/>
-      <point x="139" y="956" type="qcurve" smooth="yes"/>
-      <point x="139" y="1083"/>
-      <point x="263" y="1293"/>
-      <point x="473" y="1420"/>
-      <point x="727" y="1420"/>
-      <point x="937" y="1293"/>
-      <point x="1061" y="1083"/>
-      <point x="1061" y="956" type="qcurve" smooth="yes"/>
-      <point x="1061" y="860"/>
+      <point x="925" y="628" type="line" smooth="yes"/>
       <point x="990" y="690"/>
-      <point x="925" y="628" type="qcurve" smooth="yes"/>
+      <point x="1061" y="860"/>
+      <point x="1061" y="956" type="qcurve" smooth="yes"/>
+      <point x="1061" y="1083"/>
+      <point x="937" y="1293"/>
+      <point x="727" y="1420"/>
+      <point x="473" y="1420"/>
+      <point x="263" y="1293"/>
+      <point x="139" y="1083"/>
+      <point x="139" y="956" type="qcurve" smooth="yes"/>
+      <point x="139" y="863"/>
+      <point x="210" y="690"/>
+      <point x="275" y="628" type="qcurve"/>
+      <point x="275" y="628" type="line"/>
+      <point x="507" y="396" type="line"/>
+      <point x="204" y="96" type="line"/>
     </contour>
   </outline>
 </glyph>

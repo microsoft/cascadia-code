@@ -36,16 +36,16 @@ paper-airplane
     </contour>
     <contour>
       <point x="1029" y="710" type="line"/>
-      <point x="132" y="325" type="line"/>
-      <point x="190" y="655" type="line"/>
-      <point x="544" y="655" type="line" smooth="yes"/>
-      <point x="566" y="655"/>
-      <point x="598" y="687"/>
-      <point x="598" y="733"/>
-      <point x="566" y="765"/>
-      <point x="544" y="765" type="qcurve" smooth="yes"/>
-      <point x="190" y="765" type="line"/>
       <point x="132" y="1095" type="line"/>
+      <point x="190" y="765" type="line"/>
+      <point x="544" y="765" type="line" smooth="yes"/>
+      <point x="566" y="765"/>
+      <point x="598" y="733"/>
+      <point x="598" y="687"/>
+      <point x="566" y="655"/>
+      <point x="544" y="655" type="qcurve" smooth="yes"/>
+      <point x="190" y="655" type="line"/>
+      <point x="132" y="325" type="line"/>
     </contour>
   </outline>
   <lib>

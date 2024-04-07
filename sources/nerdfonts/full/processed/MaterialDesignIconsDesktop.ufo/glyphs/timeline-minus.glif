@@ -41,20 +41,20 @@ timeline-minus
     </contour>
     <contour>
       <point x="72" y="509" type="line"/>
-      <point x="171" y="509" type="line"/>
-      <point x="171" y="207" type="line"/>
       <point x="72" y="207" type="line"/>
+      <point x="171" y="207" type="line"/>
+      <point x="171" y="509" type="line"/>
     </contour>
     <contour>
       <point x="164" y="812"/>
-      <point x="223" y="753"/>
-      <point x="223" y="667"/>
-      <point x="164" y="608"/>
-      <point x="79" y="608"/>
-      <point x="20" y="667"/>
-      <point x="20" y="753"/>
-      <point x="79" y="812"/>
       <point x="122" y="812" type="qcurve" smooth="yes"/>
+      <point x="79" y="812"/>
+      <point x="20" y="753"/>
+      <point x="20" y="667"/>
+      <point x="79" y="608"/>
+      <point x="164" y="608"/>
+      <point x="223" y="667"/>
+      <point x="223" y="753"/>
     </contour>
   </outline>
 </glyph>

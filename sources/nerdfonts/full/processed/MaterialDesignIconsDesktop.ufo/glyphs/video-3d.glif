@@ -40,15 +40,15 @@ video-3d
     </contour>
     <contour>
       <point x="849" y="461" type="line"/>
-      <point x="849" y="959" type="line"/>
-      <point x="931" y="959" type="line" smooth="yes"/>
-      <point x="966" y="959"/>
-      <point x="1017" y="912"/>
-      <point x="1017" y="877" type="qcurve" smooth="yes"/>
-      <point x="1017" y="543" type="line" smooth="yes"/>
-      <point x="1017" y="508"/>
+      <point x="931" y="461" type="line" smooth="yes"/>
       <point x="966" y="461"/>
-      <point x="931" y="461" type="qcurve" smooth="yes"/>
+      <point x="1017" y="508"/>
+      <point x="1017" y="543" type="qcurve" smooth="yes"/>
+      <point x="1017" y="877" type="line" smooth="yes"/>
+      <point x="1017" y="912"/>
+      <point x="966" y="959"/>
+      <point x="931" y="959" type="qcurve" smooth="yes"/>
+      <point x="849" y="959" type="line"/>
     </contour>
   </outline>
 </glyph>

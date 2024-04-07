@@ -56,13 +56,13 @@ play-box-lock
     </contour>
     <contour>
       <point x="1040" y="517" type="line"/>
-      <point x="874" y="517" type="line"/>
-      <point x="874" y="600" type="line" smooth="yes"/>
-      <point x="874" y="631"/>
-      <point x="924" y="670"/>
-      <point x="994" y="670"/>
+      <point x="1040" y="600" type="line" smooth="yes"/>
       <point x="1040" y="631"/>
-      <point x="1040" y="600" type="qcurve" smooth="yes"/>
+      <point x="994" y="670"/>
+      <point x="924" y="670"/>
+      <point x="874" y="631"/>
+      <point x="874" y="600" type="qcurve" smooth="yes"/>
+      <point x="874" y="517" type="line"/>
     </contour>
     <contour>
       <point x="683" y="737" type="line"/>

@@ -8,15 +8,15 @@ lightbulb-night
   <outline>
     <contour>
       <point x="255" y="238" type="line"/>
-      <point x="608" y="238" type="line"/>
-      <point x="608" y="180" type="line" smooth="yes"/>
-      <point x="608" y="155"/>
-      <point x="572" y="122"/>
-      <point x="550" y="122" type="qcurve" smooth="yes"/>
-      <point x="313" y="122" type="line" smooth="yes"/>
-      <point x="291" y="122"/>
+      <point x="255" y="180" type="line" smooth="yes"/>
       <point x="255" y="155"/>
-      <point x="255" y="180" type="qcurve" smooth="yes"/>
+      <point x="291" y="122"/>
+      <point x="313" y="122" type="qcurve" smooth="yes"/>
+      <point x="550" y="122" type="line" smooth="yes"/>
+      <point x="572" y="122"/>
+      <point x="608" y="155"/>
+      <point x="608" y="180" type="qcurve" smooth="yes"/>
+      <point x="608" y="238" type="line"/>
     </contour>
     <contour>
       <point x="561" y="506"/>

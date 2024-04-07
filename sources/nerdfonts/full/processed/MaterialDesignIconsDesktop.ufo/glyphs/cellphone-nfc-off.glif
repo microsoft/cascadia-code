@@ -27,48 +27,48 @@ cellphone-nfc-off
     </contour>
     <contour>
       <point x="411" y="1096" type="line"/>
-      <point x="248" y="1259" type="line"/>
-      <point x="263" y="1285"/>
-      <point x="313" y="1318"/>
-      <point x="344" y="1318" type="qcurve" smooth="yes"/>
-      <point x="898" y="1318" type="line" smooth="yes"/>
-      <point x="942" y="1318"/>
-      <point x="1007" y="1254"/>
-      <point x="1007" y="1207" type="qcurve" smooth="yes"/>
-      <point x="1007" y="500" type="line"/>
-      <point x="898" y="612" type="line"/>
       <point x="898" y="1096" type="line"/>
+      <point x="898" y="612" type="line"/>
+      <point x="1007" y="500" type="line"/>
+      <point x="1007" y="1207" type="line" smooth="yes"/>
+      <point x="1007" y="1254"/>
+      <point x="942" y="1318"/>
+      <point x="898" y="1318" type="qcurve" smooth="yes"/>
+      <point x="344" y="1318" type="line" smooth="yes"/>
+      <point x="313" y="1318"/>
+      <point x="263" y="1285"/>
+      <point x="248" y="1259" type="qcurve"/>
     </contour>
     <contour>
       <point x="137" y="267"/>
-      <point x="235" y="171"/>
-      <point x="235" y="102" type="qcurve"/>
+      <point x="69" y="267" type="qcurve"/>
       <point x="69" y="102" type="line"/>
-      <point x="69" y="267" type="line"/>
+      <point x="235" y="102" type="line"/>
+      <point x="235" y="171"/>
     </contour>
     <contour>
       <point x="173" y="490"/>
-      <point x="351" y="386"/>
-      <point x="455" y="208"/>
-      <point x="455" y="102" type="qcurve"/>
-      <point x="344" y="102" type="line"/>
-      <point x="344" y="177"/>
-      <point x="271" y="303"/>
+      <point x="69" y="490" type="qcurve"/>
+      <point x="69" y="379" type="line"/>
       <point x="144" y="379"/>
-      <point x="69" y="379" type="qcurve"/>
-      <point x="69" y="490" type="line"/>
+      <point x="271" y="303"/>
+      <point x="344" y="177"/>
+      <point x="344" y="102" type="qcurve"/>
+      <point x="455" y="102" type="line"/>
+      <point x="455" y="208"/>
+      <point x="351" y="386"/>
     </contour>
     <contour>
       <point x="232" y="710"/>
-      <point x="512" y="547"/>
-      <point x="675" y="267"/>
-      <point x="675" y="102" type="qcurve"/>
-      <point x="566" y="102" type="line"/>
-      <point x="566" y="236"/>
-      <point x="432" y="467"/>
+      <point x="69" y="710" type="qcurve"/>
+      <point x="69" y="599" type="line"/>
       <point x="204" y="599"/>
-      <point x="69" y="599" type="qcurve"/>
-      <point x="69" y="710" type="line"/>
+      <point x="432" y="467"/>
+      <point x="566" y="236"/>
+      <point x="566" y="102" type="qcurve"/>
+      <point x="675" y="102" type="line"/>
+      <point x="675" y="267"/>
+      <point x="512" y="547"/>
     </contour>
   </outline>
 </glyph>

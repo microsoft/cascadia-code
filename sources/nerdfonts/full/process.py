@@ -1,4 +1,5 @@
 from fontParts.world import OpenFont
+import fontParts
 import glob
 from pathlib import Path
 
@@ -28,6 +29,9 @@ def scaleGroup(fileName, glyph, SIDEBEARING):
 			modified = True
 		if glyph.unicode in range(0xeab4,0xeab8): #chevrons
 			xAdjustment = (FONTWIDTH-(2*SIDEBEARING))/(scaledFont["chevron-down"].bounds[2] - scaledFont["chevron-down"].bounds[0])
+			modified = True
+		if glyph.unicode in [0xEA9D,0xEA9E,0xEA9F,0xEAA0]:
+			xAdjustment = (FONTWIDTH-(2*SIDEBEARING))/(scaledFont["arrow-both"].bounds[2] - scaledFont["arrow-both"].bounds[0])
 			modified = True
 
 	elif "devicons" in fileName:
@@ -165,7 +169,7 @@ def center(glyph):
 	adjustment = (FONTHEIGHT-newHeight)/2-currentY
 	return adjustment
 
-#for file in ["original/FontAwesome.ufo"]:
+#for file in ["original/octicons.ufo"]:
 for file in INPUT.glob("*.ufo"):
 	print ("processing",str(file).split("/")[1])
 	font = OpenFont(str(file))
@@ -180,6 +184,9 @@ for file in INPUT.glob("*.ufo"):
 	for glyph in font:
 		if glyph.bounds is not None:
 			
+
+			glyph.correctDirection()
+
 			xAdjustment, yAdjustment = scaleGroup(str(file),glyph,SIDEBEARING)
 			glyph.transformBy((xAdjustment, 0, 0, yAdjustment, 0, 0))
 

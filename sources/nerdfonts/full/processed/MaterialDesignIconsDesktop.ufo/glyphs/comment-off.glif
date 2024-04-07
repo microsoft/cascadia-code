@@ -29,14 +29,14 @@ comment-off
     </contour>
     <contour>
       <point x="1172" y="472"/>
-      <point x="1141" y="420"/>
-      <point x="1115" y="404" type="qcurve"/>
-      <point x="245" y="1274" type="line"/>
-      <point x="1063" y="1274" type="line" smooth="yes"/>
-      <point x="1108" y="1274"/>
+      <point x="1172" y="503" type="qcurve" smooth="yes"/>
+      <point x="1172" y="1166" type="line" smooth="yes"/>
       <point x="1172" y="1210"/>
-      <point x="1172" y="1166" type="qcurve" smooth="yes"/>
-      <point x="1172" y="503" type="line" smooth="yes"/>
+      <point x="1108" y="1274"/>
+      <point x="1063" y="1274" type="qcurve" smooth="yes"/>
+      <point x="245" y="1274" type="line"/>
+      <point x="1115" y="404" type="line"/>
+      <point x="1141" y="420"/>
     </contour>
   </outline>
 </glyph>

@@ -60,14 +60,14 @@ ghost-off-outline
     </contour>
     <contour>
       <point x="833" y="943"/>
-      <point x="898" y="878"/>
-      <point x="898" y="790"/>
-      <point x="838" y="728"/>
-      <point x="797" y="723" type="qcurve"/>
-      <point x="675" y="845" type="line"/>
-      <point x="680" y="886"/>
-      <point x="742" y="943"/>
       <point x="786" y="943" type="qcurve" smooth="yes"/>
+      <point x="742" y="943"/>
+      <point x="680" y="886"/>
+      <point x="675" y="845" type="qcurve"/>
+      <point x="797" y="723" type="line"/>
+      <point x="838" y="728"/>
+      <point x="898" y="790"/>
+      <point x="898" y="878"/>
     </contour>
   </outline>
 </glyph>

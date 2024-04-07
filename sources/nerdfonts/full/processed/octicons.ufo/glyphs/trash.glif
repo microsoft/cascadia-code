@@ -77,15 +77,15 @@ trash
     </contour>
     <contour>
       <point x="458" y="1264"/>
-      <point x="472" y="1278"/>
-      <point x="482" y="1278" type="qcurve" smooth="yes"/>
-      <point x="718" y="1278" type="line" smooth="yes"/>
-      <point x="728" y="1278"/>
-      <point x="742" y="1264"/>
-      <point x="742" y="1254" type="qcurve" smooth="yes"/>
-      <point x="742" y="1136" type="line"/>
+      <point x="458" y="1254" type="qcurve" smooth="yes"/>
       <point x="458" y="1136" type="line"/>
-      <point x="458" y="1254" type="line" smooth="yes"/>
+      <point x="742" y="1136" type="line"/>
+      <point x="742" y="1254" type="line" smooth="yes"/>
+      <point x="742" y="1264"/>
+      <point x="728" y="1278"/>
+      <point x="718" y="1278" type="qcurve" smooth="yes"/>
+      <point x="482" y="1278" type="line" smooth="yes"/>
+      <point x="472" y="1278"/>
     </contour>
   </outline>
   <lib>

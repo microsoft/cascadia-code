@@ -92,10 +92,10 @@ foursquare
       <point x="1069" y="1086"/>
     </contour>
     <contour>
-      <point x="966" y="565" type="curve"/>
-      <point x="1101" y="1239" type="line" smooth="yes"/>
-      <point x="1069" y="1086"/>
+      <point x="966" y="565" type="line"/>
       <point x="975" y="600"/>
+      <point x="1069" y="1086"/>
+      <point x="1101" y="1239" type="curve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

@@ -23,12 +23,12 @@ sim-off
     </contour>
     <contour>
       <point x="1063" y="459" type="line"/>
-      <point x="377" y="1142" type="line"/>
-      <point x="509" y="1274" type="line"/>
-      <point x="952" y="1274" type="line" smooth="yes"/>
-      <point x="999" y="1274"/>
+      <point x="1063" y="1166" type="line" smooth="yes"/>
       <point x="1063" y="1210"/>
-      <point x="1063" y="1166" type="qcurve" smooth="yes"/>
+      <point x="999" y="1274"/>
+      <point x="952" y="1274" type="qcurve" smooth="yes"/>
+      <point x="509" y="1274" type="line"/>
+      <point x="377" y="1142" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -20,10 +20,10 @@ archive-eye-outline
     </contour>
     <contour>
       <point x="946" y="700"/>
-      <point x="889" y="706" type="qcurve"/>
-      <point x="889" y="885" type="line"/>
+      <point x="1006" y="679" type="qcurve"/>
       <point x="1006" y="885" type="line"/>
-      <point x="1006" y="679" type="line"/>
+      <point x="889" y="885" type="line"/>
+      <point x="889" y="706" type="line"/>
     </contour>
     <contour>
       <point x="1063" y="1290" type="line"/>
@@ -38,25 +38,25 @@ archive-eye-outline
       <point x="946" y="1173" type="line"/>
     </contour>
     <contour>
-      <point x="376" y="320" type="line" smooth="yes"/>
-      <point x="389" y="282"/>
-      <point x="414" y="247" type="qcurve"/>
-      <point x="77" y="247" type="line"/>
-      <point x="77" y="885" type="line"/>
-      <point x="194" y="885" type="line"/>
-      <point x="194" y="364" type="line"/>
+      <point x="376" y="320" type="qcurve" smooth="yes"/>
       <point x="360" y="364" type="line"/>
+      <point x="194" y="364" type="line"/>
+      <point x="194" y="885" type="line"/>
+      <point x="77" y="885" type="line"/>
+      <point x="77" y="247" type="line"/>
+      <point x="414" y="247" type="line"/>
+      <point x="389" y="282"/>
     </contour>
     <contour>
       <point x="857" y="421"/>
-      <point x="889" y="388"/>
-      <point x="889" y="339"/>
-      <point x="857" y="304"/>
-      <point x="808" y="304"/>
-      <point x="773" y="339"/>
-      <point x="773" y="388"/>
-      <point x="808" y="421"/>
       <point x="832" y="421" type="qcurve" smooth="yes"/>
+      <point x="808" y="421"/>
+      <point x="773" y="388"/>
+      <point x="773" y="339"/>
+      <point x="808" y="304"/>
+      <point x="857" y="304"/>
+      <point x="889" y="339"/>
+      <point x="889" y="388"/>
     </contour>
     <contour>
       <point x="1137" y="467"/>

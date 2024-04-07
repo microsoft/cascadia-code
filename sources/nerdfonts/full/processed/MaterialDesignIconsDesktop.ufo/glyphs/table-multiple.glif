@@ -50,14 +50,14 @@ table-multiple
     </contour>
     <contour>
       <point x="968" y="288" type="line"/>
-      <point x="968" y="184" type="line"/>
-      <point x="126" y="184" type="line" smooth="yes"/>
-      <point x="82" y="184"/>
-      <point x="20" y="246"/>
-      <point x="20" y="288" type="qcurve" smooth="yes"/>
-      <point x="20" y="1026" type="line"/>
-      <point x="126" y="1026" type="line"/>
       <point x="126" y="288" type="line"/>
+      <point x="126" y="1026" type="line"/>
+      <point x="20" y="1026" type="line"/>
+      <point x="20" y="288" type="line" smooth="yes"/>
+      <point x="20" y="246"/>
+      <point x="82" y="184"/>
+      <point x="126" y="184" type="qcurve" smooth="yes"/>
+      <point x="968" y="184" type="line"/>
     </contour>
   </outline>
 </glyph>

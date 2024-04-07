@@ -7,28 +7,28 @@ hexadecimal
 </note>
   <outline>
     <contour>
-      <point x="351" y="1127" type="line" smooth="yes"/>
-      <point x="421" y="1127"/>
-      <point x="518" y="1029"/>
-      <point x="518" y="959" type="qcurve" smooth="yes"/>
-      <point x="518" y="461" type="line" smooth="yes"/>
-      <point x="518" y="391"/>
-      <point x="421" y="293"/>
-      <point x="351" y="293" type="qcurve" smooth="yes"/>
-      <point x="183" y="293" type="line" smooth="yes"/>
-      <point x="117" y="293"/>
-      <point x="20" y="391"/>
-      <point x="20" y="461" type="qcurve" smooth="yes"/>
-      <point x="20" y="959" type="line" smooth="yes"/>
-      <point x="20" y="1029"/>
+      <point x="351" y="1127" type="qcurve" smooth="yes"/>
+      <point x="183" y="1127" type="line" smooth="yes"/>
       <point x="117" y="1127"/>
-      <point x="183" y="1127" type="qcurve" smooth="yes"/>
+      <point x="20" y="1029"/>
+      <point x="20" y="959" type="qcurve" smooth="yes"/>
+      <point x="20" y="461" type="line" smooth="yes"/>
+      <point x="20" y="391"/>
+      <point x="117" y="293"/>
+      <point x="183" y="293" type="qcurve" smooth="yes"/>
+      <point x="351" y="293" type="line" smooth="yes"/>
+      <point x="421" y="293"/>
+      <point x="518" y="391"/>
+      <point x="518" y="461" type="qcurve" smooth="yes"/>
+      <point x="518" y="959" type="line" smooth="yes"/>
+      <point x="518" y="1029"/>
+      <point x="421" y="1127"/>
     </contour>
     <contour>
       <point x="183" y="461" type="line"/>
-      <point x="351" y="461" type="line"/>
-      <point x="351" y="959" type="line"/>
       <point x="183" y="959" type="line"/>
+      <point x="351" y="959" type="line"/>
+      <point x="351" y="461" type="line"/>
     </contour>
     <contour>
       <point x="1180" y="410" type="line"/>

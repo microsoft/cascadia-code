@@ -33,14 +33,14 @@ archive-lock-outline
       <point x="946" y="1143" type="line"/>
     </contour>
     <contour>
-      <point x="599" y="233" type="line" smooth="yes"/>
-      <point x="599" y="222"/>
-      <point x="601" y="217" type="qcurve"/>
-      <point x="77" y="217" type="line"/>
-      <point x="77" y="855" type="line"/>
-      <point x="194" y="855" type="line"/>
-      <point x="194" y="334" type="line"/>
+      <point x="599" y="233" type="qcurve" smooth="yes"/>
       <point x="599" y="334" type="line"/>
+      <point x="194" y="334" type="line"/>
+      <point x="194" y="855" type="line"/>
+      <point x="77" y="855" type="line"/>
+      <point x="77" y="217" type="line"/>
+      <point x="601" y="217" type="line"/>
+      <point x="599" y="222"/>
     </contour>
     <contour>
       <point x="1180" y="461"/>
@@ -68,13 +68,13 @@ archive-lock-outline
     </contour>
     <contour>
       <point x="1033" y="508" type="line"/>
-      <point x="859" y="508" type="line"/>
-      <point x="859" y="595" type="line" smooth="yes"/>
-      <point x="859" y="627"/>
-      <point x="911" y="668"/>
-      <point x="984" y="668"/>
+      <point x="1033" y="595" type="line" smooth="yes"/>
       <point x="1033" y="627"/>
-      <point x="1033" y="595" type="qcurve" smooth="yes"/>
+      <point x="984" y="668"/>
+      <point x="911" y="668"/>
+      <point x="859" y="627"/>
+      <point x="859" y="595" type="qcurve" smooth="yes"/>
+      <point x="859" y="508" type="line"/>
     </contour>
   </outline>
 </glyph>

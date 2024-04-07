@@ -70,14 +70,14 @@ source-branch-remove
     </contour>
     <contour>
       <point x="246" y="1239"/>
-      <point x="286" y="1199"/>
-      <point x="286" y="1146"/>
-      <point x="246" y="1106"/>
-      <point x="193" y="1106"/>
-      <point x="153" y="1146"/>
-      <point x="153" y="1199"/>
-      <point x="193" y="1239"/>
       <point x="218" y="1239" type="qcurve" smooth="yes"/>
+      <point x="193" y="1239"/>
+      <point x="153" y="1199"/>
+      <point x="153" y="1146"/>
+      <point x="193" y="1106"/>
+      <point x="246" y="1106"/>
+      <point x="286" y="1146"/>
+      <point x="286" y="1199"/>
     </contour>
     <contour>
       <point x="905" y="1106"/>
@@ -92,17 +92,17 @@ source-branch-remove
     </contour>
     <contour>
       <point x="1180" y="453" type="line"/>
-      <point x="1038" y="314" type="line"/>
-      <point x="1180" y="175" type="line"/>
-      <point x="1084" y="79" type="line"/>
-      <point x="945" y="221" type="line"/>
-      <point x="806" y="79" type="line"/>
-      <point x="713" y="175" type="line"/>
-      <point x="852" y="314" type="line"/>
-      <point x="713" y="453" type="line"/>
-      <point x="806" y="546" type="line"/>
-      <point x="945" y="407" type="line"/>
       <point x="1084" y="549" type="line"/>
+      <point x="945" y="407" type="line"/>
+      <point x="806" y="546" type="line"/>
+      <point x="713" y="453" type="line"/>
+      <point x="852" y="314" type="line"/>
+      <point x="713" y="175" type="line"/>
+      <point x="806" y="79" type="line"/>
+      <point x="945" y="221" type="line"/>
+      <point x="1084" y="79" type="line"/>
+      <point x="1180" y="175" type="line"/>
+      <point x="1038" y="314" type="line"/>
     </contour>
   </outline>
 </glyph>

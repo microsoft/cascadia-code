@@ -54,13 +54,13 @@ wifi-strength-lock-outline
     </contour>
     <contour>
       <point x="1021" y="536" type="line"/>
-      <point x="872" y="536" type="line"/>
-      <point x="872" y="611" type="line" smooth="yes"/>
-      <point x="872" y="639"/>
-      <point x="916" y="674"/>
-      <point x="979" y="674"/>
+      <point x="1021" y="611" type="line" smooth="yes"/>
       <point x="1021" y="639"/>
-      <point x="1021" y="611" type="qcurve" smooth="yes"/>
+      <point x="979" y="674"/>
+      <point x="916" y="674"/>
+      <point x="872" y="639"/>
+      <point x="872" y="611" type="qcurve" smooth="yes"/>
+      <point x="872" y="536" type="line"/>
     </contour>
   </outline>
 </glyph>

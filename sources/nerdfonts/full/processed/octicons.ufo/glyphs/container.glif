@@ -82,11 +82,11 @@ container
     </contour>
     <contour>
       <point x="981" y="850" type="line"/>
-      <point x="1071" y="902" type="line"/>
-      <point x="1071" y="591" type="line" smooth="yes"/>
-      <point x="1071" y="581"/>
-      <point x="1062" y="575" type="qcurve" smooth="yes"/>
       <point x="981" y="527" type="line"/>
+      <point x="1062" y="575" type="line" smooth="yes"/>
+      <point x="1071" y="581"/>
+      <point x="1071" y="591" type="qcurve" smooth="yes"/>
+      <point x="1071" y="902" type="line"/>
     </contour>
   </outline>
   <lib>

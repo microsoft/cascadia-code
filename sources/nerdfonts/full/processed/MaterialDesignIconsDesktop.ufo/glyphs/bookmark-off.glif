@@ -17,14 +17,14 @@ bookmark-off
       <point x="1180" y="180" type="line"/>
     </contour>
     <contour>
-      <point x="244" y="1276" type="line"/>
-      <point x="286" y="1322"/>
-      <point x="340" y="1322" type="qcurve" smooth="yes"/>
-      <point x="987" y="1322" type="line" smooth="yes"/>
-      <point x="1038" y="1322"/>
-      <point x="1114" y="1246"/>
-      <point x="1114" y="1192" type="qcurve" smooth="yes"/>
+      <point x="244" y="1276" type="qcurve"/>
       <point x="1114" y="409" type="line"/>
+      <point x="1114" y="1192" type="line" smooth="yes"/>
+      <point x="1114" y="1246"/>
+      <point x="1038" y="1322"/>
+      <point x="987" y="1322" type="qcurve" smooth="yes"/>
+      <point x="340" y="1322" type="line" smooth="yes"/>
+      <point x="286" y="1322"/>
     </contour>
   </outline>
 </glyph>

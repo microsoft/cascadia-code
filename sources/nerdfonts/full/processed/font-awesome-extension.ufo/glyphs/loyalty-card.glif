@@ -8,33 +8,33 @@ loyalty-card
   <outline>
     <contour>
       <point x="20" y="475" type="line"/>
-      <point x="1180" y="475" type="line"/>
-      <point x="1180" y="401" type="line" smooth="yes"/>
-      <point x="1180" y="370"/>
-      <point x="1149" y="370" type="qcurve" smooth="yes"/>
-      <point x="51" y="370" type="line" smooth="yes"/>
+      <point x="20" y="401" type="line" smooth="yes"/>
       <point x="20" y="370"/>
-      <point x="20" y="401" type="qcurve" smooth="yes"/>
+      <point x="51" y="370" type="qcurve" smooth="yes"/>
+      <point x="1149" y="370" type="line" smooth="yes"/>
+      <point x="1180" y="370"/>
+      <point x="1180" y="401" type="qcurve" smooth="yes"/>
+      <point x="1180" y="475" type="line"/>
     </contour>
     <contour>
       <point x="1180" y="1050"/>
-      <point x="1180" y="1019" type="qcurve" smooth="yes"/>
-      <point x="1180" y="567" type="line"/>
-      <point x="20" y="567" type="line"/>
-      <point x="20" y="1019" type="line" smooth="yes"/>
+      <point x="1149" y="1050" type="qcurve" smooth="yes"/>
+      <point x="51" y="1050" type="line" smooth="yes"/>
       <point x="20" y="1050"/>
-      <point x="51" y="1050" type="qcurve" smooth="yes"/>
-      <point x="1149" y="1050" type="line" smooth="yes"/>
+      <point x="20" y="1019" type="qcurve" smooth="yes"/>
+      <point x="20" y="567" type="line"/>
+      <point x="1180" y="567" type="line"/>
+      <point x="1180" y="1019" type="line" smooth="yes"/>
     </contour>
     <contour>
       <point x="804" y="724"/>
-      <point x="804" y="891"/>
-      <point x="686" y="1010"/>
-      <point x="519" y="1010"/>
-      <point x="400" y="891"/>
-      <point x="400" y="724"/>
-      <point x="519" y="608"/>
       <point x="686" y="608"/>
+      <point x="519" y="608"/>
+      <point x="400" y="724"/>
+      <point x="400" y="891"/>
+      <point x="519" y="1010"/>
+      <point x="686" y="1010"/>
+      <point x="804" y="891"/>
     </contour>
     <contour>
       <point x="607" y="651" type="qcurve" smooth="yes"/>

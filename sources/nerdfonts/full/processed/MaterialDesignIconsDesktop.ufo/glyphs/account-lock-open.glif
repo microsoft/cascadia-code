@@ -19,18 +19,18 @@ account-lock-open
     </contour>
     <contour>
       <point x="600" y="332" type="line"/>
-      <point x="20" y="332" type="line"/>
-      <point x="20" y="449" type="line" smooth="yes"/>
-      <point x="20" y="511"/>
-      <point x="145" y="617"/>
-      <point x="358" y="680"/>
-      <point x="483" y="680" type="qcurve" smooth="yes"/>
-      <point x="581" y="680"/>
-      <point x="671" y="661" type="qcurve"/>
-      <point x="671" y="579" type="line"/>
-      <point x="638" y="552"/>
+      <point x="600" y="438" type="line" smooth="yes"/>
       <point x="600" y="479"/>
-      <point x="600" y="438" type="qcurve" smooth="yes"/>
+      <point x="638" y="552"/>
+      <point x="671" y="579" type="qcurve"/>
+      <point x="671" y="661" type="line"/>
+      <point x="581" y="680"/>
+      <point x="483" y="680" type="qcurve" smooth="yes"/>
+      <point x="358" y="680"/>
+      <point x="145" y="617"/>
+      <point x="20" y="511"/>
+      <point x="20" y="449" type="qcurve" smooth="yes"/>
+      <point x="20" y="332" type="line"/>
     </contour>
     <contour>
       <point x="1180" y="462"/>

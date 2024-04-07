@@ -18,34 +18,34 @@ email-multiple-outline
       <point x="117" y="1000" type="line"/>
     </contour>
     <contour>
-      <point x="1180" y="517" type="line" smooth="yes"/>
-      <point x="1180" y="477"/>
-      <point x="1123" y="420"/>
-      <point x="1083" y="420" type="qcurve" smooth="yes"/>
-      <point x="310" y="420" type="line" smooth="yes"/>
-      <point x="269" y="420"/>
-      <point x="213" y="477"/>
-      <point x="213" y="517" type="qcurve" smooth="yes"/>
-      <point x="213" y="1097" type="line" smooth="yes"/>
-      <point x="213" y="1136"/>
-      <point x="269" y="1193"/>
-      <point x="310" y="1193" type="qcurve" smooth="yes"/>
-      <point x="1083" y="1193" type="line" smooth="yes"/>
-      <point x="1123" y="1193"/>
+      <point x="1180" y="517" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1097" type="line" smooth="yes"/>
       <point x="1180" y="1136"/>
-      <point x="1180" y="1097" type="qcurve" smooth="yes"/>
+      <point x="1123" y="1193"/>
+      <point x="1083" y="1193" type="qcurve" smooth="yes"/>
+      <point x="310" y="1193" type="line" smooth="yes"/>
+      <point x="269" y="1193"/>
+      <point x="213" y="1136"/>
+      <point x="213" y="1097" type="qcurve" smooth="yes"/>
+      <point x="213" y="517" type="line" smooth="yes"/>
+      <point x="213" y="477"/>
+      <point x="269" y="420"/>
+      <point x="310" y="420" type="qcurve" smooth="yes"/>
+      <point x="1083" y="420" type="line" smooth="yes"/>
+      <point x="1123" y="420"/>
+      <point x="1180" y="477"/>
     </contour>
     <contour>
       <point x="310" y="1097" type="line"/>
-      <point x="697" y="855" type="line"/>
       <point x="1083" y="1097" type="line"/>
+      <point x="697" y="855" type="line"/>
     </contour>
     <contour>
       <point x="1083" y="1000" type="line"/>
-      <point x="697" y="758" type="line"/>
-      <point x="310" y="1000" type="line"/>
-      <point x="310" y="517" type="line"/>
       <point x="1083" y="517" type="line"/>
+      <point x="310" y="517" type="line"/>
+      <point x="310" y="1000" type="line"/>
+      <point x="697" y="758" type="line"/>
     </contour>
   </outline>
 </glyph>

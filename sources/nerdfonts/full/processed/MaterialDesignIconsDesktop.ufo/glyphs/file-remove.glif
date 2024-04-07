@@ -22,28 +22,28 @@ file-remove
     </contour>
     <contour>
       <point x="1022" y="977" type="line"/>
-      <point x="1022" y="660" type="line"/>
-      <point x="987" y="666"/>
-      <point x="957" y="666" type="qcurve" smooth="yes"/>
-      <point x="858" y="666"/>
-      <point x="685" y="564"/>
-      <point x="582" y="391"/>
-      <point x="582" y="189"/>
-      <point x="635" y="104" type="qcurve"/>
-      <point x="146" y="104" type="line" smooth="yes"/>
-      <point x="93" y="104"/>
-      <point x="20" y="177"/>
-      <point x="20" y="227" type="qcurve" smooth="yes"/>
-      <point x="20" y="1228" type="line" smooth="yes"/>
-      <point x="20" y="1278"/>
-      <point x="93" y="1352"/>
-      <point x="146" y="1352" type="qcurve" smooth="yes"/>
       <point x="647" y="1352" type="line"/>
+      <point x="146" y="1352" type="line" smooth="yes"/>
+      <point x="93" y="1352"/>
+      <point x="20" y="1278"/>
+      <point x="20" y="1228" type="qcurve" smooth="yes"/>
+      <point x="20" y="227" type="line" smooth="yes"/>
+      <point x="20" y="177"/>
+      <point x="93" y="104"/>
+      <point x="146" y="104" type="qcurve" smooth="yes"/>
+      <point x="635" y="104" type="line"/>
+      <point x="582" y="189"/>
+      <point x="582" y="391"/>
+      <point x="685" y="564"/>
+      <point x="858" y="666"/>
+      <point x="957" y="666" type="qcurve" smooth="yes"/>
+      <point x="987" y="666"/>
+      <point x="1022" y="660" type="qcurve"/>
     </contour>
     <contour>
       <point x="928" y="915" type="line"/>
-      <point x="582" y="1258" type="line"/>
       <point x="582" y="915" type="line"/>
+      <point x="582" y="1258" type="line"/>
     </contour>
   </outline>
 </glyph>

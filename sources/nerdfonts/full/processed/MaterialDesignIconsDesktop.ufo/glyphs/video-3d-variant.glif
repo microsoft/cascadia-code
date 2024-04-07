@@ -8,15 +8,15 @@ video-3d-variant
   <outline>
     <contour>
       <point x="730" y="852"/>
-      <point x="709" y="870"/>
-      <point x="697" y="870" type="qcurve" smooth="yes"/>
-      <point x="633" y="870" type="line"/>
-      <point x="633" y="550" type="line"/>
-      <point x="697" y="550" type="line" smooth="yes"/>
-      <point x="709" y="550"/>
+      <point x="730" y="840" type="qcurve" smooth="yes"/>
+      <point x="730" y="580" type="line" smooth="yes"/>
       <point x="730" y="568"/>
-      <point x="730" y="580" type="qcurve" smooth="yes"/>
-      <point x="730" y="840" type="line" smooth="yes"/>
+      <point x="709" y="550"/>
+      <point x="697" y="550" type="qcurve" smooth="yes"/>
+      <point x="633" y="550" type="line"/>
+      <point x="633" y="870" type="line"/>
+      <point x="697" y="870" type="line" smooth="yes"/>
+      <point x="709" y="870"/>
     </contour>
     <contour>
       <point x="923" y="807" type="line"/>

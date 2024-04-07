@@ -14,30 +14,30 @@ filter-variant-remove
     </contour>
     <contour>
       <point x="629" y="550"/>
-      <point x="618" y="489" type="qcurve"/>
-      <point x="434" y="489" type="line"/>
+      <point x="663" y="608" type="qcurve"/>
       <point x="434" y="608" type="line"/>
-      <point x="663" y="608" type="line"/>
+      <point x="434" y="489" type="line"/>
+      <point x="618" y="489" type="line"/>
     </contour>
     <contour>
       <point x="910" y="786" type="line"/>
-      <point x="198" y="786" type="line"/>
-      <point x="198" y="903" type="line"/>
       <point x="910" y="903" type="line"/>
+      <point x="198" y="903" type="line"/>
+      <point x="198" y="786" type="line"/>
     </contour>
     <contour>
       <point x="1180" y="556" type="line"/>
-      <point x="1052" y="430" type="line"/>
-      <point x="1180" y="302" type="line"/>
-      <point x="1097" y="219" type="line"/>
-      <point x="969" y="347" type="line"/>
-      <point x="843" y="219" type="line"/>
-      <point x="760" y="302" type="line"/>
-      <point x="885" y="430" type="line"/>
-      <point x="760" y="556" type="line"/>
-      <point x="843" y="639" type="line"/>
-      <point x="969" y="514" type="line"/>
       <point x="1097" y="639" type="line"/>
+      <point x="969" y="514" type="line"/>
+      <point x="843" y="639" type="line"/>
+      <point x="760" y="556" type="line"/>
+      <point x="885" y="430" type="line"/>
+      <point x="760" y="302" type="line"/>
+      <point x="843" y="219" type="line"/>
+      <point x="969" y="347" type="line"/>
+      <point x="1097" y="219" type="line"/>
+      <point x="1180" y="302" type="line"/>
+      <point x="1052" y="430" type="line"/>
     </contour>
   </outline>
 </glyph>

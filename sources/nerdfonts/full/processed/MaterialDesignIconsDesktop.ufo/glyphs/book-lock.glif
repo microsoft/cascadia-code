@@ -65,13 +65,13 @@ book-lock
     </contour>
     <contour>
       <point x="1026" y="467" type="line"/>
-      <point x="843" y="467" type="line"/>
-      <point x="843" y="559" type="line" smooth="yes"/>
-      <point x="843" y="593"/>
-      <point x="897" y="636"/>
-      <point x="974" y="636"/>
+      <point x="1026" y="559" type="line" smooth="yes"/>
       <point x="1026" y="593"/>
-      <point x="1026" y="559" type="qcurve" smooth="yes"/>
+      <point x="974" y="636"/>
+      <point x="897" y="636"/>
+      <point x="843" y="593"/>
+      <point x="843" y="559" type="qcurve" smooth="yes"/>
+      <point x="843" y="467" type="line"/>
     </contour>
   </outline>
 </glyph>

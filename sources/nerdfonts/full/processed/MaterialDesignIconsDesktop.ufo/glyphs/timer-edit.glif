@@ -43,22 +43,22 @@ timer-edit
     </contour>
     <contour>
       <point x="955" y="574" type="line"/>
-      <point x="1074" y="455" type="line"/>
-      <point x="718" y="101" type="line"/>
-      <point x="599" y="101" type="line"/>
       <point x="599" y="218" type="line"/>
+      <point x="599" y="101" type="line"/>
+      <point x="718" y="101" type="line"/>
+      <point x="1074" y="455" type="line"/>
     </contour>
     <contour>
       <point x="1180" y="585"/>
-      <point x="1180" y="561"/>
-      <point x="1169" y="552" type="qcurve"/>
-      <point x="1115" y="495" type="line"/>
-      <point x="995" y="615" type="line"/>
-      <point x="1052" y="672" type="line" smooth="yes"/>
-      <point x="1060" y="680"/>
+      <point x="1169" y="596" type="qcurve" smooth="yes"/>
+      <point x="1093" y="672" type="line" smooth="yes"/>
       <point x="1085" y="680"/>
-      <point x="1093" y="672" type="qcurve" smooth="yes"/>
-      <point x="1169" y="596" type="line" smooth="yes"/>
+      <point x="1060" y="680"/>
+      <point x="1052" y="672" type="qcurve" smooth="yes"/>
+      <point x="995" y="615" type="line"/>
+      <point x="1115" y="495" type="line"/>
+      <point x="1169" y="552" type="line"/>
+      <point x="1180" y="561"/>
     </contour>
   </outline>
 </glyph>

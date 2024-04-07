@@ -77,16 +77,16 @@ git-merge
       <point x="951" y="621"/>
     </contour>
     <contour>
-      <point x="288" y="1133" type="line" smooth="yes"/>
-      <point x="288" y="1106"/>
-      <point x="249" y="1067"/>
-      <point x="193" y="1067"/>
-      <point x="154" y="1106"/>
-      <point x="154" y="1161"/>
-      <point x="193" y="1201"/>
-      <point x="249" y="1201"/>
+      <point x="288" y="1133" type="qcurve" smooth="yes"/>
+      <point x="288" y="1134" type="line" smooth="yes"/>
       <point x="288" y="1162"/>
-      <point x="288" y="1134" type="qcurve" smooth="yes"/>
+      <point x="249" y="1201"/>
+      <point x="193" y="1201"/>
+      <point x="154" y="1161"/>
+      <point x="154" y="1106"/>
+      <point x="193" y="1067"/>
+      <point x="249" y="1067"/>
+      <point x="288" y="1106"/>
     </contour>
   </outline>
   <lib>

@@ -27,22 +27,22 @@ pipe-disconnected
     </contour>
     <contour>
       <point x="369" y="536" type="line"/>
-      <point x="369" y="653" type="line"/>
-      <point x="831" y="653" type="line"/>
-      <point x="831" y="536" type="line"/>
-      <point x="717" y="536" type="line"/>
-      <point x="717" y="479" type="line"/>
-      <point x="1066" y="479" type="line"/>
-      <point x="1066" y="593" type="line"/>
-      <point x="1180" y="593" type="line"/>
-      <point x="1180" y="130" type="line"/>
-      <point x="1066" y="130" type="line"/>
-      <point x="1066" y="244" type="line"/>
-      <point x="600" y="244" type="line" smooth="yes"/>
-      <point x="551" y="244"/>
-      <point x="483" y="312"/>
-      <point x="483" y="361" type="qcurve" smooth="yes"/>
       <point x="483" y="536" type="line"/>
+      <point x="483" y="361" type="line" smooth="yes"/>
+      <point x="483" y="312"/>
+      <point x="551" y="244"/>
+      <point x="600" y="244" type="qcurve" smooth="yes"/>
+      <point x="1066" y="244" type="line"/>
+      <point x="1066" y="130" type="line"/>
+      <point x="1180" y="130" type="line"/>
+      <point x="1180" y="593" type="line"/>
+      <point x="1066" y="593" type="line"/>
+      <point x="1066" y="479" type="line"/>
+      <point x="717" y="479" type="line"/>
+      <point x="717" y="536" type="line"/>
+      <point x="831" y="536" type="line"/>
+      <point x="831" y="653" type="line"/>
+      <point x="369" y="653" type="line"/>
     </contour>
   </outline>
 </glyph>

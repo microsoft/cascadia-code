@@ -58,14 +58,14 @@ resistor-nodes
     </contour>
     <contour>
       <point x="317" y="797"/>
-      <point x="369" y="745"/>
-      <point x="369" y="675"/>
-      <point x="317" y="623"/>
-      <point x="243" y="623"/>
-      <point x="194" y="675"/>
-      <point x="194" y="745"/>
-      <point x="243" y="797"/>
       <point x="281" y="797" type="qcurve" smooth="yes"/>
+      <point x="243" y="797"/>
+      <point x="194" y="745"/>
+      <point x="194" y="675"/>
+      <point x="243" y="623"/>
+      <point x="317" y="623"/>
+      <point x="369" y="675"/>
+      <point x="369" y="745"/>
     </contour>
   </outline>
 </glyph>
