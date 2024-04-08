@@ -20,7 +20,7 @@ For the italic, there is a standard `italic` and a `cursive` variant accessible 
 Enabling stylistic sets will [vary between applications](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets). For example, in VS Code, you can enable stylistic sets (and other OpenType features) via `settings.json`:
 
 ```
-"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'"
+"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20'"
 ```
 
 #### To enable the Cursive form of the italic, here's the code you should use:
