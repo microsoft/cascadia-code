@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction-one-half" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1992"/>
+  <note>
+fraction-one-half
+</note>
+  <outline>
+    <contour>
+      <point x="1097" y="1282" type="line"/>
+      <point x="988" y="1365" type="line"/>
+      <point x="36" y="138" type="line"/>
+      <point x="145" y="55" type="line"/>
+    </contour>
+    <contour>
+      <point x="295" y="1391" type="line"/>
+      <point x="20" y="1391" type="line"/>
+      <point x="20" y="1256" type="line"/>
+      <point x="157" y="1256" type="line"/>
+      <point x="157" y="710" type="line"/>
+      <point x="295" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="1043" y="710" type="qcurve" smooth="yes"/>
+      <point x="771" y="710" type="line"/>
+      <point x="771" y="573" type="line"/>
+      <point x="1043" y="573" type="line"/>
+      <point x="1043" y="438" type="line"/>
+      <point x="908" y="438" type="line" smooth="yes"/>
+      <point x="851" y="438"/>
+      <point x="771" y="358"/>
+      <point x="771" y="301" type="qcurve" smooth="yes"/>
+      <point x="771" y="29" type="line"/>
+      <point x="1180" y="29" type="line"/>
+      <point x="1180" y="164" type="line"/>
+      <point x="908" y="164" type="line"/>
+      <point x="908" y="301" type="line"/>
+      <point x="1043" y="301" type="line" smooth="yes"/>
+      <point x="1100" y="301"/>
+      <point x="1180" y="381"/>
+      <point x="1180" y="438" type="qcurve" smooth="yes"/>
+      <point x="1180" y="573" type="line" smooth="yes"/>
+      <point x="1180" y="630"/>
+      <point x="1100" y="710"/>
+    </contour>
+  </outline>
+</glyph>

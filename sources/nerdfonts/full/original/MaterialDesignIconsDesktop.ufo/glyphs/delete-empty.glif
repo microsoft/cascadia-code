@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="delete-empty" format="2">
+  <advance width="512"/>
+  <unicode hex="F06CC"/>
+  <note>
+delete-empty
+</note>
+  <outline>
+    <contour>
+      <point x="370" y="295" type="line"/>
+      <point x="362" y="324" type="line"/>
+      <point x="270" y="378" type="line"/>
+      <point x="241" y="370" type="line"/>
+      <point x="176" y="407" type="line"/>
+      <point x="154" y="370" type="line"/>
+      <point x="413" y="221" type="line"/>
+      <point x="435" y="258" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="25"/>
+      <point x="153" y="0"/>
+      <point x="171" y="0" type="qcurve" smooth="yes"/>
+      <point x="341" y="0" type="line" smooth="yes"/>
+      <point x="359" y="0"/>
+      <point x="384" y="25"/>
+      <point x="384" y="43" type="qcurve" smooth="yes"/>
+      <point x="384" y="213" type="line"/>
+      <point x="236" y="299" type="line"/>
+      <point x="128" y="299" type="line"/>
+      <point x="128" y="43" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

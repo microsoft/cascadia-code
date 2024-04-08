@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-note-whole" format="2">
+  <advance width="512"/>
+  <unicode hex="F038D"/>
+  <note>
+music-note-whole
+</note>
+  <outline>
+    <contour>
+      <point x="238" y="128"/>
+      <point x="213" y="103"/>
+      <point x="213" y="85" type="qcurve" smooth="yes"/>
+      <point x="213" y="72"/>
+      <point x="228" y="51"/>
+      <point x="252" y="41"/>
+      <point x="277" y="46"/>
+      <point x="295" y="64"/>
+      <point x="300" y="90"/>
+      <point x="290" y="114"/>
+      <point x="269" y="128"/>
+      <point x="256" y="128" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="291" y="171"/>
+      <point x="341" y="121"/>
+      <point x="341" y="50"/>
+      <point x="291" y="0"/>
+      <point x="221" y="0"/>
+      <point x="171" y="50"/>
+      <point x="171" y="121"/>
+      <point x="221" y="171"/>
+      <point x="256" y="171" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

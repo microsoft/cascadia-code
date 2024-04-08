@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="account-school" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1A20"/>
+  <note>
+account-school
+</note>
+  <outline>
+    <contour>
+      <point x="882" y="995" type="line"/>
+      <point x="1034" y="1073" type="line"/>
+      <point x="1034" y="747" type="line"/>
+      <point x="1105" y="747" type="line"/>
+      <point x="1105" y="1110" type="line"/>
+      <point x="600" y="1361" type="line"/>
+      <point x="95" y="1110" type="line"/>
+      <point x="318" y="995" type="line"/>
+      <point x="312" y="927" type="line"/>
+      <point x="312" y="808"/>
+      <point x="481" y="639"/>
+      <point x="719" y="639"/>
+      <point x="888" y="808"/>
+      <point x="888" y="927" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="444" y="493"/>
+      <point x="176" y="415"/>
+      <point x="20" y="283"/>
+      <point x="20" y="205" type="qcurve" smooth="yes"/>
+      <point x="20" y="59" type="line"/>
+      <point x="1180" y="59" type="line"/>
+      <point x="1180" y="205" type="line" smooth="yes"/>
+      <point x="1180" y="283"/>
+      <point x="1024" y="415"/>
+      <point x="756" y="493"/>
+      <point x="600" y="493" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

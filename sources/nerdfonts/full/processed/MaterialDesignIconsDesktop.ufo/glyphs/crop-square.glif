@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="crop-square" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01A2"/>
+  <note>
+crop-square
+</note>
+  <outline>
+    <contour>
+      <point x="1034" y="1144" type="line"/>
+      <point x="1034" y="276" type="line"/>
+      <point x="166" y="276" type="line"/>
+      <point x="166" y="1144" type="line"/>
+    </contour>
+    <contour>
+      <point x="1095" y="1290"/>
+      <point x="1034" y="1290" type="qcurve" smooth="yes"/>
+      <point x="166" y="1290" type="line" smooth="yes"/>
+      <point x="105" y="1290"/>
+      <point x="20" y="1205"/>
+      <point x="20" y="1144" type="qcurve" smooth="yes"/>
+      <point x="20" y="276" type="line" smooth="yes"/>
+      <point x="20" y="215"/>
+      <point x="105" y="130"/>
+      <point x="166" y="130" type="qcurve" smooth="yes"/>
+      <point x="1034" y="130" type="line" smooth="yes"/>
+      <point x="1095" y="130"/>
+      <point x="1180" y="215"/>
+      <point x="1180" y="276" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1144" type="line" smooth="yes"/>
+      <point x="1180" y="1205"/>
+    </contour>
+  </outline>
+</glyph>

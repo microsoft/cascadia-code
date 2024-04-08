@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="invert-colors" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0301"/>
+  <note>
+invert-colors
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="1210" type="line"/>
+      <point x="600" y="145" type="line"/>
+      <point x="600" y="145" type="line"/>
+      <point x="510" y="145"/>
+      <point x="352" y="214"/>
+      <point x="290" y="276" type="qcurve" smooth="yes"/>
+      <point x="159" y="403"/>
+      <point x="159" y="586" type="qcurve" smooth="yes"/>
+      <point x="159" y="676"/>
+      <point x="224" y="838"/>
+      <point x="290" y="900" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1127" y="889"/>
+      <point x="1017" y="1003" type="qcurve" smooth="yes"/>
+      <point x="600" y="1420" type="line"/>
+      <point x="183" y="1003" type="line" smooth="yes"/>
+      <point x="73" y="889"/>
+      <point x="-7" y="586"/>
+      <point x="73" y="283"/>
+      <point x="183" y="172" type="qcurve" smooth="yes"/>
+      <point x="269" y="86"/>
+      <point x="486" y="0"/>
+      <point x="714" y="0"/>
+      <point x="931" y="86"/>
+      <point x="1017" y="172" type="qcurve" smooth="yes"/>
+      <point x="1127" y="283"/>
+      <point x="1207" y="586"/>
+    </contour>
+  </outline>
+</glyph>

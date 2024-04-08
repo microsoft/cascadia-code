@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="battery-charging-wireless-alert" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0811"/>
+  <note>
+battery-charging-wireless-alert
+</note>
+  <outline>
+    <contour>
+      <point x="652" y="1153"/>
+      <point x="626" y="1153" type="qcurve" smooth="yes"/>
+      <point x="517" y="1153" type="line"/>
+      <point x="517" y="1262" type="line"/>
+      <point x="186" y="1262" type="line"/>
+      <point x="186" y="1153" type="line"/>
+      <point x="74" y="1153" type="line" smooth="yes"/>
+      <point x="48" y="1153"/>
+      <point x="20" y="1122"/>
+      <point x="20" y="1096" type="qcurve" smooth="yes"/>
+      <point x="20" y="213" type="line" smooth="yes"/>
+      <point x="20" y="187"/>
+      <point x="48" y="158"/>
+      <point x="74" y="158" type="qcurve" smooth="yes"/>
+      <point x="626" y="158" type="line" smooth="yes"/>
+      <point x="652" y="158"/>
+      <point x="683" y="187"/>
+      <point x="683" y="213" type="qcurve" smooth="yes"/>
+      <point x="683" y="1096" type="line" smooth="yes"/>
+      <point x="683" y="1122"/>
+    </contour>
+    <contour>
+      <point x="406" y="490" type="line"/>
+      <point x="406" y="379" type="line"/>
+      <point x="294" y="379" type="line"/>
+      <point x="294" y="490" type="line"/>
+    </contour>
+    <contour>
+      <point x="406" y="930" type="line"/>
+      <point x="406" y="599" type="line"/>
+      <point x="294" y="599" type="line"/>
+      <point x="294" y="930" type="line"/>
+    </contour>
+    <contour>
+      <point x="1126" y="997"/>
+      <point x="1019" y="1101" type="qcurve"/>
+      <point x="942" y="1026" type="line"/>
+      <point x="1025" y="940"/>
+      <point x="1084" y="713"/>
+      <point x="1025" y="485"/>
+      <point x="942" y="402" type="qcurve"/>
+      <point x="1019" y="324" type="line"/>
+      <point x="1126" y="428"/>
+      <point x="1198" y="710"/>
+    </contour>
+    <contour>
+      <point x="924" y="878"/>
+      <point x="859" y="943" type="qcurve"/>
+      <point x="781" y="865" type="line"/>
+      <point x="849" y="798"/>
+      <point x="849" y="617"/>
+      <point x="781" y="549" type="qcurve"/>
+      <point x="859" y="472" type="line"/>
+      <point x="924" y="537"/>
+      <point x="970" y="710"/>
+    </contour>
+  </outline>
+</glyph>

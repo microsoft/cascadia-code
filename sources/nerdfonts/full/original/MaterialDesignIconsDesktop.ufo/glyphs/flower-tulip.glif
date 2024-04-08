@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="flower-tulip" format="2">
+  <advance width="512"/>
+  <unicode hex="F09F1"/>
+  <note>
+flower-tulip
+</note>
+  <outline>
+    <contour>
+      <point x="116" y="171"/>
+      <point x="204" y="119"/>
+      <point x="256" y="31"/>
+      <point x="256" y="-21" type="qcurve"/>
+      <point x="204" y="-21"/>
+      <point x="116" y="30"/>
+      <point x="64" y="119"/>
+      <point x="64" y="171" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="256" y="31"/>
+      <point x="308" y="119"/>
+      <point x="396" y="171"/>
+      <point x="448" y="171" type="qcurve"/>
+      <point x="448" y="119"/>
+      <point x="396" y="30"/>
+      <point x="308" y="-21"/>
+      <point x="256" y="-21" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="359" y="384"/>
+      <point x="338" y="376" type="qcurve" smooth="yes"/>
+      <point x="320" y="368"/>
+      <point x="307" y="354" type="qcurve"/>
+      <point x="256" y="405" type="line"/>
+      <point x="205" y="354" type="line"/>
+      <point x="192" y="368"/>
+      <point x="174" y="376" type="qcurve" smooth="yes"/>
+      <point x="153" y="384"/>
+      <point x="128" y="384" type="qcurve"/>
+      <point x="128" y="277" type="line" smooth="yes"/>
+      <point x="128" y="252"/>
+      <point x="147" y="205"/>
+      <point x="183" y="169"/>
+      <point x="231" y="149"/>
+      <point x="281" y="149"/>
+      <point x="329" y="169"/>
+      <point x="365" y="205"/>
+      <point x="384" y="252"/>
+      <point x="384" y="277" type="qcurve" smooth="yes"/>
+      <point x="384" y="384" type="line"/>
+    </contour>
+  </outline>
+</glyph>

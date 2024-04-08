@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="clock-fill" format="2">
+  <advance width="1200"/>
+  <unicode hex="F4AB"/>
+  <note>
+clock-fill
+</note>
+  <outline>
+    <contour>
+      <point x="112" y="378"/>
+      <point x="268" y="222"/>
+      <point x="482" y="130"/>
+      <point x="718" y="130"/>
+      <point x="932" y="222"/>
+      <point x="1088" y="378"/>
+      <point x="1180" y="592"/>
+      <point x="1180" y="828"/>
+      <point x="1088" y="1042"/>
+      <point x="932" y="1198"/>
+      <point x="718" y="1290"/>
+      <point x="482" y="1290"/>
+      <point x="268" y="1198"/>
+      <point x="112" y="1042"/>
+      <point x="20" y="828"/>
+      <point x="20" y="592"/>
+    </contour>
+    <contour>
+      <point x="642" y="733" type="line"/>
+      <point x="785" y="675" type="line" smooth="yes"/>
+      <point x="802" y="668"/>
+      <point x="822" y="638"/>
+      <point x="822" y="620" type="qcurve" smooth="yes"/>
+      <point x="822" y="595"/>
+      <point x="787" y="560"/>
+      <point x="762" y="560" type="qcurve" smooth="yes"/>
+      <point x="751" y="560"/>
+      <point x="741" y="564" type="qcurve" smooth="yes"/>
+      <point x="560" y="636" type="line" smooth="yes"/>
+      <point x="543" y="643"/>
+      <point x="522" y="674"/>
+      <point x="522" y="692" type="qcurve" smooth="yes"/>
+      <point x="522" y="946" type="line" smooth="yes"/>
+      <point x="522" y="971"/>
+      <point x="557" y="1006"/>
+      <point x="607" y="1006"/>
+      <point x="642" y="971"/>
+      <point x="642" y="946" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:49:53 +0000</string>
+    </dict>
+  </lib>
+</glyph>

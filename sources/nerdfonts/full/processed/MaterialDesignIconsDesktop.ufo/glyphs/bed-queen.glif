@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bed-queen" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0FD0"/>
+  <note>
+bed-queen
+</note>
+  <outline>
+    <contour>
+      <point x="1104" y="840"/>
+      <point x="1050" y="840" type="qcurve"/>
+      <point x="1050" y="1033" type="line" smooth="yes"/>
+      <point x="1050" y="1085"/>
+      <point x="975" y="1160"/>
+      <point x="923" y="1160" type="qcurve" smooth="yes"/>
+      <point x="277" y="1160" type="line" smooth="yes"/>
+      <point x="225" y="1160"/>
+      <point x="150" y="1085"/>
+      <point x="150" y="1033" type="qcurve" smooth="yes"/>
+      <point x="150" y="840" type="line"/>
+      <point x="96" y="840"/>
+      <point x="20" y="764"/>
+      <point x="20" y="710" type="qcurve" smooth="yes"/>
+      <point x="20" y="387" type="line"/>
+      <point x="105" y="387" type="line"/>
+      <point x="150" y="260" type="line"/>
+      <point x="213" y="260" type="line"/>
+      <point x="256" y="387" type="line"/>
+      <point x="944" y="387" type="line"/>
+      <point x="987" y="260" type="line"/>
+      <point x="1050" y="260" type="line"/>
+      <point x="1095" y="387" type="line"/>
+      <point x="1180" y="387" type="line"/>
+      <point x="1180" y="710" type="line" smooth="yes"/>
+      <point x="1180" y="764"/>
+    </contour>
+    <contour>
+      <point x="923" y="1033" type="line"/>
+      <point x="277" y="1033" type="line"/>
+      <point x="277" y="840" type="line"/>
+      <point x="923" y="840" type="line"/>
+    </contour>
+  </outline>
+</glyph>

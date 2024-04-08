@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="account-check" format="2">
+  <advance width="512"/>
+  <unicode hex="F0008"/>
+  <note>
+account-check
+</note>
+  <outline>
+    <contour>
+      <point x="341" y="71" type="line"/>
+      <point x="297" y="115" type="line"/>
+      <point x="267" y="85" type="line"/>
+      <point x="341" y="11" type="line"/>
+      <point x="480" y="151" type="line"/>
+      <point x="450" y="181" type="line"/>
+    </contour>
+    <contour>
+      <point x="275" y="147" type="line"/>
+      <point x="235" y="149" type="line" smooth="yes"/>
+      <point x="188" y="149"/>
+      <point x="110" y="126"/>
+      <point x="64" y="87"/>
+      <point x="64" y="64" type="qcurve" smooth="yes"/>
+      <point x="64" y="21" type="line"/>
+      <point x="277" y="21" type="line"/>
+      <point x="213" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="199" y="363"/>
+      <point x="149" y="313"/>
+      <point x="149" y="242"/>
+      <point x="199" y="192"/>
+      <point x="270" y="192"/>
+      <point x="320" y="242"/>
+      <point x="320" y="313"/>
+      <point x="270" y="363"/>
+      <point x="235" y="363" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

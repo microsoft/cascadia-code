@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="battery-charging-wireless-20" format="2">
+  <advance width="512"/>
+  <unicode hex="F0809"/>
+  <note>
+battery-charging-wireless-20
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="302"/>
+      <point x="498" y="192"/>
+      <point x="469" y="82"/>
+      <point x="428" y="41" type="qcurve"/>
+      <point x="398" y="71" type="line"/>
+      <point x="431" y="104"/>
+      <point x="454" y="192"/>
+      <point x="431" y="280"/>
+      <point x="398" y="313" type="qcurve"/>
+      <point x="428" y="343" type="line"/>
+    </contour>
+    <contour>
+      <point x="392" y="258"/>
+      <point x="410" y="192"/>
+      <point x="392" y="126"/>
+      <point x="368" y="102" type="qcurve"/>
+      <point x="338" y="132" type="line"/>
+      <point x="363" y="157"/>
+      <point x="363" y="227"/>
+      <point x="338" y="252" type="qcurve"/>
+      <point x="368" y="282" type="line"/>
+    </contour>
+    <contour>
+      <point x="286" y="363"/>
+      <point x="299" y="350"/>
+      <point x="299" y="341" type="qcurve" smooth="yes"/>
+      <point x="299" y="0" type="line" smooth="yes"/>
+      <point x="299" y="-9"/>
+      <point x="286" y="-21"/>
+      <point x="277" y="-21" type="qcurve" smooth="yes"/>
+      <point x="64" y="-21" type="line" smooth="yes"/>
+      <point x="55" y="-21"/>
+      <point x="43" y="-9"/>
+      <point x="43" y="0" type="qcurve" smooth="yes"/>
+      <point x="43" y="341" type="line" smooth="yes"/>
+      <point x="43" y="350"/>
+      <point x="55" y="363"/>
+      <point x="64" y="363" type="qcurve" smooth="yes"/>
+      <point x="107" y="363" type="line"/>
+      <point x="107" y="405" type="line"/>
+      <point x="235" y="405" type="line"/>
+      <point x="235" y="363" type="line"/>
+      <point x="277" y="363" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="256" y="320" type="line"/>
+      <point x="85" y="320" type="line"/>
+      <point x="85" y="85" type="line"/>
+      <point x="256" y="85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

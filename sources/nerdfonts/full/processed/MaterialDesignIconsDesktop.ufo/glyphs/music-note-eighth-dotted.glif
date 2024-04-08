@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-note-eighth-dotted" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0F71"/>
+  <note>
+music-note-eighth-dotted
+</note>
+  <outline>
+    <contour>
+      <point x="1073" y="1420" type="line"/>
+      <point x="600" y="1420" type="line"/>
+      <point x="600" y="589" type="line"/>
+      <point x="508" y="641"/>
+      <point x="294" y="615"/>
+      <point x="142" y="464"/>
+      <point x="117" y="249"/>
+      <point x="224" y="65"/>
+      <point x="423" y="-16"/>
+      <point x="630" y="39"/>
+      <point x="759" y="209"/>
+      <point x="759" y="316" type="qcurve" smooth="yes"/>
+      <point x="759" y="1106" type="line"/>
+      <point x="1073" y="1106" type="line"/>
+    </contour>
+    <contour>
+      <point x="1003" y="80"/>
+      <point x="1073" y="150"/>
+      <point x="1073" y="249"/>
+      <point x="1003" y="316"/>
+      <point x="907" y="316"/>
+      <point x="837" y="249"/>
+      <point x="837" y="150"/>
+      <point x="907" y="80"/>
+      <point x="955" y="80" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

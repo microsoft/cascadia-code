@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-clef-bass" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0F6F"/>
+  <note>
+music-clef-bass
+</note>
+  <outline>
+    <contour>
+      <point x="1013" y="1252"/>
+      <point x="948" y="1187"/>
+      <point x="948" y="1089"/>
+      <point x="1013" y="1020"/>
+      <point x="1111" y="1020"/>
+      <point x="1180" y="1089"/>
+      <point x="1180" y="1187"/>
+      <point x="1111" y="1252"/>
+      <point x="1064" y="1252" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1013" y="788"/>
+      <point x="948" y="723"/>
+      <point x="948" y="625"/>
+      <point x="1013" y="556"/>
+      <point x="1111" y="556"/>
+      <point x="1180" y="625"/>
+      <point x="1180" y="723"/>
+      <point x="1111" y="788"/>
+      <point x="1064" y="788" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="531" y="1332"/>
+      <point x="404" y="1332" type="qcurve" smooth="yes"/>
+      <point x="299" y="1332"/>
+      <point x="122" y="1227"/>
+      <point x="20" y="1049"/>
+      <point x="20" y="944" type="qcurve" smooth="yes"/>
+      <point x="20" y="868" type="line" smooth="yes"/>
+      <point x="20" y="802"/>
+      <point x="107" y="715"/>
+      <point x="230" y="712"/>
+      <point x="325" y="795"/>
+      <point x="332" y="922"/>
+      <point x="248" y="1016"/>
+      <point x="187" y="1020" type="qcurve"/>
+      <point x="212" y="1089"/>
+      <point x="332" y="1176"/>
+      <point x="404" y="1176" type="qcurve" smooth="yes"/>
+      <point x="535" y="1176"/>
+      <point x="716" y="995"/>
+      <point x="716" y="868" type="qcurve" smooth="yes"/>
+      <point x="716" y="657"/>
+      <point x="451" y="349"/>
+      <point x="172" y="233" type="qcurve"/>
+      <point x="234" y="88" type="line"/>
+      <point x="553" y="226"/>
+      <point x="868" y="610"/>
+      <point x="868" y="868" type="qcurve" smooth="yes"/>
+      <point x="868" y="991"/>
+      <point x="745" y="1205"/>
+    </contour>
+  </outline>
+</glyph>

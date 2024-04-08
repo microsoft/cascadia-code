@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bed" format="2">
+  <advance width="1200"/>
+  <unicode hex="F02E3"/>
+  <note>
+bed
+</note>
+  <outline>
+    <contour>
+      <point x="1057" y="1001"/>
+      <point x="968" y="1001" type="qcurve" smooth="yes"/>
+      <point x="548" y="1001" type="line"/>
+      <point x="548" y="631" type="line"/>
+      <point x="126" y="631" type="line"/>
+      <point x="126" y="1105" type="line"/>
+      <point x="20" y="1105" type="line"/>
+      <point x="20" y="315" type="line"/>
+      <point x="126" y="315" type="line"/>
+      <point x="126" y="473" type="line"/>
+      <point x="1074" y="473" type="line"/>
+      <point x="1074" y="315" type="line"/>
+      <point x="1180" y="315" type="line"/>
+      <point x="1180" y="789" type="line" smooth="yes"/>
+      <point x="1180" y="878"/>
+    </contour>
+    <contour>
+      <point x="272" y="685"/>
+      <point x="336" y="685" type="qcurve" smooth="yes"/>
+      <point x="403" y="685"/>
+      <point x="494" y="777"/>
+      <point x="494" y="907"/>
+      <point x="403" y="1001"/>
+      <point x="272" y="1001"/>
+      <point x="178" y="907"/>
+      <point x="178" y="777"/>
+    </contour>
+  </outline>
+</glyph>

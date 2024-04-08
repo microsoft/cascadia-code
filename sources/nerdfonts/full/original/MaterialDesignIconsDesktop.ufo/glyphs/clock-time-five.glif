@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="clock-time-five" format="2">
+  <advance width="512"/>
+  <unicode hex="F1443"/>
+  <note>
+clock-time-five
+</note>
+  <outline>
+    <contour>
+      <point x="314" y="405"/>
+      <point x="412" y="348"/>
+      <point x="469" y="250"/>
+      <point x="469" y="134"/>
+      <point x="412" y="36"/>
+      <point x="314" y="-21"/>
+      <point x="198" y="-21"/>
+      <point x="100" y="36"/>
+      <point x="43" y="134"/>
+      <point x="43" y="250"/>
+      <point x="100" y="348"/>
+      <point x="198" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="326" y="100" type="line"/>
+      <point x="267" y="205" type="line"/>
+      <point x="267" y="299" type="line"/>
+      <point x="235" y="299" type="line"/>
+      <point x="235" y="196" type="line"/>
+      <point x="299" y="85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="satellite-uplink" format="2">
+  <advance width="512"/>
+  <unicode hex="F0909"/>
+  <note>
+satellite-uplink
+</note>
+  <outline>
+    <contour>
+      <point x="335" y="389"/>
+      <point x="453" y="271"/>
+      <point x="469" y="189" type="qcurve"/>
+      <point x="428" y="178" type="line"/>
+      <point x="414" y="249"/>
+      <point x="312" y="351"/>
+      <point x="242" y="364" type="qcurve"/>
+      <point x="253" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="290" y="313"/>
+      <point x="376" y="227"/>
+      <point x="387" y="167" type="qcurve"/>
+      <point x="345" y="156" type="line"/>
+      <point x="338" y="205"/>
+      <point x="268" y="274"/>
+      <point x="220" y="281" type="qcurve"/>
+      <point x="231" y="323" type="line"/>
+    </contour>
+    <contour>
+      <point x="305" y="15" type="line"/>
+      <point x="271" y="0"/>
+      <point x="235" y="0" type="qcurve" smooth="yes"/>
+      <point x="201" y="0"/>
+      <point x="171" y="13" type="qcurve"/>
+      <point x="171" y="-21" type="line"/>
+      <point x="107" y="-21" type="line"/>
+      <point x="107" y="58" type="line"/>
+      <point x="86" y="81"/>
+      <point x="64" y="139"/>
+      <point x="64" y="171" type="qcurve" smooth="yes"/>
+      <point x="64" y="207"/>
+      <point x="79" y="241" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="246" y="236"/>
+      <point x="300" y="182"/>
+      <point x="304" y="145" type="qcurve"/>
+      <point x="262" y="134" type="line"/>
+      <point x="262" y="160"/>
+      <point x="224" y="198"/>
+      <point x="198" y="198" type="qcurve"/>
+      <point x="209" y="240" type="line"/>
+    </contour>
+  </outline>
+</glyph>

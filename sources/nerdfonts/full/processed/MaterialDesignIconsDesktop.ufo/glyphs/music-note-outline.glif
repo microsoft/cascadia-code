@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-note-outline" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0F74"/>
+  <note>
+music-note-outline
+</note>
+  <outline>
+    <contour>
+      <point x="1073" y="1420" type="line"/>
+      <point x="600" y="1420" type="line"/>
+      <point x="600" y="589" type="line"/>
+      <point x="508" y="641"/>
+      <point x="294" y="615"/>
+      <point x="142" y="464"/>
+      <point x="117" y="249"/>
+      <point x="224" y="65"/>
+      <point x="423" y="-16"/>
+      <point x="630" y="39"/>
+      <point x="759" y="209"/>
+      <point x="759" y="316" type="qcurve" smooth="yes"/>
+      <point x="759" y="1106" type="line"/>
+      <point x="1073" y="1106" type="line"/>
+    </contour>
+    <contour>
+      <point x="508" y="161"/>
+      <point x="442" y="161" type="qcurve" smooth="yes"/>
+      <point x="379" y="161"/>
+      <point x="286" y="253"/>
+      <point x="286" y="382"/>
+      <point x="379" y="475"/>
+      <point x="508" y="475"/>
+      <point x="600" y="382"/>
+      <point x="600" y="253"/>
+    </contour>
+  </outline>
+</glyph>

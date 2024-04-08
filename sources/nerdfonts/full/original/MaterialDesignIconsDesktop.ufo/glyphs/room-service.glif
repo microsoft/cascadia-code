@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="room-service" format="2">
+  <advance width="512"/>
+  <unicode hex="F088D"/>
+  <note>
+room-service
+</note>
+  <outline>
+    <contour>
+      <point x="238" y="341"/>
+      <point x="213" y="316"/>
+      <point x="213" y="299" type="qcurve" smooth="yes"/>
+      <point x="213" y="291"/>
+      <point x="216" y="284" type="qcurve"/>
+      <point x="173" y="275"/>
+      <point x="104" y="224"/>
+      <point x="64" y="150"/>
+      <point x="64" y="107" type="qcurve"/>
+      <point x="448" y="107" type="line"/>
+      <point x="448" y="150"/>
+      <point x="408" y="224"/>
+      <point x="339" y="275"/>
+      <point x="296" y="284" type="qcurve"/>
+      <point x="299" y="291"/>
+      <point x="299" y="299" type="qcurve" smooth="yes"/>
+      <point x="299" y="316"/>
+      <point x="274" y="341"/>
+      <point x="256" y="341" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="469" y="85" type="line"/>
+      <point x="43" y="85" type="line"/>
+      <point x="43" y="43" type="line"/>
+      <point x="469" y="43" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="map_marker" format="2">
+  <advance width="1024"/>
+  <unicode hex="F041"/>
+  <note>
+map_marker
+</note>
+  <outline>
+    <contour>
+      <point x="768" y="896" type="curve" smooth="yes"/>
+      <point x="768" y="755"/>
+      <point x="653" y="640"/>
+      <point x="512" y="640" type="curve" smooth="yes"/>
+      <point x="371" y="640"/>
+      <point x="256" y="755"/>
+      <point x="256" y="896" type="curve" smooth="yes"/>
+      <point x="256" y="1037"/>
+      <point x="371" y="1152"/>
+      <point x="512" y="1152" type="curve" smooth="yes"/>
+      <point x="653" y="1152"/>
+      <point x="768" y="1037"/>
+    </contour>
+    <contour>
+      <point x="1024" y="896" type="curve" smooth="yes"/>
+      <point x="1024" y="1179"/>
+      <point x="795" y="1408"/>
+      <point x="512" y="1408" type="curve" smooth="yes"/>
+      <point x="229" y="1408"/>
+      <point x="0" y="1179"/>
+      <point x="0" y="896" type="curve" smooth="yes"/>
+      <point x="0" y="835"/>
+      <point x="7" y="772"/>
+      <point x="33" y="717" type="curve" smooth="yes"/>
+      <point x="398" y="-57" type="line" smooth="yes"/>
+      <point x="418" y="-101"/>
+      <point x="464" y="-128"/>
+      <point x="512" y="-128" type="curve" smooth="yes"/>
+      <point x="560" y="-128"/>
+      <point x="606" y="-101"/>
+      <point x="627" y="-57" type="curve" smooth="yes"/>
+      <point x="991" y="717" type="line" smooth="yes"/>
+      <point x="1017" y="772"/>
+      <point x="1024" y="835"/>
+    </contour>
+  </outline>
+</glyph>

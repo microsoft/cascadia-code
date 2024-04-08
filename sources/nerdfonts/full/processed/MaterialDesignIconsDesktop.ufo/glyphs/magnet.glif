@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="magnet" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0347"/>
+  <note>
+magnet
+</note>
+  <outline>
+    <contour>
+      <point x="277" y="1033" type="line"/>
+      <point x="20" y="1033" type="line"/>
+      <point x="20" y="647" type="line" smooth="yes"/>
+      <point x="20" y="489"/>
+      <point x="177" y="221"/>
+      <point x="443" y="67"/>
+      <point x="757" y="67"/>
+      <point x="1023" y="221"/>
+      <point x="1180" y="489"/>
+      <point x="1180" y="647" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1033" type="line"/>
+      <point x="923" y="1033" type="line"/>
+      <point x="923" y="647" type="line" smooth="yes"/>
+      <point x="923" y="559"/>
+      <point x="836" y="411"/>
+      <point x="688" y="323"/>
+      <point x="600" y="323" type="qcurve" smooth="yes"/>
+      <point x="537" y="323"/>
+      <point x="419" y="372"/>
+      <point x="328" y="462"/>
+      <point x="277" y="580"/>
+      <point x="277" y="647" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="923" y="1353" type="line"/>
+      <point x="923" y="1160" type="line"/>
+      <point x="1180" y="1160" type="line"/>
+      <point x="1180" y="1353" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="1353" type="line"/>
+      <point x="20" y="1160" type="line"/>
+      <point x="277" y="1160" type="line"/>
+      <point x="277" y="1353" type="line"/>
+    </contour>
+  </outline>
+</glyph>

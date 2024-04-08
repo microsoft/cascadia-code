@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wardrobe" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0F90"/>
+  <note>
+wardrobe
+</note>
+  <outline>
+    <contour>
+      <point x="30" y="1337"/>
+      <point x="30" y="1280" type="qcurve" smooth="yes"/>
+      <point x="30" y="213" type="line" smooth="yes"/>
+      <point x="30" y="153"/>
+      <point x="113" y="70"/>
+      <point x="173" y="70" type="qcurve"/>
+      <point x="173" y="0" type="line"/>
+      <point x="317" y="0" type="line"/>
+      <point x="317" y="70" type="line"/>
+      <point x="563" y="70" type="line"/>
+      <point x="563" y="1420" type="line"/>
+      <point x="173" y="1420" type="line" smooth="yes"/>
+      <point x="113" y="1420"/>
+    </contour>
+    <contour>
+      <point x="317" y="640" type="line"/>
+      <point x="317" y="853" type="line"/>
+      <point x="457" y="853" type="line"/>
+      <point x="457" y="640" type="line"/>
+    </contour>
+    <contour>
+      <point x="1087" y="1420"/>
+      <point x="1027" y="1420" type="qcurve" smooth="yes"/>
+      <point x="637" y="1420" type="line"/>
+      <point x="637" y="70" type="line"/>
+      <point x="883" y="70" type="line"/>
+      <point x="883" y="0" type="line"/>
+      <point x="1027" y="0" type="line"/>
+      <point x="1027" y="70" type="line"/>
+      <point x="1087" y="70"/>
+      <point x="1170" y="153"/>
+      <point x="1170" y="213" type="qcurve" smooth="yes"/>
+      <point x="1170" y="1280" type="line" smooth="yes"/>
+      <point x="1170" y="1337"/>
+    </contour>
+    <contour>
+      <point x="883" y="853" type="line"/>
+      <point x="883" y="640" type="line"/>
+      <point x="743" y="640" type="line"/>
+      <point x="743" y="853" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="application-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F0614"/>
+  <note>
+application-outline
+</note>
+  <outline>
+    <contour>
+      <point x="466" y="405"/>
+      <point x="491" y="380"/>
+      <point x="491" y="363" type="qcurve" smooth="yes"/>
+      <point x="491" y="21" type="line" smooth="yes"/>
+      <point x="491" y="4"/>
+      <point x="466" y="-21"/>
+      <point x="448" y="-21" type="qcurve" smooth="yes"/>
+      <point x="64" y="-21" type="line" smooth="yes"/>
+      <point x="46" y="-21"/>
+      <point x="21" y="4"/>
+      <point x="21" y="21" type="qcurve" smooth="yes"/>
+      <point x="21" y="363" type="line" smooth="yes"/>
+      <point x="21" y="380"/>
+      <point x="46" y="405"/>
+      <point x="64" y="405" type="qcurve" smooth="yes"/>
+      <point x="448" y="405" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="448" y="320" type="line"/>
+      <point x="64" y="320" type="line"/>
+      <point x="64" y="21" type="line"/>
+      <point x="448" y="21" type="line"/>
+    </contour>
+  </outline>
+</glyph>

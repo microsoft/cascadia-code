@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="camera" format="2">
+  <advance width="512"/>
+  <unicode hex="F0100"/>
+  <note>
+camera
+</note>
+  <outline>
+    <contour>
+      <point x="68" y="363"/>
+      <point x="43" y="338"/>
+      <point x="43" y="320" type="qcurve" smooth="yes"/>
+      <point x="43" y="64" type="line" smooth="yes"/>
+      <point x="43" y="46"/>
+      <point x="68" y="21"/>
+      <point x="85" y="21" type="qcurve" smooth="yes"/>
+      <point x="427" y="21" type="line" smooth="yes"/>
+      <point x="444" y="21"/>
+      <point x="469" y="46"/>
+      <point x="469" y="64" type="qcurve" smooth="yes"/>
+      <point x="469" y="320" type="line" smooth="yes"/>
+      <point x="469" y="338"/>
+      <point x="444" y="363"/>
+      <point x="427" y="363" type="qcurve" smooth="yes"/>
+      <point x="363" y="363" type="line"/>
+      <point x="320" y="405" type="line"/>
+      <point x="192" y="405" type="line"/>
+      <point x="149" y="363" type="line"/>
+      <point x="85" y="363" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="285" y="299"/>
+      <point x="334" y="270"/>
+      <point x="363" y="221"/>
+      <point x="363" y="163"/>
+      <point x="334" y="114"/>
+      <point x="285" y="85"/>
+      <point x="227" y="85"/>
+      <point x="178" y="114"/>
+      <point x="149" y="163"/>
+      <point x="149" y="221"/>
+      <point x="178" y="270"/>
+      <point x="227" y="299"/>
+      <point x="256" y="299" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="229" y="256"/>
+      <point x="192" y="219"/>
+      <point x="192" y="165"/>
+      <point x="229" y="128"/>
+      <point x="283" y="128"/>
+      <point x="320" y="165"/>
+      <point x="320" y="219"/>
+      <point x="283" y="256"/>
+      <point x="256" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

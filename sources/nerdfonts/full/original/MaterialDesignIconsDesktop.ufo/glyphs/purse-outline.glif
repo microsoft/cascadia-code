@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="purse-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F0F1D"/>
+  <note>
+purse-outline
+</note>
+  <outline>
+    <contour>
+      <point x="107" y="213" type="line"/>
+      <point x="85" y="43" type="line"/>
+      <point x="427" y="43" type="line"/>
+      <point x="405" y="213" type="line"/>
+    </contour>
+    <contour>
+      <point x="341" y="341" type="line"/>
+      <point x="341" y="256" type="line"/>
+      <point x="412" y="256" type="line" smooth="yes"/>
+      <point x="426" y="256"/>
+      <point x="447" y="238"/>
+      <point x="448" y="224" type="qcurve" smooth="yes"/>
+      <point x="469" y="41" type="line" smooth="yes"/>
+      <point x="471" y="24"/>
+      <point x="449" y="0"/>
+      <point x="433" y="0" type="qcurve" smooth="yes"/>
+      <point x="79" y="0" type="line" smooth="yes"/>
+      <point x="63" y="0"/>
+      <point x="41" y="24"/>
+      <point x="43" y="41" type="qcurve" smooth="yes"/>
+      <point x="64" y="224" type="line" smooth="yes"/>
+      <point x="65" y="238"/>
+      <point x="86" y="256"/>
+      <point x="100" y="256" type="qcurve" smooth="yes"/>
+      <point x="171" y="256" type="line"/>
+      <point x="171" y="341" type="line"/>
+      <point x="213" y="384" type="line"/>
+      <point x="299" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="256" type="line"/>
+      <point x="299" y="341" type="line"/>
+      <point x="213" y="341" type="line"/>
+      <point x="213" y="256" type="line"/>
+    </contour>
+  </outline>
+</glyph>

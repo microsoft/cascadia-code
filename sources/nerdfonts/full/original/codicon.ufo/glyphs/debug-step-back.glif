@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="debug-step-back" format="2">
+  <advance width="300"/>
+  <unicode hex="EB8F"/>
+  <note>
+debug-step-back
+</note>
+  <outline>
+    <contour>
+      <point x="33" y="182" type="line"/>
+      <point x="51" y="164" type="line"/>
+      <point x="129" y="164" type="line"/>
+      <point x="129" y="192" type="line"/>
+      <point x="76" y="192" type="line"/>
+      <point x="87" y="211"/>
+      <point x="128" y="233"/>
+      <point x="174" y="233"/>
+      <point x="213" y="213"/>
+      <point x="237" y="179"/>
+      <point x="239" y="159" type="qcurve" smooth="yes"/>
+      <point x="239" y="155" type="line"/>
+      <point x="268" y="155" type="line"/>
+      <point x="267" y="160" type="line" smooth="yes"/>
+      <point x="265" y="188"/>
+      <point x="233" y="234"/>
+      <point x="181" y="261"/>
+      <point x="152" y="261" type="qcurve" smooth="yes"/>
+      <point x="125" y="261"/>
+      <point x="77" y="239"/>
+      <point x="61" y="220" type="qcurve"/>
+      <point x="61" y="267" type="line"/>
+      <point x="33" y="267" type="line"/>
+      <point x="33" y="192" type="line"/>
+    </contour>
+    <contour>
+      <point x="166" y="38"/>
+      <point x="188" y="59"/>
+      <point x="188" y="91"/>
+      <point x="166" y="113"/>
+      <point x="134" y="113"/>
+      <point x="113" y="91"/>
+      <point x="113" y="59"/>
+      <point x="134" y="38"/>
+      <point x="150" y="38" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

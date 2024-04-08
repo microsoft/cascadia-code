@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eight-track" format="2">
+  <advance width="1200"/>
+  <unicode hex="F09EA"/>
+  <note>
+eight-track
+</note>
+  <outline>
+    <contour>
+      <point x="670" y="1420" type="line"/>
+      <point x="243" y="1420" type="line"/>
+      <point x="103" y="1207" type="line"/>
+      <point x="103" y="427" type="line"/>
+      <point x="173" y="140" type="line" smooth="yes"/>
+      <point x="190" y="80"/>
+      <point x="223" y="40" type="qcurve" smooth="yes"/>
+      <point x="260" y="0"/>
+      <point x="317" y="0" type="qcurve" smooth="yes"/>
+      <point x="883" y="0" type="line" smooth="yes"/>
+      <point x="943" y="0"/>
+      <point x="1027" y="83"/>
+      <point x="1027" y="140" type="qcurve"/>
+      <point x="1097" y="427" type="line"/>
+      <point x="1097" y="1207" type="line"/>
+      <point x="957" y="1420" type="line"/>
+      <point x="813" y="1420" type="line"/>
+      <point x="813" y="1350" type="line"/>
+      <point x="670" y="1350" type="line"/>
+    </contour>
+    <contour>
+      <point x="243" y="427" type="line"/>
+      <point x="243" y="1137" type="line"/>
+      <point x="957" y="1137" type="line"/>
+      <point x="957" y="427" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="card-remove-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F1605"/>
+  <note>
+card-remove-outline
+</note>
+  <outline>
+    <contour>
+      <point x="481" y="88" type="line"/>
+      <point x="451" y="118" type="line"/>
+      <point x="405" y="73" type="line"/>
+      <point x="360" y="118" type="line"/>
+      <point x="330" y="88" type="line"/>
+      <point x="375" y="43" type="line"/>
+      <point x="330" y="-3" type="line"/>
+      <point x="360" y="-33" type="line"/>
+      <point x="405" y="13" type="line"/>
+      <point x="451" y="-33" type="line"/>
+      <point x="481" y="-3" type="line"/>
+      <point x="435" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="277" y="51"/>
+      <point x="277" y="34"/>
+      <point x="279" y="21" type="qcurve"/>
+      <point x="85" y="21" type="line" smooth="yes"/>
+      <point x="68" y="21"/>
+      <point x="43" y="46"/>
+      <point x="43" y="64" type="qcurve" smooth="yes"/>
+      <point x="43" y="320" type="line" smooth="yes"/>
+      <point x="43" y="338"/>
+      <point x="68" y="363"/>
+      <point x="85" y="363" type="qcurve" smooth="yes"/>
+      <point x="427" y="363" type="line" smooth="yes"/>
+      <point x="444" y="363"/>
+      <point x="469" y="338"/>
+      <point x="469" y="320" type="qcurve" smooth="yes"/>
+      <point x="469" y="153" type="line"/>
+      <point x="449" y="165"/>
+      <point x="427" y="169" type="qcurve"/>
+      <point x="427" y="320" type="line"/>
+      <point x="85" y="320" type="line"/>
+      <point x="85" y="64" type="line"/>
+      <point x="279" y="64" type="line"/>
+    </contour>
+  </outline>
+</glyph>

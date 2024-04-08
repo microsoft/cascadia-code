@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="email-alert" format="2">
+  <advance width="1200"/>
+  <unicode hex="F06CF"/>
+  <note>
+email-alert
+</note>
+  <outline>
+    <contour>
+      <point x="890" y="1000" type="line"/>
+      <point x="890" y="903" type="line"/>
+      <point x="503" y="662" type="line"/>
+      <point x="117" y="903" type="line"/>
+      <point x="117" y="1000" type="line"/>
+      <point x="503" y="758" type="line"/>
+    </contour>
+    <contour>
+      <point x="931" y="1097"/>
+      <point x="890" y="1097" type="qcurve" smooth="yes"/>
+      <point x="117" y="1097" type="line" smooth="yes"/>
+      <point x="77" y="1097"/>
+      <point x="20" y="1041"/>
+      <point x="20" y="1000" type="qcurve" smooth="yes"/>
+      <point x="20" y="420" type="line" smooth="yes"/>
+      <point x="20" y="379"/>
+      <point x="77" y="323"/>
+      <point x="117" y="323" type="qcurve" smooth="yes"/>
+      <point x="890" y="323" type="line" smooth="yes"/>
+      <point x="931" y="323"/>
+      <point x="987" y="379"/>
+      <point x="987" y="420" type="qcurve" smooth="yes"/>
+      <point x="987" y="1000" type="line" smooth="yes"/>
+      <point x="987" y="1041"/>
+    </contour>
+    <contour>
+      <point x="1180" y="662" type="line"/>
+      <point x="1180" y="952" type="line"/>
+      <point x="1083" y="952" type="line"/>
+      <point x="1083" y="662" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="468" type="line"/>
+      <point x="1180" y="565" type="line"/>
+      <point x="1083" y="565" type="line"/>
+      <point x="1083" y="468" type="line"/>
+    </contour>
+  </outline>
+</glyph>

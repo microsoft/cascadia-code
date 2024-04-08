@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bookmark-minus-outline" format="2">
+  <advance width="1200"/>
+  <unicode hex="F09CD"/>
+  <note>
+bookmark-minus-outline
+</note>
+  <outline>
+    <contour>
+      <point x="837" y="788" type="line"/>
+      <point x="837" y="947" type="line"/>
+      <point x="363" y="947" type="line"/>
+      <point x="363" y="788" type="line"/>
+    </contour>
+    <contour>
+      <point x="1151" y="1328"/>
+      <point x="1059" y="1420"/>
+      <point x="996" y="1420" type="qcurve" smooth="yes"/>
+      <point x="204" y="1420" type="line" smooth="yes"/>
+      <point x="141" y="1420"/>
+      <point x="49" y="1328"/>
+      <point x="49" y="1261" type="qcurve" smooth="yes"/>
+      <point x="49" y="0" type="line"/>
+      <point x="600" y="237" type="line"/>
+      <point x="1151" y="0" type="line"/>
+      <point x="1151" y="1261" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="996" y="237" type="line"/>
+      <point x="600" y="410" type="line"/>
+      <point x="204" y="237" type="line"/>
+      <point x="204" y="1261" type="line"/>
+      <point x="996" y="1261" type="line"/>
+    </contour>
+  </outline>
+</glyph>

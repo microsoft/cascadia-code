@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ellipsis" format="2">
+  <advance width="2048"/>
+  <unicode hex="F475"/>
+  <note>
+ellipsis
+</note>
+  <outline>
+    <contour>
+      <point x="0" y="326" type="line" smooth="yes"/>
+      <point x="0" y="233"/>
+      <point x="131" y="102"/>
+      <point x="224" y="102" type="qcurve" smooth="yes"/>
+      <point x="1824" y="102" type="line" smooth="yes"/>
+      <point x="1917" y="102"/>
+      <point x="2048" y="233"/>
+      <point x="2048" y="326" type="qcurve" smooth="yes"/>
+      <point x="2048" y="902" type="line" smooth="yes"/>
+      <point x="2048" y="995"/>
+      <point x="1917" y="1126"/>
+      <point x="1824" y="1126" type="qcurve" smooth="yes"/>
+      <point x="224" y="1126" type="line" smooth="yes"/>
+      <point x="131" y="1126"/>
+      <point x="0" y="995"/>
+      <point x="0" y="902" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1664" y="667"/>
+      <point x="1664" y="561"/>
+      <point x="1589" y="486"/>
+      <point x="1483" y="486"/>
+      <point x="1408" y="561"/>
+      <point x="1408" y="667"/>
+      <point x="1483" y="742"/>
+      <point x="1589" y="742"/>
+    </contour>
+    <contour>
+      <point x="971" y="742"/>
+      <point x="1077" y="742"/>
+      <point x="1152" y="667"/>
+      <point x="1152" y="561"/>
+      <point x="1077" y="486"/>
+      <point x="971" y="486"/>
+      <point x="896" y="561"/>
+      <point x="896" y="667"/>
+    </contour>
+    <contour>
+      <point x="640" y="667"/>
+      <point x="640" y="561"/>
+      <point x="565" y="486"/>
+      <point x="459" y="486"/>
+      <point x="384" y="561"/>
+      <point x="384" y="667"/>
+      <point x="459" y="742"/>
+      <point x="565" y="742"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:49:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="car-brake-alert" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0C48"/>
+  <note>
+car-brake-alert
+</note>
+  <outline>
+    <contour>
+      <point x="552" y="468" type="line"/>
+      <point x="648" y="468" type="line"/>
+      <point x="648" y="565" type="line"/>
+      <point x="552" y="565" type="line"/>
+    </contour>
+    <contour>
+      <point x="552" y="662" type="line"/>
+      <point x="648" y="662" type="line"/>
+      <point x="648" y="952" type="line"/>
+      <point x="552" y="952" type="line"/>
+    </contour>
+    <contour>
+      <point x="718" y="1145"/>
+      <point x="600" y="1145" type="qcurve" smooth="yes"/>
+      <point x="482" y="1145"/>
+      <point x="283" y="1027"/>
+      <point x="165" y="828"/>
+      <point x="165" y="592"/>
+      <point x="283" y="393"/>
+      <point x="482" y="275"/>
+      <point x="718" y="275"/>
+      <point x="917" y="393"/>
+      <point x="1035" y="592"/>
+      <point x="1035" y="828"/>
+      <point x="917" y="1027"/>
+    </contour>
+    <contour>
+      <point x="691" y="372"/>
+      <point x="600" y="372" type="qcurve" smooth="yes"/>
+      <point x="509" y="372"/>
+      <point x="353" y="463"/>
+      <point x="262" y="619"/>
+      <point x="262" y="801"/>
+      <point x="353" y="957"/>
+      <point x="509" y="1048"/>
+      <point x="691" y="1048"/>
+      <point x="847" y="957"/>
+      <point x="938" y="801"/>
+      <point x="938" y="619"/>
+      <point x="847" y="463"/>
+    </contour>
+    <contour>
+      <point x="958" y="352" type="qcurve"/>
+      <point x="1010" y="300" type="line"/>
+      <point x="1092" y="379"/>
+      <point x="1180" y="592"/>
+      <point x="1180" y="828"/>
+      <point x="1092" y="1041"/>
+      <point x="1010" y="1120" type="qcurve"/>
+      <point x="958" y="1068" type="line"/>
+      <point x="1028" y="998"/>
+      <point x="1108" y="812"/>
+      <point x="1108" y="608"/>
+      <point x="1028" y="422"/>
+    </contour>
+    <contour>
+      <point x="190" y="300" type="qcurve"/>
+      <point x="242" y="352" type="line"/>
+      <point x="172" y="422"/>
+      <point x="93" y="608"/>
+      <point x="93" y="812"/>
+      <point x="172" y="998"/>
+      <point x="242" y="1068" type="qcurve"/>
+      <point x="190" y="1120" type="line"/>
+      <point x="108" y="1041"/>
+      <point x="20" y="828"/>
+      <point x="20" y="592"/>
+      <point x="108" y="379"/>
+    </contour>
+  </outline>
+</glyph>

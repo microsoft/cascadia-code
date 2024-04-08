@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circle-box" format="2">
+  <advance width="512"/>
+  <unicode hex="F15DC"/>
+  <note>
+circle-box
+</note>
+  <outline>
+    <contour>
+      <point x="423" y="384"/>
+      <point x="448" y="359"/>
+      <point x="448" y="341" type="qcurve" smooth="yes"/>
+      <point x="448" y="43" type="line" smooth="yes"/>
+      <point x="448" y="25"/>
+      <point x="423" y="0"/>
+      <point x="405" y="0" type="qcurve" smooth="yes"/>
+      <point x="107" y="0" type="line" smooth="yes"/>
+      <point x="89" y="0"/>
+      <point x="64" y="25"/>
+      <point x="64" y="43" type="qcurve" smooth="yes"/>
+      <point x="64" y="341" type="line" smooth="yes"/>
+      <point x="64" y="359"/>
+      <point x="89" y="384"/>
+      <point x="107" y="384" type="qcurve" smooth="yes"/>
+      <point x="405" y="384" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="291" y="107"/>
+      <point x="341" y="157"/>
+      <point x="341" y="227"/>
+      <point x="291" y="277"/>
+      <point x="221" y="277"/>
+      <point x="171" y="227"/>
+      <point x="171" y="157"/>
+      <point x="221" y="107"/>
+      <point x="256" y="107" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

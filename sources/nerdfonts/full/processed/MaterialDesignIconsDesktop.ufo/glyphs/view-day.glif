@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="view-day" format="2">
+  <advance width="1200"/>
+  <unicode hex="F056F"/>
+  <note>
+view-day
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="1260" type="line"/>
+      <point x="20" y="1260" type="line"/>
+      <point x="20" y="1077" type="line"/>
+      <point x="1180" y="1077" type="line"/>
+    </contour>
+    <contour>
+      <point x="1146" y="953"/>
+      <point x="1120" y="953" type="qcurve" smooth="yes"/>
+      <point x="80" y="953" type="line" smooth="yes"/>
+      <point x="54" y="953"/>
+      <point x="20" y="919"/>
+      <point x="20" y="893" type="qcurve" smooth="yes"/>
+      <point x="20" y="527" type="line" smooth="yes"/>
+      <point x="20" y="501"/>
+      <point x="54" y="467"/>
+      <point x="80" y="467" type="qcurve" smooth="yes"/>
+      <point x="1120" y="467" type="line" smooth="yes"/>
+      <point x="1146" y="467"/>
+      <point x="1180" y="501"/>
+      <point x="1180" y="527" type="qcurve" smooth="yes"/>
+      <point x="1180" y="893" type="line" smooth="yes"/>
+      <point x="1180" y="919"/>
+    </contour>
+    <contour>
+      <point x="20" y="343" type="line"/>
+      <point x="20" y="160" type="line"/>
+      <point x="1180" y="160" type="line"/>
+      <point x="1180" y="343" type="line"/>
+    </contour>
+  </outline>
+</glyph>

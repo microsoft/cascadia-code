@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minimize" format="2">
+  <advance width="1200"/>
+  <unicode hex="E224"/>
+  <note>
+minimize
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="792" type="line" smooth="yes"/>
+      <point x="1180" y="825"/>
+      <point x="1147" y="825" type="qcurve" smooth="yes"/>
+      <point x="53" y="825" type="line" smooth="yes"/>
+      <point x="20" y="825"/>
+      <point x="20" y="792" type="qcurve" smooth="yes"/>
+      <point x="20" y="628" type="line" smooth="yes"/>
+      <point x="20" y="595"/>
+      <point x="53" y="595" type="qcurve" smooth="yes"/>
+      <point x="1147" y="595" type="line" smooth="yes"/>
+      <point x="1180" y="595"/>
+      <point x="1180" y="628" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:45:38 +0000</string>
+    </dict>
+  </lib>
+</glyph>

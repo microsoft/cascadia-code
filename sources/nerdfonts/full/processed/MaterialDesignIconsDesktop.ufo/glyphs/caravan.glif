@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caravan" format="2">
+  <advance width="1200"/>
+  <unicode hex="F07AD"/>
+  <note>
+caravan
+</note>
+  <outline>
+    <contour>
+      <point x="923" y="1130" type="qcurve" smooth="yes"/>
+      <point x="150" y="1130" type="line" smooth="yes"/>
+      <point x="96" y="1130"/>
+      <point x="20" y="1054"/>
+      <point x="20" y="1000" type="qcurve" smooth="yes"/>
+      <point x="20" y="613" type="line" smooth="yes"/>
+      <point x="20" y="559"/>
+      <point x="96" y="483"/>
+      <point x="150" y="483" type="qcurve" smooth="yes"/>
+      <point x="277" y="483" type="line"/>
+      <point x="277" y="405"/>
+      <point x="392" y="290"/>
+      <point x="552" y="290"/>
+      <point x="663" y="405"/>
+      <point x="663" y="483" type="qcurve"/>
+      <point x="1180" y="483" type="line"/>
+      <point x="1180" y="613" type="line"/>
+      <point x="1050" y="613" type="line"/>
+      <point x="1050" y="1000" type="line" smooth="yes"/>
+      <point x="1050" y="1054"/>
+      <point x="975" y="1130"/>
+    </contour>
+    <contour>
+      <point x="150" y="807" type="line"/>
+      <point x="150" y="1000" type="line"/>
+      <point x="470" y="1000" type="line"/>
+      <point x="470" y="807" type="line"/>
+    </contour>
+    <contour>
+      <point x="663" y="807" type="line"/>
+      <point x="663" y="1000" type="line"/>
+      <point x="923" y="1000" type="line"/>
+      <point x="923" y="807" type="line"/>
+    </contour>
+    <contour>
+      <point x="443" y="550"/>
+      <point x="470" y="550" type="qcurve" smooth="yes"/>
+      <point x="497" y="550"/>
+      <point x="537" y="511"/>
+      <point x="537" y="456"/>
+      <point x="497" y="420"/>
+      <point x="443" y="420"/>
+      <point x="407" y="456"/>
+      <point x="407" y="511"/>
+    </contour>
+  </outline>
+</glyph>

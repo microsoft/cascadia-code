@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pillar" format="2">
+  <advance width="512"/>
+  <unicode hex="F0702"/>
+  <note>
+pillar
+</note>
+  <outline>
+    <contour>
+      <point x="119" y="341"/>
+      <point x="107" y="329"/>
+      <point x="107" y="311"/>
+      <point x="119" y="299"/>
+      <point x="128" y="299" type="qcurve" smooth="yes"/>
+      <point x="384" y="299" type="line" smooth="yes"/>
+      <point x="393" y="299"/>
+      <point x="405" y="311"/>
+      <point x="405" y="329"/>
+      <point x="393" y="341"/>
+      <point x="384" y="341" type="qcurve" smooth="yes"/>
+      <point x="128" y="341" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="64" y="405" type="line"/>
+      <point x="64" y="363" type="line"/>
+      <point x="448" y="363" type="line"/>
+      <point x="448" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="-21" type="line"/>
+      <point x="363" y="-21" type="line"/>
+      <point x="363" y="277" type="line"/>
+      <point x="320" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="149" y="-21" type="line"/>
+      <point x="192" y="-21" type="line"/>
+      <point x="192" y="277" type="line"/>
+      <point x="149" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="-21" type="line"/>
+      <point x="277" y="-21" type="line"/>
+      <point x="277" y="277" type="line"/>
+      <point x="235" y="277" type="line"/>
+    </contour>
+  </outline>
+</glyph>

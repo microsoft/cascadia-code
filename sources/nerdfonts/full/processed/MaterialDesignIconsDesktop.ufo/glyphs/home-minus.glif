@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="home-minus" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0974"/>
+  <note>
+home-minus
+</note>
+  <outline>
+    <contour>
+      <point x="717" y="390" type="line"/>
+      <point x="717" y="276" type="line"/>
+      <point x="1180" y="276" type="line"/>
+      <point x="1180" y="390" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="681" type="line"/>
+      <point x="194" y="681" type="line"/>
+      <point x="194" y="216" type="line"/>
+      <point x="619" y="216" type="line"/>
+      <point x="600" y="273"/>
+      <point x="600" y="333" type="qcurve" smooth="yes"/>
+      <point x="600" y="428"/>
+      <point x="693" y="589"/>
+      <point x="853" y="681"/>
+      <point x="949" y="681" type="qcurve" smooth="yes"/>
+      <point x="1180" y="681" type="line"/>
+      <point x="600" y="1204" type="line"/>
+    </contour>
+  </outline>
+</glyph>

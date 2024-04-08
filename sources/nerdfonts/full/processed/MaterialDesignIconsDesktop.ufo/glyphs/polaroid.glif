@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="polaroid" format="2">
+  <advance width="1200"/>
+  <unicode hex="F041E"/>
+  <note>
+polaroid
+</note>
+  <outline>
+    <contour>
+      <point x="105" y="1361"/>
+      <point x="20" y="1276"/>
+      <point x="20" y="1215" type="qcurve" smooth="yes"/>
+      <point x="20" y="205" type="line" smooth="yes"/>
+      <point x="20" y="144"/>
+      <point x="105" y="59"/>
+      <point x="166" y="59" type="qcurve" smooth="yes"/>
+      <point x="1034" y="59" type="line" smooth="yes"/>
+      <point x="1095" y="59"/>
+      <point x="1180" y="144"/>
+      <point x="1180" y="205" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1215" type="line" smooth="yes"/>
+      <point x="1180" y="1276"/>
+      <point x="1095" y="1361"/>
+      <point x="1034" y="1361" type="qcurve" smooth="yes"/>
+      <point x="166" y="1361" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1034" y="1215" type="line"/>
+      <point x="1034" y="347" type="line"/>
+      <point x="166" y="347" type="line"/>
+      <point x="166" y="1215" type="line"/>
+    </contour>
+  </outline>
+</glyph>

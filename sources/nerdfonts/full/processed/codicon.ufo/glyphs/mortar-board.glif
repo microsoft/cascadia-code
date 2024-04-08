@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mortar-board" format="2">
+  <advance width="1200"/>
+  <unicode hex="EB21"/>
+  <note>
+mortar-board
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="830" type="line"/>
+      <point x="1180" y="905" type="line"/>
+      <point x="613" y="1126" type="line"/>
+      <point x="587" y="1126" type="line"/>
+      <point x="20" y="905" type="line"/>
+      <point x="20" y="378" type="line"/>
+      <point x="104" y="378" type="line"/>
+      <point x="104" y="794" type="line"/>
+      <point x="295" y="719" type="line"/>
+      <point x="228" y="626"/>
+      <point x="228" y="511" type="qcurve" smooth="yes"/>
+      <point x="228" y="475" type="line"/>
+      <point x="250" y="444" type="line"/>
+      <point x="582" y="294" type="line"/>
+      <point x="618" y="294" type="line"/>
+      <point x="941" y="444" type="line"/>
+      <point x="967" y="480" type="line"/>
+      <point x="967" y="515" type="line" smooth="yes"/>
+      <point x="967" y="626"/>
+      <point x="901" y="719" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="888" y="613"/>
+      <point x="888" y="515" type="qcurve" smooth="yes"/>
+      <point x="888" y="511" type="line"/>
+      <point x="600" y="378" type="line"/>
+      <point x="308" y="511" type="line"/>
+      <point x="308" y="515" type="line" smooth="yes"/>
+      <point x="312" y="613"/>
+      <point x="370" y="692" type="qcurve"/>
+      <point x="587" y="608" type="line"/>
+      <point x="618" y="608" type="line"/>
+      <point x="830" y="692" type="line"/>
+    </contour>
+    <contour>
+      <point x="1056" y="865" type="line"/>
+      <point x="600" y="688" type="line"/>
+      <point x="144" y="865" type="line"/>
+      <point x="600" y="1042" type="line"/>
+    </contour>
+  </outline>
+</glyph>

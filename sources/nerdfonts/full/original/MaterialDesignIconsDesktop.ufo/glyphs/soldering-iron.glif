@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="soldering-iron" format="2">
+  <advance width="512"/>
+  <unicode hex="F1092"/>
+  <note>
+soldering-iron
+</note>
+  <outline>
+    <contour>
+      <point x="172" y="294" type="line"/>
+      <point x="232" y="294" type="line"/>
+      <point x="262" y="264" type="line"/>
+      <point x="141" y="143" type="line"/>
+      <point x="111" y="173" type="line"/>
+      <point x="111" y="234" type="line"/>
+      <point x="43" y="302" type="line"/>
+      <point x="104" y="362" type="line"/>
+    </contour>
+    <contour>
+      <point x="392" y="320"/>
+      <point x="434" y="278"/>
+      <point x="434" y="219"/>
+      <point x="413" y="198" type="qcurve"/>
+      <point x="443" y="183"/>
+      <point x="480" y="126"/>
+      <point x="480" y="90" type="qcurve" smooth="yes"/>
+      <point x="480" y="0" type="line"/>
+      <point x="448" y="0" type="line"/>
+      <point x="448" y="90" type="line" smooth="yes"/>
+      <point x="448" y="126"/>
+      <point x="398" y="177"/>
+      <point x="363" y="177" type="qcurve"/>
+      <point x="363" y="209" type="line"/>
+      <point x="379" y="209"/>
+      <point x="402" y="232"/>
+      <point x="402" y="265"/>
+      <point x="379" y="288"/>
+      <point x="363" y="288" type="qcurve"/>
+      <point x="363" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="106" type="line"/>
+      <point x="345" y="90" type="line"/>
+      <point x="390" y="45" type="line"/>
+      <point x="405" y="0" type="line"/>
+      <point x="360" y="15" type="line"/>
+      <point x="315" y="60" type="line"/>
+      <point x="300" y="45" type="line"/>
+      <point x="194" y="151" type="line"/>
+      <point x="255" y="211" type="line"/>
+    </contour>
+  </outline>
+</glyph>

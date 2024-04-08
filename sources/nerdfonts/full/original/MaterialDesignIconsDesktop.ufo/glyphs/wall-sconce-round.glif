@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wall-sconce-round" format="2">
+  <advance width="512"/>
+  <unicode hex="F0748"/>
+  <note>
+wall-sconce-round
+</note>
+  <outline>
+    <contour>
+      <point x="235" y="43" type="line"/>
+      <point x="235" y="107" type="line"/>
+      <point x="277" y="107" type="line"/>
+      <point x="277" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="369" y="134" type="line"/>
+      <point x="400" y="164" type="line"/>
+      <point x="437" y="126" type="line"/>
+      <point x="407" y="96" type="line"/>
+    </contour>
+    <contour>
+      <point x="75" y="126" type="line"/>
+      <point x="112" y="164" type="line"/>
+      <point x="143" y="134" type="line"/>
+      <point x="105" y="96" type="line"/>
+    </contour>
+    <contour>
+      <point x="85" y="192" type="line"/>
+      <point x="85" y="238"/>
+      <point x="131" y="317"/>
+      <point x="211" y="363"/>
+      <point x="301" y="363"/>
+      <point x="381" y="317"/>
+      <point x="427" y="238"/>
+      <point x="427" y="192" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

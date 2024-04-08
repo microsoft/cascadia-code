@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radio-fm" format="2">
+  <advance width="512"/>
+  <unicode hex="F0CBF"/>
+  <note>
+radio-fm
+</note>
+  <outline>
+    <contour>
+      <point x="192" y="299" type="line"/>
+      <point x="192" y="256" type="line"/>
+      <point x="107" y="256" type="line"/>
+      <point x="107" y="213" type="line"/>
+      <point x="171" y="213" type="line"/>
+      <point x="171" y="171" type="line"/>
+      <point x="107" y="171" type="line"/>
+      <point x="107" y="85" type="line"/>
+      <point x="64" y="85" type="line"/>
+      <point x="64" y="299" type="line"/>
+    </contour>
+    <contour>
+      <point x="405" y="299" type="line" smooth="yes"/>
+      <point x="423" y="299"/>
+      <point x="448" y="274"/>
+      <point x="448" y="256" type="qcurve" smooth="yes"/>
+      <point x="448" y="85" type="line"/>
+      <point x="405" y="85" type="line"/>
+      <point x="405" y="256" type="line"/>
+      <point x="363" y="256" type="line"/>
+      <point x="363" y="107" type="line"/>
+      <point x="320" y="107" type="line"/>
+      <point x="320" y="256" type="line"/>
+      <point x="277" y="256" type="line"/>
+      <point x="277" y="85" type="line"/>
+      <point x="235" y="85" type="line"/>
+      <point x="235" y="256" type="line" smooth="yes"/>
+      <point x="235" y="274"/>
+      <point x="260" y="299"/>
+      <point x="277" y="299" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

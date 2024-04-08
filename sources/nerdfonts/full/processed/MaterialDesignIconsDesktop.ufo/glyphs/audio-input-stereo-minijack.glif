@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="audio-input-stereo-minijack" format="2">
+  <advance width="1200"/>
+  <unicode hex="F186C"/>
+  <note>
+audio-input-stereo-minijack
+</note>
+  <outline>
+    <contour>
+      <point x="670" y="1280" type="line"/>
+      <point x="670" y="1350" type="line" smooth="yes"/>
+      <point x="670" y="1380"/>
+      <point x="630" y="1420"/>
+      <point x="570" y="1420"/>
+      <point x="530" y="1380"/>
+      <point x="530" y="1350" type="qcurve" smooth="yes"/>
+      <point x="530" y="1280" type="line"/>
+    </contour>
+    <contour>
+      <point x="813" y="923" type="line"/>
+      <point x="670" y="923" type="line"/>
+      <point x="670" y="1207" type="line"/>
+      <point x="530" y="1207" type="line"/>
+      <point x="530" y="923" type="line"/>
+      <point x="387" y="923" type="line"/>
+      <point x="387" y="497" type="line" smooth="yes"/>
+      <point x="387" y="430"/>
+      <point x="467" y="320"/>
+      <point x="530" y="297" type="qcurve"/>
+      <point x="530" y="0" type="line"/>
+      <point x="670" y="0" type="line"/>
+      <point x="670" y="297" type="line"/>
+      <point x="733" y="320"/>
+      <point x="813" y="430"/>
+      <point x="813" y="497" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radio" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0439"/>
+  <note>
+radio
+</note>
+  <outline>
+    <contour>
+      <point x="415" y="1029" type="line"/>
+      <point x="859" y="1214" type="line"/>
+      <point x="815" y="1320" type="line"/>
+      <point x="94" y="1020" type="line" smooth="yes"/>
+      <point x="61" y="1010"/>
+      <point x="20" y="950"/>
+      <point x="20" y="912" type="qcurve" smooth="yes"/>
+      <point x="20" y="214" type="line" smooth="yes"/>
+      <point x="20" y="168"/>
+      <point x="88" y="100"/>
+      <point x="134" y="100" type="qcurve" smooth="yes"/>
+      <point x="1066" y="100" type="line" smooth="yes"/>
+      <point x="1112" y="100"/>
+      <point x="1180" y="168"/>
+      <point x="1180" y="214" type="qcurve" smooth="yes"/>
+      <point x="1180" y="912" type="line" smooth="yes"/>
+      <point x="1180" y="961"/>
+      <point x="1112" y="1029"/>
+      <point x="1066" y="1029" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1066" y="680" type="line"/>
+      <point x="949" y="680" type="line"/>
+      <point x="949" y="797" type="line"/>
+      <point x="831" y="797" type="line"/>
+      <point x="831" y="680" type="line"/>
+      <point x="134" y="680" type="line"/>
+      <point x="134" y="912" type="line"/>
+      <point x="1066" y="912" type="line"/>
+    </contour>
+    <contour>
+      <point x="382" y="563"/>
+      <point x="483" y="462"/>
+      <point x="483" y="318"/>
+      <point x="382" y="214"/>
+      <point x="238" y="214"/>
+      <point x="134" y="318"/>
+      <point x="134" y="462"/>
+      <point x="238" y="563"/>
+      <point x="309" y="563" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

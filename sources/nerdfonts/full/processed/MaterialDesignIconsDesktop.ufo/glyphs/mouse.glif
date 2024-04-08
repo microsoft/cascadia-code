@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mouse" format="2">
+  <advance width="1200"/>
+  <unicode hex="F037D"/>
+  <note>
+mouse
+</note>
+  <outline>
+    <contour>
+      <point x="536" y="907" type="line"/>
+      <point x="536" y="1420" type="line"/>
+      <point x="409" y="1405"/>
+      <point x="203" y="1259"/>
+      <point x="81" y="1038"/>
+      <point x="81" y="907" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="81" y="777" type="line"/>
+      <point x="81" y="519" type="line" smooth="yes"/>
+      <point x="81" y="379"/>
+      <point x="221" y="140"/>
+      <point x="460" y="0"/>
+      <point x="740" y="0"/>
+      <point x="979" y="140"/>
+      <point x="1119" y="379"/>
+      <point x="1119" y="519" type="qcurve" smooth="yes"/>
+      <point x="1119" y="777" type="line"/>
+    </contour>
+    <contour>
+      <point x="791" y="1405"/>
+      <point x="664" y="1420" type="qcurve"/>
+      <point x="664" y="907" type="line"/>
+      <point x="1119" y="907" type="line"/>
+      <point x="1119" y="1038"/>
+      <point x="997" y="1259"/>
+    </contour>
+  </outline>
+</glyph>

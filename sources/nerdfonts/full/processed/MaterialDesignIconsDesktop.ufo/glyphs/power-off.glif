@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="power-off" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0902"/>
+  <note>
+power-off
+</note>
+  <outline>
+    <contour>
+      <point x="757" y="1290"/>
+      <point x="600" y="1290" type="qcurve" smooth="yes"/>
+      <point x="443" y="1290"/>
+      <point x="177" y="1133"/>
+      <point x="20" y="867"/>
+      <point x="20" y="553"/>
+      <point x="177" y="287"/>
+      <point x="443" y="130"/>
+      <point x="757" y="130"/>
+      <point x="1023" y="287"/>
+      <point x="1180" y="553"/>
+      <point x="1180" y="867"/>
+      <point x="1023" y="1133"/>
+    </contour>
+    <contour>
+      <point x="724" y="260"/>
+      <point x="600" y="260" type="qcurve" smooth="yes"/>
+      <point x="476" y="260"/>
+      <point x="271" y="381"/>
+      <point x="150" y="586"/>
+      <point x="150" y="834"/>
+      <point x="271" y="1039"/>
+      <point x="476" y="1160"/>
+      <point x="724" y="1160"/>
+      <point x="929" y="1039"/>
+      <point x="1050" y="834"/>
+      <point x="1050" y="586"/>
+      <point x="929" y="381"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="home-thermometer" format="2">
+  <advance width="512"/>
+  <unicode hex="F0F54"/>
+  <note>
+home-thermometer
+</note>
+  <outline>
+    <contour>
+      <point x="388" y="277"/>
+      <point x="363" y="252"/>
+      <point x="363" y="235" type="qcurve" smooth="yes"/>
+      <point x="363" y="90" type="line"/>
+      <point x="341" y="71"/>
+      <point x="341" y="16"/>
+      <point x="379" y="-21"/>
+      <point x="432" y="-21"/>
+      <point x="469" y="16"/>
+      <point x="469" y="71"/>
+      <point x="448" y="90" type="qcurve"/>
+      <point x="448" y="235" type="line" smooth="yes"/>
+      <point x="448" y="252"/>
+      <point x="423" y="277"/>
+      <point x="405" y="277" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="414" y="256"/>
+      <point x="427" y="243"/>
+      <point x="427" y="235" type="qcurve" smooth="yes"/>
+      <point x="427" y="213" type="line"/>
+      <point x="384" y="213" type="line"/>
+      <point x="384" y="235" type="line" smooth="yes"/>
+      <point x="384" y="243"/>
+      <point x="397" y="256"/>
+      <point x="405" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="301" y="21" type="line"/>
+      <point x="299" y="43" type="line"/>
+      <point x="299" y="79"/>
+      <point x="320" y="107" type="qcurve"/>
+      <point x="320" y="235" type="line" smooth="yes"/>
+      <point x="320" y="254"/>
+      <point x="336" y="288"/>
+      <point x="350" y="300" type="qcurve"/>
+      <point x="256" y="384" type="line"/>
+      <point x="43" y="192" type="line"/>
+      <point x="107" y="192" type="line"/>
+      <point x="107" y="21" type="line"/>
+    </contour>
+  </outline>
+</glyph>

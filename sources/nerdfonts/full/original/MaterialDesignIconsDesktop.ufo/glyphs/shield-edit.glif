@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shield-edit" format="2">
+  <advance width="512"/>
+  <unicode hex="F11A0"/>
+  <note>
+shield-edit
+</note>
+  <outline>
+    <contour>
+      <point x="470" y="151"/>
+      <point x="463" y="158" type="qcurve" smooth="yes"/>
+      <point x="435" y="186" type="line" smooth="yes"/>
+      <point x="432" y="189"/>
+      <point x="421" y="189"/>
+      <point x="418" y="186" type="qcurve" smooth="yes"/>
+      <point x="397" y="164" type="line"/>
+      <point x="442" y="119" type="line"/>
+      <point x="463" y="141" type="line"/>
+    </contour>
+    <contour>
+      <point x="256" y="-21" type="line"/>
+      <point x="301" y="-21" type="line"/>
+      <point x="431" y="109" type="line"/>
+      <point x="386" y="154" type="line"/>
+      <point x="256" y="23" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="-28" type="line"/>
+      <point x="147" y="5"/>
+      <point x="64" y="137"/>
+      <point x="64" y="213" type="qcurve" smooth="yes"/>
+      <point x="64" y="341" type="line"/>
+      <point x="256" y="427" type="line"/>
+      <point x="448" y="341" type="line"/>
+      <point x="448" y="275" type="line"/>
+      <point x="213" y="41" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="coffee" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0176"/>
+  <note>
+coffee
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="304" type="line"/>
+      <point x="20" y="187" type="line"/>
+      <point x="1066" y="187" type="line"/>
+      <point x="1066" y="304" type="line"/>
+    </contour>
+    <contour>
+      <point x="1066" y="1116" type="line"/>
+      <point x="1066" y="941" type="line"/>
+      <point x="949" y="941" type="line"/>
+      <point x="949" y="1116" type="line"/>
+    </contour>
+    <contour>
+      <point x="1112" y="1233"/>
+      <point x="1066" y="1233" type="qcurve" smooth="yes"/>
+      <point x="134" y="1233" type="line"/>
+      <point x="134" y="653" type="line" smooth="yes"/>
+      <point x="134" y="555"/>
+      <point x="271" y="419"/>
+      <point x="369" y="419" type="qcurve" smooth="yes"/>
+      <point x="717" y="419" type="line" smooth="yes"/>
+      <point x="812" y="419"/>
+      <point x="949" y="555"/>
+      <point x="949" y="653" type="qcurve" smooth="yes"/>
+      <point x="949" y="827" type="line"/>
+      <point x="1066" y="827" type="line" smooth="yes"/>
+      <point x="1112" y="827"/>
+      <point x="1180" y="895"/>
+      <point x="1180" y="941" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1116" type="line" smooth="yes"/>
+      <point x="1180" y="1165"/>
+    </contour>
+  </outline>
+</glyph>

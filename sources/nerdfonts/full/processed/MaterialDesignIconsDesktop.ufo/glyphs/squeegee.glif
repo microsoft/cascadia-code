@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="squeegee" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0AE1"/>
+  <note>
+squeegee
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="1290" type="line"/>
+      <point x="20" y="1116" type="line"/>
+      <point x="1180" y="1116" type="line"/>
+      <point x="1180" y="1290" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="1059" type="line"/>
+      <point x="20" y="941" type="line"/>
+      <point x="309" y="941" type="line"/>
+      <point x="426" y="827" type="line"/>
+      <point x="483" y="827" type="line"/>
+      <point x="483" y="244" type="line" smooth="yes"/>
+      <point x="483" y="198"/>
+      <point x="551" y="130"/>
+      <point x="649" y="130"/>
+      <point x="717" y="198"/>
+      <point x="717" y="244" type="qcurve" smooth="yes"/>
+      <point x="717" y="827" type="line"/>
+      <point x="774" y="827" type="line"/>
+      <point x="891" y="941" type="line"/>
+      <point x="1180" y="941" type="line"/>
+      <point x="1180" y="1059" type="line"/>
+    </contour>
+  </outline>
+</glyph>

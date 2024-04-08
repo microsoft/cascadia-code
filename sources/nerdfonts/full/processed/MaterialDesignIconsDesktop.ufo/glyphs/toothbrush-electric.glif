@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="toothbrush-electric" format="2">
+  <advance width="1200"/>
+  <unicode hex="F112C"/>
+  <note>
+toothbrush-electric
+</note>
+  <outline>
+    <contour>
+      <point x="641" y="1420"/>
+      <point x="582" y="1420" type="qcurve"/>
+      <point x="582" y="552" type="line"/>
+      <point x="494" y="552"/>
+      <point x="374" y="432"/>
+      <point x="374" y="344" type="qcurve" smooth="yes"/>
+      <point x="374" y="0" type="line"/>
+      <point x="930" y="0" type="line"/>
+      <point x="930" y="344" type="line" smooth="yes"/>
+      <point x="930" y="432"/>
+      <point x="806" y="552"/>
+      <point x="722" y="552" type="qcurve"/>
+      <point x="722" y="1280" type="line" smooth="yes"/>
+      <point x="722" y="1339"/>
+    </contour>
+    <contour>
+      <point x="514" y="1384" type="line"/>
+      <point x="270" y="1384" type="line"/>
+      <point x="270" y="900" type="line"/>
+      <point x="514" y="900" type="line"/>
+      <point x="514" y="1004" type="line"/>
+      <point x="374" y="1004" type="line"/>
+      <point x="374" y="1280" type="line"/>
+      <point x="514" y="1280" type="line"/>
+    </contour>
+    <contour>
+      <point x="608" y="312"/>
+      <point x="650" y="312" type="qcurve" smooth="yes"/>
+      <point x="696" y="312"/>
+      <point x="754" y="250"/>
+      <point x="754" y="162"/>
+      <point x="696" y="104"/>
+      <point x="608" y="104"/>
+      <point x="546" y="162"/>
+      <point x="546" y="250"/>
+    </contour>
+  </outline>
+</glyph>

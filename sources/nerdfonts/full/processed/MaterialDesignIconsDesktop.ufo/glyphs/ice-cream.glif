@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ice-cream" format="2">
+  <advance width="1200"/>
+  <unicode hex="F082A"/>
+  <note>
+ice-cream
+</note>
+  <outline>
+    <contour>
+      <point x="1044" y="1065"/>
+      <point x="971" y="1078" type="qcurve"/>
+      <point x="958" y="1220"/>
+      <point x="746" y="1420"/>
+      <point x="454" y="1420"/>
+      <point x="242" y="1220"/>
+      <point x="229" y="1078" type="qcurve"/>
+      <point x="156" y="1065"/>
+      <point x="58" y="954"/>
+      <point x="58" y="878" type="qcurve" smooth="yes"/>
+      <point x="58" y="792"/>
+      <point x="178" y="675"/>
+      <point x="261" y="675" type="qcurve"/>
+      <point x="600" y="0" type="line"/>
+      <point x="939" y="675" type="line"/>
+      <point x="1022" y="675"/>
+      <point x="1142" y="792"/>
+      <point x="1142" y="878" type="qcurve" smooth="yes"/>
+      <point x="1142" y="954"/>
+    </contour>
+    <contour>
+      <point x="809" y="723" type="line"/>
+      <point x="600" y="301" type="line"/>
+      <point x="391" y="723" type="line"/>
+      <point x="403" y="732" type="line"/>
+      <point x="492" y="675"/>
+      <point x="708" y="675"/>
+      <point x="797" y="732" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="checkbox-blank-off" format="2">
+  <advance width="1200"/>
+  <unicode hex="F12EC"/>
+  <note>
+checkbox-blank-off
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="200" type="line"/>
+      <point x="90" y="1290" type="line"/>
+      <point x="20" y="1220" type="line"/>
+      <point x="124" y="1114" type="line"/>
+      <point x="124" y="337" type="line" smooth="yes"/>
+      <point x="124" y="291"/>
+      <point x="188" y="226"/>
+      <point x="235" y="226" type="qcurve" smooth="yes"/>
+      <point x="1012" y="226" type="line"/>
+      <point x="1110" y="130" type="line"/>
+    </contour>
+    <contour>
+      <point x="1118" y="402" type="line"/>
+      <point x="1118" y="1109" type="line" smooth="yes"/>
+      <point x="1118" y="1155"/>
+      <point x="1053" y="1220"/>
+      <point x="1007" y="1220" type="qcurve" smooth="yes"/>
+      <point x="300" y="1220" type="line"/>
+    </contour>
+  </outline>
+</glyph>

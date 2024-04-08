@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="debug-breakpoint-unsupported" format="2">
+  <advance width="300"/>
+  <unicode hex="EB8C"/>
+  <note>
+debug-breakpoint-unsupported
+</note>
+  <outline>
+    <contour>
+      <point x="201" y="91"/>
+      <point x="165" y="74"/>
+      <point x="125" y="76"/>
+      <point x="91" y="99"/>
+      <point x="74" y="135"/>
+      <point x="76" y="175"/>
+      <point x="99" y="209"/>
+      <point x="135" y="226"/>
+      <point x="175" y="224"/>
+      <point x="209" y="201"/>
+      <point x="226" y="165"/>
+      <point x="224" y="125"/>
+      <point x="212" y="108" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="162" y="94" type="line"/>
+      <point x="139" y="94" type="line"/>
+      <point x="139" y="113" type="line"/>
+      <point x="162" y="113" type="line"/>
+    </contour>
+    <contour>
+      <point x="162" y="131" type="line"/>
+      <point x="162" y="206" type="line"/>
+      <point x="139" y="206" type="line"/>
+      <point x="139" y="131" type="line"/>
+    </contour>
+  </outline>
+</glyph>

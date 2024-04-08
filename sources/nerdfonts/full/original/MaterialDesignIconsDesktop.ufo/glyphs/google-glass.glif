@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="google-glass" format="2">
+  <advance width="512"/>
+  <unicode hex="F02B8"/>
+  <note>
+google-glass
+</note>
+  <outline>
+    <contour>
+      <point x="444" y="405"/>
+      <point x="469" y="380"/>
+      <point x="469" y="363" type="qcurve" smooth="yes"/>
+      <point x="469" y="21" type="line" smooth="yes"/>
+      <point x="469" y="4"/>
+      <point x="444" y="-21"/>
+      <point x="427" y="-21" type="qcurve" smooth="yes"/>
+      <point x="85" y="-21" type="line" smooth="yes"/>
+      <point x="68" y="-21"/>
+      <point x="43" y="4"/>
+      <point x="43" y="21" type="qcurve" smooth="yes"/>
+      <point x="43" y="363" type="line" smooth="yes"/>
+      <point x="43" y="380"/>
+      <point x="68" y="405"/>
+      <point x="85" y="405" type="qcurve" smooth="yes"/>
+      <point x="427" y="405" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="357" y="299" type="line" smooth="yes"/>
+      <point x="357" y="309"/>
+      <point x="347" y="314" type="qcurve"/>
+      <point x="343" y="315"/>
+      <point x="333" y="313"/>
+      <point x="330" y="309" type="qcurve" smooth="yes"/>
+      <point x="99" y="64" type="line"/>
+      <point x="143" y="64" type="line"/>
+      <point x="325" y="258" type="line"/>
+      <point x="325" y="64" type="line"/>
+      <point x="357" y="64" type="line"/>
+    </contour>
+  </outline>
+</glyph>

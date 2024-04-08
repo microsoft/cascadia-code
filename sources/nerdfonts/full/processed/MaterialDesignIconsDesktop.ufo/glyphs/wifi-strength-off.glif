@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wifi-strength-off" format="2">
+  <advance width="1200"/>
+  <unicode hex="F092D"/>
+  <note>
+wifi-strength-off
+</note>
+  <outline>
+    <contour>
+      <point x="1021" y="351" type="line"/>
+      <point x="165" y="1209" type="line"/>
+      <point x="102" y="1146" type="line"/>
+      <point x="202" y="1044" type="line"/>
+      <point x="99" y="997"/>
+      <point x="20" y="934" type="qcurve"/>
+      <point x="599" y="211" type="line"/>
+      <point x="793" y="453" type="line"/>
+      <point x="958" y="288" type="line"/>
+    </contour>
+    <contour>
+      <point x="755" y="1132"/>
+      <point x="599" y="1132" type="qcurve" smooth="yes"/>
+      <point x="494" y="1132"/>
+      <point x="393" y="1107" type="qcurve"/>
+      <point x="907" y="593" type="line"/>
+      <point x="963" y="666"/>
+      <point x="1082" y="813" type="qcurve" smooth="yes"/>
+      <point x="1180" y="934" type="line"/>
+      <point x="1054" y="1030"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-note-quarter-dotted" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0F75"/>
+  <note>
+music-note-quarter-dotted
+</note>
+  <outline>
+    <contour>
+      <point x="600" y="1420" type="line"/>
+      <point x="600" y="632" type="line"/>
+      <point x="600" y="588" type="line"/>
+      <point x="526" y="629"/>
+      <point x="441" y="632" type="qcurve" smooth="yes"/>
+      <point x="312" y="632"/>
+      <point x="127" y="447"/>
+      <point x="127" y="185"/>
+      <point x="312" y="0"/>
+      <point x="574" y="0"/>
+      <point x="759" y="185"/>
+      <point x="759" y="314" type="qcurve" smooth="yes"/>
+      <point x="759" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="907" y="314"/>
+      <point x="837" y="248"/>
+      <point x="837" y="148"/>
+      <point x="907" y="78"/>
+      <point x="1003" y="78"/>
+      <point x="1073" y="148"/>
+      <point x="1073" y="248"/>
+      <point x="1003" y="314"/>
+      <point x="955" y="314" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

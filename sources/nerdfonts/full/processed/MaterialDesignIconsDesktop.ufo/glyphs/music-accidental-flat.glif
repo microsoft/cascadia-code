@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-accidental-flat" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0F6B"/>
+  <note>
+music-accidental-flat
+</note>
+  <outline>
+    <contour>
+      <point x="243" y="1420" type="line"/>
+      <point x="243" y="0" type="line"/>
+      <point x="605" y="200"/>
+      <point x="786" y="386" type="qcurve" smooth="yes"/>
+      <point x="957" y="562"/>
+      <point x="957" y="710" type="qcurve" smooth="yes"/>
+      <point x="957" y="834"/>
+      <point x="891" y="915" type="qcurve" smooth="yes"/>
+      <point x="810" y="1015"/>
+      <point x="652" y="1015" type="qcurve" smooth="yes"/>
+      <point x="552" y="1015"/>
+      <point x="448" y="948" type="qcurve"/>
+      <point x="448" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="633" y="500"/>
+      <point x="448" y="367" type="qcurve"/>
+      <point x="448" y="681" type="line"/>
+      <point x="500" y="739"/>
+      <point x="610" y="810"/>
+      <point x="652" y="810" type="qcurve" smooth="yes"/>
+      <point x="705" y="810"/>
+      <point x="752" y="777"/>
+      <point x="752" y="710" type="qcurve" smooth="yes"/>
+      <point x="752" y="672"/>
+      <point x="710" y="610" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

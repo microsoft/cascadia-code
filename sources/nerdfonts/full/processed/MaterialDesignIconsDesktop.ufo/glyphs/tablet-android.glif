@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tablet-android" format="2">
+  <advance width="1200"/>
+  <unicode hex="F04F7"/>
+  <note>
+tablet-android
+</note>
+  <outline>
+    <contour>
+      <point x="1030" y="1243" type="line"/>
+      <point x="1030" y="297" type="line"/>
+      <point x="170" y="297" type="line"/>
+      <point x="170" y="1243" type="line"/>
+    </contour>
+    <contour>
+      <point x="719" y="178" type="line"/>
+      <point x="719" y="119" type="line"/>
+      <point x="481" y="119" type="line"/>
+      <point x="481" y="178" type="line"/>
+    </contour>
+    <contour>
+      <point x="1030" y="1420"/>
+      <point x="955" y="1420" type="qcurve" smooth="yes"/>
+      <point x="245" y="1420" type="line" smooth="yes"/>
+      <point x="170" y="1420"/>
+      <point x="68" y="1317"/>
+      <point x="68" y="1243" type="qcurve" smooth="yes"/>
+      <point x="68" y="178" type="line" smooth="yes"/>
+      <point x="68" y="103"/>
+      <point x="170" y="0"/>
+      <point x="245" y="0" type="qcurve" smooth="yes"/>
+      <point x="955" y="0" type="line" smooth="yes"/>
+      <point x="1030" y="0"/>
+      <point x="1133" y="103"/>
+      <point x="1133" y="178" type="qcurve" smooth="yes"/>
+      <point x="1133" y="1243" type="line" smooth="yes"/>
+      <point x="1133" y="1317"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dock-top" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1513"/>
+  <note>
+dock-top
+</note>
+  <outline>
+    <contour>
+      <point x="88" y="244"/>
+      <point x="134" y="244" type="qcurve" smooth="yes"/>
+      <point x="1066" y="244" type="line" smooth="yes"/>
+      <point x="1112" y="244"/>
+      <point x="1180" y="312"/>
+      <point x="1180" y="361" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1059" type="line" smooth="yes"/>
+      <point x="1180" y="1108"/>
+      <point x="1112" y="1176"/>
+      <point x="1066" y="1176" type="qcurve" smooth="yes"/>
+      <point x="134" y="1176" type="line" smooth="yes"/>
+      <point x="88" y="1176"/>
+      <point x="20" y="1108"/>
+      <point x="20" y="1059" type="qcurve" smooth="yes"/>
+      <point x="20" y="361" type="line" smooth="yes"/>
+      <point x="20" y="312"/>
+    </contour>
+    <contour>
+      <point x="134" y="361" type="line"/>
+      <point x="134" y="767" type="line"/>
+      <point x="1066" y="767" type="line"/>
+      <point x="1066" y="361" type="line"/>
+    </contour>
+  </outline>
+</glyph>

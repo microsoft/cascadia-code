@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leek" format="2">
+  <advance width="512"/>
+  <unicode hex="F117D"/>
+  <note>
+leek
+</note>
+  <outline>
+    <contour>
+      <point x="299" y="405" type="line"/>
+      <point x="299" y="330" type="line"/>
+      <point x="256" y="287" type="line"/>
+      <point x="213" y="330" type="line"/>
+      <point x="213" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="178" type="line"/>
+      <point x="320" y="72" type="line"/>
+      <point x="83" y="309" type="line"/>
+      <point x="135" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="429" y="309" type="line"/>
+      <point x="332" y="211" type="line"/>
+      <point x="279" y="264" type="line"/>
+      <point x="377" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="112" type="line"/>
+      <point x="235" y="21" type="line"/>
+      <point x="277" y="21" type="line"/>
+      <point x="277" y="70" type="line"/>
+      <point x="320" y="27" type="line"/>
+      <point x="320" y="21" type="line" smooth="yes"/>
+      <point x="320" y="4"/>
+      <point x="295" y="-21"/>
+      <point x="277" y="-21" type="qcurve" smooth="yes"/>
+      <point x="235" y="-21" type="line" smooth="yes"/>
+      <point x="217" y="-21"/>
+      <point x="192" y="4"/>
+      <point x="192" y="21" type="qcurve" smooth="yes"/>
+      <point x="192" y="155" type="line"/>
+    </contour>
+  </outline>
+</glyph>

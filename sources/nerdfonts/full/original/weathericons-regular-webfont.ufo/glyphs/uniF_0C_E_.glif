@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF0CE" format="2">
+  <advance width="1117"/>
+  <unicode hex="E3C6"/>
+  <note>
+uniF0CE
+</note>
+  <outline>
+    <contour>
+      <point x="121" y="-293" type="line"/>
+      <point x="121" y="1536" type="line"/>
+      <point x="0" y="1536" type="line"/>
+      <point x="0" y="-293" type="line"/>
+    </contour>
+    <contour>
+      <point x="1118" y="832" type="line"/>
+      <point x="1118" y="1536" type="line"/>
+      <point x="206" y="1536" type="line"/>
+      <point x="206" y="832" type="line"/>
+    </contour>
+    <contour>
+      <point x="458" y="1313" type="line"/>
+      <point x="864" y="1313" type="line"/>
+      <point x="864" y="1046" type="line"/>
+      <point x="458" y="1046" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+4
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+8
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+11
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+5
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+1
+SHP[0]	/* ShiftPointByLastPoint */
+PUSHB[ ]	/* 3 values pushed */
+11 5 10
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 4 values pushed */
+64 11 0 9
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+12
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+0
+MDRP[10110]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+3
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+3
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 2 values pushed */
+4 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+8
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+8
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 2 values pushed */
+9 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+7
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+13 1
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

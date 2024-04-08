@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scan-helper" format="2">
+  <advance width="1200"/>
+  <unicode hex="F13D8"/>
+  <note>
+scan-helper
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="1000" type="line"/>
+      <point x="117" y="1000" type="line"/>
+      <point x="117" y="1193" type="line"/>
+      <point x="310" y="1193" type="line"/>
+      <point x="310" y="1290" type="line"/>
+      <point x="117" y="1290" type="line" smooth="yes"/>
+      <point x="77" y="1290"/>
+      <point x="20" y="1233"/>
+      <point x="20" y="1193" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1180" y="420" type="line"/>
+      <point x="1083" y="420" type="line"/>
+      <point x="1083" y="227" type="line"/>
+      <point x="890" y="227" type="line"/>
+      <point x="890" y="130" type="line"/>
+      <point x="1083" y="130" type="line" smooth="yes"/>
+      <point x="1123" y="130"/>
+      <point x="1180" y="187"/>
+      <point x="1180" y="227" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="310" y="130" type="line"/>
+      <point x="310" y="227" type="line"/>
+      <point x="117" y="227" type="line"/>
+      <point x="117" y="420" type="line"/>
+      <point x="20" y="420" type="line"/>
+      <point x="20" y="227" type="line" smooth="yes"/>
+      <point x="20" y="187"/>
+      <point x="77" y="130"/>
+      <point x="117" y="130" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="890" y="1290" type="line"/>
+      <point x="890" y="1193" type="line"/>
+      <point x="1083" y="1193" type="line"/>
+      <point x="1083" y="1000" type="line"/>
+      <point x="1180" y="1000" type="line"/>
+      <point x="1180" y="1193" type="line" smooth="yes"/>
+      <point x="1180" y="1233"/>
+      <point x="1123" y="1290"/>
+      <point x="1083" y="1290" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

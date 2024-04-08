@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="format-strikethrough" format="2">
+  <advance width="512"/>
+  <unicode hex="F0280"/>
+  <note>
+format-strikethrough
+</note>
+  <outline>
+    <contour>
+      <point x="64" y="192" type="line"/>
+      <point x="448" y="192" type="line"/>
+      <point x="448" y="149" type="line"/>
+      <point x="64" y="149" type="line"/>
+    </contour>
+    <contour>
+      <point x="405" y="363" type="line"/>
+      <point x="405" y="299" type="line"/>
+      <point x="299" y="299" type="line"/>
+      <point x="299" y="235" type="line"/>
+      <point x="213" y="235" type="line"/>
+      <point x="213" y="299" type="line"/>
+      <point x="107" y="299" type="line"/>
+      <point x="107" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="107" type="line"/>
+      <point x="299" y="107" type="line"/>
+      <point x="299" y="43" type="line"/>
+      <point x="213" y="43" type="line"/>
+    </contour>
+  </outline>
+</glyph>

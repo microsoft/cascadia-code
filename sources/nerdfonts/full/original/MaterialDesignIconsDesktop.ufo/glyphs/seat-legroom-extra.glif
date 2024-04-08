@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seat-legroom-extra" format="2">
+  <advance width="512"/>
+  <unicode hex="F047E"/>
+  <note>
+seat-legroom-extra
+</note>
+  <outline>
+    <contour>
+      <point x="85" y="165"/>
+      <point x="123" y="128"/>
+      <point x="149" y="128" type="qcurve" smooth="yes"/>
+      <point x="277" y="128" type="line"/>
+      <point x="277" y="85" type="line"/>
+      <point x="149" y="85" type="line" smooth="yes"/>
+      <point x="120" y="85"/>
+      <point x="71" y="114"/>
+      <point x="43" y="163"/>
+      <point x="43" y="192" type="qcurve" smooth="yes"/>
+      <point x="43" y="384" type="line"/>
+      <point x="85" y="384" type="line"/>
+      <point x="85" y="192" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="493" y="68"/>
+      <point x="484" y="42"/>
+      <point x="472" y="36" type="qcurve" smooth="yes"/>
+      <point x="393" y="0" type="line"/>
+      <point x="320" y="149" type="line"/>
+      <point x="171" y="149" type="line" smooth="yes"/>
+      <point x="144" y="149"/>
+      <point x="107" y="187"/>
+      <point x="107" y="213" type="qcurve" smooth="yes"/>
+      <point x="107" y="384" type="line"/>
+      <point x="235" y="384" type="line"/>
+      <point x="235" y="256" type="line"/>
+      <point x="309" y="256" type="line" smooth="yes"/>
+      <point x="322" y="256"/>
+      <point x="342" y="243"/>
+      <point x="348" y="232" type="qcurve" smooth="yes"/>
+      <point x="420" y="83" type="line"/>
+      <point x="444" y="94" type="line" smooth="yes"/>
+      <point x="456" y="99"/>
+      <point x="481" y="92"/>
+      <point x="487" y="80" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

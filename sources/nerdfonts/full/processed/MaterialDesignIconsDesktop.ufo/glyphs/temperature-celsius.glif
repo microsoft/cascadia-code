@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="temperature-celsius" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0504"/>
+  <note>
+temperature-celsius
+</note>
+  <outline>
+    <contour>
+      <point x="808" y="1136"/>
+      <point x="626" y="1062"/>
+      <point x="488" y="924"/>
+      <point x="414" y="742"/>
+      <point x="414" y="644" type="qcurve" smooth="yes"/>
+      <point x="414" y="512"/>
+      <point x="546" y="284"/>
+      <point x="774" y="152"/>
+      <point x="1045" y="152"/>
+      <point x="1162" y="222" type="qcurve"/>
+      <point x="1085" y="410" type="line"/>
+      <point x="1008" y="348"/>
+      <point x="906" y="348" type="qcurve" smooth="yes"/>
+      <point x="783" y="348"/>
+      <point x="611" y="521"/>
+      <point x="611" y="767"/>
+      <point x="783" y="939"/>
+      <point x="906" y="939" type="qcurve" smooth="yes"/>
+      <point x="1020" y="939"/>
+      <point x="1106" y="862" type="qcurve"/>
+      <point x="1180" y="1053" type="line"/>
+      <point x="1057" y="1136"/>
+      <point x="906" y="1136" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="134" y="1268"/>
+      <point x="20" y="1155"/>
+      <point x="20" y="988"/>
+      <point x="134" y="875"/>
+      <point x="300" y="875"/>
+      <point x="414" y="988"/>
+      <point x="414" y="1155"/>
+      <point x="300" y="1268"/>
+      <point x="217" y="1268" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="245" y="1136"/>
+      <point x="282" y="1099"/>
+      <point x="282" y="1044"/>
+      <point x="245" y="1007"/>
+      <point x="189" y="1007"/>
+      <point x="152" y="1044"/>
+      <point x="152" y="1099"/>
+      <point x="189" y="1136"/>
+      <point x="217" y="1136" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

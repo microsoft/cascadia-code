@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="google-play" format="2">
+  <advance width="512"/>
+  <unicode hex="F02BC"/>
+  <note>
+google-play
+</note>
+  <outline>
+    <contour>
+      <point x="64" y="1"/>
+      <point x="74" y="-14"/>
+      <point x="82" y="-18" type="qcurve"/>
+      <point x="292" y="192" type="line"/>
+      <point x="82" y="402" type="line"/>
+      <point x="74" y="398"/>
+      <point x="64" y="383"/>
+      <point x="64" y="373" type="qcurve" smooth="yes"/>
+      <point x="64" y="11" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="310" y="174" type="line"/>
+      <point x="129" y="-7" type="line"/>
+      <point x="359" y="125" type="line"/>
+    </contour>
+    <contour>
+      <point x="382" y="245" type="line"/>
+      <point x="328" y="192" type="line"/>
+      <point x="382" y="139" type="line"/>
+      <point x="431" y="167" type="line"/>
+      <point x="443" y="177"/>
+      <point x="443" y="207"/>
+      <point x="430" y="217" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="310" y="210" type="line"/>
+      <point x="359" y="259" type="line"/>
+      <point x="129" y="391" type="line"/>
+    </contour>
+  </outline>
+</glyph>

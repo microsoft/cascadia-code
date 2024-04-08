@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="video-box-off" format="2">
+  <advance width="1200"/>
+  <unicode hex="F00FE"/>
+  <note>
+video-box-off
+</note>
+  <outline>
+    <contour>
+      <point x="297" y="461" type="line"/>
+      <point x="297" y="902" type="line"/>
+      <point x="338" y="902" type="line"/>
+      <point x="740" y="500" type="line"/>
+      <point x="740" y="461" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="200" type="line"/>
+      <point x="90" y="1290" type="line"/>
+      <point x="20" y="1220" type="line"/>
+      <point x="131" y="1109" type="line"/>
+      <point x="105" y="1093"/>
+      <point x="77" y="1044"/>
+      <point x="77" y="1013" type="qcurve" smooth="yes"/>
+      <point x="77" y="350" type="line" smooth="yes"/>
+      <point x="77" y="303"/>
+      <point x="142" y="239"/>
+      <point x="186" y="239" type="qcurve" smooth="yes"/>
+      <point x="1001" y="239" type="line"/>
+      <point x="1110" y="130" type="line"/>
+    </contour>
+    <contour>
+      <point x="1115" y="1124"/>
+      <point x="1071" y="1124" type="qcurve" smooth="yes"/>
+      <point x="398" y="1124" type="line"/>
+      <point x="618" y="902" type="line"/>
+      <point x="740" y="902" type="line"/>
+      <point x="740" y="783" type="line"/>
+      <point x="771" y="751" type="line"/>
+      <point x="960" y="902" type="line"/>
+      <point x="960" y="560" type="line"/>
+      <point x="1180" y="340" type="line"/>
+      <point x="1180" y="1013" type="line" smooth="yes"/>
+      <point x="1180" y="1060"/>
+    </contour>
+  </outline>
+</glyph>

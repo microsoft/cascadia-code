@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chart-waterfall" format="2">
+  <advance width="512"/>
+  <unicode hex="F1918"/>
+  <note>
+chart-waterfall
+</note>
+  <outline>
+    <contour>
+      <point x="43" y="-21" type="line"/>
+      <point x="469" y="-21" type="line"/>
+      <point x="469" y="21" type="line"/>
+      <point x="85" y="21" type="line"/>
+      <point x="85" y="405" type="line"/>
+      <point x="43" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="363" y="64" type="line"/>
+      <point x="427" y="64" type="line"/>
+      <point x="427" y="405" type="line"/>
+      <point x="363" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="64" type="line"/>
+      <point x="192" y="64" type="line"/>
+      <point x="192" y="213" type="line"/>
+      <point x="128" y="213" type="line"/>
+    </contour>
+    <contour>
+      <point x="277" y="299" type="line"/>
+      <point x="341" y="299" type="line"/>
+      <point x="341" y="384" type="line"/>
+      <point x="277" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="192" type="line"/>
+      <point x="277" y="192" type="line"/>
+      <point x="277" y="277" type="line"/>
+      <point x="213" y="277" type="line"/>
+    </contour>
+  </outline>
+</glyph>

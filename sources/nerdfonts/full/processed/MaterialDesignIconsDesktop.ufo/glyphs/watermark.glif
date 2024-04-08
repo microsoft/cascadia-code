@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="watermark" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0612"/>
+  <note>
+watermark
+</note>
+  <outline>
+    <contour>
+      <point x="1118" y="1184"/>
+      <point x="1074" y="1184" type="qcurve" smooth="yes"/>
+      <point x="126" y="1184" type="line" smooth="yes"/>
+      <point x="82" y="1184"/>
+      <point x="20" y="1122"/>
+      <point x="20" y="1078" type="qcurve" smooth="yes"/>
+      <point x="20" y="342" type="line" smooth="yes"/>
+      <point x="20" y="298"/>
+      <point x="82" y="236"/>
+      <point x="126" y="236" type="qcurve" smooth="yes"/>
+      <point x="1074" y="236" type="line" smooth="yes"/>
+      <point x="1118" y="236"/>
+      <point x="1180" y="298"/>
+      <point x="1180" y="342" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1078" type="line" smooth="yes"/>
+      <point x="1180" y="1122"/>
+    </contour>
+    <contour>
+      <point x="1074" y="658" type="line"/>
+      <point x="1074" y="342" type="line"/>
+      <point x="600" y="342" type="line"/>
+      <point x="600" y="658" type="line"/>
+    </contour>
+  </outline>
+</glyph>

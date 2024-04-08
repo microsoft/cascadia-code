@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="image-filter-black-white" format="2">
+  <advance width="512"/>
+  <unicode hex="F02F0"/>
+  <note>
+image-filter-black-white
+</note>
+  <outline>
+    <contour>
+      <point x="405" y="341" type="line"/>
+      <point x="256" y="341" type="line"/>
+      <point x="256" y="213" type="line"/>
+      <point x="107" y="43" type="line"/>
+      <point x="256" y="43" type="line"/>
+      <point x="256" y="213" type="line"/>
+      <point x="405" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="423" y="384"/>
+      <point x="448" y="359"/>
+      <point x="448" y="341" type="qcurve" smooth="yes"/>
+      <point x="448" y="43" type="line" smooth="yes"/>
+      <point x="448" y="25"/>
+      <point x="423" y="0"/>
+      <point x="405" y="0" type="qcurve" smooth="yes"/>
+      <point x="107" y="0" type="line" smooth="yes"/>
+      <point x="89" y="0"/>
+      <point x="64" y="25"/>
+      <point x="64" y="43" type="qcurve" smooth="yes"/>
+      <point x="64" y="341" type="line" smooth="yes"/>
+      <point x="64" y="359"/>
+      <point x="89" y="384"/>
+      <point x="107" y="384" type="qcurve" smooth="yes"/>
+      <point x="405" y="384" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

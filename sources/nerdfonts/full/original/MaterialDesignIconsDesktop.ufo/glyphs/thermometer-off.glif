@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thermometer-off" format="2">
+  <advance width="512"/>
+  <unicode hex="F1531"/>
+  <note>
+thermometer-off
+</note>
+  <outline>
+    <contour>
+      <point x="235" y="341" type="line" smooth="yes"/>
+      <point x="235" y="350"/>
+      <point x="247" y="363"/>
+      <point x="265" y="363"/>
+      <point x="277" y="350"/>
+      <point x="277" y="341" type="qcurve" smooth="yes"/>
+      <point x="277" y="277" type="line"/>
+      <point x="239" y="277" type="line"/>
+      <point x="320" y="196" type="line"/>
+      <point x="320" y="341" type="line" smooth="yes"/>
+      <point x="320" y="368"/>
+      <point x="283" y="405"/>
+      <point x="229" y="405"/>
+      <point x="192" y="368"/>
+      <point x="192" y="341" type="qcurve" smooth="yes"/>
+      <point x="192" y="324" type="line"/>
+      <point x="235" y="282" type="line"/>
+    </contour>
+    <contour>
+      <point x="445" y="-37" type="line"/>
+      <point x="356" y="51" type="line"/>
+      <point x="345" y="19"/>
+      <point x="320" y="0" type="qcurve" smooth="yes"/>
+      <point x="297" y="-17"/>
+      <point x="240" y="-24"/>
+      <point x="188" y="-2"/>
+      <point x="153" y="45"/>
+      <point x="147" y="101"/>
+      <point x="169" y="153"/>
+      <point x="192" y="171" type="qcurve"/>
+      <point x="192" y="216" type="line"/>
+      <point x="24" y="384" type="line"/>
+      <point x="51" y="411" type="line"/>
+      <point x="472" y="-10" type="line"/>
+    </contour>
+  </outline>
+</glyph>

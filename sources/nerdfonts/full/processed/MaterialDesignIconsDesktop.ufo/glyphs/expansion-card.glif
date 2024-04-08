@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="expansion-card" format="2">
+  <advance width="1200"/>
+  <unicode hex="F08AE"/>
+  <note>
+expansion-card
+</note>
+  <outline>
+    <contour>
+      <point x="164" y="1001" type="line"/>
+      <point x="20" y="1001" type="line"/>
+      <point x="20" y="914" type="line"/>
+      <point x="77" y="914" type="line"/>
+      <point x="77" y="419" type="line"/>
+      <point x="164" y="419" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="1001" type="line"/>
+      <point x="251" y="1001" type="line"/>
+      <point x="251" y="1001" type="line"/>
+      <point x="251" y="479" type="line"/>
+      <point x="309" y="479" type="line"/>
+      <point x="309" y="419" type="line"/>
+      <point x="717" y="419" type="line"/>
+      <point x="717" y="479" type="line"/>
+      <point x="1180" y="479" type="line"/>
+    </contour>
+    <contour>
+      <point x="859" y="884"/>
+      <point x="919" y="884" type="qcurve" smooth="yes"/>
+      <point x="978" y="884"/>
+      <point x="1066" y="800"/>
+      <point x="1066" y="680"/>
+      <point x="978" y="593"/>
+      <point x="859" y="593"/>
+      <point x="774" y="680"/>
+      <point x="774" y="800"/>
+    </contour>
+  </outline>
+</glyph>

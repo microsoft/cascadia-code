@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="debug-stackframe-active" format="2">
+  <advance width="1200"/>
+  <unicode hex="EB89"/>
+  <note>
+debug-stackframe-active
+</note>
+  <outline>
+    <contour>
+      <point x="729" y="793"/>
+      <point x="611" y="911"/>
+      <point x="439" y="911"/>
+      <point x="326" y="793"/>
+      <point x="326" y="621"/>
+      <point x="439" y="509"/>
+      <point x="611" y="503"/>
+      <point x="729" y="621"/>
+      <point x="729" y="707" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1180" y="627" type="line"/>
+      <point x="1180" y="793" type="line"/>
+      <point x="750" y="1271" type="line"/>
+      <point x="659" y="1314" type="line"/>
+      <point x="149" y="1314" type="line"/>
+      <point x="20" y="1185" type="line"/>
+      <point x="20" y="229" type="line"/>
+      <point x="149" y="106" type="line"/>
+      <point x="659" y="106" type="line"/>
+      <point x="750" y="149" type="line"/>
+    </contour>
+    <contour>
+      <point x="1083" y="707" type="line"/>
+      <point x="659" y="229" type="line"/>
+      <point x="149" y="229" type="line"/>
+      <point x="149" y="1185" type="line"/>
+      <point x="659" y="1185" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="door" format="2">
+  <advance width="1200"/>
+  <unicode hex="F081A"/>
+  <note>
+door
+</note>
+  <outline>
+    <contour>
+      <point x="914" y="1420" type="qcurve" smooth="yes"/>
+      <point x="286" y="1420" type="line" smooth="yes"/>
+      <point x="219" y="1420"/>
+      <point x="127" y="1328"/>
+      <point x="127" y="1261" type="qcurve" smooth="yes"/>
+      <point x="127" y="0" type="line"/>
+      <point x="1073" y="0" type="line"/>
+      <point x="1073" y="1261" type="line" smooth="yes"/>
+      <point x="1073" y="1328"/>
+      <point x="981" y="1420"/>
+    </contour>
+    <contour>
+      <point x="286" y="159" type="line"/>
+      <point x="286" y="1261" type="line"/>
+      <point x="914" y="1261" type="line"/>
+      <point x="914" y="159" type="line"/>
+    </contour>
+    <contour>
+      <point x="837" y="788" type="line"/>
+      <point x="678" y="788" type="line"/>
+      <point x="678" y="632" type="line"/>
+      <point x="837" y="632" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seat-passenger" format="2">
+  <advance width="512"/>
+  <unicode hex="F1249"/>
+  <note>
+seat-passenger
+</note>
+  <outline>
+    <contour>
+      <point x="165" y="43"/>
+      <point x="128" y="80"/>
+      <point x="128" y="107" type="qcurve" smooth="yes"/>
+      <point x="128" y="299" type="line"/>
+      <point x="85" y="299" type="line"/>
+      <point x="85" y="107" type="line" smooth="yes"/>
+      <point x="85" y="78"/>
+      <point x="114" y="29"/>
+      <point x="163" y="0"/>
+      <point x="192" y="0" type="qcurve" smooth="yes"/>
+      <point x="320" y="0" type="line"/>
+      <point x="320" y="43" type="line"/>
+      <point x="192" y="43" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="210" y="320"/>
+      <point x="174" y="320"/>
+      <point x="149" y="345"/>
+      <point x="149" y="380"/>
+      <point x="174" y="405"/>
+      <point x="210" y="405"/>
+      <point x="235" y="380"/>
+      <point x="235" y="345"/>
+      <point x="222" y="333" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="245" y="128" type="line"/>
+      <point x="319" y="128" type="line"/>
+      <point x="427" y="20" type="line"/>
+      <point x="396" y="-11" type="line"/>
+      <point x="321" y="64" type="line"/>
+      <point x="213" y="64" type="line" smooth="yes"/>
+      <point x="187" y="64"/>
+      <point x="149" y="101"/>
+      <point x="149" y="128" type="qcurve" smooth="yes"/>
+      <point x="149" y="256" type="line" smooth="yes"/>
+      <point x="149" y="274"/>
+      <point x="174" y="299"/>
+      <point x="192" y="299" type="qcurve" smooth="yes"/>
+      <point x="203" y="299" type="line" smooth="yes"/>
+      <point x="220" y="299"/>
+      <point x="245" y="274"/>
+      <point x="245" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

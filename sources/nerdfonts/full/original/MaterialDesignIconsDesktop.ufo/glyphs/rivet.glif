@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rivet" format="2">
+  <advance width="512"/>
+  <unicode hex="F0E60"/>
+  <note>
+rivet
+</note>
+  <outline>
+    <contour>
+      <point x="265" y="405" type="line" smooth="yes"/>
+      <point x="278" y="405"/>
+      <point x="297" y="387"/>
+      <point x="297" y="373" type="qcurve" smooth="yes"/>
+      <point x="297" y="300" type="line"/>
+      <point x="339" y="300" type="line"/>
+      <point x="339" y="278" type="line"/>
+      <point x="170" y="278" type="line"/>
+      <point x="170" y="300" type="line"/>
+      <point x="212" y="300" type="line"/>
+      <point x="212" y="373" type="line" smooth="yes"/>
+      <point x="212" y="387"/>
+      <point x="231" y="405"/>
+      <point x="244" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="276" y="257" type="line"/>
+      <point x="276" y="-19" type="line"/>
+      <point x="255" y="-40" type="line"/>
+      <point x="233" y="-19" type="line"/>
+      <point x="233" y="257" type="line"/>
+    </contour>
+  </outline>
+</glyph>

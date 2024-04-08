@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="message-flash" format="2">
+  <advance width="1200"/>
+  <unicode hex="F15A9"/>
+  <note>
+message-flash
+</note>
+  <outline>
+    <contour>
+      <point x="1151" y="853" type="line"/>
+      <point x="1151" y="1193" type="line" smooth="yes"/>
+      <point x="1151" y="1238"/>
+      <point x="1084" y="1305"/>
+      <point x="1039" y="1305" type="qcurve" smooth="yes"/>
+      <point x="131" y="1305" type="line" smooth="yes"/>
+      <point x="86" y="1305"/>
+      <point x="20" y="1238"/>
+      <point x="20" y="1193" type="qcurve" smooth="yes"/>
+      <point x="20" y="174" type="line"/>
+      <point x="246" y="399" type="line"/>
+      <point x="755" y="399" type="line"/>
+      <point x="755" y="853" type="line"/>
+    </contour>
+    <contour>
+      <point x="981" y="115" type="line"/>
+      <point x="1180" y="514" type="line"/>
+      <point x="1055" y="514" type="line"/>
+      <point x="1151" y="739" type="line"/>
+      <point x="869" y="739" type="line"/>
+      <point x="869" y="399" type="line"/>
+      <point x="981" y="399" type="line"/>
+    </contour>
+  </outline>
+</glyph>

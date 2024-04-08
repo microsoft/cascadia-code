@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cctv" format="2">
+  <advance width="1200"/>
+  <unicode hex="F07AE"/>
+  <note>
+cctv
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="675" type="line"/>
+      <point x="222" y="321" type="line"/>
+      <point x="369" y="506" type="line"/>
+      <point x="254" y="708" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="362" type="line"/>
+      <point x="891" y="362" type="line"/>
+      <point x="891" y="520" type="line"/>
+      <point x="929" y="536"/>
+      <point x="978" y="607"/>
+      <point x="978" y="702"/>
+      <point x="946" y="740" type="qcurve"/>
+      <point x="1060" y="806" type="line" smooth="yes"/>
+      <point x="1106" y="833"/>
+      <point x="1131" y="931"/>
+      <point x="1106" y="974" type="qcurve" smooth="yes"/>
+      <point x="1025" y="1113" type="line" smooth="yes"/>
+      <point x="1000" y="1157"/>
+      <point x="902" y="1184"/>
+      <point x="859" y="1160" type="qcurve" smooth="yes"/>
+      <point x="385" y="885" type="line" smooth="yes"/>
+      <point x="344" y="863"/>
+      <point x="320" y="770"/>
+      <point x="344" y="727" type="qcurve" smooth="yes"/>
+      <point x="431" y="577" type="line" smooth="yes"/>
+      <point x="456" y="536"/>
+      <point x="548" y="509"/>
+      <point x="589" y="533" type="qcurve" smooth="yes"/>
+      <point x="698" y="596" type="line"/>
+      <point x="720" y="541"/>
+      <point x="774" y="520" type="qcurve"/>
+      <point x="774" y="362" type="line" smooth="yes"/>
+      <point x="774" y="313"/>
+      <point x="842" y="245"/>
+      <point x="891" y="245" type="qcurve" smooth="yes"/>
+      <point x="1180" y="245" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="account" format="2">
+  <advance width="512"/>
+  <unicode hex="F0004"/>
+  <note>
+account
+</note>
+  <outline>
+    <contour>
+      <point x="221" y="363"/>
+      <point x="171" y="313"/>
+      <point x="171" y="242"/>
+      <point x="221" y="192"/>
+      <point x="291" y="192"/>
+      <point x="341" y="242"/>
+      <point x="341" y="313"/>
+      <point x="291" y="363"/>
+      <point x="256" y="363" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="210" y="149"/>
+      <point x="131" y="126"/>
+      <point x="85" y="87"/>
+      <point x="85" y="64" type="qcurve" smooth="yes"/>
+      <point x="85" y="21" type="line"/>
+      <point x="427" y="21" type="line"/>
+      <point x="427" y="64" type="line" smooth="yes"/>
+      <point x="427" y="87"/>
+      <point x="381" y="126"/>
+      <point x="302" y="149"/>
+      <point x="256" y="149" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

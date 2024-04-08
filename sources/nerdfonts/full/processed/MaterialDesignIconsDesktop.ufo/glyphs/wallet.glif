@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wallet" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0584"/>
+  <note>
+wallet
+</note>
+  <outline>
+    <contour>
+      <point x="570" y="343" type="line" smooth="yes"/>
+      <point x="518" y="343"/>
+      <point x="447" y="415"/>
+      <point x="447" y="467" type="qcurve" smooth="yes"/>
+      <point x="447" y="953" type="line" smooth="yes"/>
+      <point x="447" y="1005"/>
+      <point x="518" y="1077"/>
+      <point x="570" y="1077" type="qcurve" smooth="yes"/>
+      <point x="1120" y="1077" type="line"/>
+      <point x="1120" y="1137" type="line" smooth="yes"/>
+      <point x="1120" y="1188"/>
+      <point x="1048" y="1260"/>
+      <point x="997" y="1260" type="qcurve" smooth="yes"/>
+      <point x="143" y="1260" type="line" smooth="yes"/>
+      <point x="92" y="1260"/>
+      <point x="20" y="1188"/>
+      <point x="20" y="1137" type="qcurve" smooth="yes"/>
+      <point x="20" y="283" type="line" smooth="yes"/>
+      <point x="20" y="232"/>
+      <point x="92" y="160"/>
+      <point x="143" y="160" type="qcurve" smooth="yes"/>
+      <point x="997" y="160" type="line" smooth="yes"/>
+      <point x="1048" y="160"/>
+      <point x="1120" y="232"/>
+      <point x="1120" y="283" type="qcurve" smooth="yes"/>
+      <point x="1120" y="343" type="line"/>
+    </contour>
+    <contour>
+      <point x="570" y="953" type="line"/>
+      <point x="570" y="467" type="line"/>
+      <point x="1180" y="467" type="line"/>
+      <point x="1180" y="953" type="line"/>
+    </contour>
+    <contour>
+      <point x="853" y="618"/>
+      <point x="813" y="618" type="qcurve" smooth="yes"/>
+      <point x="776" y="618"/>
+      <point x="722" y="673"/>
+      <point x="722" y="747"/>
+      <point x="776" y="802"/>
+      <point x="853" y="802"/>
+      <point x="905" y="747"/>
+      <point x="905" y="673"/>
+    </contour>
+  </outline>
+</glyph>

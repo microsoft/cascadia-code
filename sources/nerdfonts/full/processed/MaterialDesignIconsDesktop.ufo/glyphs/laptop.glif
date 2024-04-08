@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="laptop" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0322"/>
+  <note>
+laptop
+</note>
+  <outline>
+    <contour>
+      <point x="213" y="517" type="line"/>
+      <point x="213" y="1000" type="line"/>
+      <point x="987" y="1000" type="line"/>
+      <point x="987" y="517" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="420" type="line"/>
+      <point x="987" y="420" type="line" smooth="yes"/>
+      <point x="1026" y="420"/>
+      <point x="1083" y="477"/>
+      <point x="1083" y="517" type="qcurve" smooth="yes"/>
+      <point x="1083" y="1000" type="line" smooth="yes"/>
+      <point x="1083" y="1041"/>
+      <point x="1026" y="1097"/>
+      <point x="987" y="1097" type="qcurve" smooth="yes"/>
+      <point x="213" y="1097" type="line" smooth="yes"/>
+      <point x="174" y="1097"/>
+      <point x="117" y="1041"/>
+      <point x="117" y="1000" type="qcurve" smooth="yes"/>
+      <point x="117" y="517" type="line" smooth="yes"/>
+      <point x="117" y="477"/>
+      <point x="174" y="420"/>
+      <point x="213" y="420" type="qcurve" smooth="yes"/>
+      <point x="20" y="420" type="line"/>
+      <point x="20" y="323" type="line"/>
+      <point x="1180" y="323" type="line"/>
+    </contour>
+  </outline>
+</glyph>

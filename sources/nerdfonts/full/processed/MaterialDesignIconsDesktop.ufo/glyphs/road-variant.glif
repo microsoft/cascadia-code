@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="road-variant" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0462"/>
+  <note>
+road-variant
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="265" type="qcurve"/>
+      <point x="1002" y="1182" type="line" smooth="yes"/>
+      <point x="999" y="1207"/>
+      <point x="962" y="1234"/>
+      <point x="937" y="1234" type="qcurve" smooth="yes"/>
+      <point x="667" y="1234" type="line"/>
+      <point x="683" y="1038" type="line"/>
+      <point x="523" y="1038" type="line"/>
+      <point x="539" y="1234" type="line"/>
+      <point x="263" y="1234" type="line" smooth="yes"/>
+      <point x="238" y="1234"/>
+      <point x="201" y="1201"/>
+      <point x="198" y="1182" type="qcurve" smooth="yes"/>
+      <point x="20" y="265" type="line"/>
+      <point x="17" y="235"/>
+      <point x="57" y="186"/>
+      <point x="85" y="186" type="qcurve" smooth="yes"/>
+      <point x="471" y="186" type="line"/>
+      <point x="493" y="514" type="line"/>
+      <point x="713" y="514" type="line"/>
+      <point x="735" y="186" type="line"/>
+      <point x="1112" y="186" type="line" smooth="yes"/>
+      <point x="1143" y="186"/>
+      <point x="1183" y="235"/>
+    </contour>
+    <contour>
+      <point x="695" y="646" type="line"/>
+      <point x="499" y="646" type="line"/>
+      <point x="511" y="906" type="line"/>
+      <point x="683" y="906" type="line"/>
+    </contour>
+  </outline>
+</glyph>

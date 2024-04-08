@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chart-scatter-plot" format="2">
+  <advance width="512"/>
+  <unicode hex="F0E92"/>
+  <note>
+chart-scatter-plot
+</note>
+  <outline>
+    <contour>
+      <point x="43" y="-21" type="line"/>
+      <point x="469" y="-21" type="line"/>
+      <point x="469" y="21" type="line"/>
+      <point x="85" y="21" type="line"/>
+      <point x="85" y="405" type="line"/>
+      <point x="43" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="165" y="235"/>
+      <point x="128" y="197"/>
+      <point x="128" y="144"/>
+      <point x="165" y="107"/>
+      <point x="219" y="107"/>
+      <point x="256" y="144"/>
+      <point x="256" y="197"/>
+      <point x="219" y="235"/>
+      <point x="192" y="235" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="251" y="405"/>
+      <point x="213" y="368"/>
+      <point x="213" y="315"/>
+      <point x="251" y="277"/>
+      <point x="304" y="277"/>
+      <point x="341" y="315"/>
+      <point x="341" y="368"/>
+      <point x="304" y="405"/>
+      <point x="277" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="357" y="192"/>
+      <point x="320" y="155"/>
+      <point x="320" y="101"/>
+      <point x="357" y="64"/>
+      <point x="411" y="64"/>
+      <point x="448" y="101"/>
+      <point x="448" y="155"/>
+      <point x="411" y="192"/>
+      <point x="384" y="192" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

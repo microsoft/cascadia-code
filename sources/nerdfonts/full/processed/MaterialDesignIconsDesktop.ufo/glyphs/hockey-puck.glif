@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hockey-puck" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0879"/>
+  <note>
+hockey-puck
+</note>
+  <outline>
+    <contour>
+      <point x="758" y="1146"/>
+      <point x="600" y="1146" type="qcurve" smooth="yes"/>
+      <point x="442" y="1146"/>
+      <point x="175" y="1091"/>
+      <point x="20" y="999"/>
+      <point x="20" y="887"/>
+      <point x="175" y="794"/>
+      <point x="442" y="740"/>
+      <point x="758" y="740"/>
+      <point x="1025" y="794"/>
+      <point x="1180" y="887"/>
+      <point x="1180" y="999"/>
+      <point x="1025" y="1091"/>
+    </contour>
+    <contour>
+      <point x="74" y="715"/>
+      <point x="20" y="754" type="qcurve"/>
+      <point x="20" y="479" type="line" smooth="yes"/>
+      <point x="20" y="424"/>
+      <point x="175" y="329"/>
+      <point x="442" y="274"/>
+      <point x="758" y="274"/>
+      <point x="1025" y="329"/>
+      <point x="1180" y="424"/>
+      <point x="1180" y="479" type="qcurve" smooth="yes"/>
+      <point x="1180" y="754" type="line"/>
+      <point x="1126" y="715"/>
+      <point x="1049" y="691" type="qcurve" smooth="yes"/>
+      <point x="861" y="623"/>
+      <point x="339" y="623"/>
+      <point x="151" y="691" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

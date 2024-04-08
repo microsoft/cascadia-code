@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cup-water" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01AB"/>
+  <note>
+cup-water
+</note>
+  <outline>
+    <contour>
+      <point x="1035" y="1227" type="line"/>
+      <point x="1008" y="967" type="line"/>
+      <point x="192" y="967" type="line"/>
+      <point x="165" y="1227" type="line"/>
+    </contour>
+    <contour>
+      <point x="682" y="260"/>
+      <point x="600" y="260" type="qcurve" smooth="yes"/>
+      <point x="518" y="260"/>
+      <point x="407" y="372"/>
+      <point x="407" y="453" type="qcurve" smooth="yes"/>
+      <point x="407" y="511"/>
+      <point x="458" y="598" type="qcurve" smooth="yes"/>
+      <point x="491" y="665"/>
+      <point x="549" y="737" type="qcurve" smooth="yes"/>
+      <point x="600" y="801" type="line"/>
+      <point x="651" y="737" type="line" smooth="yes"/>
+      <point x="709" y="665"/>
+      <point x="742" y="598" type="qcurve" smooth="yes"/>
+      <point x="793" y="511"/>
+      <point x="793" y="453" type="qcurve" smooth="yes"/>
+      <point x="793" y="372"/>
+    </contour>
+    <contour>
+      <point x="1180" y="1353" type="line"/>
+      <point x="20" y="1353" type="line"/>
+      <point x="150" y="178" type="line" smooth="yes"/>
+      <point x="156" y="130"/>
+      <point x="228" y="67"/>
+      <point x="277" y="67" type="qcurve" smooth="yes"/>
+      <point x="923" y="67" type="line" smooth="yes"/>
+      <point x="972" y="67"/>
+      <point x="1044" y="130"/>
+      <point x="1050" y="178" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

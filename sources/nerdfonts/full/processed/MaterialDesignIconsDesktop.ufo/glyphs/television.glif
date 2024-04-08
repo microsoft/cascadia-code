@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="television" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0502"/>
+  <note>
+television
+</note>
+  <outline>
+    <contour>
+      <point x="1074" y="1078" type="line"/>
+      <point x="1074" y="446" type="line"/>
+      <point x="126" y="446" type="line"/>
+      <point x="126" y="1078" type="line"/>
+    </contour>
+    <contour>
+      <point x="1118" y="1184"/>
+      <point x="1074" y="1184" type="qcurve" smooth="yes"/>
+      <point x="126" y="1184" type="line" smooth="yes"/>
+      <point x="82" y="1184"/>
+      <point x="20" y="1122"/>
+      <point x="20" y="1078" type="qcurve" smooth="yes"/>
+      <point x="20" y="446" type="line" smooth="yes"/>
+      <point x="20" y="404"/>
+      <point x="82" y="342"/>
+      <point x="126" y="342" type="qcurve" smooth="yes"/>
+      <point x="390" y="342" type="line"/>
+      <point x="390" y="236" type="line"/>
+      <point x="810" y="236" type="line"/>
+      <point x="810" y="342" type="line"/>
+      <point x="1074" y="342" type="line" smooth="yes"/>
+      <point x="1118" y="342"/>
+      <point x="1180" y="404"/>
+      <point x="1180" y="446" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1078" type="line" smooth="yes"/>
+      <point x="1180" y="1122"/>
+    </contour>
+  </outline>
+</glyph>

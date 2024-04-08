@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="video-input-scart" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0F8C"/>
+  <note>
+video-input-scart
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="1104" type="line"/>
+      <point x="1093" y="1253" type="line"/>
+      <point x="904" y="1243" type="line"/>
+      <point x="700" y="1126" type="line"/>
+      <point x="673" y="1178" type="line"/>
+      <point x="20" y="804" type="line"/>
+      <point x="20" y="397" type="line"/>
+      <point x="77" y="397" type="line"/>
+      <point x="77" y="283" type="line" smooth="yes"/>
+      <point x="77" y="234"/>
+      <point x="145" y="167"/>
+      <point x="193" y="167" type="qcurve" smooth="yes"/>
+      <point x="771" y="167" type="line" smooth="yes"/>
+      <point x="820" y="167"/>
+      <point x="887" y="234"/>
+      <point x="887" y="283" type="qcurve" smooth="yes"/>
+      <point x="887" y="397" type="line"/>
+      <point x="944" y="397" type="line"/>
+      <point x="944" y="804" type="line"/>
+      <point x="887" y="804" type="line"/>
+      <point x="874" y="825" type="line"/>
+      <point x="1077" y="942" type="line"/>
+    </contour>
+    <contour>
+      <point x="193" y="397" type="line"/>
+      <point x="771" y="397" type="line"/>
+      <point x="771" y="283" type="line"/>
+      <point x="193" y="283" type="line"/>
+    </contour>
+  </outline>
+</glyph>

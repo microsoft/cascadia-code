@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="triangle-down" format="2">
+  <advance width="2048"/>
+  <unicode hex="F44B"/>
+  <note>
+triangle-down
+</note>
+  <outline>
+    <contour>
+      <point x="1001" y="253" type="line" smooth="yes"/>
+      <point x="1011" y="243"/>
+      <point x="1037" y="243"/>
+      <point x="1047" y="253" type="qcurve"/>
+      <point x="1047" y="253"/>
+      <point x="1173" y="379"/>
+      <point x="1364" y="570"/>
+      <point x="1454" y="660"/>
+      <point x="1481" y="687" type="qcurve" smooth="yes"/>
+      <point x="1491" y="697"/>
+      <point x="1491" y="723"/>
+      <point x="1472" y="742"/>
+      <point x="1459" y="742" type="qcurve" smooth="yes"/>
+      <point x="589" y="742"/>
+      <point x="589" y="742" type="qcurve"/>
+      <point x="576" y="742"/>
+      <point x="557" y="723"/>
+      <point x="557" y="697"/>
+      <point x="567" y="687" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:49:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

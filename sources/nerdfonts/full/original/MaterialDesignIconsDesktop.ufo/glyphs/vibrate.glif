@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vibrate" format="2">
+  <advance width="512"/>
+  <unicode hex="F0566"/>
+  <note>
+vibrate
+</note>
+  <outline>
+    <contour>
+      <point x="341" y="341" type="line"/>
+      <point x="171" y="341" type="line"/>
+      <point x="171" y="43" type="line"/>
+      <point x="341" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="365" y="384"/>
+      <point x="384" y="365"/>
+      <point x="384" y="352" type="qcurve" smooth="yes"/>
+      <point x="384" y="32" type="line" smooth="yes"/>
+      <point x="384" y="19"/>
+      <point x="365" y="0"/>
+      <point x="352" y="0" type="qcurve" smooth="yes"/>
+      <point x="160" y="0" type="line" smooth="yes"/>
+      <point x="147" y="0"/>
+      <point x="128" y="19"/>
+      <point x="128" y="32" type="qcurve" smooth="yes"/>
+      <point x="128" y="352" type="line" smooth="yes"/>
+      <point x="128" y="365"/>
+      <point x="147" y="384"/>
+      <point x="160" y="384" type="qcurve" smooth="yes"/>
+      <point x="352" y="384" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="405" y="299" type="line"/>
+      <point x="448" y="299" type="line"/>
+      <point x="448" y="85" type="line"/>
+      <point x="405" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="512" y="256" type="line"/>
+      <point x="512" y="128" type="line"/>
+      <point x="469" y="128" type="line"/>
+      <point x="469" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="64" y="299" type="line"/>
+      <point x="107" y="299" type="line"/>
+      <point x="107" y="85" type="line"/>
+      <point x="64" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="256" type="line"/>
+      <point x="43" y="256" type="line"/>
+      <point x="43" y="128" type="line"/>
+      <point x="0" y="128" type="line"/>
+    </contour>
+  </outline>
+</glyph>

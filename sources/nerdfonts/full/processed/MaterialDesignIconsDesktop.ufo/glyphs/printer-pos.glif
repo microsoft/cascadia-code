@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="printer-pos" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1057"/>
+  <note>
+printer-pos
+</note>
+  <outline>
+    <contour>
+      <point x="1095" y="819"/>
+      <point x="1034" y="819" type="qcurve" smooth="yes"/>
+      <point x="166" y="819" type="line" smooth="yes"/>
+      <point x="105" y="819"/>
+      <point x="20" y="734"/>
+      <point x="20" y="673" type="qcurve" smooth="yes"/>
+      <point x="20" y="167" type="line"/>
+      <point x="1180" y="167" type="line"/>
+      <point x="1180" y="673" type="line" smooth="yes"/>
+      <point x="1180" y="734"/>
+    </contour>
+    <contour>
+      <point x="1034" y="673" type="line"/>
+      <point x="1034" y="527" type="line"/>
+      <point x="746" y="527" type="line"/>
+      <point x="746" y="673" type="line"/>
+    </contour>
+    <contour>
+      <point x="963" y="1253" type="line"/>
+      <point x="237" y="1253" type="line"/>
+      <point x="237" y="890" type="line"/>
+      <point x="963" y="890" type="line"/>
+    </contour>
+  </outline>
+</glyph>

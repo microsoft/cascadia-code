@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="human-handsup" format="2">
+  <advance width="512"/>
+  <unicode hex="F064C"/>
+  <note>
+human-handsup
+</note>
+  <outline>
+    <contour>
+      <point x="149" y="427" type="line"/>
+      <point x="149" y="398"/>
+      <point x="178" y="349"/>
+      <point x="227" y="320"/>
+      <point x="285" y="320"/>
+      <point x="334" y="349"/>
+      <point x="363" y="398"/>
+      <point x="363" y="427" type="qcurve"/>
+      <point x="405" y="427" type="line"/>
+      <point x="405" y="383"/>
+      <point x="359" y="310"/>
+      <point x="320" y="292" type="qcurve"/>
+      <point x="320" y="-21" type="line"/>
+      <point x="277" y="-21" type="line"/>
+      <point x="277" y="128" type="line"/>
+      <point x="235" y="128" type="line"/>
+      <point x="235" y="-21" type="line"/>
+      <point x="192" y="-21" type="line"/>
+      <point x="192" y="292" type="line"/>
+      <point x="153" y="310"/>
+      <point x="107" y="383"/>
+      <point x="107" y="427" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="274" y="427"/>
+      <point x="299" y="402"/>
+      <point x="299" y="366"/>
+      <point x="274" y="341"/>
+      <point x="238" y="341"/>
+      <point x="213" y="366"/>
+      <point x="213" y="402"/>
+      <point x="238" y="427"/>
+      <point x="256" y="427" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

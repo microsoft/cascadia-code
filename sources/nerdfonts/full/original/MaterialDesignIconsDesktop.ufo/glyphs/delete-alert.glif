@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="delete-alert" format="2">
+  <advance width="512"/>
+  <unicode hex="F10A5"/>
+  <note>
+delete-alert
+</note>
+  <outline>
+    <contour>
+      <point x="288" y="363" type="line"/>
+      <point x="267" y="384" type="line"/>
+      <point x="160" y="384" type="line"/>
+      <point x="139" y="363" type="line"/>
+      <point x="64" y="363" type="line"/>
+      <point x="64" y="320" type="line"/>
+      <point x="363" y="320" type="line"/>
+      <point x="363" y="363" type="line"/>
+    </contour>
+    <contour>
+      <point x="85" y="25"/>
+      <point x="110" y="0"/>
+      <point x="128" y="0" type="qcurve" smooth="yes"/>
+      <point x="299" y="0" type="line" smooth="yes"/>
+      <point x="316" y="0"/>
+      <point x="341" y="25"/>
+      <point x="341" y="43" type="qcurve" smooth="yes"/>
+      <point x="341" y="299" type="line"/>
+      <point x="85" y="299" type="line"/>
+      <point x="85" y="43" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="405" y="85" type="line"/>
+      <point x="448" y="85" type="line"/>
+      <point x="448" y="128" type="line"/>
+      <point x="405" y="128" type="line"/>
+    </contour>
+    <contour>
+      <point x="405" y="171" type="line"/>
+      <point x="448" y="171" type="line"/>
+      <point x="448" y="299" type="line"/>
+      <point x="405" y="299" type="line"/>
+    </contour>
+  </outline>
+</glyph>

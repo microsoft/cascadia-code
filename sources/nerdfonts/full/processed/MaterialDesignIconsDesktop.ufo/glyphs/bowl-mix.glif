@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bowl-mix" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0617"/>
+  <note>
+bowl-mix
+</note>
+  <outline>
+    <contour>
+      <point x="984" y="839" type="line"/>
+      <point x="1180" y="1161" type="line"/>
+      <point x="1082" y="1218" type="line"/>
+      <point x="845" y="839" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="782" type="line"/>
+      <point x="810" y="782" type="line"/>
+      <point x="20" y="782" type="line"/>
+      <point x="20" y="608" type="line" smooth="yes"/>
+      <point x="20" y="496"/>
+      <point x="129" y="311"/>
+      <point x="314" y="202"/>
+      <point x="426" y="202" type="qcurve" smooth="yes"/>
+      <point x="774" y="202" type="line" smooth="yes"/>
+      <point x="886" y="202"/>
+      <point x="1071" y="311"/>
+      <point x="1180" y="496"/>
+      <point x="1180" y="608" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

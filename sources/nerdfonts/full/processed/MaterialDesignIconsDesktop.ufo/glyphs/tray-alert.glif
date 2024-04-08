@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tray-alert" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1295"/>
+  <note>
+tray-alert
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="389" type="line" smooth="yes"/>
+      <point x="20" y="342"/>
+      <point x="88" y="274"/>
+      <point x="134" y="274" type="qcurve" smooth="yes"/>
+      <point x="1066" y="274" type="line" smooth="yes"/>
+      <point x="1112" y="274"/>
+      <point x="1180" y="342"/>
+      <point x="1180" y="389" type="qcurve" smooth="yes"/>
+      <point x="1180" y="680" type="line"/>
+      <point x="1066" y="680" type="line"/>
+      <point x="1066" y="389" type="line"/>
+      <point x="134" y="389" type="line"/>
+      <point x="134" y="680" type="line"/>
+      <point x="20" y="680" type="line"/>
+    </contour>
+    <contour>
+      <point x="657" y="563" type="line"/>
+      <point x="657" y="680" type="line"/>
+      <point x="543" y="680" type="line"/>
+      <point x="543" y="563" type="line"/>
+    </contour>
+    <contour>
+      <point x="657" y="797" type="line"/>
+      <point x="657" y="1146" type="line"/>
+      <point x="543" y="1146" type="line"/>
+      <point x="543" y="797" type="line"/>
+    </contour>
+  </outline>
+</glyph>

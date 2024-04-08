@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="crop-landscape" format="2">
+  <advance width="512"/>
+  <unicode hex="F01A0"/>
+  <note>
+crop-landscape
+</note>
+  <outline>
+    <contour>
+      <point x="405" y="299" type="line"/>
+      <point x="107" y="299" type="line"/>
+      <point x="107" y="85" type="line"/>
+      <point x="405" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="423" y="341"/>
+      <point x="448" y="316"/>
+      <point x="448" y="299" type="qcurve" smooth="yes"/>
+      <point x="448" y="85" type="line" smooth="yes"/>
+      <point x="448" y="68"/>
+      <point x="423" y="43"/>
+      <point x="405" y="43" type="qcurve" smooth="yes"/>
+      <point x="107" y="43" type="line" smooth="yes"/>
+      <point x="89" y="43"/>
+      <point x="64" y="68"/>
+      <point x="64" y="85" type="qcurve" smooth="yes"/>
+      <point x="64" y="299" type="line" smooth="yes"/>
+      <point x="64" y="316"/>
+      <point x="89" y="341"/>
+      <point x="107" y="341" type="qcurve" smooth="yes"/>
+      <point x="405" y="341" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

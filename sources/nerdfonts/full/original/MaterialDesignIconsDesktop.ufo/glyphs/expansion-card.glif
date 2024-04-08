@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="expansion-card" format="2">
+  <advance width="512"/>
+  <unicode hex="F08AE"/>
+  <note>
+expansion-card
+</note>
+  <outline>
+    <contour>
+      <point x="96" y="299" type="line"/>
+      <point x="96" y="85" type="line"/>
+      <point x="64" y="85" type="line"/>
+      <point x="64" y="267" type="line"/>
+      <point x="43" y="267" type="line"/>
+      <point x="43" y="299" type="line"/>
+    </contour>
+    <contour>
+      <point x="469" y="299" type="line"/>
+      <point x="469" y="107" type="line"/>
+      <point x="299" y="107" type="line"/>
+      <point x="299" y="85" type="line"/>
+      <point x="149" y="85" type="line"/>
+      <point x="149" y="107" type="line"/>
+      <point x="128" y="107" type="line"/>
+      <point x="128" y="299" type="line"/>
+      <point x="128" y="299" type="line"/>
+    </contour>
+    <contour>
+      <point x="351" y="256"/>
+      <point x="320" y="225"/>
+      <point x="320" y="181"/>
+      <point x="351" y="149"/>
+      <point x="395" y="149"/>
+      <point x="427" y="181"/>
+      <point x="427" y="225"/>
+      <point x="395" y="256"/>
+      <point x="373" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

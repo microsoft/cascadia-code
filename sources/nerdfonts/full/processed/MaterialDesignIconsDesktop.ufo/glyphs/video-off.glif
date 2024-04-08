@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="video-off" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0568"/>
+  <note>
+video-off
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="207" type="line"/>
+      <point x="97" y="1290" type="line"/>
+      <point x="20" y="1213" type="line"/>
+      <point x="186" y="1047" type="line"/>
+      <point x="140" y="1047" type="line" smooth="yes"/>
+      <point x="115" y="1047"/>
+      <point x="80" y="1012"/>
+      <point x="80" y="986" type="qcurve" smooth="yes"/>
+      <point x="80" y="373" type="line" smooth="yes"/>
+      <point x="80" y="348"/>
+      <point x="115" y="313"/>
+      <point x="140" y="313" type="qcurve" smooth="yes"/>
+      <point x="874" y="313" type="line" smooth="yes"/>
+      <point x="891" y="313"/>
+      <point x="908" y="325" type="qcurve"/>
+      <point x="1103" y="130" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="362" type="line"/>
+      <point x="1180" y="1015" type="line"/>
+      <point x="937" y="772" type="line"/>
+      <point x="937" y="986" type="line" smooth="yes"/>
+      <point x="937" y="1012"/>
+      <point x="899" y="1047"/>
+      <point x="874" y="1047" type="qcurve" smooth="yes"/>
+      <point x="495" y="1047" type="line"/>
+    </contour>
+  </outline>
+</glyph>

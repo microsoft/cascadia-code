@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="panorama" format="2">
+  <advance width="1200"/>
+  <unicode hex="F03DC"/>
+  <note>
+panorama
+</note>
+  <outline>
+    <contour>
+      <point x="232" y="446" type="line"/>
+      <point x="415" y="683" type="line"/>
+      <point x="548" y="525" type="line"/>
+      <point x="731" y="762" type="line"/>
+      <point x="968" y="446" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="350"/>
+      <point x="1180" y="394" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1026" type="line" smooth="yes"/>
+      <point x="1180" y="1070"/>
+      <point x="1118" y="1132"/>
+      <point x="1074" y="1132" type="qcurve" smooth="yes"/>
+      <point x="126" y="1132" type="line" smooth="yes"/>
+      <point x="82" y="1132"/>
+      <point x="20" y="1070"/>
+      <point x="20" y="1026" type="qcurve" smooth="yes"/>
+      <point x="20" y="394" type="line" smooth="yes"/>
+      <point x="20" y="350"/>
+      <point x="82" y="288"/>
+      <point x="126" y="288" type="qcurve" smooth="yes"/>
+      <point x="1074" y="288" type="line" smooth="yes"/>
+      <point x="1118" y="288"/>
+    </contour>
+  </outline>
+</glyph>

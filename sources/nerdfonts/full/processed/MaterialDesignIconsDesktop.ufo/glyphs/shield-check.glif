@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shield-check" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0565"/>
+  <note>
+shield-check
+</note>
+  <outline>
+    <contour>
+      <point x="987" y="903" type="line"/>
+      <point x="470" y="387" type="line"/>
+      <point x="213" y="647" type="line"/>
+      <point x="304" y="737" type="line"/>
+      <point x="470" y="571" type="line"/>
+      <point x="896" y="994" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="1160" type="line"/>
+      <point x="600" y="1420" type="line"/>
+      <point x="20" y="1160" type="line"/>
+      <point x="20" y="773" type="line" smooth="yes"/>
+      <point x="20" y="598"/>
+      <point x="171" y="272"/>
+      <point x="437" y="42"/>
+      <point x="600" y="0" type="qcurve"/>
+      <point x="763" y="42"/>
+      <point x="1029" y="272"/>
+      <point x="1180" y="598"/>
+      <point x="1180" y="773" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

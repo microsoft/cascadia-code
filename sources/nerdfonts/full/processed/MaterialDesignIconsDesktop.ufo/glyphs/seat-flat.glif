@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seat-flat" format="2">
+  <advance width="1200"/>
+  <unicode hex="F047B"/>
+  <note>
+seat-flat
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="894"/>
+      <point x="1044" y="1030"/>
+      <point x="949" y="1030" type="qcurve" smooth="yes"/>
+      <point x="427" y="1030" type="line"/>
+      <point x="427" y="681" type="line"/>
+      <point x="1180" y="681" type="line"/>
+      <point x="1180" y="796" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1180" y="622" type="line"/>
+      <point x="21" y="622" type="line"/>
+      <point x="21" y="507" type="line"/>
+      <point x="370" y="507" type="line"/>
+      <point x="370" y="390" type="line"/>
+      <point x="832" y="390" type="line"/>
+      <point x="832" y="507" type="line"/>
+      <point x="1180" y="507" type="line"/>
+    </contour>
+    <contour>
+      <point x="269" y="681"/>
+      <point x="318" y="733" type="qcurve" smooth="yes"/>
+      <point x="370" y="785"/>
+      <point x="367" y="929"/>
+      <point x="263" y="1030"/>
+      <point x="119" y="1027"/>
+      <point x="19" y="923"/>
+      <point x="21" y="779"/>
+      <point x="125" y="679"/>
+    </contour>
+  </outline>
+</glyph>

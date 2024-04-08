@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="windsock" format="2">
+  <advance width="1200"/>
+  <unicode hex="F15FA"/>
+  <note>
+windsock
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="1016" type="line"/>
+      <point x="263" y="1137" type="line"/>
+      <point x="263" y="650" type="line"/>
+      <point x="1180" y="770" type="line"/>
+    </contour>
+    <contour>
+      <point x="447" y="764" type="line"/>
+      <point x="447" y="1022" type="line"/>
+      <point x="630" y="996" type="line"/>
+      <point x="630" y="790" type="line"/>
+    </contour>
+    <contour>
+      <point x="813" y="813" type="line"/>
+      <point x="813" y="974" type="line"/>
+      <point x="997" y="948" type="line"/>
+      <point x="997" y="839" type="line"/>
+    </contour>
+    <contour>
+      <point x="143" y="1016" type="line"/>
+      <point x="203" y="1016" type="line"/>
+      <point x="203" y="1077" type="line"/>
+      <point x="143" y="1077" type="line"/>
+      <point x="143" y="1200" type="line" smooth="yes"/>
+      <point x="143" y="1223"/>
+      <point x="106" y="1260"/>
+      <point x="57" y="1260"/>
+      <point x="20" y="1223"/>
+      <point x="20" y="1200" type="qcurve" smooth="yes"/>
+      <point x="20" y="160" type="line"/>
+      <point x="143" y="160" type="line"/>
+      <point x="143" y="710" type="line"/>
+      <point x="203" y="710" type="line"/>
+      <point x="203" y="770" type="line"/>
+      <point x="143" y="770" type="line"/>
+      <point x="143" y="833" type="line"/>
+    </contour>
+  </outline>
+</glyph>

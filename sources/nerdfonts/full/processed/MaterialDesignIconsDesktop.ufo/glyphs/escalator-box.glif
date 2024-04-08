@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="escalator-box" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1399"/>
+  <note>
+escalator-box
+</note>
+  <outline>
+    <contour>
+      <point x="1050" y="1290" type="qcurve" smooth="yes"/>
+      <point x="150" y="1290" type="line" smooth="yes"/>
+      <point x="96" y="1290"/>
+      <point x="20" y="1214"/>
+      <point x="20" y="1160" type="qcurve" smooth="yes"/>
+      <point x="20" y="260" type="line" smooth="yes"/>
+      <point x="20" y="206"/>
+      <point x="96" y="130"/>
+      <point x="150" y="130" type="qcurve" smooth="yes"/>
+      <point x="1050" y="130" type="line" smooth="yes"/>
+      <point x="1104" y="130"/>
+      <point x="1180" y="206"/>
+      <point x="1180" y="260" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1160" type="line" smooth="yes"/>
+      <point x="1180" y="1214"/>
+      <point x="1104" y="1290"/>
+    </contour>
+    <contour>
+      <point x="364" y="580" type="line"/>
+      <point x="751" y="1097" type="line"/>
+      <point x="926" y="1097" type="line" smooth="yes"/>
+      <point x="978" y="1097"/>
+      <point x="1053" y="1021"/>
+      <point x="1053" y="915"/>
+      <point x="978" y="840"/>
+      <point x="926" y="840" type="qcurve" smooth="yes"/>
+      <point x="857" y="840" type="line"/>
+      <point x="470" y="323" type="line"/>
+      <point x="280" y="323" type="line" smooth="yes"/>
+      <point x="228" y="323"/>
+      <point x="153" y="399"/>
+      <point x="153" y="505"/>
+      <point x="228" y="580"/>
+      <point x="280" y="580" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="smoke-detector" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0392"/>
+  <note>
+smoke-detector
+</note>
+  <outline>
+    <contour>
+      <point x="494" y="323"/>
+      <point x="316" y="426"/>
+      <point x="213" y="604"/>
+      <point x="213" y="816"/>
+      <point x="316" y="994"/>
+      <point x="494" y="1097"/>
+      <point x="706" y="1097"/>
+      <point x="884" y="994"/>
+      <point x="987" y="816"/>
+      <point x="987" y="604"/>
+      <point x="884" y="426"/>
+      <point x="706" y="323"/>
+      <point x="600" y="323" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="150" y="1290" type="line" smooth="yes"/>
+      <point x="96" y="1290"/>
+      <point x="20" y="1214"/>
+      <point x="20" y="1160" type="qcurve" smooth="yes"/>
+      <point x="20" y="260" type="line" smooth="yes"/>
+      <point x="20" y="206"/>
+      <point x="96" y="130"/>
+      <point x="150" y="130" type="qcurve" smooth="yes"/>
+      <point x="1050" y="130" type="line" smooth="yes"/>
+      <point x="1104" y="130"/>
+      <point x="1180" y="206"/>
+      <point x="1180" y="260" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1160" type="line" smooth="yes"/>
+      <point x="1180" y="1214"/>
+      <point x="1104" y="1290"/>
+      <point x="1050" y="1290" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="343" y="604"/>
+      <point x="494" y="453"/>
+      <point x="706" y="453"/>
+      <point x="857" y="604"/>
+      <point x="857" y="816"/>
+      <point x="706" y="967"/>
+      <point x="494" y="967"/>
+      <point x="343" y="816"/>
+      <point x="343" y="710" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

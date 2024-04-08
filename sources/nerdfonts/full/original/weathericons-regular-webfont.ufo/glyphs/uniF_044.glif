@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF044" format="2">
+  <advance width="690"/>
+  <unicode hex="E340"/>
+  <note>
+uniF044
+</note>
+  <outline>
+    <contour>
+      <point x="0" y="610"/>
+      <point x="50" y="659"/>
+      <point x="86" y="659" type="qcurve" smooth="yes"/>
+      <point x="120" y="659"/>
+      <point x="145" y="634" type="qcurve" smooth="yes"/>
+      <point x="258" y="522" type="line"/>
+      <point x="258" y="1225" type="line" smooth="yes"/>
+      <point x="258" y="1261"/>
+      <point x="309" y="1309"/>
+      <point x="381" y="1309"/>
+      <point x="432" y="1261"/>
+      <point x="432" y="1225" type="qcurve" smooth="yes"/>
+      <point x="432" y="522" type="line"/>
+      <point x="545" y="634" type="line" smooth="yes"/>
+      <point x="570" y="659"/>
+      <point x="642" y="659"/>
+      <point x="690" y="610"/>
+      <point x="690" y="538"/>
+      <point x="664" y="515" type="qcurve"/>
+      <point x="408" y="254" type="line" smooth="yes"/>
+      <point x="383" y="229"/>
+      <point x="345" y="229" type="qcurve" smooth="yes"/>
+      <point x="308" y="229"/>
+      <point x="283" y="254" type="qcurve" smooth="yes"/>
+      <point x="27" y="515" type="line"/>
+      <point x="0" y="539"/>
+      <point x="0" y="574" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+27
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+21
+MDRP[10110]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+14
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+28 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+14 21
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 1 value pushed */
+5
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:51 +0000</string>
+    </dict>
+  </lib>
+</glyph>

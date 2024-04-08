@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="volume-high" format="2">
+  <advance width="1200"/>
+  <unicode hex="F057E"/>
+  <note>
+volume-high
+</note>
+  <outline>
+    <contour>
+      <point x="857" y="1245"/>
+      <point x="730" y="1275" type="qcurve"/>
+      <point x="730" y="1142" type="line"/>
+      <point x="869" y="1100"/>
+      <point x="1050" y="861"/>
+      <point x="1050" y="559"/>
+      <point x="869" y="320"/>
+      <point x="730" y="278" type="qcurve"/>
+      <point x="730" y="145" type="line"/>
+      <point x="857" y="175"/>
+      <point x="1062" y="338"/>
+      <point x="1180" y="574"/>
+      <point x="1180" y="846"/>
+      <point x="1062" y="1082"/>
+    </contour>
+    <contour>
+      <point x="890" y="625"/>
+      <point x="890" y="710" type="qcurve" smooth="yes"/>
+      <point x="890" y="795"/>
+      <point x="802" y="934"/>
+      <point x="730" y="970" type="qcurve"/>
+      <point x="730" y="453" type="line"/>
+      <point x="802" y="486"/>
+    </contour>
+    <contour>
+      <point x="277" y="903" type="line"/>
+      <point x="20" y="903" type="line"/>
+      <point x="20" y="517" type="line"/>
+      <point x="277" y="517" type="line"/>
+      <point x="600" y="193" type="line"/>
+      <point x="600" y="1227" type="line"/>
+    </contour>
+  </outline>
+</glyph>

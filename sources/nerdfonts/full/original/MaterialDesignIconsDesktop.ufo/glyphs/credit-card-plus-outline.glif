@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="credit-card-plus-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F0676"/>
+  <note>
+credit-card-plus-outline
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="128" type="line"/>
+      <point x="405" y="128" type="line"/>
+      <point x="405" y="64" type="line"/>
+      <point x="341" y="64" type="line"/>
+      <point x="341" y="21" type="line"/>
+      <point x="405" y="21" type="line"/>
+      <point x="405" y="-43" type="line"/>
+      <point x="448" y="-43" type="line"/>
+      <point x="448" y="21" type="line"/>
+      <point x="512" y="21" type="line"/>
+      <point x="512" y="64" type="line"/>
+      <point x="448" y="64" type="line"/>
+    </contour>
+    <contour>
+      <point x="64" y="277" type="line"/>
+      <point x="64" y="320" type="line"/>
+      <point x="405" y="320" type="line"/>
+      <point x="405" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="405" y="171" type="line"/>
+      <point x="448" y="171" type="line"/>
+      <point x="448" y="320" type="line" smooth="yes"/>
+      <point x="448" y="338"/>
+      <point x="423" y="363"/>
+      <point x="405" y="363" type="qcurve" smooth="yes"/>
+      <point x="64" y="363" type="line" smooth="yes"/>
+      <point x="46" y="363"/>
+      <point x="21" y="338"/>
+      <point x="21" y="320" type="qcurve" smooth="yes"/>
+      <point x="21" y="64" type="line" smooth="yes"/>
+      <point x="21" y="46"/>
+      <point x="46" y="21"/>
+      <point x="64" y="21" type="qcurve" smooth="yes"/>
+      <point x="299" y="21" type="line"/>
+      <point x="299" y="64" type="line"/>
+      <point x="64" y="64" type="line"/>
+      <point x="64" y="192" type="line"/>
+      <point x="405" y="192" type="line"/>
+    </contour>
+  </outline>
+</glyph>

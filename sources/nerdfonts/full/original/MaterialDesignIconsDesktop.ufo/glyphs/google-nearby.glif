@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="google-nearby" format="2">
+  <advance width="512"/>
+  <unicode hex="F02B9"/>
+  <note>
+google-nearby
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="211"/>
+      <point x="469" y="173"/>
+      <point x="456" y="159" type="qcurve" smooth="yes"/>
+      <point x="289" y="-8" type="line" smooth="yes"/>
+      <point x="275" y="-21"/>
+      <point x="237" y="-21"/>
+      <point x="223" y="-8" type="qcurve" smooth="yes"/>
+      <point x="56" y="159" type="line" smooth="yes"/>
+      <point x="43" y="173"/>
+      <point x="43" y="211"/>
+      <point x="56" y="225" type="qcurve" smooth="yes"/>
+      <point x="223" y="392" type="line" smooth="yes"/>
+      <point x="237" y="405"/>
+      <point x="275" y="405"/>
+      <point x="289" y="392" type="qcurve" smooth="yes"/>
+      <point x="456" y="225" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="405" y="192" type="line"/>
+      <point x="256" y="341" type="line"/>
+      <point x="107" y="192" type="line"/>
+      <point x="256" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="256" y="288" type="line"/>
+      <point x="160" y="192" type="line"/>
+      <point x="256" y="96" type="line"/>
+      <point x="352" y="192" type="line"/>
+    </contour>
+  </outline>
+</glyph>

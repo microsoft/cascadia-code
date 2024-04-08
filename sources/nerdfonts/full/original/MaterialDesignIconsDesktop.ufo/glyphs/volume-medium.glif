@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="volume-medium" format="2">
+  <advance width="512"/>
+  <unicode hex="F0580"/>
+  <note>
+volume-medium
+</note>
+  <outline>
+    <contour>
+      <point x="192" y="256" type="line"/>
+      <point x="299" y="363" type="line"/>
+      <point x="299" y="21" type="line"/>
+      <point x="192" y="128" type="line"/>
+      <point x="107" y="128" type="line"/>
+      <point x="107" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="395" y="164"/>
+      <point x="366" y="118"/>
+      <point x="341" y="107" type="qcurve"/>
+      <point x="341" y="278" type="line"/>
+      <point x="366" y="266"/>
+      <point x="395" y="220"/>
+      <point x="395" y="192" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

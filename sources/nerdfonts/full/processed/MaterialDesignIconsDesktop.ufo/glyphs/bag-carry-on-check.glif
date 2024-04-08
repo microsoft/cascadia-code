@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bag-carry-on-check" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0D65"/>
+  <note>
+bag-carry-on-check
+</note>
+  <outline>
+    <contour>
+      <point x="592" y="477" type="line"/>
+      <point x="542" y="427" type="line"/>
+      <point x="692" y="273" type="line"/>
+      <point x="945" y="527" type="line"/>
+      <point x="895" y="577" type="line"/>
+      <point x="692" y="377" type="line"/>
+    </contour>
+    <contour>
+      <point x="175" y="1067" type="line"/>
+      <point x="115" y="1067"/>
+      <point x="32" y="983"/>
+      <point x="32" y="923" type="qcurve" smooth="yes"/>
+      <point x="32" y="213" type="line" smooth="yes"/>
+      <point x="32" y="153"/>
+      <point x="115" y="70"/>
+      <point x="175" y="70" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="245" y="70" type="line"/>
+      <point x="508" y="70" type="line"/>
+      <point x="615" y="0"/>
+      <point x="742" y="0" type="qcurve" smooth="yes"/>
+      <point x="858" y="0"/>
+      <point x="1055" y="113"/>
+      <point x="1168" y="310"/>
+      <point x="1168" y="540"/>
+      <point x="1055" y="737"/>
+      <point x="858" y="853"/>
+      <point x="742" y="853" type="qcurve"/>
+      <point x="742" y="1420" type="line"/>
+      <point x="458" y="1420" type="line"/>
+      <point x="458" y="1363"/>
+      <point x="542" y="1280"/>
+      <point x="602" y="1280" type="qcurve"/>
+      <point x="602" y="1067" type="line"/>
+      <point x="245" y="1067" type="line"/>
+    </contour>
+    <contour>
+      <point x="862" y="710"/>
+      <point x="1028" y="543"/>
+      <point x="1028" y="307"/>
+      <point x="862" y="140"/>
+      <point x="625" y="140"/>
+      <point x="458" y="307"/>
+      <point x="458" y="543"/>
+      <point x="625" y="710"/>
+      <point x="742" y="710" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-note-off" format="2">
+  <advance width="1200"/>
+  <unicode hex="F038A"/>
+  <note>
+music-note-off
+</note>
+  <outline>
+    <contour>
+      <point x="1180" y="212" type="line"/>
+      <point x="102" y="1290" type="line"/>
+      <point x="20" y="1208" type="line"/>
+      <point x="600" y="628" type="line"/>
+      <point x="600" y="610" type="line"/>
+      <point x="540" y="647"/>
+      <point x="470" y="647" type="qcurve" smooth="yes"/>
+      <point x="364" y="647"/>
+      <point x="213" y="496"/>
+      <point x="213" y="281"/>
+      <point x="364" y="130"/>
+      <point x="579" y="130"/>
+      <point x="730" y="281"/>
+      <point x="730" y="387" type="qcurve" smooth="yes"/>
+      <point x="730" y="499" type="line"/>
+      <point x="1098" y="130" type="line"/>
+    </contour>
+    <contour>
+      <point x="730" y="828" type="line"/>
+      <point x="730" y="1033" type="line"/>
+      <point x="987" y="1033" type="line"/>
+      <point x="987" y="1290" type="line"/>
+      <point x="600" y="1290" type="line"/>
+      <point x="600" y="955" type="line"/>
+    </contour>
+  </outline>
+</glyph>

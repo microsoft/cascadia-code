@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dash" format="2">
+  <advance width="1200"/>
+  <unicode hex="F48B"/>
+  <note>
+dash
+</note>
+  <outline>
+    <contour>
+      <point x="215" y="656"/>
+      <point x="238" y="656" type="qcurve" smooth="yes"/>
+      <point x="963" y="656" type="line" smooth="yes"/>
+      <point x="985" y="656"/>
+      <point x="1017" y="687"/>
+      <point x="1017" y="733"/>
+      <point x="985" y="764"/>
+      <point x="963" y="764" type="qcurve" smooth="yes"/>
+      <point x="238" y="764" type="line" smooth="yes"/>
+      <point x="215" y="764"/>
+      <point x="183" y="733"/>
+      <point x="183" y="687"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:49:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="music-note-half-dotted" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0F72"/>
+  <note>
+music-note-half-dotted
+</note>
+  <outline>
+    <contour>
+      <point x="759" y="314" type="qcurve" smooth="yes"/>
+      <point x="759" y="1420" type="line"/>
+      <point x="600" y="1420" type="line"/>
+      <point x="600" y="588" type="line"/>
+      <point x="526" y="629"/>
+      <point x="441" y="632" type="qcurve" smooth="yes"/>
+      <point x="312" y="632"/>
+      <point x="127" y="447"/>
+      <point x="127" y="185"/>
+      <point x="312" y="0"/>
+      <point x="574" y="0"/>
+      <point x="759" y="185"/>
+    </contour>
+    <contour>
+      <point x="508" y="159"/>
+      <point x="441" y="159" type="qcurve" smooth="yes"/>
+      <point x="378" y="159"/>
+      <point x="286" y="251"/>
+      <point x="286" y="381"/>
+      <point x="378" y="473"/>
+      <point x="508" y="473"/>
+      <point x="600" y="381"/>
+      <point x="600" y="251"/>
+    </contour>
+    <contour>
+      <point x="1003" y="78"/>
+      <point x="1073" y="148"/>
+      <point x="1073" y="248"/>
+      <point x="1003" y="314"/>
+      <point x="907" y="314"/>
+      <point x="837" y="248"/>
+      <point x="837" y="148"/>
+      <point x="907" y="78"/>
+      <point x="955" y="78" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

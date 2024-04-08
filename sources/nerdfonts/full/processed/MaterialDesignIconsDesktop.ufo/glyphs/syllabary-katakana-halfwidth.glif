@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="syllabary-katakana-halfwidth" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1336"/>
+  <note>
+syllabary-katakana-halfwidth
+</note>
+  <outline>
+    <contour>
+      <point x="953" y="1420" type="line"/>
+      <point x="247" y="1420" type="line"/>
+      <point x="247" y="1241" type="line"/>
+      <point x="779" y="1241" type="line"/>
+      <point x="687" y="814" type="line"/>
+      <point x="866" y="781" type="line"/>
+      <point x="953" y="1233" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="976" type="line"/>
+      <point x="421" y="976" type="line"/>
+      <point x="421" y="710" type="line" smooth="yes"/>
+      <point x="421" y="519"/>
+      <point x="334" y="212"/>
+      <point x="251" y="125" type="qcurve"/>
+      <point x="380" y="0" type="line"/>
+      <point x="600" y="233"/>
+      <point x="600" y="710" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

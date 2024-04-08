@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="calendar-arrow-left" format="2">
+  <advance width="512"/>
+  <unicode hex="F1134"/>
+  <note>
+calendar-arrow-left
+</note>
+  <outline>
+    <contour>
+      <point x="423" y="384"/>
+      <point x="448" y="359"/>
+      <point x="448" y="341" type="qcurve" smooth="yes"/>
+      <point x="448" y="43" type="line" smooth="yes"/>
+      <point x="448" y="25"/>
+      <point x="423" y="0"/>
+      <point x="405" y="0" type="qcurve" smooth="yes"/>
+      <point x="107" y="0" type="line" smooth="yes"/>
+      <point x="89" y="0"/>
+      <point x="64" y="25"/>
+      <point x="64" y="43" type="qcurve" smooth="yes"/>
+      <point x="64" y="341" type="line" smooth="yes"/>
+      <point x="64" y="359"/>
+      <point x="89" y="384"/>
+      <point x="107" y="384" type="qcurve" smooth="yes"/>
+      <point x="128" y="384" type="line"/>
+      <point x="128" y="427" type="line"/>
+      <point x="171" y="427" type="line"/>
+      <point x="171" y="384" type="line"/>
+      <point x="341" y="384" type="line"/>
+      <point x="341" y="427" type="line"/>
+      <point x="384" y="427" type="line"/>
+      <point x="384" y="384" type="line"/>
+      <point x="405" y="384" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="405" y="277" type="line"/>
+      <point x="107" y="277" type="line"/>
+      <point x="107" y="43" type="line"/>
+      <point x="405" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="160" type="line"/>
+      <point x="256" y="85" type="line"/>
+      <point x="256" y="128" type="line"/>
+      <point x="341" y="128" type="line"/>
+      <point x="341" y="192" type="line"/>
+      <point x="256" y="192" type="line"/>
+      <point x="256" y="235" type="line"/>
+    </contour>
+  </outline>
+</glyph>

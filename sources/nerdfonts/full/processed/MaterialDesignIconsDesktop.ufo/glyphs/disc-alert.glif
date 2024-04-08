@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="disc-alert" format="2">
+  <advance width="1200"/>
+  <unicode hex="F01D1"/>
+  <note>
+disc-alert
+</note>
+  <outline>
+    <contour>
+      <point x="532" y="593"/>
+      <point x="483" y="593" type="qcurve" smooth="yes"/>
+      <point x="437" y="593"/>
+      <point x="369" y="661"/>
+      <point x="369" y="759"/>
+      <point x="437" y="827"/>
+      <point x="532" y="827"/>
+      <point x="600" y="759"/>
+      <point x="600" y="661"/>
+    </contour>
+    <contour>
+      <point x="608" y="1176"/>
+      <point x="483" y="1176" type="qcurve" smooth="yes"/>
+      <point x="358" y="1176"/>
+      <point x="145" y="1050"/>
+      <point x="20" y="835"/>
+      <point x="20" y="585"/>
+      <point x="145" y="370"/>
+      <point x="358" y="244"/>
+      <point x="608" y="244"/>
+      <point x="823" y="370"/>
+      <point x="949" y="585"/>
+      <point x="949" y="835"/>
+      <point x="823" y="1050"/>
+    </contour>
+    <contour>
+      <point x="1066" y="1001" type="line"/>
+      <point x="1066" y="653" type="line"/>
+      <point x="1180" y="653" type="line"/>
+      <point x="1180" y="1001" type="line"/>
+    </contour>
+    <contour>
+      <point x="1066" y="536" type="line"/>
+      <point x="1066" y="419" type="line"/>
+      <point x="1180" y="419" type="line"/>
+      <point x="1180" y="536" type="line"/>
+    </contour>
+  </outline>
+</glyph>

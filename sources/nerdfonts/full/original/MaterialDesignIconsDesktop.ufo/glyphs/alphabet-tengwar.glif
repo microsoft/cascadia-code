@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphabet-tengwar" format="2">
+  <advance width="512"/>
+  <unicode hex="F1337"/>
+  <note>
+alphabet-tengwar
+</note>
+  <outline>
+    <contour>
+      <point x="235" y="299" type="line"/>
+      <point x="320" y="384" type="line"/>
+      <point x="267" y="384" type="line"/>
+      <point x="213" y="299" type="line"/>
+    </contour>
+    <contour>
+      <point x="298" y="256"/>
+      <point x="341" y="212"/>
+      <point x="341" y="181" type="qcurve" smooth="yes"/>
+      <point x="341" y="139" type="line" smooth="yes"/>
+      <point x="341" y="108"/>
+      <point x="298" y="64"/>
+      <point x="267" y="64" type="qcurve" smooth="yes"/>
+      <point x="256" y="64" type="line"/>
+      <point x="256" y="107" type="line"/>
+      <point x="267" y="107" type="line" smooth="yes"/>
+      <point x="280" y="107"/>
+      <point x="299" y="125"/>
+      <point x="299" y="139" type="qcurve" smooth="yes"/>
+      <point x="299" y="181" type="line" smooth="yes"/>
+      <point x="299" y="195"/>
+      <point x="280" y="213"/>
+      <point x="253" y="213"/>
+      <point x="235" y="195"/>
+      <point x="235" y="181" type="qcurve" smooth="yes"/>
+      <point x="235" y="0" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="192" y="213" type="line"/>
+      <point x="171" y="213" type="line"/>
+      <point x="171" y="256" type="line"/>
+      <point x="235" y="256" type="line"/>
+      <point x="235" y="249" type="line"/>
+      <point x="250" y="256"/>
+      <point x="267" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

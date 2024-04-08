@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pan-up" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0BBD"/>
+  <note>
+pan-up
+</note>
+  <outline>
+    <contour>
+      <point x="1091" y="866" type="line"/>
+      <point x="600" y="1420" type="line"/>
+      <point x="109" y="866" type="line"/>
+    </contour>
+    <contour>
+      <point x="704" y="496"/>
+      <point x="600" y="496" type="qcurve" smooth="yes"/>
+      <point x="496" y="496"/>
+      <point x="352" y="352"/>
+      <point x="352" y="144"/>
+      <point x="496" y="0"/>
+      <point x="704" y="0"/>
+      <point x="848" y="144"/>
+      <point x="848" y="352"/>
+    </contour>
+  </outline>
+</glyph>

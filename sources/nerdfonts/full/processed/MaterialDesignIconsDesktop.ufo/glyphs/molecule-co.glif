@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="molecule-co" format="2">
+  <advance width="1200"/>
+  <unicode hex="F12FE"/>
+  <note>
+molecule-co
+</note>
+  <outline>
+    <contour>
+      <point x="505" y="1195" type="line"/>
+      <point x="215" y="1195" type="line" smooth="yes"/>
+      <point x="133" y="1195"/>
+      <point x="20" y="1082"/>
+      <point x="20" y="1000" type="qcurve" smooth="yes"/>
+      <point x="20" y="420" type="line" smooth="yes"/>
+      <point x="20" y="338"/>
+      <point x="133" y="225"/>
+      <point x="215" y="225" type="qcurve" smooth="yes"/>
+      <point x="505" y="225" type="line"/>
+      <point x="505" y="420" type="line"/>
+      <point x="215" y="420" type="line"/>
+      <point x="215" y="1000" type="line"/>
+      <point x="505" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="985" y="1195" type="qcurve" smooth="yes"/>
+      <point x="795" y="1195" type="line" smooth="yes"/>
+      <point x="713" y="1195"/>
+      <point x="600" y="1082"/>
+      <point x="600" y="1000" type="qcurve" smooth="yes"/>
+      <point x="600" y="420" type="line" smooth="yes"/>
+      <point x="600" y="338"/>
+      <point x="713" y="225"/>
+      <point x="795" y="225" type="qcurve" smooth="yes"/>
+      <point x="985" y="225" type="line" smooth="yes"/>
+      <point x="1067" y="225"/>
+      <point x="1180" y="338"/>
+      <point x="1180" y="420" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1000" type="line" smooth="yes"/>
+      <point x="1180" y="1082"/>
+      <point x="1067" y="1195"/>
+    </contour>
+    <contour>
+      <point x="795" y="420" type="line"/>
+      <point x="795" y="1000" type="line"/>
+      <point x="985" y="1000" type="line"/>
+      <point x="985" y="420" type="line"/>
+    </contour>
+  </outline>
+</glyph>

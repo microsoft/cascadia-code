@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="check-circle" format="2">
+  <advance width="512"/>
+  <unicode hex="F05E0"/>
+  <note>
+check-circle
+</note>
+  <outline>
+    <contour>
+      <point x="314" y="405"/>
+      <point x="412" y="348"/>
+      <point x="469" y="250"/>
+      <point x="469" y="134"/>
+      <point x="412" y="36"/>
+      <point x="314" y="-21"/>
+      <point x="198" y="-21"/>
+      <point x="100" y="36"/>
+      <point x="43" y="134"/>
+      <point x="43" y="250"/>
+      <point x="100" y="348"/>
+      <point x="198" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="405" y="277" type="line"/>
+      <point x="375" y="308" type="line"/>
+      <point x="213" y="146" type="line"/>
+      <point x="137" y="222" type="line"/>
+      <point x="107" y="192" type="line"/>
+      <point x="213" y="85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

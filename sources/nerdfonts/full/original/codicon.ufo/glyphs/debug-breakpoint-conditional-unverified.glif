@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="debug-breakpoint-conditional-unverified" format="2">
+  <advance width="300"/>
+  <unicode hex="EAA6"/>
+  <note>
+debug-breakpoint-conditional-unverified
+</note>
+  <outline>
+    <contour>
+      <point x="92" y="201"/>
+      <point x="74" y="165"/>
+      <point x="77" y="125"/>
+      <point x="99" y="92"/>
+      <point x="135" y="74"/>
+      <point x="175" y="76"/>
+      <point x="208" y="99"/>
+      <point x="226" y="135"/>
+      <point x="224" y="175"/>
+      <point x="201" y="209"/>
+      <point x="165" y="226"/>
+      <point x="125" y="224"/>
+      <point x="108" y="212" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="104" y="119"/>
+      <point x="96" y="161"/>
+      <point x="120" y="196"/>
+      <point x="161" y="204"/>
+      <point x="179" y="193" type="qcurve" smooth="yes"/>
+      <point x="190" y="185"/>
+      <point x="203" y="160"/>
+      <point x="201" y="132"/>
+      <point x="186" y="109"/>
+      <point x="161" y="97"/>
+      <point x="133" y="99"/>
+      <point x="121" y="107" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="178" y="159" type="line"/>
+      <point x="122" y="159" type="line"/>
+      <point x="122" y="178" type="line"/>
+      <point x="178" y="178" type="line"/>
+    </contour>
+    <contour>
+      <point x="178" y="122" type="line"/>
+      <point x="122" y="122" type="line"/>
+      <point x="122" y="141" type="line"/>
+      <point x="178" y="141" type="line"/>
+    </contour>
+  </outline>
+</glyph>

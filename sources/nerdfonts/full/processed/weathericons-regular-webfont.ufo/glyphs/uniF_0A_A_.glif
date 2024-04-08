@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF0AA" format="2">
+  <advance width="1200"/>
+  <unicode hex="E3A2"/>
+  <note>
+uniF0AA
+</note>
+  <outline>
+    <contour>
+      <point x="175" y="1134"/>
+      <point x="20" y="868"/>
+      <point x="20" y="553"/>
+      <point x="175" y="286"/>
+      <point x="441" y="131"/>
+      <point x="599" y="131" type="qcurve"/>
+      <point x="599" y="1289" type="line"/>
+      <point x="441" y="1289"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+8
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 2 values pushed */
+1 11
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+4
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+9 1
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:52 +0000</string>
+    </dict>
+  </lib>
+</glyph>

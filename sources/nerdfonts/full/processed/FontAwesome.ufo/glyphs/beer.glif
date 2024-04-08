@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beer" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0FC"/>
+  <note>
+beer
+</note>
+  <outline>
+    <contour>
+      <point x="438" y="664" type="line"/>
+      <point x="427" y="664"/>
+      <point x="401" y="664"/>
+      <point x="345" y="664" type="curve" smooth="yes"/>
+      <point x="293" y="664"/>
+      <point x="252" y="705"/>
+      <point x="252" y="756" type="curve"/>
+      <point x="252" y="756"/>
+      <point x="252" y="849"/>
+      <point x="252" y="942" type="curve"/>
+      <point x="438" y="942" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="200" type="line"/>
+      <point x="1180" y="339" type="line"/>
+      <point x="1087" y="478" type="line"/>
+      <point x="1087" y="1058" type="line"/>
+      <point x="1134" y="1081" type="line"/>
+      <point x="1110" y="1220" type="line"/>
+      <point x="414" y="1220" type="line"/>
+      <point x="391" y="1128" type="line"/>
+      <point x="43" y="1128" type="line"/>
+      <point x="20" y="1035" type="line"/>
+      <point x="66" y="988" type="line"/>
+      <point x="66" y="756" type="line" smooth="yes"/>
+      <point x="66" y="603"/>
+      <point x="191" y="478"/>
+      <point x="345" y="478" type="curve" smooth="yes"/>
+      <point x="353" y="478"/>
+      <point x="430" y="478"/>
+      <point x="438" y="478" type="curve"/>
+      <point x="345" y="339" type="line"/>
+      <point x="345" y="200" type="line"/>
+    </contour>
+  </outline>
+</glyph>

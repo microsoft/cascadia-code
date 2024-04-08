@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF05D" format="2">
+  <advance width="1200"/>
+  <unicode hex="E358"/>
+  <note>
+uniF05D
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="591"/>
+      <point x="112" y="377"/>
+      <point x="267" y="221"/>
+      <point x="482" y="130"/>
+      <point x="599" y="130" type="qcurve" smooth="yes"/>
+      <point x="717" y="130"/>
+      <point x="932" y="221"/>
+      <point x="1088" y="377"/>
+      <point x="1180" y="593"/>
+      <point x="1180" y="711" type="qcurve" smooth="yes"/>
+      <point x="1180" y="828"/>
+      <point x="1088" y="1043"/>
+      <point x="932" y="1198"/>
+      <point x="717" y="1290"/>
+      <point x="598" y="1290" type="qcurve" smooth="yes"/>
+      <point x="481" y="1290"/>
+      <point x="267" y="1198"/>
+      <point x="111" y="1043"/>
+      <point x="20" y="828"/>
+      <point x="20" y="710" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="147" y="801"/>
+      <point x="219" y="969"/>
+      <point x="340" y="1090"/>
+      <point x="507" y="1163"/>
+      <point x="598" y="1163" type="qcurve" smooth="yes"/>
+      <point x="783" y="1163"/>
+      <point x="918" y="1030" type="qcurve" smooth="yes"/>
+      <point x="1052" y="895"/>
+      <point x="1052" y="711" type="qcurve" smooth="yes"/>
+      <point x="1052" y="619"/>
+      <point x="980" y="452"/>
+      <point x="859" y="331"/>
+      <point x="691" y="259"/>
+      <point x="599" y="259" type="qcurve" smooth="yes"/>
+      <point x="477" y="259"/>
+      <point x="269" y="380"/>
+      <point x="147" y="587"/>
+      <point x="147" y="710" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="304" y="709"/>
+      <point x="311" y="707" type="qcurve"/>
+      <point x="769" y="519" type="line"/>
+      <point x="778" y="518"/>
+      <point x="785" y="524"/>
+      <point x="783" y="532" type="qcurve"/>
+      <point x="595" y="990" type="line"/>
+      <point x="593" y="999"/>
+      <point x="587" y="999" type="qcurve" smooth="yes"/>
+      <point x="582" y="999"/>
+      <point x="575" y="990" type="qcurve"/>
+      <point x="497" y="817" type="line" smooth="yes"/>
+      <point x="493" y="809"/>
+      <point x="486" y="805" type="qcurve" smooth="yes"/>
+      <point x="311" y="727" type="line" smooth="yes"/>
+      <point x="304" y="724"/>
+      <point x="304" y="716" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+15
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+24
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+33
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+5
+MDRP[01101]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+55
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHB[ ]	/* 1 value pushed */
+0
+MDRP[10110]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+20
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+20
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 2 values pushed */
+29 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+10
+MDRP[01101]	/* MoveDirectRelPt */
+PUSHB[ ]	/* 2 values pushed */
+56 1
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+29 20
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 4 values pushed */
+5 15 38 50
+DEPTH[ ]	/* GetDepthStack */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 2 values pushed */
+33 24
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+PUSHB[ ]	/* 4 values pushed */
+0 10 46 51
+DEPTH[ ]	/* GetDepthStack */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-02-27 18:48:51 +0000</string>
+    </dict>
+  </lib>
+</glyph>

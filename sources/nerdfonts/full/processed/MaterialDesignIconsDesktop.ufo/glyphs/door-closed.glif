@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="door-closed" format="2">
+  <advance width="1200"/>
+  <unicode hex="F081B"/>
+  <note>
+door-closed
+</note>
+  <outline>
+    <contour>
+      <point x="831" y="653" type="line"/>
+      <point x="949" y="653" type="line"/>
+      <point x="949" y="767" type="line"/>
+      <point x="831" y="767" type="line"/>
+    </contour>
+    <contour>
+      <point x="551" y="1233"/>
+      <point x="483" y="1165"/>
+      <point x="483" y="1116" type="qcurve" smooth="yes"/>
+      <point x="483" y="304" type="line"/>
+      <point x="20" y="304" type="line"/>
+      <point x="20" y="187" type="line"/>
+      <point x="1180" y="187" type="line"/>
+      <point x="1180" y="304" type="line"/>
+      <point x="1123" y="304" type="line"/>
+      <point x="1123" y="1116" type="line" smooth="yes"/>
+      <point x="1123" y="1165"/>
+      <point x="1055" y="1233"/>
+      <point x="1006" y="1233" type="qcurve" smooth="yes"/>
+      <point x="600" y="1233" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1006" y="1116" type="line"/>
+      <point x="1006" y="304" type="line"/>
+      <point x="600" y="304" type="line"/>
+      <point x="600" y="1116" type="line"/>
+    </contour>
+  </outline>
+</glyph>

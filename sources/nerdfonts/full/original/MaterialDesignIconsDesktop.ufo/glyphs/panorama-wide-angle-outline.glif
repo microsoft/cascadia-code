@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="panorama-wide-angle-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F03E0"/>
+  <note>
+panorama-wide-angle-outline
+</note>
+  <outline>
+    <contour>
+      <point x="339" y="363"/>
+      <point x="426" y="347" type="qcurve" smooth="yes"/>
+      <point x="445" y="344" type="line"/>
+      <point x="451" y="325" type="line" smooth="yes"/>
+      <point x="469" y="258"/>
+      <point x="469" y="126"/>
+      <point x="451" y="59" type="qcurve" smooth="yes"/>
+      <point x="445" y="40" type="line"/>
+      <point x="426" y="37" type="line" smooth="yes"/>
+      <point x="338" y="21"/>
+      <point x="173" y="21"/>
+      <point x="86" y="37" type="qcurve" smooth="yes"/>
+      <point x="67" y="40" type="line"/>
+      <point x="61" y="59" type="line" smooth="yes"/>
+      <point x="43" y="126"/>
+      <point x="43" y="258"/>
+      <point x="61" y="325" type="qcurve" smooth="yes"/>
+      <point x="67" y="344" type="line"/>
+      <point x="86" y="347" type="line" smooth="yes"/>
+      <point x="174" y="363"/>
+      <point x="256" y="363" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="181" y="320"/>
+      <point x="100" y="306" type="qcurve"/>
+      <point x="85" y="249"/>
+      <point x="85" y="135"/>
+      <point x="100" y="78" type="qcurve"/>
+      <point x="181" y="64"/>
+      <point x="331" y="64"/>
+      <point x="412" y="78" type="qcurve"/>
+      <point x="427" y="135"/>
+      <point x="427" y="249"/>
+      <point x="412" y="306" type="qcurve"/>
+      <point x="331" y="320"/>
+      <point x="256" y="320" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

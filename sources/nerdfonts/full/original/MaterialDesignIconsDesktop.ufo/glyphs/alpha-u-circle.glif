@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alpha-u-circle" format="2">
+  <advance width="512"/>
+  <unicode hex="F0C28"/>
+  <note>
+alpha-u-circle
+</note>
+  <outline>
+    <contour>
+      <point x="235" y="299" type="line"/>
+      <point x="235" y="128" type="line"/>
+      <point x="277" y="128" type="line"/>
+      <point x="277" y="299" type="line"/>
+      <point x="320" y="299" type="line"/>
+      <point x="320" y="128" type="line" smooth="yes"/>
+      <point x="320" y="110"/>
+      <point x="295" y="85"/>
+      <point x="277" y="85" type="qcurve" smooth="yes"/>
+      <point x="235" y="85" type="line" smooth="yes"/>
+      <point x="217" y="85"/>
+      <point x="192" y="110"/>
+      <point x="192" y="128" type="qcurve" smooth="yes"/>
+      <point x="192" y="299" type="line"/>
+    </contour>
+    <contour>
+      <point x="214" y="405"/>
+      <point x="135" y="373"/>
+      <point x="75" y="313"/>
+      <point x="43" y="234"/>
+      <point x="43" y="150"/>
+      <point x="75" y="71"/>
+      <point x="135" y="11"/>
+      <point x="214" y="-21"/>
+      <point x="298" y="-21"/>
+      <point x="377" y="11"/>
+      <point x="437" y="71"/>
+      <point x="469" y="150"/>
+      <point x="469" y="234"/>
+      <point x="437" y="313"/>
+      <point x="377" y="373"/>
+      <point x="298" y="405"/>
+      <point x="256" y="405" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="video-switch" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0569"/>
+  <note>
+video-switch
+</note>
+  <outline>
+    <contour>
+      <point x="861" y="710" type="line"/>
+      <point x="657" y="506" type="line"/>
+      <point x="657" y="653" type="line"/>
+      <point x="309" y="653" type="line"/>
+      <point x="309" y="506" type="line"/>
+      <point x="107" y="710" type="line"/>
+      <point x="309" y="914" type="line"/>
+      <point x="309" y="767" type="line"/>
+      <point x="657" y="767" type="line"/>
+      <point x="657" y="914" type="line"/>
+    </contour>
+    <contour>
+      <point x="1180" y="1088" type="line"/>
+      <point x="949" y="854" type="line"/>
+      <point x="949" y="1059" type="line" smooth="yes"/>
+      <point x="949" y="1083"/>
+      <point x="916" y="1116"/>
+      <point x="891" y="1116" type="qcurve" smooth="yes"/>
+      <point x="77" y="1116" type="line" smooth="yes"/>
+      <point x="53" y="1116"/>
+      <point x="20" y="1083"/>
+      <point x="20" y="1059" type="qcurve" smooth="yes"/>
+      <point x="20" y="361" type="line" smooth="yes"/>
+      <point x="20" y="337"/>
+      <point x="53" y="304"/>
+      <point x="77" y="304" type="qcurve" smooth="yes"/>
+      <point x="891" y="304" type="line" smooth="yes"/>
+      <point x="916" y="304"/>
+      <point x="949" y="337"/>
+      <point x="949" y="361" type="qcurve" smooth="yes"/>
+      <point x="949" y="566" type="line"/>
+      <point x="1180" y="332" type="line"/>
+    </contour>
+  </outline>
+</glyph>

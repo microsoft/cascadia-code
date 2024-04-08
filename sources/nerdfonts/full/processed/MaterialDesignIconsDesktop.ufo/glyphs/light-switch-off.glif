@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="light-switch-off" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1A24"/>
+  <note>
+light-switch-off
+</note>
+  <outline>
+    <contour>
+      <point x="1117" y="1341"/>
+      <point x="1077" y="1381" type="qcurve" smooth="yes"/>
+      <point x="1038" y="1420"/>
+      <point x="987" y="1420" type="qcurve" smooth="yes"/>
+      <point x="213" y="1420" type="line" smooth="yes"/>
+      <point x="162" y="1420"/>
+      <point x="83" y="1341"/>
+      <point x="83" y="1290" type="qcurve" smooth="yes"/>
+      <point x="83" y="130" type="line" smooth="yes"/>
+      <point x="83" y="79"/>
+      <point x="162" y="0"/>
+      <point x="213" y="0" type="qcurve" smooth="yes"/>
+      <point x="987" y="0" type="line" smooth="yes"/>
+      <point x="1038" y="0"/>
+      <point x="1117" y="79"/>
+      <point x="1117" y="130" type="qcurve" smooth="yes"/>
+      <point x="1117" y="1290" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="987" y="1290" type="line"/>
+      <point x="987" y="130" type="line"/>
+      <point x="213" y="130" type="line"/>
+      <point x="213" y="1290" type="line"/>
+    </contour>
+    <contour>
+      <point x="857" y="1097" type="line"/>
+      <point x="343" y="1097" type="line"/>
+      <point x="343" y="323" type="line"/>
+      <point x="857" y="323" type="line"/>
+    </contour>
+    <contour>
+      <point x="793" y="1033" type="line"/>
+      <point x="793" y="387" type="line"/>
+      <point x="407" y="387" type="line"/>
+      <point x="407" y="1033" type="line"/>
+    </contour>
+    <contour>
+      <point x="470" y="453" type="line"/>
+      <point x="730" y="453" type="line"/>
+      <point x="730" y="580" type="line"/>
+      <point x="470" y="580" type="line"/>
+    </contour>
+  </outline>
+</glyph>

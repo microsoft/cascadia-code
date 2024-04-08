@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pot-outline" format="2">
+  <advance width="512"/>
+  <unicode hex="F02FF"/>
+  <note>
+pot-outline
+</note>
+  <outline>
+    <contour>
+      <point x="448" y="235" type="line"/>
+      <point x="448" y="192" type="line"/>
+      <point x="405" y="192" type="line"/>
+      <point x="405" y="43" type="line" smooth="yes"/>
+      <point x="405" y="25"/>
+      <point x="380" y="0"/>
+      <point x="363" y="0" type="qcurve" smooth="yes"/>
+      <point x="149" y="0" type="line" smooth="yes"/>
+      <point x="132" y="0"/>
+      <point x="107" y="25"/>
+      <point x="107" y="43" type="qcurve" smooth="yes"/>
+      <point x="107" y="192" type="line"/>
+      <point x="64" y="192" type="line"/>
+      <point x="64" y="235" type="line"/>
+    </contour>
+    <contour>
+      <point x="149" y="43" type="line"/>
+      <point x="363" y="43" type="line"/>
+      <point x="363" y="192" type="line"/>
+      <point x="149" y="192" type="line"/>
+    </contour>
+  </outline>
+</glyph>

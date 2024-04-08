@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fountain-pen" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0D12"/>
+  <note>
+fountain-pen
+</note>
+  <outline>
+    <contour>
+      <point x="427" y="415" type="line"/>
+      <point x="754" y="661" type="line"/>
+      <point x="1164" y="1152" type="line"/>
+      <point x="1180" y="1168"/>
+      <point x="1180" y="1217"/>
+      <point x="1164" y="1233" type="qcurve" smooth="yes"/>
+      <point x="1123" y="1274" type="line" smooth="yes"/>
+      <point x="1107" y="1290"/>
+      <point x="1058" y="1290"/>
+      <point x="1042" y="1274" type="qcurve"/>
+      <point x="551" y="864" type="line"/>
+      <point x="305" y="537" type="line"/>
+    </contour>
+    <contour>
+      <point x="305" y="211" type="line"/>
+      <point x="386" y="374" type="line"/>
+      <point x="264" y="496" type="line"/>
+      <point x="101" y="415" type="line"/>
+      <point x="20" y="171" type="line"/>
+      <point x="142" y="293" type="line" smooth="yes"/>
+      <point x="150" y="301"/>
+      <point x="174" y="301"/>
+      <point x="191" y="284"/>
+      <point x="191" y="260"/>
+      <point x="183" y="252" type="qcurve" smooth="yes"/>
+      <point x="61" y="130" type="line"/>
+    </contour>
+  </outline>
+</glyph>

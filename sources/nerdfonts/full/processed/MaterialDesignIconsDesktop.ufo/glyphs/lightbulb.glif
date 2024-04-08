@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lightbulb" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0335"/>
+  <note>
+lightbulb
+</note>
+  <outline>
+    <contour>
+      <point x="737" y="1420"/>
+      <point x="600" y="1420" type="qcurve" smooth="yes"/>
+      <point x="463" y="1420"/>
+      <point x="237" y="1287"/>
+      <point x="103" y="1060"/>
+      <point x="103" y="923" type="qcurve" smooth="yes"/>
+      <point x="103" y="800"/>
+      <point x="217" y="583"/>
+      <point x="317" y="517" type="qcurve"/>
+      <point x="317" y="353" type="line" smooth="yes"/>
+      <point x="317" y="323"/>
+      <point x="357" y="283"/>
+      <point x="387" y="283" type="qcurve" smooth="yes"/>
+      <point x="813" y="283" type="line" smooth="yes"/>
+      <point x="843" y="283"/>
+      <point x="883" y="323"/>
+      <point x="883" y="353" type="qcurve" smooth="yes"/>
+      <point x="883" y="517" type="line"/>
+      <point x="983" y="583"/>
+      <point x="1097" y="800"/>
+      <point x="1097" y="923" type="qcurve" smooth="yes"/>
+      <point x="1097" y="1060"/>
+      <point x="963" y="1287"/>
+    </contour>
+    <contour>
+      <point x="387" y="140" type="line"/>
+      <point x="387" y="70" type="line" smooth="yes"/>
+      <point x="387" y="40"/>
+      <point x="427" y="0"/>
+      <point x="457" y="0" type="qcurve" smooth="yes"/>
+      <point x="743" y="0" type="line" smooth="yes"/>
+      <point x="773" y="0"/>
+      <point x="813" y="40"/>
+      <point x="813" y="70" type="qcurve" smooth="yes"/>
+      <point x="813" y="140" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphabet-tengwar" format="2">
+  <advance width="1200"/>
+  <unicode hex="F1337"/>
+  <note>
+alphabet-tengwar
+</note>
+  <outline>
+    <contour>
+      <point x="522" y="1106" type="line"/>
+      <point x="837" y="1420" type="line"/>
+      <point x="641" y="1420" type="line"/>
+      <point x="441" y="1106" type="line"/>
+    </contour>
+    <contour>
+      <point x="755" y="947"/>
+      <point x="641" y="947" type="qcurve" smooth="yes"/>
+      <point x="578" y="947"/>
+      <point x="522" y="921" type="qcurve"/>
+      <point x="522" y="947" type="line"/>
+      <point x="286" y="947" type="line"/>
+      <point x="286" y="788" type="line"/>
+      <point x="363" y="788" type="line"/>
+      <point x="363" y="0" type="line"/>
+      <point x="522" y="0" type="line"/>
+      <point x="522" y="669" type="line" smooth="yes"/>
+      <point x="522" y="721"/>
+      <point x="589" y="788"/>
+      <point x="689" y="788"/>
+      <point x="759" y="721"/>
+      <point x="759" y="669" type="qcurve" smooth="yes"/>
+      <point x="759" y="514" type="line" smooth="yes"/>
+      <point x="759" y="462"/>
+      <point x="689" y="396"/>
+      <point x="641" y="396" type="qcurve" smooth="yes"/>
+      <point x="600" y="396" type="line"/>
+      <point x="600" y="237" type="line"/>
+      <point x="641" y="237" type="line" smooth="yes"/>
+      <point x="755" y="237"/>
+      <point x="914" y="399"/>
+      <point x="914" y="514" type="qcurve" smooth="yes"/>
+      <point x="914" y="669" type="line" smooth="yes"/>
+      <point x="914" y="784"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullhorn-variant" format="2">
+  <advance width="512"/>
+  <unicode hex="F196E"/>
+  <note>
+bullhorn-variant
+</note>
+  <outline>
+    <contour>
+      <point x="469" y="405" type="line"/>
+      <point x="469" y="-21" type="line"/>
+      <point x="427" y="-21" type="line"/>
+      <point x="427" y="21" type="line"/>
+      <point x="277" y="58" type="line"/>
+      <point x="277" y="53" type="line" smooth="yes"/>
+      <point x="277" y="23"/>
+      <point x="233" y="-21"/>
+      <point x="172" y="-21"/>
+      <point x="128" y="23"/>
+      <point x="128" y="53" type="qcurve" smooth="yes"/>
+      <point x="128" y="96" type="line"/>
+      <point x="85" y="107" type="line"/>
+      <point x="85" y="64" type="line"/>
+      <point x="43" y="64" type="line"/>
+      <point x="43" y="320" type="line"/>
+      <point x="85" y="320" type="line"/>
+      <point x="85" y="277" type="line"/>
+      <point x="427" y="363" type="line"/>
+      <point x="427" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="235" y="68" type="line"/>
+      <point x="171" y="85" type="line"/>
+      <point x="171" y="53" type="line" smooth="yes"/>
+      <point x="171" y="41"/>
+      <point x="190" y="21"/>
+      <point x="215" y="21"/>
+      <point x="235" y="41"/>
+      <point x="235" y="53" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="printer-3d-nozzle-outline" format="2">
+  <advance width="1200"/>
+  <unicode hex="F0E5C"/>
+  <note>
+printer-3d-nozzle-outline
+</note>
+  <outline>
+    <contour>
+      <point x="360" y="1053" type="line"/>
+      <point x="225" y="1053" type="line"/>
+      <point x="225" y="643" type="line"/>
+      <point x="395" y="643" type="line"/>
+      <point x="635" y="367" type="line"/>
+      <point x="770" y="367" type="line"/>
+      <point x="1010" y="643" type="line"/>
+      <point x="1180" y="643" type="line"/>
+      <point x="1180" y="1053" type="line"/>
+      <point x="1045" y="1053" type="line"/>
+      <point x="1045" y="1393" type="line"/>
+      <point x="360" y="1393" type="line"/>
+    </contour>
+    <contour>
+      <point x="651" y="27"/>
+      <point x="770" y="146"/>
+      <point x="770" y="233" type="qcurve" smooth="yes"/>
+      <point x="770" y="300" type="line"/>
+      <point x="635" y="300" type="line"/>
+      <point x="635" y="233" type="line" smooth="yes"/>
+      <point x="635" y="204"/>
+      <point x="594" y="162"/>
+      <point x="565" y="162" type="qcurve" smooth="yes"/>
+      <point x="20" y="162" type="line"/>
+      <point x="20" y="27" type="line"/>
+      <point x="565" y="27" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="497" y="915" type="line"/>
+      <point x="497" y="1258" type="line"/>
+      <point x="908" y="1258" type="line"/>
+      <point x="908" y="915" type="line"/>
+      <point x="1045" y="915" type="line"/>
+      <point x="1045" y="777" type="line"/>
+      <point x="943" y="777" type="line"/>
+      <point x="703" y="505" type="line"/>
+      <point x="462" y="777" type="line"/>
+      <point x="360" y="777" type="line"/>
+      <point x="360" y="915" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="division" format="2">
+  <advance width="512"/>
+  <unicode hex="F01D4"/>
+  <note>
+division
+</note>
+  <outline>
+    <contour>
+      <point x="405" y="213" type="line"/>
+      <point x="107" y="213" type="line"/>
+      <point x="107" y="171" type="line"/>
+      <point x="405" y="171" type="line"/>
+    </contour>
+    <contour>
+      <point x="238" y="341"/>
+      <point x="213" y="316"/>
+      <point x="213" y="281"/>
+      <point x="238" y="256"/>
+      <point x="274" y="256"/>
+      <point x="299" y="281"/>
+      <point x="299" y="316"/>
+      <point x="274" y="341"/>
+      <point x="256" y="341" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="238" y="128"/>
+      <point x="213" y="103"/>
+      <point x="213" y="68"/>
+      <point x="238" y="43"/>
+      <point x="274" y="43"/>
+      <point x="299" y="68"/>
+      <point x="299" y="103"/>
+      <point x="274" y="128"/>
+      <point x="256" y="128" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

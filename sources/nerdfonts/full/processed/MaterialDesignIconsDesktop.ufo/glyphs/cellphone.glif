@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cellphone" format="2">
+  <advance width="1200"/>
+  <unicode hex="F011C"/>
+  <note>
+cellphone
+</note>
+  <outline>
+    <contour>
+      <point x="923" y="1160" type="line"/>
+      <point x="923" y="260" type="line"/>
+      <point x="277" y="260" type="line"/>
+      <point x="277" y="1160" type="line"/>
+    </contour>
+    <contour>
+      <point x="975" y="1420"/>
+      <point x="923" y="1420" type="qcurve" smooth="yes"/>
+      <point x="277" y="1420" type="line" smooth="yes"/>
+      <point x="225" y="1420"/>
+      <point x="150" y="1344"/>
+      <point x="150" y="1290" type="qcurve" smooth="yes"/>
+      <point x="150" y="130" type="line" smooth="yes"/>
+      <point x="150" y="76"/>
+      <point x="225" y="0"/>
+      <point x="277" y="0" type="qcurve" smooth="yes"/>
+      <point x="923" y="0" type="line" smooth="yes"/>
+      <point x="975" y="0"/>
+      <point x="1050" y="76"/>
+      <point x="1050" y="130" type="qcurve" smooth="yes"/>
+      <point x="1050" y="1290" type="line" smooth="yes"/>
+      <point x="1050" y="1344"/>
+    </contour>
+  </outline>
+</glyph>
