@@ -111,7 +111,7 @@ def step_set_feature_file(path: Path, name: str, instance: ufoLib2.Font) -> None
     for item in featureList:
         if "PL" in name and item == "rclt":
             featureSet += Path(path / str("rclt_PL.fea")).read_text()
-        if "NF" in name and item == "rclt":
+        elif "NF" in name and item == "rclt":
             featureSet += Path(path / str("rclt_PL.fea")).read_text()
         elif "Mono" in name and "calt" in item:
             featureSet += Path(path / str(item+"_mono.fea")).read_text() #both Italic and Regular can use same mono
@@ -161,34 +161,21 @@ def prepare_fonts(
 
         step_set_feature_file(FEATURES_DIR, name, source.font)
 
-        if "Mono" in name and "PL" in name:
+        if "PL" in name or "NF" in name or "Mono" in name:
+            step_set_font_name(name, source.font)
+
+        if "PL" in name or "NF" in name:
             print(f"[{name} {source.styleName}] Merging PL glyphs")
             step_merge_glyphs_from_ufo(
                 NERDFONTS_DIR / "NerdfontsPL-Regular.ufo", source.font
             )
-            step_set_font_name(name, source.font)
-        elif "Mono" in name:
-            step_set_font_name(name, source.font)
-        elif "PL" in name:
-            print(f"[{name} {source.styleName}] Merging PL glyphs")
-            step_merge_glyphs_from_ufo(
-                NERDFONTS_DIR / "NerdfontsPL-Regular.ufo", source.font
-            )
-            step_set_font_name(name, source.font)
-        elif "NF" in name:
+
+        if "NF" in name:
             print(f"[{name} {source.styleName}] Merging NF glyphs")
-            step_merge_glyphs_from_ufo(
-                NERDFONTS_DIR / "NerdfontsPL-Regular.ufo", source.font
-            )
             for ufo in Path(NERDFONTS_DIR/"full"/"processed").glob("*.ufo"):
                 step_merge_glyphs_from_ufo(
                     ufo, source.font
                 )
-            step_set_font_name(name, source.font)
-        elif "Cascadia Code" in name:
-            pass
-        else:
-            print("Variant name not identified. Please check.")
 
         set_font_metaData(source.font)
     for instance in designspace.instances:
