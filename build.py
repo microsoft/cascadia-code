@@ -408,7 +408,7 @@ if __name__ == "__main__":
         pool.apply_async(
             build_font_variable,
             (
-                designspace,
+                designspace.deepcopyExceptFonts(),
                 "Cascadia Code",
                 args.vtt_compile,
             ),
@@ -419,7 +419,7 @@ if __name__ == "__main__":
             pool.apply_async(
                 build_font_variable,
                 (
-                    designspaceItalic,
+                    designspaceItalic.deepcopyExceptFonts(),
                     "Cascadia Code Italic",
                     args.vtt_compile,
                 ),
@@ -430,7 +430,7 @@ if __name__ == "__main__":
             pool.apply_async(
                 build_font_variable,
                 (
-                    designspace,
+                    designspace.deepcopyExceptFonts(),
                     "Cascadia Mono",
                     args.vtt_compile,
                 ),
@@ -441,7 +441,7 @@ if __name__ == "__main__":
                 pool.apply_async(
                     build_font_variable,
                     (
-                        designspaceItalic,
+                        designspaceItalic.deepcopyExceptFonts(),
                         "Cascadia Mono Italic",
                         args.vtt_compile,
                     ),
@@ -452,7 +452,7 @@ if __name__ == "__main__":
             pool.apply_async(
                 build_font_variable,
                 (
-                    designspace,
+                    designspace.deepcopyExceptFonts(),
                     "Cascadia Code PL",
                     args.vtt_compile,
                 ),
@@ -463,7 +463,7 @@ if __name__ == "__main__":
                 pool.apply_async(
                     build_font_variable,
                     (
-                        designspaceItalic,
+                        designspaceItalic.deepcopyExceptFonts(),
                         "Cascadia Code PL Italic",
                         args.vtt_compile,
                     ),
@@ -474,7 +474,7 @@ if __name__ == "__main__":
                 pool.apply_async(
                     build_font_variable,
                     (
-                        designspace,
+                        designspace.deepcopyExceptFonts(),
                         "Cascadia Mono PL",
                         args.vtt_compile,
                     ),
@@ -485,7 +485,7 @@ if __name__ == "__main__":
                     pool.apply_async(
                         build_font_variable,
                         (
-                            designspaceItalic,
+                            designspaceItalic.deepcopyExceptFonts(),
                             "Cascadia Mono PL Italic",
                             args.vtt_compile,
                         ),
@@ -496,7 +496,7 @@ if __name__ == "__main__":
             pool.apply_async(
                 build_font_variable,
                 (
-                    designspace,
+                    designspace.deepcopyExceptFonts(),
                     "Cascadia Code NF",
                     args.vtt_compile,
                 ),
@@ -507,7 +507,7 @@ if __name__ == "__main__":
                 pool.apply_async(
                     build_font_variable,
                     (
-                        designspaceItalic,
+                        designspaceItalic.deepcopyExceptFonts(),
                         "Cascadia Code NF Italic",
                         args.vtt_compile,
                     ),
@@ -518,7 +518,7 @@ if __name__ == "__main__":
                 pool.apply_async(
                     build_font_variable,
                     (
-                        designspace,
+                        designspace.deepcopyExceptFonts(),
                         "Cascadia Mono NF",
                         args.vtt_compile,
                     ),
@@ -529,7 +529,7 @@ if __name__ == "__main__":
                     pool.apply_async(
                         build_font_variable,
                         (
-                            designspaceItalic,
+                            designspaceItalic.deepcopyExceptFonts(),
                             "Cascadia Mono NF Italic",
                             args.vtt_compile,
                         ),
@@ -543,7 +543,7 @@ if __name__ == "__main__":
                 pool.apply_async(
                     build_font_static,
                     (
-                        designspace,
+                        designspace.deepcopyExceptFonts(),
                         instance_descriptor,
                         "Cascadia Code",
                     ),
@@ -554,7 +554,7 @@ if __name__ == "__main__":
                     pool.apply_async(
                         build_font_static,
                         (
-                            designspace,
+                            designspace.deepcopyExceptFonts(),
                             instance_descriptor,
                             "Cascadia Mono",
                         ),
@@ -565,7 +565,7 @@ if __name__ == "__main__":
                     pool.apply_async(
                         build_font_static,
                         (
-                            designspace,
+                            designspace.deepcopyExceptFonts(),
                             instance_descriptor,
                             "Cascadia Code PL",
                         ),
@@ -576,7 +576,7 @@ if __name__ == "__main__":
                         pool.apply_async(
                             build_font_static,
                             (
-                                designspace,
+                                designspace.deepcopyExceptFonts(),
                                 instance_descriptor,
                                 "Cascadia Mono PL",
                             ),
@@ -587,7 +587,7 @@ if __name__ == "__main__":
                     pool.apply_async(
                         build_font_static,
                         (
-                            designspace,
+                            designspace.deepcopyExceptFonts(),
                             instance_descriptor,
                             "Cascadia Code NF",
                         ),
@@ -598,7 +598,7 @@ if __name__ == "__main__":
                         pool.apply_async(
                             build_font_static,
                             (
-                                designspace,
+                                designspace.deepcopyExceptFonts(),
                                 instance_descriptor,
                                 "Cascadia Mono NF",
                             ),
@@ -611,7 +611,7 @@ if __name__ == "__main__":
                     pool.apply_async(
                         build_font_static,
                         (
-                            designspaceItalic,
+                            designspaceItalic.deepcopyExceptFonts(),
                             instance_descriptor,
                             "Cascadia Code Italic",
                         ),
@@ -622,7 +622,7 @@ if __name__ == "__main__":
                         pool.apply_async(
                             build_font_static,
                             (
-                                designspaceItalic,
+                                designspaceItalic.deepcopyExceptFonts(),
                                 instance_descriptor,
                                 "Cascadia Mono Italic",
                             ),
@@ -633,7 +633,7 @@ if __name__ == "__main__":
                         pool.apply_async(
                             build_font_static,
                             (
-                                designspaceItalic,
+                                designspaceItalic.deepcopyExceptFonts(),
                                 instance_descriptor,
                                 "Cascadia Code PL Italic",
                             ),
@@ -644,7 +644,7 @@ if __name__ == "__main__":
                             pool.apply_async(
                                 build_font_static,
                                 (
-                                    designspaceItalic,
+                                    designspaceItalic.deepcopyExceptFonts(),
                                     instance_descriptor,
                                     "Cascadia Mono PL Italic",
                                 ),
@@ -655,7 +655,7 @@ if __name__ == "__main__":
                         pool.apply_async(
                             build_font_static,
                             (
-                                designspaceItalic,
+                                designspaceItalic.deepcopyExceptFonts(),
                                 instance_descriptor,
                                 "Cascadia Code NF Italic",
                             ),
@@ -666,7 +666,7 @@ if __name__ == "__main__":
                             pool.apply_async(
                                 build_font_static,
                                 (
-                                    designspaceItalic,
+                                    designspaceItalic.deepcopyExceptFonts(),
                                     instance_descriptor,
                                     "Cascadia Mono NF Italic",
                                 ),
