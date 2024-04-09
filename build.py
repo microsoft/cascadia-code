@@ -161,23 +161,21 @@ def prepare_fonts(
 
         step_set_feature_file(FEATURES_DIR, name, source.font)
 
-        if not "Cascadia Code" in name:
-            if "PL" in name:
-                print(f"[{name} {source.styleName}] Merging PL glyphs")
-                step_merge_glyphs_from_ufo(
-                    NERDFONTS_DIR / "NerdfontsPL-Regular.ufo", source.font
-                )
-            elif "NF" in name:
-                print(f"[{name} {source.styleName}] Merging NF glyphs")
-                step_merge_glyphs_from_ufo(
-                    NERDFONTS_DIR / "NerdfontsPL-Regular.ufo", source.font
-                )
-                for ufo in Path(NERDFONTS_DIR/"full"/"processed").glob("*.ufo"):
-                    step_merge_glyphs_from_ufo(
-                        ufo, source.font
-                    )
-
+        if "PL" in name or "NF" in name or "Mono" in name:
             step_set_font_name(name, source.font)
+
+        if "PL" in name or "NF" in name:
+            print(f"[{name} {source.styleName}] Merging PL glyphs")
+            step_merge_glyphs_from_ufo(
+                NERDFONTS_DIR / "NerdfontsPL-Regular.ufo", source.font
+            )
+
+        if "NF" in name:
+            print(f"[{name} {source.styleName}] Merging NF glyphs")
+            for ufo in Path(NERDFONTS_DIR/"full"/"processed").glob("*.ufo"):
+                step_merge_glyphs_from_ufo(
+                    ufo, source.font
+                )
 
         set_font_metaData(source.font)
     for instance in designspace.instances:
