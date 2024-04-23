@@ -83,6 +83,10 @@ ITALIC V2
 - Added Circular Quadrant characters U+1FBE8 - U+1FBEF (Symbols for Legacy Computing).
 - Added Sextant characters U+1FB00 - U+1FB3B (Symbols for Legacy Computing).
 
+04-08-2024 (Aaron Bell) Nerd Fonts
+- Implemented Nerd Fonts, current as of 2024-04-08, as an optional build feature for the entire Cascadia
+  family.
+
 04-10-2024 (Philippe Majerus) Diagonals, octants, sedecimants & eights, separated quadrants & sextants, segmented digits, and large type pieces.
 - Added diagonals U+1FB3C - U+1FB67 (Symbols for Legacy Computing).
 - Added octants U+1CD00 - U+1CDE5 (Symbols for Legacy Computing).
@@ -94,6 +98,8 @@ ITALIC V2
 - Added segmented digits U+1CCF0 - U+1CCF9 (Symbols for Legacy Computing).
 - Added large type pieces U+1CE1A - U+1CE50 (Symbols for Legacy Computing).
 
+04-23-2024 (Dustin L. Howett)
+- Minted version 2404.23
 
 Acknowledgements
 -----------------------------------
