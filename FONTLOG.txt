@@ -87,6 +87,16 @@ ITALIC V2
 - Implemented Nerd Fonts, current as of 2024-04-08, as an optional build feature for the entire Cascadia
   family.
 
+04-10-2024 (Philippe Majerus) Diagonals, octants, sedecimants & eights, separated quadrants & sextants, segmented digits, and large type pieces.
+- Added diagonals U+1FB3C - U+1FB67 (Symbols for Legacy Computing).
+- Added octants U+1CD00 - U+1CDE5 (Symbols for Legacy Computing).
+- Added sedecimants U+1CE90 - U+1CEAF (Symbols for Legacy Computing).
+- Added eights U+1FB70 - U+1FB80, U+1FB82 - U+1FB8B (Symbols for Legacy Computing).
+- Added misc. blocks U+1FB97, U+1FBCE, U+1FBCF (Symbols for Legacy Computing).
+- Added separated quadrants U+1CC21 - U+1CC2F (Symbols for Legacy Computing).
+- Added separated sextants U+1CE51 - U+1CE8F (Symbols for Legacy Computing).
+- Added segmented digits U+1CCF0 - U+1CCF9 (Symbols for Legacy Computing).
+- Added large type pieces U+1CE1A - U+1CE50 (Symbols for Legacy Computing).
 
 Acknowledgements
 -----------------------------------
@@ -100,4 +110,4 @@ D: Original font designer
 
 N: Philippe Majerus
 W: http://www.phm.lu
-D: Legacy computing, mosaic blocks
+D: Legacy computing, mosaic blocks, large type pieces
