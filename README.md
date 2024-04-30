@@ -66,7 +66,7 @@ If you would like to ask a question that you feel doesn't warrant an issue (yet)
 
 Aaron Bell, Font Designer: [@aaronbell](https://twitter.com/aaronbell)
 
-Christopher Nguyen, Product Manager II: [@nguyen_Dwos](https://twitter.com/nguyen_dows)
+Christopher Nguyen, Product Manager II: [@nguyen_dows](https://twitter.com/nguyen_dows)
 
 Dustin Howett, Principal Software Engineer: [@DHowett](https://twitter.com/DHowett)
 
