@@ -7,6 +7,7 @@ Cascadia is a fun new coding font that comes bundled with [Windows Terminal](htt
 -  `Cascadia Code`: standard version of Cascadia
 -  `Cascadia Mono`: a version of Cascadia that doesn't have ligatures
 -  `Cascadia (Code|Mono) PL`: a version of Cascadia that has embedded Powerline symbols
+-  `Cascadia (Code|Mono) NF`: a version of Cascadia that has Nerd Font symbols
 
 For the italic, there is a standard `italic` and a `cursive` variant accessible via `ss01` (see [below](https://github.com/microsoft/cascadia-code/blob/main/README.md#to-enable-the-cursive-form-of-the-italic-heres-the-code-you-should-use)). 
 
@@ -65,9 +66,9 @@ If you would like to ask a question that you feel doesn't warrant an issue (yet)
 
 Aaron Bell, Font Designer: [@aaronbell](https://twitter.com/aaronbell)
 
-Kayla Cinnamon, Program Manager: [@cinnamon_msft](https://twitter.com/cinnamon_msft)
+Christopher Nguyen, Product Manager: [@nguyen_dows](https://twitter.com/nguyen_dows)
 
-Rich Turner, Program Manager: [@richturn_ms](https://twitter.com/richturn_ms)
+Dustin Howett, Software Engineer: [@DHowett](https://twitter.com/DHowett)
 
 _Special thanks_ to:
 - Fira Code – OpenType code for the coding ligatures – [github](https://github.com/tonsky/FiraCode)
