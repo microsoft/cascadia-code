@@ -81,6 +81,7 @@ fonttools[lxml,ufo,unicode,woff]==4.25.0
     #   fontmake
     #   fontmath
     #   fontparts
+    #   fontpens
     #   gftools
     #   glyphslib
     #   psautohint
@@ -152,7 +153,7 @@ pytz==2021.1
     #   pandas
 pyyaml==5.4.1
     # via gftools
-requests==2.26.0
+requests==2.32.0
     # via
     #   gftools
     #   pybrowserstack-screenshots
