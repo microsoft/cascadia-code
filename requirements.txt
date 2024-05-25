@@ -81,6 +81,7 @@ fonttools[lxml,ufo,unicode,woff]==4.25.0
     #   fontmake
     #   fontmath
     #   fontparts
+    #   fontpens
     #   gftools
     #   glyphslib
     #   psautohint
@@ -98,7 +99,7 @@ glyphslib==5.3.2
     #   babelfont
     #   fontmake
     #   gftools
-idna==3.2
+idna==3.7
     # via requests
 itsdangerous==2.0.1
     # via flask
