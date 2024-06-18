@@ -81,6 +81,7 @@ fonttools[lxml,ufo,unicode,woff]==4.25.0
     #   fontmake
     #   fontmath
     #   fontparts
+    #   fontpens
     #   gftools
     #   glyphslib
     #   psautohint
@@ -187,7 +188,7 @@ ufolib2==0.11.1
     #   vttlib
 unidecode==1.2.0
     # via gftools
-urllib3==1.26.6
+urllib3==1.26.19
     # via requests
 vttlib==0.11.0
     # via
