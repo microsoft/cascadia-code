@@ -1,6 +1,6 @@
 parameters:
 - name: minimal
-  type: bool
+  type: boolean
   displayName: Build Minimal Font (testing only)
   default: false
 
