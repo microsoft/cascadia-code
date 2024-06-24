@@ -10,6 +10,7 @@ extends:
   parameters:
     pool:
       name: Azure Pipelines
+      image: macOS-13
       os: macOS
     sdl:
       sourceAnalysisPool:
