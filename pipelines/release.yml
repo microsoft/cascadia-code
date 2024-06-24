@@ -55,7 +55,7 @@ extends:
           displayName: 'Lint sources'
 
         - ${{ if eq(true, parameters.minimal) }}:
-          - bash: 'python ./build.py -P -N -M -L'
+          - bash: 'python ./build.py -P -NF -M -I'
             displayName: 'Build font (minimal)'
 
         - ${{ else }}:
