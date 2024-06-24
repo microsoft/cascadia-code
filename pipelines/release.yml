@@ -31,7 +31,7 @@ extends:
         templateContext:
           outputs:
           - output: pipelineArtifact
-            targetPath: $(Build.SourcesDirectory)\out
+            targetPath: $(Build.SourcesDirectory)/out
             artifactName: archive
         steps:
         - task: UsePythonVersion@0
