@@ -1,0 +1,107 @@
+parameters:
+- name: minimal
+  type: boolean
+  displayName: Build Minimal Font (testing only)
+  default: false
+
+resources:
+  repositories:
+  - repository: 1ESPipelineTemplates
+    type: git
+    name: 1ESPipelineTemplates/1ESPipelineTemplates
+    ref: refs/tags/release
+
+extends:
+  template: v1/1ES.Official.PipelineTemplate.yml@1ESPipelineTemplates
+  parameters:
+    pool:
+      name: Azure Pipelines
+      image: macOS-13
+      os: macOS
+    sdl:
+      sourceAnalysisPool:
+        name: SHINE-INT-L
+        os: windows
+    stages:
+    - stage: build
+      displayName: Build
+      jobs:
+      - job: build
+        displayName: Build and Sign Cascadia
+        templateContext:
+          outputs:
+          - output: pipelineArtifact
+            targetPath: $(Build.SourcesDirectory)/out
+            artifactName: archive
+        steps:
+        - task: UsePythonVersion@0
+          displayName: 'Use Python 3.11'
+          inputs:
+            versionSpec: 3.11
+
+        - task: UseDotNet@2
+          displayName: 'Use .NET sdk 6.x'
+          inputs:
+            version: 6.x
+
+        - bash: |-
+           brew install ttfautohint
+           pip install pip-tools
+           pip-compile -U requirements.in
+           pip install -r requirements.txt ufolint
+          displayName: 'Install build dependencies'
+
+        - bash: 'ufolint sources/*.ufo'
+          displayName: 'Lint sources'
+
+        - ${{ if eq(true, parameters.minimal) }}:
+          - bash: 'python ./build.py -P -NF -M -I'
+            displayName: 'Build font (minimal)'
+
+        - ${{ else }}:
+          - bash: 'python ./build.py -S -W'
+            displayName: 'Build font(s)'
+
+        - template: ./pipelines/templates/steps-esrp-signing.yml@self
+          parameters:
+            displayName: Submit Signing Request
+            signingIdentity:
+              serviceName: $(SigningServiceName)
+              appId: $(SigningAppId)
+              tenantId: $(SigningTenantId)
+              akvName: $(SigningAKVName)
+              authCertName: $(SigningAuthCertName)
+              signCertName: $(SigningSignCertName)
+            inputs:
+              FolderPath: build
+              Pattern: '*.ttf,*.otf'
+              signConfigType: inlineSignParams
+              inlineOperation: |
+               [
+                   {
+                       "KeyCode": "CP-230012",
+                       "OperationCode": "SigntoolSign",
+                       "Parameters": {
+                           "OpusName": "Microsoft",
+                           "OpusInfo": "http://www.microsoft.com",
+                           "FileDigest": "/fd \"SHA256\"",
+                           "PageHash": "/NPH",
+                           "TimeStamp": "/tr \"http://rfc3161.gtm.corp.microsoft.com/TSS/HttpTspServer\" /td sha256"
+                       },
+                       "ToolName": "sign",
+                       "ToolVersion": "1.0"
+                   },
+                   {
+                       "KeyCode": "CP-230012",
+                       "OperationCode": "SigntoolVerify",
+                       "Parameters": {},
+                       "ToolName": "sign",
+                       "ToolVersion": "1.0"
+                   }
+               ]
+
+        - bash: |-
+           mkdir -p out
+           cd build
+           zip -r ../out/CascadiaCode.zip ttf otf woff2
+          displayName: 'Build Final Archive'
