@@ -1,3 +1,9 @@
+parameters:
+- name: minimal
+  type: bool
+  displayName: Build Minimal Font (testing only)
+  default: false
+
 resources:
   repositories:
   - repository: 1ESPipelineTemplates
@@ -48,8 +54,13 @@ extends:
         - bash: 'ufolint sources/*.ufo'
           displayName: 'Lint sources'
 
-        - bash: 'python ./build.py -S -W'
-          displayName: 'Build font(s)'
+        - ${{ if eq(true, parameters.minimal) }}:
+          - bash: 'python ./build.py -P -N -M -L'
+            displayName: 'Build font (minimal)'
+
+        - ${{ else }}:
+          - bash: 'python ./build.py -S -W'
+            displayName: 'Build font(s)'
 
         - template: ./pipelines/templates/steps-esrp-signing.yml@self
           parameters:
