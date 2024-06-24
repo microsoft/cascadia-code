@@ -11,6 +11,10 @@ extends:
     pool:
       name: Azure Pipelines
       os: macOS
+    sdl:
+      sourceAnalysisPool:
+        name: SHINE-INT-L
+        os: windows
     stages:
     - stage: build
       displayName: Build
