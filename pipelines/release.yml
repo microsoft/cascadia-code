@@ -11,11 +11,6 @@ extends:
     pool:
       name: Azure Pipelines
       os: macOS
-    sdl:
-      sourceAnalysisPool:
-        name: pt-validation-ppe
-        image: pt-validation-ppe-windows2019
-        os: windows
     stages:
     - stage: build
       displayName: Build
